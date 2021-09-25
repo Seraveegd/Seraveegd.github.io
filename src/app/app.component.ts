@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'd2rapp';
+  @ViewChild('sidenav_content', {static: true}) sidenavContent: any;
+
+  windowWidth = window.innerWidth;
+  fixed = false;
+
+  onResize(event: any) {
+    this.windowWidth = event.target.innerWidth;
+  }
+
+  onScroll(event: any) {
+    this.fixed = event.target.scrollTop > 130;
+  }
+
+  scrollTop() {
+    this.sidenavContent.elementRef.nativeElement.scrollTop = 0;
+  }
 }
