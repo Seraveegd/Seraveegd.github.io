@@ -290,6 +290,9 @@ mat-sidenav-content {
   flex: 1 0 auto;
   align-items: baseline;
   background: #222222;
+  background-image: url('/assets/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .toTop {

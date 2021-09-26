@@ -48,4 +48,42 @@
       }
     }
   }
+
+  .runes {
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+
+    th,
+    td {
+      padding: 8px;
+      border: 1px solid #444;
+    }
+
+    th {
+      font-size: 20px;
+      background-color: #303030;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #3c3c3c;
+    }
+
+    tr:nth-child(even) {
+      background-color: #303030;
+    }
+
+    td {
+      font-size: 16px;
+      img {
+        width: 36px;
+      }
+    }
+
+    .margin{
+      border-bottom: 20px solid #222222;
+    }
+  }
 }
