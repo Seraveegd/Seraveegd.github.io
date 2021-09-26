@@ -42,6 +42,12 @@
           display: block;
           color: white;
 
+          &.active {
+            background-color: rgb(55 90 127);
+            color: #ffffff;
+            border-radius: 5px;
+          }
+
           &:hover {
             background-color: #303030;
           }
