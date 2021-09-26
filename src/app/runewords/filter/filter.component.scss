@@ -1,0 +1,77 @@
+.title {
+  background-color: #444444;
+  color: #bb9e74;
+  padding: 24px;
+  font-size: 20pt;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.runes {
+  width: 100%;
+  text-align: center;
+  color: white;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+
+  th,
+  td {
+    padding: 16px;
+    border: 1px solid #444;
+  }
+
+  th {
+    font-size: 20px;
+    background-color: #303030;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #3c3c3c;
+  }
+
+  tr:nth-child(even) {
+    background-color: #303030;
+  }
+
+  tr:hover {
+    background-color: rgb(0 0 0 / 30%);
+  }
+
+  td {
+    font-size: 20px;
+
+    &:first-child {
+      vertical-align: top;
+    }
+
+    .name {
+      color: #dcc684;
+    }
+
+    .slot {
+      color: #7a7aff;
+    }
+
+    .rune {
+      color: #ffba00;
+    }
+
+    &.effect {
+      color: #7a7aff;
+    }
+  }
+
+  .margin {
+    border-bottom: 20px solid #222222;
+  }
+}
+
+.fas {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3px 0 3px 3px;
+  border-color: transparent transparent transparent #878787;
+  display: inline-block;
+  bottom: 3px;
+  position: relative;
+}

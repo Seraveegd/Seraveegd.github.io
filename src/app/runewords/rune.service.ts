@@ -21,4 +21,18 @@ export class RuneService {
       difficulty: string
     }[]>('/assets/rune.json');
   }
+
+  getRuneWords(): any{
+    return this.http.get<{
+      type: string,
+      name: string,
+      name_en: string,
+      slot: number,
+      level: number,
+      order: string[],
+      ability: string[],
+      range: number[],
+      limit: string[]
+    }[]>('/assets/runewords.json');
+  }
 }

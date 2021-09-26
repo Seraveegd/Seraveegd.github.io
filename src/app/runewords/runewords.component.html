@@ -1,125 +1,89 @@
-<div [ngClass]="'contents'" (window:resize)="onResize($event)">
+<div [ngClass]="'contents'">
+  <div [ngClass]="'title'">符文</div>
+  <div [ngClass]="'rwords'">
+    <div [ngClass]="'list'">
+      <span>符文</span>
+      <span><a [routerLink]="['rune']">符文</a></span>
+    </div>
+  </div>
   <div [ngClass]="'title'">符文組</div>
   <div [ngClass]="'rwords'">
     <div [ngClass]="'list'">
       <span>分類</span>
-      <span><a>武器</a></span>
-      <span><a>頭盔</a></span>
-      <span><a>盔甲</a></span>
-      <span><a>盾牌</a></span>
+      <span><a [routerLink]="['filter', 'type', 'weapon']">武器</a></span>
+      <span><a [routerLink]="['filter', 'type', 'helmet']">頭盔</a></span>
+      <span><a [routerLink]="['filter', 'type', 'armor']">盔甲</a></span>
+      <span><a [routerLink]="['filter', 'type', 'shield']">盾牌</a></span>
     </div>
     <div [ngClass]="'list'">
-      <span>凹槽數</span>
-      <span><a>2</a></span>
-      <span><a>3</a></span>
-      <span><a>4</a></span>
-      <span><a>5</a></span>
-      <span><a>6</a></span>
+      <span>鑲孔數</span>
+      <span><a [routerLink]="['filter', 'slot', '2']">2</a></span>
+      <span><a [routerLink]="['filter', 'slot', '3']">3</a></span>
+      <span><a [routerLink]="['filter', 'slot', '4']">4</a></span>
+      <span><a [routerLink]="['filter', 'slot', '5']">5</a></span>
+      <span><a [routerLink]="['filter', 'slot', '6']">6</a></span>
     </div>
     <div [ngClass]="'list'">
       <span>職業</span>
-      <span><a>法師</a></span>
-      <span><a>聖騎士</a></span>
-      <span><a>死靈法師</a></span>
-      <span><a>亞馬遜</a></span>
+      <span><a [routerLink]="['filter', 'limit', 'sorceress']">法師</a></span>
+      <span><a [routerLink]="['filter', 'limit', 'paladin']">聖騎士</a></span>
+      <span><a [routerLink]="['filter', 'limit', 'necromancer']">死靈法師</a></span>
+      <span><a [routerLink]="['filter', 'limit', 'amazon']">亞馬遜</a></span>
     </div>
     <div [ngClass]="'list'">
       <span>武器</span>
-      <span><a>劍</a></span>
-      <span><a>斧</a></span>
-      <span><a>釘頭錘</a></span>
-      <span><a>法杖</a></span>
-      <span><a>權杖</a></span>
-      <span><a>長斧</a></span>
-      <span><a>棍棒</a></span>
-      <span><a>長炳戰斧</a></span>
-      <span><a>爪</a></span>
-      <span><a>武器</a></span>
+      <span><a [routerLink]="['filter', 'weapon' , 'sword']">劍</a></span>
+      <span><a [routerLink]="['filter', 'weapon' , 'axe']">斧</a></span>
+      <span><a [routerLink]="['filter', 'weapon' , 'mace']">釘頭錘</a></span>
+      <span><a [routerLink]="['filter', 'weapon' , 'stave']">法杖</a></span>
+      <span><a [routerLink]="['filter', 'weapon' , 'scepter']">權杖</a></span>
+      <span><a [routerLink]="['filter', 'weapon' , 'polearm']">長斧</a></span>
+      <span><a [routerLink]="['filter', 'weapon' , 'club']">棍棒</a></span>
+      <span><a [routerLink]="['filter', 'weapon' , 'polearm']">長炳戰斧</a></span>
+      <span><a [routerLink]="['filter', 'weapon' , 'assassinKatar']">爪</a></span>
+      <span><a [routerLink]="['filter', 'weapon' , 'weapons']">武器</a></span>
     </div>
     <div [ngClass]="'list'">
       <span>攻擊類型</span>
-      <span><a>近戰</a></span>
-      <span><a>遠程</a></span>
+      <span><a [routerLink]="['filter', 'attack', 'melee']">近戰</a></span>
+      <span><a [routerLink]="['filter', 'attack', 'missile']">遠程</a></span>
     </div>
     <div [ngClass]="'list'">
       <span>符文</span>
-      <span><a>艾爾</a></span>
-      <span><a>艾德</a></span>
-      <span><a>特爾</a></span>
-      <span><a>那夫</a></span>
-      <span><a>愛斯</a></span>
-      <span><a>伊司</a></span>
-      <span><a>塔爾</a></span>
-      <span><a>拉爾</a></span>
-      <span><a>歐特</a></span>
-      <span><a>書爾</a></span>
-      <span><a>安姆</a></span>
-      <span><a>索爾</a></span>
-      <span><a>夏</a></span>
-      <span><a>多爾</a></span>
-      <span><a>海爾</a></span>
-      <span><a>破</a></span>
-      <span><a>盧姆</a></span>
-      <span><a>科</a></span>
-      <span><a>法爾</a></span>
-      <span><a>藍姆</a></span>
-      <span><a>普爾</a></span>
-      <span><a>烏姆</a></span>
-      <span><a>馬爾</a></span>
-      <span><a>伊斯特</a></span>
-      <span><a>古爾</a></span>
-      <span><a>伐克斯</a></span>
-      <span><a>歐姆</a></span>
-      <span><a>羅</a></span>
-      <span><a>瑟</a></span>
-      <span><a>貝</a></span>
-      <span><a>喬</a></span>
-      <span><a>查姆</a></span>
-      <span><a>薩德</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'El']">艾爾</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Eld']">艾德</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Tir']">特爾</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Nef']">那夫</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Eth']">愛斯</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Ith']">伊司</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Tal']">塔爾</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Ral']">拉爾</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Ort']">歐特</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Thul']">書爾</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Amn']">安姆</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Sol']">索爾</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Shael']">夏</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Dol']">多爾</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Hel']">海爾</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Io']">破</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Lum']">盧姆</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Ko']">科</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Fal']">法爾</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Lem']">藍姆</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Pul']">普爾</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Um']">烏姆</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Mal']">馬爾</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Ist']">伊斯特</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Gul']">古爾</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Vex']">伐克斯</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Ohm']">歐姆</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Lo']">羅</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Sur']">瑟</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Ber']">貝</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Jah']">喬</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Cham']">查姆</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Zod']">薩德</a></span>
     </div>
   </div>
-  <div [ngClass]="'title'">符文</div>
-  <div>
-    <ng-container *ngIf="windowWidth >= 1280">
-      <table [ngClass]="'runes'">
-        <thead>
-          <th>圖片</th>
-          <th>編號</th>
-          <th>名稱</th>
-          <th>等級</th>
-          <th>鑲在武器的效果</th>
-          <th>鑲在裝備的效果</th>
-          <th>掉落率</th>
-          <th>首領</th>
-          <th>難度</th>
-        </thead>
-        <tbody>
-          <tr class="shipping-item" *ngFor="let rune of runes | async">
-            <td><img [src]="'assets/images/rune/' + rune.name_en + '_Rune.png'"></td>
-            <td>{{ rune.number }}</td>
-            <td>{{ rune.name }}({{ rune.name_en }})</td>
-            <td>{{ rune.level }}</td>
-            <td>{{ rune.weapen }}</td>
-            <td>{{ rune.equipment }}</td>
-            <td>{{ rune.drop }}%</td>
-            <td>{{ rune.boss }}</td>
-            <td>{{ rune.difficulty }}</td>
-          </tr>
-        </tbody>
-      </table>
-    </ng-container>
-    <ng-container *ngIf="windowWidth < 1280">
-      <table [ngClass]="'runes'">
-        <ng-container *ngFor="let rune of runes | async">
-          <tr><td>圖片</td><td>編號</td><td colspan="3">名稱</td><td>等級</td></tr>
-          <tr><td><img [src]="'assets/images/rune/' + rune.name_en + '_Rune.png'"></td><td>{{ rune.number }}</td><td colspan="3">{{ rune.name }}({{ rune.name_en }})</td><td>{{ rune.level }}</td></tr>
-          <tr><td colspan="6">鑲在武器的效果</td></tr>
-          <tr><td colspan="6">{{ rune.weapen }}</td></tr>
-          <tr><td colspan="6">鑲在裝備的效果</td></tr>
-          <tr><td colspan="6">{{ rune.equipment }}</td></tr>
-          <tr [ngClass]="'margin'"><td>掉落率</td><td>{{ rune.drop }}%</td><td>首領</td><td>{{ rune.boss }}</td><td>難度</td><td>{{ rune.difficulty }}</td></tr>
-        </ng-container>
-      </table>
-    </ng-container>
-  </div>
+  <router-outlet></router-outlet>
 </div>

@@ -11,12 +11,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { HttpClientModule } from '@angular/common/http';
+// import { RuneComponent } from './runewords/rune/rune.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RunewordsComponent,
-    HomeComponent
+    HomeComponent,
+    // RuneComponent
   ],
   imports: [
     BrowserModule,

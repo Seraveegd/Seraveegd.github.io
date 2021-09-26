@@ -1,0 +1,45 @@
+
+<div [ngClass]="'title'" (window:resize)="onResize($event)">符文</div>
+  <div>
+    <ng-container *ngIf="windowWidth >= 1280">
+      <table [ngClass]="'runes'">
+        <thead>
+          <th>圖片</th>
+          <th>編號</th>
+          <th>名稱</th>
+          <th>等級</th>
+          <th>鑲在武器的效果</th>
+          <th>鑲在裝備的效果</th>
+          <th>掉落率</th>
+          <th>首領</th>
+          <th>難度</th>
+        </thead>
+        <tbody>
+          <tr class="shipping-item" *ngFor="let rune of runes | async">
+            <td><img [src]="'assets/images/rune/' + rune.name_en + '_Rune.png'"></td>
+            <td>{{ rune.number }}</td>
+            <td>{{ rune.name }}({{ rune.name_en }})</td>
+            <td>{{ rune.level }}</td>
+            <td>{{ rune.weapen }}</td>
+            <td>{{ rune.equipment }}</td>
+            <td>{{ rune.drop }}%</td>
+            <td>{{ rune.boss }}</td>
+            <td>{{ rune.difficulty }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </ng-container>
+    <ng-container *ngIf="windowWidth < 1280">
+      <table [ngClass]="'runes'">
+        <ng-container *ngFor="let rune of runes | async">
+          <tr><td>圖片</td><td>編號</td><td colspan="3">名稱</td><td>等級</td></tr>
+          <tr><td><img [src]="'assets/images/rune/' + rune.name_en + '_Rune.png'"></td><td>{{ rune.number }}</td><td colspan="3">{{ rune.name }}({{ rune.name_en }})</td><td>{{ rune.level }}</td></tr>
+          <tr><td colspan="6">鑲在武器的效果</td></tr>
+          <tr><td colspan="6">{{ rune.weapen }}</td></tr>
+          <tr><td colspan="6">鑲在裝備的效果</td></tr>
+          <tr><td colspan="6">{{ rune.equipment }}</td></tr>
+          <tr [ngClass]="'margin'"><td>掉落率</td><td>{{ rune.drop }}%</td><td>首領</td><td>{{ rune.boss }}</td><td>難度</td><td>{{ rune.difficulty }}</td></tr>
+        </ng-container>
+      </table>
+    </ng-container>
+  </div>

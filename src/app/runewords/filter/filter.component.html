@@ -1,0 +1,34 @@
+<div [ngClass]="'title'">{{ type }}:{{ type_detail}}</div>
+<div *ngIf="runewords | async; let items">
+  <table [ngClass]="'runes'">
+    <thead>
+      <th>裝備需求</th>
+      <th>裝備效果</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of items | filterruneword: type : type_detail">
+        <td>
+          <p [ngClass]="'name'">{{ item.name }}</p>
+          <p [ngClass]="'name'">{{ item.name_en }}</p>
+          <p>&nbsp;</p>
+          <p [ngClass]="'slot'">需要&nbsp;{{ item.slot }}&nbsp;鑲孔</p>
+          <p [ngClass]="'rune'">
+            <ng-container *ngFor="let o of item.order; let last = last">
+              {{ o }}
+              <ng-container *ngIf="!last">
+                <div [ngClass]="'fas'"></div>
+              </ng-container>
+            </ng-container>
+          </p>
+          <p>&nbsp;</p>
+          <p>需要等級：{{ item.level }}</p>
+        </td>
+        <td [ngClass]="'effect'">
+          <ng-container *ngFor="let a of item.ability">
+            <p>{{ a }}</p>
+          </ng-container>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

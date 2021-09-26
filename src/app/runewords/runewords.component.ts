@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { RuneService } from './rune.service';
 
 @Component({
   selector: 'app-runewords',
@@ -7,17 +6,10 @@ import { RuneService } from './rune.service';
   styleUrls: ['./runewords.component.scss']
 })
 export class RunewordsComponent implements OnInit {
-  runes = this.rune.getRunes();
 
-  windowWidth = window.innerWidth;
-
-  constructor(private rune: RuneService) { }
+  constructor() { }
 
   ngOnInit(): void {
-  }
-
-  onResize(event: any) {
-    this.windowWidth = event.target.innerWidth;
   }
 
 }
