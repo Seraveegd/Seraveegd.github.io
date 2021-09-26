@@ -32,7 +32,9 @@ export class RuneService {
       order: string[],
       ability: string[],
       range: number[],
-      limit: string[]
+      weaponlimit: string[],
+      limit: string,
+      attack: string
     }[]>('/assets/runewords.json');
   }
 }

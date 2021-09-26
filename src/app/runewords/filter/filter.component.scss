@@ -12,6 +12,7 @@
   color: white;
   border-collapse: collapse;
   margin-bottom: 10px;
+  background-color: #444444;
 
   th,
   td {
@@ -33,11 +34,12 @@
   }
 
   tr:hover {
-    background-color: rgb(0 0 0 / 30%);
+    background-color: #272727;
   }
 
   td {
     font-size: 20px;
+    vertical-align: top;
 
     &:first-child {
       vertical-align: top;
@@ -47,12 +49,28 @@
       color: #dcc684;
     }
 
+    .ladder{
+      color: #8B8B8B;
+    }
+
     .slot {
       color: #7a7aff;
     }
 
     .rune {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       color: #ffba00;
+
+      img{
+        width: 24px;
+      }
+
+      *{
+        margin: 4px;
+      }
+
     }
 
     &.effect {
@@ -72,6 +90,4 @@
   border-width: 3px 0 3px 3px;
   border-color: transparent transparent transparent #878787;
   display: inline-block;
-  bottom: 3px;
-  position: relative;
 }

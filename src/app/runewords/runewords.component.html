@@ -32,16 +32,16 @@
     </div>
     <div [ngClass]="'list'">
       <span>武器</span>
-      <span><a [routerLink]="['filter', 'weapon' , 'sword']">劍</a></span>
-      <span><a [routerLink]="['filter', 'weapon' , 'axe']">斧</a></span>
-      <span><a [routerLink]="['filter', 'weapon' , 'mace']">釘頭錘</a></span>
-      <span><a [routerLink]="['filter', 'weapon' , 'stave']">法杖</a></span>
-      <span><a [routerLink]="['filter', 'weapon' , 'scepter']">權杖</a></span>
-      <span><a [routerLink]="['filter', 'weapon' , 'polearm']">長斧</a></span>
-      <span><a [routerLink]="['filter', 'weapon' , 'club']">棍棒</a></span>
-      <span><a [routerLink]="['filter', 'weapon' , 'polearm']">長炳戰斧</a></span>
-      <span><a [routerLink]="['filter', 'weapon' , 'assassinKatar']">爪</a></span>
-      <span><a [routerLink]="['filter', 'weapon' , 'weapons']">武器</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'sword']">劍</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'axe']">斧</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'mace']">釘頭錘</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'stave']">法杖</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'scepter']">權杖</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'polearm']">長斧</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'club']">棍棒</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'polearm']">長炳戰斧</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'assassinkatar']">爪</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'weapons']">武器</a></span>
     </div>
     <div [ngClass]="'list'">
       <span>攻擊類型</span>
@@ -83,6 +83,10 @@
       <span><a [routerLink]="['filter', 'rune', 'Jah']">喬</a></span>
       <span><a [routerLink]="['filter', 'rune', 'Cham']">查姆</a></span>
       <span><a [routerLink]="['filter', 'rune', 'Zod']">薩德</a></span>
+    </div>
+    <div [ngClass]="'list'">
+      <span>天梯</span>
+      <span><a [routerLink]="['filter', 'ladder', 'ladder']">天梯</a></span>
     </div>
   </div>
   <router-outlet></router-outlet>

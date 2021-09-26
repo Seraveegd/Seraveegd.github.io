@@ -3,10 +3,11 @@
     "type": "weapon",
     "name": "鋼鐵",
     "name_en": "Steel",
+    "ladder": "",
     "slot": 2,
     "level": 13,
     "order": [
-      "特爾", "艾爾"
+      "Tir", "El"
     ],
     "ability": [
       "20% 增強傷害",
@@ -19,18 +20,21 @@
       "+1 照亮範圍"
     ],
     "range": [],
-    "limit": [
-      "劍", "斧", "釘頭錘"
-    ]
+    "weaponlimit": [
+      "sword", "axe", "mace"
+    ],
+    "limit": "",
+    "attack": ""
   },
   {
     "type": "helmet",
     "name": "天底",
     "name_en": "Nadir",
+    "ladder": "",
     "slot": 2,
     "level": 13,
     "order": [
-      "那夫", "特爾"
+      "Nef", "Tir"
     ],
     "ability": [
       "+50% 防禦強化",
@@ -43,16 +47,19 @@
       "-3 照亮範圍"
     ],
     "range": [],
-    "limit": []
+    "weaponlimit": [],
+    "limit": "",
+    "attack": ""
   },
   {
     "type": "armor",
     "name": "隱蔽",
     "name_en": "Stealth",
+    "ladder": "",
     "slot": 2,
     "level": 17,
     "order": [
-      "塔爾", "愛斯"
+      "Tal", "Eth"
     ],
     "ability": [
       "法術傷害減少 3",
@@ -64,16 +71,19 @@
       "25% 高速施法 / 快速再度攻擊"
     ],
     "range": [],
-    "limit": []
+    "weaponlimit": [],
+    "limit": "",
+    "attack": ""
   },
   {
     "type": "shield",
     "name": "古代人的誓約",
     "name_en": "Ancient's Pledge",
+    "ladder": "",
     "slot": 3,
     "level": 21,
     "order": [
-      "拉爾", "歐特", "塔爾"
+      "Ral", "Ort", "Tal"
     ],
     "ability": [
       "+50% 防禦強化",
@@ -84,6 +94,221 @@
       "10% 受損生命轉移至法力"
     ],
     "range": [],
-    "limit": []
+    "weaponlimit": [],
+    "limit": "",
+    "attack": ""
+  },
+  {
+    "type": "shield",
+    "name": "精神",
+    "name_en": "Spirit",
+    "ladder": "ladder",
+    "slot": 4,
+    "level": 25,
+    "order": [
+      "Tal", "Thul", "Ort", "Amn"
+    ],
+    "ability": [
+      "+2 所有技能",
+      "+25%-35% 高速施展速度",
+      "+55% 快速度再攻擊",
+      "+250 對飛射性防禦",
+      "+22 體力",
+      "+89-112 法力",
+      "抗寒+35%",
+      "抗閃電+35%",
+      "抗毒+35%",
+      "+3-8 魔法吸收",
+      "攻擊者受到傷害14"
+    ],
+    "range": [1, 5, 9],
+    "weaponlimit": [],
+    "limit": "",
+    "attack": ""
+  },
+  {
+    "type": "shield",
+    "name": "押韻",
+    "name_en": "Rhyme",
+    "ladder": "",
+    "slot": 2,
+    "level": 29,
+    "order": [
+      "Shael", "Eth"
+    ],
+    "ability": [
+      "20% 增加格擋率",
+      "40% 快速再度格擋",
+      "全面抵抗 +25%",
+      "法力重生 15%",
+      "無法冰凍",
+      "50% 額外金錢從敵人身上取得",
+      "25% 更佳的機會取得魔法物品"
+    ],
+    "range": [],
+    "weaponlimit": [],
+    "limit": "",
+    "attack": ""
+  },
+  {
+    "type": "shield",
+    "name": "燦爛",
+    "name_en": "Splendor",
+    "ladder": "",
+    "slot": 2,
+    "level": 37,
+    "order": [
+      "Eth", "Lum"
+    ],
+    "ability": [
+      "+1 到所有技能",
+      "10% 高速施展",
+      "20% 快速格檔率",
+      "+60-100% 增強防禦",
+      "+10 精力",
+      "法力重生15%",
+      "50% 額外金幣從怪物身上取得",
+      "20% 更佳機會取得魔法裝備",
+      "+3 照亮範圍"
+    ],
+    "range": [3],
+    "weaponlimit": [],
+    "limit": "",
+    "attack": ""
+  },
+  {
+    "type": "shield",
+    "name": "聖堂",
+    "name_en": "Sanctuary",
+    "ladder": "",
+    "slot": 3,
+    "level": 49,
+    "order": [
+      "Ko", "Ko", "Mal"
+    ],
+    "ability": [
+      "20% 快速再度攻擊",
+      "20% 快速格檔率",
+      "20% 增加格檔率",
+      "130-160% 增強防禦",
+      "+250 對飛射性武器的防禦",
+      "+20 敏捷",
+      "所有抗性 +50-70",
+      "魔法傷害減少 7",
+      "等級 12 慢速箭 (60 聚氣)"
+    ],
+    "range": [3, 6],
+    "weaponlimit": [],
+    "limit": "",
+    "attack": ""
+  },
+  {
+    "type": "shield",
+    "name": "流亡",
+    "name_en": "Exile",
+    "ladder": "",
+    "slot": 4,
+    "level": 57,
+    "order": [
+      "Vex", "Ohm", "Ist", "Dol"
+    ],
+    "ability": [
+      "擊中敵人時有 15% 機會施展等級 5 偷取生命",
+      "等級 13-16 反抗靈氣賦予",
+      "+2 到攻擊性靈氣 (限聖騎士)",
+      "+30% 快速格檔率",
+      "凍結目標",
+      "生命恢復速度 +7",
+      "+5% 到最大冰冷抵抗",
+      "+5% 到最大火焰抵抗",
+      "25% 更佳機會取得魔法裝備",
+      "回復耐久度1於4秒內"
+    ],
+    "range": [2, 6],
+    "weaponlimit": [],
+    "limit": "paladin",
+    "attack": ""
+  },
+  {
+    "type": "shield",
+    "name": "飛龍",
+    "name_en": "Dragon",
+    "ladder": "ladder",
+    "slot": 3,
+    "level": 61,
+    "order": [
+      "Sur", "Lo", "Sol"
+    ],
+    "ability": [
+      "被擊中時20%機率產生18級的毒牙",
+      "擊中敵人時12%機率產生15級九頭火蛇",
+      "等級14聖火靈氣賦予",
+      "+360 增強防禦",
+      "+230 對飛射性武器防禦",
+      "+3-5 所有屬性",
+      "+0-37 力量 (依角色等級乘0.375)",
+      "+50 法力",
+      "+5% 最大閃電抗性",
+      "傷害減少 7"
+    ],
+    "range": [5],
+    "weaponlimit": [],
+    "limit": "",
+    "attack": ""
+  },
+  {
+    "type": "shield",
+    "name": "夢境",
+    "name_en": "Dream",
+    "ladder": "ladder",
+    "slot": 3,
+    "level": 65,
+    "order": [
+      "Io", "Jah", "Pul"
+    ],
+    "ability": [
+      "擊中敵人時有15% 機會施展等級 5 偷取生命",
+      "等級 13-16 反抗靈氣賦予",
+      "+2 到攻擊性靈氣 (限聖騎士)",
+      "+30% 快速格檔率",
+      "凍結目標",
+      "220-260% 增強防禦",
+      "生命恢復速度 +7",
+      "+5% 到最大冰冷抵抗",
+      "+5% 到最大火焰抵抗",
+      "25% 更佳機會取得魔法裝備",
+      "回復耐久度1於4秒內"
+    ],
+    "range": [1, 5],
+    "weaponlimit": [],
+    "limit": "paladin",
+    "attack": ""
+  },
+  {
+    "type": "shield",
+    "name": "鳳凰",
+    "name_en": "Phoenix",
+    "ladder": "ladder",
+    "slot": 4,
+    "level": 65,
+    "order": [
+      "Vex", "Vex", "Lo", "Jah"
+    ],
+    "ability": [
+      "100% 機率當你升級時施展等級40熾烈之徑",
+      "40% 打擊時施展等級22火風暴",
+      "等級 10-15 救贖靈氣賦予",
+      "+350-400% 增強傷害",
+      "-28% 對敵人火焰系抗性",
+      "+350-400 對遠距防禦",
+      "+50 生命",
+      "+5% 最大閃電抵抗",
+      "+10% 最大火焰抵抗",
+      "+15-21 火焰吸收"
+    ],
+    "range": [2, 3, 5, 9],
+    "weaponlimit": [],
+    "limit": "",
+    "attack": ""
   }
 ]

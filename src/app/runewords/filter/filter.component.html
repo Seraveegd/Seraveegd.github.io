@@ -2,19 +2,24 @@
 <div *ngIf="runewords | async; let items">
   <table [ngClass]="'runes'">
     <thead>
+      <th>分類</th>
       <th>裝備需求</th>
       <th>裝備效果</th>
     </thead>
     <tbody>
       <tr *ngFor="let item of items | filterruneword: type : type_detail">
+        <td>{{ types[item.type] }}</td>
         <td>
           <p [ngClass]="'name'">{{ item.name }}</p>
           <p [ngClass]="'name'">{{ item.name_en }}</p>
+          <p [ngClass]="'ladder'" *ngIf="item.ladder">天梯限定</p>
           <p>&nbsp;</p>
-          <p [ngClass]="'slot'">需要&nbsp;{{ item.slot }}&nbsp;鑲孔</p>
+          <p [ngClass]="'slot'">
+            需要&nbsp;{{ item.slot }}&nbsp;鑲孔
+          </p>
           <p [ngClass]="'rune'">
             <ng-container *ngFor="let o of item.order; let last = last">
-              {{ o }}
+              <img [src]="'/assets/images/rune/' + o + '_Rune.png'"><span>{{ control[o] }}</span>
               <ng-container *ngIf="!last">
                 <div [ngClass]="'fas'"></div>
               </ng-container>
