@@ -20,7 +20,7 @@
           </p>
           <p [ngClass]="'rune'">
             <ng-container *ngFor="let o of item.order; let last = last">
-              <img [src]="'/assets/images/rune/' + o + '_Rune.png'"><span>{{ control[o] }}</span>
+              <img [src]="'/assets/images/rune/' + o + '_Rune.png'"><span>{{ control[o].name }}({{ control[o].code }})</span>
               <ng-container *ngIf="!last">
                 <div [ngClass]="'fas'"></div>
               </ng-container>

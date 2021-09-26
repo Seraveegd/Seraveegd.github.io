@@ -12,13 +12,17 @@ export class FilterComponent implements OnInit {
   type_detail: string = this.route.snapshot.params.type_detail;
 
   runewords = this.rune.getRuneWords();
-  control: object[] = [];
+  control: any[] = [];
   runes = this.rune.getRunes().subscribe((val: any[]) => {
     if (val) {
       val.forEach((e: any) => {
         const key = e.name_en;
         const value = e.name;
-        this.control[key] = value;
+        const code = e.number
+        this.control[key] = {
+          name: value,
+          code: code
+        };
       });
     }
   });
