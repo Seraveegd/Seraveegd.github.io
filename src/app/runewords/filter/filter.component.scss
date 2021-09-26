@@ -57,11 +57,17 @@
       color: #7a7aff;
     }
 
+    &.limit{
+      text-align: left;
+      line-height: 24px;
+    }
+
     .rune {
       display: flex;
       align-items: center;
       justify-content: center;
       color: #ffba00;
+      flex-wrap: wrap;
 
       img{
         width: 24px;
@@ -75,6 +81,10 @@
 
     &.effect {
       color: #7a7aff;
+    }
+
+    span{
+      white-space: pre-wrap;
     }
   }
 

@@ -1,7 +1,7 @@
 <mat-sidenav-container [ngClass]="{'app-container': true}">
   <mat-sidenav mode="push" #sideNav [ngClass]="{'app-sidenav': true, 'app-sidenav-hidden': windowWidth > 880 }">
-      <mat-accordion>
-          <!-- <mat-expansion-panel>
+    <mat-accordion>
+      <!-- <mat-expansion-panel>
               <mat-expansion-panel-header>
                   <mat-panel-title [ngClass]="'title'">
                       <mat-icon>info</mat-icon>
@@ -17,64 +17,73 @@
                       計劃組織架構及團隊</a>
               </mat-nav-list>
           </mat-expansion-panel> -->
-          <mat-nav-list>
-              <a [routerLink]="['/', 'home']" (click)="sideNav.toggle()" mat-list-item>
-                  <span>&nbsp;暗黑2年代記&nbsp;</span>
-              </a>
-              <a [routerLink]="['/', 'runewords']" (click)="sideNav.toggle()" mat-list-item>
-                  <span>&nbsp;符文&nbsp;</span>
-              </a>
-          </mat-nav-list>
-      </mat-accordion>
+      <mat-nav-list>
+        <a [routerLink]="['/', 'home']" (click)="sideNav.toggle()" mat-list-item>
+          <span>&nbsp;暗黑2年代記&nbsp;</span>
+        </a>
+        <a (click)="sideNav.toggle()" mat-list-item>
+          <span>&nbsp;物品(待做)&nbsp;</span>
+        </a>
+        <a [routerLink]="['/', 'runewords']" (click)="sideNav.toggle()" mat-list-item>
+          <span>&nbsp;符文&nbsp;</span>
+        </a>
+      </mat-nav-list>
+    </mat-accordion>
   </mat-sidenav>
   <mat-sidenav-content #sidenav_content (scroll)="onScroll($event)" [ngStyle]="{'scroll-behavior': 'smooth'}">
-      <mat-toolbar [ngClass]="{'toolbar-header': true, 'fixed': fixed && !(windowWidth > 880)}" color="primary"
-          (window:resize)="onResize($event)">
-          <mat-toolbar-row [ngClass]="['header_outer', 'header-top']" *ngIf="windowWidth <= 880">
-              <div [ngClass]="'header'">
-                  <a [routerLink]="['/']">暗黑</a>
-                  <button (click)="sideNav.toggle()" *ngIf="windowWidth <= 880" mat-icon-button>
-                      <mat-icon [ngClass]="'icon'">{{ sideNav.opened ? 'close' : 'menu' }}</mat-icon>
-                  </button>
-              </div>
-          </mat-toolbar-row>
-          <mat-toolbar-row [ngClass]="{'header_outer': true, 'header-top-second': true, 'fixed': fixed}"
-              *ngIf="windowWidth > 880">
-              <div [ngClass]="'header'">
-                  <div [ngClass]="'nav'">
-                      <ul>
-                          <li>
-                              <a [routerLink]="['/', 'home']" [ngStyle]="{'color': 'white', 'font-size': '18pt'}">
-                                  <span>&nbsp;暗黑2年代記&nbsp;</span>
-                              </a>
-                          </li>
-                          <li>
-                              <a [routerLink]="['/', 'runewords']">
-                                  <span>&nbsp;符文&nbsp;</span>
-                              </a>
-                          </li>
-                      </ul>
-                  </div>
-                  <!-- 在這之後的都會被推到右邊去 -->
-                  <span [ngClass]="'toolbar-seprator'"></span>
-                  <span [ngClass]="'icons'">
-                      <!-- <a [routerLink]="['/', 'calendar']" matTooltip="行事曆">
+    <mat-toolbar [ngClass]="{'toolbar-header': true, 'fixed': fixed && !(windowWidth > 880)}" color="primary"
+      (window:resize)="onResize($event)">
+      <mat-toolbar-row [ngClass]="['header_outer', 'header-top']" *ngIf="windowWidth <= 880">
+        <div [ngClass]="'header'">
+          <a [routerLink]="['/']">暗黑2年代記</a>
+          <span [ngClass]="'toolbar-seprator'"></span>
+          <span (click)="sideNav.toggle()" *ngIf="windowWidth <= 880" mat-icon-button>
+            <mat-icon>{{ sideNav.opened ? 'close' : 'menu' }}</mat-icon>
+          </span>
+        </div>
+      </mat-toolbar-row>
+      <mat-toolbar-row [ngClass]="{'header_outer': true, 'header-top-second': true, 'fixed': fixed}"
+        *ngIf="windowWidth > 880">
+        <div [ngClass]="'header'">
+          <div [ngClass]="'nav'">
+            <ul>
+              <li>
+                <a [routerLink]="['/', 'home']" [ngStyle]="{'color': 'white', 'font-size': '18pt'}">
+                  <span>&nbsp;暗黑2年代記&nbsp;</span>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <span>&nbsp;物品(待做)&nbsp;</span>
+                </a>
+              </li>
+              <li>
+                <a [routerLink]="['/', 'runewords']">
+                  <span>&nbsp;符文&nbsp;</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- 在這之後的都會被推到右邊去 -->
+          <span [ngClass]="'toolbar-seprator'"></span>
+          <span [ngClass]="'icons'">
+            <!-- <a [routerLink]="['/', 'calendar']" matTooltip="行事曆">
                           <mat-icon>event</mat-icon>
                       </a> -->
-                  </span>
-                  <!-- </mat-nav-list> -->
-              </div>
-          </mat-toolbar-row>
-      </mat-toolbar>
-      <div [ngClass]="'container_outlet'">
-          <div [ngClass]="'container'">
-              <router-outlet></router-outlet>
-          </div>
+          </span>
+          <!-- </mat-nav-list> -->
+        </div>
+      </mat-toolbar-row>
+    </mat-toolbar>
+    <div [ngClass]="'container_outlet'">
+      <div [ngClass]="'container'">
+        <router-outlet></router-outlet>
       </div>
-      <mat-toolbar [ngClass]="'toolbar-footer'" color="primary">
-          <mat-toolbar-row [ngClass]="'footer_outer'">
-              <div [ngClass]="'relate_link'">
-                  <!-- <div>
+    </div>
+    <mat-toolbar [ngClass]="'toolbar-footer'" color="primary">
+      <mat-toolbar-row [ngClass]="'footer_outer'">
+        <div [ngClass]="'relate_link'">
+          <!-- <div>
                       <div><span>學校網頁連結</span></div>
                       <div>
                           <div><a href="http://www.cjcu.edu.tw/" target="_blank">長榮大學</a></div>
@@ -105,14 +114,14 @@
                           <div><a href="http://usr.moe.gov.tw/" target="_blank">教育部大學社會責任推動中心</a></div>
                       </div>
                   </div> -->
-              </div>
-              <div [ngClass]="'footer'">
-                  <span>
-                      <span>Copyright&nbsp;&copy;&nbsp;2021</span>
-                  </span>
-              </div>
-          </mat-toolbar-row>
-      </mat-toolbar>
-      <mat-icon [ngClass]="'toTop'" (click)="scrollTop()" *ngIf="fixed">arrow_back_ios</mat-icon>
+        </div>
+        <div [ngClass]="'footer'">
+          <span>
+            <span>Copyright&nbsp;&copy;&nbsp;2021</span>
+          </span>
+        </div>
+      </mat-toolbar-row>
+    </mat-toolbar>
+    <mat-icon [ngClass]="'toTop'" (click)="scrollTop()" *ngIf="fixed">arrow_back_ios</mat-icon>
   </mat-sidenav-content>
 </mat-sidenav-container>

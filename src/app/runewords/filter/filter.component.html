@@ -5,6 +5,7 @@
       <th>分類</th>
       <th>裝備需求</th>
       <th>裝備效果</th>
+      <th>限制</th>
     </thead>
     <tbody>
       <tr *ngFor="let item of items | filterruneword: type : type_detail">
@@ -31,6 +32,11 @@
         <td [ngClass]="'effect'">
           <ng-container *ngFor="let a of item.ability">
             <p>{{ a }}</p>
+          </ng-container>
+        </td>
+        <td [ngClass]="'limit'">
+          <ng-container *ngIf="item.weaponlimit.length > 0">
+            武器限定：<br><span *ngFor="let weapon of item.weaponlimit; let last = last">{{ weapontypes[weapon] }}{{ last ? '' : '/'}}</span>
           </ng-container>
         </td>
       </tr>

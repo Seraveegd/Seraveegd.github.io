@@ -23,16 +23,24 @@ export class FilterComponent implements OnInit {
     }
   });
 
-  indexedArray: {[key: string]: number} = {
-    foo: 2118,
-    bar: 2118
-}
+  types: { [key: string]: string } = {
+    weapon: '武器',
+    helmet: '頭盔',
+    armor: '盔甲',
+    shield: '盾牌'
+  };
 
-  types: {[key: string]: string} = {
-    weapon : '武器',
-    helmet : '頭盔',
-    armor : '盔甲',
-    shield : '盾牌'
+  weapontypes: { [key: string]: string } = {
+    sword: '劍',
+    axe: '斧',
+    mace: '釘頭錘',
+    stave: '法杖',
+    wand: '魔杖',
+    scepter: '權杖',
+    club: '棍棒',
+    polearm: '長炳戰斧',
+    assassinkatar: '爪',
+    weapons: '武器'
   };
 
   constructor(private route: ActivatedRoute, private rune: RuneService) {
