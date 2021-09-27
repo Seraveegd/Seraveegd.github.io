@@ -2270,7 +2270,7 @@
   {
     "type": "armor",
     "part": "belt",
-    "group": "girdle",
+    "group": "platedbelt",
     "name": "金屬扣帶",
     "name_en": "Plated Belt",
     "weight": "",
@@ -2298,7 +2298,7 @@
   {
     "type": "armor",
     "part": "belt",
-    "group": "girdle",
+    "group": "platedbelt",
     "name": "巨戰腰帶",
     "name_en": "War Belt",
     "weight": "",
@@ -2326,7 +2326,7 @@
   {
     "type": "armor",
     "part": "belt",
-    "group": "girdle",
+    "group": "platedbelt",
     "name": "巨神腰帶",
     "name_en": "Colossus Girdle",
     "weight": "",
@@ -2774,7 +2774,7 @@
   {
     "type": "armor",
     "part": "boot",
-    "group": "leatherboots",
+    "group": "boots",
     "name": "皮靴",
     "name_en": "Boots",
     "weight": "",
@@ -2802,7 +2802,7 @@
   {
     "type": "armor",
     "part": "boot",
-    "group": "leatherboots",
+    "group": "boots",
     "name": "魔皮靴",
     "name_en": "Demonhide Boots",
     "weight": "",
@@ -2830,7 +2830,7 @@
   {
     "type": "armor",
     "part": "boot",
-    "group": "leatherboots",
+    "group": "boots",
     "name": "飛龍皮靴",
     "name_en": "Wyrmhide Boots",
     "weight": "",
@@ -3110,7 +3110,7 @@
   {
     "type": "armor",
     "part": "boot",
-    "group": "plateboots",
+    "group": "greaves",
     "name": "護脛",
     "name_en": "Greaves",
     "weight": "",
@@ -3138,7 +3138,7 @@
   {
     "type": "armor",
     "part": "boot",
-    "group": "plateboots",
+    "group": "greaves",
     "name": "巨戰之靴",
     "name_en": "War Boots",
     "weight": "",
@@ -3166,7 +3166,7 @@
   {
     "type": "armor",
     "part": "boot",
-    "group": "plateboots",
+    "group": "greaves",
     "name": "極速靴",
     "name_en": "Myrmidon Boots",
     "weight": "",
