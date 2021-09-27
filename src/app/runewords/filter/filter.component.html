@@ -20,7 +20,8 @@
           </p>
           <p [ngClass]="'rune'">
             <ng-container *ngFor="let o of item.order; let last = last">
-              <img [src]="'/assets/images/rune/' + o + '_Rune.png'"><span>{{ control[o].name }}({{ control[o].code }})</span>
+              <img
+                [src]="'/assets/images/rune/' + o + '_Rune.png'"><span>{{ control[o].name }}({{ control[o].code }})</span>
               <ng-container *ngIf="!last">
                 <div [ngClass]="'fas'"></div>
               </ng-container>
@@ -36,7 +37,8 @@
         </td>
         <td [ngClass]="'limit'">
           <ng-container *ngIf="item.weaponlimit.length > 0">
-            武器限定：<br><span *ngFor="let weapon of item.weaponlimit; let last = last">{{ weapontypes[weapon] }}{{ last ? '' : '/'}}</span>
+            武器限定：<br><span
+              *ngFor="let weapon of item.weaponlimit; let last = last">{{ weapontypes[weapon] }}{{ last ? '' : '/'}}</span>
           </ng-container>
         </td>
       </tr>

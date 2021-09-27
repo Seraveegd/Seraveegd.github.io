@@ -12,6 +12,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 
 import { HttpClientModule } from '@angular/common/http';
+import { ItemsComponent } from './items/items.component';
 // import { RuneComponent } from './runewords/rune/rune.component';
 
 @NgModule({
@@ -19,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     RunewordsComponent,
     HomeComponent,
+    ItemsComponent,
     // RuneComponent
   ],
   imports: [

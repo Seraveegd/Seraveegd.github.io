@@ -10,7 +10,6 @@ export class RunewordsComponent implements OnInit {
   selected = '';
 
   constructor(private route: ActivatedRoute) {
-    this.route.url.subscribe(res => console.log(res));
   }
 
   ngOnInit(): void {

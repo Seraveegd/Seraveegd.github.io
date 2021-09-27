@@ -1,0 +1,113 @@
+.title {
+  background-color: #444444;
+  color: #bb9e74;
+  padding: 24px;
+  font-size: 20pt;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.armors {
+  width: 100%;
+  text-align: center;
+  color: white;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  background-color: #444444;
+
+  th,
+  td {
+    padding: 16px;
+    border: 1px solid #353535;
+  }
+
+  th {
+    font-size: 20px;
+    background-color: #303030;
+  }
+
+  tr:nth-child(3n+1) {
+    background-color: #3c3c3c;
+  }
+
+  tr:nth-child(3n+3) {
+    border-bottom: 4px solid rgb(0 0 0 / 40%);
+  }
+
+  tr.circlet:nth-child(3n+3) {
+    border-bottom: none;
+  }
+
+  tr.circlet:nth-child(odd) {
+    background-color: #444444;
+  }
+
+  tr.circlet:nth-child(even) {
+    background-color: #3c3c3c;
+  }
+
+  tr:last-child {
+    border-bottom: none;
+  }
+
+  // tr:nth-child(even) {
+  //   background-color: #303030;
+  // }
+
+  tr:hover {
+    background-color: #272727;
+  }
+
+  td {
+    font-size: 20px;
+
+    &:first-child {
+      vertical-align: top;
+    }
+
+    .name {
+      color: #dcc684;
+    }
+
+    .ladder{
+      color: #8B8B8B;
+    }
+
+    .slot {
+      color: #7a7aff;
+    }
+
+    &.limit{
+      text-align: left;
+      line-height: 24px;
+    }
+
+    .rune {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffba00;
+      flex-wrap: wrap;
+
+      img{
+        width: 24px;
+      }
+
+      *{
+        margin: 4px;
+      }
+
+    }
+
+    &.effect {
+      color: #7a7aff;
+    }
+
+    span{
+      white-space: pre-wrap;
+    }
+  }
+
+  .margin {
+    border-bottom: 20px solid #222222;
+  }
+}

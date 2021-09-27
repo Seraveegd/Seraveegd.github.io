@@ -52,9 +52,6 @@ export class FilterComponent implements OnInit {
       this.type = params.type;
       this.type_detail = params.type_detail;
     });
-
-
-
   }
 
   ngOnInit(): void {

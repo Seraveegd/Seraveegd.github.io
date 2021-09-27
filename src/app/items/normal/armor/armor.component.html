@@ -1,0 +1,27 @@
+<div [ngClass]="'title'">防具</div>
+<div [ngClass]="'rwords'">
+  <div [ngClass]="'list'">
+    <span>部位</span>
+    <span><a [routerLink]="['filter', 'part', 'helmet,barbarianhelm,druidpeltshelm']" (click)="clink('1')" [ngClass]="{'active': selected === '1'}">頭盔</a></span>
+    <span><a [routerLink]="['filter', 'part', 'armor']" (click)="clink('2')" [ngClass]="{'active': selected === '2'}">盔甲</a></span>
+    <span><a [routerLink]="['filter', 'part', 'belt']" (click)="clink('3')" [ngClass]="{'active': selected === '3'}">腰帶</a></span>
+    <span><a [routerLink]="['filter', 'part', 'glove']" (click)="clink('4')" [ngClass]="{'active': selected === '4'}">手套</a></span>
+    <span><a [routerLink]="['filter', 'part', 'boot']" (click)="clink('5')" [ngClass]="{'active': selected === '5'}">鞋子</a></span>
+    <span><a [routerLink]="['filter', 'part', 'shield,paladinshield,ncershrunkenhead']" (click)="clink('6')" [ngClass]="{'active': selected === '6'}">盾牌</a></span>
+    <span><a [routerLink]="['filter', 'part', 'circlet']" (click)="clink('7')" [ngClass]="{'active': selected === '7'}">頭飾</a></span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>職業</span>
+    <span><a [routerLink]="['filter', 'limit', 'barbarian']" (click)="clink('8')" [ngClass]="{'active': selected === '8'}">野蠻人</a></span>
+    <span><a [routerLink]="['filter', 'limit', 'druld']" (click)="clink('9')" [ngClass]="{'active': selected === '9'}">德魯伊</a></span>
+    <span><a [routerLink]="['filter', 'limit', 'paladin']" (click)="clink('10')" [ngClass]="{'active': selected === '10'}">聖騎士</a></span>
+    <span><a [routerLink]="['filter', 'limit', 'necromancer']" (click)="clink('11')" [ngClass]="{'active': selected === '11'}">死靈法師</a></span>
+  </div>
+  <!-- <div [ngClass]="'list'">
+    <span>重量</span>
+    <span><a [routerLink]="['filter', 'weight', 'light']" (click)="clink('12')" [ngClass]="{'active': selected === '12'}">輕型</a></span>
+    <span><a [routerLink]="['filter', 'weight', 'medium']" (click)="clink('13')" [ngClass]="{'active': selected === '13'}">中型</a></span>
+    <span><a [routerLink]="['filter', 'weight', 'heavy']" (click)="clink('14')" [ngClass]="{'active': selected === '14'}">重型</a></span>
+  </div> -->
+</div>
+<router-outlet></router-outlet>

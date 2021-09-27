@@ -1,0 +1,5658 @@
+[
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "cap",
+    "name": "帽子",
+    "name_en": "Cap",
+    "weight": "",
+    "defense": {
+      "min": 3,
+      "max": 5
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "durability": 12,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "cap",
+    "name": "戰帽",
+    "name_en": "War Hat",
+    "weight": "",
+    "defense": {
+      "min": 45,
+      "max": 53
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 22,
+    "strength": 43,
+    "durability": 12,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "cap",
+    "name": "軍帽",
+    "name_en": "Shako",
+    "weight": "",
+    "defense": {
+      "min": 98,
+      "max": 141
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 43,
+    "strength": 50,
+    "durability": 12,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "skullcap",
+    "name": "骷髏帽",
+    "name_en": "Skull Cap",
+    "weight": "",
+    "defense": {
+      "min": 8,
+      "max": 11
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 15,
+    "durability": 18,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "skullcap",
+    "name": "輕便頭盔",
+    "name_en": "Sallet",
+    "weight": "",
+    "defense": {
+      "min": 52,
+      "max": 62
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 43,
+    "durability": 18,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "skullcap",
+    "name": "九頭蛇頭蓋骨圓帽",
+    "name_en": "Hydraskull",
+    "weight": "",
+    "defense": {
+      "min": 101,
+      "max": 145
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 47,
+    "strength": 84,
+    "durability": 18,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "helm",
+    "name": "頭盔",
+    "name_en": "Helmr",
+    "weight": "",
+    "defense": {
+      "min": 15,
+      "max": 18
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 26,
+    "durability": 24,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "helm",
+    "name": "無頰頭盔",
+    "name_en": "Casque",
+    "weight": "",
+    "defense": {
+      "min": 63,
+      "max": 72
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 59,
+    "durability": 24,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "helm",
+    "name": "活動頭盔",
+    "name_en": "Armet",
+    "weight": "",
+    "defense": {
+      "min": 105,
+      "max": 149
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 51,
+    "strength": 109,
+    "durability": 24,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "fullhelm",
+    "name": "高級頭盔",
+    "name_en": "Full Helm",
+    "weight": "",
+    "defense": {
+      "min": 23,
+      "max": 26
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 41,
+    "durability": 30,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "fullhelm",
+    "name": "輕鋼盔",
+    "name_en": "Basinet",
+    "weight": "",
+    "defense": {
+      "min": 75,
+      "max": 84
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 82,
+    "durability": 30,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "fullhelm",
+    "name": "巨貝頭盔",
+    "name_en": "Giant Conch",
+    "weight": "",
+    "defense": {
+      "min": 110,
+      "max": 154
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 40,
+    "strength": 142,
+    "durability": 30,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "greathelm",
+    "name": "卓越頭盔",
+    "name_en": "Great Helm",
+    "weight": "",
+    "defense": {
+      "min": 30,
+      "max": 35
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 63,
+    "durability": 40,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "greathelm",
+    "name": "翼盔",
+    "name_en": "Winged Helm",
+    "weight": "",
+    "defense": {
+      "min": 85,
+      "max": 98
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 115,
+    "durability": 40,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "greathelm",
+    "name": "螺旋頭盔",
+    "name_en": "Spired Helm",
+    "weight": "",
+    "defense": {
+      "min": 114,
+      "max": 159
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 59,
+    "strength": 192,
+    "durability": 40,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "mask",
+    "name": "面具",
+    "name_en": "Mask",
+    "weight": "",
+    "defense": {
+      "min": 9,
+      "max": 27
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 23,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "mask",
+    "name": "死亡面具",
+    "name_en": "Death Mask",
+    "weight": "",
+    "defense": {
+      "min": 54,
+      "max": 86
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 55,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "mask",
+    "name": "惡魔頭蓋骨面具",
+    "name_en": "Demonhead Mask",
+    "weight": "",
+    "defense": {
+      "min": 101,
+      "max": 154
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 55,
+    "strength": 102,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "crown",
+    "name": "皇冠",
+    "name_en": "Crown",
+    "weight": "",
+    "defense": {
+      "min": 25,
+      "max": 45
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 55,
+    "durability": 50,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "crown",
+    "name": "巨皇冠",
+    "name_en": "Grand Crown",
+    "weight": "",
+    "defense": {
+      "min": 78,
+      "max": 113
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 103,
+    "durability": 50,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "crown",
+    "name": "頭冠",
+    "name_en": "Corona",
+    "weight": "",
+    "defense": {
+      "min": 111,
+      "max": 165
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 66,
+    "strength": 174,
+    "durability": 50,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "bonehelm",
+    "name": "白骨頭盔",
+    "name_en": "Bone Helm",
+    "weight": "",
+    "defense": {
+      "min": 33,
+      "max": 36
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 25,
+    "durability": 40,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "bonehelm",
+    "name": "殘酷頭盔",
+    "name_en": "Grim Helm",
+    "weight": "",
+    "defense": {
+      "min": 60,
+      "max": 125
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 58,
+    "durability": 40,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "helmet",
+    "group": "bonehelm",
+    "name": "骸骨面罩",
+    "name_en": "Bone Visage",
+    "weight": "",
+    "defense": {
+      "min": 100,
+      "max": 157
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 63,
+    "strength": 106,
+    "durability": 40,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "quilted",
+    "name": "布甲",
+    "name_en": "Quilted Armor",
+    "weight": "輕型",
+    "defense": {
+      "min": 8,
+      "max": 12
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 12,
+    "durability": 20,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "quilted",
+    "name": "鬼魂戰甲",
+    "name_en": "Ghost Armor",
+    "weight": "輕型",
+    "defense": {
+      "min": 102,
+      "max": 117
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 22,
+    "strength": 38,
+    "durability": 20,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "quilted",
+    "name": "灰暮壽衣",
+    "name_en": "Dusk Shroud",
+    "weight": "輕型",
+    "defense": {
+      "min": 361,
+      "max": 467
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 49,
+    "strength": 77,
+    "durability": 20,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "leather",
+    "name": "皮甲",
+    "name_en": "Leather Armor",
+    "weight": "輕型",
+    "defense": {
+      "min": 14,
+      "max": 17
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 15,
+    "durability": 24,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "leather",
+    "name": "海蛇皮甲",
+    "name_en": "Serpentskin Armor",
+    "weight": "輕型",
+    "defense": {
+      "min": 111,
+      "max": 126
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 24,
+    "strength": 43,
+    "durability": 24,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "leather",
+    "name": "古龍皮",
+    "name_en": "Wyrmhide",
+    "weight": "輕型",
+    "defense": {
+      "min": 364,
+      "max": 470
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 50,
+    "strength": 84,
+    "durability": 24,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "hardleather",
+    "name": "硬皮甲",
+    "name_en": "Hard Leather Armor",
+    "weight": "輕型",
+    "defense": {
+      "min": 21,
+      "max": 24
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 20,
+    "durability": 28,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "hardleather",
+    "name": "魔皮戰甲",
+    "name_en": "Demonhide Armor",
+    "weight": "輕型",
+    "defense": {
+      "min": 122,
+      "max": 136
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 50,
+    "durability": 28,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "hardleather",
+    "name": "聖甲蟲殼皮甲",
+    "name_en": "Scarab Husk",
+    "weight": "輕型",
+    "defense": {
+      "min": 369,
+      "max": 474
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 51,
+    "strength": 95,
+    "durability": 28,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "studdedleather",
+    "name": "鑲嵌甲",
+    "name_en": "Studded Leather",
+    "weight": "輕型",
+    "defense": {
+      "min": 32,
+      "max": 35
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 27,
+    "durability": 32,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "studdedleather",
+    "name": "攀繞戰甲",
+    "name_en": "Trellised Armor",
+    "weight": "輕型",
+    "defense": {
+      "min": 138,
+      "max": 153
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 61,
+    "durability": 32,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "studdedleather",
+    "name": "線羊毛皮甲",
+    "name_en": "Wire Fleece",
+    "weight": "輕型",
+    "defense": {
+      "min": 375,
+      "max": 481
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 53,
+    "strength": 111,
+    "durability": 32,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "ringmail",
+    "name": "鎖環甲",
+    "name_en": "Ring Mail",
+    "weight": "中型",
+    "defense": {
+      "min": 45,
+      "max": 48
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 36,
+    "durability": 26,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "ringmail",
+    "name": "連扣戰甲",
+    "name_en": "Linked Mail",
+    "weight": "中型",
+    "defense": {
+      "min": 158,
+      "max": 172
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 74,
+    "durability": 26,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "ringmail",
+    "name": "鑽石鎖子甲",
+    "name_en": "Diamond Mail",
+    "weight": "中型",
+    "defense": {
+      "min": 383,
+      "max": 489
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 54,
+    "strength": 131,
+    "durability": 26,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "scalemail",
+    "name": "鱗甲",
+    "name_en": "Scale Mail",
+    "weight": "重型",
+    "defense": {
+      "min": 57,
+      "max": 60
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 44,
+    "durability": 36,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "scalemail",
+    "name": "提格萊特戰甲",
+    "name_en": "Tigulated Mail",
+    "weight": "重型",
+    "defense": {
+      "min": 176,
+      "max": 190
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 86,
+    "durability": 36,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "scalemail",
+    "name": "甲殼鎧鱗甲",
+    "name_en": "Loricated Mail",
+    "weight": "重型",
+    "defense": {
+      "min": 390,
+      "max": 496
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 55,
+    "strength": 149,
+    "durability": 36,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "breastplate",
+    "name": "胸甲",
+    "name_en": "Breast Plate",
+    "weight": "輕型",
+    "defense": {
+      "min": 65,
+      "max": 68
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 30,
+    "durability": 50,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": 1,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "breastplate",
+    "name": "護胸甲",
+    "name_en": "Cuirass",
+    "weight": "輕型",
+    "defense": {
+      "min": 188,
+      "max": 202
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 65,
+    "durability": 50,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": 1,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "breastplate",
+    "name": "巨型鱗鎧胸甲",
+    "name_en": "Great Hauberk",
+    "weight": "輕型",
+    "defense": {
+      "min": 395,
+      "max": 501
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 56,
+    "strength": 118,
+    "durability": 50,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 1,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "chainmail",
+    "name": "鎖子甲",
+    "name_en": "Chain Mail",
+    "weight": "中型",
+    "defense": {
+      "min": 72,
+      "max": 75
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 48,
+    "durability": 45,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "chainmail",
+    "name": "織網戰甲",
+    "name_en": "Mesh Armor",
+    "weight": "中型",
+    "defense": {
+      "min": 198,
+      "max": 213
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 92,
+    "durability": 45,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "chainmail",
+    "name": "骸骨鏈甲",
+    "name_en": "Boneweave",
+    "weight": "中型",
+    "defense": {
+      "min": 399,
+      "max": 505
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 47,
+    "strength": 158,
+    "durability": 45,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "splintmail",
+    "name": "板甲",
+    "name_en": "Splint Mail",
+    "weight": "中型",
+    "defense": {
+      "min": 90,
+      "max": 95
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 51,
+    "durability": 30,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "splintmail",
+    "name": "羅瑟戰甲",
+    "name_en": "Russet Armor",
+    "weight": "中型",
+    "defense": {
+      "min": 225,
+      "max": 243
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 97,
+    "durability": 30,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "splintmail",
+    "name": "炎魔皮板甲",
+    "name_en": "Balrog Skin",
+    "weight": "中型",
+    "defense": {
+      "min": 410,
+      "max": 517
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 57,
+    "strength": 165,
+    "durability": 30,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "lightplate",
+    "name": "輕型裝甲",
+    "name_en": "Light Plate",
+    "weight": "輕型",
+    "defense": {
+      "min": 90,
+      "max": 107
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 41,
+    "durability": 60,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": 1,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "lightplate",
+    "name": "法師鎧甲",
+    "name_en": "Mage Plate",
+    "weight": "輕型",
+    "defense": {
+      "min": 225,
+      "max": 261
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 55,
+    "durability": 60,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": 1,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "lightplate",
+    "name": "執政官鎧甲",
+    "name_en": "Archon Plate",
+    "weight": "輕型",
+    "defense": {
+      "min": 410,
+      "max": 524
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 63,
+    "strength": 103,
+    "durability": 60,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 1,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "fieldplate",
+    "name": "實戰鎧甲",
+    "name_en": "Field Plate",
+    "weight": "中型",
+    "defense": {
+      "min": 101,
+      "max": 105
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 55,
+    "durability": 48,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": 2,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "fieldplate",
+    "name": "鯊齒戰甲",
+    "name_en": "Sharktooth Armor",
+    "weight": "中型",
+    "defense": {
+      "min": 242,
+      "max": 258
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 103,
+    "durability": 48,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": 2,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "fieldplate",
+    "name": "海妖殼甲",
+    "name_en": "Kraken Shell",
+    "weight": "中型",
+    "defense": {
+      "min": 417,
+      "max": 523
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 61,
+    "strength": 174,
+    "durability": 48,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 2,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "platemail",
+    "name": "鎧甲",
+    "name_en": "Plate Mail",
+    "weight": "重型",
+    "defense": {
+      "min": 108,
+      "max": 116
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 65,
+    "durability": 60,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "platemail",
+    "name": "聖堂武士外袍",
+    "name_en": "Templar Coat",
+    "weight": "重型",
+    "defense": {
+      "min": 252,
+      "max": 274
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 118,
+    "durability": 60,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "platemail",
+    "name": "地獄鍛甲",
+    "name_en": "Hellforge Plate",
+    "weight": "重型",
+    "defense": {
+      "min": 421,
+      "max": 530
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 59,
+    "strength": 196,
+    "durability": 60,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "gothicplate",
+    "name": "哥德戰甲",
+    "name_en": "Gothic Plate",
+    "weight": "中型",
+    "defense": {
+      "min": 128,
+      "max": 135
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 70,
+    "durability": 55,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "gothicplate",
+    "name": "凸紋戰甲",
+    "name_en": "Embossed Plate",
+    "weight": "中型",
+    "defense": {
+      "min": 282,
+      "max": 303
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 125,
+    "durability": 55,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "gothicplate",
+    "name": "漆甲",
+    "name_en": "Lacquered Plate",
+    "weight": "中型",
+    "defense": {
+      "min": 433,
+      "max": 541
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 62,
+    "strength": 208,
+    "durability": 55,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 0,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "fullplate",
+    "name": "高級戰甲",
+    "name_en": "Full Plate Mail",
+    "weight": "重型",
+    "defense": {
+      "min": 150,
+      "max": 161
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 80,
+    "durability": 70,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 2,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "fullplate",
+    "name": "混沌戰甲",
+    "name_en": "Chaos Armor",
+    "weight": "重型",
+    "defense": {
+      "min": 315,
+      "max": 342
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 140,
+    "durability": 70,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 2,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "fullplate",
+    "name": "陰影鎧甲",
+    "name_en": "Shadow Plate",
+    "weight": "重型",
+    "defense": {
+      "min": 446,
+      "max": 557
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 64,
+    "strength": 230,
+    "durability": 70,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 2,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "ancientarmor",
+    "name": "古代裝甲",
+    "name_en": "Ancient Armor",
+    "weight": "中型",
+    "defense": {
+      "min": 218,
+      "max": 233
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 100,
+    "durability": 60,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 5,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "ancientarmor",
+    "name": "華麗戰甲",
+    "name_en": "Ornate Plate",
+    "weight": "中型",
+    "defense": {
+      "min": 417,
+      "max": 450
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 170,
+    "durability": 60,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 5,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "armor",
+    "group": "ancientarmor",
+    "name": "神聖盔甲",
+    "name_en": "Sacred Armor",
+    "weight": "中型",
+    "defense": {
+      "min": 487,
+      "max": 600
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 66,
+    "strength": 232,
+    "durability": 60,
+    "max_slot": 4,
+    "block": null,
+    "damage_reduction": 5,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "sash",
+    "name": "飾帶",
+    "name_en": "Sash",
+    "weight": "",
+    "defense": {
+      "min": 2,
+      "max": 2
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "durability": 12,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 0,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "sash",
+    "name": "魔皮勳帶",
+    "name_en": "Demonhide Sash",
+    "weight": "",
+    "defense": {
+      "min": 29,
+      "max": 34
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 24,
+    "strength": 20,
+    "durability": 12,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 16,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "sash",
+    "name": "蛛網腰帶",
+    "name_en": "Spiderweb Sash",
+    "weight": "",
+    "defense": {
+      "min": 55,
+      "max": 62
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 46,
+    "strength": 50,
+    "durability": 12,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 16,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "lightbelt",
+    "name": "輕扣帶",
+    "name_en": "Light Belt",
+    "weight": "",
+    "defense": {
+      "min": 3,
+      "max": 3
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "durability": 14,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 8,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "lightbelt",
+    "name": "鯊皮腰帶",
+    "name_en": "Sharkskin Belt",
+    "weight": "",
+    "defense": {
+      "min": 31,
+      "max": 36
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 20,
+    "durability": 14,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 16,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "lightbelt",
+    "name": "吸血鬼燎牙腰帶",
+    "name_en": "Vampirefang Belt",
+    "weight": "",
+    "defense": {
+      "min": 56,
+      "max": 63
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 51,
+    "strength": 50,
+    "durability": 14,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 16,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "belt",
+    "name": "扣帶",
+    "name_en": "Belt",
+    "weight": "",
+    "defense": {
+      "min": 5,
+      "max": 5
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 25,
+    "durability": 16,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 12,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "belt",
+    "name": "織網腰帶",
+    "name_en": "Mesh Belt",
+    "weight": "",
+    "defense": {
+      "min": 35,
+      "max": 40
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 58,
+    "durability": 16,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 16,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "belt",
+    "name": "秘銀腰帶",
+    "name_en": "Mithril Coil",
+    "weight": "",
+    "defense": {
+      "min": 58,
+      "max": 65
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 56,
+    "strength": 106,
+    "durability": 16,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 16,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "heavybelt",
+    "name": "重扣帶",
+    "name_en": "Heavy Belt",
+    "weight": "",
+    "defense": {
+      "min": 6,
+      "max": 6
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 45,
+    "durability": 18,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 12,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "heavybelt",
+    "name": "戰場腰帶",
+    "name_en": "Battle Belt",
+    "weight": "",
+    "defense": {
+      "min": 37,
+      "max": 42
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 88,
+    "durability": 18,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 16,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "heavybelt",
+    "name": "洞穴巨魔腰帶",
+    "name_en": "Troll Belt",
+    "weight": "",
+    "defense": {
+      "min": 59,
+      "max": 66
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 62,
+    "strength": 151,
+    "durability": 18,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 16,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "girdle",
+    "name": "金屬扣帶",
+    "name_en": "Plated Belt",
+    "weight": "",
+    "defense": {
+      "min": 8,
+      "max": 11
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 60,
+    "durability": 24,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 16,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "girdle",
+    "name": "巨戰腰帶",
+    "name_en": "War Belt",
+    "weight": "",
+    "defense": {
+      "min": 41,
+      "max": 52
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 110,
+    "durability": 24,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 16,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "belt",
+    "group": "girdle",
+    "name": "巨神腰帶",
+    "name_en": "Colossus Girdle",
+    "weight": "",
+    "defense": {
+      "min": 61,
+      "max": 71
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 67,
+    "strength": 185,
+    "durability": 24,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": 16,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "leathergloves",
+    "name": "皮手套",
+    "name_en": "Leather Gloves",
+    "weight": "",
+    "defense": {
+      "min": 2,
+      "max": 3
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "durability": 12,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "leathergloves",
+    "name": "魔皮手套",
+    "name_en": "Demonhide Gloves",
+    "weight": "",
+    "defense": {
+      "min": 28,
+      "max": 35
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 24,
+    "strength": 20,
+    "durability": 12,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "leathergloves",
+    "name": "荊棘連指手套",
+    "name_en": "Bramble Mitts",
+    "weight": "",
+    "defense": {
+      "min": 54,
+      "max": 62
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 42,
+    "strength": 50,
+    "durability": 12,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "heavygloves",
+    "name": "重手套",
+    "name_en": "Heavy Gloves",
+    "weight": "",
+    "defense": {
+      "min": 5,
+      "max": 6
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "durability": 14,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "heavygloves",
+    "name": "鯊魚皮套",
+    "name_en": "Sharkskin Gloves",
+    "weight": "",
+    "defense": {
+      "min": 33,
+      "max": 39
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 20,
+    "durability": 14,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "heavygloves",
+    "name": "吸血鬼骸骨手套",
+    "name_en": "Vampirebone Gloves",
+    "weight": "",
+    "defense": {
+      "min": 56,
+      "max": 65
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 47,
+    "strength": 50,
+    "durability": 14,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "chaingloves",
+    "name": "鎖鍊手套",
+    "name_en": "Chain Gloves",
+    "weight": "",
+    "defense": {
+      "min": 8,
+      "max": 9
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 25,
+    "durability": 16,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "chaingloves",
+    "name": "重型手鐲",
+    "name_en": "Heavy Bracers",
+    "weight": "",
+    "defense": {
+      "min": 37,
+      "max": 44
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 58,
+    "durability": 16,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "chaingloves",
+    "name": "吸血鬼手套",
+    "name_en": "Vambraces",
+    "weight": "",
+    "defense": {
+      "min": 59,
+      "max": 67
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 51,
+    "strength": 106,
+    "durability": 16,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "lightgauntlets",
+    "name": "輕型鐵手套",
+    "name_en": "Light Gauntlets",
+    "weight": "",
+    "defense": {
+      "min": 9,
+      "max": 11
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 45,
+    "durability": 18,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "lightgauntlets",
+    "name": "戰場手套",
+    "name_en": "Battle Gauntlets",
+    "weight": "",
+    "defense": {
+      "min": 39,
+      "max": 47
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 88,
+    "durability": 18,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "lightgauntlets",
+    "name": "十字軍鐵手套",
+    "name_en": "Crusader Gauntlets",
+    "weight": "",
+    "defense": {
+      "min": 59,
+      "max": 68
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 59,
+    "strength": 151,
+    "durability": 18,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "gauntlets",
+    "name": "鐵手套",
+    "name_en": "Gauntlets",
+    "weight": "",
+    "defense": {
+      "min": 12,
+      "max": 15
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 60,
+    "durability": 24,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "gauntlets",
+    "name": "巨戰手套",
+    "name_en": "War Gauntlets",
+    "weight": "",
+    "defense": {
+      "min": 43,
+      "max": 53
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 110,
+    "durability": 24,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "glove",
+    "group": "gauntlets",
+    "name": "食人魔鐵手套",
+    "name_en": "Ogre Gauntlets",
+    "weight": "",
+    "defense": {
+      "min": 62,
+      "max": 71
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 64,
+    "strength": 185,
+    "durability": 24,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "leatherboots",
+    "name": "皮靴",
+    "name_en": "Boots",
+    "weight": "",
+    "defense": {
+      "min": 2,
+      "max": 3
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "durability": 12,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 3,
+      "max": 8
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "leatherboots",
+    "name": "魔皮靴",
+    "name_en": "Demonhide Boots",
+    "weight": "",
+    "defense": {
+      "min": 28,
+      "max": 35
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 24,
+    "strength": 20,
+    "durability": 12,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 26,
+      "max": 46
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "leatherboots",
+    "name": "飛龍皮靴",
+    "name_en": "Wyrmhide Boots",
+    "weight": "",
+    "defense": {
+      "min": 54,
+      "max": 62
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 45,
+    "strength": 50,
+    "durability": 12,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 65,
+      "max": 100
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "heavyboots",
+    "name": "重靴",
+    "name_en": "Heavy Boots",
+    "weight": "",
+    "defense": {
+      "min": 5,
+      "max": 6
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 18,
+    "durability": 14,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 4,
+      "max": 10
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "heavyboots",
+    "name": "鯊皮之靴",
+    "name_en": "Sharkskin Boots",
+    "weight": "",
+    "defense": {
+      "min": 33,
+      "max": 39
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 47,
+    "durability": 14,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 28,
+      "max": 50
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "heavyboots",
+    "name": "聖甲蟲殼靴",
+    "name_en": "Scarabshell Boots",
+    "weight": "",
+    "defense": {
+      "min": 56,
+      "max": 65
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 49,
+    "strength": 91,
+    "durability": 14,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 60,
+      "max": 110
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "chainboots",
+    "name": "鎖鍊靴",
+    "name_en": "Chain Boots",
+    "weight": "",
+    "defense": {
+      "min": 8,
+      "max": 9
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 30,
+    "durability": 16,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 6,
+      "max": 12
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "chainboots",
+    "name": "織網之靴",
+    "name_en": "Mesh Boots",
+    "weight": "",
+    "defense": {
+      "min": 37,
+      "max": 44
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 65,
+    "durability": 16,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 23,
+      "max": 52
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "chainboots",
+    "name": "骸骨靴",
+    "name_en": "Boneweave Boots",
+    "weight": "",
+    "defense": {
+      "min": 59,
+      "max": 67
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 54,
+    "strength": 118,
+    "durability": 16,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 69,
+      "max": 118
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "lightplateboots",
+    "name": "輕型金屬靴",
+    "name_en": "Light Plate Boots",
+    "weight": "",
+    "defense": {
+      "min": 9,
+      "max": 11
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 50,
+    "durability": 18,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 8,
+      "max": 16
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "lightplateboots",
+    "name": "戰場之靴",
+    "name_en": "Battle Boots",
+    "weight": "",
+    "defense": {
+      "min": 39,
+      "max": 47
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 95,
+    "durability": 18,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 37,
+      "max": 64
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "lightplateboots",
+    "name": "鏡化靴",
+    "name_en": "Mirrored Boots",
+    "weight": "",
+    "defense": {
+      "min": 59,
+      "max": 68
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 60,
+    "strength": 163,
+    "durability": 18,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 50,
+      "max": 145
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "plateboots",
+    "name": "護脛",
+    "name_en": "Greaves",
+    "weight": "",
+    "defense": {
+      "min": 12,
+      "max": 15
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 70,
+    "durability": 24,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 10,
+      "max": 20
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "plateboots",
+    "name": "巨戰之靴",
+    "name_en": "War Boots",
+    "weight": "",
+    "defense": {
+      "min": 43,
+      "max": 53
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 125,
+    "durability": 24,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 39,
+      "max": 80
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "boot",
+    "group": "plateboots",
+    "name": "極速靴",
+    "name_en": "Myrmidon Boots",
+    "weight": "",
+    "defense": {
+      "min": 62,
+      "max": 71
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 65,
+    "strength": 208,
+    "durability": 24,
+    "max_slot": null,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": 83,
+      "max": 149
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "buckler",
+    "name": "圓盾",
+    "name_en": "Buckler",
+    "weight": "輕型",
+    "defense": {
+      "min": 4,
+      "max": 6
+    },
+    "critical_damage": {
+      "min": 1,
+      "max": 3
+    },
+    "level": 0,
+    "strength": 12,
+    "durability": 12,
+    "max_slot": 1,
+    "block": 0,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "buckler",
+    "name": "防禦盾",
+    "name_en": "Defender",
+    "weight": "輕型",
+    "defense": {
+      "min": 41,
+      "max": 49
+    },
+    "critical_damage": {
+      "min": 8,
+      "max": 12
+    },
+    "level": 22,
+    "strength": 38,
+    "durability": 68,
+    "max_slot": 1,
+    "block": 10,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "buckler",
+    "name": "防寒圓盾",
+    "name_en": "Heater",
+    "weight": "輕型",
+    "defense": {
+      "min": 95,
+      "max": 110
+    },
+    "critical_damage": {
+      "min": 16,
+      "max": 30
+    },
+    "level": 43,
+    "strength": 77,
+    "durability": 88,
+    "max_slot": 2,
+    "block": 22,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "smallshield",
+    "name": "小盾牌",
+    "name_en": "Small Shield",
+    "weight": "輕型",
+    "defense": {
+      "min": 8,
+      "max": 10
+    },
+    "critical_damage": {
+      "min": 2,
+      "max": 3
+    },
+    "level": 0,
+    "strength": 34,
+    "durability": 24,
+    "max_slot": 2,
+    "block": 5,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "smallshield",
+    "name": "圓型盾",
+    "name_en": "Round Shield",
+    "weight": "輕型",
+    "defense": {
+      "min": 47,
+      "max": 55
+    },
+    "critical_damage": {
+      "min": 7,
+      "max": 14
+    },
+    "level": 25,
+    "strength": 53,
+    "durability": 64,
+    "max_slot": 2,
+    "block": 12,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "smallshield",
+    "name": "月精靈護盾",
+    "name_en": "Luna",
+    "weight": "輕型",
+    "defense": {
+      "min": 108,
+      "max": 123
+    },
+    "critical_damage": {
+      "min": 17,
+      "max": 29
+    },
+    "level": 45,
+    "strength": 100,
+    "durability": 84,
+    "max_slot": 2,
+    "block": 20,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "largeshield",
+    "name": "大盾牌",
+    "name_en": "Large Shield",
+    "weight": "中型",
+    "defense": {
+      "min": 12,
+      "max": 14
+    },
+    "critical_damage": {
+      "min": 2,
+      "max": 4
+    },
+    "level": 0,
+    "strength": 34,
+    "durability": 24,
+    "max_slot": 3,
+    "block": 12,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "largeshield",
+    "name": "鱗盾",
+    "name_en": "Scutum",
+    "weight": "中型",
+    "defense": {
+      "min": 53,
+      "max": 61
+    },
+    "critical_damage": {
+      "min": 11,
+      "max": 15
+    },
+    "level": 25,
+    "strength": 71,
+    "durability": 62,
+    "max_slot": 3,
+    "block": 14,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "largeshield",
+    "name": "亥伯龍盾",
+    "name_en": "Hyperion",
+    "weight": "中型",
+    "defense": {
+      "min": 119,
+      "max": 135
+    },
+    "critical_damage": {
+      "min": 14,
+      "max": 32
+    },
+    "level": 48,
+    "strength": 127,
+    "durability": 82,
+    "max_slot": 3,
+    "block": 24,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "kiteshield",
+    "name": "輕盾",
+    "name_en": "Kite Shield",
+    "weight": "輕型",
+    "defense": {
+      "min": 16,
+      "max": 18
+    },
+    "critical_damage": {
+      "min": 2,
+      "max": 5
+    },
+    "level": 0,
+    "strength": 47,
+    "durability": 30,
+    "max_slot": 3,
+    "block": 8,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "kiteshield",
+    "name": "龍盾",
+    "name_en": "Dragon Shield",
+    "weight": "輕型",
+    "defense": {
+      "min": 59,
+      "max": 67
+    },
+    "critical_damage": {
+      "min": 15,
+      "max": 24
+    },
+    "level": 25,
+    "strength": 91,
+    "durability": 76,
+    "max_slot": 3,
+    "block": 18,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "kiteshield",
+    "name": "統治者大盾",
+    "name_en": "Monarch",
+    "weight": "輕型",
+    "defense": {
+      "min": 133,
+      "max": 148
+    },
+    "critical_damage": {
+      "min": 12,
+      "max": 34
+    },
+    "level": 54,
+    "strength": 156,
+    "durability": 86,
+    "max_slot": 4,
+    "block": 22,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "spikedshield",
+    "name": "尖刺盾牌",
+    "name_en": "Spiked Shield",
+    "weight": "輕型",
+    "defense": {
+      "min": 15,
+      "max": 25
+    },
+    "critical_damage": {
+      "min": 5,
+      "max": 9
+    },
+    "level": 0,
+    "strength": 30,
+    "durability": 40,
+    "max_slot": 2,
+    "block": 10,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "spikedshield",
+    "name": "倒刺護盾",
+    "name_en": "Barbed Shield",
+    "weight": "輕型",
+    "defense": {
+      "min": 68,
+      "max": 78
+    },
+    "critical_damage": {
+      "min": 18,
+      "max": 35
+    },
+    "level": 25,
+    "strength": 65,
+    "durability": 55,
+    "max_slot": 2,
+    "block": 17,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "spikedshield",
+    "name": "刀刃刺盾",
+    "name_en": "Blade Barrier",
+    "weight": "輕型",
+    "defense": {
+      "min": 147,
+      "max": 163
+    },
+    "critical_damage": {
+      "min": 26,
+      "max": 40
+    },
+    "level": 51,
+    "strength": 118,
+    "durability": 83,
+    "max_slot": 3,
+    "block": 20,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "towershield",
+    "name": "塔盾",
+    "name_en": "Tower Shield",
+    "weight": "重型",
+    "defense": {
+      "min": 22,
+      "max": 25
+    },
+    "critical_damage": {
+      "min": 1,
+      "max": 5
+    },
+    "level": 0,
+    "strength": 75,
+    "durability": 60,
+    "max_slot": 3,
+    "block": 24,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "towershield",
+    "name": "大盾",
+    "name_en": "Pavise",
+    "weight": "重型",
+    "defense": {
+      "min": 68,
+      "max": 78
+    },
+    "critical_damage": {
+      "min": 10,
+      "max": 17
+    },
+    "level": 25,
+    "strength": 133,
+    "durability": 72,
+    "max_slot": 3,
+    "block": 24,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "towershield",
+    "name": "塔盾",
+    "name_en": "Aegis",
+    "weight": "重型",
+    "defense": {
+      "min": 145,
+      "max": 161
+    },
+    "critical_damage": {
+      "min": 18,
+      "max": 28
+    },
+    "level": 59,
+    "strength": 219,
+    "durability": 92,
+    "max_slot": 4,
+    "block": 24,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "boneshield",
+    "name": "白骨盾牌",
+    "name_en": "Bone Shield",
+    "weight": "輕型",
+    "defense": {
+      "min": 10,
+      "max": 30
+    },
+    "critical_damage": {
+      "min": 3,
+      "max": 6
+    },
+    "level": 0,
+    "strength": 25,
+    "durability": 40,
+    "max_slot": 2,
+    "block": 20,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "boneshield",
+    "name": "冷酷之盾",
+    "name_en": "Grim Shield",
+    "weight": "輕型",
+    "defense": {
+      "min": 50,
+      "max": 150
+    },
+    "critical_damage": {
+      "min": 14,
+      "max": 20
+    },
+    "level": 25,
+    "strength": 58,
+    "durability": 70,
+    "max_slot": 2,
+    "block": 20,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "boneshield",
+    "name": "洞穴巨魔巢穴骨盾",
+    "name_en": "Troll Nest",
+    "weight": "輕型",
+    "defense": {
+      "min": 158,
+      "max": 173
+    },
+    "critical_damage": {
+      "min": 24,
+      "max": 38
+    },
+    "level": 57,
+    "strength": 106,
+    "durability": 74,
+    "max_slot": 3,
+    "block": 20,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "gothicshield",
+    "name": "哥德盾牌",
+    "name_en": "Gothic Shield",
+    "weight": "中型",
+    "defense": {
+      "min": 30,
+      "max": 35
+    },
+    "critical_damage": {
+      "min": 2,
+      "max": 6
+    },
+    "level": 0,
+    "strength": 60,
+    "durability": 40,
+    "max_slot": 3,
+    "block": 16,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "gothicshield",
+    "name": "古代之盾",
+    "name_en": "Ancient Shield",
+    "weight": "中型",
+    "defense": {
+      "min": 80,
+      "max": 93
+    },
+    "critical_damage": {
+      "min": 12,
+      "max": 16
+    },
+    "level": 25,
+    "strength": 110,
+    "durability": 80,
+    "max_slot": 3,
+    "block": 16,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "shield",
+    "group": "gothicshield",
+    "name": "保護盾牌",
+    "name_en": "Ward",
+    "weight": "中型",
+    "defense": {
+      "min": 153,
+      "max": 170
+    },
+    "critical_damage": {
+      "min": 11,
+      "max": 35
+    },
+    "level": 63,
+    "strength": 185,
+    "durability": 100,
+    "max_slot": 4,
+    "block": 24,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "circlet",
+    "group": "circlet",
+    "name": "頭飾",
+    "name_en": "Circlet",
+    "weight": "",
+    "defense": {
+      "min": 20,
+      "max": 30
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 16,
+    "strength": null,
+    "durability": 35,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "circlet",
+    "group": "coronet",
+    "name": "寶冠",
+    "name_en": "Coronet",
+    "weight": "",
+    "defense": {
+      "min": 30,
+      "max": 40
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 39,
+    "strength": null,
+    "durability": 30,
+    "max_slot": 2,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "circlet",
+    "group": "tiara",
+    "name": "三重冠",
+    "name_en": "Tiara",
+    "weight": "",
+    "defense": {
+      "min": 40,
+      "max": 50
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 52,
+    "strength": null,
+    "durability": 25,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "circlet",
+    "group": "diadem",
+    "name": "權冠",
+    "name_en": "Diadem",
+    "weight": "",
+    "defense": {
+      "min": 50,
+      "max": 60
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 64,
+    "strength": null,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": ""
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "jawbonecap",
+    "name": "顎骨帽",
+    "name_en": "Jawbone Cap",
+    "weight": "",
+    "defense": {
+      "min": 10,
+      "max": 15
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 3,
+    "strength": 25,
+    "durability": 25,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "jawbonecap",
+    "name": "顎骨面甲",
+    "name_en": "Jawbone Visor",
+    "weight": "",
+    "defense": {
+      "min": 55,
+      "max": 68
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 58,
+    "durability": 25,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "jawbonecap",
+    "name": "屠殺頭盔",
+    "name_en": "Carnage Helm",
+    "weight": "",
+    "defense": {
+      "min": 102,
+      "max": 147
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 45,
+    "strength": 106,
+    "durability": 25,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "fangedhelm",
+    "name": "尖牙盔",
+    "name_en": "Fanged Helm",
+    "weight": "",
+    "defense": {
+      "min": 15,
+      "max": 20
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 6,
+    "strength": 35,
+    "durability": 35,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "fangedhelm",
+    "name": "獅頭尖盔",
+    "name_en": "Lion Helm",
+    "weight": "",
+    "defense": {
+      "min": 63,
+      "max": 75
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 29,
+    "strength": 73,
+    "durability": 35,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "fangedhelm",
+    "name": "暴怒面甲",
+    "name_en": "Fury Visor",
+    "weight": "",
+    "defense": {
+      "min": 105,
+      "max": 150
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 49,
+    "strength": 129,
+    "durability": 35,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "hornedhelm",
+    "name": "角盔",
+    "name_en": "Horned Helm",
+    "weight": "",
+    "defense": {
+      "min": 25,
+      "max": 30
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 12,
+    "strength": 45,
+    "durability": 45,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "hornedhelm",
+    "name": "狂怒面具刺盔",
+    "name_en": "Rage Mask",
+    "weight": "",
+    "defense": {
+      "min": 78,
+      "max": 90
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 29,
+    "strength": 88,
+    "durability": 45,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "hornedhelm",
+    "name": "毀滅者頭盔",
+    "name_en": "Destroyer Helm",
+    "weight": "",
+    "defense": {
+      "min": 111,
+      "max": 156
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 54,
+    "strength": 151,
+    "durability": 45,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "assualthelm",
+    "name": "突擊盔",
+    "name_en": "Assault Helmet",
+    "weight": "",
+    "defense": {
+      "min": 30,
+      "max": 35
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 15,
+    "strength": 55,
+    "durability": 50,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "assualthelm",
+    "name": "蠻族頭盔",
+    "name_en": "Savage Helmet",
+    "weight": "",
+    "defense": {
+      "min": 85,
+      "max": 98
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 32,
+    "strength": 103,
+    "durability": 50,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "assualthelm",
+    "name": "征服者皇冠面甲",
+    "name_en": "Conqueror Crown",
+    "weight": "",
+    "defense": {
+      "min": 114,
+      "max": 159
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 60,
+    "strength": 174,
+    "durability": 50,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "avengerguard",
+    "name": "復仇者之盔",
+    "name_en": "Avenger Guard",
+    "weight": "",
+    "defense": {
+      "min": 35,
+      "max": 50
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 18,
+    "strength": 65,
+    "durability": 55,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "avengerguard",
+    "name": "殺手防護面甲",
+    "name_en": "Slayer Guard",
+    "weight": "",
+    "defense": {
+      "min": 93,
+      "max": 120
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 40,
+    "strength": 118,
+    "durability": 55,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "barbarianhelm",
+    "group": "avengerguard",
+    "name": "守護者皇冠面甲",
+    "name_en": "Guardian Crown",
+    "weight": "",
+    "defense": {
+      "min": 117,
+      "max": 168
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 65,
+    "strength": 196,
+    "durability": 55,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "barbarian"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "wolfhead",
+    "name": "狼頭",
+    "name_en": "Wolf Head",
+    "weight": "",
+    "defense": {
+      "min": 8,
+      "max": 11
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 3,
+    "strength": 16,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "wolfhead",
+    "name": "阿爾發頭盔",
+    "name_en": "Alpha Helm",
+    "weight": "",
+    "defense": {
+      "min": 52,
+      "max": 62
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 26,
+    "strength": 44,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "wolfhead",
+    "name": "血腥之靈",
+    "name_en": "Blood Spirit",
+    "weight": "",
+    "defense": {
+      "min": 101,
+      "max": 145
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 46,
+    "strength": 86,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "falconmask",
+    "name": "飛鷹頭盔",
+    "name_en": "Hawk Helm",
+    "weight": "",
+    "defense": {
+      "min": 4,
+      "max": 15
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 6,
+    "strength": 20,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "falconmask",
+    "name": "獅鷲獸頭帶",
+    "name_en": "Griffon Headdress",
+    "weight": "",
+    "defense": {
+      "min": 46,
+      "max": 68
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 30,
+    "strength": 50,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "falconmask",
+    "name": "太陽之靈",
+    "name_en": "Sun Spirit",
+    "weight": "",
+    "defense": {
+      "min": 98,
+      "max": 147
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 51,
+    "strength": 95,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "antlers",
+    "name": "鹿角",
+    "name_en": "Antlers",
+    "weight": "",
+    "defense": {
+      "min": 18,
+      "max": 24
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 12,
+    "strength": 24,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "antlers",
+    "name": "獵人的偽裝",
+    "name_en": "Hunter's Guise",
+    "weight": "",
+    "defense": {
+      "min": 67,
+      "max": 81
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 29,
+    "strength": 56,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "antlers",
+    "name": "大地之靈",
+    "name_en": "Earth Spirit",
+    "weight": "",
+    "defense": {
+      "min": 107,
+      "max": 152
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 57,
+    "strength": 104,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "hawkhelm",
+    "name": "獵鷹面具",
+    "name_en": "Falcon Mask",
+    "weight": "",
+    "defense": {
+      "min": 12,
+      "max": 28
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 15,
+    "strength": 28,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "hawkhelm",
+    "name": "神聖羽毛頭帶",
+    "name_en": "Sacred Feathers",
+    "weight": "",
+    "defense": {
+      "min": 58,
+      "max": 87
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 32,
+    "strength": 62,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "hawkhelm",
+    "name": "天空之靈",
+    "name_en": "Sky Spirit",
+    "weight": "",
+    "defense": {
+      "min": 103,
+      "max": 155
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 62,
+    "strength": 113,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "spiritmask",
+    "name": "靈魂狼頭面具",
+    "name_en": "Spirit Mask",
+    "weight": "",
+    "defense": {
+      "min": 22,
+      "max": 35
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 18,
+    "strength": 30,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "spiritmask",
+    "name": "圖騰面具狼盔",
+    "name_en": "Totemic Mask",
+    "weight": "",
+    "defense": {
+      "min": 73,
+      "max": 98
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 41,
+    "strength": 65,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "druidpeltshelm",
+    "group": "spiritmask",
+    "name": "幽夢之靈",
+    "name_en": "Dream Spirit",
+    "weight": "",
+    "defense": {
+      "min": 109,
+      "max": 159
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 66,
+    "strength": 118,
+    "durability": 20,
+    "max_slot": 3,
+    "block": null,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "druld"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "targe",
+    "name": "小盾",
+    "name_en": "Targe",
+    "weight": "",
+    "defense": {
+      "min": 8,
+      "max": 12
+    },
+    "critical_damage": {
+      "min": 2,
+      "max": 6
+    },
+    "level": 3,
+    "strength": 16,
+    "durability": 20,
+    "max_slot": 4,
+    "block": 10,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "targe",
+    "name": "亞克南圓盾",
+    "name_en": "Akaran Targe",
+    "weight": "",
+    "defense": {
+      "min": 101,
+      "max": 125
+    },
+    "critical_damage": {
+      "min": 12,
+      "max": 16
+    },
+    "level": 26,
+    "strength": 44,
+    "durability": 20,
+    "max_slot": 4,
+    "block": 10,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "targe",
+    "name": "神聖小盾",
+    "name_en": "Sacred Targe",
+    "weight": "",
+    "defense": {
+      "min": 126,
+      "max": 158
+    },
+    "critical_damage": {
+      "min": 22,
+      "max": 70
+    },
+    "level": 47,
+    "strength": 86,
+    "durability": 45,
+    "max_slot": 4,
+    "block": 30,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "rondache",
+    "name": "輕圓盾",
+    "name_en": "Rondache",
+    "weight": "",
+    "defense": {
+      "min": 10,
+      "max": 18
+    },
+    "critical_damage": {
+      "min": 2,
+      "max": 8
+    },
+    "level": 6,
+    "strength": 26,
+    "durability": 30,
+    "max_slot": 4,
+    "block": 15,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "rondache",
+    "name": "亞克南輕圓盾",
+    "name_en": "Akaran Rondache",
+    "weight": "",
+    "defense": {
+      "min": 113,
+      "max": 137
+    },
+    "critical_damage": {
+      "min": 15,
+      "max": 20
+    },
+    "level": 30,
+    "strength": 59,
+    "durability": 30,
+    "max_slot": 4,
+    "block": 15,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "rondache",
+    "name": "神聖輕圓盾",
+    "name_en": "Sacred Rondache",
+    "weight": "",
+    "defense": {
+      "min": 138,
+      "max": 164
+    },
+    "critical_damage": {
+      "min": 35,
+      "max": 58
+    },
+    "level": 52,
+    "strength": 109,
+    "durability": 68,
+    "max_slot": 4,
+    "block": 28,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "heraldicshield",
+    "name": "紋章盾",
+    "name_en": "Heraldic Shield",
+    "weight": "",
+    "defense": {
+      "min": 16,
+      "max": 26
+    },
+    "critical_damage": {
+      "min": 3,
+      "max": 9
+    },
+    "level": 12,
+    "strength": 40,
+    "durability": 40,
+    "max_slot": 4,
+    "block": 20,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "heraldicshield",
+    "name": "防護者盾牌",
+    "name_en": "Protector Shield",
+    "weight": "",
+    "defense": {
+      "min": 129,
+      "max": 153
+    },
+    "critical_damage": {
+      "min": 18,
+      "max": 24
+    },
+    "level": 34,
+    "strength": 69,
+    "durability": 40,
+    "max_slot": 4,
+    "block": 20,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "heraldicshield",
+    "name": "庫拉斯特之盾",
+    "name_en": "Kurast Shield",
+    "weight": "",
+    "defense": {
+      "min": 154,
+      "max": 172
+    },
+    "critical_damage": {
+      "min": 10,
+      "max": 82
+    },
+    "level": 55,
+    "strength": 124,
+    "durability": 55,
+    "max_slot": 4,
+    "block": 25,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "aerinshield",
+    "name": "艾文之盾",
+    "name_en": "Aerin Shield",
+    "weight": "",
+    "defense": {
+      "min": 26,
+      "max": 36
+    },
+    "critical_damage": {
+      "min": 4,
+      "max": 10
+    },
+    "level": 15,
+    "strength": 50,
+    "durability": 50,
+    "max_slot": 4,
+    "block": 22,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "aerinshield",
+    "name": "飾金盾牌",
+    "name_en": "Gilded Shield",
+    "weight": "",
+    "defense": {
+      "min": 144,
+      "max": 168
+    },
+    "critical_damage": {
+      "min": 20,
+      "max": 28
+    },
+    "level": 38,
+    "strength": 89,
+    "durability": 50,
+    "max_slot": 4,
+    "block": 22,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "aerinshield",
+    "name": "撒卡蘭姆盾牌",
+    "name_en": "Zakarum Shield",
+    "weight": "",
+    "defense": {
+      "min": 169,
+      "max": 193
+    },
+    "critical_damage": {
+      "min": 46,
+      "max": 46
+    },
+    "level": 61,
+    "strength": 142,
+    "durability": 65,
+    "max_slot": 4,
+    "block": 22,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "crownshield",
+    "name": "皇冠之盾",
+    "name_en": "Crown Shield",
+    "weight": "",
+    "defense": {
+      "min": 30,
+      "max": 40
+    },
+    "critical_damage": {
+      "min": 4,
+      "max": 12
+    },
+    "level": 18,
+    "strength": 65,
+    "durability": 60,
+    "max_slot": 4,
+    "block": 25,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "crownshield",
+    "name": "皇家盾牌",
+    "name_en": "Royal Shield",
+    "weight": "",
+    "defense": {
+      "min": 156,
+      "max": 181
+    },
+    "critical_damage": {
+      "min": 24,
+      "max": 32
+    },
+    "level": 41,
+    "strength": 114,
+    "durability": 60,
+    "max_slot": 4,
+    "block": 25,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "paladinshield",
+    "group": "crownshield",
+    "name": "旋風盾",
+    "name_en": "Vortex Shield",
+    "weight": "",
+    "defense": {
+      "min": 182,
+      "max": 225
+    },
+    "critical_damage": {
+      "min": 5,
+      "max": 87
+    },
+    "level": 66,
+    "strength": 148,
+    "durability": 90,
+    "max_slot": 4,
+    "block": 19,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "paladin"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "preservedhead",
+    "name": "防腐之首",
+    "name_en": "Preserved Head",
+    "weight": "",
+    "defense": {
+      "min": 2,
+      "max": 5
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 3,
+    "strength": 12,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 3,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "preservedhead",
+    "name": "木乃伊印記",
+    "name_en": "Mummified Trophy",
+    "weight": "",
+    "defense": {
+      "min": 38,
+      "max": 48
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 24,
+    "strength": 38,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 3,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "preservedhead",
+    "name": "隨侍之骨",
+    "name_en": "Minion Skull",
+    "weight": "",
+    "defense": {
+      "min": 95,
+      "max": 139
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 44,
+    "strength": 77,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 3,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "zombiehead",
+    "name": "僵屍之首",
+    "name_en": "Zombie Head",
+    "weight": "",
+    "defense": {
+      "min": 4,
+      "max": 8
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 6,
+    "strength": 14,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 5,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "zombiehead",
+    "name": "物神印記",
+    "name_en": "Fetish Trophy",
+    "weight": "",
+    "defense": {
+      "min": 41,
+      "max": 52
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 29,
+    "strength": 41,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 5,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "zombiehead",
+    "name": "地獄爪牙之骨",
+    "name_en": "Hellspawn Skull",
+    "weight": "",
+    "defense": {
+      "min": 96,
+      "max": 141
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 50,
+    "strength": 82,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 5,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "unravellerhead",
+    "name": "揭露者之首",
+    "name_en": "Unraveller Head",
+    "weight": "",
+    "defense": {
+      "min": 6,
+      "max": 10
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 12,
+    "strength": 18,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 8,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "unravellerhead",
+    "name": "司事印記",
+    "name_en": "Sexton Trophy",
+    "weight": "",
+    "defense": {
+      "min": 44,
+      "max": 55
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 33,
+    "strength": 47,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 8,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "unravellerhead",
+    "name": "監視者之骨",
+    "name_en": "Overseer Skull",
+    "weight": "",
+    "defense": {
+      "min": 98,
+      "max": 142
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 49,
+    "strength": 91,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 8,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "gargoylehead",
+    "name": "石像鬼之首",
+    "name_en": "Gargoyle Head",
+    "weight": "",
+    "defense": {
+      "min": 10,
+      "max": 16
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 15,
+    "strength": 20,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 10,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "gargoylehead",
+    "name": "領唱者印記",
+    "name_en": "Cantor Trophy",
+    "weight": "",
+    "defense": {
+      "min": 50,
+      "max": 64
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 36,
+    "strength": 50,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 10,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "gargoylehead",
+    "name": "女妖之骨",
+    "name_en": "Succubus Skull",
+    "weight": "",
+    "defense": {
+      "min": 100,
+      "max": 146
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 60,
+    "strength": 95,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 10,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "demonhead",
+    "name": "惡魔之首",
+    "name_en": "Demon Head",
+    "weight": "",
+    "defense": {
+      "min": 15,
+      "max": 20
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 18,
+    "strength": 25,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 12,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "demonhead",
+    "name": "祭司印記",
+    "name_en": "Heirophant Trophy",
+    "weight": "",
+    "defense": {
+      "min": 58,
+      "max": 70
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 40,
+    "strength": 58,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 12,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  },
+  {
+    "type": "armor",
+    "part": "ncershrunkenhead",
+    "group": "demonhead",
+    "name": "血王之骨",
+    "name_en": "Bloodlord Skull",
+    "weight": "",
+    "defense": {
+      "min": 103,
+      "max": 148
+    },
+    "critical_damage": {
+      "min": null,
+      "max": null
+    },
+    "level": 65,
+    "strength": 106,
+    "durability": 20,
+    "max_slot": 2,
+    "block": 12,
+    "damage_reduction": null,
+    "capacity": null,
+    "assassin_kick_damage": {
+      "min": null,
+      "max": null
+    },
+    "limit": "necromancer"
+  }
+]

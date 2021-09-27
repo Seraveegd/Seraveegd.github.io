@@ -1,0 +1,9 @@
+<div [ngClass]="'title'">普通裝備</div>
+<div [ngClass]="'rwords'">
+  <div [ngClass]="'list'">
+    <span>分類</span>
+    <span><a [routerLink]="['armor']" (click)="clink('1')" [ngClass]="{'active': selected === '1'}">防具</a></span>
+    <span><a (click)="clink('2')" [ngClass]="{'active': selected === '2'}">武器</a></span>
+  </div>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,244 @@
+<div [ngClass]="'title'">{{ type }}:{{ type_detail}}</div>
+<div *ngIf="armors | async; let items">
+  <ng-container *ngFor="let td of toArray(type_detail)">
+    <ng-container [ngSwitch]="td">
+      <ng-container *ngSwitchCase="['helmet', 'barbarianhelm', 'druidpeltshelm', 'barbarian', 'druld'].includes(td) ? td : !td">
+        <div [ngClass]="'title'">{{ parts[td] }}</div>
+        <table [ngClass]="'armors'">
+          <thead>
+            <th>圖片</th>
+            <th>名稱</th>
+            <th>防禦</th>
+            <th>需要等級</th>
+            <th>需要力量</th>
+            <th>耐久度</th>
+            <th>最大鑲孔數</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
+              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+              <td>{{ item.name }}<br>({{ item.name_en }})</td>
+              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.level }}</td>
+              <td>{{ item.strength }}</td>
+              <td>{{ item.durability }}</td>
+              <td>{{ item.max_slot }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+      <ng-container *ngSwitchCase="['armor'].includes(td) ? td : !td">
+        <div [ngClass]="'title'">{{ parts[td] }}</div>
+        <table [ngClass]="'armors'">
+          <thead>
+            <th>圖片</th>
+            <th>名稱</th>
+            <th>重量</th>
+            <th>防禦</th>
+            <th>需要等級</th>
+            <th>需要力量</th>
+            <th>耐久度</th>
+            <th>最大鑲孔數</th>
+            <th>傷害減少</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
+              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+              <td>{{ item.name }}<br>({{ item.name_en }})</td>
+              <td>{{ item.weight }}</td>
+              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.level }}</td>
+              <td>{{ item.strength }}</td>
+              <td>{{ item.durability }}</td>
+              <td>{{ item.max_slot }}</td>
+              <td>{{ item.damage_reduction }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+      <ng-container *ngSwitchCase="['belt'].includes(td) ? td : !td">
+        <div [ngClass]="'title'">{{ parts[td] }}</div>
+        <table [ngClass]="'armors'">
+          <thead>
+            <th>圖片</th>
+            <th>名稱</th>
+            <th>防禦</th>
+            <th>需要等級</th>
+            <th>需要力量</th>
+            <th>耐久度</th>
+            <th>容量格數</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
+              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+              <td>{{ item.name }}<br>({{ item.name_en }})</td>
+              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.level }}</td>
+              <td>{{ item.strength }}</td>
+              <td>{{ item.durability }}</td>
+              <td>{{ item.capacity }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+      <ng-container *ngSwitchCase="['glove'].includes(td) ? td : !td">
+        <div [ngClass]="'title'">{{ parts[td] }}</div>
+        <table [ngClass]="'armors'">
+          <thead>
+            <th>圖片</th>
+            <th>名稱</th>
+            <th>防禦</th>
+            <th>需要等級</th>
+            <th>需要力量</th>
+            <th>耐久度</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
+              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+              <td>{{ item.name }}<br>({{ item.name_en }})</td>
+              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.level }}</td>
+              <td>{{ item.strength }}</td>
+              <td>{{ item.durability }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+      <ng-container *ngSwitchCase="['boot'].includes(td) ? td : !td">
+        <div [ngClass]="'title'">{{ parts[td] }}</div>
+        <table [ngClass]="'armors'">
+          <thead>
+            <th>圖片</th>
+            <th>名稱</th>
+            <th>防禦</th>
+            <th>需要等級</th>
+            <th>需要力量</th>
+            <th>耐久度</th>
+            <th>刺客踢擊傷害</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
+              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+              <td>{{ item.name }}<br>({{ item.name_en }})</td>
+              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.level }}</td>
+              <td>{{ item.strength }}</td>
+              <td>{{ item.durability }}</td>
+              <td>{{ item.assassin_kick_damage.min }}&nbsp;-&nbsp;{{ item.assassin_kick_damage.max }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+      <ng-container *ngSwitchCase="['shield'].includes(td) ? td : !td">
+        <div [ngClass]="'title'">{{ parts[td] }}</div>
+        <table [ngClass]="'armors'">
+          <thead>
+            <th>圖片</th>
+            <th>名稱</th>
+            <th>重量</th>
+            <th>防禦</th>
+            <th>重擊傷害</th>
+            <th>需要等級</th>
+            <th>需要力量</th>
+            <th>耐久度</th>
+            <th>最大鑲孔數</th>
+            <th>格檔率(%)</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
+              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+              <td>{{ item.name }}<br>({{ item.name_en }})</td>
+              <td>{{ item.weight }}</td>
+              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.critical_damage.min }}&nbsp;-&nbsp;{{ item.critical_damage.max }}</td>
+              <td>{{ item.level }}</td>
+              <td>{{ item.strength }}</td>
+              <td>{{ item.durability }}</td>
+              <td>{{ item.max_slot }}</td>
+              <td>{{ item.block }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+      <ng-container *ngSwitchCase="['paladinshield', 'paladin'].includes(td) ? td : !td">
+        <div [ngClass]="'title'">{{ parts[td] }}</div>
+        <table [ngClass]="'armors'">
+          <thead>
+            <th>圖片</th>
+            <th>名稱</th>
+            <th>防禦</th>
+            <th>重擊傷害</th>
+            <th>需要等級</th>
+            <th>需要力量</th>
+            <th>耐久度</th>
+            <th>最大鑲孔數</th>
+            <th>格檔率(%)</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
+              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+              <td>{{ item.name }}<br>({{ item.name_en }})</td>
+              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.critical_damage.min }}&nbsp;-&nbsp;{{ item.critical_damage.max }}</td>
+              <td>{{ item.level }}</td>
+              <td>{{ item.strength }}</td>
+              <td>{{ item.durability }}</td>
+              <td>{{ item.max_slot }}</td>
+              <td>{{ item.block }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+      <ng-container *ngSwitchCase="['ncershrunkenhead', 'necromancer'].includes(td) ? td : !td">
+        <div [ngClass]="'title'">{{ parts[td] }}</div>
+        <table [ngClass]="'armors'">
+          <thead>
+            <th>圖片</th>
+            <th>名稱</th>
+            <th>防禦</th>
+            <th>需要等級</th>
+            <th>需要力量</th>
+            <th>耐久度</th>
+            <th>最大鑲孔數</th>
+            <th>格檔率(%)</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
+              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+              <td>{{ item.name }}<br>({{ item.name_en }})</td>
+              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.level }}</td>
+              <td>{{ item.strength }}</td>
+              <td>{{ item.durability }}</td>
+              <td>{{ item.max_slot }}</td>
+              <td>{{ item.block }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+      <ng-container *ngSwitchCase="['circlet'].includes(td) ? td : !td">
+        <div [ngClass]="'title'">{{ parts[td] }}</div>
+        <table [ngClass]="'armors'">
+          <thead>
+            <th>圖片</th>
+            <th>名稱</th>
+            <th>防禦</th>
+            <th>需要等級</th>
+            <th>耐久度</th>
+            <th>最大鑲孔數</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index" [ngClass]="'circlet'">
+              <td><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+              <td>{{ item.name }}<br>({{ item.name_en }})</td>
+              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.level }}</td>
+              <td>{{ item.durability }}</td>
+              <td>{{ item.max_slot }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+</div>
