@@ -1,8 +1,9 @@
 <div [ngClass]="'title'">{{ type }}:{{ type_detail}}</div>
-<div *ngIf="armors | async; let items">
-  <ng-container *ngFor="let td of toArray(type_detail)">
+<div *ngIf="armors | async | filternormalarmor: type : type_detail; let items">
+  <ng-container *ngFor="let td of (partNeedtofind.includes(type_detail) ? getUniqueKind(items) : toArray(type_detail))">
     <ng-container [ngSwitch]="td">
-      <ng-container *ngSwitchCase="['helmet', 'barbarianhelm', 'druidpeltshelm', 'barbarian', 'druld'].includes(td) ? td : !td">
+      <ng-container
+        *ngSwitchCase="['helmet', 'barbarianhelm', 'druidpeltshelm', 'barbarian', 'druld'].includes(td) ? td : !td">
         <div [ngClass]="'title'">{{ parts[td] }}</div>
         <table [ngClass]="'armors'">
           <thead>
@@ -15,8 +16,15 @@
             <th>最大鑲孔數</th>
           </thead>
           <tbody>
-            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
-              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+            <tr
+              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
+              <ng-container *ngIf="type !== 'max_slot'">
+                <td *ngIf="i%3 === 0" rowspan="3"><img
+                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
+              <ng-container *ngIf="type === 'max_slot'">
+                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
               <td>{{ item.level }}</td>
@@ -42,10 +50,17 @@
             <th>傷害減少</th>
           </thead>
           <tbody>
-            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
-              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+            <tr
+              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
+              <ng-container *ngIf="type !== 'max_slot'">
+                <td *ngIf="i%3 === 0" rowspan="3"><img
+                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
+              <ng-container *ngIf="type === 'max_slot'">
+                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
-              <td>{{ item.weight }}</td>
+              <td>{{ weights[item.weight] }}</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
               <td>{{ item.level }}</td>
               <td>{{ item.strength }}</td>
@@ -69,8 +84,15 @@
             <th>容量格數</th>
           </thead>
           <tbody>
-            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
-              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+            <tr
+              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
+              <ng-container *ngIf="type !== 'max_slot'">
+                <td *ngIf="i%3 === 0" rowspan="3"><img
+                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
+              <ng-container *ngIf="type === 'max_slot'">
+                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
               <td>{{ item.level }}</td>
@@ -93,8 +115,15 @@
             <th>耐久度</th>
           </thead>
           <tbody>
-            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
-              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+            <tr
+              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
+              <ng-container *ngIf="type !== 'max_slot'">
+                <td *ngIf="i%3 === 0" rowspan="3"><img
+                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
+              <ng-container *ngIf="type === 'max_slot'">
+                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
               <td>{{ item.level }}</td>
@@ -117,8 +146,15 @@
             <th>刺客踢擊傷害</th>
           </thead>
           <tbody>
-            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
-              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+            <tr
+              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
+              <ng-container *ngIf="type !== 'max_slot'">
+                <td *ngIf="i%3 === 0" rowspan="3"><img
+                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
+              <ng-container *ngIf="type === 'max_slot'">
+                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
               <td>{{ item.level }}</td>
@@ -145,10 +181,17 @@
             <th>格檔率(%)</th>
           </thead>
           <tbody>
-            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
-              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+            <tr
+              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
+              <ng-container *ngIf="type !== 'max_slot'">
+                <td *ngIf="i%3 === 0" rowspan="3"><img
+                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
+              <ng-container *ngIf="type === 'max_slot'">
+                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
-              <td>{{ item.weight }}</td>
+              <td>{{ weights[item.weight] }}</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
               <td>{{ item.critical_damage.min }}&nbsp;-&nbsp;{{ item.critical_damage.max }}</td>
               <td>{{ item.level }}</td>
@@ -175,8 +218,15 @@
             <th>格檔率(%)</th>
           </thead>
           <tbody>
-            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
-              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+            <tr
+              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
+              <ng-container *ngIf="type !== 'max_slot'">
+                <td *ngIf="i%3 === 0" rowspan="3"><img
+                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
+              <ng-container *ngIf="type === 'max_slot'">
+                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
               <td>{{ item.critical_damage.min }}&nbsp;-&nbsp;{{ item.critical_damage.max }}</td>
@@ -203,8 +253,15 @@
             <th>格檔率(%)</th>
           </thead>
           <tbody>
-            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index">
-              <td *ngIf="i%3 === 0" rowspan="3"><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+            <tr
+              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
+              <ng-container *ngIf="type !== 'max_slot'">
+                <td *ngIf="i%3 === 0" rowspan="3"><img
+                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
+              <ng-container *ngIf="type === 'max_slot'">
+                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
+              </ng-container>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
               <td>{{ item.level }}</td>
@@ -228,8 +285,10 @@
             <th>最大鑲孔數</th>
           </thead>
           <tbody>
-            <tr *ngFor="let item of items | filternormalarmor: type : td; let i = index" [ngClass]="'circlet'">
-              <td><img [src]="'/assets/images/items/normal/' + item.part + '/' + item.group + '.png'"></td>
+            <tr
+              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index"
+              [ngClass]="'circlet'">
+              <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
               <td>{{ item.level }}</td>

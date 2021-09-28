@@ -1,0 +1,9054 @@
+[
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "shortsword",
+    "name": "短劍",
+    "name_en": "Short Sword",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 2,
+      "max": 7
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "shortsword",
+    "name": "羅馬短劍",
+    "name_en": "Gladius",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 8,
+      "max": 22
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 18,
+    "strength": 25,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "shortsword",
+    "name": "短劍",
+    "name_en": "Falcata",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 31,
+      "max": 59
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 42,
+    "strength": 150,
+    "agile": 88,
+    "range": 1,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "scimitar",
+    "name": "彎刀",
+    "name_en": "Scimitar",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 2,
+      "max": 6
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 21,
+    "range": 1,
+    "quantity": null,
+    "durability": 22,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "scimitar",
+    "name": "微彎劍",
+    "name_en": "Cutlass",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 8,
+      "max": 21
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 25,
+    "agile": 52,
+    "range": 1,
+    "quantity": null,
+    "durability": 22,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -30,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "scimitar",
+    "name": "土耳其劍",
+    "name_en": "Ataghan",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 26,
+      "max": 46
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 45,
+    "strength": 135,
+    "agile": 95,
+    "range": 1,
+    "quantity": null,
+    "durability": 22,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "saber",
+    "name": "軍刀",
+    "name_en": "Sabre",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 3,
+      "max": 8
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 25,
+    "agile": 25,
+    "range": 1,
+    "quantity": null,
+    "durability": 32,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "saber",
+    "name": "虛偽之刃",
+    "name_en": "Shamshir",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 10,
+      "max": 24
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 23,
+    "strength": 58,
+    "agile": 58,
+    "range": 1,
+    "quantity": null,
+    "durability": 32,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "saber",
+    "name": "優雅之劍",
+    "name_en": "Elegant Blade",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 33,
+      "max": 45
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 47,
+    "strength": 109,
+    "agile": 122,
+    "range": 1,
+    "quantity": null,
+    "durability": 32,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "falchion",
+    "name": "彎形大刀",
+    "name_en": "Falchion",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 9,
+      "max": 17
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 33,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 32,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "falchion",
+    "name": "圓月彎刀",
+    "name_en": "Tulwar",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 16,
+      "max": 35
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 70,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 32,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "falchion",
+    "name": "九頭蛇刃",
+    "name_en": "Hydra Edge",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 28,
+      "max": 68
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 51,
+    "strength": 142,
+    "agile": 105,
+    "range": 1,
+    "quantity": null,
+    "durability": 32,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "crystalsword",
+    "name": "水晶劍",
+    "name_en": "Crystal Sword",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 5,
+      "max": 15
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 43,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 20,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "crystalsword",
+    "name": "空間之刃",
+    "name_en": "Dimensional Blade",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 13,
+      "max": 35
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 85,
+    "agile": 60,
+    "range": 2,
+    "quantity": null,
+    "durability": 20,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "crystalsword",
+    "name": "幻化之刃",
+    "name_en": "Phase Blade",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 31,
+      "max": 35
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 54,
+    "strength": 25,
+    "agile": 136,
+    "range": 2,
+    "quantity": null,
+    "durability": "無法破壞",
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": -30,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "broadsword",
+    "name": "闊劍",
+    "name_en": "Broad Sword",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 7,
+      "max": 14
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 48,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 32,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "broadsword",
+    "name": "戰鬥之劍",
+    "name_en": "Battle Sword",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 16,
+      "max": 34
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 92,
+    "agile": 43,
+    "range": 1,
+    "quantity": null,
+    "durability": 32,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "broadsword",
+    "name": "征服之劍",
+    "name_en": "Conquest Sword",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 37,
+      "max": 53
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 58,
+    "strength": 142,
+    "agile": 112,
+    "range": 1,
+    "quantity": null,
+    "durability": 32,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "longsword",
+    "name": "長劍",
+    "name_en": "Long Sword",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 3,
+      "max": 19
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 55,
+    "agile": 39,
+    "range": 1,
+    "quantity": null,
+    "durability": 44,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "longsword",
+    "name": "符文劍",
+    "name_en": "Rune Sword",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 10,
+      "max": 42
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 103,
+    "agile": 79,
+    "range": 1,
+    "quantity": null,
+    "durability": 44,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "longsword",
+    "name": "神秘之劍",
+    "name_en": "Cryptic Sword",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 5,
+      "max": 77
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 61,
+    "strength": 99,
+    "agile": 109,
+    "range": 2,
+    "quantity": null,
+    "durability": 44,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "warsword",
+    "name": "巨戰之劍",
+    "name_en": "War Sword",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 8,
+      "max": 20
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 71,
+    "agile": 45,
+    "range": 1,
+    "quantity": null,
+    "durability": 44,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "warsword",
+    "name": "古代之劍",
+    "name_en": "Ancient Sword",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 18,
+      "max": 43
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 127,
+    "agile": 88,
+    "range": 1,
+    "quantity": null,
+    "durability": 44,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "warsword",
+    "name": "秘儀之劍",
+    "name_en": "Mythical Sword",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 40,
+      "max": 52
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 66,
+    "strength": 147,
+    "agile": 124,
+    "range": 2,
+    "quantity": null,
+    "durability": 44,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "2hsword",
+    "name": "雙手劍",
+    "name_en": "Two-handed Sword",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 2,
+      "max": 9
+    },
+    "twoharm": {
+      "min": 8,
+      "max": 17
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 35,
+    "agile": 27,
+    "range": 3,
+    "quantity": null,
+    "durability": 44,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "2hsword",
+    "name": "斬鐵劍",
+    "name_en": "Espandon",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 8,
+      "max": 26
+    },
+    "twoharm": {
+      "min": 18,
+      "max": 40
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 73,
+    "agile": 61,
+    "range": 3,
+    "quantity": null,
+    "durability": 44,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "2hsword",
+    "name": "傳說之劍",
+    "name_en": "Legend Sword",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 20,
+      "max": 56
+    },
+    "twoharm": {
+      "min": 50,
+      "max": 94
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 44,
+    "strength": 175,
+    "agile": 100,
+    "range": 3,
+    "quantity": null,
+    "durability": 44,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": -15,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "claymore",
+    "name": "雙刃大刀",
+    "name_en": "Claymore",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 5,
+      "max": 12
+    },
+    "twoharm": {
+      "min": 13,
+      "max": 30
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 47,
+    "agile": 0,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "claymore",
+    "name": "雙刃鐮",
+    "name_en": "Dacian Falx",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 13,
+      "max": 30
+    },
+    "twoharm": {
+      "min": 26,
+      "max": 61
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 91,
+    "agile": 20,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "claymore",
+    "name": "高地之劍",
+    "name_en": "Highland Blade",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 22,
+      "max": 62
+    },
+    "twoharm": {
+      "min": 67,
+      "max": 96
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 49,
+    "strength": 171,
+    "agile": 104,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": -5,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "giantsword",
+    "name": "大劍",
+    "name_en": "Giant Sword",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 3,
+      "max": 16
+    },
+    "twoharm": {
+      "min": 9,
+      "max": 28
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 56,
+    "agile": 34,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "giantsword",
+    "name": "長牙劍",
+    "name_en": "Tusk Sword",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 10,
+      "max": 37
+    },
+    "twoharm": {
+      "min": 19,
+      "max": 58
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 104,
+    "agile": 71,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "giantsword",
+    "name": "炎魔之刃",
+    "name_en": "Balrog Blade",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 15,
+      "max": 75
+    },
+    "twoharm": {
+      "min": 55,
+      "max": 118
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 53,
+    "strength": 185,
+    "agile": 87,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "bastardsword",
+    "name": "巨劍",
+    "name_en": "Bastard Sword",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 7,
+      "max": 19
+    },
+    "twoharm": {
+      "min": 20,
+      "max": 28
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 62,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 40,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "bastardsword",
+    "name": "哥德劍",
+    "name_en": "Gothic Sword",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 14,
+      "max": 40
+    },
+    "twoharm": {
+      "min": 39,
+      "max": 60
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 113,
+    "agile": 20,
+    "range": 2,
+    "quantity": null,
+    "durability": 40,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "bastardsword",
+    "name": "冠軍之劍",
+    "name_en": "Champion Sword",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 24,
+      "max": 54
+    },
+    "twoharm": {
+      "min": 71,
+      "max": 83
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 57,
+    "strength": 163,
+    "agile": 103,
+    "range": 3,
+    "quantity": null,
+    "durability": 40,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "flamberge",
+    "name": "雙手飾劍",
+    "name_en": "Flamberge",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 9,
+      "max": 15
+    },
+    "twoharm": {
+      "min": 13,
+      "max": 26
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 70,
+    "agile": 49,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "flamberge",
+    "name": "瑞韓德之劍",
+    "name_en": "Zweihander",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 19,
+      "max": 35
+    },
+    "twoharm": {
+      "min": 29,
+      "max": 54
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 125,
+    "agile": 94,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "flamberge",
+    "name": "巨神之劍",
+    "name_en": "Colossus Sword",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 26,
+      "max": 70
+    },
+    "twoharm": {
+      "min": 61,
+      "max": 121
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 63,
+    "strength": 182,
+    "agile": 95,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "greatsword",
+    "name": "卓越之劍",
+    "name_en": "Great Sword",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 12,
+      "max": 20
+    },
+    "twoharm": {
+      "min": 25,
+      "max": 42
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 100,
+    "agile": 60,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "greatsword",
+    "name": "死刑之劍",
+    "name_en": "Executioner Sword",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 24,
+      "max": 40
+    },
+    "twoharm": {
+      "min": 47,
+      "max": 80
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 170,
+    "agile": 110,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sword",
+    "group": "greatsword",
+    "name": "巨神之刃",
+    "name_en": "Colossus Blade",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": 25,
+      "max": 65
+    },
+    "twoharm": {
+      "min": 58,
+      "max": 115
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 63,
+    "strength": 189,
+    "agile": 110,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 5,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "handaxe",
+    "name": "手斧",
+    "name_en": "Hand Axe",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 3,
+      "max": 6
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 28,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "handaxe",
+    "name": "小斧",
+    "name_en": "Hatchet",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 10,
+      "max": 21
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 19,
+    "strength": 25,
+    "agile": 25,
+    "range": 1,
+    "quantity": null,
+    "durability": 28,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "handaxe",
+    "name": "戰鉞",
+    "name_en": "Tomahawk",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 33,
+      "max": 58
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 40,
+    "strength": 125,
+    "agile": 67,
+    "range": 1,
+    "quantity": null,
+    "durability": 28,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "axe",
+    "name": "斧",
+    "name_en": "Axe",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 4,
+      "max": 11
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 32,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "axe",
+    "name": "切肉斧",
+    "name_en": "Cleaver",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 10,
+      "max": 33
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 22,
+    "strength": 68,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "axe",
+    "name": "彎月斧",
+    "name_en": "Small Crescent",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 38,
+      "max": 60
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 45,
+    "strength": 115,
+    "agile": 83,
+    "range": 2,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "doubleaxe",
+    "name": "雙刃斧",
+    "name_en": "Double Axe",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 5,
+      "max": 13
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 43,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "doubleaxe",
+    "name": "強化雙斧",
+    "name_en": "Twin Axe",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 13,
+      "max": 38
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 85,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "doubleaxe",
+    "name": "雙頭斧",
+    "name_en": "Ettin Axe",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 33,
+      "max": 66
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 52,
+    "strength": 145,
+    "agile": 45,
+    "range": 2,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "militarypick",
+    "name": "軍用鍬",
+    "name_en": "Military Pick",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 7,
+      "max": 11
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 49,
+    "agile": 33,
+    "range": 2,
+    "quantity": null,
+    "durability": 26,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "militarypick",
+    "name": "喙鉗",
+    "name_en": "Crowbill",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 14,
+      "max": 34
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 94,
+    "agile": 70,
+    "range": 2,
+    "quantity": null,
+    "durability": 26,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "militarypick",
+    "name": "戰刺",
+    "name_en": "War Spike",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 30,
+      "max": 48
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 59,
+    "strength": 133,
+    "agile": 54,
+    "range": 2,
+    "quantity": null,
+    "durability": 26,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "waraxe",
+    "name": "巨戰斧",
+    "name_en": "War Axe",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 10,
+      "max": 18
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 67,
+    "agile": 0,
+    "range": 3,
+    "quantity": null,
+    "durability": 26,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "waraxe",
+    "name": "納卡",
+    "name_en": "Naga",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 16,
+      "max": 45
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 121,
+    "agile": 0,
+    "range": 3,
+    "quantity": null,
+    "durability": 26,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "waraxe",
+    "name": "狂戰士斧",
+    "name_en": "Berserker Axe",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 24,
+      "max": 71
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 64,
+    "strength": 138,
+    "agile": 59,
+    "range": 3,
+    "quantity": null,
+    "durability": 26,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "largeaxe",
+    "name": "巨斧",
+    "name_en": "Large Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 6,
+      "max": 13
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 35,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "largeaxe",
+    "name": "軍斧",
+    "name_en": "Military Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 14,
+      "max": 34
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 73,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "largeaxe",
+    "name": "猛禽斧",
+    "name_en": "Feral Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 25,
+      "max": 123
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 42,
+    "strength": 196,
+    "agile": 0,
+    "range": 3,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": -15,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "broadaxe",
+    "name": "闊斧",
+    "name_en": "Broad Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 10,
+      "max": 18
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 48,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 35,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "broadaxe",
+    "name": "鉤斧",
+    "name_en": "Bearded Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 21,
+      "max": 49
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 92,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 35,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "broadaxe",
+    "name": "銀刃斧",
+    "name_en": "Silver Edged Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 62,
+      "max": 110
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 48,
+    "strength": 166,
+    "agile": 65,
+    "range": 3,
+    "quantity": null,
+    "durability": 35,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "battleaxe",
+    "name": "戰鬥斧",
+    "name_en": "Battle Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 12,
+      "max": 32
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 54,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 40,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "battleaxe",
+    "name": "戰鬥斧",
+    "name_en": "Tabar",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 24,
+      "max": 77
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 101,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 40,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "battleaxe",
+    "name": "斬首斧",
+    "name_en": "Decapitator",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 49,
+      "max": 137
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 54,
+    "strength": 189,
+    "agile": 33,
+    "range": 3,
+    "quantity": null,
+    "durability": 40,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "greataxe",
+    "name": "卓越之斧",
+    "name_en": "Great Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 9,
+      "max": 30
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 63,
+    "agile": 39,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "greataxe",
+    "name": "哥德之斧",
+    "name_en": "Gothic Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 18,
+      "max": 70
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 115,
+    "agile": 79,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "greataxe",
+    "name": "豪傑斧",
+    "name_en": "Champion Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 59,
+      "max": 94
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 61,
+    "strength": 167,
+    "agile": 59,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "giantaxe",
+    "name": "大斧",
+    "name_en": "Giant Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 22,
+      "max": 45
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 70,
+    "agile": 0,
+    "range": 4,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "giantaxe",
+    "name": "古代之斧",
+    "name_en": "Ancient Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 43,
+      "max": 85
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 125,
+    "agile": 0,
+    "range": 4,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "axe",
+    "group": "giantaxe",
+    "name": "榮光之斧",
+    "name_en": "Glorious Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 60,
+      "max": 124
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 66,
+    "strength": 164,
+    "agile": 55,
+    "range": 4,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "bardiche",
+    "name": "大砍刀",
+    "name_en": "Bardiche",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 1,
+      "max": 27
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 40,
+    "agile": 0,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "bardiche",
+    "name": "羅佳伯斧",
+    "name_en": "Lochaber Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 6,
+      "max": 58
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 21,
+    "strength": 80,
+    "agile": 0,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "bardiche",
+    "name": "食人魔之斧",
+    "name_en": "Ogre Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 28,
+      "max": 145
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 45,
+    "strength": 195,
+    "agile": 75,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "voulge",
+    "name": "鉤鐮槍",
+    "name_en": "Voulge",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 6,
+      "max": 21
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 50,
+    "agile": 0,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "voulge",
+    "name": "比爾長刀",
+    "name_en": "Bill",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 14,
+      "max": 53
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 95,
+    "agile": 0,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "voulge",
+    "name": "巨神之斧",
+    "name_en": "Colossus Voulge",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 17,
+      "max": 165
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 48,
+    "strength": 210,
+    "agile": 55,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "scythe",
+    "name": "鐮刀",
+    "name_en": "Scythe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 8,
+      "max": 20
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 41,
+    "agile": 41,
+    "range": 2,
+    "quantity": null,
+    "durability": 65,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "scythe",
+    "name": "戰鬥鐮刀",
+    "name_en": "Battle Scythe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 18,
+      "max": 45
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 82,
+    "agile": 82,
+    "range": 2,
+    "quantity": null,
+    "durability": 65,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "scythe",
+    "name": "銳利之斧",
+    "name_en": "Thresher",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 12,
+      "max": 141
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 53,
+    "strength": 152,
+    "agile": 118,
+    "range": 2,
+    "quantity": null,
+    "durability": 65,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "poleaxe",
+    "name": "長柄戰斧",
+    "name_en": "Poleaxe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 18,
+      "max": 39
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 62,
+    "agile": 0,
+    "range": 4,
+    "quantity": null,
+    "durability": 65,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "poleaxe",
+    "name": "戰戟",
+    "name_en": "Partizan",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 34,
+      "max": 75
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 23,
+    "strength": 113,
+    "agile": 67,
+    "range": 4,
+    "quantity": null,
+    "durability": 65,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "poleaxe",
+    "name": "神秘之斧",
+    "name_en": "Cryptic Axe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 33,
+      "max": 150
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 59,
+    "strength": 165,
+    "agile": 103,
+    "range": 4,
+    "quantity": null,
+    "durability": 65,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "halberd",
+    "name": "長戟",
+    "name_en": "Halberd",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 12,
+      "max": 45
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 75,
+    "agile": 47,
+    "range": 5,
+    "quantity": null,
+    "durability": 55,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "halberd",
+    "name": "雙鋒戰戟",
+    "name_en": "Bec-De-Corbin",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 13,
+      "max": 85
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 133,
+    "agile": 91,
+    "range": 5,
+    "quantity": null,
+    "durability": 55,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "halberd",
+    "name": "雙鋒戰戟",
+    "name_en": "Bec-De-Corbin",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 13,
+      "max": 85
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 133,
+    "agile": 91,
+    "range": 5,
+    "quantity": null,
+    "durability": 55,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "halberd",
+    "name": "巨長斧",
+    "name_en": "Great Poleaxe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 46,
+      "max": 127
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 63,
+    "strength": 179,
+    "agile": 99,
+    "range": 5,
+    "quantity": null,
+    "durability": 55,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "warscythe",
+    "name": "巨戰鐮刀",
+    "name_en": "War Scythe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 15,
+      "max": 36
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 80,
+    "agile": 80,
+    "range": 5,
+    "quantity": null,
+    "durability": 55,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "warscythe",
+    "name": "殘酷鐮刀",
+    "name_en": "Grim Scythe",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 30,
+      "max": 70
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 140,
+    "agile": 140,
+    "range": 5,
+    "quantity": null,
+    "durability": 55,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "polearm",
+    "group": "warscythe",
+    "name": "鮫尾巨斧",
+    "name_en": "Giant Thresher",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 40,
+      "max": 114
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 66,
+    "strength": 188,
+    "agile": 140,
+    "range": 5,
+    "quantity": null,
+    "durability": 55,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "spear",
+    "name": "長矛",
+    "name_en": "Spear",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 3,
+      "max": 6
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 4,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "spear",
+    "name": "巨戰長矛",
+    "name_en": "War Spear",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 10,
+      "max": 37
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 21,
+    "strength": 25,
+    "agile": 25,
+    "range": 4,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "spear",
+    "name": "亥伯龍之矛",
+    "name_en": "Hyperion Spear",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 35,
+      "max": 119
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 43,
+    "strength": 115,
+    "agile": 120,
+    "range": 4,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "trident",
+    "name": "三叉戟",
+    "name_en": "Trident",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 9,
+      "max": 15
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 38,
+    "agile": 24,
+    "range": 4,
+    "quantity": null,
+    "durability": 35,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "trident",
+    "name": "魔鬼之叉",
+    "name_en": "Fuscina",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 19,
+      "max": 37
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 24,
+    "strength": 77,
+    "agile": 25,
+    "range": 4,
+    "quantity": null,
+    "durability": 35,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "trident",
+    "name": "冥河之槍",
+    "name_en": "Stygian Pike",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 29,
+      "max": 144
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 49,
+    "strength": 168,
+    "agile": 97,
+    "range": 4,
+    "quantity": null,
+    "durability": 35,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "brandistock",
+    "name": "叉",
+    "name_en": "Brandistock",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 7,
+      "max": 17
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 40,
+    "agile": 50,
+    "range": 5,
+    "quantity": null,
+    "durability": 28,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "brandistock",
+    "name": "巨戰之叉",
+    "name_en": "War Fork",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 16,
+      "max": 40
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 80,
+    "agile": 95,
+    "range": 5,
+    "quantity": null,
+    "durability": 28,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "brandistock",
+    "name": "刺人槍",
+    "name_en": "Mancatcher",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 42,
+      "max": 92
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 55,
+    "strength": 132,
+    "agile": 134,
+    "range": 5,
+    "quantity": null,
+    "durability": 28,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "spetum",
+    "name": "大戰戟",
+    "name_en": "Spetum",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 15,
+      "max": 23
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 54,
+    "agile": 35,
+    "range": 5,
+    "quantity": null,
+    "durability": 28,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "spetum",
+    "name": "三叉長槍",
+    "name_en": "Yari",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 29,
+      "max": 59
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 101,
+    "agile": 0,
+    "range": 5,
+    "quantity": null,
+    "durability": 28,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "spetum",
+    "name": "鬼魂之矛",
+    "name_en": "Ghost Spear",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 18,
+      "max": 155
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 62,
+    "strength": 122,
+    "agile": 163,
+    "range": 5,
+    "quantity": null,
+    "durability": 28,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "pike",
+    "name": "矛",
+    "name_en": "Pike",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 14,
+      "max": 63
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 60,
+    "agile": 45,
+    "range": 5,
+    "quantity": null,
+    "durability": 25,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "pike",
+    "name": "長槍",
+    "name_en": "Lance",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 27,
+      "max": 114
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 110,
+    "agile": 88,
+    "range": 5,
+    "quantity": null,
+    "durability": 25,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "spear",
+    "group": "pike",
+    "name": "戰槍",
+    "name_en": "War Pike",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 33,
+      "max": 178
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 66,
+    "strength": 165,
+    "agile": 106,
+    "range": 5,
+    "quantity": null,
+    "durability": 25,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "club",
+    "name": "木棒",
+    "name_en": "Club",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 1,
+      "max": 6
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "club",
+    "name": "棍棒",
+    "name_en": "Cudgel",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 6,
+      "max": 21
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 18,
+    "strength": 25,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "club",
+    "name": "戰儀杖",
+    "name_en": "Truncheon",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 35,
+      "max": 43
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 39,
+    "strength": 88,
+    "agile": 43,
+    "range": 1,
+    "quantity": null,
+    "durability": 29,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "spikedclub",
+    "name": "狼牙棒",
+    "name_en": "Spiked Club",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 5,
+      "max": 8
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 36,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "spikedclub",
+    "name": "倒鉤錘",
+    "name_en": "Barbed Club",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 13,
+      "max": 25
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 20,
+    "strength": 20,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 36,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "spikedclub",
+    "name": "暴君之棒",
+    "name_en": "Tyrant Club",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 32,
+      "max": 58
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 42,
+    "strength": 133,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 45,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "mace",
+    "name": "釘頭錘",
+    "name_en": "Mace",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 3,
+      "max": 10
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 27,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 60,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "mace",
+    "name": "凸緣釘頭錘",
+    "name_en": "Flanged Mace",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 15,
+      "max": 23
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 23,
+    "strength": 61,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 60,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "mace",
+    "name": "強化釘頭錘",
+    "name_en": "Reinforced Mace",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 41,
+      "max": 49
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 47,
+    "strength": 145,
+    "agile": 46,
+    "range": 1,
+    "quantity": null,
+    "durability": 60,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "morningstar",
+    "name": "流星鎚",
+    "name_en": "Morning Star",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 7,
+      "max": 16
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 36,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 72,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "morningstar",
+    "name": "鋸齒流星鎚",
+    "name_en": "Jagged Star",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 20,
+      "max": 31
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 74,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 72,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "morningstar",
+    "name": "惡魔流星錘",
+    "name_en": "Devil Star",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 43,
+      "max": 53
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 52,
+    "strength": 153,
+    "agile": 44,
+    "range": 2,
+    "quantity": null,
+    "durability": 72,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "flail",
+    "name": "連枷",
+    "name_en": "Flail",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 1,
+      "max": 24
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 41,
+    "agile": 35,
+    "range": 3,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "flail",
+    "name": "鐵皮鞭",
+    "name_en": "Knout",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 13,
+      "max": 35
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 82,
+    "agile": 73,
+    "range": 3,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "flail",
+    "name": "天罰之錘",
+    "name_en": "Scourge",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 3,
+      "max": 80
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 57,
+    "strength": 125,
+    "agile": 77,
+    "range": 3,
+    "quantity": null,
+    "durability": 65,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "warhammer",
+    "name": "巨戰鐵鎚",
+    "name_en": "War Hammer",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 19,
+      "max": 29
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 53,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 55,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "warhammer",
+    "name": "戰鬥鐵鎚",
+    "name_en": "Battle Hammer",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 35,
+      "max": 58
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 100,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 55,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "warhammer",
+    "name": "傳說之鎚",
+    "name_en": "Legendary Mallet",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 50,
+      "max": 61
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 61,
+    "strength": 189,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 65,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "maul",
+    "name": "大木棍",
+    "name_en": "Maul",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 30,
+      "max": 43
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 69,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 60,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "maul",
+    "name": "巨戰木棍",
+    "name_en": "War Club",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 53,
+      "max": 78
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 124,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 60,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "maul",
+    "name": "食人魔之錘",
+    "name_en": "Ogre Maul",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 77,
+      "max": 106
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 51,
+    "strength": 225,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 60,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "greatmaul",
+    "name": "卓越巨棍",
+    "name_en": "Great Maul",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 38,
+      "max": 58
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 99,
+    "agile": 0,
+    "range": 3,
+    "quantity": null,
+    "durability": 60,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "greatmaul",
+    "name": "戰鎚",
+    "name_en": "Martel de Fer",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 61,
+      "max": 99
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 169,
+    "agile": 0,
+    "range": 3,
+    "quantity": null,
+    "durability": 60,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "mace",
+    "group": "greatmaul",
+    "name": "雷錘",
+    "name_en": "Thunder Maul",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 33,
+      "max": 180
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 65,
+    "strength": 253,
+    "agile": 0,
+    "range": 3,
+    "quantity": null,
+    "durability": 60,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "scepter",
+    "group": "scepter",
+    "name": "權杖",
+    "name_en": "Scepter",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 6,
+      "max": 11
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 25,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "scepter",
+    "group": "scepter",
+    "name": "符文權杖",
+    "name_en": "Rune Scepter",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 13,
+      "max": 24
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 19,
+    "strength": 58,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "scepter",
+    "group": "scepter",
+    "name": "強威權杖",
+    "name_en": "Mighty Scepter",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 40,
+      "max": 52
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 46,
+    "strength": 125,
+    "agile": 65,
+    "range": 1,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "scepter",
+    "group": "grandscepter",
+    "name": "雄偉權杖",
+    "name_en": "Grand Scepter",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 8,
+      "max": 18
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 37,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 60,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "scepter",
+    "group": "grandscepter",
+    "name": "聖水噴杖",
+    "name_en": "Holy Water Sprinkler",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 14,
+      "max": 36
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 76,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 60,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "scepter",
+    "group": "grandscepter",
+    "name": "熾天使法杖",
+    "name_en": "Seraph Rod",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 45,
+      "max": 54
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 57,
+    "strength": 108,
+    "agile": 69,
+    "range": 2,
+    "quantity": null,
+    "durability": 60,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "scepter",
+    "group": "warscepter",
+    "name": "巨戰權杖",
+    "name_en": "War Scepter",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 10,
+      "max": 17
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 55,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 70,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "scepter",
+    "group": "warscepter",
+    "name": "神屬權杖",
+    "name_en": "Divine Scepter",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 16,
+      "max": 38
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 103,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 70,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "scepter",
+    "group": "warscepter",
+    "name": "神使之杖",
+    "name_en": "Caduceus",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 37,
+      "max": 43
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 66,
+    "strength": 97,
+    "agile": 70,
+    "range": 2,
+    "quantity": null,
+    "durability": 70,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "shortbow",
+    "name": "短弓",
+    "name_en": "Short Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 1,
+      "max": 4
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 15,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 5,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "shortbow",
+    "name": "鋒銳之弓",
+    "name_en": "Edge Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 6,
+      "max": 19
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 18,
+    "strength": 25,
+    "agile": 43,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 5,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "shortbow",
+    "name": "蜘蛛弓",
+    "name_en": "Spider Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 23,
+      "max": 50
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 41,
+    "strength": 64,
+    "agile": 143,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 5,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "huntersbow",
+    "name": "獵弓",
+    "name_en": "Hunter's Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 2,
+      "max": 6
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 28,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "huntersbow",
+    "name": "剃刀之弓",
+    "name_en": "Razor Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 8,
+      "max": 22
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 21,
+    "strength": 0,
+    "agile": 62,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "huntersbow",
+    "name": "刀鋒弓",
+    "name_en": "Blade Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 21,
+      "max": 41
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 45,
+    "strength": 76,
+    "agile": 119,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "longbow",
+    "name": "長弓",
+    "name_en": "Long Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 3,
+      "max": 10
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 22,
+    "agile": 19,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "longbow",
+    "name": "杉木弓",
+    "name_en": "Cedar Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 10,
+      "max": 29
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 23,
+    "strength": 53,
+    "agile": 49,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "longbow",
+    "name": "陰影弓",
+    "name_en": "Shadow Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 15,
+      "max": 59
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 47,
+    "strength": 52,
+    "agile": 188,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "compositebow",
+    "name": "組合弓",
+    "name_en": "Composite Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 4,
+      "max": 8
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 25,
+    "agile": 35,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "compositebow",
+    "name": "雙弓",
+    "name_en": "Double Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 11,
+      "max": 26
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 58,
+    "agile": 73,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "compositebow",
+    "name": "巨弓",
+    "name_en": "Great Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 12,
+      "max": 52
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 51,
+    "strength": 127,
+    "agile": 107,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "shortbattlebow",
+    "name": "短戰鬥弓",
+    "name_en": "Short Battle Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 5,
+      "max": 11
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 30,
+    "agile": 40,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "shortbattlebow",
+    "name": "短攻城弓",
+    "name_en": "Short Siege Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 13,
+      "max": 30
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 65,
+    "agile": 80,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "shortbattlebow",
+    "name": "鑽石弓",
+    "name_en": "Diamond Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 33,
+      "max": 40
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 54,
+    "strength": 89,
+    "agile": 132,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "longbattlebow",
+    "name": "長戰鬥弓",
+    "name_en": "Long Battle Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 3,
+      "max": 18
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 40,
+    "agile": 50,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "longbattlebow",
+    "name": "長攻城弓",
+    "name_en": "Large Siege Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 10,
+      "max": 42
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 80,
+    "agile": 95,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "longbattlebow",
+    "name": "十字軍之弓",
+    "name_en": "Crusader Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 15,
+      "max": 63
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 57,
+    "strength": 97,
+    "agile": 121,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "shortwarbow",
+    "name": "短巨戰弓",
+    "name_en": "Short War Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 6,
+      "max": 14
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 35,
+    "agile": 55,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "shortwarbow",
+    "name": "符文之弓",
+    "name_en": "Rune Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 14,
+      "max": 35
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 73,
+    "agile": 103,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "shortwarbow",
+    "name": "庇護之弓",
+    "name_en": "Ward Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 20,
+      "max": 53
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 60,
+    "strength": 72,
+    "agile": 146,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "longwarbow",
+    "name": "長巨戰弓",
+    "name_en": "Long War Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 3,
+      "max": 23
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 50,
+    "agile": 65,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "longwarbow",
+    "name": "哥德弓",
+    "name_en": "Gothic Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 10,
+      "max": 50
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 95,
+    "agile": 118,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "bow",
+    "group": "longwarbow",
+    "name": "九頭蛇弓",
+    "name_en": "Hydra Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 10,
+      "max": 68
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 63,
+    "strength": 134,
+    "agile": 167,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "crossbow",
+    "group": "lightcrossbow",
+    "name": "輕十字弓",
+    "name_en": "Light Crossbow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 6,
+      "max": 9
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 21,
+    "agile": 27,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "crossbow",
+    "group": "lightcrossbow",
+    "name": "石弓",
+    "name_en": "Arbalest",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 14,
+      "max": 27
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 22,
+    "strength": 52,
+    "agile": 61,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "crossbow",
+    "group": "lightcrossbow",
+    "name": "彈丸弓",
+    "name_en": "Pellet Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 28,
+      "max": 73
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 42,
+    "strength": 83,
+    "agile": 155,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "crossbow",
+    "group": "crossbow",
+    "name": "十字弓",
+    "name_en": "Crossbow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 9,
+      "max": 16
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 40,
+    "agile": 33,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "crossbow",
+    "group": "crossbow",
+    "name": "攻城十字弓",
+    "name_en": "Siege Crossbow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 20,
+      "max": 42
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 80,
+    "agile": 70,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "crossbow",
+    "group": "crossbow",
+    "name": "蛇魔女十字弓",
+    "name_en": "Gorgon Crossbow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 25,
+      "max": 87
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 50,
+    "strength": 117,
+    "agile": 105,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "crossbow",
+    "group": "heavycrossbow",
+    "name": "重十字弓",
+    "name_en": "Heavy Crossbow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 14,
+      "max": 26
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 60,
+    "agile": 40,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "crossbow",
+    "group": "heavycrossbow",
+    "name": "弩弓",
+    "name_en": "Ballista",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 33,
+      "max": 55
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 110,
+    "agile": 80,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "crossbow",
+    "group": "heavycrossbow",
+    "name": "巨神十字弓",
+    "name_en": "Colossus Crossbow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 32,
+      "max": 91
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 56,
+    "strength": 163,
+    "agile": 77,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "crossbow",
+    "group": "repeatingcrossbow",
+    "name": "連射十字弓",
+    "name_en": "Repeating Crossbow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 6,
+      "max": 12
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 40,
+    "agile": 50,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -40,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "crossbow",
+    "group": "repeatingcrossbow",
+    "name": "巧工弩",
+    "name_en": "Chu-Ko-Nu",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 14,
+      "max": 32
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 80,
+    "agile": 95,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -60,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "crossbow",
+    "group": "repeatingcrossbow",
+    "name": "惡魔十字弓",
+    "name_en": "Demon Crossbow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 23,
+      "max": 40
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 63,
+    "strength": 141,
+    "agile": 98,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -60,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "javelin",
+    "name": "標槍",
+    "name_en": "Javelin",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 1,
+      "max": 5
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 6,
+      "max": 14
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 3,
+    "quantity": 60,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "javelin",
+    "name": "巨戰標槍",
+    "name_en": "War Javelin",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 6,
+      "max": 19
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 14,
+      "max": 32
+    },
+    "level": 18,
+    "strength": 25,
+    "agile": 25,
+    "range": 3,
+    "quantity": 60,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "javelin",
+    "name": "亥伯龍之槍",
+    "name_en": "Hyperion Javelin",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 21,
+      "max": 57
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 82,
+      "max": 55
+    },
+    "level": 40,
+    "strength": 98,
+    "agile": 123,
+    "range": 3,
+    "quantity": 60,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "pilum",
+    "name": "短鏢槍",
+    "name_en": "Pilum",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 4,
+      "max": 9
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 7,
+      "max": 20
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 45,
+    "range": 3,
+    "quantity": 50,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "pilum",
+    "name": "卓越標槍",
+    "name_en": "Great Pilum",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 11,
+      "max": 26
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 16,
+      "max": 42
+    },
+    "level": 25,
+    "strength": 25,
+    "agile": 88,
+    "range": 3,
+    "quantity": 50,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "pilum",
+    "name": "冥河標槍",
+    "name_en": "Stygian Pilum",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 14,
+      "max": 64
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 21,
+      "max": 75
+    },
+    "level": 46,
+    "strength": 118,
+    "agile": 112,
+    "range": 3,
+    "quantity": 50,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "shortspear",
+    "name": "短矛",
+    "name_en": "Short Spear",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 2,
+      "max": 13
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 10,
+      "max": 22
+    },
+    "level": 0,
+    "strength": 40,
+    "agile": 40,
+    "range": 3,
+    "quantity": 40,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "shortspear",
+    "name": "銳矛",
+    "name_en": "Simbilan",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 8,
+      "max": 32
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 27,
+      "max": 50
+    },
+    "level": 25,
+    "strength": 80,
+    "agile": 80,
+    "range": 3,
+    "quantity": 40,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "shortspear",
+    "name": "炎魔長矛",
+    "name_en": "Balrog Spear",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 33,
+      "max": 63
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 40,
+      "max": 62
+    },
+    "level": 53,
+    "strength": 127,
+    "agile": 95,
+    "range": 3,
+    "quantity": 40,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "glaive",
+    "name": "大長刀",
+    "name_en": "Glaive",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 5,
+      "max": 17
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 16,
+      "max": 22
+    },
+    "level": 0,
+    "strength": 52,
+    "agile": 35,
+    "range": 3,
+    "quantity": 40,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "glaive",
+    "name": "闊針長矛",
+    "name_en": "Spiculum",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 18,
+      "max": 38
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 33,
+      "max": 60
+    },
+    "level": 25,
+    "strength": 93,
+    "agile": 73,
+    "range": 3,
+    "quantity": 20,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "glaive",
+    "name": "鬼魂尖槍",
+    "name_en": "Ghost Glaive",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 19,
+      "max": 60
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 30,
+      "max": 85
+    },
+    "level": 59,
+    "strength": 89,
+    "agile": 137,
+    "range": 3,
+    "quantity": 75,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "throwingspear",
+    "name": "飛矛",
+    "name_en": "Throwing Spear",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 5,
+      "max": 15
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 12,
+      "max": 30
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 65,
+    "range": 3,
+    "quantity": 80,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "throwingspear",
+    "name": "魚叉",
+    "name_en": "Harpoon",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 13,
+      "max": 35
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 18,
+      "max": 54
+    },
+    "level": 25,
+    "strength": 25,
+    "agile": 118,
+    "range": 3,
+    "quantity": 80,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "javelin",
+    "group": "throwingspear",
+    "name": "翼魚叉",
+    "name_en": "Winged Harpoon",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 27,
+      "max": 35
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 11,
+      "max": 77
+    },
+    "level": 65,
+    "strength": 76,
+    "agile": 145,
+    "range": 3,
+    "quantity": 80,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "dagger",
+    "group": "dagger",
+    "name": "匕首",
+    "name_en": "Dagger",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 1,
+      "max": 4
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 16,
+    "max_slot": 1,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "dagger",
+    "group": "dagger",
+    "name": "銳匕",
+    "name_en": "Poignard",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 6,
+      "max": 18
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 19,
+    "strength": 25,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 16,
+    "max_slot": 1,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "dagger",
+    "group": "dagger",
+    "name": "骸骨小刀",
+    "name_en": "Bone Knife",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 23,
+      "max": 49
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 43,
+    "strength": 38,
+    "agile": 75,
+    "range": 1,
+    "quantity": null,
+    "durability": 16,
+    "max_slot": 1,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "dagger",
+    "group": "dirk",
+    "name": "長匕首",
+    "name_en": "Dirk",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 3,
+      "max": 9
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 25,
+    "range": 1,
+    "quantity": null,
+    "durability": 20,
+    "max_slot": 1,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "dagger",
+    "group": "dirk",
+    "name": "詩歌匕首",
+    "name_en": "Rondel",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 10,
+      "max": 26
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 24,
+    "strength": 25,
+    "agile": 58,
+    "range": 1,
+    "quantity": null,
+    "durability": 20,
+    "max_slot": 1,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "dagger",
+    "group": "dirk",
+    "name": "秘銀小刀",
+    "name_en": "Mithril Point",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 37,
+      "max": 53
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 52,
+    "strength": 55,
+    "agile": 98,
+    "range": 1,
+    "quantity": null,
+    "durability": 20,
+    "max_slot": 1,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "dagger",
+    "group": "kriss",
+    "name": "波形刀",
+    "name_en": "Kris",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 2,
+      "max": 11
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 45,
+    "range": 1,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "dagger",
+    "group": "kriss",
+    "name": "強波刀",
+    "name_en": "Cinquedeas",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 15,
+      "max": 31
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 25,
+    "agile": 88,
+    "range": 1,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "dagger",
+    "group": "kriss",
+    "name": "齒緣小刀",
+    "name_en": "Fanged Knife",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 15,
+      "max": 57
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 62,
+    "strength": 42,
+    "agile": 86,
+    "range": 1,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "dagger",
+    "group": "blade",
+    "name": "短刀",
+    "name_en": "Blade",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 4,
+      "max": 15
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 35,
+    "agile": 51,
+    "range": 1,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "dagger",
+    "group": "blade",
+    "name": "小劍",
+    "name_en": "Stilleto",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 19,
+      "max": 36
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 73,
+    "agile": 97,
+    "range": 1,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "dagger",
+    "group": "blade",
+    "name": "傳說尖刺",
+    "name_en": "Legend Spike",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 31,
+      "max": 47
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 66,
+    "strength": 65,
+    "agile": 67,
+    "range": 1,
+    "quantity": null,
+    "durability": 24,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "throwing",
+    "group": "throwingknife",
+    "name": "飛刀",
+    "name_en": "Throwing Knife",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 2,
+      "max": 3
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 4,
+      "max": 9
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 21,
+    "range": 1,
+    "quantity": 160,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "throwing",
+    "group": "throwingknife",
+    "name": "戰鬥飛鏢",
+    "name_en": "Battle Dart",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 8,
+      "max": 16
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 11,
+      "max": 24
+    },
+    "level": 19,
+    "strength": 25,
+    "agile": 52,
+    "range": 1,
+    "quantity": 160,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "throwing",
+    "group": "throwingknife",
+    "name": "飛刀",
+    "name_en": "Flying Knife",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 23,
+      "max": 54
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 23,
+      "max": 54
+    },
+    "level": 48,
+    "strength": 48,
+    "agile": 141,
+    "range": 1,
+    "quantity": 200,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "throwing",
+    "group": "balancedknife",
+    "name": "平衡小刀",
+    "name_en": "Balanced Knife",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 1,
+      "max": 8
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 6,
+      "max": 11
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 51,
+    "range": 1,
+    "quantity": 160,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "throwing",
+    "group": "balancedknife",
+    "name": "巨戰飛鏢",
+    "name_en": "War Dart",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 6,
+      "max": 24
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 14,
+      "max": 27
+    },
+    "level": 22,
+    "strength": 25,
+    "agile": 97,
+    "range": 1,
+    "quantity": 160,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "throwing",
+    "group": "balancedknife",
+    "name": "翼刀",
+    "name_en": "Winged Knife",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 27,
+      "max": 35
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 23,
+      "max": 39
+    },
+    "level": 57,
+    "strength": 45,
+    "agile": 142,
+    "range": 1,
+    "quantity": 200,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "throwing",
+    "group": "throwingaxe",
+    "name": "飛斧",
+    "name_en": "Throwing Axe",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 4,
+      "max": 7
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 8,
+      "max": 12
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 40,
+    "range": 1,
+    "quantity": 130,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "throwing",
+    "group": "throwingaxe",
+    "name": "法蘭飛斧",
+    "name_en": "Francisca",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 11,
+      "max": 22
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 18,
+      "max": 33
+    },
+    "level": 25,
+    "strength": 25,
+    "agile": 80,
+    "range": 1,
+    "quantity": 130,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "throwing",
+    "group": "throwingaxe",
+    "name": "飛斧",
+    "name_en": "Flying Axe",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 17,
+      "max": 65
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 15,
+      "max": 66
+    },
+    "level": 42,
+    "strength": 88,
+    "agile": 108,
+    "range": 1,
+    "quantity": 180,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "throwing",
+    "group": "balancedaxe",
+    "name": "平衡斧",
+    "name_en": "Balanced Axe",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 5,
+      "max": 10
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 12,
+      "max": 15
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 57,
+    "range": 1,
+    "quantity": 130,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "throwing",
+    "group": "balancedaxe",
+    "name": "短戰戟",
+    "name_en": "Hurlbat",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 13,
+      "max": 27
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 24,
+      "max": 34
+    },
+    "level": 25,
+    "strength": 25,
+    "agile": 106,
+    "range": 1,
+    "quantity": 130,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "throwing",
+    "group": "balancedaxe",
+    "name": "翼斧",
+    "name_en": "Winged Axe",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 11,
+      "max": 56
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 7,
+      "max": 60
+    },
+    "level": 60,
+    "strength": 96,
+    "agile": 122,
+    "range": 1,
+    "quantity": 180,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "wand",
+    "group": "wand",
+    "name": "法杖",
+    "name_en": "Wand",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 2,
+      "max": 4
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 15,
+    "max_slot": 1,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "wand",
+    "group": "wand",
+    "name": "燒焦之杖",
+    "name_en": "Burnt Wand",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 8,
+      "max": 18
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 19,
+    "strength": 25,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 15,
+    "max_slot": 1,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "wand",
+    "group": "wand",
+    "name": "洗鍊法杖",
+    "name_en": "Polished Wand",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 18,
+      "max": 33
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 41,
+    "strength": 25,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 22,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "wand",
+    "group": "yewwand",
+    "name": "紫杉之杖",
+    "name_en": "Yew Wand",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 2,
+      "max": 8
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 15,
+    "max_slot": 1,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "wand",
+    "group": "yewwand",
+    "name": "淨化之杖",
+    "name_en": "Petrified Wand",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 8,
+      "max": 24
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 25,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 15,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "wand",
+    "group": "yewwand",
+    "name": "鬼魂法杖",
+    "name_en": "Ghost Wand",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 20,
+      "max": 42
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 48,
+    "strength": 25,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 14,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "wand",
+    "group": "bonewand",
+    "name": "骨杖",
+    "name_en": "Bone Wand",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 3,
+      "max": 7
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 15,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "wand",
+    "group": "bonewand",
+    "name": "古墓之杖",
+    "name_en": "Tomb Wand",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 10,
+      "max": 22
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 25,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 15,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "wand",
+    "group": "bonewand",
+    "name": "巫妖法杖",
+    "name_en": "Lich Wand",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 10,
+      "max": 31
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 25,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 17,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "wand",
+    "group": "grimwand",
+    "name": "殘酷之杖",
+    "name_en": "Grim Wand",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 5,
+      "max": 11
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 15,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "wand",
+    "group": "grimwand",
+    "name": "墓地之杖",
+    "name_en": "Grave Wand",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 13,
+      "max": 29
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 25,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 15,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "wand",
+    "group": "grimwand",
+    "name": "破隱法杖",
+    "name_en": "Unearthed Wand",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 22,
+      "max": 28
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 64,
+    "strength": 25,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 18,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "shortstaff",
+    "name": "短棍",
+    "name_en": "Short Staff",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 1,
+      "max": 5
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 20,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "shortstaff",
+    "name": "喬木棒",
+    "name_en": "Jo Staff",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 6,
+      "max": 21
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 18,
+    "strength": 25,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 20,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "shortstaff",
+    "name": "手杖",
+    "name_en": "Walking Stick",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 69,
+      "max": 85
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 43,
+    "strength": 25,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 20,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "longstaff",
+    "name": "長棍",
+    "name_en": "Long Staff",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 2,
+      "max": 8
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "longstaff",
+    "name": "六呎棍",
+    "name_en": "Quarter Staff",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 8,
+      "max": 26
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 23,
+    "strength": 25,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "longstaff",
+    "name": "鐘乳石之杖",
+    "name_en": "Stalagmite",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 75,
+      "max": 107
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 49,
+    "strength": 63,
+    "agile": 35,
+    "range": 2,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "gnarledstaff",
+    "name": "多節棍",
+    "name_en": "Gnarled Staff",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 4,
+      "max": 12
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 35,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "gnarledstaff",
+    "name": "杉木棍",
+    "name_en": "Cedar Staff",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 11,
+      "max": 32
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 25,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 35,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "gnarledstaff",
+    "name": "長老之杖",
+    "name_en": "Elder Staff",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 80,
+      "max": 93
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 55,
+    "strength": 44,
+    "agile": 37,
+    "range": 2,
+    "quantity": null,
+    "durability": 35,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "battlestaff",
+    "name": "戰鬥法杖",
+    "name_en": "Battle Staff",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 6,
+      "max": 13
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 40,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "battlestaff",
+    "name": "哥德之棍",
+    "name_en": "Gothic Staff",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 14,
+      "max": 34
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 25,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 40,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "battlestaff",
+    "name": "樹皮之杖",
+    "name_en": "Shillelagh",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 65,
+      "max": 108
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 62,
+    "strength": 52,
+    "agile": 27,
+    "range": 2,
+    "quantity": null,
+    "durability": 40,
+    "max_slot": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "warstaff",
+    "name": "巨戰法杖",
+    "name_en": "War Staff",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 12,
+      "max": 28
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 0,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "warstaff",
+    "name": "符文之棍",
+    "name_en": "Rune Staff",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 24,
+      "max": 58
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 25,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "stave",
+    "group": "warstaff",
+    "name": "執政官之杖",
+    "name_en": "Archon  Staff",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 83,
+      "max": 99
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 66,
+    "strength": 34,
+    "agile": 0,
+    "range": 2,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "eagleorb",
+    "name": "鷹之法珠",
+    "name_en": "Eagle Orb",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 2,
+      "max": 5
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 1,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 20,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "eagleorb",
+    "name": "靈光法珠",
+    "name_en": "Glowing Orb",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 8,
+      "max": 21
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 24,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 20,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "eagleorb",
+    "name": "天堂之石",
+    "name_en": "Heavenly Stone",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 21,
+      "max": 46
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 44,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 20,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "sacredglobe",
+    "name": "神聖天球",
+    "name_en": "Sacred Globe",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 3,
+      "max": 8
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 1,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "sacredglobe",
+    "name": "水晶天球",
+    "name_en": "Crystalline Globe",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 10,
+      "max": 26
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 27,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "sacredglobe",
+    "name": "怪異之球",
+    "name_en": "Eldritch Orb",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 18,
+      "max": 50
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 50,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "smokedsphere",
+    "name": "攏煙之球",
+    "name_en": "Smoked Sphere",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 4,
+      "max": 10
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 8,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 35,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "smokedsphere",
+    "name": "雲霧之球",
+    "name_en": "Cloudy Sphere",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 11,
+      "max": 29
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 30,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 35,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "smokedsphere",
+    "name": "惡魔之心",
+    "name_en": "Demon Heart",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 23,
+      "max": 55
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 56,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 35,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "claspedorb",
+    "name": "握扣法珠",
+    "name_en": "Clasped Orb",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 5,
+      "max": 12
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 13,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 40,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "claspedorb",
+    "name": "閃耀之球",
+    "name_en": "Sparkling Ball",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 13,
+      "max": 32
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 34,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 40,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "claspedorb",
+    "name": "漩渦球",
+    "name_en": "Vortex Orb",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 12,
+      "max": 66
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 63,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 40,
+    "max_slot": 2,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "dragonstone",
+    "name": "傑瑞德之石",
+    "name_en": "Jared's Stone",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 8,
+      "max": 18
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 18,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "dragonstone",
+    "name": "渦流水晶",
+    "name_en": "Swirling Crystal",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 18,
+      "max": 42
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 37,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "sorceressorb",
+    "group": "dragonstone",
+    "name": "次元碎片",
+    "name_en": "Dimensional Shard",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 30,
+      "max": 53
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 66,
+    "strength": 0,
+    "agile": 0,
+    "range": 1,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": 3,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": "sorceress"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonjavelin",
+    "group": "maidenjavelin",
+    "name": "女士標槍",
+    "name_en": "Maiden Javelin",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 8,
+      "max": 14
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 6,
+      "max": 22
+    },
+    "level": 17,
+    "strength": 33,
+    "agile": 47,
+    "range": 3,
+    "quantity": 80,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonjavelin",
+    "group": "maidenjavelin",
+    "name": "祭典之標槍",
+    "name_en": "Ceremonial Javelin",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 18,
+      "max": 35
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 18,
+      "max": 54
+    },
+    "level": 26,
+    "strength": 25,
+    "agile": 109,
+    "range": 3,
+    "quantity": 80,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonjavelin",
+    "group": "maidenjavelin",
+    "name": "女族長之標槍",
+    "name_en": "Matriarchal Javelin",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 30,
+      "max": 54
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": 35,
+      "max": 66
+    },
+    "level": 48,
+    "strength": 107,
+    "agile": 151,
+    "range": 3,
+    "quantity": 80,
+    "durability": null,
+    "max_slot": null,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonbow",
+    "group": "stagbow",
+    "name": "男性之弓",
+    "name_en": "Stag Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 7,
+      "max": 12
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 14,
+    "strength": 30,
+    "agile": 45,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonbow",
+    "group": "stagbow",
+    "name": "灰木之弓",
+    "name_en": "Ashwood Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 16,
+      "max": 29
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 29,
+    "strength": 56,
+    "agile": 77,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonbow",
+    "group": "stagbow",
+    "name": "女族長之弓",
+    "name_en": "Matriarchal Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 20,
+      "max": 47
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 39,
+    "strength": 87,
+    "agile": 187,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonbow",
+    "group": "reflexbow",
+    "name": "反射之弓",
+    "name_en": "Reflex Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 9,
+      "max": 19
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 20,
+    "strength": 35,
+    "agile": 60,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonbow",
+    "group": "reflexbow",
+    "name": "祭典之弓",
+    "name_en": "Ceremonial Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 19,
+      "max": 41
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 35,
+    "strength": 73,
+    "agile": 110,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonbow",
+    "group": "reflexbow",
+    "name": "大院長之弓",
+    "name_en": "Grand Matron Bow",
+    "attack": "missile",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 14,
+      "max": 72
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 58,
+    "strength": 108,
+    "agile": 152,
+    "range": null,
+    "quantity": null,
+    "durability": null,
+    "max_slot": 5,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonspear",
+    "group": "maidenspear",
+    "name": "女士之矛",
+    "name_en": "Maiden Spear",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 18,
+      "max": 24
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 14,
+    "strength": 54,
+    "agile": 40,
+    "range": 4,
+    "quantity": null,
+    "durability": 28,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonspear",
+    "group": "maidenspear",
+    "name": "祭典之矛",
+    "name_en": "Ceremonial Spear",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 34,
+      "max": 51
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 32,
+    "strength": 101,
+    "agile": 80,
+    "range": 4,
+    "quantity": null,
+    "durability": 28,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonspear",
+    "group": "maidenspear",
+    "name": "女族長之矛",
+    "name_en": "Matriarchal Spear",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 65,
+      "max": 95
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 45,
+    "strength": 114,
+    "agile": 142,
+    "range": 4,
+    "quantity": null,
+    "durability": 28,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonspear",
+    "group": "maidenpike",
+    "name": "女士長矛",
+    "name_en": "Maiden Pike",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 23,
+      "max": 55
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 20,
+    "strength": 63,
+    "agile": 52,
+    "range": 4,
+    "quantity": null,
+    "durability": 25,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonspear",
+    "group": "maidenpike",
+    "name": "祭典之長矛",
+    "name_en": "Ceremonial Pike",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 42,
+      "max": 101
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 38,
+    "strength": 115,
+    "agile": 98,
+    "range": 4,
+    "quantity": null,
+    "durability": 25,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "amazonspear",
+    "group": "maidenpike",
+    "name": "女族長之長矛",
+    "name_en": "Matriarchal Pike",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 37,
+      "max": 153
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 60,
+    "strength": 132,
+    "agile": 149,
+    "range": 4,
+    "quantity": null,
+    "durability": 25,
+    "max_slot": 6,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": "amazon"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "katar",
+    "name": "拳劍",
+    "name_en": "Katar",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 4,
+      "max": 7
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 1,
+    "strength": 20,
+    "agile": 20,
+    "range": 1,
+    "quantity": null,
+    "durability": 48,
+    "max_slot": 2,
+    "extra_skills": "無",
+    "speed": -10,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "katar",
+    "name": "格鬥刃",
+    "name_en": "Quhab",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 11,
+      "max": 24
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 21,
+    "strength": 57,
+    "agile": 57,
+    "range": 1,
+    "quantity": null,
+    "durability": 48,
+    "max_slot": 3,
+    "extra_skills": "無",
+    "speed": 0,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "katar",
+    "name": "近身刃",
+    "name_en": "Suwayyah",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 39,
+      "max": 52
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 44,
+    "strength": 99,
+    "agile": 99,
+    "range": 1,
+    "quantity": null,
+    "durability": 48,
+    "max_slot": 3,
+    "extra_skills": "有",
+    "speed": 0,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "katar",
+    "name": "腕刃",
+    "name_en": "Wrist Blade",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 5,
+      "max": 9
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 1,
+    "strength": 33,
+    "agile": 33,
+    "range": 1,
+    "quantity": null,
+    "durability": 52,
+    "max_slot": 2,
+    "extra_skills": "無",
+    "speed": 0,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "katar",
+    "name": "腕刺",
+    "name_en": "Wrist Spike",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 13,
+      "max": 27
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 24,
+    "strength": 66,
+    "agile": 66,
+    "range": 1,
+    "quantity": null,
+    "durability": 56,
+    "max_slot": 2,
+    "extra_skills": "無",
+    "speed": -10,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "katar",
+    "name": "腕劍",
+    "name_en": "Wrist Sword",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 34,
+      "max": 45
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 46,
+    "strength": 105,
+    "agile": 105,
+    "range": 1,
+    "quantity": null,
+    "durability": 56,
+    "max_slot": 3,
+    "extra_skills": "有",
+    "speed": -10,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "hatchethands",
+    "name": "斧手",
+    "name_en": "Hatchet Hands",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 2,
+      "max": 15
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 1,
+    "strength": 37,
+    "agile": 37,
+    "range": 1,
+    "quantity": null,
+    "durability": 56,
+    "max_slot": 2,
+    "extra_skills": "無",
+    "speed": 10,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "hatchethands",
+    "name": "格鬥爪",
+    "name_en": "Fascia",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 8,
+      "max": 37
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 27,
+    "strength": 69,
+    "agile": 69,
+    "range": 1,
+    "quantity": null,
+    "durability": 64,
+    "max_slot": 2,
+    "extra_skills": "無",
+    "speed": 10,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "hatchethands",
+    "name": "戰拳",
+    "name_en": "War Fist",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 44,
+      "max": 53
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 51,
+    "strength": 108,
+    "agile": 108,
+    "range": 1,
+    "quantity": null,
+    "durability": 64,
+    "max_slot": 2,
+    "extra_skills": "有",
+    "speed": 10,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "hatchethands",
+    "name": "腰刀",
+    "name_en": "Cestus",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 7,
+      "max": 15
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 1,
+    "strength": 42,
+    "agile": 42,
+    "range": 1,
+    "quantity": null,
+    "durability": 72,
+    "max_slot": 2,
+    "extra_skills": "無",
+    "speed": 0,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "hatchethands",
+    "name": "手鐮",
+    "name_en": "Hand Scythe",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 16,
+      "max": 37
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 30,
+    "strength": 73,
+    "agile": 73,
+    "range": 1,
+    "quantity": null,
+    "durability": 72,
+    "max_slot": 2,
+    "extra_skills": "有",
+    "speed": -10,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "hatchethands",
+    "name": "鬥腰刀",
+    "name_en": "Battle Cestus",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 36,
+      "max": 42
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 54,
+    "strength": 110,
+    "agile": 110,
+    "range": 1,
+    "quantity": null,
+    "durability": 72,
+    "max_slot": 2,
+    "extra_skills": "有",
+    "speed": -10,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "claws",
+    "name": "爪",
+    "name_en": "Claws",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 8,
+      "max": 15
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 1,
+    "strength": 46,
+    "agile": 46,
+    "range": 1,
+    "quantity": null,
+    "durability": 64,
+    "max_slot": 3,
+    "extra_skills": "無",
+    "speed": -10,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "claws",
+    "name": "巨爪",
+    "name_en": "Greater Claws",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 18,
+      "max": 37
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 33,
+    "strength": 76,
+    "agile": 76,
+    "range": 1,
+    "quantity": null,
+    "durability": 52,
+    "max_slot": 3,
+    "extra_skills": "有",
+    "speed": -20,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "claws",
+    "name": "猛禽爪",
+    "name_en": "Feral Claws",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 22,
+      "max": 53
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 58,
+    "strength": 113,
+    "agile": 113,
+    "range": 1,
+    "quantity": null,
+    "durability": 52,
+    "max_slot": 3,
+    "extra_skills": "有",
+    "speed": -20,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "claws",
+    "name": "刃爪",
+    "name_en": "Blade Talons",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 10,
+      "max": 14
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 1,
+    "strength": 50,
+    "agile": 50,
+    "range": 1,
+    "quantity": null,
+    "durability": 69,
+    "max_slot": 3,
+    "extra_skills": "無",
+    "speed": -20,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "claws",
+    "name": "巨鷹爪",
+    "name_en": "Greater Talons",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 21,
+      "max": 35
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 37,
+    "strength": 79,
+    "agile": 79,
+    "range": 1,
+    "quantity": null,
+    "durability": 69,
+    "max_slot": 3,
+    "extra_skills": "有",
+    "speed": -30,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "claws",
+    "name": "符紋爪",
+    "name_en": "Runic Talons",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 24,
+      "max": 44
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 60,
+    "strength": 115,
+    "agile": 115,
+    "range": 1,
+    "quantity": null,
+    "durability": 69,
+    "max_slot": 3,
+    "extra_skills": "有",
+    "speed": -30,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "scissorskatar",
+    "name": "剪咬刃",
+    "name_en": "Scissors Katar",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 9,
+      "max": 17
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 1,
+    "strength": 55,
+    "agile": 55,
+    "range": 1,
+    "quantity": null,
+    "durability": 68,
+    "max_slot": 3,
+    "extra_skills": "有",
+    "speed": -10,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "scissorskatar",
+    "name": "格鬥剪",
+    "name_en": "Scissors Quhabl",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 19,
+      "max": 40
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 40,
+    "strength": 82,
+    "agile": 82,
+    "range": 1,
+    "quantity": null,
+    "durability": 68,
+    "max_slot": 3,
+    "extra_skills": "有",
+    "speed": 0,
+    "limit": "assassin"
+  },
+  {
+    "type": "weapon",
+    "kind": "assassinkatar",
+    "group": "scissorskatar",
+    "name": "近身剪",
+    "name_en": "Scissors Suwayyah",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 40,
+      "max": 51
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 64,
+    "strength": 118,
+    "agile": 118,
+    "range": 1,
+    "quantity": null,
+    "durability": 68,
+    "max_slot": 3,
+    "extra_skills": "有",
+    "speed": 0,
+    "limit": "assassin"
+  }
+]

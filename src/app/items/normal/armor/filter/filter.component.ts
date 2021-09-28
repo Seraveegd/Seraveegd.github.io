@@ -11,14 +11,12 @@ export class FilterComponent implements OnInit {
   type: string = this.route.snapshot.params.type;
   type_detail: string = this.route.snapshot.params.type_detail;
 
-  armors_format: any[] = [];
-
   armors = this.item.getNormalArmorItems();
 
   weights: { [key: string]: string } = {
     light: '輕型',
     medium: '中型',
-    armor: '重型',
+    heavy: '重型',
   };
 
   parts: { [key: string]: string } = {
@@ -39,6 +37,8 @@ export class FilterComponent implements OnInit {
     circlet: '頭飾'
   };
 
+  partNeedtofind = ['light', 'medium', 'heavy', '2', '3', '4'];
+
   constructor(private route: ActivatedRoute, private item: ItemService) {
     this.route.params.subscribe(params => {
       this.type = params.type;
@@ -49,8 +49,12 @@ export class FilterComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  toArray(detail: string): any{
+  toArray(detail: string): any {
     return detail.split(',');
+  }
+
+  getUniqueKind(obj: any): any {
+    return [...new Map(obj.map((item: any) => [item['part'], item['part']])).values()];
   }
 
 }

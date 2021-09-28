@@ -29,4 +29,28 @@ export class ItemService {
       limit: string
     }[]>('/assets/armor.json');
   }
+
+  getNormalWeaponItems(): any{
+    return this.http.get<{
+      type: string,
+      kind: string,
+      group: string,
+      name: string,
+      name_en: string,
+      attack: string,
+      hand: string,
+      oneharm: object,
+      twoharm: object,
+      throw: object;
+      level: number,
+      strength: number,
+      agile: number,
+      range: number,
+      durability: string,
+      max_slot: number,
+      extra_skills: string,
+      speed: number,
+      limit: string
+    }[]>('/assets/weapon.json');
+  }
 }

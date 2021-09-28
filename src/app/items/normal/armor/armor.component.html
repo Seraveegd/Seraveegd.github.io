@@ -17,11 +17,17 @@
     <span><a [routerLink]="['filter', 'limit', 'paladin']" (click)="clink('10')" [ngClass]="{'active': selected === '10'}">聖騎士</a></span>
     <span><a [routerLink]="['filter', 'limit', 'necromancer']" (click)="clink('11')" [ngClass]="{'active': selected === '11'}">死靈法師</a></span>
   </div>
-  <!-- <div [ngClass]="'list'">
+  <div [ngClass]="'list'">
     <span>重量</span>
     <span><a [routerLink]="['filter', 'weight', 'light']" (click)="clink('12')" [ngClass]="{'active': selected === '12'}">輕型</a></span>
     <span><a [routerLink]="['filter', 'weight', 'medium']" (click)="clink('13')" [ngClass]="{'active': selected === '13'}">中型</a></span>
     <span><a [routerLink]="['filter', 'weight', 'heavy']" (click)="clink('14')" [ngClass]="{'active': selected === '14'}">重型</a></span>
-  </div> -->
+  </div>
+  <div [ngClass]="'list'">
+    <span>最大鑲孔數</span>
+    <span><a [routerLink]="['filter', 'max_slot', '2']" (click)="clink('15')" [ngClass]="{'active': selected === '15'}">2</a></span>
+    <span><a [routerLink]="['filter', 'max_slot', '3']" (click)="clink('16')" [ngClass]="{'active': selected === '16'}">3</a></span>
+    <span><a [routerLink]="['filter', 'max_slot', '4']" (click)="clink('17')" [ngClass]="{'active': selected === '17'}">4</a></span>
+  </div>
 </div>
 <router-outlet></router-outlet>

@@ -6,10 +6,13 @@
           <span>&nbsp;暗黑2年代記&nbsp;</span>
         </a>
         <a [routerLink]="['/', 'items']" (click)="sideNav.toggle()" mat-list-item>
-          <span>&nbsp;物品(待做)&nbsp;</span>
+          <span>&nbsp;物品&nbsp;</span>
         </a>
         <a [routerLink]="['/', 'runewords']" (click)="sideNav.toggle()" mat-list-item>
           <span>&nbsp;符文&nbsp;</span>
+        </a>
+        <a (click)="sideNav.toggle()" mat-list-item>
+          <span>&nbsp;配方&nbsp;</span>
         </a>
       </mat-nav-list>
     </mat-accordion>
@@ -44,6 +47,11 @@
               <li>
                 <a [routerLink]="['/', 'runewords']">
                   <span>&nbsp;符文&nbsp;</span>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <span>&nbsp;配方&nbsp;</span>
                 </a>
               </li>
             </ul>

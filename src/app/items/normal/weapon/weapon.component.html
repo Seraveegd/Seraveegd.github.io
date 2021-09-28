@@ -1,0 +1,46 @@
+<div [ngClass]="'title'">武器</div>
+<div [ngClass]="'rwords'">
+  <div [ngClass]="'list'">
+    <span>種類</span>
+    <span><a [routerLink]="['filter', 'kind', 'sword']" (click)="clink('1')" [ngClass]="{'active': selected === '1'}">刀劍</a></span>
+    <span><a [routerLink]="['filter', 'kind', 'axe']" (click)="clink('2')" [ngClass]="{'active': selected === '2'}">斧頭</a></span>
+    <span><a [routerLink]="['filter', 'kind', 'polearm']" (click)="clink('3')" [ngClass]="{'active': selected === '3'}">長斧</a></span>
+    <span><a [routerLink]="['filter', 'kind', 'spear,amazonspear']" (click)="clink('4')" [ngClass]="{'active': selected === '4'}">長槍</a></span>
+    <span><a [routerLink]="['filter', 'kind', 'mace']" (click)="clink('5')" [ngClass]="{'active': selected === '5'}">釘頭錘</a></span>
+    <span><a [routerLink]="['filter', 'kind', 'scepter']" (click)="clink('6')" [ngClass]="{'active': selected === '6'}">權杖</a></span>
+    <span><a [routerLink]="['filter', 'kind', 'bow,amazonbow']" (click)="clink('7')" [ngClass]="{'active': selected === '7'}">弓箭</a></span>
+    <span><a [routerLink]="['filter', 'kind', 'crossbow']" (click)="clink('8')" [ngClass]="{'active': selected === '8'}">十字弓</a></span>
+    <span><a [routerLink]="['filter', 'kind', 'javelin,amazonjavelin']" (click)="clink('9')" [ngClass]="{'active': selected === '9'}">標槍</a></span>
+    <span><a [routerLink]="['filter', 'kind', 'dagger']" (click)="clink('10')" [ngClass]="{'active': selected === '10'}">匕首</a></span>
+    <span><a [routerLink]="['filter', 'kind', 'throwing']" (click)="clink('11')" [ngClass]="{'active': selected === '11'}">投擲武器</a></span>
+    <span><a [routerLink]="['filter', 'kind', 'wand']" (click)="clink('12')" [ngClass]="{'active': selected === '12'}">魔杖</a></span>
+    <span><a [routerLink]="['filter', 'kind', 'stave']" (click)="clink('13')" [ngClass]="{'active': selected === '13'}">法杖</a></span>
+    <span><a [routerLink]="['filter', 'kind', 'sorceressorb']" (click)="clink('14')" [ngClass]="{'active': selected === '14'}">法珠</a></span>
+    <span><a [routerLink]="['filter', 'kind', 'assassinkatar']" (click)="clink('15')" [ngClass]="{'active': selected === '15'}">爪</a></span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>職業</span>
+    <span><a [routerLink]="['filter', 'limit', 'sorceress']" (click)="clink('16')" [ngClass]="{'active': selected === '16'}">法師</a></span>
+    <span><a [routerLink]="['filter', 'limit', 'amazon']" (click)="clink('17')" [ngClass]="{'active': selected === '17'}">亞馬遜</a></span>
+    <span><a [routerLink]="['filter', 'limit', 'assassin']" (click)="clink('18')" [ngClass]="{'active': selected === '18'}">刺客</a></span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>手持</span>
+    <span><a [routerLink]="['filter', 'hand', 'one']" (click)="clink('19')" [ngClass]="{'active': selected === '19'}">單手</a></span>
+    <span><a [routerLink]="['filter', 'hand', 'two']" (click)="clink('20')" [ngClass]="{'active': selected === '20'}">雙手</a></span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>攻擊類型</span>
+    <span><a [routerLink]="['filter', 'attack', 'melee']" (click)="clink('21')" [ngClass]="{'active': selected === '21'}">近戰</a></span>
+    <span><a [routerLink]="['filter', 'attack', 'missile']" (click)="clink('22')" [ngClass]="{'active': selected === '22'}">遠程</a></span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>最大鑲孔數</span>
+    <span><a [routerLink]="['filter', 'max_slot', '2']" (click)="clink('23')" [ngClass]="{'active': selected === '23'}">2</a></span>
+    <span><a [routerLink]="['filter', 'max_slot', '3']" (click)="clink('24')" [ngClass]="{'active': selected === '24'}">3</a></span>
+    <span><a [routerLink]="['filter', 'max_slot', '4']" (click)="clink('25')" [ngClass]="{'active': selected === '25'}">4</a></span>
+    <span><a [routerLink]="['filter', 'max_slot', '5']" (click)="clink('26')" [ngClass]="{'active': selected === '26'}">5</a></span>
+    <span><a [routerLink]="['filter', 'max_slot', '6']" (click)="clink('27')" [ngClass]="{'active': selected === '27'}">6</a></span>
+  </div>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,179 @@
+<div [ngClass]="'title'">{{ type }}:{{ type_detail}}</div>
+<div *ngIf="weapons | async | filternormalweapon: type : type_detail; let items ">
+  <ng-container *ngFor="let td of (kindNeedtofind.includes(type_detail) ? getUniqueKind(items) : toArray(type_detail))">
+    <ng-container [ngSwitch]="td">
+      <ng-container
+        *ngSwitchCase="['sword', 'axe', 'polearm', 'spear', 'amazonspear', 'mace', 'scepter', 'dagger', 'wand', 'stave', 'sorceressorb', 'sorceress'].includes(td) ? td : !td">
+        <div [ngClass]="'title'">{{ kinds[td] }}</div>
+        <table [ngClass]="'weapons'">
+          <thead>
+            <th>圖片</th>
+            <th>名稱</th>
+            <th>傷害</th>
+            <th>需要等級</th>
+            <th>需要力量</th>
+            <th>需要敏捷</th>
+            <th>範圍</th>
+            <th>耐久度</th>
+            <th>最大鑲孔數</th>
+            <th>武器速度</th>
+          </thead>
+          <tbody>
+            <tr
+              *ngFor="let item of items | filternormalweapon: (kindNeedtofind.includes(type_detail) ? 'kind' : type) : td; let i = index">
+              <ng-container *ngIf="type !== 'max_slot'">
+                <td *ngIf="i%3 === 0" rowspan="3"><img
+                    [src]="'/assets/images/items/normal/weapon/' + item.kind + '/' + item.group + '.png'"><br>{{ item.hand === 'one'? '(單手)' : '(雙手)' }}
+                </td>
+              </ng-container>
+              <ng-container *ngIf="type === 'max_slot'">
+                <td><img
+                    [src]="'/assets/images/items/normal/weapon/' + item.kind + '/' + item.group + '.png'"><br>{{ item.hand === 'one'? '(單手)' : '(雙手)' }}
+                </td>
+              </ng-container>
+              <td>{{ item.name }}<br>({{ item.name_en }})</td>
+              <td>
+                {{ td === 'sword' && item.hand === 'two'  ? '單手: ' + item.oneharm.min + ' - ' +  item.oneharm.max + '\n雙手: ' : '' }}
+                {{ item.hand === 'one'? item.oneharm.min : item.twoharm.min }}&nbsp;-&nbsp;{{ item.hand === 'one'? item.oneharm.max : item.twoharm.max }}
+              </td>
+              <td>{{ item.level }}</td>
+              <td>{{ item.strength }}</td>
+              <td>{{ item.agile }}</td>
+              <td>{{ item.range }}</td>
+              <td>{{ item.durability }}</td>
+              <td>{{ item.max_slot }}</td>
+              <td>{{ item.speed }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+      <ng-container *ngSwitchCase="['bow', 'amazonbow', 'crossbow'].includes(td) ? td : !td">
+        <div [ngClass]="'title'">{{ kinds[td] }}</div>
+        <table [ngClass]="'weapons'">
+          <thead>
+            <th>圖片</th>
+            <th>名稱</th>
+            <th>傷害</th>
+            <th>需要等級</th>
+            <th>需要力量</th>
+            <th>需要敏捷</th>
+            <th>最大鑲孔數</th>
+            <th>武器速度</th>
+          </thead>
+          <tbody>
+            <tr
+              *ngFor="let item of items | filternormalweapon: (kindNeedtofind.includes(type_detail) ? 'kind' : type) : td; let i = index">
+              <ng-container *ngIf="type !== 'max_slot'">
+                <td *ngIf="i%3 === 0" rowspan="3"><img
+                    [src]="'/assets/images/items/normal/weapon/' + item.kind + '/' + item.group + '.png'"><br>{{ item.hand === 'one'? '(單手)' : '(雙手)' }}
+                </td>
+              </ng-container>
+              <ng-container *ngIf="type === 'max_slot'">
+                <td><img
+                    [src]="'/assets/images/items/normal/weapon/' + item.kind + '/' + item.group + '.png'"><br>{{ item.hand === 'one'? '(單手)' : '(雙手)' }}
+                </td>
+              </ng-container>
+              <td>{{ item.name }}<br>({{ item.name_en }})</td>
+              <td>
+                {{ item.hand === 'one'? item.oneharm.min : item.twoharm.min }}&nbsp;-&nbsp;{{ item.hand === 'one'? item.oneharm.max : item.twoharm.max }}
+              </td>
+              <td>{{ item.level }}</td>
+              <td>{{ item.strength }}</td>
+              <td>{{ item.agile }}</td>
+              <td>{{ item.max_slot }}</td>
+              <td>{{ item.speed }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+      <ng-container *ngSwitchCase="['javelin', 'amazonjavelin', 'throwing'].includes(td) ? td : !td">
+        <div [ngClass]="'title'">{{ kinds[td] }}</div>
+        <table [ngClass]="'weapons'">
+          <thead>
+            <th>圖片</th>
+            <th>名稱</th>
+            <th>傷害</th>
+            <th>投擲傷害</th>
+            <th>需要等級</th>
+            <th>需要力量</th>
+            <th>需要敏捷</th>
+            <th>範圍</th>
+            <th>數量</th>
+            <th>武器速度</th>
+          </thead>
+          <tbody>
+            <tr
+              *ngFor="let item of items | filternormalweapon: (kindNeedtofind.includes(type_detail) ? 'kind' : type) : td; let i = index">
+              <ng-container *ngIf="type !== 'max_slot'">
+                <td *ngIf="i%3 === 0" rowspan="3"><img
+                    [src]="'/assets/images/items/normal/weapon/' + item.kind + '/' + item.group + '.png'"><br>{{ item.hand === 'one'? '(單手)' : '(雙手)' }}
+                </td>
+              </ng-container>
+              <ng-container *ngIf="type === 'max_slot'">
+                <td><img
+                    [src]="'/assets/images/items/normal/weapon/' + item.kind + '/' + item.group + '.png'"><br>{{ item.hand === 'one'? '(單手)' : '(雙手)' }}
+                </td>
+              </ng-container>
+              <td>{{ item.name }}<br>({{ item.name_en }})</td>
+              <td>
+                {{ item.hand === 'one'? item.oneharm.min : item.twoharm.min }}&nbsp;-&nbsp;{{ item.hand === 'one'? item.oneharm.max : item.twoharm.max }}
+              </td>
+              <td>{{ item.throw.min }}&nbsp;-&nbsp;{{ item.throw.max }}</td>
+              <td>{{ item.level }}</td>
+              <td>{{ item.strength }}</td>
+              <td>{{ item.agile }}</td>
+              <td>{{ item.range }}</td>
+              <td>{{ item.quantity }}</td>
+              <td>{{ item.speed }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+      <ng-container *ngSwitchCase="['assassinkatar', 'assassin'].includes(td) ? td : !td">
+        <div [ngClass]="'title'">{{ kinds[td] }}</div>
+        <table [ngClass]="'weapons'">
+          <thead>
+            <th>圖片</th>
+            <th>名稱</th>
+            <th>傷害</th>
+            <th>需要等級</th>
+            <th>需要力量</th>
+            <th>需要敏捷</th>
+            <th>範圍</th>
+            <th>耐久度</th>
+            <th>最大鑲孔數</th>
+            <th>額外技能</th>
+            <th>武器速度</th>
+          </thead>
+          <tbody>
+            <tr
+              *ngFor="let item of items | filternormalweapon: (kindNeedtofind.includes(type_detail) ? 'kind' : type) : td; let i = index">
+              <ng-container *ngIf="type !== 'max_slot'">
+                <td *ngIf="i%3 === 0" rowspan="3"><img
+                    [src]="'/assets/images/items/normal/weapon/' + item.kind + '/' + item.group + '.png'"><br>{{ item.hand === 'one'? '(單手)' : '(雙手)' }}
+                </td>
+              </ng-container>
+              <ng-container *ngIf="type === 'max_slot'">
+                <td><img
+                    [src]="'/assets/images/items/normal/weapon/' + item.kind + '/' + item.group + '.png'"><br>{{ item.hand === 'one'? '(單手)' : '(雙手)' }}
+                </td>
+              </ng-container>
+              <td>{{ item.name }}<br>({{ item.name_en }})</td>
+              <td>
+                {{ item.hand === 'one'? item.oneharm.min : item.twoharm.min }}&nbsp;-&nbsp;{{ item.hand === 'one'? item.oneharm.max : item.twoharm.max }}
+              </td>
+              <td>{{ item.level }}</td>
+              <td>{{ item.strength }}</td>
+              <td>{{ item.agile }}</td>
+              <td>{{ item.range }}</td>
+              <td>{{ item.durability }}</td>
+              <td>{{ item.max_slot }}</td>
+              <td>{{ item.extra_skills }}</td>
+              <td>{{ item.speed }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+</div>

@@ -677,7 +677,7 @@
     "group": "quilted",
     "name": "布甲",
     "name_en": "Quilted Armor",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 8,
       "max": 12
@@ -705,7 +705,7 @@
     "group": "quilted",
     "name": "鬼魂戰甲",
     "name_en": "Ghost Armor",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 102,
       "max": 117
@@ -733,7 +733,7 @@
     "group": "quilted",
     "name": "灰暮壽衣",
     "name_en": "Dusk Shroud",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 361,
       "max": 467
@@ -761,7 +761,7 @@
     "group": "leather",
     "name": "皮甲",
     "name_en": "Leather Armor",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 14,
       "max": 17
@@ -789,7 +789,7 @@
     "group": "leather",
     "name": "海蛇皮甲",
     "name_en": "Serpentskin Armor",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 111,
       "max": 126
@@ -817,7 +817,7 @@
     "group": "leather",
     "name": "古龍皮",
     "name_en": "Wyrmhide",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 364,
       "max": 470
@@ -845,7 +845,7 @@
     "group": "hardleather",
     "name": "硬皮甲",
     "name_en": "Hard Leather Armor",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 21,
       "max": 24
@@ -873,7 +873,7 @@
     "group": "hardleather",
     "name": "魔皮戰甲",
     "name_en": "Demonhide Armor",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 122,
       "max": 136
@@ -901,7 +901,7 @@
     "group": "hardleather",
     "name": "聖甲蟲殼皮甲",
     "name_en": "Scarab Husk",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 369,
       "max": 474
@@ -929,7 +929,7 @@
     "group": "studdedleather",
     "name": "鑲嵌甲",
     "name_en": "Studded Leather",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 32,
       "max": 35
@@ -957,7 +957,7 @@
     "group": "studdedleather",
     "name": "攀繞戰甲",
     "name_en": "Trellised Armor",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 138,
       "max": 153
@@ -985,7 +985,7 @@
     "group": "studdedleather",
     "name": "線羊毛皮甲",
     "name_en": "Wire Fleece",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 375,
       "max": 481
@@ -1013,7 +1013,7 @@
     "group": "ringmail",
     "name": "鎖環甲",
     "name_en": "Ring Mail",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 45,
       "max": 48
@@ -1041,7 +1041,7 @@
     "group": "ringmail",
     "name": "連扣戰甲",
     "name_en": "Linked Mail",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 158,
       "max": 172
@@ -1069,7 +1069,7 @@
     "group": "ringmail",
     "name": "鑽石鎖子甲",
     "name_en": "Diamond Mail",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 383,
       "max": 489
@@ -1097,7 +1097,7 @@
     "group": "scalemail",
     "name": "鱗甲",
     "name_en": "Scale Mail",
-    "weight": "重型",
+    "weight": "heavy",
     "defense": {
       "min": 57,
       "max": 60
@@ -1125,7 +1125,7 @@
     "group": "scalemail",
     "name": "提格萊特戰甲",
     "name_en": "Tigulated Mail",
-    "weight": "重型",
+    "weight": "heavy",
     "defense": {
       "min": 176,
       "max": 190
@@ -1153,7 +1153,7 @@
     "group": "scalemail",
     "name": "甲殼鎧鱗甲",
     "name_en": "Loricated Mail",
-    "weight": "重型",
+    "weight": "heavy",
     "defense": {
       "min": 390,
       "max": 496
@@ -1181,7 +1181,7 @@
     "group": "breastplate",
     "name": "胸甲",
     "name_en": "Breast Plate",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 65,
       "max": 68
@@ -1209,7 +1209,7 @@
     "group": "breastplate",
     "name": "護胸甲",
     "name_en": "Cuirass",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 188,
       "max": 202
@@ -1237,7 +1237,7 @@
     "group": "breastplate",
     "name": "巨型鱗鎧胸甲",
     "name_en": "Great Hauberk",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 395,
       "max": 501
@@ -1265,7 +1265,7 @@
     "group": "chainmail",
     "name": "鎖子甲",
     "name_en": "Chain Mail",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 72,
       "max": 75
@@ -1293,7 +1293,7 @@
     "group": "chainmail",
     "name": "織網戰甲",
     "name_en": "Mesh Armor",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 198,
       "max": 213
@@ -1321,7 +1321,7 @@
     "group": "chainmail",
     "name": "骸骨鏈甲",
     "name_en": "Boneweave",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 399,
       "max": 505
@@ -1349,7 +1349,7 @@
     "group": "splintmail",
     "name": "板甲",
     "name_en": "Splint Mail",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 90,
       "max": 95
@@ -1377,7 +1377,7 @@
     "group": "splintmail",
     "name": "羅瑟戰甲",
     "name_en": "Russet Armor",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 225,
       "max": 243
@@ -1405,7 +1405,7 @@
     "group": "splintmail",
     "name": "炎魔皮板甲",
     "name_en": "Balrog Skin",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 410,
       "max": 517
@@ -1431,9 +1431,9 @@
     "type": "armor",
     "part": "armor",
     "group": "lightplate",
-    "name": "輕型裝甲",
+    "name": "light裝甲",
     "name_en": "Light Plate",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 90,
       "max": 107
@@ -1461,7 +1461,7 @@
     "group": "lightplate",
     "name": "法師鎧甲",
     "name_en": "Mage Plate",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 225,
       "max": 261
@@ -1489,7 +1489,7 @@
     "group": "lightplate",
     "name": "執政官鎧甲",
     "name_en": "Archon Plate",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 410,
       "max": 524
@@ -1517,7 +1517,7 @@
     "group": "fieldplate",
     "name": "實戰鎧甲",
     "name_en": "Field Plate",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 101,
       "max": 105
@@ -1545,7 +1545,7 @@
     "group": "fieldplate",
     "name": "鯊齒戰甲",
     "name_en": "Sharktooth Armor",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 242,
       "max": 258
@@ -1573,7 +1573,7 @@
     "group": "fieldplate",
     "name": "海妖殼甲",
     "name_en": "Kraken Shell",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 417,
       "max": 523
@@ -1601,7 +1601,7 @@
     "group": "platemail",
     "name": "鎧甲",
     "name_en": "Plate Mail",
-    "weight": "重型",
+    "weight": "heavy",
     "defense": {
       "min": 108,
       "max": 116
@@ -1629,7 +1629,7 @@
     "group": "platemail",
     "name": "聖堂武士外袍",
     "name_en": "Templar Coat",
-    "weight": "重型",
+    "weight": "heavy",
     "defense": {
       "min": 252,
       "max": 274
@@ -1657,7 +1657,7 @@
     "group": "platemail",
     "name": "地獄鍛甲",
     "name_en": "Hellforge Plate",
-    "weight": "重型",
+    "weight": "heavy",
     "defense": {
       "min": 421,
       "max": 530
@@ -1685,7 +1685,7 @@
     "group": "gothicplate",
     "name": "哥德戰甲",
     "name_en": "Gothic Plate",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 128,
       "max": 135
@@ -1713,7 +1713,7 @@
     "group": "gothicplate",
     "name": "凸紋戰甲",
     "name_en": "Embossed Plate",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 282,
       "max": 303
@@ -1741,7 +1741,7 @@
     "group": "gothicplate",
     "name": "漆甲",
     "name_en": "Lacquered Plate",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 433,
       "max": 541
@@ -1769,7 +1769,7 @@
     "group": "fullplate",
     "name": "高級戰甲",
     "name_en": "Full Plate Mail",
-    "weight": "重型",
+    "weight": "heavy",
     "defense": {
       "min": 150,
       "max": 161
@@ -1797,7 +1797,7 @@
     "group": "fullplate",
     "name": "混沌戰甲",
     "name_en": "Chaos Armor",
-    "weight": "重型",
+    "weight": "heavy",
     "defense": {
       "min": 315,
       "max": 342
@@ -1825,7 +1825,7 @@
     "group": "fullplate",
     "name": "陰影鎧甲",
     "name_en": "Shadow Plate",
-    "weight": "重型",
+    "weight": "heavy",
     "defense": {
       "min": 446,
       "max": 557
@@ -1853,7 +1853,7 @@
     "group": "ancientarmor",
     "name": "古代裝甲",
     "name_en": "Ancient Armor",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 218,
       "max": 233
@@ -1881,7 +1881,7 @@
     "group": "ancientarmor",
     "name": "華麗戰甲",
     "name_en": "Ornate Plate",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 417,
       "max": 450
@@ -1909,7 +1909,7 @@
     "group": "ancientarmor",
     "name": "神聖盔甲",
     "name_en": "Sacred Armor",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 487,
       "max": 600
@@ -2551,7 +2551,7 @@
     "type": "armor",
     "part": "glove",
     "group": "chaingloves",
-    "name": "重型手鐲",
+    "name": "heavy手鐲",
     "name_en": "Heavy Bracers",
     "weight": "",
     "defense": {
@@ -2607,7 +2607,7 @@
     "type": "armor",
     "part": "glove",
     "group": "lightgauntlets",
-    "name": "輕型鐵手套",
+    "name": "light鐵手套",
     "name_en": "Light Gauntlets",
     "weight": "",
     "defense": {
@@ -3027,7 +3027,7 @@
     "type": "armor",
     "part": "boot",
     "group": "lightplateboots",
-    "name": "輕型金屬靴",
+    "name": "light金屬靴",
     "name_en": "Light Plate Boots",
     "weight": "",
     "defense": {
@@ -3197,7 +3197,7 @@
     "group": "buckler",
     "name": "圓盾",
     "name_en": "Buckler",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 4,
       "max": 6
@@ -3225,7 +3225,7 @@
     "group": "buckler",
     "name": "防禦盾",
     "name_en": "Defender",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 41,
       "max": 49
@@ -3253,7 +3253,7 @@
     "group": "buckler",
     "name": "防寒圓盾",
     "name_en": "Heater",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 95,
       "max": 110
@@ -3281,7 +3281,7 @@
     "group": "smallshield",
     "name": "小盾牌",
     "name_en": "Small Shield",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 8,
       "max": 10
@@ -3309,7 +3309,7 @@
     "group": "smallshield",
     "name": "圓型盾",
     "name_en": "Round Shield",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 47,
       "max": 55
@@ -3337,7 +3337,7 @@
     "group": "smallshield",
     "name": "月精靈護盾",
     "name_en": "Luna",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 108,
       "max": 123
@@ -3365,7 +3365,7 @@
     "group": "largeshield",
     "name": "大盾牌",
     "name_en": "Large Shield",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 12,
       "max": 14
@@ -3393,7 +3393,7 @@
     "group": "largeshield",
     "name": "鱗盾",
     "name_en": "Scutum",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 53,
       "max": 61
@@ -3421,7 +3421,7 @@
     "group": "largeshield",
     "name": "亥伯龍盾",
     "name_en": "Hyperion",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 119,
       "max": 135
@@ -3449,7 +3449,7 @@
     "group": "kiteshield",
     "name": "輕盾",
     "name_en": "Kite Shield",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 16,
       "max": 18
@@ -3477,7 +3477,7 @@
     "group": "kiteshield",
     "name": "龍盾",
     "name_en": "Dragon Shield",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 59,
       "max": 67
@@ -3505,7 +3505,7 @@
     "group": "kiteshield",
     "name": "統治者大盾",
     "name_en": "Monarch",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 133,
       "max": 148
@@ -3533,7 +3533,7 @@
     "group": "spikedshield",
     "name": "尖刺盾牌",
     "name_en": "Spiked Shield",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 15,
       "max": 25
@@ -3561,7 +3561,7 @@
     "group": "spikedshield",
     "name": "倒刺護盾",
     "name_en": "Barbed Shield",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 68,
       "max": 78
@@ -3589,7 +3589,7 @@
     "group": "spikedshield",
     "name": "刀刃刺盾",
     "name_en": "Blade Barrier",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 147,
       "max": 163
@@ -3617,7 +3617,7 @@
     "group": "towershield",
     "name": "塔盾",
     "name_en": "Tower Shield",
-    "weight": "重型",
+    "weight": "heavy",
     "defense": {
       "min": 22,
       "max": 25
@@ -3645,7 +3645,7 @@
     "group": "towershield",
     "name": "大盾",
     "name_en": "Pavise",
-    "weight": "重型",
+    "weight": "heavy",
     "defense": {
       "min": 68,
       "max": 78
@@ -3673,7 +3673,7 @@
     "group": "towershield",
     "name": "塔盾",
     "name_en": "Aegis",
-    "weight": "重型",
+    "weight": "heavy",
     "defense": {
       "min": 145,
       "max": 161
@@ -3701,7 +3701,7 @@
     "group": "boneshield",
     "name": "白骨盾牌",
     "name_en": "Bone Shield",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 10,
       "max": 30
@@ -3729,7 +3729,7 @@
     "group": "boneshield",
     "name": "冷酷之盾",
     "name_en": "Grim Shield",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 50,
       "max": 150
@@ -3757,7 +3757,7 @@
     "group": "boneshield",
     "name": "洞穴巨魔巢穴骨盾",
     "name_en": "Troll Nest",
-    "weight": "輕型",
+    "weight": "light",
     "defense": {
       "min": 158,
       "max": 173
@@ -3785,7 +3785,7 @@
     "group": "gothicshield",
     "name": "哥德盾牌",
     "name_en": "Gothic Shield",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 30,
       "max": 35
@@ -3813,7 +3813,7 @@
     "group": "gothicshield",
     "name": "古代之盾",
     "name_en": "Ancient Shield",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 80,
       "max": 93
@@ -3841,7 +3841,7 @@
     "group": "gothicshield",
     "name": "保護盾牌",
     "name_en": "Ward",
-    "weight": "中型",
+    "weight": "medium",
     "defense": {
       "min": 153,
       "max": 170
