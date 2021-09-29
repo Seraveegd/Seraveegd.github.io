@@ -1,656 +1,516 @@
 [
-    {
-        "type": "craft",
-        "kind": "hitpower",
-        "part": "helmet",
-        "name": "打擊能量頭盔",
-        "item": [
-            "高級頭盔", "輕鋼盔", "巨貝頭盔"
-        ],
-        "rune": "Ith",
-        "gem": "完美藍寶石",
-        "jewelry": "Y",
-        "activity": [
-            "攻擊時有 5% 機會施展等級 4 霜之新星",
-            "攻擊者受到傷害 3-7",
-            "+25-50 對飛射性防禦"
-        ],
-        "range": [1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "hitpower",
-        "part": "boot",
-        "name": "打擊能量之靴",
-        "item": [
-            "鎖鏈靴", "網織之靴", "骸骨靴"
-        ],
-        "rune": "Ral",
-        "gem": "完美藍寶石",
-        "jewelry": "Y",
-        "activity": [
-            "攻擊時有 5% 機會施展等級 4 霜之新星",
-            "攻擊者受到傷害 3-7",
-            "+25-60 對近戰防禦"
-        ],
-        "range": [1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "hitpower",
-        "part": "glove",
-        "name": "打擊能量手套",
-        "item": [
-            "鎖鍊手套", "重型手鐲", "吸血鬼手套"
-        ],
-        "rune": "Ort",
-        "gem": "完美藍寶石",
-        "jewelry": "Y",
-        "activity": [
-            "攻擊時有 5% 機會施展等級 4 霜之新星",
-            "擊退",
-            "攻擊者受到傷害 3-7"
-        ],
-        "range": [2]
-    },
-    {
-        "type": "craft",
-        "kind": "hitpower",
-        "part": "belt",
-        "name": "打擊能量腰帶",
-        "item": [
-            "重扣帶", "戰場腰帶", "洞穴巨魔腰帶"
-        ],
-        "rune": "Tal",
-        "gem": "完美藍寶石",
-        "jewelry": "Y",
-        "activity": [
-            "攻擊時有 5% 機會施展等級 4 霜之新星",
-            "攻擊者受到傷害 3-7",
-            "5-10% 受損的生命移至法力"
-        ],
-        "range": [1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "hitpower",
-        "part": "shield",
-        "name": "打擊能量之盾",
-        "item": [
-            "哥德盾牌", "古代盾牌", "保護盾牌"
-        ],
-        "rune": "Eth",
-        "gem": "完美藍寶石",
-        "jewelry": "Y",
-        "activity": [
-            "攻擊時有 5% 機會施展等級 4 霜之新星",
-            "攻擊者受到傷害 3-10",
-            "+5-10% 增加格檔可能性"
-        ],
-        "range": [1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "hitpower",
-        "part": "armor",
-        "name": "打擊能量盔甲",
-        "item": [
-            "盔甲", "鯊齒戰甲", "海殼妖甲"
-        ],
-        "rune": "Nef",
-        "gem": "完美藍寶石",
-        "jewelry": "Y",
-        "activity": [
-            "攻擊時有 5% 機會施展等級 4 霜之新星",
-            "攻擊者受到傷害 3-10",
-            "+10-20% 快速再度攻擊"
-        ],
-        "range": [1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "hitpower",
-        "part": "necklace",
-        "name": "打擊能量項鍊",
-        "item": [
-            "魔法項鍊"
-        ],
-        "rune": "Thul",
-        "gem": "完美藍寶石",
-        "jewelry": "Y",
-        "activity": [
-            "攻擊時有 5% 機會施展等級 4 霜之新星",
-            "攻擊者受到傷害 3-10",
-            "+5-15 擊中使怪物逃跑"
-        ],
-        "range": [1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "hitpower",
-        "part": "ring",
-        "name": "打擊能量戒指",
-        "item": [
-            "魔法戒指"
-        ],
-        "rune": "Amn",
-        "gem": "完美藍寶石",
-        "jewelry": "Y",
-        "activity": [
-            "攻擊時有 5% 機會施展等級 4 霜之新星",
-            "攻擊者受到傷害 3-6",
-            "+1-5 敏捷"
-        ],
-        "range": [1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "hitpower",
-        "part": "weapon",
-        "name": "打擊能量武器",
-        "item": [
-            "不鋒利的武器(例:棒/鎚)"
-        ],
-        "rune": "Tir",
-        "gem": "完美藍寶石",
-        "jewelry": "Y",
-        "activity": [
-            "攻擊時有 5% 機會施展等級 4 霜之新星",
-            "攻擊者受到傷害 3-7",
-            "+35-60% 增強傷害"
-        ],
-        "range": [1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "blood",
-        "part": "helmet",
-        "name": "生命頭盔",
-        "item": [
-            "頭盔", "無頰頭盔", "活動頭盔"
-        ],
-        "rune": "Ral",
-        "gem": "完美紅寶石",
-        "jewelry": "Y",
-        "activity": [
-            "1-3% 擊中偷取生命",
-            "+10-20 生命",
-            "+5-10% 致命攻擊"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "blood",
-        "part": "boot",
-        "name": "生命之靴",
-        "item": [
-            "輕型金屬靴", "戰場之靴", "鏡化靴"
-        ],
-        "rune": "Eth",
-        "gem": "完美紅寶石",
-        "jewelry": "Y",
-        "activity": [
-            "1-3% 擊中偷取生命",
-            "+10-20 生命",
-            "生命補滿 +5-10"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "blood",
-        "part": "glove",
-        "name": "生命手套",
-        "item": [
-            "重手套", "鯊皮手套", "吸血鬼骸骨手套"
-        ],
-        "rune": "Nef",
-        "gem": "完美紅寶石",
-        "jewelry": "Y",
-        "activity": [
-            "1-3% 擊中偷取生命",
-            "+10-20 生命",
-            "5-10% 造成壓碎性打擊的機率"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "blood",
-        "part": "belt",
-        "name": "生命腰帶",
-        "item": [
-            "扣帶", "織網腰帶", "秘銀腰帶"
-        ],
-        "rune": "Tal",
-        "gem": "完美紅寶石",
-        "jewelry": "Y",
-        "activity": [
-            "1-3% 擊中偷取生命",
-            "+10-20 生命",
-            "+5-10% 撕開傷口"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "blood",
-        "part": "shield",
-        "name": "生命之盾",
-        "item": [
-            "尖刺盾牌", "倒刺護盾", "刀刃刺盾"
-        ],
-        "rune": "Ith",
-        "gem": "完美紅寶石",
-        "jewelry": "Y",
-        "activity": [
-            "1-3% 擊中偷取生命",
-            "+10-20 生命",
-            "攻擊者受到傷害4-7"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "blood",
-        "part": "armor",
-        "name": "生命盔甲",
-        "item": [
-            "鎧甲", "聖堂武士外袍", "地獄鍛甲"
-        ],
-        "rune": "Thul",
-        "gem": "完美紅寶石",
-        "jewelry": "Y",
-        "activity": [
-            "1-3% 擊中偷取生命",
-            "+10-20 生命",
-            "+1-3 生命在殺死每一個惡魔後自動取得"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "blood",
-        "part": "necklace",
-        "name": "生命項鍊",
-        "item": [
-            "魔法項鍊"
-        ],
-        "rune": "Amn",
-        "gem": "完美紅寶石",
-        "jewelry": "Y",
-        "activity": [
-            "1-4% 擊中偷取生命",
-            "+10-20 生命",
-            "+5-10% 高速行走/跑步"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "blood",
-        "part": "ring",
-        "name": "生命戒指",
-        "item": [
-            "魔法戒指"
-        ],
-        "rune": "Sol",
-        "gem": "完美紅寶石",
-        "jewelry": "Y",
-        "activity": [
-            "1-3% 擊中偷取生命",
-            "+10-20 生命",
-            "+1-5 力量"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "blood",
-        "part": "weapon",
-        "name": "生命武器",
-        "item": [
-            "魔法斧頭"
-        ],
-        "rune": "Ort",
-        "gem": "完美紅寶石",
-        "jewelry": "Y",
-        "activity": [
-            "1-4% 擊中偷取生命",
-            "+10-20 生命",
-            "+35-60% 增強傷害"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "caster",
-        "part": "helmet",
-        "name": "施法者頭盔",
-        "item": [
-            "面具", "死亡面具", "惡魔頭蓋骨面具"
-        ],
-        "rune": "Nef",
-        "gem": "完美紫水晶",
-        "jewelry": "Y",
-        "activity": [
-            "法力重生 4-10%",
-            "+10-20 法力",
-            "1-4% 擊中偷取法力"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "caster",
-        "part": "boot",
-        "name": "施法者之靴",
-        "item": [
-            "皮靴", "魔皮靴", "飛龍皮靴"
-        ],
-        "rune": "Thul",
-        "gem": "完美紫水晶",
-        "jewelry": "Y",
-        "activity": [
-            "法力重生 4-10%",
-            "+10-20 法力",
-            "+2-5% 增加法力上限"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "caster",
-        "part": "glove",
-        "name": "施法者手套",
-        "item": [
-            "皮手套", "魔皮手套", "荊棘連指手套"
-        ],
-        "rune": "Ort",
-        "gem": "完美紫水晶",
-        "jewelry": "Y",
-        "activity": [
-            "法力重生 4-10%",
-            "+10-20 法力",
-            "+1-3 點法力在每殺一個敵人後取得"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "caster",
-        "part": "belt",
-        "name": "施法者腰帶",
-        "item": [
-            "輕扣帶", "鯊皮腰帶", "吸血鬼獠牙腰帶"
-        ],
-        "rune": "Ith",
-        "gem": "完美紫水晶",
-        "jewelry": "Y",
-        "activity": [
-            "法力重生 4-10%",
-            "+10-20 法力",
-            "+5-10% 高速施展速度"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "caster",
-        "part": "shield",
-        "name": "施法者之盾",
-        "item": [
-            "小盾", "圓型盾", "月精靈護盾"
-        ],
-        "rune": "Eth",
-        "gem": "完美紫水晶",
-        "jewelry": "Y",
-        "activity": [
-            "法力重生 4-10%",
-            "+10-20 法力",
-            "+5-10% 增加格檔可能性"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "caster",
-        "part": "armor",
-        "name": "施法者盔甲",
-        "item": [
-            "輕型盔甲", "法師盔甲", "執政官盔甲"
-        ],
-        "rune": "Tal",
-        "gem": "完美紫水晶",
-        "jewelry": "Y",
-        "activity": [
-            "法力重生 4-10%",
-            "+10-20 法力",
-            "+1-3 點法力在每殺一個敵人後取得"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "caster",
-        "part": "necklace",
-        "name": "施法者項鍊",
-        "item": [
-            "魔法項鍊"
-        ],
-        "rune": "Ral",
-        "gem": "完美紫水晶",
-        "jewelry": "Y",
-        "activity": [
-            "法力重生 4-10%",
-            "+10-20 法力",
-            "+5-10% 高速施展速度"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "caster",
-        "part": "ring",
-        "name": "施法者戒指",
-        "item": [
-            "魔法戒指"
-        ],
-        "rune": "Amn",
-        "gem": "完美紫水晶",
-        "jewelry": "Y",
-        "activity": [
-            "法力重生 4-10%",
-            "+10-20 法力",
-            "+1-5 精力"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "caster",
-        "part": "weapon",
-        "name": "施法者武器",
-        "item": [
-            "權杖/棍棒/法仗"
-        ],
-        "rune": "Tir",
-        "gem": "完美紫水晶",
-        "jewelry": "Y",
-        "activity": [
-            "法力重生 4-10%",
-            "+10-20 法力",
-            "+1-5% 增加法力上限"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "safety",
-        "part": "helmet",
-        "name": "防護頭盔",
-        "item": [
-            "皇冠", "巨皇冠", "頭冠"
-        ],
-        "rune": "Ith",
-        "gem": "完美綠寶石",
-        "jewelry": "Y",
-        "activity": [
-            "傷害減少 1-4",
-            "法術傷害減少1-2",
-            "+5-10% 抗閃電",
-            "+10-30% 防禦強化"
-        ],
-        "range": [0, 1, 2, 3]
-    },
-    {
-        "type": "craft",
-        "kind": "safety",
-        "part": "boot",
-        "name": "防護之靴",
-        "item": [
-            "護脛", "巨戰之靴", "極速鞋"
-        ],
-        "rune": "Ort",
-        "gem": "完美綠寶石",
-        "jewelry": "Y",
-        "activity": [
-            "傷害減少 1-4",
-            "法術傷害減少1-2",
-            "+5-10% 抗火",
-            "+10-30% 防禦強化"
-        ],
-        "range": [0, 1, 2, 3]
-    },
-    {
-        "type": "craft",
-        "kind": "safety",
-        "part": "glove",
-        "name": "防護手套",
-        "item": [
-            "鐵手套", "巨戰手套", "食人魔鐵手套"
-        ],
-        "rune": "Ral",
-        "gem": "完美綠寶石",
-        "jewelry": "Y",
-        "activity": [
-            "傷害減少 1-4",
-            "法術傷害減少1-2",
-            "+5-10% 抗寒",
-            "+10-30% 防禦強化"
-        ],
-        "range": [0, 1, 2, 3]
-    },
-    {
-        "type": "craft",
-        "kind": "safety",
-        "part": "belt",
-        "name": "防護腰帶",
-        "item": [
-            "飾帶", "魔皮勳帶", "蛛網腰帶"
-        ],
-        "rune": "Tal",
-        "gem": "完美綠寶石",
-        "jewelry": "Y",
-        "activity": [
-            "傷害減少 1-4",
-            "法術傷害減少1-2",
-            "+5-10% 抗毒",
-            "+10-30% 防禦強化"
-        ],
-        "range": [0, 1, 2, 3]
-    },
-    {
-        "type": "craft",
-        "kind": "safety",
-        "part": "shield",
-        "name": "防護之盾",
-        "item": [
-            "輕盾", "龍盾", "統治者大盾"
-        ],
-        "rune": "Nef",
-        "gem": "完美綠寶石",
-        "jewelry": "Y",
-        "activity": [
-            "傷害減少 1-4",
-            "法術傷害減少1-2",
-            "+5-10% 抗魔法",
-            "+10-30% 防禦強化"
-        ],
-        "range": [0, 1, 2, 3]
-    },
-    {
-        "type": "craft",
-        "kind": "safety",
-        "part": "armor",
-        "name": "防護盔甲",
-        "item": [
-            "胸甲", "護胸甲", "巨型鱗鎧胸甲"
-        ],
-        "rune": "Eth",
-        "gem": "完美綠寶石",
-        "jewelry": "Y",
-        "activity": [
-            "傷害減少 1-4",
-            "法術傷害減少1-2",
-            "冰凍時間減半",
-            "+10-30% 防禦強化"
-        ],
-        "range": [0, 1, 2, 3]
-    },
-    {
-        "type": "craft",
-        "kind": "safety",
-        "part": "necklace",
-        "name": "防護項鍊",
-        "item": [
-            "魔法項鍊"
-        ],
-        "rune": "Thul",
-        "gem": "完美綠寶石",
-        "jewelry": "Y",
-        "activity": [
-            "傷害減少 1-4",
-            "法術傷害減少1-2",
-            "+1-10% 增加格檔可能性"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "safety",
-        "part": "ring",
-        "name": "防護戒指",
-        "item": [
-            "魔法戒指"
-        ],
-        "rune": "Amn",
-        "gem": "完美綠寶石",
-        "jewelry": "Y",
-        "activity": [
-            "傷害減少 1-4",
-            "法術傷害減少1-2",
-            "+1-5 體力"
-        ],
-        "range": [0, 1, 2]
-    },
-    {
-        "type": "craft",
-        "kind": "safety",
-        "part": "weapon",
-        "name": "防護武器",
-        "item": [
-            "長槍/長矛"
-        ],
-        "rune": "Sol",
-        "gem": "完美綠寶石",
-        "jewelry": "Y",
-        "activity": [
-            "傷害減少 1-4",
-            "法術傷害減少1-2",
-            "+5-10% 防禦強化"
-        ],
-        "range": [0, 1, 2]
-    }
+  {
+    "type": "craft",
+    "kind": "hitpower",
+    "part": "helmet",
+    "name": "打擊能量頭盔",
+    "item": ["高級頭盔", "輕鋼盔", "巨貝頭盔"],
+    "rune": "Ith",
+    "gem": "完美藍寶石",
+    "jewelry": "Y",
+    "ability": [
+      "攻擊時有 5% 機會施展等級 4 霜之新星",
+      "攻擊者受到傷害 3-7",
+      "+25-50 對飛射性防禦"
+    ],
+    "range": [1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "hitpower",
+    "part": "armor",
+    "name": "打擊能量盔甲",
+    "item": ["盔甲", "鯊齒戰甲", "海殼妖甲"],
+    "rune": "Nef",
+    "gem": "完美藍寶石",
+    "jewelry": "Y",
+    "ability": [
+      "攻擊時有 5% 機會施展等級 4 霜之新星",
+      "攻擊者受到傷害 3-10",
+      "+10-20% 快速再度攻擊"
+    ],
+    "range": [1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "hitpower",
+    "part": "belt",
+    "name": "打擊能量腰帶",
+    "item": ["重扣帶", "戰場腰帶", "洞穴巨魔腰帶"],
+    "rune": "Tal",
+    "gem": "完美藍寶石",
+    "jewelry": "Y",
+    "ability": [
+      "攻擊時有 5% 機會施展等級 4 霜之新星",
+      "攻擊者受到傷害 3-7",
+      "5-10% 受損的生命移至法力"
+    ],
+    "range": [1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "hitpower",
+    "part": "glove",
+    "name": "打擊能量手套",
+    "item": ["鎖鍊手套", "重型手鐲", "吸血鬼手套"],
+    "rune": "Ort",
+    "gem": "完美藍寶石",
+    "jewelry": "Y",
+    "ability": [
+      "攻擊時有 5% 機會施展等級 4 霜之新星",
+      "擊退",
+      "攻擊者受到傷害 3-7"
+    ],
+    "range": [2]
+  },
+  {
+    "type": "craft",
+    "kind": "hitpower",
+    "part": "boot",
+    "name": "打擊能量之靴",
+    "item": ["鎖鏈靴", "網織之靴", "骸骨靴"],
+    "rune": "Ral",
+    "gem": "完美藍寶石",
+    "jewelry": "Y",
+    "ability": [
+      "攻擊時有 5% 機會施展等級 4 霜之新星",
+      "攻擊者受到傷害 3-7",
+      "+25-60 對近戰防禦"
+    ],
+    "range": [1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "hitpower",
+    "part": "shield",
+    "name": "打擊能量之盾",
+    "item": ["哥德盾牌", "古代盾牌", "保護盾牌"],
+    "rune": "Eth",
+    "gem": "完美藍寶石",
+    "jewelry": "Y",
+    "ability": [
+      "攻擊時有 5% 機會施展等級 4 霜之新星",
+      "攻擊者受到傷害 3-10",
+      "+5-10% 增加格檔可能性"
+    ],
+    "range": [1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "hitpower",
+    "part": "necklace",
+    "name": "打擊能量項鍊",
+    "item": ["項鍊"],
+    "rune": "Thul",
+    "gem": "完美藍寶石",
+    "jewelry": "Y",
+    "ability": [
+      "攻擊時有 5% 機會施展等級 4 霜之新星",
+      "攻擊者受到傷害 3-10",
+      "+5-15 擊中使怪物逃跑"
+    ],
+    "range": [1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "hitpower",
+    "part": "ring",
+    "name": "打擊能量戒指",
+    "item": ["戒指"],
+    "rune": "Amn",
+    "gem": "完美藍寶石",
+    "jewelry": "Y",
+    "ability": [
+      "攻擊時有 5% 機會施展等級 4 霜之新星",
+      "攻擊者受到傷害 3-6",
+      "+1-5 敏捷"
+    ],
+    "range": [1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "hitpower",
+    "part": "weapon",
+    "name": "打擊能量武器",
+    "item": ["釘頭槌", "權杖", "法杖", "魔杖"],
+    "rune": "Tir",
+    "gem": "完美藍寶石",
+    "jewelry": "Y",
+    "ability": [
+      "攻擊時有 5% 機會施展等級 4 霜之新星",
+      "攻擊者受到傷害 3-7",
+      "+35-60% 增強傷害"
+    ],
+    "range": [1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "blood",
+    "part": "helmet",
+    "name": "生命頭盔",
+    "item": ["頭盔", "無頰頭盔", "活動頭盔"],
+    "rune": "Ral",
+    "gem": "完美紅寶石",
+    "jewelry": "Y",
+    "ability": ["1-3% 擊中偷取生命", "+10-20 生命", "+5-10% 致命攻擊"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "blood",
+    "part": "armor",
+    "name": "生命盔甲",
+    "item": ["鎧甲", "聖堂武士外袍", "地獄鍛甲"],
+    "rune": "Thul",
+    "gem": "完美紅寶石",
+    "jewelry": "Y",
+    "ability": [
+      "1-3% 擊中偷取生命",
+      "+10-20 生命",
+      "+1-3 生命在殺死每一個惡魔後自動取得"
+    ],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "blood",
+    "part": "belt",
+    "name": "生命腰帶",
+    "item": ["扣帶", "織網腰帶", "秘銀腰帶"],
+    "rune": "Tal",
+    "gem": "完美紅寶石",
+    "jewelry": "Y",
+    "ability": ["1-3% 擊中偷取生命", "+10-20 生命", "+5-10% 撕開傷口"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "blood",
+    "part": "glove",
+    "name": "生命手套",
+    "item": ["重手套", "鯊皮手套", "吸血鬼骸骨手套"],
+    "rune": "Nef",
+    "gem": "完美紅寶石",
+    "jewelry": "Y",
+    "ability": [
+      "1-3% 擊中偷取生命",
+      "+10-20 生命",
+      "5-10% 造成壓碎性打擊的機率"
+    ],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "blood",
+    "part": "boot",
+    "name": "生命之靴",
+    "item": ["輕型金屬靴", "戰場之靴", "鏡化靴"],
+    "rune": "Eth",
+    "gem": "完美紅寶石",
+    "jewelry": "Y",
+    "ability": ["1-3% 擊中偷取生命", "+10-20 生命", "生命補滿 +5-10"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "blood",
+    "part": "shield",
+    "name": "生命之盾",
+    "item": ["尖刺盾牌", "倒刺護盾", "刀刃刺盾"],
+    "rune": "Ith",
+    "gem": "完美紅寶石",
+    "jewelry": "Y",
+    "ability": ["1-3% 擊中偷取生命", "+10-20 生命", "攻擊者受到傷害4-7"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "blood",
+    "part": "necklace",
+    "name": "生命項鍊",
+    "item": ["項鍊"],
+    "rune": "Amn",
+    "gem": "完美紅寶石",
+    "jewelry": "Y",
+    "ability": ["1-4% 擊中偷取生命", "+10-20 生命", "+5-10% 高速行走/跑步"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "blood",
+    "part": "ring",
+    "name": "生命戒指",
+    "item": ["戒指"],
+    "rune": "Sol",
+    "gem": "完美紅寶石",
+    "jewelry": "Y",
+    "ability": ["1-3% 擊中偷取生命", "+10-20 生命", "+1-5 力量"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "blood",
+    "part": "weapon",
+    "name": "生命武器",
+    "item": ["斧頭"],
+    "rune": "Ort",
+    "gem": "完美紅寶石",
+    "jewelry": "Y",
+    "ability": ["1-4% 擊中偷取生命", "+10-20 生命", "+35-60% 增強傷害"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "caster",
+    "part": "helmet",
+    "name": "施法者頭盔",
+    "item": ["面具", "死亡面具", "惡魔頭蓋骨面具"],
+    "rune": "Nef",
+    "gem": "完美紫水晶",
+    "jewelry": "Y",
+    "ability": ["法力重生 4-10%", "+10-20 法力", "1-4% 擊中偷取法力"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "caster",
+    "part": "armor",
+    "name": "施法者盔甲",
+    "item": ["輕型盔甲", "法師盔甲", "執政官盔甲"],
+    "rune": "Tal",
+    "gem": "完美紫水晶",
+    "jewelry": "Y",
+    "ability": [
+      "法力重生 4-10%",
+      "+10-20 法力",
+      "+1-3 點法力在每殺一個敵人後取得"
+    ],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "caster",
+    "part": "belt",
+    "name": "施法者腰帶",
+    "item": ["輕扣帶", "鯊皮腰帶", "吸血鬼獠牙腰帶"],
+    "rune": "Ith",
+    "gem": "完美紫水晶",
+    "jewelry": "Y",
+    "ability": ["法力重生 4-10%", "+10-20 法力", "+5-10% 高速施展速度"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "caster",
+    "part": "glove",
+    "name": "施法者手套",
+    "item": ["皮手套", "魔皮手套", "荊棘連指手套"],
+    "rune": "Ort",
+    "gem": "完美紫水晶",
+    "jewelry": "Y",
+    "ability": [
+      "法力重生 4-10%",
+      "+10-20 法力",
+      "+1-3 點法力在每殺一個敵人後取得"
+    ],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "caster",
+    "part": "boot",
+    "name": "施法者之靴",
+    "item": ["皮靴", "魔皮靴", "飛龍皮靴"],
+    "rune": "Thul",
+    "gem": "完美紫水晶",
+    "jewelry": "Y",
+    "ability": ["法力重生 4-10%", "+10-20 法力", "+2-5% 增加法力上限"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "caster",
+    "part": "shield",
+    "name": "施法者之盾",
+    "item": ["小盾", "圓型盾", "月精靈護盾"],
+    "rune": "Eth",
+    "gem": "完美紫水晶",
+    "jewelry": "Y",
+    "ability": ["法力重生 4-10%", "+10-20 法力", "+5-10% 增加格檔可能性"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "caster",
+    "part": "necklace",
+    "name": "施法者項鍊",
+    "item": ["項鍊"],
+    "rune": "Ral",
+    "gem": "完美紫水晶",
+    "jewelry": "Y",
+    "ability": ["法力重生 4-10%", "+10-20 法力", "+5-10% 高速施展速度"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "caster",
+    "part": "ring",
+    "name": "施法者戒指",
+    "item": ["戒指"],
+    "rune": "Amn",
+    "gem": "完美紫水晶",
+    "jewelry": "Y",
+    "ability": ["法力重生 4-10%", "+10-20 法力", "+1-5 精力"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "caster",
+    "part": "weapon",
+    "name": "施法者武器",
+    "item": ["權杖/棍棒/法仗"],
+    "rune": "Tir",
+    "gem": "完美紫水晶",
+    "jewelry": "Y",
+    "ability": ["法力重生 4-10%", "+10-20 法力", "+1-5% 增加法力上限"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "safety",
+    "part": "helmet",
+    "name": "防護頭盔",
+    "item": ["皇冠", "巨皇冠", "頭冠"],
+    "rune": "Ith",
+    "gem": "完美綠寶石",
+    "jewelry": "Y",
+    "ability": [
+      "傷害減少 1-4",
+      "法術傷害減少1-2",
+      "+5-10% 抗閃電",
+      "+10-30% 防禦強化"
+    ],
+    "range": [0, 1, 2, 3]
+  },
+  {
+    "type": "craft",
+    "kind": "safety",
+    "part": "armor",
+    "name": "防護盔甲",
+    "item": ["胸甲", "護胸甲", "巨型鱗鎧胸甲"],
+    "rune": "Eth",
+    "gem": "完美綠寶石",
+    "jewelry": "Y",
+    "ability": [
+      "傷害減少 1-4",
+      "法術傷害減少1-2",
+      "冰凍時間減半",
+      "+10-30% 防禦強化"
+    ],
+    "range": [0, 1, 2, 3]
+  },
+  {
+    "type": "craft",
+    "kind": "safety",
+    "part": "belt",
+    "name": "防護腰帶",
+    "item": ["飾帶", "魔皮勳帶", "蛛網腰帶"],
+    "rune": "Tal",
+    "gem": "完美綠寶石",
+    "jewelry": "Y",
+    "ability": [
+      "傷害減少 1-4",
+      "法術傷害減少1-2",
+      "+5-10% 抗毒",
+      "+10-30% 防禦強化"
+    ],
+    "range": [0, 1, 2, 3]
+  },
+  {
+    "type": "craft",
+    "kind": "safety",
+    "part": "glove",
+    "name": "防護手套",
+    "item": ["鐵手套", "巨戰手套", "食人魔鐵手套"],
+    "rune": "Ral",
+    "gem": "完美綠寶石",
+    "jewelry": "Y",
+    "ability": [
+      "傷害減少 1-4",
+      "法術傷害減少1-2",
+      "+5-10% 抗寒",
+      "+10-30% 防禦強化"
+    ],
+    "range": [0, 1, 2, 3]
+  },
+  {
+    "type": "craft",
+    "kind": "safety",
+    "part": "boot",
+    "name": "防護之靴",
+    "item": ["護脛", "巨戰之靴", "極速鞋"],
+    "rune": "Ort",
+    "gem": "完美綠寶石",
+    "jewelry": "Y",
+    "ability": [
+      "傷害減少 1-4",
+      "法術傷害減少1-2",
+      "+5-10% 抗火",
+      "+10-30% 防禦強化"
+    ],
+    "range": [0, 1, 2, 3]
+  },
+  {
+    "type": "craft",
+    "kind": "safety",
+    "part": "shield",
+    "name": "防護之盾",
+    "item": ["輕盾", "龍盾", "統治者大盾"],
+    "rune": "Nef",
+    "gem": "完美綠寶石",
+    "jewelry": "Y",
+    "ability": [
+      "傷害減少 1-4",
+      "法術傷害減少1-2",
+      "+5-10% 抗魔法",
+      "+10-30% 防禦強化"
+    ],
+    "range": [0, 1, 2, 3]
+  },
+  {
+    "type": "craft",
+    "kind": "safety",
+    "part": "necklace",
+    "name": "防護項鍊",
+    "item": ["項鍊"],
+    "rune": "Thul",
+    "gem": "完美綠寶石",
+    "jewelry": "Y",
+    "ability": ["傷害減少 1-4", "法術傷害減少1-2", "+1-10% 增加格檔可能性"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "safety",
+    "part": "ring",
+    "name": "防護戒指",
+    "item": ["戒指"],
+    "rune": "Amn",
+    "gem": "完美綠寶石",
+    "jewelry": "Y",
+    "ability": ["傷害減少 1-4", "法術傷害減少1-2", "+1-5 體力"],
+    "range": [0, 1, 2]
+  },
+  {
+    "type": "craft",
+    "kind": "safety",
+    "part": "weapon",
+    "name": "防護武器",
+    "item": ["長槍/長矛"],
+    "rune": "Sol",
+    "gem": "完美綠寶石",
+    "jewelry": "Y",
+    "ability": ["傷害減少 1-4", "法術傷害減少1-2", "+5-10% 防禦強化"],
+    "range": [0, 1, 2]
+  }
 ]

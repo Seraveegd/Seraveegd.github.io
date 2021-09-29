@@ -11,7 +11,7 @@
         <a [routerLink]="['/', 'runewords']" (click)="sideNav.toggle()" mat-list-item>
           <span>&nbsp;符文&nbsp;</span>
         </a>
-        <a (click)="sideNav.toggle()" mat-list-item>
+        <a [routerLink]="['/', 'recipes']" (click)="sideNav.toggle()" mat-list-item>
           <span>&nbsp;配方&nbsp;</span>
         </a>
       </mat-nav-list>
@@ -50,7 +50,7 @@
                 </a>
               </li>
               <li>
-                <a>
+                <a [routerLink]="['/', 'recipes']">
                   <span>&nbsp;配方&nbsp;</span>
                 </a>
               </li>

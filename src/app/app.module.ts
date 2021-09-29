@@ -14,6 +14,7 @@ import { MatListModule } from '@angular/material/list';
 import { HttpClientModule } from '@angular/common/http';
 import { ItemsComponent } from './items/items.component';
 import { CoreModule } from './core/core.module';
+import { RecipesComponent } from './recipes/recipes.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { CoreModule } from './core/core.module';
     RunewordsComponent,
     HomeComponent,
     ItemsComponent,
+    RecipesComponent,
   ],
   imports: [
     BrowserModule,

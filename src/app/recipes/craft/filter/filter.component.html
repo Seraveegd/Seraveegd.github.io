@@ -1,0 +1,38 @@
+<div [ngClass]="'title'">{{ type }}:{{ type_detail}}</div>
+<div *ngIf="crafts | async | filtercraft: type : type_detail; let items ">
+  <ng-container *ngFor="let td of (!kindNottofind.includes(type_detail) ? getUniqueKind(items) : [type_detail])">
+    <ng-container [ngSwitch]="td">
+      <ng-container *ngSwitchDefault>
+        <div [ngClass]="'title'">{{ kinds[td] }}</div>
+        <table [ngClass]="'crafts'">
+          <thead>
+            <th>名稱</th>
+            <th>材料</th>
+            <th>效果</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of items | filtercraft: (!kindNottofind.includes(type_detail) ? 'kind' : type) : td">
+              <td [ngClass]="'rare'">{{ item.name }}</td>
+              <td>
+                <p>
+                  <ng-container *ngFor="let i of item.item; let last = last">
+                    <span [ngClass]="'magic'">{{i}}</span>{{ last ? '' : '/' }}</ng-container>
+                </p>
+                <p [ngClass]="'rune'">1*<img
+                    [src]="'/assets/images/rune/' + item.rune + '_Rune.png'">{{ control[item.rune].name }}({{ control[item.rune].code }})
+                </p>
+                <p>1*{{ item.gem }}</p>
+                <p>1*{{ item.jewelry === 'Y' ? '任何珠寶' : '' }}</p>
+              </td>
+              <td [ngClass]="'effect'">
+                <ng-container *ngFor="let a of item.ability">
+                  <p>{{ a }}</p>
+                </ng-container>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+</div>
