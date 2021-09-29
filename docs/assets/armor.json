@@ -3,7 +3,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "cap",
-    "name": "帽子",
+    "name": "便帽",
     "name_en": "Cap",
     "weight": "",
     "defense": {
@@ -87,7 +87,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "skullcap",
-    "name": "骷髏帽",
+    "name": "顱帽",
     "name_en": "Skull Cap",
     "weight": "",
     "defense": {
@@ -115,7 +115,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "skullcap",
-    "name": "輕便頭盔",
+    "name": "便盔",
     "name_en": "Sallet",
     "weight": "",
     "defense": {
@@ -143,7 +143,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "skullcap",
-    "name": "九頭蛇頭蓋骨圓帽",
+    "name": "多頭蛇顱盔",
     "name_en": "Hydraskull",
     "weight": "",
     "defense": {
@@ -199,7 +199,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "helm",
-    "name": "無頰頭盔",
+    "name": "兜盔",
     "name_en": "Casque",
     "weight": "",
     "defense": {
@@ -227,7 +227,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "helm",
-    "name": "活動頭盔",
+    "name": "覆頰盔",
     "name_en": "Armet",
     "weight": "",
     "defense": {
@@ -255,7 +255,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "fullhelm",
-    "name": "高級頭盔",
+    "name": "全罩盔",
     "name_en": "Full Helm",
     "weight": "",
     "defense": {
@@ -283,7 +283,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "fullhelm",
-    "name": "輕鋼盔",
+    "name": "輕盔",
     "name_en": "Basinet",
     "weight": "",
     "defense": {
@@ -311,7 +311,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "fullhelm",
-    "name": "巨貝頭盔",
+    "name": "巨螺盔",
     "name_en": "Giant Conch",
     "weight": "",
     "defense": {
@@ -339,7 +339,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "greathelm",
-    "name": "卓越頭盔",
+    "name": "重盔",
     "name_en": "Great Helm",
     "weight": "",
     "defense": {
@@ -395,7 +395,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "greathelm",
-    "name": "螺旋頭盔",
+    "name": "巨角頭盔",
     "name_en": "Spired Helm",
     "weight": "",
     "defense": {
@@ -479,7 +479,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "mask",
-    "name": "惡魔頭蓋骨面具",
+    "name": "惡魔頭骨",
     "name_en": "Demonhead Mask",
     "weight": "",
     "defense": {
@@ -507,7 +507,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "crown",
-    "name": "皇冠",
+    "name": "王冠",
     "name_en": "Crown",
     "weight": "",
     "defense": {
@@ -535,7 +535,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "crown",
-    "name": "巨皇冠",
+    "name": "莊嚴王冠",
     "name_en": "Grand Crown",
     "weight": "",
     "defense": {
@@ -563,7 +563,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "crown",
-    "name": "頭冠",
+    "name": "日冕之冠",
     "name_en": "Corona",
     "weight": "",
     "defense": {
@@ -591,7 +591,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "bonehelm",
-    "name": "白骨頭盔",
+    "name": "骸骨頭盔",
     "name_en": "Bone Helm",
     "weight": "",
     "defense": {
@@ -619,7 +619,7 @@
     "type": "armor",
     "part": "helmet",
     "group": "bonehelm",
-    "name": "殘酷頭盔",
+    "name": "陰森頭盔",
     "name_en": "Grim Helm",
     "weight": "",
     "defense": {
@@ -675,7 +675,7 @@
     "type": "armor",
     "part": "armor",
     "group": "quilted",
-    "name": "布甲",
+    "name": "棉布甲",
     "name_en": "Quilted Armor",
     "weight": "light",
     "defense": {
@@ -703,7 +703,7 @@
     "type": "armor",
     "part": "armor",
     "group": "quilted",
-    "name": "鬼魂戰甲",
+    "name": "鬼魂戰衣",
     "name_en": "Ghost Armor",
     "weight": "light",
     "defense": {
@@ -759,7 +759,7 @@
     "type": "armor",
     "part": "armor",
     "group": "leather",
-    "name": "皮甲",
+    "name": "皮革甲",
     "name_en": "Leather Armor",
     "weight": "light",
     "defense": {
@@ -815,7 +815,7 @@
     "type": "armor",
     "part": "armor",
     "group": "leather",
-    "name": "古龍皮",
+    "name": "龍皮甲",
     "name_en": "Wyrmhide",
     "weight": "light",
     "defense": {
@@ -871,7 +871,7 @@
     "type": "armor",
     "part": "armor",
     "group": "hardleather",
-    "name": "魔皮戰甲",
+    "name": "魔皮護甲",
     "name_en": "Demonhide Armor",
     "weight": "light",
     "defense": {
@@ -927,7 +927,7 @@
     "type": "armor",
     "part": "armor",
     "group": "studdedleather",
-    "name": "鑲嵌甲",
+    "name": "鑲釘皮甲",
     "name_en": "Studded Leather",
     "weight": "light",
     "defense": {
@@ -955,7 +955,7 @@
     "type": "armor",
     "part": "armor",
     "group": "studdedleather",
-    "name": "攀繞戰甲",
+    "name": "格網護甲",
     "name_en": "Trellised Armor",
     "weight": "light",
     "defense": {
@@ -983,7 +983,7 @@
     "type": "armor",
     "part": "armor",
     "group": "studdedleather",
-    "name": "線羊毛皮甲",
+    "name": "鋼線毛皮甲",
     "name_en": "Wire Fleece",
     "weight": "light",
     "defense": {
@@ -1011,7 +1011,7 @@
     "type": "armor",
     "part": "armor",
     "group": "ringmail",
-    "name": "鎖環甲",
+    "name": "環甲",
     "name_en": "Ring Mail",
     "weight": "medium",
     "defense": {
@@ -1039,7 +1039,7 @@
     "type": "armor",
     "part": "armor",
     "group": "ringmail",
-    "name": "連扣戰甲",
+    "name": "鍊扣戰甲",
     "name_en": "Linked Mail",
     "weight": "medium",
     "defense": {
@@ -1067,7 +1067,7 @@
     "type": "armor",
     "part": "armor",
     "group": "ringmail",
-    "name": "鑽石鎖子甲",
+    "name": "鑽石鎖甲",
     "name_en": "Diamond Mail",
     "weight": "medium",
     "defense": {
@@ -1123,7 +1123,7 @@
     "type": "armor",
     "part": "armor",
     "group": "scalemail",
-    "name": "提格萊特戰甲",
+    "name": "鎖鱗戰甲",
     "name_en": "Tigulated Mail",
     "weight": "heavy",
     "defense": {
@@ -1151,7 +1151,7 @@
     "type": "armor",
     "part": "armor",
     "group": "scalemail",
-    "name": "甲殼鎧鱗甲",
+    "name": "綴鱗戰甲",
     "name_en": "Loricated Mail",
     "weight": "heavy",
     "defense": {
@@ -1179,7 +1179,7 @@
     "type": "armor",
     "part": "armor",
     "group": "breastplate",
-    "name": "胸甲",
+    "name": "胸鎧",
     "name_en": "Breast Plate",
     "weight": "light",
     "defense": {
@@ -1235,7 +1235,7 @@
     "type": "armor",
     "part": "armor",
     "group": "breastplate",
-    "name": "巨型鱗鎧胸甲",
+    "name": "鱗鎧胸甲",
     "name_en": "Great Hauberk",
     "weight": "light",
     "defense": {
@@ -1263,7 +1263,7 @@
     "type": "armor",
     "part": "armor",
     "group": "chainmail",
-    "name": "鎖子甲",
+    "name": "鎖鍊甲",
     "name_en": "Chain Mail",
     "weight": "medium",
     "defense": {
@@ -1291,7 +1291,7 @@
     "type": "armor",
     "part": "armor",
     "group": "chainmail",
-    "name": "織網戰甲",
+    "name": "鐵網戰甲",
     "name_en": "Mesh Armor",
     "weight": "medium",
     "defense": {
@@ -1319,7 +1319,7 @@
     "type": "armor",
     "part": "armor",
     "group": "chainmail",
-    "name": "骸骨鏈甲",
+    "name": "骸骨網甲",
     "name_en": "Boneweave",
     "weight": "medium",
     "defense": {
@@ -1375,7 +1375,7 @@
     "type": "armor",
     "part": "armor",
     "group": "splintmail",
-    "name": "羅瑟戰甲",
+    "name": "赤褐戰甲",
     "name_en": "Russet Armor",
     "weight": "medium",
     "defense": {
@@ -1431,7 +1431,7 @@
     "type": "armor",
     "part": "armor",
     "group": "lightplate",
-    "name": "light裝甲",
+    "name": "輕型鎧甲",
     "name_en": "Light Plate",
     "weight": "light",
     "defense": {
@@ -1487,7 +1487,7 @@
     "type": "armor",
     "part": "armor",
     "group": "lightplate",
-    "name": "執政官鎧甲",
+    "name": "統御者鎧甲",
     "name_en": "Archon Plate",
     "weight": "light",
     "defense": {
@@ -1515,7 +1515,7 @@
     "type": "armor",
     "part": "armor",
     "group": "fieldplate",
-    "name": "實戰鎧甲",
+    "name": "野戰鎧甲",
     "name_en": "Field Plate",
     "weight": "medium",
     "defense": {
@@ -1571,7 +1571,7 @@
     "type": "armor",
     "part": "armor",
     "group": "fieldplate",
-    "name": "海妖殼甲",
+    "name": "海怪之殼",
     "name_en": "Kraken Shell",
     "weight": "medium",
     "defense": {
@@ -1627,7 +1627,7 @@
     "type": "armor",
     "part": "armor",
     "group": "platemail",
-    "name": "聖堂武士外袍",
+    "name": "聖堂騎士戰甲",
     "name_en": "Templar Coat",
     "weight": "heavy",
     "defense": {
@@ -1683,7 +1683,7 @@
     "type": "armor",
     "part": "armor",
     "group": "gothicplate",
-    "name": "哥德戰甲",
+    "name": "哥德鎧甲",
     "name_en": "Gothic Plate",
     "weight": "medium",
     "defense": {
@@ -1711,7 +1711,7 @@
     "type": "armor",
     "part": "armor",
     "group": "gothicplate",
-    "name": "凸紋戰甲",
+    "name": "雕紋戰甲",
     "name_en": "Embossed Plate",
     "weight": "medium",
     "defense": {
@@ -1739,7 +1739,7 @@
     "type": "armor",
     "part": "armor",
     "group": "gothicplate",
-    "name": "漆甲",
+    "name": "漆護鎧甲",
     "name_en": "Lacquered Plate",
     "weight": "medium",
     "defense": {
@@ -1767,7 +1767,7 @@
     "type": "armor",
     "part": "armor",
     "group": "fullplate",
-    "name": "高級戰甲",
+    "name": "全身鎧甲",
     "name_en": "Full Plate Mail",
     "weight": "heavy",
     "defense": {
@@ -1823,7 +1823,7 @@
     "type": "armor",
     "part": "armor",
     "group": "fullplate",
-    "name": "陰影鎧甲",
+    "name": "暗影鎧甲",
     "name_en": "Shadow Plate",
     "weight": "heavy",
     "defense": {
@@ -1851,7 +1851,7 @@
     "type": "armor",
     "part": "armor",
     "group": "ancientarmor",
-    "name": "古代裝甲",
+    "name": "上古鎧甲",
     "name_en": "Ancient Armor",
     "weight": "medium",
     "defense": {
@@ -1907,7 +1907,7 @@
     "type": "armor",
     "part": "armor",
     "group": "ancientarmor",
-    "name": "神聖盔甲",
+    "name": "神聖戰甲",
     "name_en": "Sacred Armor",
     "weight": "medium",
     "defense": {
@@ -1935,7 +1935,7 @@
     "type": "armor",
     "part": "belt",
     "group": "sash",
-    "name": "飾帶",
+    "name": "束帶",
     "name_en": "Sash",
     "weight": "",
     "defense": {
@@ -1963,7 +1963,7 @@
     "type": "armor",
     "part": "belt",
     "group": "sash",
-    "name": "魔皮勳帶",
+    "name": "魔皮束帶",
     "name_en": "Demonhide Sash",
     "weight": "",
     "defense": {
@@ -1991,7 +1991,7 @@
     "type": "armor",
     "part": "belt",
     "group": "sash",
-    "name": "蛛網腰帶",
+    "name": "蛛網束帶",
     "name_en": "Spiderweb Sash",
     "weight": "",
     "defense": {
@@ -2019,7 +2019,7 @@
     "type": "armor",
     "part": "belt",
     "group": "lightbelt",
-    "name": "輕扣帶",
+    "name": "輕腰帶",
     "name_en": "Light Belt",
     "weight": "",
     "defense": {
@@ -2075,7 +2075,7 @@
     "type": "armor",
     "part": "belt",
     "group": "lightbelt",
-    "name": "吸血鬼燎牙腰帶",
+    "name": "吸血鬼牙腰帶",
     "name_en": "Vampirefang Belt",
     "weight": "",
     "defense": {
@@ -2103,7 +2103,7 @@
     "type": "armor",
     "part": "belt",
     "group": "belt",
-    "name": "扣帶",
+    "name": "腰帶",
     "name_en": "Belt",
     "weight": "",
     "defense": {
@@ -2131,7 +2131,7 @@
     "type": "armor",
     "part": "belt",
     "group": "belt",
-    "name": "織網腰帶",
+    "name": "鐵網腰帶",
     "name_en": "Mesh Belt",
     "weight": "",
     "defense": {
@@ -2187,7 +2187,7 @@
     "type": "armor",
     "part": "belt",
     "group": "heavybelt",
-    "name": "重扣帶",
+    "name": "厚腰帶",
     "name_en": "Heavy Belt",
     "weight": "",
     "defense": {
@@ -2215,7 +2215,7 @@
     "type": "armor",
     "part": "belt",
     "group": "heavybelt",
-    "name": "戰場腰帶",
+    "name": "戰鬥腰帶",
     "name_en": "Battle Belt",
     "weight": "",
     "defense": {
@@ -2243,7 +2243,7 @@
     "type": "armor",
     "part": "belt",
     "group": "heavybelt",
-    "name": "洞穴巨魔腰帶",
+    "name": "食人妖腰帶",
     "name_en": "Troll Belt",
     "weight": "",
     "defense": {
@@ -2271,7 +2271,7 @@
     "type": "armor",
     "part": "belt",
     "group": "platedbelt",
-    "name": "金屬扣帶",
+    "name": "鎧甲腰帶",
     "name_en": "Plated Belt",
     "weight": "",
     "defense": {
@@ -2299,7 +2299,7 @@
     "type": "armor",
     "part": "belt",
     "group": "platedbelt",
-    "name": "巨戰腰帶",
+    "name": "征戰腰帶",
     "name_en": "War Belt",
     "weight": "",
     "defense": {
@@ -2355,7 +2355,7 @@
     "type": "armor",
     "part": "glove",
     "group": "leathergloves",
-    "name": "皮手套",
+    "name": "皮革手套",
     "name_en": "Leather Gloves",
     "weight": "",
     "defense": {
@@ -2411,7 +2411,7 @@
     "type": "armor",
     "part": "glove",
     "group": "leathergloves",
-    "name": "荊棘連指手套",
+    "name": "荊棘手套",
     "name_en": "Bramble Mitts",
     "weight": "",
     "defense": {
@@ -2439,7 +2439,7 @@
     "type": "armor",
     "part": "glove",
     "group": "heavygloves",
-    "name": "重手套",
+    "name": "厚皮手套",
     "name_en": "Heavy Gloves",
     "weight": "",
     "defense": {
@@ -2467,7 +2467,7 @@
     "type": "armor",
     "part": "glove",
     "group": "heavygloves",
-    "name": "鯊魚皮套",
+    "name": "鯊皮手套",
     "name_en": "Sharkskin Gloves",
     "weight": "",
     "defense": {
@@ -2523,7 +2523,7 @@
     "type": "armor",
     "part": "glove",
     "group": "chaingloves",
-    "name": "鎖鍊手套",
+    "name": "鍊甲手套",
     "name_en": "Chain Gloves",
     "weight": "",
     "defense": {
@@ -2551,7 +2551,7 @@
     "type": "armor",
     "part": "glove",
     "group": "chaingloves",
-    "name": "heavy手鐲",
+    "name": "重型護腕",
     "name_en": "Heavy Bracers",
     "weight": "",
     "defense": {
@@ -2579,7 +2579,7 @@
     "type": "armor",
     "part": "glove",
     "group": "chaingloves",
-    "name": "吸血鬼手套",
+    "name": "護臂",
     "name_en": "Vambraces",
     "weight": "",
     "defense": {
@@ -2607,7 +2607,7 @@
     "type": "armor",
     "part": "glove",
     "group": "lightgauntlets",
-    "name": "light鐵手套",
+    "name": "輕型護手",
     "name_en": "Light Gauntlets",
     "weight": "",
     "defense": {
@@ -2635,7 +2635,7 @@
     "type": "armor",
     "part": "glove",
     "group": "lightgauntlets",
-    "name": "戰場手套",
+    "name": "戰鬥護手",
     "name_en": "Battle Gauntlets",
     "weight": "",
     "defense": {
@@ -2663,7 +2663,7 @@
     "type": "armor",
     "part": "glove",
     "group": "lightgauntlets",
-    "name": "十字軍鐵手套",
+    "name": "聖教軍護手",
     "name_en": "Crusader Gauntlets",
     "weight": "",
     "defense": {
@@ -2691,7 +2691,7 @@
     "type": "armor",
     "part": "glove",
     "group": "gauntlets",
-    "name": "鐵手套",
+    "name": "鋼鐵護手",
     "name_en": "Gauntlets",
     "weight": "",
     "defense": {
@@ -2719,7 +2719,7 @@
     "type": "armor",
     "part": "glove",
     "group": "gauntlets",
-    "name": "巨戰手套",
+    "name": "征戰護手",
     "name_en": "War Gauntlets",
     "weight": "",
     "defense": {
@@ -2747,7 +2747,7 @@
     "type": "armor",
     "part": "glove",
     "group": "gauntlets",
-    "name": "食人魔鐵手套",
+    "name": "巨魔護手",
     "name_en": "Ogre Gauntlets",
     "weight": "",
     "defense": {
@@ -2803,7 +2803,7 @@
     "type": "armor",
     "part": "boot",
     "group": "boots",
-    "name": "魔皮靴",
+    "name": "魔皮長靴",
     "name_en": "Demonhide Boots",
     "weight": "",
     "defense": {
@@ -2831,7 +2831,7 @@
     "type": "armor",
     "part": "boot",
     "group": "boots",
-    "name": "飛龍皮靴",
+    "name": "龍皮靴",
     "name_en": "Wyrmhide Boots",
     "weight": "",
     "defense": {
@@ -2887,7 +2887,7 @@
     "type": "armor",
     "part": "boot",
     "group": "heavyboots",
-    "name": "鯊皮之靴",
+    "name": "鯊皮靴",
     "name_en": "Sharkskin Boots",
     "weight": "",
     "defense": {
@@ -2915,7 +2915,7 @@
     "type": "armor",
     "part": "boot",
     "group": "heavyboots",
-    "name": "聖甲蟲殼靴",
+    "name": "聖甲蟲殼皮靴",
     "name_en": "Scarabshell Boots",
     "weight": "",
     "defense": {
@@ -2971,7 +2971,7 @@
     "type": "armor",
     "part": "boot",
     "group": "chainboots",
-    "name": "織網之靴",
+    "name": "鐵網靴",
     "name_en": "Mesh Boots",
     "weight": "",
     "defense": {
@@ -2999,7 +2999,7 @@
     "type": "armor",
     "part": "boot",
     "group": "chainboots",
-    "name": "骸骨靴",
+    "name": "骸骨網靴",
     "name_en": "Boneweave Boots",
     "weight": "",
     "defense": {
@@ -3027,7 +3027,7 @@
     "type": "armor",
     "part": "boot",
     "group": "lightplateboots",
-    "name": "light金屬靴",
+    "name": "輕鎧靴",
     "name_en": "Light Plate Boots",
     "weight": "",
     "defense": {
@@ -3055,7 +3055,7 @@
     "type": "armor",
     "part": "boot",
     "group": "lightplateboots",
-    "name": "戰場之靴",
+    "name": "戰鬥靴",
     "name_en": "Battle Boots",
     "weight": "",
     "defense": {
@@ -3083,7 +3083,7 @@
     "type": "armor",
     "part": "boot",
     "group": "lightplateboots",
-    "name": "鏡化靴",
+    "name": "幻鏡戰靴",
     "name_en": "Mirrored Boots",
     "weight": "",
     "defense": {
@@ -3139,7 +3139,7 @@
     "type": "armor",
     "part": "boot",
     "group": "greaves",
-    "name": "巨戰之靴",
+    "name": "征戰靴",
     "name_en": "War Boots",
     "weight": "",
     "defense": {
@@ -3167,7 +3167,7 @@
     "type": "armor",
     "part": "boot",
     "group": "greaves",
-    "name": "極速靴",
+    "name": "勇士護脛",
     "name_en": "Myrmidon Boots",
     "weight": "",
     "defense": {
@@ -3195,7 +3195,7 @@
     "type": "armor",
     "part": "shield",
     "group": "buckler",
-    "name": "圓盾",
+    "name": "小圓盾",
     "name_en": "Buckler",
     "weight": "light",
     "defense": {
@@ -3251,7 +3251,7 @@
     "type": "armor",
     "part": "shield",
     "group": "buckler",
-    "name": "防寒圓盾",
+    "name": "斗盾",
     "name_en": "Heater",
     "weight": "light",
     "defense": {
@@ -3279,7 +3279,7 @@
     "type": "armor",
     "part": "shield",
     "group": "smallshield",
-    "name": "小盾牌",
+    "name": "小型盾",
     "name_en": "Small Shield",
     "weight": "light",
     "defense": {
@@ -3335,7 +3335,7 @@
     "type": "armor",
     "part": "shield",
     "group": "smallshield",
-    "name": "月精靈護盾",
+    "name": "圓月盾",
     "name_en": "Luna",
     "weight": "light",
     "defense": {
@@ -3363,7 +3363,7 @@
     "type": "armor",
     "part": "shield",
     "group": "largeshield",
-    "name": "大盾牌",
+    "name": "大型盾",
     "name_en": "Large Shield",
     "weight": "medium",
     "defense": {
@@ -3391,7 +3391,7 @@
     "type": "armor",
     "part": "shield",
     "group": "largeshield",
-    "name": "鱗盾",
+    "name": "大圓盾",
     "name_en": "Scutum",
     "weight": "medium",
     "defense": {
@@ -3447,7 +3447,7 @@
     "type": "armor",
     "part": "shield",
     "group": "kiteshield",
-    "name": "輕盾",
+    "name": "鳶盾",
     "name_en": "Kite Shield",
     "weight": "light",
     "defense": {
@@ -3503,7 +3503,7 @@
     "type": "armor",
     "part": "shield",
     "group": "kiteshield",
-    "name": "統治者大盾",
+    "name": "君主盾",
     "name_en": "Monarch",
     "weight": "light",
     "defense": {
@@ -3531,7 +3531,7 @@
     "type": "armor",
     "part": "shield",
     "group": "spikedshield",
-    "name": "尖刺盾牌",
+    "name": "尖刺盾",
     "name_en": "Spiked Shield",
     "weight": "light",
     "defense": {
@@ -3559,7 +3559,7 @@
     "type": "armor",
     "part": "shield",
     "group": "spikedshield",
-    "name": "倒刺護盾",
+    "name": "倒刺盾",
     "name_en": "Barbed Shield",
     "weight": "light",
     "defense": {
@@ -3671,7 +3671,7 @@
     "type": "armor",
     "part": "shield",
     "group": "towershield",
-    "name": "塔盾",
+    "name": "禦塔盾",
     "name_en": "Aegis",
     "weight": "heavy",
     "defense": {
@@ -3699,7 +3699,7 @@
     "type": "armor",
     "part": "shield",
     "group": "boneshield",
-    "name": "白骨盾牌",
+    "name": "骨盾",
     "name_en": "Bone Shield",
     "weight": "light",
     "defense": {
@@ -3727,7 +3727,7 @@
     "type": "armor",
     "part": "shield",
     "group": "boneshield",
-    "name": "冷酷之盾",
+    "name": "陰森盾牌",
     "name_en": "Grim Shield",
     "weight": "light",
     "defense": {
@@ -3755,7 +3755,7 @@
     "type": "armor",
     "part": "shield",
     "group": "boneshield",
-    "name": "洞穴巨魔巢穴骨盾",
+    "name": "食人妖骨盾",
     "name_en": "Troll Nest",
     "weight": "light",
     "defense": {
@@ -3783,7 +3783,7 @@
     "type": "armor",
     "part": "shield",
     "group": "gothicshield",
-    "name": "哥德盾牌",
+    "name": "哥德盾",
     "name_en": "Gothic Shield",
     "weight": "medium",
     "defense": {
@@ -3811,7 +3811,7 @@
     "type": "armor",
     "part": "shield",
     "group": "gothicshield",
-    "name": "古代之盾",
+    "name": "上古盾",
     "name_en": "Ancient Shield",
     "weight": "medium",
     "defense": {
@@ -3839,7 +3839,7 @@
     "type": "armor",
     "part": "shield",
     "group": "gothicshield",
-    "name": "保護盾牌",
+    "name": "庇護盾",
     "name_en": "Ward",
     "weight": "medium",
     "defense": {
@@ -3867,7 +3867,7 @@
     "type": "armor",
     "part": "circlet",
     "group": "circlet",
-    "name": "頭飾",
+    "name": "頭環",
     "name_en": "Circlet",
     "weight": "",
     "defense": {
@@ -3923,7 +3923,7 @@
     "type": "armor",
     "part": "circlet",
     "group": "tiara",
-    "name": "三重冠",
+    "name": "頭冠",
     "name_en": "Tiara",
     "weight": "",
     "defense": {
@@ -4063,7 +4063,7 @@
     "type": "armor",
     "part": "barbarianhelm",
     "group": "fangedhelm",
-    "name": "尖牙盔",
+    "name": "尖牙頭盔",
     "name_en": "Fanged Helm",
     "weight": "",
     "defense": {
@@ -4091,7 +4091,7 @@
     "type": "armor",
     "part": "barbarianhelm",
     "group": "fangedhelm",
-    "name": "獅頭尖盔",
+    "name": "獅牙頭盔",
     "name_en": "Lion Helm",
     "weight": "",
     "defense": {
@@ -4147,7 +4147,7 @@
     "type": "armor",
     "part": "barbarianhelm",
     "group": "hornedhelm",
-    "name": "角盔",
+    "name": "尖角頭盔",
     "name_en": "Horned Helm",
     "weight": "",
     "defense": {
@@ -4175,7 +4175,7 @@
     "type": "armor",
     "part": "barbarianhelm",
     "group": "hornedhelm",
-    "name": "狂怒面具刺盔",
+    "name": "狂怒面具",
     "name_en": "Rage Mask",
     "weight": "",
     "defense": {
@@ -4231,7 +4231,7 @@
     "type": "armor",
     "part": "barbarianhelm",
     "group": "assualthelm",
-    "name": "突擊盔",
+    "name": "突擊頭盔",
     "name_en": "Assault Helmet",
     "weight": "",
     "defense": {
@@ -4259,7 +4259,7 @@
     "type": "armor",
     "part": "barbarianhelm",
     "group": "assualthelm",
-    "name": "蠻族頭盔",
+    "name": "凶蠻頭盔",
     "name_en": "Savage Helmet",
     "weight": "",
     "defense": {
@@ -4287,7 +4287,7 @@
     "type": "armor",
     "part": "barbarianhelm",
     "group": "assualthelm",
-    "name": "征服者皇冠面甲",
+    "name": "征服者盔冠",
     "name_en": "Conqueror Crown",
     "weight": "",
     "defense": {
@@ -4315,7 +4315,7 @@
     "type": "armor",
     "part": "barbarianhelm",
     "group": "avengerguard",
-    "name": "復仇者之盔",
+    "name": "復仇者護盔",
     "name_en": "Avenger Guard",
     "weight": "",
     "defense": {
@@ -4343,7 +4343,7 @@
     "type": "armor",
     "part": "barbarianhelm",
     "group": "avengerguard",
-    "name": "殺手防護面甲",
+    "name": "殺手護盔",
     "name_en": "Slayer Guard",
     "weight": "",
     "defense": {
@@ -4371,7 +4371,7 @@
     "type": "armor",
     "part": "barbarianhelm",
     "group": "avengerguard",
-    "name": "守護者皇冠面甲",
+    "name": "守護者盔冠",
     "name_en": "Guardian Crown",
     "weight": "",
     "defense": {
@@ -4399,7 +4399,7 @@
     "type": "armor",
     "part": "druidpeltshelm",
     "group": "wolfhead",
-    "name": "狼頭",
+    "name": "狼頭獸帽",
     "name_en": "Wolf Head",
     "weight": "",
     "defense": {
@@ -4427,7 +4427,7 @@
     "type": "armor",
     "part": "druidpeltshelm",
     "group": "wolfhead",
-    "name": "阿爾發頭盔",
+    "name": "猛狼頭盔",
     "name_en": "Alpha Helm",
     "weight": "",
     "defense": {
@@ -4455,7 +4455,7 @@
     "type": "armor",
     "part": "druidpeltshelm",
     "group": "wolfhead",
-    "name": "血腥之靈",
+    "name": "血系靈獸帽",
     "name_en": "Blood Spirit",
     "weight": "",
     "defense": {
@@ -4511,7 +4511,7 @@
     "type": "armor",
     "part": "druidpeltshelm",
     "group": "falconmask",
-    "name": "獅鷲獸頭帶",
+    "name": "獅鷲獸頭飾",
     "name_en": "Griffon Headdress",
     "weight": "",
     "defense": {
@@ -4539,7 +4539,7 @@
     "type": "armor",
     "part": "druidpeltshelm",
     "group": "falconmask",
-    "name": "太陽之靈",
+    "name": "日陽靈獸帽",
     "name_en": "Sun Spirit",
     "weight": "",
     "defense": {
@@ -4567,7 +4567,7 @@
     "type": "armor",
     "part": "druidpeltshelm",
     "group": "antlers",
-    "name": "鹿角",
+    "name": "巨角獸帽",
     "name_en": "Antlers",
     "weight": "",
     "defense": {
@@ -4595,7 +4595,7 @@
     "type": "armor",
     "part": "druidpeltshelm",
     "group": "antlers",
-    "name": "獵人的偽裝",
+    "name": "獵人面罩",
     "name_en": "Hunter's Guise",
     "weight": "",
     "defense": {
@@ -4623,7 +4623,7 @@
     "type": "armor",
     "part": "druidpeltshelm",
     "group": "antlers",
-    "name": "大地之靈",
+    "name": "地土靈獸帽",
     "name_en": "Earth Spirit",
     "weight": "",
     "defense": {
@@ -4679,7 +4679,7 @@
     "type": "armor",
     "part": "druidpeltshelm",
     "group": "hawkhelm",
-    "name": "神聖羽毛頭帶",
+    "name": "聖羽頭飾",
     "name_en": "Sacred Feathers",
     "weight": "",
     "defense": {
@@ -4707,7 +4707,7 @@
     "type": "armor",
     "part": "druidpeltshelm",
     "group": "hawkhelm",
-    "name": "天空之靈",
+    "name": "天翔靈獸帽",
     "name_en": "Sky Spirit",
     "weight": "",
     "defense": {
@@ -4735,7 +4735,7 @@
     "type": "armor",
     "part": "druidpeltshelm",
     "group": "spiritmask",
-    "name": "靈魂狼頭面具",
+    "name": "靈狼面具",
     "name_en": "Spirit Mask",
     "weight": "",
     "defense": {
@@ -4763,7 +4763,7 @@
     "type": "armor",
     "part": "druidpeltshelm",
     "group": "spiritmask",
-    "name": "圖騰面具狼盔",
+    "name": "圖騰面具",
     "name_en": "Totemic Mask",
     "weight": "",
     "defense": {
@@ -4791,7 +4791,7 @@
     "type": "armor",
     "part": "druidpeltshelm",
     "group": "spiritmask",
-    "name": "幽夢之靈",
+    "name": "幽夢靈獸帽",
     "name_en": "Dream Spirit",
     "weight": "",
     "defense": {
@@ -4847,7 +4847,7 @@
     "type": "armor",
     "part": "paladinshield",
     "group": "targe",
-    "name": "亞克南圓盾",
+    "name": "阿卡拉圓盾",
     "name_en": "Akaran Targe",
     "weight": "",
     "defense": {
@@ -4931,7 +4931,7 @@
     "type": "armor",
     "part": "paladinshield",
     "group": "rondache",
-    "name": "亞克南輕圓盾",
+    "name": "阿卡拉輕圓盾",
     "name_en": "Akaran Rondache",
     "weight": "",
     "defense": {
@@ -5015,7 +5015,7 @@
     "type": "armor",
     "part": "paladinshield",
     "group": "heraldicshield",
-    "name": "防護者盾牌",
+    "name": "守護之盾",
     "name_en": "Protector Shield",
     "weight": "",
     "defense": {
@@ -5043,7 +5043,7 @@
     "type": "armor",
     "part": "paladinshield",
     "group": "heraldicshield",
-    "name": "庫拉斯特之盾",
+    "name": "庫拉斯特盾",
     "name_en": "Kurast Shield",
     "weight": "",
     "defense": {
@@ -5099,7 +5099,7 @@
     "type": "armor",
     "part": "paladinshield",
     "group": "aerinshield",
-    "name": "飾金盾牌",
+    "name": "金紋盾",
     "name_en": "Gilded Shield",
     "weight": "",
     "defense": {
@@ -5127,7 +5127,7 @@
     "type": "armor",
     "part": "paladinshield",
     "group": "aerinshield",
-    "name": "撒卡蘭姆盾牌",
+    "name": "撒卡蘭姆盾",
     "name_en": "Zakarum Shield",
     "weight": "",
     "defense": {
@@ -5155,7 +5155,7 @@
     "type": "armor",
     "part": "paladinshield",
     "group": "crownshield",
-    "name": "皇冠之盾",
+    "name": "冠冕之盾",
     "name_en": "Crown Shield",
     "weight": "",
     "defense": {
@@ -5183,7 +5183,7 @@
     "type": "armor",
     "part": "paladinshield",
     "group": "crownshield",
-    "name": "皇家盾牌",
+    "name": "皇家盾",
     "name_en": "Royal Shield",
     "weight": "",
     "defense": {
@@ -5211,7 +5211,7 @@
     "type": "armor",
     "part": "paladinshield",
     "group": "crownshield",
-    "name": "旋風盾",
+    "name": "渦旋盾",
     "name_en": "Vortex Shield",
     "weight": "",
     "defense": {
@@ -5239,7 +5239,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "preservedhead",
-    "name": "防腐之首",
+    "name": "防腐頭顱",
     "name_en": "Preserved Head",
     "weight": "",
     "defense": {
@@ -5267,7 +5267,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "preservedhead",
-    "name": "木乃伊印記",
+    "name": "木乃伊首級",
     "name_en": "Mummified Trophy",
     "weight": "",
     "defense": {
@@ -5295,7 +5295,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "preservedhead",
-    "name": "隨侍之骨",
+    "name": "僕從顱骨",
     "name_en": "Minion Skull",
     "weight": "",
     "defense": {
@@ -5323,7 +5323,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "zombiehead",
-    "name": "僵屍之首",
+    "name": "殭屍頭顱",
     "name_en": "Zombie Head",
     "weight": "",
     "defense": {
@@ -5351,7 +5351,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "zombiehead",
-    "name": "物神印記",
+    "name": "鬼娃首級",
     "name_en": "Fetish Trophy",
     "weight": "",
     "defense": {
@@ -5379,7 +5379,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "zombiehead",
-    "name": "地獄爪牙之骨",
+    "name": "地獄爪牙顱骨",
     "name_en": "Hellspawn Skull",
     "weight": "",
     "defense": {
@@ -5407,7 +5407,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "unravellerhead",
-    "name": "揭露者之首",
+    "name": "解繃者頭顱",
     "name_en": "Unraveller Head",
     "weight": "",
     "defense": {
@@ -5435,7 +5435,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "unravellerhead",
-    "name": "司事印記",
+    "name": "司事首級",
     "name_en": "Sexton Trophy",
     "weight": "",
     "defense": {
@@ -5463,7 +5463,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "unravellerhead",
-    "name": "監視者之骨",
+    "name": "督軍顱骨",
     "name_en": "Overseer Skull",
     "weight": "",
     "defense": {
@@ -5491,7 +5491,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "gargoylehead",
-    "name": "石像鬼之首",
+    "name": "石像鬼頭顱",
     "name_en": "Gargoyle Head",
     "weight": "",
     "defense": {
@@ -5519,7 +5519,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "gargoylehead",
-    "name": "領唱者印記",
+    "name": "領唱者首級",
     "name_en": "Cantor Trophy",
     "weight": "",
     "defense": {
@@ -5547,7 +5547,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "gargoylehead",
-    "name": "女妖之骨",
+    "name": "魅魔顱骨",
     "name_en": "Succubus Skull",
     "weight": "",
     "defense": {
@@ -5575,7 +5575,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "demonhead",
-    "name": "惡魔之首",
+    "name": "惡魔頭顱",
     "name_en": "Demon Head",
     "weight": "",
     "defense": {
@@ -5603,7 +5603,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "demonhead",
-    "name": "祭司印記",
+    "name": "祭司首級",
     "name_en": "Heirophant Trophy",
     "weight": "",
     "defense": {
@@ -5631,7 +5631,7 @@
     "type": "armor",
     "part": "ncershrunkenhead",
     "group": "demonhead",
-    "name": "血王之骨",
+    "name": "鮮血之王顱骨",
     "name_en": "Bloodlord Skull",
     "weight": "",
     "defense": {

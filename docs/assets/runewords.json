@@ -272,7 +272,7 @@
   },
   {
     "type": "weapon",
-    "name": "眼光",
+    "name": "靈光",
     "name_en": "Insight",
     "ladder": "ladder",
     "slot": 4,
@@ -302,7 +302,7 @@
   },
   {
     "type": "weapon",
-    "name": "白色",
+    "name": "蒼白",
     "name_en": "White",
     "ladder": "",
     "slot": 2,
@@ -330,7 +330,7 @@
   },
   {
     "type": "weapon",
-    "name": "黑色",
+    "name": "黑錘",
     "name_en": "Black",
     "ladder": "",
     "slot": 3,
@@ -536,7 +536,7 @@
   },
   {
     "type": "weapon",
-    "name": "思考之聲",
+    "name": "理性之聲",
     "name_en": "Voice of Reason",
     "ladder": "ladder",
     "slot": 4,
@@ -596,7 +596,7 @@
   },
   {
     "type": "weapon",
-    "name": "毒牙",
+    "name": "劇毒",
     "name_en": "Venom",
     "ladder": "",
     "slot": 3,
@@ -712,7 +712,7 @@
   },
   {
     "type": "weapon",
-    "name": "裂縫",
+    "name": "裂隙",
     "name_en": "Rift",
     "ladder": "ladder",
     "slot": 4,
@@ -741,7 +741,7 @@
   },
   {
     "type": "weapon",
-    "name": "沌頓",
+    "name": "混沌",
     "name_en": "Chaos",
     "ladder": "",
     "slot": 3,
@@ -1124,7 +1124,7 @@
   },
   {
     "type": "weapon",
-    "name": "品牌",
+    "name": "烙印",
     "name_en": "Brand",
     "ladder": "ladder",
     "slot": 4,
@@ -1178,7 +1178,7 @@
   },
   {
     "type": "weapon",
-    "name": "冰凍",
+    "name": "寒冰",
     "name_en": "Ice",
     "ladder": "ladder",
     "slot": 4,
@@ -1266,7 +1266,7 @@
   },
   {
     "type": "weapon",
-    "name": "最後希望",
+    "name": "最後遺願",
     "name_en": "Last Wish",
     "ladder": "ladder",
     "slot": 6,
@@ -1492,7 +1492,7 @@
   },
   {
     "type": "helmet",
-    "name": "迪勒瑞姆",
+    "name": "精神錯亂",
     "name_en": "Delirium",
     "ladder": "",
     "slot": 3,
@@ -1816,7 +1816,7 @@
   },
   {
     "type": "armor",
-    "name": "白骨",
+    "name": "骸骨",
     "name_en": "Bone",
     "ladder": "",
     "slot": 3,
@@ -1839,7 +1839,7 @@
   },
   {
     "type": "armor",
-    "name": "慎重",
+    "name": "謹慎",
     "name_en": "Prudence",
     "ladder": "",
     "slot": 2,
@@ -1888,7 +1888,7 @@
   },
   {
     "type": "armor",
-    "name": "原理",
+    "name": "原則",
     "name_en": "Principle",
     "ladder": "",
     "slot": 3,
@@ -1939,7 +1939,7 @@
   },
   {
     "type": "armor",
-    "name": "野薔薇",
+    "name": "刺藤",
     "name_en": "Bramble",
     "ladder": "",
     "slot": 4,
@@ -2048,7 +2048,7 @@
   },
   {
     "type": "shield",
-    "name": "古代人的誓約",
+    "name": "先祖之契",
     "name_en": "Ancient's Pledge",
     "ladder": "",
     "slot": 3,
@@ -2099,7 +2099,7 @@
   },
   {
     "type": "shield",
-    "name": "押韻",
+    "name": "聲韻",
     "name_en": "Rhyme",
     "ladder": "",
     "slot": 2,
