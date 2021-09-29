@@ -5,7 +5,6 @@
       <th>分類</th>
       <th>裝備需求</th>
       <th>裝備效果</th>
-      <th>限制</th>
     </thead>
     <tbody>
       <tr *ngFor="let item of items | filterruneword: type : type_detail">
@@ -29,16 +28,21 @@
           </p>
           <p>&nbsp;</p>
           <p>需要等級：{{ item.level }}</p>
+          <div [ngClass]="'limit'" *ngIf="item.weaponlimit.length > 0 && item.weaponlimit[0] !== 'weapons'">
+            <ng-container>
+              限定：<span
+                *ngFor="let weapon of item.weaponlimit; let last = last"><a [href]="weapontypes[weapon].url">{{ weapontypes[weapon].name }}</a>{{ last ? '' : '/'}}</span>
+            </ng-container>
+          </div>
+          <div [ngClass]="'limit'" *ngIf="item.attack !== ''">
+            <ng-container>
+              限定：{{ weapontypes[item.attack].name }}
+            </ng-container>
+          </div>
         </td>
         <td [ngClass]="'effect'">
           <ng-container *ngFor="let a of item.ability">
             <p>{{ a }}</p>
-          </ng-container>
-        </td>
-        <td [ngClass]="'limit'">
-          <ng-container *ngIf="item.weaponlimit.length > 0">
-            武器限定：<br><span
-              *ngFor="let weapon of item.weaponlimit; let last = last">{{ weapontypes[weapon] }}{{ last ? '' : '/'}}</span>
           </ng-container>
         </td>
       </tr>

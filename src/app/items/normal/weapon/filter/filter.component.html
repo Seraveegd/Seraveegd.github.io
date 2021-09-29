@@ -3,7 +3,7 @@
   <ng-container *ngFor="let td of (kindNeedtofind.includes(type_detail) ? getUniqueKind(items) : toArray(type_detail))">
     <ng-container [ngSwitch]="td">
       <ng-container
-        *ngSwitchCase="['sword', 'axe', 'polearm', 'spear', 'amazonspear', 'mace', 'scepter', 'dagger', 'wand', 'stave', 'sorceressorb', 'sorceress'].includes(td) ? td : !td">
+        *ngSwitchCase="['sword', 'axe', 'polearm', 'spear', 'amazonspear', 'mace', 'scepter', 'dagger', 'wand', 'stave', 'sorceressorb', 'sorceress', 'hammer', 'club'].includes(td) ? td : !td">
         <div [ngClass]="'title'">{{ kinds[td] }}</div>
         <table [ngClass]="'weapons'">
           <thead>
@@ -21,12 +21,12 @@
           <tbody>
             <tr
               *ngFor="let item of items | filternormalweapon: (kindNeedtofind.includes(type_detail) ? 'kind' : type) : td; let i = index">
-              <ng-container *ngIf="type !== 'max_slot'">
+              <ng-container *ngIf="type !== 'max_slot' && td !== 'hammer' && td !== 'club'">
                 <td *ngIf="i%3 === 0" rowspan="3"><img
                     [src]="'/assets/images/items/normal/weapon/' + item.kind + '/' + item.group + '.png'"><br>{{ item.hand === 'one'? '(單手)' : '(雙手)' }}
                 </td>
               </ng-container>
-              <ng-container *ngIf="type === 'max_slot'">
+              <ng-container *ngIf="type === 'max_slot' || td === 'hammer' || td === 'club'">
                 <td><img
                     [src]="'/assets/images/items/normal/weapon/' + item.kind + '/' + item.group + '.png'"><br>{{ item.hand === 'one'? '(單手)' : '(雙手)' }}
                 </td>

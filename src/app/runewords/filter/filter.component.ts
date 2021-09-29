@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { RuneService } from '../rune.service';
+import { Config } from '../../core/config.service';
 
 @Component({
   selector: 'app-filter',
@@ -34,20 +35,62 @@ export class FilterComponent implements OnInit {
     shield: '盾牌'
   };
 
-  weapontypes: { [key: string]: string } = {
-    sword: '劍',
-    axe: '斧',
-    mace: '釘頭錘',
-    stave: '法杖',
-    wand: '魔杖',
-    scepter: '權杖',
-    club: '棍棒',
-    polearm: '長炳戰斧',
-    assassinkatar: '爪',
-    weapons: '武器'
+  weapontypes: { [key: string]: any } = {
+    sword: {
+      name: '刀劍',
+      url: this.config.api_base_url + '/items/normal/weapon/filter/kind/sword'
+    },
+    axe: {
+      name: '斧頭',
+      url: this.config.api_base_url + '/items/normal/weapon/filter/kind/axe'
+    },
+    mace: {
+      name: '釘頭錘',
+      url: this.config.api_base_url + '/items/normal/weapon/filter/kind/mace'
+    },
+    stave: {
+      name: '法杖',
+      url: this.config.api_base_url + '/items/normal/weapon/filter/kind/stave'
+    },
+    wand: {
+      name: '魔杖',
+      url: this.config.api_base_url + '/items/normal/weapon/filter/kind/wand'
+    },
+    scepter: {
+      name: '權杖',
+      url: this.config.api_base_url + '/items/normal/weapon/filter/kind/scepter'
+    },
+    club: {
+      name: '棍棒',
+      url: this.config.api_base_url + '/items/normal/weapon/filter/kind/club'
+    },
+    polearm: {
+      name: '長斧',
+      url: this.config.api_base_url + '/items/normal/weapon/filter/kind/polearm'
+    },
+    assassinkatar: {
+      name: '爪',
+      url: this.config.api_base_url + '/items/normal/weapon/filter/kind/assassinkatar'
+    },
+    hammer: {
+      name: '槌子',
+      url: this.config.api_base_url + '/items/normal/weapon/filter/kind/hammer'
+    },
+    melee: {
+      name: '近戰武器',
+      url: this.config.api_base_url + '/items/normal/weapon/filter/attack/melee'
+    },
+    missile: {
+      name: '遠程武器',
+      url: this.config.api_base_url + '/items/normal/weapon/filter/attack/missile'
+    },
+    paladinshield: {
+      name: '聖騎士限定盾牌',
+      url: this.config.api_base_url + '/items/normal/armor/filter/limit/paladin'
+    }
   };
 
-  constructor(private route: ActivatedRoute, private rune: RuneService) {
+  constructor(private route: ActivatedRoute, private rune: RuneService, private config: Config) {
     this.route.params.subscribe(params => {
       this.type = params.type;
       this.type_detail = params.type_detail;

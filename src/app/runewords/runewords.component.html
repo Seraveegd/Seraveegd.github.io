@@ -35,16 +35,17 @@
     </div>
     <div [ngClass]="'list'">
       <span>武器</span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'sword']" (click)="clink('18')" [ngClass]="{'active': selected === '18'}">劍</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'axe']" (click)="clink('19')" [ngClass]="{'active': selected === '19'}">斧</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'mace']" (click)="clink('20')" [ngClass]="{'active': selected === '20'}">釘頭錘</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'stave']" (click)="clink('21')" [ngClass]="{'active': selected === '21'}">法杖</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'wand']" (click)="clink('22')" [ngClass]="{'active': selected === '22'}">魔杖</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'scepter']" (click)="clink('23')" [ngClass]="{'active': selected === '23'}">權杖</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'club']" (click)="clink('24')" [ngClass]="{'active': selected === '24'}">棍棒</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'polearm']" (click)="clink('25')" [ngClass]="{'active': selected === '25'}">長炳戰斧</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'assassinkatar']" (click)="clink('26')" [ngClass]="{'active': selected === '26'}">爪</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'weapons']" (click)="clink('27')" [ngClass]="{'active': selected === '27'}">武器</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'sword']" (click)="clink('18')" [ngClass]="{'active': selected === '18'}">刀劍</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'axe']" (click)="clink('19')" [ngClass]="{'active': selected === '19'}">斧頭</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'polearm']" (click)="clink('20')" [ngClass]="{'active': selected === '20'}">長斧</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'mace']" (click)="clink('21')" [ngClass]="{'active': selected === '21'}">釘頭錘</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'scepter']" (click)="clink('22')" [ngClass]="{'active': selected === '22'}">權杖</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'wand']" (click)="clink('23')" [ngClass]="{'active': selected === '23'}">魔杖</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'stave']" (click)="clink('24')" [ngClass]="{'active': selected === '24'}">法杖</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'assassinkatar']" (click)="clink('27')" [ngClass]="{'active': selected === '27'}">爪</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'club']" (click)="clink('25')" [ngClass]="{'active': selected === '25'}">棍棒</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'hammer']" (click)="clink('26')" [ngClass]="{'active': selected === '26'}">槌子</a></span>
+      <span><a [routerLink]="['filter', 'weaponlimit' , 'weapons']" (click)="clink('99')" [ngClass]="{'active': selected === '99'}">任何武器</a></span>
     </div>
     <div [ngClass]="'list'">
       <span>攻擊類型</span>
@@ -68,7 +69,7 @@
       <span><a [routerLink]="['filter', 'rune', 'Shael']" (click)="clink('42')" [ngClass]="{'active': selected === '42'}">夏(13)</a></span>
       <span><a [routerLink]="['filter', 'rune', 'Dol']" (click)="clink('43')" [ngClass]="{'active': selected === '43'}">多爾(14)</a></span>
       <span><a [routerLink]="['filter', 'rune', 'Hel']" (click)="clink('44')" [ngClass]="{'active': selected === '44'}">海爾(15)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Io']" (click)="clink('45')" [ngClass]="{'active': selected === '45'}">破(16)</a></span>
+      <span><a [routerLink]="['filter', 'rune', 'Io']" (click)="clink('45')" [ngClass]="{'active': selected === '45'}">埃歐(16)</a></span>
       <span><a [routerLink]="['filter', 'rune', 'Lum']" (click)="clink('46')" [ngClass]="{'active': selected === '46'}">盧姆(17)</a></span>
       <span><a [routerLink]="['filter', 'rune', 'Ko']" (click)="clink('47')" [ngClass]="{'active': selected === '47'}">科(18)</a></span>
       <span><a [routerLink]="['filter', 'rune', 'Fal']" (click)="clink('48')" [ngClass]="{'active': selected === '48'}">法爾(19)</a></span>

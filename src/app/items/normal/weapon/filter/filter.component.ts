@@ -33,7 +33,9 @@ export class FilterComponent implements OnInit {
     sorceressorb: '法師限定法珠',
     assassinkatar: '刺客限定爪',
     sorceress: '法師限定法珠',
-    assassin: '刺客限定爪'
+    assassin: '刺客限定爪',
+    hammer: '槌子',
+    club: '棍棒'
   };
 
   kindNeedtofind = ['amazon', 'one', 'two', 'missile', 'melee', '2', '3', '4', '5', '6'];

@@ -13,7 +13,7 @@ import { MatListModule } from '@angular/material/list';
 
 import { HttpClientModule } from '@angular/common/http';
 import { ItemsComponent } from './items/items.component';
-// import { RuneComponent } from './runewords/rune/rune.component';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +21,6 @@ import { ItemsComponent } from './items/items.component';
     RunewordsComponent,
     HomeComponent,
     ItemsComponent,
-    // RuneComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +30,10 @@ import { ItemsComponent } from './items/items.component';
     MatIconModule,
     MatToolbarModule,
     HttpClientModule,
-    MatListModule
+    MatListModule,
+    CoreModule.forRoot({
+      api_base_url: 'https://seraveegd.github.io',
+    })
   ],
   providers: [],
   bootstrap: [AppComponent],

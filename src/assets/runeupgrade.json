@@ -1,0 +1,414 @@
+[
+    {
+        "ladder": "",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "El"
+            }
+        ],
+        "result": "Eld"
+    },
+    {
+        "ladder": "",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Eld"
+            }
+        ],
+        "result": "Tir"
+    },
+    {
+        "ladder": "",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Tir"
+            }
+        ],
+        "result": "Nef"
+    },
+    {
+        "ladder": "",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Nef"
+            }
+        ],
+        "result": "Eth"
+    },
+    {
+        "ladder": "",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Eth"
+            }
+        ],
+        "result": "Ith"
+    },
+    {
+        "ladder": "",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Ith"
+            }
+        ],
+        "result": "Tal"
+    },
+    {
+        "ladder": "",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Tal"
+            }
+        ],
+        "result": "Ral"
+    },
+    {
+        "ladder": "",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Ral"
+            }
+        ],
+        "result": "Ort"
+    },
+    {
+        "ladder": "",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Ort"
+            }
+        ],
+        "result": "Thul"
+    },
+    {
+        "ladder": "",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Thul"
+            },
+            { 
+                "amout": 1,
+                "material": "碎裂的黃寶石"
+            }
+        ],
+        "result": "Amn"
+    },
+    {
+        "ladder": "",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Amn"
+            },
+            { 
+                "amout": 1,
+                "material": "碎裂的紫寶石"
+            }
+        ],
+        "result": "Sol"
+    },
+    {
+        "ladder": "",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Sol"
+            },
+            { 
+                "amout": 1,
+                "material": "碎裂的藍寶石"
+            }
+        ],
+        "result": "Shael"
+    },
+    {
+        "ladder": "",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Shael"
+            },
+            { 
+                "amout": 1,
+                "material": "碎裂的紅寶石"
+            }
+        ],
+        "result": "Dol "
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Dol"
+            },
+            { 
+                "amout": 1,
+                "material": "碎裂的綠寶石"
+            }
+        ],
+        "result": "Hel"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Hel"
+            },
+            { 
+                "amout": 1,
+                "material": "碎裂的鑽石"
+            }
+        ],
+        "result": "Io"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Io"
+            },
+            { 
+                "amout": 1,
+                "material": "裂開的黃寶石"
+            }
+        ],
+        "result": "Lum"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Lum"
+            },
+            { 
+                "amout": 1,
+                "material": "裂開的紫寶石"
+            }
+        ],
+        "result": "Ko"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Ko"
+            },
+            { 
+                "amout": 1,
+                "material": "裂開的藍寶石"
+            }
+        ],
+        "result": "Fal"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Fal"
+            },
+            { 
+                "amout": 1,
+                "material": "裂開的紅寶石"
+            }
+        ],
+        "result": "Lem"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 3,
+                "material": "Lem"
+            },
+            { 
+                "amout": 1,
+                "material": "裂開的綠寶石"
+            }
+        ],
+        "result": "Pul"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 2,
+                "material": "Pul"
+            },
+            { 
+                "amout": 1,
+                "material": "裂開的鑽石"
+            }
+        ],
+        "result": "Um"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 2,
+                "material": "Um"
+            },
+            { 
+                "amout": 1,
+                "material": "黃寶石"
+            }
+        ],
+        "result": "Mal"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 2,
+                "material": "Mal"
+            },
+            { 
+                "amout": 1,
+                "material": "紫寶石"
+            }
+        ],
+        "result": "Ist"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 2,
+                "material": "Ist"
+            },
+            { 
+                "amout": 1,
+                "material": "藍寶石"
+            }
+        ],
+        "result": "Gul"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 2,
+                "material": "Gul"
+            },
+            { 
+                "amout": 1,
+                "material": "紅寶石"
+            }
+        ],
+        "result": "Vex"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 2,
+                "material": "Vex"
+            },
+            { 
+                "amout": 1,
+                "material": "綠寶石"
+            }
+        ],
+        "result": "Ohm"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 2,
+                "material": "Ohm"
+            },
+            { 
+                "amout": 1,
+                "material": "鑽石"
+            }
+        ],
+        "result": "Lo"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 2,
+                "material": "Lo"
+            },
+            { 
+                "amout": 1,
+                "material": "無瑕疵的黃寶石"
+            }
+        ],
+        "result": "Sur"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 2,
+                "material": "Sur"
+            },
+            { 
+                "amout": 1,
+                "material": "無瑕疵的紫寶石"
+            }
+        ],
+        "result": "Ber"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 2,
+                "material": "Ber"
+            },
+            { 
+                "amout": 1,
+                "material": "無瑕疵的藍寶石"
+            }
+        ],
+        "result": "Jah"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 2,
+                "material": "Jah"
+            },
+            { 
+                "amout": 1,
+                "material": "無瑕疵的紅寶石"
+            }
+        ],
+        "result": "Cham"
+    },
+    {
+        "ladder": "ladder",
+        "recipe": [
+            { 
+                "amout": 2,
+                "material": "Cham"
+            },
+            { 
+                "amout": 1,
+                "material": "無瑕疵的綠寶石"
+            }
+        ],
+        "result": "Zod"
+    }
+]
