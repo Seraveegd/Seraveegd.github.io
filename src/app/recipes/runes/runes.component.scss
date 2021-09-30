@@ -64,7 +64,7 @@
     }
 
     &.rare{
-      color: #B38727;
+      color: #FFFF6F;
     }
 
     .slot {
@@ -77,7 +77,7 @@
 
     &.limit {
       text-align: left;
-      line-height: 24px;
+      line-height: 30px;
     }
 
     .rune {
@@ -88,7 +88,7 @@
       flex-wrap: wrap;
 
       img {
-        width: 24px;
+        width: 30px;
       }
 
       * {

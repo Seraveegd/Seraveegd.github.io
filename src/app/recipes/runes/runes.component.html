@@ -1,0 +1,30 @@
+<div [ngClass]="'title'">符文</div>
+<table [ngClass]="'crafts'">
+  <thead>
+    <th>名稱</th>
+    <th>材料</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of runeupgrades | async">
+      <td [ngClass]="'rare'">
+        <p [ngClass]="'rune'">
+          <img
+            [src]="'/assets/images/rune/' + item.result + '_Rune.png'">{{ control[item.result].name }}({{ control[item.result].code }})
+        </p>
+      </td>
+      <td>
+        <p *ngFor="let r of item.recipe">
+          <ng-container *ngIf="control[r.material]">
+            <div [ngClass]="'rune'">
+              {{ r.amout }}*<img
+                [src]="'/assets/images/rune/' + r.material + '_Rune.png'">{{ control[r.material].name }}({{ control[r.material].code }})
+            </div>
+          </ng-container>
+          <ng-container *ngIf="!control[r.material]">
+            {{ r.amout }}*{{ r.material }}
+          </ng-container>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,549 @@
+[
+    {
+        "type": [
+            "armor"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "El"
+            },
+            {
+                "amout": 1,
+                "material": "碎裂的寶石"
+            },
+            {
+                "amout": 1,
+                "material": "低品質盔甲"
+            }
+        ],
+        "result": "相同型態的一般品質盔甲",
+        "note": "",
+        "tag": [
+            "rune",
+            "gem",
+            "armor"
+        ]
+    },
+    {
+        "type": [
+            "weapon"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Eld"
+            },
+            {
+                "amout": 1,
+                "material": "碎裂的寶石"
+            },
+            {
+                "amout": 1,
+                "material": "低品質武器"
+            }
+        ],
+        "result": "相同型態的一般品質武器",
+        "note": "",
+        "tag": [
+            "rune",
+            "gem",
+            "weapon"
+        ]
+    },
+    {
+        "type": [
+            "armor"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Tal"
+            },
+            {
+                "amout": 1,
+                "material": "Shael"
+            },
+            {
+                "amout": 1,
+                "material": "完美的鑽石"
+            },
+            {
+                "amout": 1,
+                "material": "一般品質獨特防具"
+            }
+        ],
+        "result": "防具的進階版本",
+        "note": "",
+        "tag": [
+            "rune",
+            "gem",
+            "armor"
+        ]
+    },
+    {
+        "type": [
+            "armor"
+        ],
+        "ladder": "ladder",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Ko"
+            },
+            {
+                "amout": 1,
+                "material": "Lem"
+            },
+            {
+                "amout": 1,
+                "material": "完美的鑽石"
+            },
+            {
+                "amout": 1,
+                "material": "進階獨特防具"
+            }
+        ],
+        "result": "防具的菁英版本",
+        "note": "",
+        "tag": [
+            "rune",
+            "gem",
+            "armor"
+        ]
+    },
+    {
+        "type": [
+            "weapon"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Ral"
+            },
+            {
+                "amout": 1,
+                "material": "Sol"
+            },
+            {
+                "amout": 1,
+                "material": "完美的綠寶石"
+            },
+            {
+                "amout": 1,
+                "material": "一般品質獨特武器"
+            }
+        ],
+        "result": "武器的進階版本",
+        "note": "",
+        "tag": [
+            "rune",
+            "gem",
+            "weapon"
+        ]
+    },
+    {
+        "type": [
+            "weapon"
+        ],
+        "ladder": "ladder",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Lum"
+            },
+            {
+                "amout": 1,
+                "material": "Pul"
+            },
+            {
+                "amout": 1,
+                "material": "完美的綠寶石"
+            },
+            {
+                "amout": 1,
+                "material": "進階獨特武器"
+            }
+        ],
+        "result": "武器的菁英版本",
+        "note": "",
+        "tag": [
+            "rune",
+            "gem",
+            "weapon"
+        ]
+    },
+    {
+        "type": [
+            "weapon"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Ort"
+            },
+            {
+                "amout": 1,
+                "material": "Amn"
+            },
+            {
+                "amout": 1,
+                "material": "完美的藍寶石"
+            },
+            {
+                "amout": 1,
+                "material": "普通的稀有武器"
+            }
+        ],
+        "result": "武器的進階版本",
+        "note": "",
+        "tag": [
+            "rune",
+            "gem",
+            "weapon"
+        ]
+    },
+    {
+        "type": [
+            "armor"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Ral"
+            },
+            {
+                "amout": 1,
+                "material": "Thul"
+            },
+            {
+                "amout": 1,
+                "material": "完美的紫寶石"
+            },
+            {
+                "amout": 1,
+                "material": "普通的稀有防具"
+            }
+        ],
+        "result": "防具的進階版本",
+        "note": "",
+        "tag": [
+            "rune",
+            "gem",
+            "armor"
+        ]
+    },
+    {
+        "type": [
+            "weapon"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Fal"
+            },
+            {
+                "amout": 1,
+                "material": "Um"
+            },
+            {
+                "amout": 1,
+                "material": "完美的藍寶石"
+            },
+            {
+                "amout": 1,
+                "material": "進階的稀有武器"
+            }
+        ],
+        "result": "武器的精英版本",
+        "note": "",
+        "tag": [
+            "rune",
+            "gem",
+            "weapon"
+        ]
+    },
+    {
+        "type": [
+            "armor"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Ko"
+            },
+            {
+                "amout": 1,
+                "material": "Pul"
+            },
+            {
+                "amout": 1,
+                "material": "完美的紫寶石"
+            },
+            {
+                "amout": 1,
+                "material": "進階的稀有防具"
+            }
+        ],
+        "result": "防具的精英版本",
+        "note": "",
+        "tag": [
+            "rune",
+            "gem",
+            "armor"
+        ]
+    },
+    {
+        "type": [
+            "armor",
+            "hole"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Tal"
+            },
+            {
+                "amout": 1,
+                "material": "Thul"
+            },
+            {
+                "amout": 1,
+                "material": "完美的黃寶石"
+            },
+            {
+                "amout": 1,
+                "material": "一般品質盔甲"
+            }
+        ],
+        "result": "相同型態具有變動凹槽數量的盔甲",
+        "note": "",
+        "tag": [
+            "rune",
+            "gem",
+            "armor"
+        ]
+    },
+    {
+        "type": [
+            "weapon",
+            "hole"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Ral"
+            },
+            {
+                "amout": 1,
+                "material": "Amn"
+            },
+            {
+                "amout": 1,
+                "material": "完美的紫寶石"
+            },
+            {
+                "amout": 1,
+                "material": "一般品質武器"
+            }
+        ],
+        "result": "相同型態具有變動凹槽數量的武器",
+        "note": "",
+        "tag": [
+            "rune",
+            "gem",
+            "weapon"
+        ]
+    },
+    {
+        "type": [
+            "armor",
+            "hole"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Ral"
+            },
+            {
+                "amout": 1,
+                "material": "Thul"
+            },
+            {
+                "amout": 1,
+                "material": "完美的藍寶石"
+            },
+            {
+                "amout": 1,
+                "material": "一般品質頭盔"
+            }
+        ],
+        "result": "相同型態具有變動凹槽數量的頭盔",
+        "note": "",
+        "tag": [
+            "rune",
+            "gem",
+            "armor"
+        ]
+    },
+    {
+        "type": [
+            "armor",
+            "hole"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Tal"
+            },
+            {
+                "amout": 1,
+                "material": "Amn"
+            },
+            {
+                "amout": 1,
+                "material": "完美的紅寶石"
+            },
+            {
+                "amout": 1,
+                "material": "一般品質盾牌"
+            }
+        ],
+        "result": "相同型態具有變動凹槽數量的盾牌",
+        "note": "",
+        "tag": [
+            "rune",
+            "gem",
+            "armor"
+        ]
+    },
+    {
+        "type": [
+            "weapon"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Ort"
+            },
+            {
+                "amout": 1,
+                "material": "武器"
+            }
+        ],
+        "result": "修復完全的武器",
+        "note": "",
+        "tag": [
+            "rune",
+            "weapon"
+        ]
+    },
+    {
+        "type": [
+            "armor"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Ral"
+            },
+            {
+                "amout": 1,
+                "material": "盔甲"
+            }
+        ],
+        "result": "修復完全的盔甲",
+        "note": "",
+        "tag": [
+            "rune",
+            "armor"
+        ]
+    },
+    {
+        "type": [
+            "weapon",
+            "hole"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 3,
+                "material": "標準的珠寶"
+            },
+            {
+                "amout": 1,
+                "material": "任何型態有凹槽的武器"
+            }
+        ],
+        "result": "相同型態有凹槽的魔法武器(凹槽數隨機產生)",
+        "note": "此公式官方尚未開放",
+        "tag": [
+            "jewelry",
+            "weapon"
+        ]
+    },
+    {
+        "type": [
+            "weapon",
+            "hole"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 3,
+                "material": "無瑕疵的寶石"
+            },
+            {
+                "amout": 1,
+                "material": "魔法武器"
+            }
+        ],
+        "result": "有凹槽的魔法武器",
+        "note": "此公式官方尚未開放",
+        "tag": [
+            "gem",
+            "weapon"
+        ]
+    },
+    {
+        "type": [
+            "equipment"
+        ],
+        "ladder": "",
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "Hel"
+            },
+            {
+                "amout": 1,
+                "material": "城鎮捲軸"
+            },
+            {
+                "amout": 1,
+                "material": "任一已有鑲物品的裝備"
+            }
+        ],
+        "result": "將已鑲上之物品摧毀",
+        "note": "此公式只是將鑲上所有的物品摧毀 但是凹槽依然存在",
+        "tag": [
+            "rune",
+            "item",
+            "equipment"
+        ]
+    }
+]

@@ -45,7 +45,7 @@ export class FilterComponent implements OnInit {
       url: this.config.api_base_url + '/items/normal/weapon/filter/kind/axe'
     },
     mace: {
-      name: '釘頭錘',
+      name: '釘鎚',
       url: this.config.api_base_url + '/items/normal/weapon/filter/kind/mace'
     },
     stave: {
@@ -65,7 +65,7 @@ export class FilterComponent implements OnInit {
       url: this.config.api_base_url + '/items/normal/weapon/filter/kind/club'
     },
     polearm: {
-      name: '長斧',
+      name: '長柄',
       url: this.config.api_base_url + '/items/normal/weapon/filter/kind/polearm'
     },
     assassinkatar: {

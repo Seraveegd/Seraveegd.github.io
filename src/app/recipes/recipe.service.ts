@@ -22,4 +22,12 @@ export class RecipeService {
       range: number[]
     }[]>('/assets/craft.json');
   }
+
+  getRunes(): any{
+    return this.http.get<{
+      ladder: string,
+      recipe: object[],
+      result: string
+    }[]>('/assets/runeupgrade.json');
+  }
 }

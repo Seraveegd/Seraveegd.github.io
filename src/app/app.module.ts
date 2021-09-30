@@ -9,12 +9,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatListModule } from '@angular/material/list';
 
 import { HttpClientModule } from '@angular/common/http';
 import { ItemsComponent } from './items/items.component';
 import { CoreModule } from './core/core.module';
 import { RecipesComponent } from './recipes/recipes.component';
+import { DonateComponent } from './donate/donate.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,7 @@ import { RecipesComponent } from './recipes/recipes.component';
     HomeComponent,
     ItemsComponent,
     RecipesComponent,
+    DonateComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +34,7 @@ import { RecipesComponent } from './recipes/recipes.component';
     MatSidenavModule,
     MatIconModule,
     MatToolbarModule,
+    MatTooltipModule,
     HttpClientModule,
     MatListModule,
     CoreModule.forRoot({

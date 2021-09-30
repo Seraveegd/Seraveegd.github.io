@@ -1,4 +1,4 @@
-<div [ngClass]="'publish'">
+<!-- <div [ngClass]="'publish'">
   <p>此網站為閒情所致</p>
   <p>預計新增物品(基礎物品、暗金、套裝)...等資料</p>
   <p>&nbsp;</p>
@@ -6,4 +6,51 @@
     <a href="http://iyazero.tw/Default.htm">易牙居</a><br>
     <a href="https://zhong1016.github.io/Vue3Demo-Diablo/">A.P.E 攻略網</a>
   </p>
+</div> -->
+<div [ngClass]="'contents'">
+  <div [ngClass]="'block'">
+    <div [ngClass]="'title'">
+      物品
+    </div>
+    <div [ngClass]="'rwords'">
+      <div [ngClass]="'list'">
+        <span>分類</span>
+        <span><a [routerLink]="['/', 'items', 'normal']">基礎裝備</a></span>
+        <span><a>獨特裝備</a></span>
+        <span><a>成套裝備</a></span>
+      </div>
+    </div>
+  </div>
+  <div [ngClass]="'block'">
+    <div [ngClass]="'title'">
+      符文
+    </div>
+    <div [ngClass]="'rwords'">
+      <div [ngClass]="'list'">
+        <span>符文</span>
+        <span><a [routerLink]="['/', 'runewords', 'rune']">符文</a></span>
+      </div>
+      <div [ngClass]="'list'">
+        <span>符文組</span>
+        <span><a [routerLink]="['/', 'runewords', 'filter', 'type', 'weapon']">武器</a></span>
+        <span><a [routerLink]="['/', 'runewords', 'filter', 'type', 'helmet']">頭盔</a></span>
+        <span><a [routerLink]="['/', 'runewords', 'filter', 'type', 'armor']">盔甲</a></span>
+        <span><a [routerLink]="['/', 'runewords', 'filter', 'type', 'shield']">盾牌</a></span>
+      </div>
+    </div>
+  </div>
+  <div [ngClass]="'block'">
+    <div [ngClass]="'title'">
+      配方
+    </div>
+    <div [ngClass]="'rwords'">
+      <div [ngClass]="'list'">
+        <span>方塊</span>
+        <span><a [routerLink]="['/', 'recipes', 'craft']">手工藝</a></span>
+        <span><a [routerLink]="['/', 'recipes', 'runes']">符文</a></span>
+        <span><a>物品</a></span>
+        <span><a>裝備</a></span>
+      </div>
+    </div>
+  </div>
 </div>

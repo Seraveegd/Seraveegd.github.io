@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { RecipesRoutingModule } from './recipes-routing.module';
 import { CraftComponent } from './craft/craft.component';
+import { RunesComponent } from './runes/runes.component';
 
 
 @NgModule({
   declarations: [
-    CraftComponent
+    CraftComponent,
+    RunesComponent
   ],
   imports: [
     CommonModule,

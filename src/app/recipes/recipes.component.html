@@ -4,7 +4,7 @@
     <div [ngClass]="'list'">
       <span>方塊</span>
       <span><a [routerLink]="['craft']" (click)="clink('1')" [ngClass]="{'active': selected === '1'}">手工藝</a></span>
-      <span><a (click)="clink('2')" [ngClass]="{'active': selected === '2'}">符文</a></span>
+      <span><a [routerLink]="['runes']" (click)="clink('2')" [ngClass]="{'active': selected === '2'}">符文</a></span>
       <span><a (click)="clink('3')" [ngClass]="{'active': selected === '3'}">物品</a></span>
       <span><a (click)="clink('4')" [ngClass]="{'active': selected === '4'}">裝備</a></span>
     </div>

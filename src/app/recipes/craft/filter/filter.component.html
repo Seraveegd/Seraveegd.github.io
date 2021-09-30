@@ -8,7 +8,7 @@
           <thead>
             <th>名稱</th>
             <th>材料</th>
-            <th>效果</th>
+            <th>固定效果</th>
           </thead>
           <tbody>
             <tr *ngFor="let item of items | filtercraft: (!kindNottofind.includes(type_detail) ? 'kind' : type) : td">

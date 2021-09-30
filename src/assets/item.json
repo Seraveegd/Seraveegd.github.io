@@ -1,5 +1,9 @@
 [
     {
+        "type": [
+            "item",
+            "hole"
+        ],
         "recipe": [
             {
                 "amout": 3,
@@ -15,9 +19,17 @@
             }
         ],
         "result": "在稀有物品(黃色)上增加一個鑲孔",
-        "note": ""
+        "note": "",
+        "tag": [
+            "gem",
+            "rare",
+            "ring"
+        ]
     },
     {
+        "type": [
+            "item"
+        ],
         "recipe": [
             {
                 "amout": 1,
@@ -33,9 +45,17 @@
             }
         ],
         "result": "1個新的同樣類型且高品質的稀有物品(黃色)",
-        "note": "這個公式可以擁有更高品質的稀有物品(黃色)。"
+        "note": "這個公式可以擁有更高品質的稀有物品(黃色)。",
+        "tag": [
+            "gem",
+            "rare",
+            "ring"
+        ]
     },
     {
+        "type": [
+            "item"
+        ],
         "recipe": [
             {
                 "amout": 6,
@@ -47,9 +67,16 @@
             }
         ],
         "result": "1個同樣類型且隨機的低品質稀有物品(黃色)",
-        "note": "這個公式無法使用在多於6格的物品上。"
+        "note": "這個公式無法使用在多於6格的物品上。",
+        "tag": [
+            "gem",
+            "rare"
+        ]
     },
     {
+        "type": [
+            "weapon"
+        ],
         "recipe": [
             {
                 "amout": 4,
@@ -65,9 +92,17 @@
             }
         ],
         "result": "一把同類型的劍類武器擁有吸血屬性",
-        "note": ""
+        "note": "",
+        "tag": [
+            "gem",
+            "pharmacy",
+            "weapon"
+        ]
     },
     {
+        "type": [
+            "necklace"
+        ],
         "recipe": [
             {
                 "amout": 3,
@@ -75,9 +110,15 @@
             }
         ],
         "result": "1個隨機的護身符(項鍊)",
-        "note": "最高等級=[(3*角色等級)/4]+3。但是一個+2點技能的護身符(項鍊)需要等級90，也就是說，無法利用這個公式創造一個+2點技能的護身符(項鍊)。"
+        "note": "最高等級=[(3*角色等級)/4]+3。但是一個+2點技能的護身符(項鍊)需要等級90，也就是說，無法利用這個公式創造一個+2點技能的護身符(項鍊)。",
+        "tag": [
+            "ring"
+        ]
     },
     {
+        "type": [
+            "ring"
+        ],
         "recipe": [
             {
                 "amout": 3,
@@ -85,9 +126,15 @@
             }
         ],
         "result": "1個隨機的戒子",
-        "note": "最高等級=[(3*角色等級)/4]+3。"
+        "note": "最高等級=[(3*角色等級)/4]+3。",
+        "tag": [
+            "necklace"
+        ]
     },
     {
+        "type": [
+            "pharmacy"
+        ],
         "recipe": [
             {
                 "amout": 3,
@@ -103,9 +150,16 @@
             }
         ],
         "result": " 1個回復藥劑",
-        "note": "最高等級=[(3*角色等級)/4]+3。"
+        "note": "最高等級=[(3*角色等級)/4]+3。",
+        "tag": [
+            "pharmacy",
+            "gem"
+        ]
     },
     {
+        "type": [
+            "pharmacy"
+        ],
         "recipe": [
             {
                 "amout": 3,
@@ -121,9 +175,16 @@
             }
         ],
         "result": " 1個回復藥劑",
-        "note": ""
+        "note": "",
+        "tag": [
+            "pharmacy",
+            "gem"
+        ]
     },
     {
+        "type": [
+            "pharmacy"
+        ],
         "recipe": [
             {
                 "amout": 3,
@@ -139,9 +200,16 @@
             }
         ],
         "result": "1個全面回復藥劑",
-        "note": ""
+        "note": "",
+        "tag": [
+            "pharmacy",
+            "gem"
+        ]
     },
     {
+        "type": [
+            "pharmacy"
+        ],
         "recipe": [
             {
                 "amout": 3,
@@ -149,9 +217,15 @@
             }
         ],
         "result": "1個全面回復藥劑",
-        "note": ""
+        "note": "",
+        "tag": [
+            "pharmacy"
+        ]
     },
     {
+        "type": [
+            "gem"
+        ],
         "recipe": [
             {
                 "amout": 3,
@@ -159,9 +233,16 @@
             }
         ],
         "result": "1個同類型高一等級的寶石",
-        "note": ""
+        "note": "",
+        "tag": [
+            "gem"
+        ]
     },
     {
+        "type": [
+            "weapon",
+            "hole"
+        ],
         "recipe": [
             {
                 "amout": 3,
@@ -173,9 +254,16 @@
             }
         ],
         "result": "1把有魔法屬性同類型的劍",
-        "note": "將劍類武器注入魔法，任何劍類武器都適用。(增加1-2個凹槽)"
+        "note": "將劍類武器注入魔法，任何劍類武器都適用。(增加1-2個凹槽)",
+        "tag": [
+            "gem",
+            "weapon"
+        ]
     },
     {
+        "type": [
+            "consumables"
+        ],
         "recipe": [
             {
                 "amout": 2,
@@ -183,9 +271,15 @@
             }
         ],
         "result": "1捆箭矢",
-        "note": "數量隨機。"
+        "note": "數量隨機。",
+        "tag": [
+            "consumables"
+        ]
     },
     {
+        "type": [
+            "consumables"
+        ],
         "recipe": [
             {
                 "amout": 2,
@@ -193,9 +287,15 @@
             }
         ],
         "result": "1捆十字弓彈",
-        "note": "數量隨機。"
+        "note": "數量隨機。",
+        "tag": [
+            "consumables"
+        ]
     },
     {
+        "type": [
+            "weapon"
+        ],
         "recipe": [
             {
                 "amout": 1,
@@ -207,9 +307,15 @@
             }
         ],
         "result": "1捆標槍",
-        "note": ""
+        "note": "",
+        "tag": [
+            "weapon"
+        ]
     },
     {
+        "type": [
+            "consumables"
+        ],
         "recipe": [
             {
                 "amout": 1,
@@ -221,9 +327,15 @@
             }
         ],
         "result": "飛斧",
-        "note": "數量隨機。"
+        "note": "數量隨機。",
+        "tag": [
+            "weapon"
+        ]
     },
     {
+        "type": [
+            "item"
+        ],
         "recipe": [
             {
                 "amout": 3,
@@ -235,9 +347,16 @@
             }
         ],
         "result": " 1個同類型且新的隨機魔法物品",
-        "note": "最高等級=100，你可以利用這個公式創造一個+2點技能的護身符(項鍊)，但是等級低於84的角色是創造不出來的。"
+        "note": "最高等級=100，你可以利用這個公式創造一個+2點技能的護身符(項鍊)，但是等級低於84的角色是創造不出來的。",
+        "tag": [
+            "gem",
+            "item"
+        ]
     },
     {
+        "type": [
+            "pharmacy"
+        ],
         "recipe": [
             {
                 "amout": 1,
@@ -249,9 +368,15 @@
             }
         ],
         "result": "1個解毒藥劑",
-        "note": ""
+        "note": "",
+        "tag": [
+            "pharmacy"
+        ]
     },
     {
+        "type": [
+            "necklace"
+        ],
         "recipe": [
             {
                 "amout": 6,
@@ -263,9 +388,16 @@
             }
         ],
         "result": "多彩的項鍊",
-        "note": "抗性15%~30%(隨機)"
+        "note": "抗性15%~30%(隨機)",
+        "tag": [
+            "gem",
+            "necklace"
+        ]
     },
     {
+        "type": [
+            "ring"
+        ],
         "recipe": [
             {
                 "amout": 1,
@@ -281,9 +413,17 @@
             }
         ],
         "result": "鉻綠戒指",
-        "note": "抗性20%~27%(隨機)"
+        "note": "抗性20%~27%(隨機)",
+        "tag": [
+            "gem",
+            "ring",
+            "pharmacy"
+        ]
     },
     {
+        "type": [
+            "ring"
+        ],
         "recipe": [
             {
                 "amout": 1,
@@ -299,9 +439,17 @@
             }
         ],
         "result": "石榴石戒指",
-        "note": "抗性20%~27%(隨機)"
+        "note": "抗性20%~27%(隨機)",
+        "tag": [
+            "gem",
+            "ring",
+            "pharmacy"
+        ]
     },
     {
+        "type": [
+            "ring"
+        ],
         "recipe": [
             {
                 "amout": 1,
@@ -317,9 +465,17 @@
             }
         ],
         "result": "珊瑚戒指",
-        "note": "抗性20%~27%(隨機)"
+        "note": "抗性20%~27%(隨機)",
+        "tag": [
+            "gem",
+            "ring",
+            "pharmacy"
+        ]
     },
     {
+        "type": [
+            "ring"
+        ],
         "recipe": [
             {
                 "amout": 1,
@@ -335,9 +491,17 @@
             }
         ],
         "result": "鈷石戒指",
-        "note": "抗性20%~27%(隨機)"
+        "note": "抗性20%~27%(隨機)",
+        "tag": [
+            "gem",
+            "ring",
+            "pharmacy"
+        ]
     },
     {
+        "type": [
+            "armor"
+        ],
         "recipe": [
             {
                 "amout": 1,
@@ -353,6 +517,138 @@
             }
         ],
         "result": "小尖刺盾牌",
-        "note": ""
+        "note": "",
+        "tag": [
+            "armor",
+            "weapon",
+            "gem"
+        ]
+    },
+    {
+        "type": [
+            "weapon"
+        ],
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "鑽石(任何等級)"
+            },
+            {
+                "amout": 1,
+                "material": "法杖(任意類型和等級)"
+            },
+            {
+                "amout": 1,
+                "material": "波形劍(任意類型和等級)"
+            },
+            {
+                "amout": 1,
+                "material": "腰帶(任意類型和等級)"
+            }
+        ],
+        "result": "長柄斧",
+        "note": "",
+        "tag": [
+            "armor",
+            "weapon",
+            "gem"
+        ]
+    },
+    {
+        "type": [
+            "portal"
+        ],
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "維特之腿"
+            },
+            {
+                "amout": 1,
+                "material": "傳送門之書"
+            }
+        ],
+        "result": "秘密乳牛關卡",
+        "note": "只能在ACT1城鎮開啟，要殺死巴爾才能進入此關卡",
+        "tag": [
+            "weapon",
+            "item"
+        ]
+    },
+    {
+        "type": [
+            "portal"
+        ],
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "憎恨之鑰"
+            },
+            {
+                "amout": 1,
+                "material": "恐懼之鑰"
+            },
+            {
+                "amout": 1,
+                "material": "毀滅之鑰"
+            }
+        ],
+        "result": "主母巢穴/遺忘沙漠/痛苦融爐",
+        "note": "只能在ACT5城鎮開啟，傳送門種類有3種,會隨機出現其中一種，3種傳送門的頭目分別是依族爾,都瑞爾,莉莉絲。",
+        "tag": [
+            "item"
+        ]
+    },
+    {
+        "type": [
+            "portal"
+        ],
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "墨菲斯托之腦"
+            },
+            {
+                "amout": 1,
+                "material": "暗黑破壞神之角"
+            },
+            {
+                "amout": 1,
+                "material": "巴爾之眼"
+            }
+        ],
+        "result": "崔斯特瑞姆",
+        "note": "只能在ACT5城鎮開啟。",
+        "tag": [
+            "item"
+        ]
+    },
+    {
+        "type": [
+            "item"
+        ],
+        "recipe": [
+            {
+                "amout": 1,
+                "material": "扭曲的苦痛本質"
+            },
+            {
+                "amout": 1,
+                "material": "充盈的憎恨本質"
+            },
+            {
+                "amout": 1,
+                "material": "燃燒的恐懼本質"
+            },
+            {
+                "amout": 1,
+                "material": "潰爛的毀滅本質"
+            }
+        ],
+        "result": "赦免勳章",
+        "note": "重置人物點數與技能，掉落對應(安達利爾/督瑞爾)、墨菲斯托、暗黑破壞神與巴爾。",
+        "tag": [
+            "item"
+        ]
     }
 ]
