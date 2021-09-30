@@ -11,6 +11,7 @@
           <img
             [src]="'/assets/images/rune/' + item.result + '_Rune.png'">{{ control[item.result].name }}({{ control[item.result].code }})
         </p>
+        <p [ngClass]="'ladder'" *ngIf="item.ladder">天梯限定</p>
       </td>
       <td>
         <p *ngFor="let r of item.recipe">
