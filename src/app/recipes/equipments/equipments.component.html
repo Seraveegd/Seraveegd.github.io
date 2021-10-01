@@ -1,0 +1,34 @@
+<div [ngClass]="'title'">裝備</div>
+<div [ngClass]="'rwords'">
+  <div [ngClass]="'list'">
+    <span>種類</span>
+    <span><a [routerLink]="['filter', 'type', 'hole']" (click)="clink('0')"
+        [ngClass]="{'active': selected === '0'}">鑲孔</a></span>
+    <span><a [routerLink]="['filter', 'type', 'equipment']" (click)="clink('1')"
+        [ngClass]="{'active': selected === '1'}">裝備</a></span>
+    <span><a [routerLink]="['filter', 'type', 'armor']" (click)="clink('2')"
+        [ngClass]="{'active': selected === '2'}">防具</a></span>
+    <span><a [routerLink]="['filter', 'type', 'weapon']" (click)="clink('3')"
+        [ngClass]="{'active': selected === '3'}">武器</a></span>
+    <span><a [routerLink]="['filter', 'type', 'repair']" (click)="clink('10')"
+        [ngClass]="{'active': selected === '10'}">修復</a></span>
+    <span><a [routerLink]="['filter', 'type', 'upgrade']" (click)="clink('11')"
+        [ngClass]="{'active': selected === '11'}">升級</a></span>
+    <span><a [routerLink]="['filter', 'type', 'destory']" (click)="clink('12')"
+        [ngClass]="{'active': selected === '12'}">摧毀</a></span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>材料</span>
+    <span><a [routerLink]="['filter', 'tag', 'rune']" (click)="clink('4')"
+        [ngClass]="{'active': selected === '4'}">符文</a></span>
+    <span><a [routerLink]="['filter', 'tag', 'gem']" (click)="clink('5')"
+        [ngClass]="{'active': selected === '5'}">寶石</a></span>
+    <span><a [routerLink]="['filter', 'tag', 'armor']" (click)="clink('6')"
+        [ngClass]="{'active': selected === '6'}">防具</a></span>
+    <span><a [routerLink]="['filter', 'tag', 'weapon']" (click)="clink('7')"
+        [ngClass]="{'active': selected === '7'}">武器</a></span>
+    <span><a [routerLink]="['filter', 'tag', 'equipment']" (click)="clink('8')"
+        [ngClass]="{'active': selected === '9'}">裝備</a></span>
+  </div>
+</div>
+<router-outlet></router-outlet>

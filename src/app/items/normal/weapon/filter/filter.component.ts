@@ -23,7 +23,7 @@ export class FilterComponent implements OnInit {
     scepter: '權杖',
     bow: '弓',
     amazonbow: '亞馬遜限定弓',
-    crossbow: '孥',
+    crossbow: '弩',
     javelin: '標槍',
     amazonjavelin: '亞馬遜限定標槍',
     dagger: '匕首',

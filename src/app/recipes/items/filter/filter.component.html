@@ -1,0 +1,25 @@
+<div [ngClass]="'title'">{{ type }}:{{ type_detail }}</div>
+<div>
+  <div [ngClass]="'title'">
+    {{ types[type_detail] }}
+  </div>
+  <table [ngClass]="'crafts'">
+    <thead>
+      <th>名稱</th>
+      <th>材料</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of Items | async | filteritem: type : type_detail">
+        <td>
+          <p>{{ item.result }}</p>
+          <p [ngClass]="'ladder'">{{ item.note }}</p>
+        </td>
+        <td>
+          <p *ngFor="let r of item.recipe">
+            {{ r.amout }}*{{ r.material }}
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

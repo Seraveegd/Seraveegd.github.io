@@ -14,6 +14,9 @@
         <a [routerLink]="['/', 'recipes']" (click)="sideNav.toggle()" mat-list-item>
           <span>&nbsp;配方&nbsp;</span>
         </a>
+        <a (click)="sideNav.toggle()" mat-list-item>
+          <span>&nbsp;詞綴&nbsp;</span>
+        </a>
         <a [routerLink]="['/', 'donate']" (click)="sideNav.toggle()" mat-list-item>
           <span>
             <mat-icon [matTooltip]="'贊助'">savings</mat-icon>
@@ -57,6 +60,11 @@
               <li>
                 <a [routerLink]="['/', 'recipes']">
                   <span>&nbsp;配方&nbsp;</span>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <span>&nbsp;詞綴&nbsp;</span>
                 </a>
               </li>
             </ul>

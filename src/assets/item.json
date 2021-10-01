@@ -1,654 +1,510 @@
 [
-    {
-        "type": [
-            "item",
-            "hole"
-        ],
-        "recipe": [
-            {
-                "amout": 3,
-                "material": "完美的骷髏"
-            },
-            {
-                "amout": 1,
-                "material": "稀有物品(黃色)"
-            },
-            {
-                "amout": 1,
-                "material": "喬丹之石"
-            }
-        ],
-        "result": "在稀有物品(黃色)上增加一個鑲孔",
-        "note": "",
-        "tag": [
-            "gem",
-            "rare",
-            "ring"
-        ]
-    },
-    {
-        "type": [
-            "item"
-        ],
-        "recipe": [
-            {
-                "amout": 1,
-                "material": "完美的骷髏"
-            },
-            {
-                "amout": 1,
-                "material": "稀有物品(黃色)"
-            },
-            {
-                "amout": 1,
-                "material": "喬丹之石"
-            }
-        ],
-        "result": "1個新的同樣類型且高品質的稀有物品(黃色)",
-        "note": "這個公式可以擁有更高品質的稀有物品(黃色)。",
-        "tag": [
-            "gem",
-            "rare",
-            "ring"
-        ]
-    },
-    {
-        "type": [
-            "item"
-        ],
-        "recipe": [
-            {
-                "amout": 6,
-                "material": "完美的骷髏"
-            },
-            {
-                "amout": 1,
-                "material": "稀有物品(黃色)"
-            }
-        ],
-        "result": "1個同樣類型且隨機的低品質稀有物品(黃色)",
-        "note": "這個公式無法使用在多於6格的物品上。",
-        "tag": [
-            "gem",
-            "rare"
-        ]
-    },
-    {
-        "type": [
-            "weapon"
-        ],
-        "recipe": [
-            {
-                "amout": 4,
-                "material": "治療藥劑(任何形式)"
-            },
-            {
-                "amout": 1,
-                "material": "紅寶石(任何形式)"
-            },
-            {
-                "amout": 1,
-                "material": "魔法/成套/稀有 劍類武器(任何形式)"
-            }
-        ],
-        "result": "一把同類型的劍類武器擁有吸血屬性",
-        "note": "",
-        "tag": [
-            "gem",
-            "pharmacy",
-            "weapon"
-        ]
-    },
-    {
-        "type": [
-            "necklace"
-        ],
-        "recipe": [
-            {
-                "amout": 3,
-                "material": "戒子"
-            }
-        ],
-        "result": "1個隨機的護身符(項鍊)",
-        "note": "最高等級=[(3*角色等級)/4]+3。但是一個+2點技能的護身符(項鍊)需要等級90，也就是說，無法利用這個公式創造一個+2點技能的護身符(項鍊)。",
-        "tag": [
-            "ring"
-        ]
-    },
-    {
-        "type": [
-            "ring"
-        ],
-        "recipe": [
-            {
-                "amout": 3,
-                "material": "護身符(項鍊)"
-            }
-        ],
-        "result": "1個隨機的戒子",
-        "note": "最高等級=[(3*角色等級)/4]+3。",
-        "tag": [
-            "necklace"
-        ]
-    },
-    {
-        "type": [
-            "pharmacy"
-        ],
-        "recipe": [
-            {
-                "amout": 3,
-                "material": "治療藥劑"
-            },
-            {
-                "amout": 3,
-                "material": "法力藥劑"
-            },
-            {
-                "amout": 1,
-                "material": "碎裂的寶石"
-            }
-        ],
-        "result": " 1個回復藥劑",
-        "note": "最高等級=[(3*角色等級)/4]+3。",
-        "tag": [
-            "pharmacy",
-            "gem"
-        ]
-    },
-    {
-        "type": [
-            "pharmacy"
-        ],
-        "recipe": [
-            {
-                "amout": 3,
-                "material": "治療藥劑"
-            },
-            {
-                "amout": 3,
-                "material": "法力藥劑"
-            },
-            {
-                "amout": 1,
-                "material": "碎裂的寶石"
-            }
-        ],
-        "result": " 1個回復藥劑",
-        "note": "",
-        "tag": [
-            "pharmacy",
-            "gem"
-        ]
-    },
-    {
-        "type": [
-            "pharmacy"
-        ],
-        "recipe": [
-            {
-                "amout": 3,
-                "material": "治療藥劑"
-            },
-            {
-                "amout": 3,
-                "material": "法力藥劑"
-            },
-            {
-                "amout": 1,
-                "material": "寶石"
-            }
-        ],
-        "result": "1個全面回復藥劑",
-        "note": "",
-        "tag": [
-            "pharmacy",
-            "gem"
-        ]
-    },
-    {
-        "type": [
-            "pharmacy"
-        ],
-        "recipe": [
-            {
-                "amout": 3,
-                "material": "小的回復藥劑"
-            }
-        ],
-        "result": "1個全面回復藥劑",
-        "note": "",
-        "tag": [
-            "pharmacy"
-        ]
-    },
-    {
-        "type": [
-            "gem"
-        ],
-        "recipe": [
-            {
-                "amout": 3,
-                "material": "同類型同等級的寶石(低於完美的)"
-            }
-        ],
-        "result": "1個同類型高一等級的寶石",
-        "note": "",
-        "tag": [
-            "gem"
-        ]
-    },
-    {
-        "type": [
-            "weapon",
-            "hole"
-        ],
-        "recipe": [
-            {
-                "amout": 3,
-                "material": "碎裂的寶石"
-            },
-            {
-                "amout": 1,
-                "material": "1把劍類武器(任何形式)"
-            }
-        ],
-        "result": "1把有魔法屬性同類型的劍",
-        "note": "將劍類武器注入魔法，任何劍類武器都適用。(增加1-2個凹槽)",
-        "tag": [
-            "gem",
-            "weapon"
-        ]
-    },
-    {
-        "type": [
-            "consumables"
-        ],
-        "recipe": [
-            {
-                "amout": 2,
-                "material": "十字弓彈"
-            }
-        ],
-        "result": "1捆箭矢",
-        "note": "數量隨機。",
-        "tag": [
-            "consumables"
-        ]
-    },
-    {
-        "type": [
-            "consumables"
-        ],
-        "recipe": [
-            {
-                "amout": 2,
-                "material": "箭矢"
-            }
-        ],
-        "result": "1捆十字弓彈",
-        "note": "數量隨機。",
-        "tag": [
-            "consumables"
-        ]
-    },
-    {
-        "type": [
-            "weapon"
-        ],
-        "recipe": [
-            {
-                "amout": 1,
-                "material": "矛"
-            },
-            {
-                "amout": 1,
-                "material": "弓箭"
-            }
-        ],
-        "result": "1捆標槍",
-        "note": "",
-        "tag": [
-            "weapon"
-        ]
-    },
-    {
-        "type": [
-            "consumables"
-        ],
-        "recipe": [
-            {
-                "amout": 1,
-                "material": "斧頭"
-            },
-            {
-                "amout": 1,
-                "material": "匕首(短劍)"
-            }
-        ],
-        "result": "飛斧",
-        "note": "數量隨機。",
-        "tag": [
-            "weapon"
-        ]
-    },
-    {
-        "type": [
-            "item"
-        ],
-        "recipe": [
-            {
-                "amout": 3,
-                "material": "完美寶石(任何類型)"
-            },
-            {
-                "amout": 1,
-                "material": "魔法物品"
-            }
-        ],
-        "result": " 1個同類型且新的隨機魔法物品",
-        "note": "最高等級=100，你可以利用這個公式創造一個+2點技能的護身符(項鍊)，但是等級低於84的角色是創造不出來的。",
-        "tag": [
-            "gem",
-            "item"
-        ]
-    },
-    {
-        "type": [
-            "pharmacy"
-        ],
-        "recipe": [
-            {
-                "amout": 1,
-                "material": "扼殺氣體藥劑"
-            },
-            {
-                "amout": 1,
-                "material": "任何類型的治療藥劑"
-            }
-        ],
-        "result": "1個解毒藥劑",
-        "note": "",
-        "tag": [
-            "pharmacy"
-        ]
-    },
-    {
-        "type": [
-            "necklace"
-        ],
-        "recipe": [
-            {
-                "amout": 6,
-                "material": "完美的寶石(每種1個)"
-            },
-            {
-                "amout": 1,
-                "material": "項鍊(任何等級)"
-            }
-        ],
-        "result": "多彩的項鍊",
-        "note": "抗性15%~30%(隨機)",
-        "tag": [
-            "gem",
-            "necklace"
-        ]
-    },
-    {
-        "type": [
-            "ring"
-        ],
-        "recipe": [
-            {
-                "amout": 1,
-                "material": "完美的綠寶石"
-            },
-            {
-                "amout": 1,
-                "material": "戒指"
-            },
-            {
-                "amout": 1,
-                "material": "解毒藥劑"
-            }
-        ],
-        "result": "鉻綠戒指",
-        "note": "抗性20%~27%(隨機)",
-        "tag": [
-            "gem",
-            "ring",
-            "pharmacy"
-        ]
-    },
-    {
-        "type": [
-            "ring"
-        ],
-        "recipe": [
-            {
-                "amout": 1,
-                "material": "完美的紅寶石"
-            },
-            {
-                "amout": 1,
-                "material": "戒指"
-            },
-            {
-                "amout": 1,
-                "material": "爆炸藥劑"
-            }
-        ],
-        "result": "石榴石戒指",
-        "note": "抗性20%~27%(隨機)",
-        "tag": [
-            "gem",
-            "ring",
-            "pharmacy"
-        ]
-    },
-    {
-        "type": [
-            "ring"
-        ],
-        "recipe": [
-            {
-                "amout": 1,
-                "material": "完美的黃寶石"
-            },
-            {
-                "amout": 1,
-                "material": "戒指"
-            },
-            {
-                "amout": 1,
-                "material": "回復藥劑"
-            }
-        ],
-        "result": "珊瑚戒指",
-        "note": "抗性20%~27%(隨機)",
-        "tag": [
-            "gem",
-            "ring",
-            "pharmacy"
-        ]
-    },
-    {
-        "type": [
-            "ring"
-        ],
-        "recipe": [
-            {
-                "amout": 1,
-                "material": "完美的藍寶石"
-            },
-            {
-                "amout": 1,
-                "material": "戒指"
-            },
-            {
-                "amout": 1,
-                "material": "溶解藥劑"
-            }
-        ],
-        "result": "鈷石戒指",
-        "note": "抗性20%~27%(隨機)",
-        "tag": [
-            "gem",
-            "ring",
-            "pharmacy"
-        ]
-    },
-    {
-        "type": [
-            "armor"
-        ],
-        "recipe": [
-            {
-                "amout": 1,
-                "material": "小盾(具有魔法屬性或較高級的)"
-            },
-            {
-                "amout": 1,
-                "material": "狼牙棒"
-            },
-            {
-                "amout": 2,
-                "material": "骷髏頭(任何等級)"
-            }
-        ],
-        "result": "小尖刺盾牌",
-        "note": "",
-        "tag": [
-            "armor",
-            "weapon",
-            "gem"
-        ]
-    },
-    {
-        "type": [
-            "weapon"
-        ],
-        "recipe": [
-            {
-                "amout": 1,
-                "material": "鑽石(任何等級)"
-            },
-            {
-                "amout": 1,
-                "material": "法杖(任意類型和等級)"
-            },
-            {
-                "amout": 1,
-                "material": "波形劍(任意類型和等級)"
-            },
-            {
-                "amout": 1,
-                "material": "腰帶(任意類型和等級)"
-            }
-        ],
-        "result": "長柄斧",
-        "note": "",
-        "tag": [
-            "armor",
-            "weapon",
-            "gem"
-        ]
-    },
-    {
-        "type": [
-            "portal"
-        ],
-        "recipe": [
-            {
-                "amout": 1,
-                "material": "維特之腿"
-            },
-            {
-                "amout": 1,
-                "material": "傳送門之書"
-            }
-        ],
-        "result": "秘密乳牛關卡",
-        "note": "只能在ACT1城鎮開啟，要殺死巴爾才能進入此關卡",
-        "tag": [
-            "weapon",
-            "item"
-        ]
-    },
-    {
-        "type": [
-            "portal"
-        ],
-        "recipe": [
-            {
-                "amout": 1,
-                "material": "憎恨之鑰"
-            },
-            {
-                "amout": 1,
-                "material": "恐懼之鑰"
-            },
-            {
-                "amout": 1,
-                "material": "毀滅之鑰"
-            }
-        ],
-        "result": "主母巢穴/遺忘沙漠/痛苦融爐",
-        "note": "只能在ACT5城鎮開啟，傳送門種類有3種,會隨機出現其中一種，3種傳送門的頭目分別是依族爾,都瑞爾,莉莉絲。",
-        "tag": [
-            "item"
-        ]
-    },
-    {
-        "type": [
-            "portal"
-        ],
-        "recipe": [
-            {
-                "amout": 1,
-                "material": "墨菲斯托之腦"
-            },
-            {
-                "amout": 1,
-                "material": "暗黑破壞神之角"
-            },
-            {
-                "amout": 1,
-                "material": "巴爾之眼"
-            }
-        ],
-        "result": "崔斯特瑞姆",
-        "note": "只能在ACT5城鎮開啟。",
-        "tag": [
-            "item"
-        ]
-    },
-    {
-        "type": [
-            "item"
-        ],
-        "recipe": [
-            {
-                "amout": 1,
-                "material": "扭曲的苦痛本質"
-            },
-            {
-                "amout": 1,
-                "material": "充盈的憎恨本質"
-            },
-            {
-                "amout": 1,
-                "material": "燃燒的恐懼本質"
-            },
-            {
-                "amout": 1,
-                "material": "潰爛的毀滅本質"
-            }
-        ],
-        "result": "赦免勳章",
-        "note": "重置人物點數與技能，掉落對應(安達利爾/督瑞爾)、墨菲斯托、暗黑破壞神與巴爾。",
-        "tag": [
-            "item"
-        ]
-    }
+  {
+    "type": ["hole", "equipment"],
+    "recipe": [
+      {
+        "amout": 3,
+        "material": "完美骷髏"
+      },
+      {
+        "amout": 1,
+        "material": "稀有物品"
+      },
+      {
+        "amout": 1,
+        "material": "喬丹之石"
+      }
+    ],
+    "result": "在稀有物品上增加一個鑲孔",
+    "note": "",
+    "tag": ["gem", "equipment", "ring"]
+  },
+  {
+    "type": ["quality", "item"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "完美骷髏"
+      },
+      {
+        "amout": 1,
+        "material": "稀有物品"
+      },
+      {
+        "amout": 1,
+        "material": "喬丹之石"
+      }
+    ],
+    "result": "1個新的同樣類型且高品質的稀有物品",
+    "note": "可以擁有更高品質的稀有物品",
+    "tag": ["gem", "item", "ring"]
+  },
+  {
+    "type": ["quality", "item"],
+    "recipe": [
+      {
+        "amout": 6,
+        "material": "完美骷髏"
+      },
+      {
+        "amout": 1,
+        "material": "稀有物品"
+      }
+    ],
+    "result": "1個同樣類型且隨機的低品質稀有物品",
+    "note": "無法使用在多於6格的物品上",
+    "tag": ["gem", "item"]
+  },
+  {
+    "type": ["affixe", "equipment"],
+    "recipe": [
+      {
+        "amout": 4,
+        "material": "治療藥劑(任何形式)"
+      },
+      {
+        "amout": 1,
+        "material": "紅寶石(任何形式)"
+      },
+      {
+        "amout": 1,
+        "material": "魔法/成套/稀有 劍類武器(任何形式)"
+      }
+    ],
+    "result": "一把同類型的劍類武器擁有吸血屬性",
+    "note": "",
+    "tag": ["gem", "pharmacy", "equipment"]
+  },
+  {
+    "type": ["necklace"],
+    "recipe": [
+      {
+        "amout": 3,
+        "material": "戒子"
+      }
+    ],
+    "result": "1個隨機的項鍊",
+    "note": "最高等級=[(3*角色等級)/4]+3\n但是一個+2點技能的護身符(項鍊)需要等級90\n也就是說，無法創造一個+2點技能的項鍊",
+    "tag": ["ring"]
+  },
+  {
+    "type": ["ring"],
+    "recipe": [
+      {
+        "amout": 3,
+        "material": "項鍊"
+      }
+    ],
+    "result": "1個隨機的戒子",
+    "note": "最高等級=[(3*角色等級)/4]+3",
+    "tag": ["necklace"]
+  },
+  {
+    "type": ["pharmacy"],
+    "recipe": [
+      {
+        "amout": 3,
+        "material": "治療藥劑"
+      },
+      {
+        "amout": 3,
+        "material": "法力藥劑"
+      },
+      {
+        "amout": 1,
+        "material": "碎裂寶石"
+      }
+    ],
+    "result": " 1個回復藥劑",
+    "note": "最高等級=[(3*角色等級)/4]+3",
+    "tag": ["pharmacy", "gem"]
+  },
+  {
+    "type": ["pharmacy"],
+    "recipe": [
+      {
+        "amout": 3,
+        "material": "治療藥劑"
+      },
+      {
+        "amout": 3,
+        "material": "法力藥劑"
+      },
+      {
+        "amout": 1,
+        "material": "寶石"
+      }
+    ],
+    "result": "1個全面回復藥劑",
+    "note": "",
+    "tag": ["pharmacy", "gem"]
+  },
+  {
+    "type": ["pharmacy"],
+    "recipe": [
+      {
+        "amout": 3,
+        "material": "小的回復藥劑"
+      }
+    ],
+    "result": "1個全面回復藥劑",
+    "note": "",
+    "tag": ["pharmacy"]
+  },
+  {
+    "type": ["gem"],
+    "recipe": [
+      {
+        "amout": 3,
+        "material": "同類型同等級的寶石(低於完美)"
+      }
+    ],
+    "result": "1個同類型高一等級的寶石",
+    "note": "",
+    "tag": ["gem"]
+  },
+  {
+    "type": ["affixe", "hole", "equipment"],
+    "recipe": [
+      {
+        "amout": 3,
+        "material": "碎裂寶石"
+      },
+      {
+        "amout": 1,
+        "material": "劍類武器(任何形式)"
+      }
+    ],
+    "result": "1把有魔法屬性同類型的劍",
+    "note": "將劍類武器注入魔法，任何劍類武器都適用(增加1-2個凹槽)",
+    "tag": ["gem", "equipment"]
+  },
+  {
+    "type": ["consumables"],
+    "recipe": [
+      {
+        "amout": 2,
+        "material": "弩箭"
+      }
+    ],
+    "result": "1捆弓矢",
+    "note": "數量隨機",
+    "tag": ["consumables"]
+  },
+  {
+    "type": ["consumables"],
+    "recipe": [
+      {
+        "amout": 2,
+        "material": "弓矢"
+      }
+    ],
+    "result": "1捆弩箭",
+    "note": "數量隨機",
+    "tag": ["consumables"]
+  },
+  {
+    "type": ["equipment"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "矛"
+      },
+      {
+        "amout": 1,
+        "material": "弓箭"
+      }
+    ],
+    "result": "1捆標槍",
+    "note": "",
+    "tag": ["equipment"]
+  },
+  {
+    "type": ["consumables"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "斧頭"
+      },
+      {
+        "amout": 1,
+        "material": "匕首(短劍)"
+      }
+    ],
+    "result": "飛斧",
+    "note": "數量隨機",
+    "tag": ["equipment"]
+  },
+  {
+    "type": ["affixe" , "item"],
+    "recipe": [
+      {
+        "amout": 3,
+        "material": "任何完美寶石"
+      },
+      {
+        "amout": 1,
+        "material": "魔法物品"
+      }
+    ],
+    "result": " 1個同類型且新的隨機魔法物品",
+    "note": "最高等級 100\n你可以創造一個+2點技能的項鍊\n但是等級低於84的角色是創造不出來的",
+    "tag": ["gem", "item"]
+  },
+  {
+    "type": ["pharmacy"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "扼殺氣體藥劑"
+      },
+      {
+        "amout": 1,
+        "material": "任何類型的治療藥劑"
+      }
+    ],
+    "result": "1個解毒藥劑",
+    "note": "",
+    "tag": ["pharmacy"]
+  },
+  {
+    "type": ["necklace"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "完美黃寶石"
+      },
+      {
+        "amout": 1,
+        "material": "完美紫寶石"
+      },
+      {
+        "amout": 1,
+        "material": "完美藍寶石"
+      },
+      {
+        "amout": 1,
+        "material": "完美綠寶石"
+      },
+      {
+        "amout": 1,
+        "material": "完美紅寶石"
+      },
+      {
+        "amout": 1,
+        "material": "完美鑚石"
+      },
+      {
+        "amout": 1,
+        "material": "項鍊"
+      }
+    ],
+    "result": "多彩的項鍊",
+    "note": "抗性 +(15-30)%",
+    "tag": ["gem", "necklace"]
+  },
+  {
+    "type": ["ring"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "完美綠寶石"
+      },
+      {
+        "amout": 1,
+        "material": "戒指"
+      },
+      {
+        "amout": 1,
+        "material": "解毒藥劑"
+      }
+    ],
+    "result": "鉻綠戒指",
+    "note": "抗性 +(20-27)%",
+    "tag": ["gem", "ring", "pharmacy"]
+  },
+  {
+    "type": ["ring"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "完美紅寶石"
+      },
+      {
+        "amout": 1,
+        "material": "戒指"
+      },
+      {
+        "amout": 1,
+        "material": "爆炸藥劑"
+      }
+    ],
+    "result": "石榴石戒指",
+    "note": "抗性 +(20-27)%",
+    "tag": ["gem", "ring", "pharmacy"]
+  },
+  {
+    "type": ["ring"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "完美黃寶石"
+      },
+      {
+        "amout": 1,
+        "material": "戒指"
+      },
+      {
+        "amout": 1,
+        "material": "回復藥劑"
+      }
+    ],
+    "result": "珊瑚戒指",
+    "note": "抗性 +(20-27)%",
+    "tag": ["gem", "ring", "pharmacy"]
+  },
+  {
+    "type": ["ring"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "完美藍寶石"
+      },
+      {
+        "amout": 1,
+        "material": "戒指"
+      },
+      {
+        "amout": 1,
+        "material": "溶解藥劑"
+      }
+    ],
+    "result": "鈷石戒指",
+    "note": "抗性 +(20-27)%",
+    "tag": ["gem", "ring", "pharmacy"]
+  },
+  {
+    "type": ["equipment"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "小盾(具有魔法屬性或較高級的)"
+      },
+      {
+        "amout": 1,
+        "material": "狼牙棒"
+      },
+      {
+        "amout": 2,
+        "material": "骷髏頭(任何等級)"
+      }
+    ],
+    "result": "小尖刺盾牌",
+    "note": "",
+    "tag": ["armor", "weapon", "gem"]
+  },
+  {
+    "type": ["equipment"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "鑽石(任何等級)"
+      },
+      {
+        "amout": 1,
+        "material": "法杖(任意類型和等級)"
+      },
+      {
+        "amout": 1,
+        "material": "波形劍(任意類型和等級)"
+      },
+      {
+        "amout": 1,
+        "material": "腰帶(任意類型和等級)"
+      }
+    ],
+    "result": "長柄斧",
+    "note": "",
+    "tag": ["equipment", "gem"]
+  },
+  {
+    "type": ["portal"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "維特之腿"
+      },
+      {
+        "amout": 1,
+        "material": "城鎮傳送之書"
+      }
+    ],
+    "result": "秘密乳牛關卡",
+    "note": "只能在ACT1城鎮開啟，要殺死巴爾才能進入此關卡",
+    "tag": ["equipment", "item"]
+  },
+  {
+    "type": ["portal"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "憎恨之鑰"
+      },
+      {
+        "amout": 1,
+        "material": "恐懼之鑰"
+      },
+      {
+        "amout": 1,
+        "material": "毀滅之鑰"
+      }
+    ],
+    "result": "主母巢穴/遺忘沙漠/痛苦融爐",
+    "note": "只能在ACT5城鎮開啟，傳送門種類有3種，會隨機出現其中一種\n3種傳送門的頭目分別是依族爾、都瑞爾與莉莉絲",
+    "tag": ["item"]
+  },
+  {
+    "type": ["portal"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "墨菲斯托之腦"
+      },
+      {
+        "amout": 1,
+        "material": "暗黑破壞神之角"
+      },
+      {
+        "amout": 1,
+        "material": "巴爾之眼"
+      }
+    ],
+    "result": "崔斯特瑞姆",
+    "note": "只能在ACT5城鎮開啟",
+    "tag": ["item"]
+  },
+  {
+    "type": ["item", "reset"],
+    "recipe": [
+      {
+        "amout": 1,
+        "material": "扭曲的苦痛本質"
+      },
+      {
+        "amout": 1,
+        "material": "充盈的憎恨本質"
+      },
+      {
+        "amout": 1,
+        "material": "燃燒的恐懼本質"
+      },
+      {
+        "amout": 1,
+        "material": "潰爛的毀滅本質"
+      }
+    ],
+    "result": "赦免勳章",
+    "note": "重置人物點數與技能\n掉落對應(安達利爾/督瑞爾)、墨菲斯托、暗黑破壞神與巴爾",
+    "tag": ["item"]
+  }
 ]

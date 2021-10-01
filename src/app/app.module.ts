@@ -25,7 +25,7 @@ import { DonateComponent } from './donate/donate.component';
     HomeComponent,
     ItemsComponent,
     RecipesComponent,
-    DonateComponent,
+    DonateComponent
   ],
   imports: [
     BrowserModule,

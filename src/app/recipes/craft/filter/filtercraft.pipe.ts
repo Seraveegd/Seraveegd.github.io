@@ -1,3 +1,4 @@
+import { NullTemplateVisitor } from '@angular/compiler';
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
@@ -6,7 +7,11 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class FiltercraftPipe implements PipeTransform {
 
   transform(crafts: any, type: string, type_detail: string): any {
-    return Object.values(crafts).filter( (craft: any) => craft[type] == type_detail);
+    if (crafts) {
+      return Object.values(crafts).filter((craft: any) => craft[type] == type_detail);
+    } else {
+      return null;
+    }
   }
 
 }

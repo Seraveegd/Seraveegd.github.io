@@ -7,8 +7,9 @@ const routes: Routes = [
   {
     path: '', component: RecipesComponent, children: [
       { path: 'craft', loadChildren: () => import('./craft/craft.module').then(m => m.CraftModule) },
-      { path: 'runes', component: RunesComponent }
-      // { path: 'filter/:type/:type_detail', component: FilterComponent},
+      { path: 'runes', component: RunesComponent },
+      { path: 'items', loadChildren: () => import('./items/items.module').then(m => m.ItemsModule) },
+      { path: 'equipments', loadChildren: () => import('./equipments/equipments.module').then(m => m.EquipmentsModule) }
     ]
   },
 ];

@@ -1,0 +1,34 @@
+<div [ngClass]="'title'">{{ type }}:{{ type_detail }}</div>
+<div>
+  <div [ngClass]="'title'">
+    {{ types[type_detail] }}
+  </div>
+  <table [ngClass]="'crafts'">
+    <thead>
+      <th>名稱</th>
+      <th>材料</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of equipments | async | filterequipment: type : type_detail">
+        <td>
+          <p>{{ item.result }}</p>
+          <p [ngClass]="'ladder'">{{ item.note }}</p>
+          <p [ngClass]="'ladder'" *ngIf="item.ladder">天梯限定</p>
+        </td>
+        <td>
+          <p *ngFor="let r of item.recipe">
+            <ng-container *ngIf="control[r.material]">
+              <div [ngClass]="'rune'">
+                {{ r.amout }}*<img
+                  [src]="'/assets/images/rune/' + r.material + '_Rune.png'">{{ control[r.material].name }}({{ control[r.material].code }})
+              </div>
+            </ng-container>
+            <ng-container *ngIf="!control[r.material]">
+              {{ r.amout }}*{{ r.material }}
+            </ng-container>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

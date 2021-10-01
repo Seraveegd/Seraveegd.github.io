@@ -1,0 +1,46 @@
+<div [ngClass]="'title'">物品</div>
+<div [ngClass]="'rwords'">
+  <div [ngClass]="'list'">
+    <span>種類</span>
+    <span><a [routerLink]="['filter', 'type', 'item']" (click)="clink('0')"
+        [ngClass]="{'active': selected === '0'}">物品</a></span>
+    <span><a [routerLink]="['filter', 'type', 'portal']" (click)="clink('1')"
+        [ngClass]="{'active': selected === '1'}">傳送門</a></span>
+    <span><a [routerLink]="['filter', 'type', 'hole']" (click)="clink('2')"
+        [ngClass]="{'active': selected === '2'}">鑲孔</a></span>
+    <span><a [routerLink]="['filter', 'type', 'quality']" (click)="clink('3')"
+        [ngClass]="{'active': selected === '3'}">品質</a></span>
+    <span><a [routerLink]="['filter', 'type', 'affixe']" (click)="clink('4')"
+        [ngClass]="{'active': selected === '4'}">詞綴</a></span>
+    <span><a [routerLink]="['filter', 'type', 'necklace']" (click)="clink('5')"
+        [ngClass]="{'active': selected === '5'}">項鍊</a></span>
+    <span><a [routerLink]="['filter', 'type', 'ring']" (click)="clink('6')"
+        [ngClass]="{'active': selected === '6'}">戒指</a></span>
+    <span><a [routerLink]="['filter', 'type', 'equipment']" (click)="clink('7')"
+        [ngClass]="{'active': selected === '7'}">裝備</a></span>
+    <span><a [routerLink]="['filter', 'type', 'pharmacy']" (click)="clink('8')"
+        [ngClass]="{'active': selected === '8'}">藥劑</a></span>
+    <span><a [routerLink]="['filter', 'type', 'consumables']" (click)="clink('9')"
+        [ngClass]="{'active': selected === '9'}">消耗品</a></span>
+    <span><a [routerLink]="['filter', 'type', 'reset']" (click)="clink('17')"
+        [ngClass]="{'active': selected === '17'}">重置</a></span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>材料</span>
+    <span><a [routerLink]="['filter', 'tag', 'item']" (click)="clink('10')"
+        [ngClass]="{'active': selected === '10'}">物品</a></span>
+    <span><a [routerLink]="['filter', 'tag', 'gem']" (click)="clink('11')"
+        [ngClass]="{'active': selected === '11'}">寶石</a></span>
+    <span><a [routerLink]="['filter', 'tag', 'necklace']" (click)="clink('12')"
+        [ngClass]="{'active': selected === '12'}">項鍊</a></span>
+    <span><a [routerLink]="['filter', 'tag', 'ring']" (click)="clink('13')"
+        [ngClass]="{'active': selected === '13'}">戒指</a></span>
+    <span><a [routerLink]="['filter', 'tag', 'equipment']" (click)="clink('14')"
+        [ngClass]="{'active': selected === '14'}">裝備</a></span>
+    <span><a [routerLink]="['filter', 'tag', 'pharmacy']" (click)="clink('15')"
+        [ngClass]="{'active': selected === '15'}">藥劑</a></span>
+    <span><a [routerLink]="['filter', 'tag', 'consumables']" (click)="clink('16')"
+        [ngClass]="{'active': selected === '16'}">消耗品</a></span>
+  </div>
+</div>
+<router-outlet></router-outlet>

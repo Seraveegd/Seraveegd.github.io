@@ -19,7 +19,7 @@ export class RecipeService {
       gem: string,
       jewelry: string,
       activity: string[],
-      range: number[]
+      ability_values: Array<[]>
     }[]>('/assets/craft.json');
   }
 
@@ -29,5 +29,26 @@ export class RecipeService {
       recipe: object[],
       result: string
     }[]>('/assets/runeupgrade.json');
+  }
+
+  getItems(): any{
+    return this.http.get<{
+      type: string[],
+      recipe: object[],
+      result: string,
+      note: string,
+      tag: string[]
+    }[]>('/assets/item.json');
+  }
+
+  getEquipments(): any{
+    return this.http.get<{
+      type: string[],
+      ladder: string,
+      recipe: object[],
+      result: string,
+      note: string,
+      tag: string[]
+    }[]>('/assets/equipment.json');
   }
 }

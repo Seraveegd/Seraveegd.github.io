@@ -1,7 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Sanitizer } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { RecipeService } from '../../recipe.service';
 import { RuneService } from '../../../runewords/rune.service';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+
+
 
 @Component({
   selector: 'app-filter',
@@ -38,7 +41,7 @@ export class FilterComponent implements OnInit {
     }
   });
 
-  constructor(private route: ActivatedRoute, private recipe: RecipeService, private rune: RuneService) {
+  constructor(private route: ActivatedRoute, private recipe: RecipeService, private rune: RuneService, private sanitizer: DomSanitizer) {
     this.route.params.subscribe(params => {
       this.type = params.type;
       this.type_detail = params.type_detail;
@@ -50,6 +53,15 @@ export class FilterComponent implements OnInit {
 
   getUniqueKind(obj: any): any {
     return [...new Map(obj.map((item: any) => [item['kind'], item['kind']])).values()];
+  }
+
+  showAbility(a: string, replace: any[]): SafeHtml {
+    if (replace.length > 0) {
+      replace.forEach(value => a = a.replace('#', `<span style="color: rgb(3 203 203)">${value}</span>`));
+      return this.sanitizer.bypassSecurityTrustHtml(a);
+    } else {
+      return a;
+    }
   }
 
 }

@@ -8,7 +8,7 @@
           <thead>
             <th>名稱</th>
             <th>材料</th>
-            <th>固定效果</th>
+            <th>固定詞綴</th>
           </thead>
           <tbody>
             <tr *ngFor="let item of items | filtercraft: (!kindNottofind.includes(type_detail) ? 'kind' : type) : td">
@@ -25,8 +25,8 @@
                 <p>1*{{ item.jewelry === 'Y' ? '任何珠寶' : '' }}</p>
               </td>
               <td [ngClass]="'effect'">
-                <ng-container *ngFor="let a of item.ability">
-                  <p>{{ a }}</p>
+                <ng-container *ngFor="let a of item.ability; let i = index;">
+                  <p [innerHTML]="showAbility(a, item.ability_values[i])"></p>
                 </ng-container>
               </td>
             </tr>
