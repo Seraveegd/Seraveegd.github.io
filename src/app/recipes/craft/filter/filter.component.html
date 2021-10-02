@@ -18,11 +18,11 @@
                   <ng-container *ngFor="let i of item.item; let last = last">
                     <span [ngClass]="'magic'">{{i}}</span>{{ last ? '' : '/' }}</ng-container>
                 </p>
-                <p [ngClass]="'rune'">1*<img
+                <p [ngClass]="'rune'">1x<img
                     [src]="'/assets/images/rune/' + item.rune + '_Rune.png'">{{ control[item.rune].name }}({{ control[item.rune].code }})
                 </p>
-                <p>1*{{ item.gem }}</p>
-                <p>1*{{ item.jewelry === 'Y' ? '任何珠寶' : '' }}</p>
+                <p>1x{{ item.gem }}</p>
+                <p>1x{{ item.jewelry === 'Y' ? '任何珠寶' : '' }}</p>
               </td>
               <td [ngClass]="'effect'">
                 <ng-container *ngFor="let a of item.ability; let i = index;">

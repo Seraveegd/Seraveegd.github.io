@@ -19,12 +19,12 @@
           <p *ngFor="let r of item.recipe">
             <ng-container *ngIf="control[r.material]">
               <div [ngClass]="'rune'">
-                {{ r.amout }}*<img
+                {{ r.amout }}x<img
                   [src]="'/assets/images/rune/' + r.material + '_Rune.png'">{{ control[r.material].name }}({{ control[r.material].code }})
               </div>
             </ng-container>
             <ng-container *ngIf="!control[r.material]">
-              {{ r.amout }}*{{ r.material }}
+              {{ r.amout }}x{{ r.material }}
             </ng-container>
           </p>
         </td>
