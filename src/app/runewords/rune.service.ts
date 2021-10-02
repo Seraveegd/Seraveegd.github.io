@@ -31,7 +31,7 @@ export class RuneService {
       level: number,
       order: string[],
       ability: string[],
-      range: number[],
+      ability_values: Array<[]>,
       weaponlimit: string[],
       limit: string,
       attack: string

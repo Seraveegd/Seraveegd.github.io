@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { RuneService } from '../rune.service';
 import { Config } from '../../core/config.service';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-filter',
@@ -90,7 +91,7 @@ export class FilterComponent implements OnInit {
     }
   };
 
-  constructor(private route: ActivatedRoute, private rune: RuneService, private config: Config) {
+  constructor(private route: ActivatedRoute, private rune: RuneService, private config: Config, private sanitizer: DomSanitizer) {
     this.route.params.subscribe(params => {
       this.type = params.type;
       this.type_detail = params.type_detail;
@@ -99,6 +100,15 @@ export class FilterComponent implements OnInit {
 
   ngOnInit(): void {
 
+  }
+
+  showAbility(a: string, replace: any[]): SafeHtml {
+    if (replace.length > 0) {
+      replace.forEach(value => a = a.replace('#', `<span style="color: rgb(3 203 203)">${value}</span>`));
+      return this.sanitizer.bypassSecurityTrustHtml(a);
+    } else {
+      return a;
+    }
   }
 
 }

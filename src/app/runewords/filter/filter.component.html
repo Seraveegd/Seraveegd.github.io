@@ -41,8 +41,8 @@
           </div>
         </td>
         <td [ngClass]="'effect'">
-          <ng-container *ngFor="let a of item.ability">
-            <p>{{ a }}</p>
+          <ng-container *ngFor="let a of item.ability; let i = index">
+            <p [innerHTML]="showAbility(a, item.ability_values[i])"></p>
           </ng-container>
         </td>
       </tr>
