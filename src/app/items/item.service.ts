@@ -53,4 +53,17 @@ export class ItemService {
       limit: string
     }[]>('/assets/weapon.json');
   }
+
+  getGems(): any{
+    return this.http.get<{
+      type: string,
+      quility: string,
+      name: string,
+      level: number,
+      weapon: Array<[]>,
+      shield: Array<[]>,
+      armor: Array<[]>,
+      keywords: string[]
+    }[]>('/assets/gem.json');
+  }
 }

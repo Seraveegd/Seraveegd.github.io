@@ -1,0 +1,44 @@
+<div [ngClass]="'title'">{{ type }}:{{ type_detail}}</div>
+<div *ngIf="gems | async | filtergem: type : type_detail; let items ">
+  <ng-container *ngFor="let td of getUniqueType(items)">
+    <ng-container [ngSwitch]="td">
+      <ng-container *ngSwitchDefault>
+        <div [ngClass]="'title'">{{ types[td] }}</div>
+        <table [ngClass]="'crafts'">
+          <thead>
+            <th>圖示</th>
+            <th>名稱</th>
+            <th>需要等級</th>
+            <th>鑲入武器</th>
+            <th>鑲入盾牌</th>
+            <th>鑲入盔甲與頭盔</th>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of items | filtergem: 'type' : td">
+              <td>
+                <img [src]="'/assets/images/items/gem/' + item.quility + item.type + '.png'">
+              </td>
+              <td>{{ item.name }}</td>
+              <td>{{ item.level }}</td>
+              <td [ngClass]="'effect'">
+                <ng-container *ngFor="let a of item.weapon.ability; let i = index;">
+                  <p [innerHTML]="showAbility(a, item.weapon.ability_values[i])"></p>
+                </ng-container>
+              </td>
+              <td [ngClass]="'effect'">
+                <ng-container *ngFor="let a of item.shield.ability; let i = index;">
+                  <p [innerHTML]="showAbility(a, item.shield.ability_values[i])"></p>
+                </ng-container>
+              </td>
+              <td [ngClass]="'effect'">
+                <ng-container *ngFor="let a of item.armor.ability; let i = index;">
+                  <p [innerHTML]="showAbility(a, item.armor.ability_values[i])"></p>
+                </ng-container>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+</div>

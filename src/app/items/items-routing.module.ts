@@ -5,8 +5,8 @@ import { ItemsComponent } from './items.component';
 const routes: Routes = [
   {
     path: '', component: ItemsComponent, children: [
-      { path: 'normal', loadChildren: () => import('./normal/normal.module').then(m => m.NormalModule) }
-      // { path: 'filter/:type/:type_detail', component: FilterComponent},
+      { path: 'normal', loadChildren: () => import('./normal/normal.module').then(m => m.NormalModule) },
+      { path: 'gem', loadChildren: () => import('./gem/gem.module').then(m => m.GemModule) }
     ]
   },
 ];

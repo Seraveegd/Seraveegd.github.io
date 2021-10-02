@@ -19,7 +19,7 @@ export class FilterComponent implements OnInit {
     hole: '鑲孔',
     quality: '品質',
     affixe: '詞綴',
-    necklace: '項鍊',
+    necklace: '護身符',
     ring: '戒指',
     equipment: '裝備',
     pharmacy: '藥劑',

@@ -1,0 +1,667 @@
+[
+  {
+    "type": "skull",
+    "quility": "chipped",
+    "name": "碎裂骷髏石",
+    "level": 1,
+    "weapon": {
+      "ability": ["#% 擊中偷取生命\n#% 擊中偷取法力"],
+      "ability_values": [[2, 1]]
+    },
+    "shield": {
+      "ability": ["攻擊者反傷：#"],
+      "ability_values": [[4]]
+    },
+    "armor": {
+      "ability": ["法力恢復 #%，生命回復 #"],
+      "ability_values": [[8, "+2"]]
+    },
+    "keywords": ["steal", "reflection", "recovery"]
+  },
+  {
+    "type": "skull",
+    "quility": "flawed",
+    "name": "瑕疵骷髏石",
+    "level": 5,
+    "weapon": {
+      "ability": ["#% 擊中偷取生命\n#% 擊中偷取法力"],
+      "ability_values": [[2, 2]]
+    },
+    "shield": {
+      "ability": ["攻擊者反傷：#"],
+      "ability_values": [[8]]
+    },
+    "armor": {
+      "ability": ["法力恢復 #%，生命回復 #"],
+      "ability_values": [[8, "+3"]]
+    },
+    "keywords": ["steal", "reflection", "recovery"]
+  },
+  {
+    "type": "skull",
+    "quility": "normal",
+    "name": "骷髏石",
+    "level": 12,
+    "weapon": {
+      "ability": ["#% 擊中偷取生命\n#% 擊中偷取法力"],
+      "ability_values": [[3, 2]]
+    },
+    "shield": {
+      "ability": ["攻擊者反傷：#"],
+      "ability_values": [[12]]
+    },
+    "armor": {
+      "ability": ["法力恢復 #%，生命回復 #"],
+      "ability_values": [[12, "+3"]]
+    },
+    "keywords": ["steal", "reflection", "recovery"]
+  },
+  {
+    "type": "skull",
+    "quility": "flawless",
+    "name": "無暇骷髏石",
+    "level": 15,
+    "weapon": {
+      "ability": ["#% 擊中偷取生命\n#% 擊中偷取法力"],
+      "ability_values": [[3, 3]]
+    },
+    "shield": {
+      "ability": ["攻擊者反傷：#"],
+      "ability_values": [[16]]
+    },
+    "armor": {
+      "ability": ["法力恢復 #%，生命回復 #"],
+      "ability_values": [[12, "+4"]]
+    },
+    "keywords": ["steal", "reflection", "recovery"]
+  },
+  {
+    "type": "skull",
+    "quility": "perfect",
+    "name": "完美骷髏石",
+    "level": 15,
+    "weapon": {
+      "ability": ["#% 擊中偷取生命\n#% 擊中偷取法力"],
+      "ability_values": [[4, 3]]
+    },
+    "shield": {
+      "ability": ["攻擊者反傷：#"],
+      "ability_values": [[20]]
+    },
+    "armor": {
+      "ability": ["法力恢復 #%，生命回復 #"],
+      "ability_values": [[19, "+5"]]
+    },
+    "keywords": ["steal", "reflection", "recovery"]
+  },
+  {
+    "type": "amethyst",
+    "quility": "chipped",
+    "name": "碎裂紫寶石",
+    "level": 1,
+    "weapon": {
+      "ability": ["# 準確率"],
+      "ability_values": [["+40"]]
+    },
+    "shield": {
+      "ability": ["# 防禦"],
+      "ability_values": [["+8"]]
+    },
+    "armor": {
+      "ability": ["# 力量"],
+      "ability_values": [["+3"]]
+    },
+    "keywords": ["accuracy", "defense", "attributes"]
+  },
+  {
+    "type": "amethyst",
+    "quility": "flawed",
+    "name": "瑕疵紫寶石",
+    "level": 5,
+    "weapon": {
+      "ability": ["# 準確率"],
+      "ability_values": [["+60"]]
+    },
+    "shield": {
+      "ability": ["# 防禦"],
+      "ability_values": [["+12"]]
+    },
+    "armor": {
+      "ability": ["# 力量"],
+      "ability_values": [["+4"]]
+    },
+    "keywords": ["accuracy", "defense", "attributes"]
+  },
+  {
+    "type": "amethyst",
+    "quility": "normal",
+    "name": "紫寶石",
+    "level": 12,
+    "weapon": {
+      "ability": ["# 準確率"],
+      "ability_values": [["+80"]]
+    },
+    "shield": {
+      "ability": ["# 防禦"],
+      "ability_values": [["+18"]]
+    },
+    "armor": {
+      "ability": ["# 力量"],
+      "ability_values": [["+6"]]
+    },
+    "keywords": ["accuracy", "defense", "attributes"]
+  },
+  {
+    "type": "amethyst",
+    "quility": "flawless",
+    "name": "無瑕紫寶石",
+    "level": 15,
+    "weapon": {
+      "ability": ["# 準確率"],
+      "ability_values": [["+100"]]
+    },
+    "shield": {
+      "ability": ["# 防禦"],
+      "ability_values": [["+24"]]
+    },
+    "armor": {
+      "ability": ["# 力量"],
+      "ability_values": [["+8"]]
+    },
+    "keywords": ["accuracy", "defense", "attributes"]
+  },
+  {
+    "type": "amethyst",
+    "quility": "perfect",
+    "name": "完美紫寶石",
+    "level": 18,
+    "weapon": {
+      "ability": ["# 準確率"],
+      "ability_values": [["+150"]]
+    },
+    "shield": {
+      "ability": ["# 防禦"],
+      "ability_values": [["+30"]]
+    },
+    "armor": {
+      "ability": ["# 力量"],
+      "ability_values": [["+10"]]
+    },
+    "keywords": ["accuracy", "defense", "attributes"]
+  },
+  {
+    "type": "ruby",
+    "quility": "chipped",
+    "name": "碎裂紅寶石",
+    "level": 1,
+    "weapon": {
+      "ability": ["附加 # 火焰傷害"],
+      "ability_values": [["(3-4)"]]
+    },
+    "shield": {
+      "ability": ["火焰抗性 #%"],
+      "ability_values": [["+12"]]
+    },
+    "armor": {
+      "ability": ["# 生命"],
+      "ability_values": [["+10"]]
+    },
+    "keywords": ["harm", "resistance", "life"]
+  },
+  {
+    "type": "ruby",
+    "quility": "flawed",
+    "name": "瑕疵紅寶石",
+    "level": 5,
+    "weapon": {
+      "ability": ["附加 # 火焰傷害"],
+      "ability_values": [["(5-8)"]]
+    },
+    "shield": {
+      "ability": ["火焰抗性 #%"],
+      "ability_values": [["+16"]]
+    },
+    "armor": {
+      "ability": ["# 生命"],
+      "ability_values": [["+17"]]
+    },
+    "keywords": ["harm", "resistance", "life"]
+  },
+  {
+    "type": "ruby",
+    "quility": "normal",
+    "name": "紅寶石",
+    "level": 12,
+    "weapon": {
+      "ability": ["附加 # 火焰傷害"],
+      "ability_values": [["(8-12)"]]
+    },
+    "shield": {
+      "ability": ["火焰抗性 #%"],
+      "ability_values": [["+22"]]
+    },
+    "armor": {
+      "ability": ["# 生命"],
+      "ability_values": [["+24"]]
+    },
+    "keywords": ["harm", "resistance", "life"]
+  },
+  {
+    "type": "ruby",
+    "quility": "flawless",
+    "name": "無瑕紅寶石",
+    "level": 15,
+    "weapon": {
+      "ability": ["附加 # 火焰傷害"],
+      "ability_values": [["(10-16)"]]
+    },
+    "shield": {
+      "ability": ["火焰抗性 #%"],
+      "ability_values": [["+28"]]
+    },
+    "armor": {
+      "ability": ["# 生命"],
+      "ability_values": [["+31"]]
+    },
+    "keywords": ["harm", "resistance", "life"]
+  },
+  {
+    "type": "ruby",
+    "quility": "perfect",
+    "name": "完美紅寶石",
+    "level": 18,
+    "weapon": {
+      "ability": ["附加 # 火焰傷害"],
+      "ability_values": [["(15-20)"]]
+    },
+    "shield": {
+      "ability": ["火焰抗性 #%"],
+      "ability_values": [["+40"]]
+    },
+    "armor": {
+      "ability": ["# 生命"],
+      "ability_values": [["+38"]]
+    },
+    "keywords": ["harm", "resistance", "life"]
+  },
+  {
+    "type": "sapphire",
+    "quility": "chipped",
+    "name": "碎裂藍寶石",
+    "level": 1,
+    "weapon": {
+      "ability": ["附加 # 冰寒傷害"],
+      "ability_values": [["(1-3)"]]
+    },
+    "shield": {
+      "ability": ["冰寒抗性 #%"],
+      "ability_values": [["+12"]]
+    },
+    "armor": {
+      "ability": ["# 法力"],
+      "ability_values": [["+10"]]
+    },
+    "keywords": ["harm", "resistance", "mana"]
+  },
+  {
+    "type": "sapphire",
+    "quility": "flawed",
+    "name": "瑕疵藍寶石",
+    "level": 5,
+    "weapon": {
+      "ability": ["附加 # 冰寒傷害"],
+      "ability_values": [["(3-5)"]]
+    },
+    "shield": {
+      "ability": ["冰寒抗性 #%"],
+      "ability_values": [["+16"]]
+    },
+    "armor": {
+      "ability": ["# 法力"],
+      "ability_values": [["+17"]]
+    },
+    "keywords": ["harm", "resistance", "mana"]
+  },
+  {
+    "type": "sapphire",
+    "quility": "normal",
+    "name": "藍寶石",
+    "level": 12,
+    "weapon": {
+      "ability": ["附加 # 冰寒傷害"],
+      "ability_values": [["(4-7)"]]
+    },
+    "shield": {
+      "ability": ["冰寒抗性 #%"],
+      "ability_values": [["+22"]]
+    },
+    "armor": {
+      "ability": ["# 法力"],
+      "ability_values": [["+24"]]
+    },
+    "keywords": ["harm", "resistance", "mana"]
+  },
+  {
+    "type": "sapphire",
+    "quility": "flawless",
+    "name": "無暇藍寶石",
+    "level": 15,
+    "weapon": {
+      "ability": ["附加 # 冰寒傷害"],
+      "ability_values": [["(6-10)"]]
+    },
+    "shield": {
+      "ability": ["冰寒抗性 #%"],
+      "ability_values": [["+28"]]
+    },
+    "armor": {
+      "ability": ["# 法力"],
+      "ability_values": [["+31"]]
+    },
+    "keywords": ["harm", "resistance", "mana"]
+  },
+  {
+    "type": "sapphire",
+    "quility": "perfect",
+    "name": "完美藍寶石",
+    "level": 18,
+    "weapon": {
+      "ability": ["附加 # 冰寒傷害"],
+      "ability_values": [["(10-14)"]]
+    },
+    "shield": {
+      "ability": ["冰寒抗性 #%"],
+      "ability_values": [["+40"]]
+    },
+    "armor": {
+      "ability": ["# 法力"],
+      "ability_values": [["+38"]]
+    },
+    "keywords": ["harm", "resistance", "mana"]
+  },
+  {
+    "type": "topaz",
+    "quility": "chipped",
+    "name": "碎裂黃寶石",
+    "level": 1,
+    "weapon": {
+      "ability": ["附加 # 電擊傷害"],
+      "ability_values": [["(1-8)"]]
+    },
+    "shield": {
+      "ability": ["電擊抗性 #%"],
+      "ability_values": [["+12"]]
+    },
+    "armor": {
+      "ability": ["尋獲魔法物品機率提高 #%"],
+      "ability_values": [["+9"]]
+    },
+    "keywords": ["harm", "resistance", "guarantee"]
+  },
+  {
+    "type": "topaz",
+    "quility": "flawed",
+    "name": "瑕疵黃寶石",
+    "level": 5,
+    "weapon": {
+      "ability": ["附加 # 電擊傷害"],
+      "ability_values": [["(1-14)"]]
+    },
+    "shield": {
+      "ability": ["電擊抗性 #%"],
+      "ability_values": [["+16"]]
+    },
+    "armor": {
+      "ability": ["尋獲魔法物品機率提高 #%"],
+      "ability_values": [["+13"]]
+    },
+    "keywords": ["harm", "resistance", "guarantee"]
+  },
+  {
+    "type": "topaz",
+    "quility": "normal",
+    "name": "黃寶石",
+    "level": 12,
+    "weapon": {
+      "ability": ["附加 # 電擊傷害"],
+      "ability_values": [["(1-22)"]]
+    },
+    "shield": {
+      "ability": ["電擊抗性 #%"],
+      "ability_values": [["+22"]]
+    },
+    "armor": {
+      "ability": ["尋獲魔法物品機率提高 #%"],
+      "ability_values": [["+16"]]
+    },
+    "keywords": ["harm", "resistance", "guarantee"]
+  },
+  {
+    "type": "topaz",
+    "quility": "flawless",
+    "name": "無瑕黃寶石",
+    "level": 15,
+    "weapon": {
+      "ability": ["附加 # 電擊傷害"],
+      "ability_values": [["(1-30)"]]
+    },
+    "shield": {
+      "ability": ["電擊抗性 #%"],
+      "ability_values": [["+28"]]
+    },
+    "armor": {
+      "ability": ["尋獲魔法物品機率提高 #%"],
+      "ability_values": [["+20"]]
+    },
+    "keywords": ["harm", "resistance", "guarantee"]
+  },
+  {
+    "type": "topaz",
+    "quility": "perfect",
+    "name": "完美黃寶石",
+    "level": 18,
+    "weapon": {
+      "ability": ["附加 # 電擊傷害"],
+      "ability_values": [["(1-40)"]]
+    },
+    "shield": {
+      "ability": ["電擊抗性 #%"],
+      "ability_values": [["+40"]]
+    },
+    "armor": {
+      "ability": ["尋獲魔法物品機率提高 #%"],
+      "ability_values": [["+24"]]
+    },
+    "keywords": ["harm", "resistance", "guarantee"]
+  },
+  {
+    "type": "emerald",
+    "quility": "chipped",
+    "name": "碎裂綠寶石",
+    "level": 1,
+    "weapon": {
+      "ability": ["附加 # 毒素傷害，時效 # 秒"],
+      "ability_values": [[10, 3]]
+    },
+    "shield": {
+      "ability": ["毒素抗性 #%"],
+      "ability_values": [["+12"]]
+    },
+    "armor": {
+      "ability": ["# 敏捷"],
+      "ability_values": [["+3"]]
+    },
+    "keywords": ["harm", "resistance", "attributes"]
+  },
+  {
+    "type": "emerald",
+    "quility": "flawed",
+    "name": "瑕疵綠寶石",
+    "level": 5,
+    "weapon": {
+      "ability": ["附加 # 毒素傷害，時效 # 秒"],
+      "ability_values": [[20, 4]]
+    },
+    "shield": {
+      "ability": ["毒素抗性 #%"],
+      "ability_values": [["+16"]]
+    },
+    "armor": {
+      "ability": ["# 敏捷"],
+      "ability_values": [["+4"]]
+    },
+    "keywords": ["harm", "resistance", "attributes"]
+  },
+  {
+    "type": "emerald",
+    "quility": "normal",
+    "name": "綠寶石",
+    "level": 12,
+    "weapon": {
+      "ability": ["附加 # 毒素傷害，時效 # 秒"],
+      "ability_values": [[40, 5]]
+    },
+    "shield": {
+      "ability": ["毒素抗性 #%"],
+      "ability_values": [["+22"]]
+    },
+    "armor": {
+      "ability": ["# 敏捷"],
+      "ability_values": [["+6"]]
+    },
+    "keywords": ["harm", "resistance", "attributes"]
+  },
+  {
+    "type": "emerald",
+    "quility": "flawless",
+    "name": "無瑕綠寶石",
+    "level": 15,
+    "weapon": {
+      "ability": ["附加 # 毒素傷害，時效 # 秒"],
+      "ability_values": [[60, 6]]
+    },
+    "shield": {
+      "ability": ["毒素抗性 #%"],
+      "ability_values": [["+28"]]
+    },
+    "armor": {
+      "ability": ["# 敏捷"],
+      "ability_values": [["+8"]]
+    },
+    "keywords": ["harm", "resistance", "attributes"]
+  },
+  {
+    "type": "emerald",
+    "quility": "perfect",
+    "name": "完美綠寶石",
+    "level": 18,
+    "weapon": {
+      "ability": ["附加 # 毒素傷害，時效 # 秒"],
+      "ability_values": [[100, 7]]
+    },
+    "shield": {
+      "ability": ["毒素抗性 #%"],
+      "ability_values": [["+40"]]
+    },
+    "armor": {
+      "ability": ["# 敏捷"],
+      "ability_values": [["+10"]]
+    },
+    "keywords": ["harm", "resistance", "attributes"]
+  },
+  {
+    "type": "diamond",
+    "quility": "chipped",
+    "name": "碎裂鑽石",
+    "level": 1,
+    "weapon": {
+      "ability": ["#% 對不死怪物的傷害"],
+      "ability_values": [["+28"]]
+    },
+    "shield": {
+      "ability": ["所有抗性 #"],
+      "ability_values": [["+6"]]
+    },
+    "armor": {
+      "ability": ["# 準確率"],
+      "ability_values": [["+20"]]
+    },
+    "keywords": ["harm", "resistance", "accuracy"]
+  },
+  {
+    "type": "diamond",
+    "quility": "flawed",
+    "name": "瑕疵鑽石",
+    "level": 5,
+    "weapon": {
+      "ability": ["#% 對不死怪物的傷害"],
+      "ability_values": [["+34"]]
+    },
+    "shield": {
+      "ability": ["所有抗性 #"],
+      "ability_values": [["+8"]]
+    },
+    "armor": {
+      "ability": ["# 準確率"],
+      "ability_values": [["+40"]]
+    },
+    "keywords": ["harm", "resistance", "accuracy"]
+  },
+  {
+    "type": "diamond",
+    "quility": "normal",
+    "name": "鑽石",
+    "level": 12,
+    "weapon": {
+      "ability": ["#% 對不死怪物的傷害"],
+      "ability_values": [["+44"]]
+    },
+    "shield": {
+      "ability": ["所有抗性 #"],
+      "ability_values": [["+11"]]
+    },
+    "armor": {
+      "ability": ["# 準確率"],
+      "ability_values": [["+60"]]
+    },
+    "keywords": ["harm", "resistance", "accuracy"]
+  },
+  {
+    "type": "diamond",
+    "quility": "flawless",
+    "name": "無暇鑽石",
+    "level": 15,
+    "weapon": {
+      "ability": ["#% 對不死怪物的傷害"],
+      "ability_values": [["+54"]]
+    },
+    "shield": {
+      "ability": ["所有抗性 #"],
+      "ability_values": [["+14"]]
+    },
+    "armor": {
+      "ability": ["# 準確率"],
+      "ability_values": [["+80"]]
+    },
+    "keywords": ["harm", "resistance", "accuracy"]
+  },
+  {
+    "type": "diamond",
+    "quility": "perfect",
+    "name": "完美鑽石",
+    "level": 18,
+    "weapon": {
+      "ability": ["#% 對不死怪物的傷害"],
+      "ability_values": [["+68"]]
+    },
+    "shield": {
+      "ability": ["所有抗性 #"],
+      "ability_values": [["+19"]]
+    },
+    "armor": {
+      "ability": ["# 準確率"],
+      "ability_values": [["+100"]]
+    },
+    "keywords": ["harm", "resistance", "accuracy"]
+  }
+]

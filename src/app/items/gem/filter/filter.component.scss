@@ -1,0 +1,115 @@
+.title {
+  background-color: #444444;
+  color: #bb9e74;
+  padding: 24px;
+  font-size: 20pt;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.crafts {
+  width: 100%;
+  text-align: center;
+  color: white;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  background-color: #444444;
+
+  th,
+  td {
+    padding: 8px;
+    border: 1px solid #1f1f1f;
+    white-space: pre-line;
+    line-height: 24px;
+  }
+
+  th {
+    font-size: 20px;
+    background-color: #303030;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #3c3c3c;
+  }
+
+  tr:nth-child(even) {
+    background-color: #303030;
+  }
+
+  tr:last-child {
+    border-bottom: none;
+  }
+
+  // tr:nth-child(even) {
+  //   background-color: #303030;
+  // }
+
+  tr:hover {
+    background-color: #272727;
+  }
+
+  td {
+    font-size: 20px;
+    vertical-align: top;
+
+    &:first-child {
+      vertical-align: top;
+    }
+
+    .name {
+      color: #dcc684;
+    }
+
+    .ladder {
+      color: #8b8b8b;
+    }
+
+    &.rare {
+      color: #b38727;
+    }
+
+    .slot {
+      color: #7a7aff;
+    }
+
+    .magic {
+      color: #7a7aff;
+    }
+
+    &.limit {
+      text-align: left;
+      line-height: 24px;
+    }
+
+    .rune {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffba00;
+      flex-wrap: wrap;
+
+      img {
+        width: 24px;
+      }
+
+      * {
+        margin: 4px;
+      }
+    }
+
+    &.effect {
+      color: #7a7aff;
+    }
+
+    span {
+      white-space: pre-wrap;
+    }
+  }
+
+  .margin {
+    border-bottom: 20px solid #222222;
+  }
+}
+
+.value {
+  color: #03cbcb !important;
+}

@@ -1,0 +1,44 @@
+<div [ngClass]="'title'">寶石</div>
+<div [ngClass]="'rwords'">
+  <div [ngClass]="'list'">
+    <span>種類</span>
+    <span><a [routerLink]="['filter', 'type', 'skull']" (click)="clink('1')"
+        [ngClass]="{'active': selected === '1'}">骷髏石</a></span>
+    <span><a [routerLink]="['filter', 'type', 'amethyst']" (click)="clink('2')"
+        [ngClass]="{'active': selected === '2'}">紫寶石</a></span>
+    <span><a [routerLink]="['filter', 'type', 'ruby']" (click)="clink('3')"
+        [ngClass]="{'active': selected === '3'}">紅寶石</a></span>
+    <span><a [routerLink]="['filter', 'type', 'sapphire']" (click)="clink('4')"
+        [ngClass]="{'active': selected === '4'}">藍寶石</a></span>
+    <span><a [routerLink]="['filter', 'type', 'topaz']" (click)="clink('5')"
+        [ngClass]="{'active': selected === '5'}">黃寶石</a></span>
+    <span><a [routerLink]="['filter', 'type', 'emerald']" (click)="clink('6')"
+        [ngClass]="{'active': selected === '6'}">綠寶石</a></span>
+    <span><a [routerLink]="['filter', 'type', 'diamond']" (click)="clink('7')"
+        [ngClass]="{'active': selected === '7'}">鑽石</a></span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>關鍵字</span>
+    <span><a [routerLink]="['filter', 'keywords', 'steal']" (click)="clink('8')"
+        [ngClass]="{'active': selected === '8'}">偷取</a></span>
+    <span><a [routerLink]="['filter', 'keywords', 'reflection']" (click)="clink('9')"
+        [ngClass]="{'active': selected === '9'}">反射</a></span>
+    <span><a [routerLink]="['filter', 'keywords', 'recovery']" (click)="clink('10')"
+        [ngClass]="{'active': selected === '10'}">回復</a></span>
+    <span><a [routerLink]="['filter', 'keywords', 'accuracy']" (click)="clink('11')"
+        [ngClass]="{'active': selected === '11'}">準確率</a></span>
+    <span><a [routerLink]="['filter', 'keywords', 'attributes']" (click)="clink('12')"
+        [ngClass]="{'active': selected === '12'}">屬性</a></span>
+    <span><a [routerLink]="['filter', 'keywords', 'harm']" (click)="clink('13')"
+        [ngClass]="{'active': selected === '13'}">傷害</a></span>
+    <span><a [routerLink]="['filter', 'keywords', 'resistance']" (click)="clink('14')"
+        [ngClass]="{'active': selected === '14'}">抗性</a></span>
+    <span><a [routerLink]="['filter', 'keywords', 'life']" (click)="clink('15')"
+        [ngClass]="{'active': selected === '15'}">生命</a></span>
+    <span><a [routerLink]="['filter', 'keywords', 'mana']" (click)="clink('16')"
+        [ngClass]="{'active': selected === '16'}">法力</a></span>
+    <span><a [routerLink]="['filter', 'keywords', 'guarantee']" (click)="clink('17')"
+        [ngClass]="{'active': selected === '17'}">打保</a></span>
+  </div>
+</div>
+<router-outlet></router-outlet>

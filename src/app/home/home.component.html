@@ -14,10 +14,20 @@
     </div>
     <div [ngClass]="'rwords'">
       <div [ngClass]="'list'">
-        <span>分類</span>
+        <span>裝備</span>
         <span><a [routerLink]="['/', 'items', 'normal']">基礎裝備</a></span>
         <span><a>獨特裝備</a></span>
         <span><a>成套裝備</a></span>
+      </div>
+      <div [ngClass]="'list'">
+        <span>寶石</span>
+        <span><a [routerLink]="['/', 'items', 'gem', 'filter', 'type', 'skull']">骷髏石</a></span>
+        <span><a [routerLink]="['/', 'items', 'gem', 'filter', 'type', 'amethyst']">紫寶石</a></span>
+        <span><a [routerLink]="['/', 'items', 'gem', 'filter', 'type', 'ruby']">紅寶石</a></span>
+        <span><a [routerLink]="['/', 'items', 'gem', 'filter', 'type', 'sapphire']">藍寶石</a></span>
+        <span><a [routerLink]="['/', 'items', 'gem', 'filter', 'type', 'topaz']">黃寶石</a></span>
+        <span><a [routerLink]="['/', 'items', 'gem', 'filter', 'type', 'emerald']">綠寶石</a></span>
+        <span><a [routerLink]="['/', 'items', 'gem', 'filter', 'type', 'diamond']">鑽石</a></span>
       </div>
     </div>
   </div>
