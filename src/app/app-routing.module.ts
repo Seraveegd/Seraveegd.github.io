@@ -9,7 +9,8 @@ const routes: Routes = [
   {path: 'donate', component: DonateComponent},
   {path: 'runewords', loadChildren: () => import('./runewords/runewords.module').then(m => m.RunewordsModule)},
   {path: 'items', loadChildren: () => import('./items/items.module').then(m => m.ItemsModule)},
-  {path: 'recipes', loadChildren: () => import('./recipes/recipes.module').then(m => m.RecipesModule)}
+  {path: 'recipes', loadChildren: () => import('./recipes/recipes.module').then(m => m.RecipesModule)},
+  {path: 'affixes', loadChildren: () => import('./affixes/affixes.module').then(m => m.AffixesModule)}
 ];
 
 @NgModule({

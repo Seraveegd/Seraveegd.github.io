@@ -1,0 +1,1662 @@
+[
+  {
+    "group": "defense",
+    "format": "# 防禦強化",
+    "abilitys": [
+      {
+        "name": "堅固",
+        "name_en": "Stout",
+        "level": 1,
+        "value": ["+1"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "堅固",
+        "name_en": "Stout",
+        "level": 1,
+        "value": ["+(2-3)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "堅固",
+        "name_en": "Stout",
+        "level": 1,
+        "value": ["+(3-5)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "堅固",
+        "name_en": "Stout",
+        "level": 7,
+        "value": ["+(6-9)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "堅固",
+        "name_en": "Stout",
+        "level": 12,
+        "value": ["+(10-12)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "堅固",
+        "name_en": "Stout",
+        "level": 14,
+        "value": ["+(4-6)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "魁捂",
+        "name_en": "Burly",
+        "level": 17,
+        "value": ["+(13-15)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "堅固",
+        "name_en": "Stout",
+        "level": 20,
+        "value": ["+(8-12)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "堅固",
+        "name_en": "Stout",
+        "level": 21,
+        "value": ["+(4-8)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "魁捂",
+        "name_en": "Burly",
+        "level": 22,
+        "value": ["+(16-22)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "魁捂",
+        "name_en": "Burly",
+        "level": 26,
+        "value": ["+(13-18)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "魁捂",
+        "name_en": "Burly",
+        "level": 27,
+        "value": ["+(23-30)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "魁捂",
+        "name_en": "Burly",
+        "level": 32,
+        "value": ["+(20-30)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "健壯",
+        "name_en": "Stalwart",
+        "level": 32,
+        "value": ["+(33-40)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "魁捂",
+        "name_en": "Burly",
+        "level": 36,
+        "value": ["+(15-20)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "健壯",
+        "name_en": "Stalwart",
+        "level": 37,
+        "value": ["+(44-50)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "健壯",
+        "name_en": "Stalwart",
+        "level": 38,
+        "value": ["+(30-40)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "健壯",
+        "name_en": "Stalwart",
+        "level": 42,
+        "value": ["+(60-100)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "健壯",
+        "name_en": "Stalwart",
+        "level": 45,
+        "value": ["+(45-60)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "健壯",
+        "name_en": "Stalwart",
+        "level": 48,
+        "value": ["+(20-30)"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "minharm",
+    "format": "# 最小傷害",
+    "abilitys": [
+      {
+        "name": "紅",
+        "name_en": "Red",
+        "level": 15,
+        "value": ["+1"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "紅",
+        "name_en": "Red",
+        "level": 30,
+        "value": ["+1"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "噬殺",
+        "name_en": "Sanguinary",
+        "level": 45,
+        "value": ["+2"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "噬殺",
+        "name_en": "Sanguinary",
+        "level": 60,
+        "value": ["+2"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "血腥",
+        "name_en": "Bloody",
+        "level": 75,
+        "value": ["+3"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "紅",
+        "name_en": "Red",
+        "level": 90,
+        "value": ["+1"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "maxharm",
+    "format": "# 最大傷害",
+    "abilitys": [
+      {
+        "name": "鋸齒",
+        "name_en": "Jagged",
+        "level": 7,
+        "value": ["+1"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "鋸齒",
+        "name_en": "Jagged",
+        "level": 22,
+        "value": ["+1"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "分叉",
+        "name_en": "Forked",
+        "level": 37,
+        "value": ["+2"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "分叉",
+        "name_en": "Forked",
+        "level": 50,
+        "value": ["+2"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "鋸齒",
+        "name_en": "Serrated",
+        "level": 67,
+        "value": ["+3"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "鋸齒",
+        "name_en": "Jagged",
+        "level": 81,
+        "value": ["+1"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "maxharm",
+    "format": "# 能量",
+    "abilitys": [
+      {
+        "name": "凹凸",
+        "name_en": "Rugged",
+        "level": 1,
+        "value": ["+(4-8)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "凹凸",
+        "name_en": "Rugged",
+        "level": 1,
+        "value": ["+(8-16)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "凹凸",
+        "name_en": "Rugged",
+        "level": 1,
+        "value": ["+(12-24)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "凹凸",
+        "name_en": "Rugged",
+        "level": 7,
+        "value": ["+(17-25)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "凹凸",
+        "name_en": "Rugged",
+        "level": 7,
+        "value": ["+(25-36)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "凹凸",
+        "name_en": "Rugged",
+        "level": 21,
+        "value": ["+(26-32)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "凹凸",
+        "name_en": "Rugged",
+        "level": 21,
+        "value": ["+(9-16)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "凹凸",
+        "name_en": "Rugged",
+        "level": 21,
+        "value": ["+(37-50)"],
+        "part": ["grandcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "accuracy",
+    "format": "# 準確率",
+    "abilitys": [
+      {
+        "name": "青銅",
+        "name_en": "Bronze",
+        "level": 1,
+        "value": ["+(2-4)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "青銅",
+        "name_en": "Bronze",
+        "level": 1,
+        "value": ["+(4-8)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "青銅",
+        "name_en": "Bronze",
+        "level": 1,
+        "value": ["+(6-12)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "青銅",
+        "name_en": "Bronze",
+        "level": 7,
+        "value": ["+(6-12)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "青銅",
+        "name_en": "Bronze",
+        "level": 7,
+        "value": ["+(13-27)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "青銅",
+        "name_en": "Bronze",
+        "level": 13,
+        "value": ["+(28-42)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "青銅",
+        "name_en": "Bronze",
+        "level": 16,
+        "value": ["+(13-25)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "鐵",
+        "name_en": "Iron",
+        "level": 19,
+        "value": ["+(43-57)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "青銅",
+        "name_en": "Bronze",
+        "level": 21,
+        "value": ["+(6-12)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "鐵",
+        "name_en": "Iron",
+        "level": 25,
+        "value": ["+(26-38)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "鐵",
+        "name_en": "Iron",
+        "level": 25,
+        "value": ["+(58-72)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "鐵",
+        "name_en": "Iron",
+        "level": 31,
+        "value": ["+(73-87)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "鐵",
+        "name_en": "Iron",
+        "level": 34,
+        "value": ["+(39-51)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "鋼",
+        "name_en": "Steel",
+        "level": 37,
+        "value": ["+(88-102)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "鐵",
+        "name_en": "Iron",
+        "level": 39,
+        "value": ["+(13-24)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "鋼",
+        "name_en": "Steel",
+        "level": 43,
+        "value": ["+(52-64)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "鋼",
+        "name_en": "Steel",
+        "level": 43,
+        "value": ["+(103-117)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "鋼",
+        "name_en": "Steel",
+        "level": 49,
+        "value": ["+(118-132)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "鋼",
+        "name_en": "Steel",
+        "level": 52,
+        "value": ["+(65-77)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "鋼",
+        "name_en": "Steel",
+        "level": 57,
+        "value": ["+(25-36)"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "accuracy",
+    "format": "# 準確率\n# 最大傷害",
+    "abilitys": [
+      {
+        "name": "精良",
+        "name_en": "Fine",
+        "level": 15,
+        "value": ["+(10-20)", "+(1-3)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "精良",
+        "name_en": "Fine",
+        "level": 19,
+        "value": ["+(10-20)", "+(1-3)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "精良",
+        "name_en": "Fine",
+        "level": 22,
+        "value": ["+(21-48)", "+(4-6)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "精良",
+        "name_en": "Fine",
+        "level": 28,
+        "value": ["+(10-20)", "+(1-3)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "尖銳",
+        "name_en": "Sharp",
+        "level": 28,
+        "value": ["+(21-48)", "+(4-6)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "尖銳",
+        "name_en": "Sharp",
+        "level": 29,
+        "value": ["+(49-76)", "+(7-10)"],
+        "part": ["grandcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "guarantee",
+    "format": "# 法力",
+    "abilitys": [
+      {
+        "name": "蜥蜴",
+        "name_en": "Lizard's",
+        "level": 1,
+        "value": ["+(2-4)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "蜥蜴",
+        "name_en": "Lizard's",
+        "level": 1,
+        "value": ["+(3-7)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "蜥蜴",
+        "name_en": "Lizard's",
+        "level": 7,
+        "value": ["+(8-13)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "蜥蜴",
+        "name_en": "Lizard's",
+        "level": 9,
+        "value": ["+(5-7)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "蜥蜴",
+        "name_en": "Lizard's",
+        "level": 13,
+        "value": ["+(14-20)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "蜥蜴",
+        "name_en": "Lizard's",
+        "level": 16,
+        "value": ["+(1-7)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "蜥蜴",
+        "name_en": "Lizard's",
+        "level": 17,
+        "value": ["+(8-12)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "蛇",
+        "name_en": "Snake's",
+        "level": 19,
+        "value": ["+(21-26)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "蛇",
+        "name_en": "Snake's",
+        "level": 25,
+        "value": ["+(13-18)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "蛇",
+        "name_en": "Snake's",
+        "level": 25,
+        "value": ["+(27-33)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "蛇",
+        "name_en": "Snake's",
+        "level": 31,
+        "value": ["+(34-39)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "蛇",
+        "name_en": "Snake's",
+        "level": 32,
+        "value": ["+(8-12)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "蛇",
+        "name_en": "Snake's",
+        "level": 33,
+        "value": ["+(19-23)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "海蛇",
+        "name_en": "Serpent's",
+        "level": 37,
+        "value": ["+(40-46)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "海蛇",
+        "name_en": "Serpent's",
+        "level": 41,
+        "value": ["+(24-29)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "海蛇",
+        "name_en": "Serpent's",
+        "level": 43,
+        "value": ["+(47-52)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "海蛇",
+        "name_en": "Serpent's",
+        "level": 48,
+        "value": ["+(13-17)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "海蛇",
+        "name_en": "Serpent's",
+        "level": 49,
+        "value": ["+(30-34)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "海蛇",
+        "name_en": "Serpent's",
+        "level": 49,
+        "value": ["+(53-59)"],
+        "part": ["grandcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "allresistance",
+    "format": "所有抗性 #",
+    "abilitys": [
+      {
+        "name": "閃耀",
+        "name_en": "Shimmering",
+        "level": [8, 13],
+        "value": ["+(3-6)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "閃耀",
+        "name_en": "Shimmering",
+        "level": [14, 34],
+        "value": ["+(8-12)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "閃耀",
+        "name_en": "Shimmering",
+        "level": [17, 33],
+        "value": ["+(3-5)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "閃耀",
+        "name_en": "Shimmering",
+        "level": 33,
+        "value": ["+(3-5)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "閃耀",
+        "name_en": "Shimmering",
+        "level": 34,
+        "value": ["+(6-8)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "閃耀",
+        "name_en": "Shimmering",
+        "level": 35,
+        "value": ["+(13-15)"],
+        "part": ["grandcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "coldresistance",
+    "format": "冰寒抗性 #%",
+    "abilitys": [
+      {
+        "name": "天青",
+        "name_en": "Azure",
+        "level": 1,
+        "value": ["+(3-5)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "天青",
+        "name_en": "Azure",
+        "level": 1,
+        "value": ["+(4-7)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "天青",
+        "name_en": "Azure",
+        "level": 1,
+        "value": ["+(7-15)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "天藍",
+        "name_en": "Lapis",
+        "level": 10,
+        "value": ["+(16-20)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "天藍",
+        "name_en": "Lapis",
+        "level": 14,
+        "value": ["+(6-7)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "天藍",
+        "name_en": "Lapis",
+        "level": 16,
+        "value": ["+(8-10)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "鈷",
+        "name_en": "Cobalt",
+        "level": 20,
+        "value": ["+(21-25)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "鈷",
+        "name_en": "Cobalt",
+        "level": 25,
+        "value": ["+(11-12)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "鈷",
+        "name_en": "Cobalt",
+        "level": 27,
+        "value": ["+(8-9)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "蔚藍",
+        "name_en": "Sapphire",
+        "level": 30,
+        "value": ["+(26-30)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "蔚藍",
+        "name_en": "Sapphire",
+        "level": 35,
+        "value": ["+(13-15)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "蔚藍",
+        "name_en": "Sapphire",
+        "level": 40,
+        "value": ["+(10-11)"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "fireresistance",
+    "format": "火焰抗性 #%",
+    "abilitys": [
+      {
+        "name": "棗紅",
+        "name_en": "Crimson",
+        "level": 1,
+        "value": ["+(3-5)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "棗紅",
+        "name_en": "Crimson",
+        "level": 1,
+        "value": ["+(4-7)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "棗紅",
+        "name_en": "Crimson",
+        "level": 1,
+        "value": ["+(7-15)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "赤褐",
+        "name_en": "Russet",
+        "level": 10,
+        "value": ["+(16-20)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "赤褐",
+        "name_en": "Russet",
+        "level": 14,
+        "value": ["+(6-7)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "赤褐",
+        "name_en": "Russet",
+        "level": 16,
+        "value": ["+(8-10)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "深紅",
+        "name_en": "Garnet",
+        "level": 20,
+        "value": ["+(21-25)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "深紅",
+        "name_en": "Garnet",
+        "level": 25,
+        "value": ["+(11-12)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "深紅",
+        "name_en": "Garnet",
+        "level": 27,
+        "value": ["+(8-9)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "紅寶石",
+        "name_en": "Ruby",
+        "level": 30,
+        "value": ["+(26-30)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "紅寶石",
+        "name_en": "Ruby",
+        "level": 35,
+        "value": ["+(13-15)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "紅寶石",
+        "name_en": "Ruby",
+        "level": 40,
+        "value": ["+(10-11)"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "lightningresistance",
+    "format": "電擊抗性 #%",
+    "abilitys": [
+      {
+        "name": "紅柑",
+        "name_en": "Tangerine",
+        "level": 1,
+        "value": ["+(3-5)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "紅柑",
+        "name_en": "Tangerine",
+        "level": 1,
+        "value": ["+(4-7)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "紅柑",
+        "name_en": "Tangerine",
+        "level": 1,
+        "value": ["+(7-15)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "赭黃",
+        "name_en": "Ocher",
+        "level": 10,
+        "value": ["+(16-20)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "赭黃",
+        "name_en": "Ocher",
+        "level": 14,
+        "value": ["+(6-7)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "赭黃",
+        "name_en": "Ocher",
+        "level": 16,
+        "value": ["+(8-10)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "珊瑚",
+        "name_en": "Coral",
+        "level": 20,
+        "value": ["+(21-25)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "珊瑚",
+        "name_en": "Coral",
+        "level": 25,
+        "value": ["+(11-12)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "珊瑚",
+        "name_en": "Coral",
+        "level": 27,
+        "value": ["+(8-9)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "琥珀",
+        "name_en": "Amber",
+        "level": 30,
+        "value": ["+(26-30)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "琥珀",
+        "name_en": "Amber",
+        "level": 35,
+        "value": ["+(13-15)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "琥珀",
+        "name_en": "Amber",
+        "level": 40,
+        "value": ["+(10-11)"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "poisonresistance",
+    "format": "毒素抗性 #%",
+    "abilitys": [
+      {
+        "name": "海藍",
+        "name_en": "Beryl",
+        "level": 1,
+        "value": ["+(3-5)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "海藍",
+        "name_en": "Beryl",
+        "level": 1,
+        "value": ["+(4-7)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "海藍",
+        "name_en": "Beryl",
+        "level": 1,
+        "value": ["+(7-15)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "銘綠",
+        "name_en": "Viridian",
+        "level": 10,
+        "value": ["+(16-20)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "銘綠",
+        "name_en": "Viridian",
+        "level": 14,
+        "value": ["+(6-7)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "銘綠",
+        "name_en": "Viridian",
+        "level": 16,
+        "value": ["+(8-10)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "翠綠",
+        "name_en": "Jade",
+        "level": 20,
+        "value": ["+(21-25)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "翠綠",
+        "name_en": "Jade",
+        "level": 25,
+        "value": ["+(11-12)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "翠綠",
+        "name_en": "Jade",
+        "level": 27,
+        "value": ["+(8-9)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "祖母綠",
+        "name_en": "Emerald",
+        "level": 30,
+        "value": ["+(26-30)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "祖母綠",
+        "name_en": "Emerald",
+        "level": 35,
+        "value": ["+(13-15)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "祖母綠",
+        "name_en": "Emerald",
+        "level": 40,
+        "value": ["+(10-11)"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "coldharm",
+    "format": "附加 # 冰寒傷害",
+    "abilitys": [
+      {
+        "name": "雪白",
+        "name_en": "Snowy",
+        "level": 9,
+        "value": ["(1-2)-3"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "顫抖",
+        "name_en": "Shivering",
+        "level": 15,
+        "value": ["(2-4)-(4-8)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "雪白",
+        "name_en": "Snowy",
+        "level": 18,
+        "value": ["(2-3)-(3-5)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "雪白",
+        "name_en": "Snowflake",
+        "level": 27,
+        "value": ["(1-2)-(2-4)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "顫抖",
+        "name_en": "Shivering",
+        "level": 29,
+        "value": ["(4-5)-(6-10)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "北風",
+        "name_en": "Boreal",
+        "level": 30,
+        "value": ["(5-7)-(9-15)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "顫抖",
+        "name_en": "Shivering",
+        "level": 42,
+        "value": ["(3-4)-(5-8)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "寒冬",
+        "name_en": "Hibernal",
+        "level": 45,
+        "value": ["(8-13)-(16-25)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "北風",
+        "name_en": "Boreal",
+        "level": 49,
+        "value": ["(6-10)-(11-20)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "北風",
+        "name_en": "Boreal",
+        "level": 66,
+        "value": ["(5-7)-(9-14)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "寒冬",
+        "name_en": "Hibernal",
+        "level": 69,
+        "value": ["(11-15)-(21-30)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "寒冬",
+        "name_en": "Hibernal",
+        "level": 91,
+        "value": ["(8-10)-(15-20)"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "fireharm",
+    "format": "附加 # 火焰傷害",
+    "abilitys": [
+      {
+        "name": "烈火",
+        "name_en": "Ember",
+        "level": 5,
+        "value": ["(1-2)-3"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "烈火",
+        "name_en": "Ember",
+        "level": 13,
+        "value": ["(1-2)-3"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "悶燒",
+        "name_en": "Smoldering",
+        "level": 15,
+        "value": ["(2-3)-(4-7)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "烈火",
+        "name_en": "Ember",
+        "level": 21,
+        "value": ["(1-2)-3"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "悶燒",
+        "name_en": "Smoldering",
+        "level": 27,
+        "value": ["(2-3)-(4-12)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "煙霧",
+        "name_en": "Smoking",
+        "level": 28,
+        "value": ["(4-7)-(8-19)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "悶燒",
+        "name_en": "Smoldering",
+        "level": 40,
+        "value": ["(2-3)-(4-10)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "燃燒",
+        "name_en": "Flaming",
+        "level": 43,
+        "value": ["(8-18)-(20-36)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "煙霧",
+        "name_en": "Smoking",
+        "level": 47,
+        "value": ["(4-9)-(13-27)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "煙霧",
+        "name_en": "Smoking",
+        "level": 64,
+        "value": ["(4-9)-(11-19)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "燃燒",
+        "name_en": "Flaming",
+        "level": 67,
+        "value": ["(10-27)-(28-43)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "燃燒",
+        "name_en": "Flaming",
+        "level": 89,
+        "value": ["(10-19)-(20-29)"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "lightingharm",
+    "format": "附加 # 電擊傷害",
+    "abilitys": [
+      {
+        "name": "靜態",
+        "name_en": "Static",
+        "level": 7,
+        "value": ["(1-4)-5"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "靜態",
+        "name_en": "Static",
+        "level": 14,
+        "value": ["(1-5)-9"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "發光",
+        "name_en": "Glowing",
+        "level": 14,
+        "value": ["(1-6)-17"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "靜態",
+        "name_en": "Static",
+        "level": 23,
+        "value": ["(1-6)-11"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "發光",
+        "name_en": "Glowing",
+        "level": 28,
+        "value": ["(1-10)-26"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "彎曲",
+        "name_en": "Arcing",
+        "level": 29,
+        "value": ["(1-18)-44"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "發光",
+        "name_en": "Glowing",
+        "level": 41,
+        "value": ["(1-12)-24"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "震撼",
+        "name_en": "Shocking",
+        "level": 44,
+        "value": ["(1-45)-79"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "彎曲",
+        "name_en": "Arcing",
+        "level": 48,
+        "value": ["(1-27)-58"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "彎曲",
+        "name_en": "Arcing",
+        "level": 65,
+        "value": ["(1-25)-43"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "震撼",
+        "name_en": "Shocking",
+        "level": 68,
+        "value": ["(1-59)-90"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "震撼",
+        "name_en": "Shocking",
+        "level": 90,
+        "value": ["(1-44)-71"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "poisonharm",
+    "format": "附加 # 毒素傷害，時效 # 秒",
+    "abilitys": [
+      {
+        "name": "腐敗",
+        "name_en": "Septic",
+        "level": 1,
+        "value": [5, 3],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "腐敗",
+        "name_en": "Septic",
+        "level": 9,
+        "value": [10, 3],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "險惡",
+        "name_en": "Foul",
+        "level": 12,
+        "value": [15, 4],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "腐敗",
+        "name_en": "Septic",
+        "level": 18,
+        "value": [15, 3],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "險惡",
+        "name_en": "Foul",
+        "level": 26,
+        "value": [30, 4],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "劇毒",
+        "name_en": "Toxic",
+        "level": 27,
+        "value": [50, 5],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "險惡",
+        "name_en": "Foul",
+        "level": 39,
+        "value": [50, 4],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "瘟疫",
+        "name_en": "Pestilent",
+        "level": 42,
+        "value": [100, 6],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "劇毒",
+        "name_en": "Toxic",
+        "level": 46,
+        "value": [90, 5],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "劇毒",
+        "name_en": "Toxic",
+        "level": 63,
+        "value": [100, 5],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "瘟疫",
+        "name_en": "Pestilent",
+        "level": 66,
+        "value": [175, 6],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "瘟疫",
+        "name_en": "Pestilent",
+        "level": 88,
+        "value": [175, 6],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "skills",
+    "format": "+1 #技能 (只限#)",
+    "abilitys": [
+      {
+        "name": "製箭者",
+        "name_en": "Fletcher's",
+        "level": 50,
+        "value": ["弓與弩", "亞馬遜"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "特技",
+        "name_en": "Acrobat's",
+        "level": 50,
+        "value": ["被動與魔法", "亞馬遜"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "魚叉手",
+        "name_en": "Harpoonist's",
+        "level": 50,
+        "value": ["標槍與長矛", "亞馬遜"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "燃燒",
+        "name_en": "Burning",
+        "level": 50,
+        "value": ["火燄", "魔法師"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "火光",
+        "name_en": "Sparking",
+        "level": 50,
+        "value": ["閃電", "魔法師"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "寒意",
+        "name_en": "Chilling",
+        "level": 50,
+        "value": ["冰冷", "魔法師"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "詛咒",
+        "name_en": "Hexing",
+        "level": 50,
+        "value": ["詛咒", "死靈法師"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "黴菌",
+        "name_en": "Fungal",
+        "level": 50,
+        "value": ["毒素與骸骨", "死靈法師"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "盜墓者",
+        "name_en": "Graverobber's",
+        "level": 50,
+        "value": ["召喚", "死靈法師"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "獅子烙印",
+        "name_en": "Lion Branded",
+        "level": 50,
+        "value": ["戰鬥", "聖騎士"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "隊長",
+        "name_en": "Captain's",
+        "level": 50,
+        "value": ["攻擊性靈氣", "聖騎士"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "保護者",
+        "name_en": "Preserver's",
+        "level": 50,
+        "value": ["防禦性靈氣", "聖騎士"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "專家",
+        "name_en": "Expert's",
+        "level": 50,
+        "value": ["戰鬥", "野蠻人"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "狂信者",
+        "name_en": "Fanatic",
+        "level": 50,
+        "value": ["支配", "野蠻人"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "鳴響",
+        "name_en": "Sounding",
+        "level": 50,
+        "value": ["吶喊", "野蠻人"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "訓練師",
+        "name_en": "Trainer's",
+        "level": 50,
+        "value": ["召喚", "德魯伊"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "精神",
+        "name_en": "Spiritual",
+        "level": 50,
+        "value": ["外型變形", "德魯伊"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "自然",
+        "name_en": "Nature's",
+        "level": 50,
+        "value": ["元素", "德魯伊"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "誘騙",
+        "name_en": "Entrapping",
+        "level": 50,
+        "value": ["陷阱", "刺客"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "心智",
+        "name_en": "Mentalist's",
+        "level": 50,
+        "value": ["影子", "刺客"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "將軍",
+        "name_en": "Shogukusha's",
+        "level": 50,
+        "value": ["武學藝術", "刺客"],
+        "part": ["grandcharm"]
+      }
+    ],
+    "part":[
+      "grandcharm"
+    ]
+  },
+  {
+    "group": "guarantee",
+    "format": "尋獲魔法物品機率提高 #%",
+    "abilitys": [
+      {
+        "name": "好運",
+        "name_en": "Lucky",
+        "level": 21,
+        "value": ["(1-4)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "好運",
+        "name_en": "Lucky",
+        "level": 34,
+        "value": [1],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "好運",
+        "name_en": "Lucky",
+        "level": 38,
+        "value": ["(5-7)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "好運",
+        "name_en": "Lucky",
+        "level": 53,
+        "value": ["(2-3)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "好運",
+        "name_en": "Lucky",
+        "level": 51,
+        "value": ["(4-6)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "好運",
+        "name_en": "Lucky",
+        "level": 55,
+        "value": ["(8-12)"],
+        "part": ["grandcharm"]
+      }
+    ],
+    "part":[
+      "largecharm", "grandcharm"
+    ]
+  }
+]

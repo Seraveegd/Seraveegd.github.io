@@ -15,7 +15,7 @@
         "material": "喬丹之石"
       }
     ],
-    "result": "在稀有物品上增加一個鑲孔",
+    "result": "在稀有物品上增加1個鑲孔",
     "note": "",
     "tag": ["gem", "equipment", "ring"]
   },
@@ -71,7 +71,7 @@
         "material": "魔法/成套/稀有 劍類武器(任何形式)"
       }
     ],
-    "result": "一把同類型的劍類武器擁有吸血屬性",
+    "result": "1把同類型的劍類武器擁有吸血屬性",
     "note": "",
     "tag": ["gem", "pharmacy", "equipment"]
   },

@@ -1,0 +1,789 @@
+[
+  {
+    "group": "maxharm",
+    "format": "# 最大傷害",
+    "abilitys": [
+      {
+        "name": "工匠",
+        "name_en": "Craftsmanship",
+        "level": 1,
+        "value": ["+1"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "工匠",
+        "name_en": "Craftsmanship",
+        "level": 26,
+        "value": ["+1"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "品質",
+        "name_en": "Quality",
+        "level": 41,
+        "value": ["+2"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "品質",
+        "name_en": "Quality",
+        "level": 56,
+        "value": ["+2"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "殘廢",
+        "name_en": "Maiming",
+        "level": 71,
+        "value": ["+(3-4)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "工匠",
+        "name_en": "Craftsmanship",
+        "level": 85,
+        "value": ["+1"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "harmrecover",
+    "format": "#% 打擊恢復",
+    "abilitys": [
+      {
+        "name": "平衡",
+        "name_en": "Balance",
+        "level": 1,
+        "value": ["+12"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "平衡",
+        "name_en": "Balance",
+        "level": 19,
+        "value": ["+8"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "平衡",
+        "name_en": "Balance",
+        "level": 37,
+        "value": ["+5"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "life",
+    "format": "# 生命",
+    "abilitys": [
+      {
+        "name": "生命",
+        "name_en": "Life",
+        "level": 1,
+        "value": ["+(6-10)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "生命",
+        "name_en": "Life",
+        "level": 1,
+        "value": ["+(5-10)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "生命",
+        "name_en": "Life",
+        "level": 9,
+        "value": ["+(11-15)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "生命",
+        "name_en": "Life",
+        "level": 12,
+        "value": ["+(11-15)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "生命",
+        "name_en": "Life",
+        "level": 14,
+        "value": ["+(5-10)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "生命",
+        "name_en": "Life",
+        "level": 19,
+        "value": ["+(16-20)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "耐久",
+        "name_en": "Substinence",
+        "level": 23,
+        "value": ["+(11-15)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "耐久",
+        "name_en": "Substinence",
+        "level": 26,
+        "value": ["+(16-20)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "耐久",
+        "name_en": "Substinence",
+        "level": 31,
+        "value": ["+(21-25)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "耐久",
+        "name_en": "Substinence",
+        "level": 42,
+        "value": ["+(21-25)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "耐久",
+        "name_en": "Substinence",
+        "level": 45,
+        "value": ["+(26-30)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "精力",
+        "name_en": "Vita",
+        "level": 47,
+        "value": ["+(16-20)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "精力",
+        "name_en": "Vita",
+        "level": 58,
+        "value": ["+(26-30)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "耐久",
+        "name_en": "Substinence",
+        "level": 61,
+        "value": ["+(31-35)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "精力",
+        "name_en": "Vita",
+        "level": 74,
+        "value": ["+(31-35)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "精力",
+        "name_en": "Vita",
+        "level": 77,
+        "value": ["+(36-40)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "精力",
+        "name_en": "Vita",
+        "level": 91,
+        "value": ["+(41-45)"],
+        "part": ["grandcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "strength",
+    "format": "# 力量",
+    "abilitys": [
+      {
+        "name": "力量",
+        "name_en": "Strength",
+        "level": 1,
+        "value": ["+(3-4)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "力量",
+        "name_en": "Strength",
+        "level": 3,
+        "value": ["+(2-3)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "力量",
+        "name_en": "Strength",
+        "level": 7,
+        "value": ["+1"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "力量",
+        "name_en": "Strength",
+        "level": 14,
+        "value": ["+(5-6)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "力量",
+        "name_en": "Strength",
+        "level": 18,
+        "value": ["+(4-5)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "力量",
+        "name_en": "Strength",
+        "level": 22,
+        "value": ["+2"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "dexterity",
+    "format": "# 敏捷",
+    "abilitys": [
+      {
+        "name": "敏捷",
+        "name_en": "Dexterity",
+        "level": 1,
+        "value": ["+(3-4)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "敏捷",
+        "name_en": "Dexterity",
+        "level": 3,
+        "value": ["+(2-3)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "敏捷",
+        "name_en": "Dexterity",
+        "level": 7,
+        "value": ["+1"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "敏捷",
+        "name_en": "Dexterity",
+        "level": 14,
+        "value": ["+(5-6)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "敏捷",
+        "name_en": "Dexterity",
+        "level": 18,
+        "value": ["+(4-5)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "敏捷",
+        "name_en": "Dexterity",
+        "level": 22,
+        "value": ["+2"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "runwalk",
+    "format": "#% 跑步/行走速度",
+    "abilitys": [
+      {
+        "name": "慣性",
+        "name_en": "Inertia",
+        "level": 19,
+        "value": ["+7"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "慣性",
+        "name_en": "Inertia",
+        "level": 24,
+        "value": ["+5"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "慣性",
+        "name_en": "Inertia",
+        "level": 35,
+        "value": ["+3"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "coldharm",
+    "format": "附加 # 冰寒傷害",
+    "abilitys": [
+      {
+        "name": "霜",
+        "name_en": "Frost",
+        "level": 5,
+        "value": ["1-2"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "冰刺",
+        "name_en": "Icicle",
+        "level": 8,
+        "value": ["(2-3)-4"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "霜",
+        "name_en": "Frost",
+        "level": 9,
+        "value": ["(1-2)-3"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "霜",
+        "name_en": "Frost",
+        "level": 14,
+        "value": ["1-2"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "冰刺",
+        "name_en": "Icicle",
+        "level": 15,
+        "value": ["(2-4)-5"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "冰河",
+        "name_en": "Glacier",
+        "level": 15,
+        "value": ["(3-5)-7"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "冰刺",
+        "name_en": "Icicle",
+        "level": 21,
+        "value": ["(2-3)-4"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "嚴冬",
+        "name_en": "Winter",
+        "level": 23,
+        "value": ["(4-6)-(8-11)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "冰河",
+        "name_en": "Glacier",
+        "level": 25,
+        "value": ["(3-6)-8"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "冰河",
+        "name_en": "Glacier",
+        "level": 33,
+        "value": ["(3-5)-6"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "嚴冬",
+        "name_en": "Winter",
+        "level": 35,
+        "value": ["(4-6)-(9-12)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "嚴冬",
+        "name_en": "Winter",
+        "level": 46,
+        "value": ["(4-5)-(7-9)"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "fireharm",
+    "format": "附加 # 火焰傷害",
+    "abilitys": [
+      {
+        "name": "火焰",
+        "name_en": "Flame",
+        "level": 3,
+        "value": ["1-2"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "火焰",
+        "name_en": "Flame",
+        "level": 7,
+        "value": ["1-2"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "火",
+        "name_en": "Fire",
+        "level": 8,
+        "value": ["(1-2)-3"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "火焰",
+        "name_en": "Flame",
+        "level": 11,
+        "value": ["1-2"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "火",
+        "name_en": "Fire",
+        "level": 14,
+        "value": ["(2-3)-5"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "燃燒",
+        "name_en": "Burning",
+        "level": 14,
+        "value": ["(2-3)-(4-7)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "火",
+        "name_en": "Fire",
+        "level": 20,
+        "value": ["(2-3)-4"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "炙炎",
+        "name_en": "Incineration",
+        "level": 22,
+        "value": ["(4-7)-(8-14)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "燃燒",
+        "name_en": "Burning",
+        "level": 24,
+        "value": ["(3-5)-(6-11)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "燃燒",
+        "name_en": "Burning",
+        "level": 32,
+        "value": ["(3-4)-(5-8)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "炙炎",
+        "name_en": "Incineration",
+        "level": 34,
+        "value": ["(6-10)-(12-17)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "炙炎",
+        "name_en": "Incineration",
+        "level": 45,
+        "value": ["(5-7)-(9-13)"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "lightingharm",
+    "format": "附加 # 電擊傷害",
+    "abilitys": [
+      {
+        "name": "衝擊",
+        "name_en": "Shock",
+        "level": 4,
+        "value": ["(1-2)-3"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "衝擊",
+        "name_en": "Shock",
+        "level": 7,
+        "value": ["(1-3)-5"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "閃電",
+        "name_en": "Lightning",
+        "level": 7,
+        "value": ["(1-4)-7"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "衝擊",
+        "name_en": "Shock",
+        "level": 12,
+        "value": ["(1-3)-6"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "閃電",
+        "name_en": "Lightning",
+        "level": 14,
+        "value": ["(1-6)-13"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "雷電",
+        "name_en": "Thunder",
+        "level": 15,
+        "value": ["(1-8)-21"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "閃電",
+        "name_en": "Lightning",
+        "level": 21,
+        "value": ["(1-7)-10"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "暴風",
+        "name_en": "Storms",
+        "level": 22,
+        "value": ["(1-22)-33"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "雷電",
+        "name_en": "Thunder",
+        "level": 24,
+        "value": ["(1-14)-25"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "雷電",
+        "name_en": "Thunder",
+        "level": 33,
+        "value": ["(1-11)-18"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "暴風",
+        "name_en": "Storms",
+        "level": 34,
+        "value": ["(1-26)-38"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "暴風",
+        "name_en": "Storms",
+        "level": 45,
+        "value": ["(1-19)-28"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "poisonharm",
+    "format": "附加 # 毒素傷害，時效 # 秒",
+    "abilitys": [
+      {
+        "name": "光明",
+        "name_en": "Blight",
+        "level": 1,
+        "value": [6, 3],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "光明",
+        "name_en": "Blight",
+        "level": 5,
+        "value": [6, 3],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "毒素",
+        "name_en": "Venom",
+        "level": 6,
+        "value": [15, 4],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "光明",
+        "name_en": "Blight",
+        "level": 9,
+        "value": [6, 3],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "毒素",
+        "name_en": "Venom",
+        "level": 13,
+        "value": [15, 4],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "瘟疫",
+        "name_en": "Pestilence",
+        "level": 14,
+        "value": [25, 5],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "毒素",
+        "name_en": "Venom",
+        "level": 20,
+        "value": [15, 4],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "炭蛆",
+        "name_en": "Anthrax",
+        "level": 21,
+        "value": [50, 6],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "瘟疫",
+        "name_en": "Pestilence",
+        "level": 23,
+        "value": [25, 5],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "瘟疫",
+        "name_en": "Pestilence",
+        "level": 32,
+        "value": [25, 5],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "炭蛆",
+        "name_en": "Anthrax",
+        "level": 33,
+        "value": [50, 6],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "炭蛆",
+        "name_en": "Anthrax",
+        "level": 44,
+        "value": [50, 6],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "extramoney",
+    "format": "怪物金幣掉落量提高 #%",
+    "abilitys": [
+      {
+        "name": "貪婪",
+        "name_en": "Greed",
+        "level": 1,
+        "value": ["(5-10)"],
+        "part": ["largecharm"]
+      },
+      {
+        "name": "貪婪",
+        "name_en": "Greed",
+        "level": 1,
+        "value": ["(10-20)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "貪婪",
+        "name_en": "Greed",
+        "level": 7,
+        "value": ["(21-30)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "貪婪",
+        "name_en": "Greed",
+        "level": 15,
+        "value": ["(5-10)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "貪婪",
+        "name_en": "Greed",
+        "level": 19,
+        "value": ["(31-40)"],
+        "part": ["grandcharm"]
+      },
+      {
+        "name": "貪婪",
+        "name_en": "Greed",
+        "level": 20,
+        "value": ["(11-22)"],
+        "part": ["largecharm"]
+      }
+    ],
+    "part":[
+      "smallcharm", "largecharm", "grandcharm"
+    ]
+  },
+  {
+    "group": "guarantee",
+    "format": "尋獲魔法物品機率提高 #%",
+    "abilitys": [
+      {
+        "name": "幸運",
+        "name_en": "Fortune",
+        "level": 31,
+        "value": ["(3-5)"],
+        "part": ["smallcharm"]
+      },
+      {
+        "name": "幸運",
+        "name_en": "Good Luck",
+        "level": 47,
+        "value": ["(6-7)"],
+        "part": ["smallcharm"]
+      }
+    ],
+    "part":[
+      "smallcharm"
+    ]
+  }
+]

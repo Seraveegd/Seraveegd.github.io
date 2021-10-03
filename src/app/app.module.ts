@@ -11,12 +11,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatListModule } from '@angular/material/list';
+import { MatDialogModule, MAT_DIALOG_DEFAULT_OPTIONS } from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button';
 
 import { HttpClientModule } from '@angular/common/http';
 import { ItemsComponent } from './items/items.component';
 import { CoreModule } from './core/core.module';
 import { RecipesComponent } from './recipes/recipes.component';
 import { DonateComponent } from './donate/donate.component';
+import { AffixesComponent } from './affixes/affixes.component';
 
 @NgModule({
   declarations: [
@@ -25,12 +28,15 @@ import { DonateComponent } from './donate/donate.component';
     HomeComponent,
     ItemsComponent,
     RecipesComponent,
-    DonateComponent
+    DonateComponent,
+    AffixesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatDialogModule,
+    MatButtonModule,
     MatSidenavModule,
     MatIconModule,
     MatToolbarModule,
@@ -41,7 +47,9 @@ import { DonateComponent } from './donate/donate.component';
       api_base_url: 'https://seraveegd.github.io',
     })
   ],
-  providers: [],
+  providers: [
+    { provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: { hasBackdrop: true } }
+  ],
   bootstrap: [AppComponent],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA,

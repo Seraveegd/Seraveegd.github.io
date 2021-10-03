@@ -1,0 +1,107 @@
+.title {
+  background-color: #444444;
+  color: #bb9e74;
+  padding: 24px;
+  font-size: 20pt;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.affixes {
+  width: 100%;
+  color: white;
+  background-color: #444444;
+
+  .container {
+    width: 100%;
+    display: flex;
+
+    .prefix,
+    .suffix {
+      font-size: 20px;
+      width: 100%;
+      padding: 10px;
+
+      .block {
+        border-collapse: collapse;
+
+        th {
+          background-color: #123;
+          padding: 12px;
+        }
+
+        td,
+        th {
+          border: 1px solid #101010;
+        }
+
+        .affixe {
+          background-color: #1f2020;
+          // padding: 6px 12px;
+          // margin: 5px 0px;
+          border-radius: 10px;
+          color: #7a7aff;
+          cursor: pointer;
+          // display: flex;
+          // align-items: center;
+          white-space: pre-line;
+          line-height: 24px;
+
+          .level {
+            // background-color: #444444;
+            // padding: 0px 7px;
+            // border-radius: 0.5em;
+            color: white;
+            // font-weight: bold;
+            // font-size: 14px;
+            // margin-right: 10px
+          }
+
+          .name {
+            // margin-right: 10px;
+            // font-size: 14px;
+            color: white;
+          }
+
+          td {
+            white-space: pre-line;
+            line-height: 24px;
+            padding: 12px;
+          }
+
+          &:nth-child(odd) {
+            background-color: #222222;
+          }
+
+          &:nth-child(even) {
+            background-color: #2a2a2a;
+          }
+
+          &:hover {
+            background-color: #061f3c;
+          }
+        }
+      }
+    }
+  }
+}
+.closecontainer {
+  padding: 10px;
+  background-color: #444444;
+  .close {
+    width: 100%;
+    background-color: #112233;
+    color: rgb(255 255 255 / 60%);
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+
+    &:hover{
+      color: white;
+    }
+  }
+}

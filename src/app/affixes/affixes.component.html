@@ -1,0 +1,12 @@
+<div [ngClass]="'contents'">
+  <div [ngClass]="'title'">詞綴</div>
+  <div [ngClass]="'rwords'">
+    <div [ngClass]="'list'">
+      <span>咒符</span>
+      <span><a [routerLink]="['filter', 'part', 'smallcharm']" (click)="clink('1')" [ngClass]="{'active': selected === '1'}">小型咒符</a></span>
+      <span><a [routerLink]="['filter', 'part', 'largecharm']" (click)="clink('2')" [ngClass]="{'active': selected === '2'}">大型咒符</a></span>
+      <span><a [routerLink]="['filter', 'part', 'grandcharm']" (click)="clink('3')" [ngClass]="{'active': selected === '3'}">特大咒符</a></span>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>

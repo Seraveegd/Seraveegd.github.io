@@ -14,7 +14,7 @@
         <a [routerLink]="['/', 'recipes']" (click)="sideNav.toggle()" mat-list-item>
           <span>&nbsp;配方&nbsp;</span>
         </a>
-        <a (click)="sideNav.toggle()" mat-list-item>
+        <a [routerLink]="['/', 'affixes']" (click)="sideNav.toggle()" mat-list-item>
           <span>&nbsp;詞綴&nbsp;</span>
         </a>
         <a [routerLink]="['/', 'donate']" (click)="sideNav.toggle()" mat-list-item>
@@ -63,7 +63,7 @@
                 </a>
               </li>
               <li>
-                <a>
+                <a [routerLink]="['/', 'affixes']">
                   <span>&nbsp;詞綴&nbsp;</span>
                 </a>
               </li>
