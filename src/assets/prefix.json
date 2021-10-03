@@ -1,8 +1,15 @@
 [
   {
     "group": "defense",
-    "format": "# 防禦強化",
+    "format": "# 防禦",
     "abilitys": [
+      {
+        "name": "白化之",
+        "name_en": "Blanched",
+        "level": 1,
+        "value": ["+(5-8)"],
+        "part": ["jewelry"]
+      },
       {
         "name": "堅固",
         "name_en": "Stout",
@@ -46,6 +53,13 @@
         "part": ["largecharm"]
       },
       {
+        "name": "類象牙之",
+        "name_en": "Eburin",
+        "level": 16,
+        "value": ["+(9-20)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "魁捂",
         "name_en": "Burly",
         "level": 17,
@@ -86,6 +100,13 @@
         "level": 27,
         "value": ["+(23-30)"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "白骨之",
+        "name_en": "Bone",
+        "level": 32,
+        "value": ["+(21-40)"],
+        "part": ["jewelry"]
       },
       {
         "name": "魁捂",
@@ -142,16 +163,28 @@
         "level": 48,
         "value": ["+(20-30)"],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "象牙之",
+        "name_en": "Ivory",
+        "level": 64,
+        "value": ["+(41-64)"],
+        "part": ["jewelry"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "minharm",
     "format": "# 最小傷害",
     "abilitys": [
+      {
+        "name": "猩紅之",
+        "name_en": "Scarlet",
+        "level": 8,
+        "value": ["+(1-4)"],
+        "part": ["jewelry"]
+      },
       {
         "name": "紅",
         "name_en": "Red",
@@ -165,6 +198,13 @@
         "level": 30,
         "value": ["+1"],
         "part": ["largecharm"]
+      },
+      {
+        "name": "棗紅之",
+        "name_en": "Crimson",
+        "level": 38,
+        "value": ["+(5-8)"],
+        "part": ["jewelry"]
       },
       {
         "name": "噬殺",
@@ -195,9 +235,7 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "maxharm",
@@ -211,11 +249,25 @@
         "part": ["grandcharm"]
       },
       {
+        "name": "紅玉之",
+        "name_en": "Carbuncle",
+        "level": 12,
+        "value": ["+(1-5)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "鋸齒",
         "name_en": "Jagged",
         "level": 22,
         "value": ["+1"],
         "part": ["largecharm"]
+      },
+      {
+        "name": "胭脂之",
+        "name_en": "Carmine",
+        "level": 35,
+        "value": ["+(6-9)"],
+        "part": ["jewelry"]
       },
       {
         "name": "分叉",
@@ -232,6 +284,13 @@
         "part": ["largecharm"]
       },
       {
+        "name": "朱砂之",
+        "name_en": "Vermillion",
+        "level": 58,
+        "value": ["+(11-15)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "鋸齒",
         "name_en": "Serrated",
         "level": 67,
@@ -246,9 +305,91 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+  },
+  {
+    "group": "harmstrengthen",
+    "format": "#% 傷害強化",
+    "abilitys": [
+      {
+        "name": "朱紅之",
+        "name_en": "Cinnabar",
+        "level": 1,
+        "value": ["+(5-10)"],
+        "part": ["jewelry"]
+      },
+      {
+        "name": "鐵鏽之",
+        "name_en": "Rusty",
+        "level": 13,
+        "value": ["+(11-20)"],
+        "part": ["jewelry"]
+      },
+      {
+        "name": "雄黃之",
+        "name_en": "Realgar",
+        "level": 45,
+        "value": ["+(21-30)"],
+        "part": ["jewelry"]
+      },
+      {
+        "name": "紅寶石之",
+        "name_en": "Ruby",
+        "level": 66,
+        "value": ["+(31-40)"],
+        "part": ["jewelry"]
+      }
+    ],
+    "part": ["jewelry"]
+  },
+  {
+    "group": "harmlifetomana",
+    "format": "轉化 #% 受損的生命為法力",
+    "abilitys": [
+      {
+        "name": "暗褐之",
+        "name_en": "Dun",
+        "level": 7,
+        "value": ["(7-12)"],
+        "part": ["jewelry"]
+      }
+    ],
+    "part": ["jewelry"]
+  },
+  {
+    "group": "energyrecover",
+    "format": "能量恢復 #%",
+    "abilitys": [
+      {
+        "name": "棕色之",
+        "name_en": "Brown",
+        "level": 39,
+        "value": ["+(10-15)"],
+        "part": ["jewelry"]
+      }
+    ],
+    "part": ["jewelry"]
+  },
+  {
+    "group": "energy",
+    "format": "# 能量",
+    "abilitys": [
+      {
+        "name": "栗色之",
+        "name_en": "Chestnut",
+        "level": 1,
+        "value": ["+(10-15)"],
+        "part": ["jewelry"]
+      },
+      {
+        "name": "茶色之",
+        "name_en": "Maroon",
+        "level": 1,
+        "value": ["+(16-25)"],
+        "part": ["jewelry"]
+      }
+    ],
+    "part": ["jewelry"]
   },
   {
     "group": "maxharm",
@@ -311,14 +452,19 @@
         "part": ["grandcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm"]
   },
   {
     "group": "accuracy",
     "format": "# 準確率",
     "abilitys": [
+      {
+        "name": "鎳之",
+        "name_en": "Nickel",
+        "level": 1,
+        "value": ["+(10-20)"],
+        "part": ["jewelry"]
+      },
       {
         "name": "青銅",
         "name_en": "Bronze",
@@ -355,6 +501,13 @@
         "part": ["grandcharm"]
       },
       {
+        "name": "錫之",
+        "name_en": "Tin",
+        "level": 8,
+        "value": ["+(21-40)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "青銅",
         "name_en": "Bronze",
         "level": 13,
@@ -381,6 +534,13 @@
         "level": 21,
         "value": ["+(6-12)"],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "銀之",
+        "name_en": "Silver",
+        "level": 25,
+        "value": ["+(41-60)"],
+        "part": ["jewelry"]
       },
       {
         "name": "鐵",
@@ -439,6 +599,13 @@
         "part": ["grandcharm"]
       },
       {
+        "name": "銀之",
+        "name_en": "Argent",
+        "level": 44,
+        "value": ["+(61-100)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "鋼",
         "name_en": "Steel",
         "level": 49,
@@ -460,9 +627,21 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+  },
+  {
+    "group": "accuracyilluminate",
+    "format": "# 準確率\n照亮範圍 #",
+    "abilitys": [
+      {
+        "name": "光明之",
+        "name_en": "Bright",
+        "level": 1,
+        "value": ["+10", "+1"],
+        "part": ["jewelry"]
+      }
+    ],
+    "part": ["jewelry"]
   },
   {
     "group": "accuracy",
@@ -511,9 +690,7 @@
         "part": ["grandcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm"]
   },
   {
     "group": "guarantee",
@@ -532,6 +709,13 @@
         "level": 1,
         "value": ["+(3-7)"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "鋯石之",
+        "name_en": "Zircon",
+        "level": 3,
+        "value": ["+(5-10)"],
+        "part": ["jewelry"]
       },
       {
         "name": "蜥蜴",
@@ -562,6 +746,13 @@
         "part": ["smallcharm"]
       },
       {
+        "name": "紅鋯石之",
+        "name_en": "Jacinth",
+        "level": 17,
+        "value": ["+(11-15)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "蜥蜴",
         "name_en": "Lizard's",
         "level": 17,
@@ -588,6 +779,13 @@
         "level": 25,
         "value": ["+(27-33)"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "綠松石之",
+        "name_en": "Turquoise",
+        "level": 29,
+        "value": ["+(16-20)"],
+        "part": ["jewelry"]
       },
       {
         "name": "蛇",
@@ -653,9 +851,7 @@
         "part": ["grandcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "allresistance",
@@ -676,6 +872,13 @@
         "part": ["grandcharm"]
       },
       {
+        "name": "閃耀之",
+        "name_en": "Shimmering",
+        "level": 16,
+        "value": ["+(5-10)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "閃耀",
         "name_en": "Shimmering",
         "level": [17, 33],
@@ -688,6 +891,13 @@
         "level": 33,
         "value": ["+(3-5)"],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "閃閃發光之",
+        "name_en": "Scintillating",
+        "level": 34,
+        "value": ["+(11-15)"],
+        "part": ["jewelry"]
       },
       {
         "name": "閃耀",
@@ -704,9 +914,7 @@
         "part": ["grandcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "coldresistance",
@@ -734,6 +942,13 @@
         "part": ["grandcharm"]
       },
       {
+        "name": "青金石之",
+        "name_en": "Lapis Lazuli",
+        "level": 2,
+        "value": ["+(5-15)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "天藍",
         "name_en": "Lapis",
         "level": 10,
@@ -753,6 +968,13 @@
         "level": 16,
         "value": ["+(8-10)"],
         "part": ["largecharm"]
+      },
+      {
+        "name": "蔚藍之",
+        "name_en": "Sapphire",
+        "level": 19,
+        "value": ["+(16-30)"],
+        "part": ["jewelry"]
       },
       {
         "name": "鈷",
@@ -797,9 +1019,7 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "fireresistance",
@@ -827,6 +1047,13 @@
         "part": ["grandcharm"]
       },
       {
+        "name": "深紅之",
+        "name_en": "Garnet",
+        "level": 2,
+        "value": ["+(5-15)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "赤褐",
         "name_en": "Russet",
         "level": 10,
@@ -846,6 +1073,13 @@
         "level": 16,
         "value": ["+(8-10)"],
         "part": ["largecharm"]
+      },
+      {
+        "name": "紅寶石之",
+        "name_en": "Ruby",
+        "level": 18,
+        "value": ["+(16-30)"],
+        "part": ["jewelry"]
       },
       {
         "name": "深紅",
@@ -890,9 +1124,7 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "lightningresistance",
@@ -920,6 +1152,13 @@
         "part": ["grandcharm"]
       },
       {
+        "name": "樟腦之",
+        "name_en": "Camphor",
+        "level": 2,
+        "value": ["+(5-15)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "赭黃",
         "name_en": "Ocher",
         "level": 10,
@@ -939,6 +1178,13 @@
         "level": 16,
         "value": ["+(8-10)"],
         "part": ["largecharm"]
+      },
+      {
+        "name": "龍涎香之",
+        "name_en": "Ambergris",
+        "level": 19,
+        "value": ["+(16-30)"],
+        "part": ["jewelry"]
       },
       {
         "name": "珊瑚",
@@ -983,9 +1229,7 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "poisonresistance",
@@ -1013,6 +1257,13 @@
         "part": ["grandcharm"]
       },
       {
+        "name": "海藍之",
+        "name_en": "Beryl",
+        "level": 2,
+        "value": ["+(5-15)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "銘綠",
         "name_en": "Viridian",
         "level": 10,
@@ -1032,6 +1283,13 @@
         "level": 16,
         "value": ["+(8-10)"],
         "part": ["largecharm"]
+      },
+      {
+        "name": "翠綠之",
+        "name_en": "Jade",
+        "level": 19,
+        "value": ["+(16-30)"],
+        "part": ["jewelry"]
       },
       {
         "name": "翠綠",
@@ -1076,9 +1334,7 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "coldharm",
@@ -1169,9 +1425,7 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm"]
   },
   {
     "group": "fireharm",
@@ -1262,9 +1516,7 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm"]
   },
   {
     "group": "lightingharm",
@@ -1355,9 +1607,7 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm"]
   },
   {
     "group": "poisonharm",
@@ -1448,9 +1698,7 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm"]
   },
   {
     "group": "skills",
@@ -1604,9 +1852,7 @@
         "part": ["grandcharm"]
       }
     ],
-    "part":[
-      "grandcharm"
-    ]
+    "part": ["grandcharm"]
   },
   {
     "group": "guarantee",
@@ -1618,6 +1864,13 @@
         "level": 21,
         "value": ["(1-4)"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "祖母綠之",
+        "name_en": "Emerald",
+        "level": 25,
+        "value": ["(3-7)"],
+        "part": ["jewelry"]
       },
       {
         "name": "好運",
@@ -1655,8 +1908,48 @@
         "part": ["grandcharm"]
       }
     ],
-    "part":[
-      "largecharm", "grandcharm"
-    ]
+    "part": ["largecharm", "grandcharm", "jewelry"]
+  },
+  {
+    "group": "killmanarecover",
+    "format": "# 擊殺法力恢復",
+    "abilitys": [
+      {
+        "name": "光輪之",
+        "name_en": "Aureolin",
+        "level": 22,
+        "value": ["(1-3)"],
+        "part": ["jewelry"]
+      }
+    ],
+    "part": ["jewelry"]
+  },
+  {
+    "group": "demonaccuracyharm",
+    "format": "# 對惡魔的準確率\n#% 對惡魔的傷害",
+    "abilitys": [
+      {
+        "name": "鑽石之",
+        "name_en": "Diamond",
+        "level": 26,
+        "value": ["+(25-50)", "+(25-40)"],
+        "part": ["jewelry"]
+      }
+    ],
+    "part": ["jewelry"]
+  },
+  {
+    "group": "immortalaccuracyharm",
+    "format": "# 對不死怪物的準確率\n#% 對不死怪物的傷害",
+    "abilitys": [
+      {
+        "name": "珍珠之",
+        "name_en": "Pearl",
+        "level": 2,
+        "value": ["+(25-50)", "+(25-50)"],
+        "part": ["jewelry"]
+      }
+    ],
+    "part": ["jewelry"]
   }
 ]

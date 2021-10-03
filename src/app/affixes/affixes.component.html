@@ -7,6 +7,10 @@
       <span><a [routerLink]="['filter', 'part', 'largecharm']" (click)="clink('2')" [ngClass]="{'active': selected === '2'}">大型咒符</a></span>
       <span><a [routerLink]="['filter', 'part', 'grandcharm']" (click)="clink('3')" [ngClass]="{'active': selected === '3'}">特大咒符</a></span>
     </div>
+    <div [ngClass]="'list'">
+      <span>珠寶</span>
+      <span><a [routerLink]="['filter', 'part', 'jewelry']" (click)="clink('4')" [ngClass]="{'active': selected === '4'}">珠寶</a></span>
+    </div>
   </div>
   <router-outlet></router-outlet>
 </div>

@@ -5,10 +5,17 @@
       前綴
       <div [ngClass]="'block'" *ngIf="prefixs | async | filteraffixe: type : type_detail; let pres">
         <div [ngClass]="'affixe'" *ngFor="let p of pres" (click)="showDetail(p.format, p.abilitys)">
-          <span *ngIf="p.abilitys | filteraffixe: type : type_detail; let abilitys" [ngClass]="'level'">
-            {{ getMaxlevel(abilitys) }}
-          </span>
-          <span [innerHTML]="showAffixe(p.format, '#')"></span>
+          <ng-container *ngIf="p.abilitys | filteraffixe: type : type_detail; let abilitys">
+            <span [ngClass]="'level'">
+              {{ getMaxlevel(abilitys) }}
+            </span>
+            <ng-container *ngIf="abilitys.length === 1">
+              <span [innerHTML]="showAbility(p.format, abilitys[0].value)"></span>
+            </ng-container>
+            <ng-container *ngIf="abilitys.length > 1">
+              <span [innerHTML]="showAffixe(p.format, '#')"></span>
+            </ng-container>
+          </ng-container>
         </div>
       </div>
     </div>

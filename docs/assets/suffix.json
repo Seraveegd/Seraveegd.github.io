@@ -1,5 +1,33 @@
 [
   {
+    "group": "harmreflection",
+    "format": "攻擊者反傷：#",
+    "abilitys": [
+      {
+        "name": "惡意",
+        "name_en": "Malice",
+        "level": 37,
+        "value": ["(1-5)"],
+        "part": ["jewelry"]
+      }
+    ],
+    "part": ["jewelry"]
+  },
+  {
+    "group": "attackspeed",
+    "format": "攻擊速度 #%",
+    "abilitys": [
+      {
+        "name": "白熱",
+        "name_en": "Fervor",
+        "level": 39,
+        "value": ["15"],
+        "part": ["jewelry"]
+      }
+    ],
+    "part": ["jewelry"]
+  },
+  {
     "group": "maxharm",
     "format": "# 最大傷害",
     "abilitys": [
@@ -9,6 +37,27 @@
         "level": 1,
         "value": ["+1"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "憤怒",
+        "name_en": "Ire",
+        "level": 4,
+        "value": ["+(2-5)"],
+        "part": ["jewelry"]
+      },
+      {
+        "name": "怒氣",
+        "name_en": "Wrath",
+        "level": 11,
+        "value": ["+(6-9)"],
+        "part": ["jewelry"]
+      },
+      {
+        "name": "屠殺的",
+        "name_en": "Carnage",
+        "level": 25,
+        "value": ["+(11-15)"],
+        "part": ["jewelry"]
       },
       {
         "name": "工匠",
@@ -46,9 +95,28 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+  },
+  {
+    "group": "mimharm",
+    "format": "# 最小傷害",
+    "abilitys": [
+      {
+        "name": "快樂",
+        "name_en": "Joyfulness",
+        "level": 5,
+        "value": ["+(1-4)"],
+        "part": ["jewelry"]
+      },
+      {
+        "name": "福氣",
+        "name_en": "Bliss",
+        "level": 43,
+        "value": ["+(5-10)"],
+        "part": ["jewelry"]
+      }
+    ],
+    "part": ["jewelry"]
   },
   {
     "group": "harmrecover",
@@ -74,16 +142,42 @@
         "level": 37,
         "value": ["+5"],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "真理",
+        "name_en": "Truth",
+        "level": 44,
+        "value": ["+7"],
+        "part": ["jewelry"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+  },
+  {
+    "group": "liferecover",
+    "format": "生命回復 #",
+    "abilitys": [
+      {
+        "name": "榮譽",
+        "name_en": "Honor",
+        "level": 47,
+        "value": ["+(1-4)"],
+        "part": ["jewelry"]
+      }
+    ],
+    "part": ["jewelry"]
   },
   {
     "group": "life",
     "format": "# 生命",
     "abilitys": [
+      {
+        "name": "靈魂",
+        "name_en": "Spirit",
+        "level": 1,
+        "value": ["+(3-8)"],
+        "part": ["jewelry"]
+      },
       {
         "name": "生命",
         "name_en": "Life",
@@ -155,6 +249,13 @@
         "part": ["largecharm"]
       },
       {
+        "name": "希望",
+        "name_en": "Hope",
+        "level": 45,
+        "value": ["+(9-20)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "耐久",
         "name_en": "Substinence",
         "level": 45,
@@ -204,9 +305,7 @@
         "part": ["grandcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "strength",
@@ -253,11 +352,23 @@
         "level": 22,
         "value": ["+2"],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "精氣",
+        "name_en": "Virility",
+        "level": 33,
+        "value": ["+(5-6)"],
+        "part": ["jewelry"]
+      },
+      {
+        "name": "精氣",
+        "name_en": "Virility",
+        "level": 50,
+        "value": ["+(7-9)"],
+        "part": ["jewelry"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "dexterity",
@@ -299,16 +410,49 @@
         "part": ["largecharm"]
       },
       {
+        "name": "大膽",
+        "name_en": "Daring",
+        "level": 19,
+        "value": ["+(4-6)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "敏捷",
         "name_en": "Dexterity",
         "level": 22,
         "value": ["+2"],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "大膽",
+        "name_en": "Daring",
+        "level": 36,
+        "value": ["+(7-9)"],
+        "part": ["jewelry"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+  },
+  {
+    "group": "energy",
+    "format": "# 能量",
+    "abilitys": [
+      {
+        "name": "知識",
+        "name_en": "Knowledge",
+        "level": 24,
+        "value": ["+(4-6)"],
+        "part": ["jewelry"]
+      },
+      {
+        "name": "知識",
+        "name_en": "Knowledge",
+        "level": 41,
+        "value": ["+(7-9)"],
+        "part": ["jewelry"]
+      }
+    ],
+    "part": ["jewelry"]
   },
   {
     "group": "runwalk",
@@ -336,9 +480,7 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm"]
   },
   {
     "group": "coldharm",
@@ -387,6 +529,13 @@
         "part": ["grandcharm"]
       },
       {
+        "name": "寒冷",
+        "name_en": "Frigidity",
+        "level": 16,
+        "value": ["1-5"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "冰刺",
         "name_en": "Icicle",
         "level": 21,
@@ -422,16 +571,28 @@
         "part": ["largecharm"]
       },
       {
+        "name": "冰刺",
+        "name_en": "Icicle",
+        "level": 37,
+        "value": ["(2-3)-(6-10)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "嚴冬",
         "name_en": "Winter",
         "level": 46,
         "value": ["(4-5)-(7-9)"],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "冰河的",
+        "name_en": "Glacier",
+        "level": 58,
+        "value": ["(4-5)-(11-15)"],
+        "part": ["jewelry"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "fireharm",
@@ -471,6 +632,13 @@
         "level": 14,
         "value": ["(2-3)-5"],
         "part": ["largecharm"]
+      },
+      {
+        "name": "熱情",
+        "name_en": "Passion",
+        "level": 15,
+        "value": ["(1-3)-(6-10)"],
+        "part": ["jewelry"]
       },
       {
         "name": "燃燒",
@@ -515,16 +683,28 @@
         "part": ["largecharm"]
       },
       {
+        "name": "火的",
+        "name_en": "Fire",
+        "level": 36,
+        "value": ["(4-10)-(11-30)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "炙炎",
         "name_en": "Incineration",
         "level": 45,
         "value": ["(5-7)-(9-13)"],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "燃燒的",
+        "name_en": "Burning",
+        "level": 57,
+        "value": ["(11-25)-(35-50)"],
+        "part": ["jewelry"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "lightingharm",
@@ -564,6 +744,13 @@
         "level": 14,
         "value": ["(1-6)-13"],
         "part": ["largecharm"]
+      },
+      {
+        "name": "倦怠",
+        "name_en": "Ennui",
+        "level": 15,
+        "value": ["1-(10-20)"],
+        "part": ["jewelry"]
       },
       {
         "name": "雷電",
@@ -608,21 +795,40 @@
         "part": ["largecharm"]
       },
       {
+        "name": "閃電的",
+        "name_en": "Lightning",
+        "level": 36,
+        "value": ["1-(21-60)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "暴風",
         "name_en": "Storms",
         "level": 45,
         "value": ["(1-19)-28"],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "雷電的",
+        "name_en": "Thunder",
+        "level": 57,
+        "value": ["1-(61-100)"],
+        "part": ["jewelry"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "poisonharm",
     "format": "附加 # 毒素傷害，時效 # 秒",
     "abilitys": [
+      {
+        "name": "嫉妒",
+        "name_en": "Envy",
+        "level": 1,
+        "value": [20, 2],
+        "part": ["jewelry"]
+      },
       {
         "name": "光明",
         "name_en": "Blight",
@@ -708,14 +914,19 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "extramoney",
     "format": "怪物金幣掉落量提高 #%",
     "abilitys": [
+      {
+        "name": "貪婪",
+        "name_en": "Avarice",
+        "level": 1,
+        "value": ["(10-30)"],
+        "part": ["jewelry"]
+      },
       {
         "name": "貪婪",
         "name_en": "Greed",
@@ -759,14 +970,19 @@
         "part": ["largecharm"]
       }
     ],
-    "part":[
-      "smallcharm", "largecharm", "grandcharm"
-    ]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
   },
   {
     "group": "guarantee",
     "format": "尋獲魔法物品機率提高 #%",
     "abilitys": [
+      {
+        "name": "富饒",
+        "name_en": "Prosperity",
+        "level": 26,
+        "value": ["(5-10)"],
+        "part": ["jewelry"]
+      },
       {
         "name": "幸運",
         "name_en": "Fortune",
@@ -782,8 +998,20 @@
         "part": ["smallcharm"]
       }
     ],
-    "part":[
-      "smallcharm"
-    ]
+    "part": ["smallcharm", "jewelry"]
+  },
+  {
+    "group": "needed",
+    "format": "需求 #%",
+    "abilitys": [
+      {
+        "name": "自由",
+        "name_en": "Freedom",
+        "level": 1,
+        "value": [-15],
+        "part": ["jewelry"]
+      }
+    ],
+    "part": ["jewelry"]
   }
 ]
