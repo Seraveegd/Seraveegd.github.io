@@ -77,6 +77,13 @@
       <span><a [routerLink]="['filter', 'part', 'circlet']" (click)="clink('32')"
           [ngClass]="{'active': selected === '32'}">頭飾</a></span>
     </div>
+    <div [ngClass]="'list'">
+      <span>飾品</span>
+      <span><a [routerLink]="['filter', 'part', 'necklace']" (click)="clink('33')"
+          [ngClass]="{'active': selected === '33'}">護身符</a></span>
+      <span><a [routerLink]="['filter', 'part', 'ring']" (click)="clink('34')"
+          [ngClass]="{'active': selected === '34'}">戒指</a></span>
+    </div>
   </div>
   <router-outlet></router-outlet>
 </div>
