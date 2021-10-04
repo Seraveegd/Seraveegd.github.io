@@ -6236,7 +6236,7 @@
     "group": "throwingknife",
     "name": "高速飛刀",
     "name_en": "Throwing Knife",
-    "attack": "melee",
+    "attack": "missile",
     "hand": "one",
     "oneharm": {
       "min": 2,
@@ -6267,7 +6267,7 @@
     "group": "throwingknife",
     "name": "戰鬥飛鏢",
     "name_en": "Battle Dart",
-    "attack": "melee",
+    "attack": "missile",
     "hand": "one",
     "oneharm": {
       "min": 8,
@@ -6298,7 +6298,7 @@
     "group": "throwingknife",
     "name": "飛刀",
     "name_en": "Flying Knife",
-    "attack": "melee",
+    "attack": "missile",
     "hand": "one",
     "oneharm": {
       "min": 23,
@@ -6329,7 +6329,7 @@
     "group": "balancedknife",
     "name": "平衡飛刀",
     "name_en": "Balanced Knife",
-    "attack": "melee",
+    "attack": "missile",
     "hand": "one",
     "oneharm": {
       "min": 1,
@@ -6360,7 +6360,7 @@
     "group": "balancedknife",
     "name": "征戰飛鏢",
     "name_en": "War Dart",
-    "attack": "melee",
+    "attack": "missile",
     "hand": "one",
     "oneharm": {
       "min": 6,
@@ -6391,7 +6391,7 @@
     "group": "balancedknife",
     "name": "刃翼飛刀",
     "name_en": "Winged Knife",
-    "attack": "melee",
+    "attack": "missile",
     "hand": "one",
     "oneharm": {
       "min": 27,
@@ -6422,7 +6422,7 @@
     "group": "throwingaxe",
     "name": "高速飛斧",
     "name_en": "Throwing Axe",
-    "attack": "melee",
+    "attack": "missile",
     "hand": "one",
     "oneharm": {
       "min": 4,
@@ -6453,7 +6453,7 @@
     "group": "throwingaxe",
     "name": "法蘭西飛斧",
     "name_en": "Francisca",
-    "attack": "melee",
+    "attack": "missile",
     "hand": "one",
     "oneharm": {
       "min": 11,
@@ -6484,7 +6484,7 @@
     "group": "throwingaxe",
     "name": "飛斧",
     "name_en": "Flying Axe",
-    "attack": "melee",
+    "attack": "missile",
     "hand": "one",
     "oneharm": {
       "min": 17,
@@ -6515,7 +6515,7 @@
     "group": "balancedaxe",
     "name": "平衡飛斧",
     "name_en": "Balanced Axe",
-    "attack": "melee",
+    "attack": "missile",
     "hand": "one",
     "oneharm": {
       "min": 5,
@@ -6546,7 +6546,7 @@
     "group": "balancedaxe",
     "name": "投斧",
     "name_en": "Hurlbat",
-    "attack": "melee",
+    "attack": "missile",
     "hand": "one",
     "oneharm": {
       "min": 13,
@@ -6577,7 +6577,7 @@
     "group": "balancedaxe",
     "name": "刃翼飛斧",
     "name_en": "Winged Axe",
-    "attack": "melee",
+    "attack": "missile",
     "hand": "one",
     "oneharm": {
       "min": 11,
