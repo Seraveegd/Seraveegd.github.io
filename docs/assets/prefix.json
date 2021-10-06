@@ -8,24 +8,24 @@
         "name_en": "Mechanic's",
         "level": 10,
         "value": ["(1-2)"],
-        "part": ["armor", "circlet", "helmet", "shield", "weapon"]
+        "part": ["armor", "circlet", "helmet", "shield", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "katar", "club", "hammer", "wand", "stave", "orb"]
       },
       {
         "name": "工匠",
         "name_en": "Artisan's",
         "level": 33,
         "value": [3],
-        "part": ["armor", "helmet", "shield", "weapon"]
+        "part": ["armor", "helmet", "shield", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "katar", "club", "hammer", "wand", "stave", "orb"]
       },
       {
         "name": "珠寶匠",
         "name_en": "Jeweler's",
         "level": 55,
         "value": [4],
-        "part": ["armor", "shield", "weapon"]
+        "part": ["armor", "shield", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "katar", "club", "hammer", "wand", "stave", "orb"]
       }
     ],
-    "part": ["armor", "circlet", "helmet", "shield", "weapon"]
+    "part": ["armor", "circlet", "helmet", "shield", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "katar", "club", "hammer", "wand", "stave", "orb"]
   },
   {
     "group": "defense",
@@ -3046,7 +3046,7 @@
   },
   {
     "group": "amazonskills",
-    "format": "# 亞馬遜#技能",
+    "format": "# #技能 (只限亞馬遜)",
     "abilitys": [
       {
         "name": "製箭者",
@@ -3116,7 +3116,7 @@
   },
   {
     "group": "sorceressskills",
-    "format": "# 魔法使#技能",
+    "format": "# #技能 (只限魔法使)",
     "abilitys": [
       {
         "name": "燃燒",
@@ -3186,7 +3186,7 @@
   },
   {
     "group": "necromancerskills",
-    "format": "# 死靈法師#技能",
+    "format": "# #技能 (只限死靈法師)",
     "abilitys": [
       {
         "name": "詛咒",
@@ -3256,7 +3256,7 @@
   },
   {
     "group": "paladinskills",
-    "format": "# 聖騎士#技能",
+    "format": "# #技能 (只限聖騎士)",
     "abilitys": [
       {
         "name": "獅子烙印",
@@ -3326,7 +3326,7 @@
   },
   {
     "group": "barbarianskills",
-    "format": "# 野蠻人#技能",
+    "format": "# #技能 (只限野蠻人)",
     "abilitys": [
       {
         "name": "專家",
@@ -3396,7 +3396,7 @@
   },
   {
     "group": "druldskills",
-    "format": "# 德魯伊#技能",
+    "format": "# #技能 (只限德魯伊)",
     "abilitys": [
       {
         "name": "訓練師",
@@ -3466,7 +3466,7 @@
   },
   {
     "group": "assassinskills",
-    "format": "# 刺客#技能",
+    "format": "# #技能 (只限刺客)",
     "abilitys": [
       {
         "name": "誘騙",

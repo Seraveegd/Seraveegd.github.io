@@ -4,28 +4,126 @@
     "format": "攻擊者反傷：#",
     "abilitys": [
       {
+        "name": "刺尖",
+        "name_en": "Thorns",
+        "level": [1, 13],
+        "value": [1],
+        "part": ["belt", "armor", "shield"]
+      },
+      {
+        "name": "刺尖",
+        "name_en": "Thorns",
+        "level": 14,
+        "value": ["(1-3)"],
+        "part": ["belt", "armor", "circlet", "shield"]
+      },
+      {
+        "name": "尖刺",
+        "name_en": "Spikes",
+        "level": 21,
+        "value": ["(4-6)"],
+        "part": ["belt", "armor", "circlet", "shield"]
+      },
+      {
+        "name": "剃刀",
+        "name_en": "Razors",
+        "level": 34,
+        "value": ["(7-9)"],
+        "part": ["armor", "circlet", "shield"]
+      },
+      {
         "name": "惡意",
         "name_en": "Malice",
         "level": 37,
         "value": ["(1-5)"],
         "part": ["jewelry"]
+      },
+      {
+        "name": "刀劍",
+        "name_en": "Swords",
+        "level": 47,
+        "value": ["(10-20)"],
+        "part": ["armor", "circlet", "shield"]
       }
     ],
-    "part": ["jewelry"]
+    "part": ["jewelry", "belt", "armor", "circlet", "shield"]
   },
   {
     "group": "attackspeed",
     "format": "攻擊速度 #%",
     "abilitys": [
       {
+        "name": "迅速",
+        "name_en": "Readiness",
+        "level": 5,
+        "value": [10],
+        "part": ["weapon"]
+      },
+      {
+        "name": "迅速",
+        "name_en": "Readiness",
+        "level": 20,
+        "value": [10],
+        "part": ["glove"]
+      },
+      {
+        "name": "輕快",
+        "name_en": "Alacrity",
+        "level": 25,
+        "value": [20],
+        "part": ["weapon"]
+      },
+      {
+        "name": "敏捷",
+        "name_en": "Swiftness",
+        "level": 34,
+        "value": [30],
+        "part": ["melee"]
+      },
+      {
         "name": "白熱",
         "name_en": "Fervor",
         "level": 39,
-        "value": ["15"],
+        "value": [15],
         "part": ["jewelry"]
+      },
+      {
+        "name": "輕快",
+        "name_en": "Alacrity",
+        "level": 43,
+        "value": [20],
+        "part": ["glove"]
+      },
+      {
+        "name": "快速",
+        "name_en": "Quickness",
+        "level": 46,
+        "value": [40],
+        "part": ["melee"]
       }
     ],
-    "part": ["jewelry"]
+    "part": ["jewelry", "weapon", "glove", "melee"]
+  },
+  {
+    "group": "blockandrecover",
+    "format": "格擋機率提高 #%\n#% 格擋速度",
+    "abilitys": [
+      {
+        "name": "格檔",
+        "name_en": "Blocking",
+        "level": 1,
+        "value": [10, "+15"],
+        "part": ["shield"]
+      },
+      {
+        "name": "偏向",
+        "name_en": "Deflecting",
+        "level": 11,
+        "value": [20, "+30"],
+        "part": ["shield"]
+      }
+    ],
+    "part": ["shield"]
   },
   {
     "group": "maxharm",
@@ -36,7 +134,14 @@
         "name_en": "Craftsmanship",
         "level": 1,
         "value": ["+1"],
-        "part": ["grandcharm"]
+        "part": ["grandcharm", "necklace", "ring", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+      },
+      {
+        "name": "工匠",
+        "name_en": "Craftsmanship",
+        "level": [1, 7],
+        "value": ["+(1-2)"],
+        "part": ["circlet"]
       },
       {
         "name": "憤怒",
@@ -46,11 +151,74 @@
         "part": ["jewelry"]
       },
       {
+        "name": "品質",
+        "name_en": "Quality",
+        "level": 4,
+        "value": ["+2"],
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+      },
+      {
+        "name": "殘廢",
+        "name_en": "Maiming",
+        "level": 7,
+        "value": ["+(3-4)"],
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+      },
+      {
+        "name": "工匠",
+        "name_en": "Craftsmanship",
+        "level": [8, 14],
+        "value": ["+(2-3)"],
+        "part": ["circlet"]
+      },
+      {
         "name": "怒氣",
         "name_en": "Wrath",
         "level": 11,
         "value": ["+(6-9)"],
         "part": ["jewelry"]
+      },
+      {
+        "name": "屠殺",
+        "name_en": "Slaying",
+        "level": 11,
+        "value": ["+(5-7)"],
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+      },
+      {
+        "name": "凝血",
+        "name_en": "Gore",
+        "level": 14,
+        "value": ["+(8-10)"],
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+      },
+      {
+        "name": "工匠",
+        "name_en": "Craftsmanship",
+        "level": 15,
+        "value": ["+(4-5)"],
+        "part": ["circlet"]
+      },
+      {
+        "name": "屠殺",
+        "name_en": "Carnage",
+        "level": 19,
+        "value": ["+(11-14)"],
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+      },
+      {
+        "name": "品質",
+        "name_en": "Quality",
+        "level": [23, 29],
+        "value": ["+(6-7)"],
+        "part": ["circlet"]
+      },
+      {
+        "name": "殘殺",
+        "name_en": "Slaughter",
+        "level": 25,
+        "value": ["+(15-20)"],
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
       },
       {
         "name": "屠殺的",
@@ -69,9 +237,58 @@
       {
         "name": "品質",
         "name_en": "Quality",
+        "level": 30,
+        "value": ["+(7-8)"],
+        "part": ["circlet"]
+      },
+      {
+        "name": "屠殺",
+        "name_en": "Butchery",
+        "level": 35,
+        "value": ["+(21-40)"],
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+      },
+      {
+        "name": "殘廢",
+        "name_en": "Maiming",
+        "level": [37, 44],
+        "value": ["+(9-10)"],
+        "part": ["circlet"]
+      },
+      {
+        "name": "品質",
+        "name_en": "Quality",
         "level": 41,
         "value": ["+2"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "殘廢",
+        "name_en": "Maiming",
+        "level": 42,
+        "value": ["+(3-4)"],
+        "part": ["necklace"]
+      },
+      {
+        "name": "殘廢",
+        "name_en": "Maiming",
+        "level": 42,
+        "value": ["+(3-4)"],
+        "part": ["ring", "shield"]
+      },
+      {
+        "name": "吸精",
+        "name_en": "Evisceration",
+        "level": 45,
+        "value": ["+(41-63)"],
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+      },
+      {
+        "name": "殘廢",
+        "name_en": "Maiming",
+        "level": 45,
+        "value": ["+(11-12)"],
+        "part": ["circlet"]
       },
       {
         "name": "品質",
@@ -95,12 +312,19 @@
         "part": ["smallcharm"]
       }
     ],
-    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry", "necklace", "circlet", "ring", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer", "shield"]
   },
   {
     "group": "mimharm",
     "format": "# 最小傷害",
     "abilitys": [
+      {
+        "name": "價值",
+        "name_en": "Worth",
+        "level": 1,
+        "value": ["+(1-2)"],
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+      },
       {
         "name": "快樂",
         "name_en": "Joyfulness",
@@ -109,14 +333,70 @@
         "part": ["jewelry"]
       },
       {
+        "name": "測量",
+        "name_en": "Measure",
+        "level": 12,
+        "value": ["+(3-4)"],
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+      },
+      {
+        "name": "價值",
+        "name_en": "Worth",
+        "level": 15,
+        "value": ["+(2-3)"],
+        "part": ["necklace", "circlet", "ring"]
+      },
+      {
+        "name": "精靈",
+        "name_en": "Excellence",
+        "level": 24,
+        "value": ["+(5-8)"],
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+      },
+      {
+        "name": "測量",
+        "name_en": "Measure",
+        "level": 37,
+        "value": ["+(4-5)"],
+        "part": ["necklace", "circlet", "ring"]
+      },
+      {
         "name": "福氣",
         "name_en": "Bliss",
         "level": 43,
         "value": ["+(5-10)"],
         "part": ["jewelry"]
+      },
+      {
+        "name": "表現",
+        "name_en": "Performance",
+        "level": 48,
+        "value": ["+(9-14)"],
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+      },
+      {
+        "name": "精靈",
+        "name_en": "Excellence",
+        "level": 59,
+        "value": ["+(6-9)"],
+        "part": ["necklace", "circlet", "ring"]
+      },
+      {
+        "name": "超凡",
+        "name_en": "Transcendence",
+        "level": 76,
+        "value": ["+(15-20)"],
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+      },
+      {
+        "name": "表現",
+        "name_en": "Performance",
+        "level": 81,
+        "value": ["+(10-13)"],
+        "part": ["necklace", "circlet", "ring"]
       }
     ],
-    "part": ["jewelry"]
+    "part": ["jewelry", "necklace", "circlet", "ring", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
   },
   {
     "group": "harmrecover",
@@ -128,6 +408,27 @@
         "level": 1,
         "value": ["+12"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "平衡",
+        "name_en": "Balance",
+        "level": 5,
+        "value": ["+10"],
+        "part": ["helmet", "armor", "glove", "boot", "belt", "shield"]
+      },
+      {
+        "name": "均衡",
+        "name_en": "Equilibrium",
+        "level": 9,
+        "value": ["+17"],
+        "part": ["belt", "armor", "shield"]
+      },
+      {
+        "name": "穩定",
+        "name_en": "Stability",
+        "level": 18,
+        "value": ["+24"],
+        "part": ["belt", "armor"]
       },
       {
         "name": "平衡",
@@ -151,26 +452,229 @@
         "part": ["jewelry"]
       }
     ],
-    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry", "helmet", "armor", "glove", "boot", "belt", "shield"]
+  },
+  {
+    "group": "casttime",
+    "format": "#% 施法速度",
+    "abilitys": [
+      {
+        "name": "學徒",
+        "name_en": "Apprentice",
+        "level": 5,
+        "value": ["+10"],
+        "part": ["necklace", "circlet", "orb", "ring", "rod"]
+      },
+      {
+        "name": "馬格斯",
+        "name_en": "Magus",
+        "level": 29,
+        "value": ["+20"],
+        "part": ["circlet", "orb", "rod"]
+      }
+    ],
+    "part": ["necklace", "circlet", "orb", "ring", "rod"]
+  },
+  {
+    "group": "damagereduction",
+    "format": "傷害降低 #",
+    "abilitys": [
+      {
+        "name": "生命",
+        "name_en": "Health",
+        "level": 7,
+        "value": [1],
+        "part": ["necklace", "armor", "circlet", "ring", "shield"]
+      },
+      {
+        "name": "保護",
+        "name_en": "Protection",
+        "level": 18,
+        "value": [2],
+        "part": ["necklace", "circlet", "ring"]
+      },
+      {
+        "name": "保護",
+        "name_en": "Protection",
+        "level": 24,
+        "value": [2],
+        "part": ["circlet", "armor", "shield"]
+      },
+      {
+        "name": "吸收",
+        "name_en": "Absorption",
+        "level": 26,
+        "value": [3],
+        "part": ["necklace", "circlet"]
+      },
+      {
+        "name": "吸收",
+        "name_en": "Absorption",
+        "level": 32,
+        "value": [3],
+        "part": ["circlet", "armor", "shield"]
+      },
+      {
+        "name": "生命",
+        "name_en": "Life",
+        "level": 35,
+        "value": [4],
+        "part": ["necklace", "circlet"]
+      },
+      {
+        "name": "生命",
+        "name_en": "Life",
+        "level": 41,
+        "value": ["(4-7)"],
+        "part": ["circlet", "armor", "shield"]
+      },
+      {
+        "name": "永生",
+        "name_en": "Life Everlasting",
+        "level": 45,
+        "value": ["(10-25)"],
+        "part": ["necklace", "circlet"]
+      },
+      {
+        "name": "和睦",
+        "name_en": "Anima",
+        "level": 51,
+        "value": ["(8-15)"],
+        "part": ["circlet", "armor", "shield"]
+      }
+    ],
+    "part": ["necklace", "armor", "circlet", "ring", "shield"]
+  },
+  {
+    "group": "magicdamagereduction",
+    "format": "魔法傷害降低 #",
+    "abilitys": [
+      {
+        "name": "防避",
+        "name_en": "Warding",
+        "level": 7,
+        "value": [1],
+        "part": ["necklace", "armor", "circlet", "orb", "ring", "shield"]
+      },
+      {
+        "name": "步哨",
+        "name_en": "Sentinel",
+        "level": 18,
+        "value": [2],
+        "part": ["necklace", "circlet", "orb", "ring"]
+      },
+      {
+        "name": "步哨",
+        "name_en": "Sentinel",
+        "level": 24,
+        "value": [2],
+        "part": ["circlet", "armor", "shield"]
+      },
+      {
+        "name": "守衛",
+        "name_en": "Guarding",
+        "level": 26,
+        "value": [3],
+        "part": ["necklace", "circlet", "orb"]
+      },
+      {
+        "name": "守衛",
+        "name_en": "Guarding",
+        "level": 32,
+        "value": [3],
+        "part": ["circlet", "armor", "shield"]
+      },
+      {
+        "name": "否定",
+        "name_en": "Negation",
+        "level": 41,
+        "value": ["(4-6)"],
+        "part": ["armor", "circlet", "shield"]
+      },
+      {
+        "name": "否定",
+        "name_en": "Negation",
+        "level": 42,
+        "value": ["(4-6)"],
+        "part": ["circlet", "necklace", "orb"]
+      }
+    ],
+    "part": ["necklace", "armor", "circlet", "orb", "ring", "shield"]
   },
   {
     "group": "liferecover",
     "format": "生命回復 #",
     "abilitys": [
       {
+        "name": "重造",
+        "name_en": "Regeneration",
+        "level": [1, 9],
+        "value": ["+2"],
+        "part": ["necklace", "circlet"]
+      },
+      {
+        "name": "重造",
+        "name_en": "Regeneration",
+        "level": 10,
+        "value": ["+(3-5)"],
+        "part": ["necklace", "belt", "circlet", "ring", "scepter"]
+      },
+      {
+        "name": "重生",
+        "name_en": "Regrowth",
+        "level": 17,
+        "value": ["+(6-10)"],
+        "part": ["necklace", "circlet", "scepter"]
+      },
+      {
+        "name": "復甦",
+        "name_en": "Revivification",
+        "level": 38,
+        "value": ["+(11-15)"],
+        "part": ["necklace", "circlet", "scepter"]
+      },
+      {
+        "name": "重造",
+        "name_en": "Regeneration",
+        "level": 40,
+        "value": ["+(3-5)"],
+        "part": ["glove", "shield"]
+      },
+      {
         "name": "榮譽",
         "name_en": "Honor",
         "level": 47,
         "value": ["+(1-4)"],
         "part": ["jewelry"]
+      },
+      {
+        "name": "重生",
+        "name_en": "Regrowth",
+        "level": 55,
+        "value": ["+(6-9)"],
+        "part": ["belt", "ring"]
+      },
+      {
+        "name": "重造",
+        "name_en": "Regeneration",
+        "level": 70,
+        "value": ["+(3-5)"],
+        "part": ["armor", "weapon", "boot"]
       }
     ],
-    "part": ["jewelry"]
+    "part": ["jewelry", "necklace", "belt", "circlet", "ring", "scepter", "glove", "shield", "armor", "weapon", "boot"]
   },
   {
     "group": "life",
     "format": "# 生命",
     "abilitys": [
+      {
+        "name": "財狼",
+        "name_en": "Jackal",
+        "level": 1,
+        "value": ["+(1-5)"],
+        "part": ["necklace", "barbarianhelm", "belt", "armor", "circlet"]
+      },
       {
         "name": "靈魂",
         "name_en": "Spirit",
@@ -193,11 +697,39 @@
         "part": ["grandcharm"]
       },
       {
+        "name": "財狼",
+        "name_en": "Jackal",
+        "level": 4,
+        "value": ["+(1-5)"],
+        "part": ["druidpeltshelm", "shield"]
+      },
+      {
+        "name": "狐狸",
+        "name_en": "Fox",
+        "level": 7,
+        "value": ["+(6-10)"],
+        "part": ["necklace", "barbarianhelm", "belt", "armor", "circlet"]
+      },
+      {
+        "name": "財狼",
+        "name_en": "Jackal",
+        "level": 8,
+        "value": ["+(1-5)"],
+        "part": ["club", "hammer", "helmet", "mace", "ring"]
+      },
+      {
         "name": "生命",
         "name_en": "Life",
         "level": 9,
         "value": ["+(11-15)"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "狐狸",
+        "name_en": "Fox",
+        "level": 11,
+        "value": ["+(6-10)"],
+        "part": ["druidpeltshelm", "shield"]
       },
       {
         "name": "生命",
@@ -214,11 +746,32 @@
         "part": ["smallcharm"]
       },
       {
+        "name": "狼",
+        "name_en": "Wolf",
+        "level": 15,
+        "value": ["+(11-20)"],
+        "part": ["necklace", "barbarianhelm", "belt", "armor", "circlet"]
+      },
+      {
+        "name": "狐狸",
+        "name_en": "Fox",
+        "level": 17,
+        "value": ["+(6-10)"],
+        "part": ["club", "hammer", "helmet", "mace", "ring"]
+      },
+      {
         "name": "生命",
         "name_en": "Life",
         "level": 19,
         "value": ["+(16-20)"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "虎",
+        "name_en": "Tiger",
+        "level": 20,
+        "value": ["+(21-30)"],
+        "part": ["necklace", "barbarianhelm", "belt", "armor", "circlet"]
       },
       {
         "name": "耐久",
@@ -228,11 +781,32 @@
         "part": ["smallcharm"]
       },
       {
+        "name": "巨大",
+        "name_en": "Mammoth",
+        "level": 25,
+        "value": ["+(31-40)"],
+        "part": ["necklace", "barbarianhelm", "belt", "armor", "circlet"]
+      },
+      {
         "name": "耐久",
         "name_en": "Substinence",
         "level": 26,
         "value": ["+(16-20)"],
         "part": ["largecharm"]
+      },
+      {
+        "name": "狼",
+        "name_en": "Wolf",
+        "level": 27,
+        "value": ["+(11-20)"],
+        "part": ["druidpeltshelm", "shield"]
+      },
+      {
+        "name": "巨神",
+        "name_en": "Gargantuan",
+        "level": 30,
+        "value": ["+(41-60)"],
+        "part": ["necklace", "barbarianhelm", "belt", "armor", "circlet"]
       },
       {
         "name": "耐久",
@@ -242,11 +816,32 @@
         "part": ["grandcharm"]
       },
       {
+        "name": "狼",
+        "name_en": "Wolf",
+        "level": 34,
+        "value": ["+(11-20)"],
+        "part": ["club", "hammer", "helmet", "mace", "ring"]
+      },
+      {
+        "name": "烏賊",
+        "name_en": "Squid",
+        "level": 40,
+        "value": ["+(61-80)"],
+        "part": ["necklace", "barbarianhelm", "belt", "armor", "circlet"]
+      },
+      {
         "name": "耐久",
         "name_en": "Substinence",
         "level": 42,
         "value": ["+(21-25)"],
         "part": ["largecharm"]
+      },
+      {
+        "name": "虎",
+        "name_en": "Tiger",
+        "level": 43,
+        "value": ["+(21-30)"],
+        "part": ["druidpeltshelm", "shield"]
       },
       {
         "name": "希望",
@@ -270,11 +865,32 @@
         "part": ["smallcharm"]
       },
       {
+        "name": "巨鯨",
+        "name_en": "Whale",
+        "level": 50,
+        "value": ["+(81-100)"],
+        "part": ["necklace", "barbarianhelm", "belt", "armor", "circlet"]
+      },
+      {
+        "name": "虎",
+        "name_en": "Tiger",
+        "level": 51,
+        "value": ["+(21-30)"],
+        "part": ["shield", "hammer", "helmet", "mace", "ring"]
+      },
+      {
         "name": "精力",
         "name_en": "Vita",
         "level": 58,
         "value": ["+(26-30)"],
         "part": ["largecharm"]
+      },
+      {
+        "name": "巨大",
+        "name_en": "Mammoth",
+        "level": 59,
+        "value": ["+(31-40)"],
+        "part": ["druidpeltshelm", "shield"]
       },
       {
         "name": "耐久",
@@ -284,11 +900,25 @@
         "part": ["grandcharm"]
       },
       {
+        "name": "巨大",
+        "name_en": "Mammoth",
+        "level": 59,
+        "value": ["+(31-40)"],
+        "part": ["club", "hammer", "helmet", "mace", "ring"]
+      },
+      {
         "name": "精力",
         "name_en": "Vita",
         "level": 74,
         "value": ["+(31-35)"],
         "part": ["largecharm"]
+      },
+      {
+        "name": "巨神",
+        "name_en": "Gargantuan",
+        "level": 75,
+        "value": ["+(41-60)"],
+        "part": ["druidpeltshelm", "shield"]
       },
       {
         "name": "精力",
@@ -305,7 +935,210 @@
         "part": ["grandcharm"]
       }
     ],
-    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry", "necklace", "barbarianhelm", "belt", "armor", "circlet", "druidpeltshelm", "shield", "club", "hammer", "helmet", "mace", "ring"]
+  },
+  {
+    "group": "liferole",
+    "format": "# 生命 (依角色等級而定)",
+    "abilitys": [
+      {
+        "name": "半人馬",
+        "name_en": "Centaur",
+        "level": 20,
+        "value": ["+(0.75-74.25)"],
+        "part": ["necklace", "barbarianhelm", "armor", "druidpeltshelm"]
+      }
+    ],
+    "part": ["necklace", "barbarianhelm", "armor", "druidpeltshelm"]
+  },
+  {
+    "group": "manarole",
+    "format": "# 法力 (依角色等級而定)",
+    "abilitys": [
+      {
+        "name": "記憶",
+        "name_en": "Memory",
+        "level": 20,
+        "value": ["+(0.75-74.25)"],
+        "part": ["necklace", "circlet", "druidpeltshelm"]
+      }
+    ],
+    "part": ["necklace", "circlet", "druidpeltshelm"]
+  },
+  {
+    "group": "lifemanarole",
+    "format": "# 生命\n# 法力 (依角色等級而定)",
+    "abilitys": [
+      {
+        "name": "巨象",
+        "name_en": "Elephant",
+        "level": 37,
+        "value": ["+(0.5-49.5)", "+(0.25-24.75)"],
+        "part": ["circlet", "druidpeltshelm"]
+      }
+    ],
+    "part": ["circlet", "druidpeltshelm"]
+  },
+  {
+    "group": "steallife",
+    "format": "擊中竊取 #% 生命",
+    "abilitys": [
+      {
+        "name": "妖巫",
+        "name_en": "Leech",
+        "level": 6,
+        "value": ["(4-5)"],
+        "part": ["weapon"]
+      },
+      {
+        "name": "妖巫",
+        "name_en": "Leech",
+        "level": 14,
+        "value": ["(3-4)"],
+        "part": ["circlet"]
+      },
+      {
+        "name": "妖巫",
+        "name_en": "Leech",
+        "level": 14,
+        "value": ["(3-5)"],
+        "part": ["ring"]
+      },
+      {
+        "name": "蝗蟲",
+        "name_en": "Locust",
+        "level": 20,
+        "value": ["(6-7)"],
+        "part": ["melee"]
+      },
+      {
+        "name": "妖巫",
+        "name_en": "Leech",
+        "level": 24,
+        "value": ["(2-3)"],
+        "part": ["necklace"]
+      },
+      {
+        "name": "妖巫",
+        "name_en": "Leech",
+        "level": 34,
+        "value": ["3"],
+        "part": ["glove"]
+      },
+      {
+        "name": "蝗蟲",
+        "name_en": "Locust",
+        "level": 47,
+        "value": ["(5-6)"],
+        "part": ["circlet", "ring"]
+      },
+      {
+        "name": "八目鰻",
+        "name_en": "Lamprey",
+        "level": 55,
+        "value": ["(8-9)"],
+        "part": ["melee"]
+      },
+      {
+        "name": "蝗蟲",
+        "name_en": "Locust",
+        "level": 57,
+        "value": ["(4-5)"],
+        "part": ["necklace"]
+      },
+      {
+        "name": "八目鰻",
+        "name_en": "Lamprey",
+        "level": 77,
+        "value": ["(7-8)"],
+        "part": ["circlet", "ring"]
+      },
+      {
+        "name": "八目鰻",
+        "name_en": "Lamprey",
+        "level": 85,
+        "value": ["6"],
+        "part": ["necklace"]
+      }
+    ],
+    "part": ["weapon", "circlet", "ring", "necklace", "glove", "melee"]
+  },
+  {
+    "group": "stealmana",
+    "format": "擊中竊取 #% 法力",
+    "abilitys": [
+      {
+        "name": "蝙蝠",
+        "name_en": "Bat",
+        "level": 7,
+        "value": ["(4-5)"],
+        "part": ["weapon"]
+      },
+      {
+        "name": "蝙蝠",
+        "name_en": "Bat",
+        "level": 15,
+        "value": ["(3-4)"],
+        "part": ["necklace", "circlet"]
+      },
+      {
+        "name": "死靈",
+        "name_en": "Wraith",
+        "level": 21,
+        "value": ["(6-7)"],
+        "part": ["weapon"]
+      },
+      {
+        "name": "蝙蝠",
+        "name_en": "Bat",
+        "level": 25,
+        "value": ["(2-3)"],
+        "part": ["ring"]
+      },
+      {
+        "name": "蝙蝠",
+        "name_en": "Bat",
+        "level": 35,
+        "value": ["3"],
+        "part": ["glove"]
+      },
+      {
+        "name": "吸血鬼",
+        "name_en": "Vampire",
+        "level": 56,
+        "value": ["(8-9)"],
+        "part": ["weapon"]
+      },
+      {
+        "name": "死靈",
+        "name_en": "Wraith",
+        "level": 58,
+        "value": ["(4-5)"],
+        "part": ["ring"]
+      },
+      {
+        "name": "死靈",
+        "name_en": "Wraith",
+        "level": 58,
+        "value": ["(5-6)"],
+        "part": ["necklace", "circlet"]
+      },
+      {
+        "name": "吸血鬼",
+        "name_en": "Vampire",
+        "level": 78,
+        "value": ["(7-8)"],
+        "part": ["necklace", "circlet"]
+      },
+      {
+        "name": "吸血鬼",
+        "name_en": "Vampire",
+        "level": 86,
+        "value": ["6"],
+        "part": ["ring"]
+      }
+    ],
+    "part": ["weapon", "necklace", "circlet", "glove", "ring", "melee"]
   },
   {
     "group": "strength",
@@ -315,8 +1148,29 @@
         "name": "力量",
         "name_en": "Strength",
         "level": 1,
+        "value": ["+(1-2)"],
+        "part": ["necklace", "belt", "circlet", "club", "hammer"]
+      },
+      {
+        "name": "力量",
+        "name_en": "Strength",
+        "level": 1,
         "value": ["+(3-4)"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "力量",
+        "name_en": "Strength",
+        "level": [1, 4],
+        "value": ["+1"],
+        "part": ["ring"]
+      },
+      {
+        "name": "力量",
+        "name_en": "Strength",
+        "level": [1, 11],
+        "value": ["+1"],
+        "part": ["glove"]
       },
       {
         "name": "力量",
@@ -328,9 +1182,30 @@
       {
         "name": "力量",
         "name_en": "Strength",
+        "level": 5,
+        "value": ["+(1-2)"],
+        "part": ["armor", "mace", "scepter", "ring"]
+      },
+      {
+        "name": "力量",
+        "name_en": "Strength",
         "level": 7,
         "value": ["+1"],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "武力",
+        "name_en": "Might",
+        "level": 10,
+        "value": ["+(3-5)"],
+        "part": ["necklace", "belt", "circlet", "club", "hammer"]
+      },
+      {
+        "name": "力量",
+        "name_en": "Strength",
+        "level": 12,
+        "value": ["+(1-2)"],
+        "part": ["glove", "melee", "shield"]
       },
       {
         "name": "力量",
@@ -347,11 +1222,25 @@
         "part": ["largecharm"]
       },
       {
+        "name": "武力",
+        "name_en": "Might",
+        "level": 21,
+        "value": ["+(3-5)"],
+        "part": ["armor", "mace", "ring", "scepter"]
+      },
+      {
         "name": "力量",
         "name_en": "Strength",
         "level": 22,
         "value": ["+2"],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "公牛",
+        "name_en": "Ox",
+        "level": 26,
+        "value": ["+(6-9)"],
+        "part": ["necklace", "belt", "circlet", "club", "hammer"]
       },
       {
         "name": "精氣",
@@ -361,19 +1250,96 @@
         "part": ["jewelry"]
       },
       {
+        "name": "武力",
+        "name_en": "Might",
+        "level": 33,
+        "value": ["+(3-5)"],
+        "part": ["glove", "melee", "shield"]
+      },
+      {
+        "name": "公牛",
+        "name_en": "Ox",
+        "level": 38,
+        "value": ["+(6-9)"],
+        "part": ["armor", "mace", "ring", "scepter"]
+      },
+      {
+        "name": "巨人",
+        "name_en": "Giant",
+        "level": 42,
+        "value": ["+(10-15)"],
+        "part": ["necklace", "belt", "circlet", "club", "hammer"]
+      },
+      {
+        "name": "公牛",
+        "name_en": "Ox",
+        "level": 45,
+        "value": ["+(6-9)"],
+        "part": ["glove", "melee", "shield"]
+      },
+      {
         "name": "精氣",
         "name_en": "Virility",
         "level": 50,
         "value": ["+(7-9)"],
         "part": ["jewelry"]
+      },
+      {
+        "name": "巨人",
+        "name_en": "Giant",
+        "level": 55,
+        "value": ["+(10-15)"],
+        "part": ["armor", "mace", "ring", "scepter"]
+      },
+      {
+        "name": "泰坦",
+        "name_en": "Titan",
+        "level": 58,
+        "value": ["+(16-20)"],
+        "part": ["necklace", "belt", "circlet", "club", "hammer"]
+      },
+      {
+        "name": "巨人",
+        "name_en": "Giant",
+        "level": 59,
+        "value": ["+(10-15)"],
+        "part": ["glove", "melee"]
+      },
+      {
+        "name": "擎天神",
+        "name_en": "Atlas",
+        "level": 71,
+        "value": ["+(21-30)"],
+        "part": ["necklace", "belt", "circlet", "club", "hammer"]
+      },
+      {
+        "name": "泰坦",
+        "name_en": "Titan",
+        "level": 74,
+        "value": ["+(16-20)"],
+        "part": ["armor", "mace", "ring", "scepter"]
       }
     ],
-    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry", "necklace", "belt", "circlet", "club", "hammer", "armor", "mace", "ring", "scepter", "glove", "melee", "shield"]
   },
   {
     "group": "dexterity",
     "format": "# 敏捷",
     "abilitys": [
+      {
+        "name": "敏捷",
+        "name_en": "Dexterity",
+        "level": [1, 12],
+        "value": ["+1"],
+        "part": ["glove", "boot"]
+      },
+      {
+        "name": "敏捷",
+        "name_en": "Dexterity",
+        "level": [1, 5],
+        "value": ["+1"],
+        "part": ["ring"]
+      },
       {
         "name": "敏捷",
         "name_en": "Dexterity",
@@ -384,6 +1350,13 @@
       {
         "name": "敏捷",
         "name_en": "Dexterity",
+        "level": 2,
+        "value": ["+(1-2)"],
+        "part": ["necklace", "bow", "circlet", "crossbow"]
+      },
+      {
+        "name": "敏捷",
+        "name_en": "Dexterity",
         "level": 3,
         "value": ["+(2-3)"],
         "part": ["largecharm"]
@@ -391,9 +1364,30 @@
       {
         "name": "敏捷",
         "name_en": "Dexterity",
+        "level": 6,
+        "value": ["+(1-2)"],
+        "part": ["glove", "ring"]
+      },
+      {
+        "name": "敏捷",
+        "name_en": "Dexterity",
         "level": 7,
         "value": ["+1"],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "技能",
+        "name_en": "Skill",
+        "level": 11,
+        "value": ["+(3-5)"],
+        "part": ["necklace", "bow", "circlet", "crossbow"]
+      },
+      {
+        "name": "敏捷",
+        "name_en": "Dexterity",
+        "level": 13,
+        "value": ["+(2-3)"],
+        "part": ["armor", "boot"]
       },
       {
         "name": "敏捷",
@@ -424,19 +1418,173 @@
         "part": ["smallcharm"]
       },
       {
+        "name": "技能",
+        "name_en": "Skill",
+        "level": 22,
+        "value": ["+(3-5)"],
+        "part": ["glove", "ring"]
+      },
+      {
+        "name": "準確",
+        "name_en": "Accuracy",
+        "level": 27,
+        "value": ["+(6-9)"],
+        "part": ["necklace", "bow", "circlet", "crossbow"]
+      },
+      {
+        "name": "技能",
+        "name_en": "Skill",
+        "level": 34,
+        "value": ["+(4-5)"],
+        "part": ["armor", "boot"]
+      },
+      {
         "name": "大膽",
         "name_en": "Daring",
         "level": 36,
         "value": ["+(7-9)"],
         "part": ["jewelry"]
+      },
+      {
+        "name": "準確",
+        "name_en": "Accuracy",
+        "level": 39,
+        "value": ["+(6-9)"],
+        "part": ["glove", "ring"]
+      },
+      {
+        "name": "精密",
+        "name_en": "Precision",
+        "level": 43,
+        "value": ["+(10-15)"],
+        "part": ["necklace", "bow", "circlet", "crossbow"]
+      },
+      {
+        "name": "準確",
+        "name_en": "Accuracy",
+        "level": 46,
+        "value": ["+(6-9)"],
+        "part": ["armor", "boot"]
+      },
+      {
+        "name": "精密",
+        "name_en": "Precision",
+        "level": 56,
+        "value": ["+(10-15)"],
+        "part": ["glove", "ring"]
+      },
+      {
+        "name": "完美",
+        "name_en": "Perfection",
+        "level": 59,
+        "value": ["+(16-20)"],
+        "part": ["necklace", "bow", "circlet", "crossbow"]
+      },
+      {
+        "name": "精密",
+        "name_en": "Precision",
+        "level": 60,
+        "value": ["+(10-15)"],
+        "part": ["armor", "boot"]
+      },
+      {
+        "name": "涅盤",
+        "name_en": "Nirvana",
+        "level": 72,
+        "value": ["+(21-30)"],
+        "part": ["necklace", "bow", "circlet", "crossbow"]
+      },
+      {
+        "name": "完美",
+        "name_en": "Perfection",
+        "level": 75,
+        "value": ["+(16-20)"],
+        "part": ["glove", "ring"]
       }
     ],
-    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry", "necklace", "bow", "circlet", "crossbow", "glove", "ring", "armor", "boot"]
   },
   {
     "group": "energy",
     "format": "# 能量",
     "abilitys": [
+      {
+        "name": "能源",
+        "name_en": "Energy",
+        "level": [1, 4],
+        "value": ["+1"],
+        "part": ["necklace", "circlet", "orb", "stave", "wand", "helmet", "ring"]
+      },
+      {
+        "name": "能源",
+        "name_en": "Energy",
+        "level": 1,
+        "value": ["+(1-3)"],
+        "part": ["necklace", "circlet", "orb", "stave", "wand"]
+      },
+      {
+        "name": "能源",
+        "name_en": "Energy",
+        "level": 4,
+        "value": ["+(1-3)"],
+        "part": ["helmet", "scepter"]
+      },
+      {
+        "name": "能源",
+        "name_en": "Energy",
+        "level": 7,
+        "value": ["+(1-3)"],
+        "part": ["ring"]
+      },
+      {
+        "name": "思想",
+        "name_en": "Mind",
+        "level": 7,
+        "value": ["+(4-6)"],
+        "part": ["necklace", "circlet", "orb", "stave", "wand"]
+      },
+      {
+        "name": "思想",
+        "name_en": "Mind",
+        "level": 10,
+        "value": ["+(4-6)"],
+        "part": ["helmet", "scepter"]
+      },
+      {
+        "name": "思想",
+        "name_en": "Mind",
+        "level": 13,
+        "value": ["+(4-6)"],
+        "part": ["ring"]
+      },
+      {
+        "name": "才能",
+        "name_en": "Brilliance",
+        "level": 13,
+        "value": ["+(7-10)"],
+        "part": ["necklace", "circlet", "orb", "stave", "wand"]
+      },
+      {
+        "name": "才能",
+        "name_en": "Brilliance",
+        "level": 16,
+        "value": ["+(7-10)"],
+        "part": ["helmet", "scepter"]
+      },
+      {
+        "name": "才能",
+        "name_en": "Brilliance",
+        "level": 21,
+        "value": ["+(7-10)"],
+        "part": ["ring"]
+      },
+      {
+        "name": "幻術",
+        "name_en": "Sorcery",
+        "level": 21,
+        "value": ["+(11-15)"],
+        "part": ["necklace", "circlet", "orb", "stave", "wand"]
+      },
       {
         "name": "知識",
         "name_en": "Knowledge",
@@ -445,25 +1593,186 @@
         "part": ["jewelry"]
       },
       {
+        "name": "幻術",
+        "name_en": "Sorcery",
+        "level": 26,
+        "value": ["+(11-15)"],
+        "part": ["helmet", "scepter"]
+      },
+      {
+        "name": "幻術",
+        "name_en": "Sorcery",
+        "level": 31,
+        "value": ["+(11-15)"],
+        "part": ["ring"]
+      },
+      {
+        "name": "法術",
+        "name_en": "Wizardry",
+        "level": 31,
+        "value": ["+(16-20)"],
+        "part": ["necklace", "circlet", "orb", "stave", "wand"]
+      },
+      {
         "name": "知識",
         "name_en": "Knowledge",
         "level": 41,
         "value": ["+(7-9)"],
         "part": ["jewelry"]
+      },
+      {
+        "name": "法術",
+        "name_en": "Wizardry",
+        "level": 41,
+        "value": ["+(16-20)"],
+        "part": ["ring"]
+      },
+      {
+        "name": "啟發",
+        "name_en": "Enlightenment",
+        "level": 41,
+        "value": ["+(21-30)"],
+        "part": ["necklace", "circlet", "orb", "stave", "wand"]
       }
     ],
-    "part": ["jewelry"]
+    "part": ["jewelry", "necklace", "circlet", "orb", "stave", "wand", "helmet", "scepter", "ring"]
+  },
+  {
+    "group": "knockback",
+    "format": "擊退",
+    "abilitys": [
+      {
+        "name": "熊",
+        "name_en": "Bear",
+        "level": 8,
+        "value": [],
+        "part": ["melee"]
+      }
+    ],
+    "part": ["melee"]
+  },
+  {
+    "group": "ignoredefense",
+    "format": "無視目標防禦",
+    "abilitys": [
+      {
+        "name": "刺穿",
+        "name_en": "Piercing",
+        "level": 25,
+        "value": [],
+        "part": ["katar", "dagger", "rod"]
+      }
+    ],
+    "part": ["katar", "dagger", "rod"]
+  },
+  {
+    "group": "preventhealing",
+    "format": "防止怪物自療",
+    "abilitys": [
+      {
+        "name": "下流",
+        "name_en": "Vileness",
+        "level": 9,
+        "value": [],
+        "part": ["melee"]
+      }
+    ],
+    "part": ["melee"]
+  },
+  {
+    "group": "freezelengthreduction",
+    "format": "被凍結的時效減半",
+    "abilitys": [
+      {
+        "name": "融解",
+        "name_en": "Warmth",
+        "level": 10,
+        "value": [],
+        "part": ["necklace", "boot", "circlet", "glove", "orb", "ring", "shield"]
+      }
+    ],
+    "part": ["necklace", "boot", "circlet", "glove", "orb", "ring", "shield"]
+  },
+  {
+    "group": "repairdurability",
+    "format": "每 # 秒修復 1 點耐久度",
+    "abilitys": [
+      {
+        "name": "自我修復",
+        "name_en": "Self-Repair",
+        "level": 3,
+        "value": [3],
+        "part": ["helmet", "armor", "glove", "boot", "belt", "shield", "weapon"]
+      },
+      {
+        "name": "回復",
+        "name_en": "Fast Repair",
+        "level": 20,
+        "value": [5],
+        "part": ["helmet", "armor", "glove", "boot", "belt", "shield", "weapon"]
+      }
+    ],
+    "part": ["helmet", "armor", "glove", "boot", "belt", "shield", "weapon"]
+  },
+  {
+    "group": "indestructible",
+    "format": "永不毀損",
+    "abilitys": [
+      {
+        "name": "歲月",
+        "name_en": "Ages",
+        "level": 50,
+        "value": [],
+        "part": ["helmet", "armor", "glove", "boot", "belt", "shield", "weapon"]
+      }
+    ],
+    "part": ["helmet", "armor", "glove", "boot", "belt", "shield", "weapon"]
+  },
+  {
+    "group": "replenishquantity",
+    "format": "每 # 秒回復數量 1",
+    "abilitys": [
+      {
+        "name": "補充",
+        "name_en": "Replenishing",
+        "level": 5,
+        "value": [5],
+        "part": ["throwing"]
+      },
+      {
+        "name": "傳播",
+        "name_en": "Propogation",
+        "level": 24,
+        "value": [10],
+        "part": ["throwing"]
+      }
+    ],
+    "part": ["throwing"]
   },
   {
     "group": "runwalk",
     "format": "#% 跑步/行走速度",
     "abilitys": [
       {
+        "name": "步伐",
+        "name_en": "Pacing",
+        "level": 12,
+        "value": ["+10"],
+        "part": ["boot", "circlet"]
+      },
+      {
         "name": "慣性",
         "name_en": "Inertia",
         "level": 19,
         "value": ["+7"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "匆忙",
+        "name_en": "Haste",
+        "level": 22,
+        "value": ["+20"],
+        "part": ["boot", "circlet"]
       },
       {
         "name": "慣性",
@@ -478,14 +1787,56 @@
         "level": 35,
         "value": ["+3"],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "速度",
+        "name_en": "Speed",
+        "level": 37,
+        "value": ["+30"],
+        "part": ["boot", "circlet"]
+      },
+      {
+        "name": "加速",
+        "name_en": "Acceleration",
+        "level": 51,
+        "value": ["+40"],
+        "part": ["boot"]
       }
     ],
-    "part": ["smallcharm", "largecharm", "grandcharm"]
+    "part": ["smallcharm", "largecharm", "grandcharm", "boot", "circlet"]
+  },
+  {
+    "group": "runwalkandenergyrecover",
+    "format": "#% 跑步/行走速度\n能量恢復 #%",
+    "abilitys": [
+      {
+        "name": "傳送",
+        "name_en": "Transportation",
+        "level": 65,
+        "value": ["+30", "+(80-90)"],
+        "part": ["boot"]
+      }
+    ],
+    "part": ["boot"]
   },
   {
     "group": "coldharm",
     "format": "附加 # 冰寒傷害",
     "abilitys": [
+      {
+        "name": "霜",
+        "name_en": "Frost",
+        "level": [1, 3],
+        "value": ["1-1"],
+        "part": ["weapon"]
+      },
+      {
+        "name": "霜",
+        "name_en": "Frost",
+        "level": 4,
+        "value": ["1-(1-2)"],
+        "part": ["weapon"]
+      },
       {
         "name": "霜",
         "name_en": "Frost",
@@ -506,6 +1857,13 @@
         "level": 9,
         "value": ["(1-2)-3"],
         "part": ["largecharm"]
+      },
+      {
+        "name": "冰刺",
+        "name_en": "Icicle",
+        "level": 13,
+        "value": ["1-(3-4)"],
+        "part": ["weapon"]
       },
       {
         "name": "霜",
@@ -559,6 +1917,13 @@
       {
         "name": "冰河",
         "name_en": "Glacier",
+        "level": 27,
+        "value": ["(2-4)-(4-15)"],
+        "part": ["weapon"]
+      },
+      {
+        "name": "冰河",
+        "name_en": "Glacier",
         "level": 33,
         "value": ["(3-5)-6"],
         "part": ["smallcharm"]
@@ -580,9 +1945,23 @@
       {
         "name": "嚴冬",
         "name_en": "Winter",
+        "level": 45,
+        "value": ["(5-9)-(16-50)"],
+        "part": ["melee"]
+      },
+      {
+        "name": "嚴冬",
+        "name_en": "Winter",
         "level": 46,
         "value": ["(4-5)-(7-9)"],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "霜",
+        "name_en": "Frost",
+        "level": 55,
+        "value": ["1-(3-6)"],
+        "part": ["necklace", "belt"]
       },
       {
         "name": "冰河的",
@@ -592,7 +1971,7 @@
         "part": ["jewelry"]
       }
     ],
-    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry", "weapon", "necklace", "belt", "melee"]
   },
   {
     "group": "fireharm",
@@ -601,9 +1980,23 @@
       {
         "name": "火焰",
         "name_en": "Flame",
+        "level": [1, 3],
+        "value": ["1-2"],
+        "part": ["weapon"]
+      },
+      {
+        "name": "火焰",
+        "name_en": "Flame",
         "level": 3,
         "value": ["1-2"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "火焰",
+        "name_en": "Flame",
+        "level": 4,
+        "value": ["1-(2-5)"],
+        "part": ["weapon"]
       },
       {
         "name": "火焰",
@@ -634,6 +2027,13 @@
         "part": ["largecharm"]
       },
       {
+        "name": "燃燒",
+        "name_en": "Burning",
+        "level": 14,
+        "value": ["(2-3)-(4-7)"],
+        "part": ["grandcharm"]
+      },
+      {
         "name": "熱情",
         "name_en": "Passion",
         "level": 15,
@@ -641,11 +2041,11 @@
         "part": ["jewelry"]
       },
       {
-        "name": "燃燒",
-        "name_en": "Burning",
-        "level": 14,
-        "value": ["(2-3)-(4-7)"],
-        "part": ["grandcharm"]
+        "name": "火",
+        "name_en": "Fire",
+        "level": 15,
+        "value": ["(1-4)-(6-11)"],
+        "part": ["weapon"]
       },
       {
         "name": "火",
@@ -671,6 +2071,13 @@
       {
         "name": "燃燒",
         "name_en": "Burning",
+        "level": 25,
+        "value": ["(5-9)-(10-20)"],
+        "part": ["weapon"]
+      },
+      {
+        "name": "燃燒",
+        "name_en": "Burning",
         "level": 32,
         "value": ["(3-4)-(5-8)"],
         "part": ["smallcharm"]
@@ -690,6 +2097,20 @@
         "part": ["jewelry"]
       },
       {
+        "name": "火焰",
+        "name_en": "Flame",
+        "level": 40,
+        "value": ["1-(2-6)"],
+        "part": ["necklace", "glove", "ring"]
+      },
+      {
+        "name": "熾炎",
+        "name_en": "Incineration",
+        "level": 43,
+        "value": ["(10-20)-(21-75)"],
+        "part": ["melee"]
+      },
+      {
         "name": "炙炎",
         "name_en": "Incineration",
         "level": 45,
@@ -704,7 +2125,7 @@
         "part": ["jewelry"]
       }
     ],
-    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry", "weapon", "necklace", "glove", "ring", "melee"]
   },
   {
     "group": "lightingharm",
@@ -713,9 +2134,23 @@
       {
         "name": "衝擊",
         "name_en": "Shock",
+        "level": [1, 3],
+        "value": ["3-3"],
+        "part": ["weapon"]
+      },
+      {
+        "name": "衝擊",
+        "name_en": "Shock",
         "level": 4,
         "value": ["(1-2)-3"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "衝擊",
+        "name_en": "Shock",
+        "level": 4,
+        "value": ["6-8"],
+        "part": ["weapon"]
       },
       {
         "name": "衝擊",
@@ -762,6 +2197,13 @@
       {
         "name": "閃電",
         "name_en": "Lightning",
+        "level": 15,
+        "value": ["1-(9-16)"],
+        "part": ["weapon"]
+      },
+      {
+        "name": "閃電",
+        "name_en": "Lightning",
         "level": 21,
         "value": ["(1-7)-10"],
         "part": ["smallcharm"]
@@ -783,6 +2225,13 @@
       {
         "name": "雷電",
         "name_en": "Thunder",
+        "level": 25,
+        "value": ["1-(17-40)"],
+        "part": ["weapon"]
+      },
+      {
+        "name": "雷電",
+        "name_en": "Thunder",
         "level": 33,
         "value": ["(1-11)-18"],
         "part": ["smallcharm"]
@@ -793,6 +2242,13 @@
         "level": 34,
         "value": ["(1-26)-38"],
         "part": ["largecharm"]
+      },
+      {
+        "name": "暴風",
+        "name_en": "Storms",
+        "level": 34,
+        "value": ["(1-6)-(41-120)"],
+        "part": ["melee"]
       },
       {
         "name": "閃電的",
@@ -809,6 +2265,13 @@
         "part": ["smallcharm"]
       },
       {
+        "name": "衝擊",
+        "name_en": "Shock",
+        "level": 50,
+        "value": ["11-23"],
+        "part": ["necklace", "boot", "ring"]
+      },
+      {
         "name": "雷電的",
         "name_en": "Thunder",
         "level": 57,
@@ -816,7 +2279,7 @@
         "part": ["jewelry"]
       }
     ],
-    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry", "weapon", "necklace", "boot", "ring", "melee"]
   },
   {
     "group": "poisonharm",
@@ -835,6 +2298,20 @@
         "level": 1,
         "value": [6, 3],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "枯萎",
+        "name_en": "Blight",
+        "level": [1, 4],
+        "value": [1, 2],
+        "part": ["weapon"]
+      },
+      {
+        "name": "枯萎",
+        "name_en": "Blight",
+        "level": 5,
+        "value": [7, 3],
+        "part": ["circlet", "weapon"]
       },
       {
         "name": "光明",
@@ -874,6 +2351,13 @@
       {
         "name": "毒素",
         "name_en": "Venom",
+        "level": 15,
+        "value": [21, 4],
+        "part": ["circlet", "weapon"]
+      },
+      {
+        "name": "毒素",
+        "name_en": "Venom",
         "level": 20,
         "value": [15, 4],
         "part": ["smallcharm"]
@@ -895,6 +2379,13 @@
       {
         "name": "瘟疫",
         "name_en": "Pestilence",
+        "level": 25,
+        "value": [50, 5],
+        "part": ["circlet", "weapon"]
+      },
+      {
+        "name": "瘟疫",
+        "name_en": "Pestilence",
         "level": 32,
         "value": [25, 5],
         "part": ["smallcharm"]
@@ -907,19 +2398,68 @@
         "part": ["largecharm"]
       },
       {
+        "name": "炭疽",
+        "name_en": "Anthrax",
+        "level": 33,
+        "value": [100, 6],
+        "part": ["weapon"]
+      },
+      {
         "name": "炭蛆",
         "name_en": "Anthrax",
         "level": 44,
         "value": [50, 6],
         "part": ["smallcharm"]
+      },
+      {
+        "name": "枯萎",
+        "name_en": "Blight",
+        "level": 45,
+        "value": [50, 3],
+        "part": ["necklace", "ring"]
       }
     ],
-    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry", "circlet", "weapon", "necklace", "ring"]
+  },
+  {
+    "group": "poisonreduction",
+    "format": "毒素時效減少 #%",
+    "abilitys": [
+      {
+        "name": "醫治",
+        "name_en": "Remedy",
+        "level": 7,
+        "value": [25],
+        "part": ["necklace", "helmet", "armor", "glove", "boot", "belt", "shield", "circlet", "ring"]
+      },
+      {
+        "name": "演進",
+        "name_en": "Amelioration",
+        "level": 18,
+        "value": [50],
+        "part": ["necklace", "armor", "circlet", "shield"]
+      },
+      {
+        "name": "反抗",
+        "name_en": "Defiance",
+        "level": 25,
+        "value": [75],
+        "part": ["necklace", "armor", "circlet", "shield"]
+      }
+    ],
+    "part": ["necklace", "helmet", "armor", "glove", "boot", "belt", "shield", "ring", "circlet"]
   },
   {
     "group": "extramoney",
     "format": "怪物金幣掉落量提高 #%",
     "abilitys": [
+      {
+        "name": "貪婪",
+        "name_en": "Greed",
+        "level": 1,
+        "value": ["(25-40)"],
+        "part": ["necklace", "circlet", "ring"]
+      },
       {
         "name": "貪婪",
         "name_en": "Avarice",
@@ -956,6 +2496,13 @@
         "part": ["smallcharm"]
       },
       {
+        "name": "財富",
+        "name_en": "Wealth",
+        "level": 17,
+        "value": ["(41-80)"],
+        "part": ["necklace", "belt", "boot", "circlet", "glove"]
+      },
+      {
         "name": "貪婪",
         "name_en": "Greed",
         "level": 19,
@@ -970,18 +2517,39 @@
         "part": ["largecharm"]
       }
     ],
-    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry", "necklace", "circlet", "ring", "belt", "boot", "glove"]
   },
   {
     "group": "guarantee",
     "format": "尋獲魔法物品機率提高 #%",
     "abilitys": [
       {
+        "name": "機會",
+        "name_en": "Chance",
+        "level": 12,
+        "value": ["(5-15)"],
+        "part": ["necklace", "boot", "circlet", "glove", "ring"]
+      },
+      {
+        "name": "幸運",
+        "name_en": "Fortune",
+        "level": 16,
+        "value": ["(16-25)"],
+        "part": ["necklace", "boot", "circlet", "glove"]
+      },
+      {
         "name": "富饒",
         "name_en": "Prosperity",
         "level": 26,
         "value": ["(5-10)"],
         "part": ["jewelry"]
+      },
+      {
+        "name": "好運",
+        "name_en": "Luck",
+        "level": 26,
+        "value": ["(26-35)"],
+        "part": ["necklace", "boot", "circlet"]
       },
       {
         "name": "幸運",
@@ -992,13 +2560,20 @@
       },
       {
         "name": "幸運",
+        "name_en": "Fortune",
+        "level": 42,
+        "value": ["(16-25)"],
+        "part": ["ring"]
+      },
+      {
+        "name": "幸運",
         "name_en": "Good Luck",
         "level": 47,
         "value": ["(6-7)"],
         "part": ["smallcharm"]
       }
     ],
-    "part": ["smallcharm", "jewelry"]
+    "part": ["smallcharm", "jewelry", "necklace", "boot", "circlet", "glove", "ring"]
   },
   {
     "group": "needed",
@@ -1010,8 +2585,64 @@
         "level": 1,
         "value": [-15],
         "part": ["jewelry"]
+      },
+      {
+        "name": "安逸",
+        "name_en": "Ease",
+        "level": 15,
+        "value": [-20],
+        "part": ["armor", "shield", "weapon"]
+      },
+      {
+        "name": "簡樸",
+        "name_en": "Simplicity",
+        "level": 25,
+        "value": [-30],
+        "part": ["armor", "shield", "weapon"]
       }
     ],
-    "part": ["jewelry"]
+    "part": ["jewelry", "armor", "shield", "weapon"]
+  },
+  {
+    "group": "accuracyilluminate",
+    "format": "照亮範圍 #\n# 準確率",
+    "abilitys": [
+      {
+        "name": "光明",
+        "name_en": "Light",
+        "level": [1, 5],
+        "value": ["+1", "+10"],
+        "part": ["necklace", "ring"]
+      },
+      {
+        "name": "光明",
+        "name_en": "Light",
+        "level": 6,
+        "value": ["+1", "+15"],
+        "part": ["necklace", "ring", "armor", "rod"]
+      },
+      {
+        "name": "光彩",
+        "name_en": "Radiance",
+        "level": 15,
+        "value": ["+3", "+30"],
+        "part": ["necklace", "bow", "crossbow", "helmet", "ring", "rod"]
+      }
+    ],
+    "part": ["necklace", "armor", "ring", "rod", "helmet", "bow", "crossbow"]
+  },
+  {
+    "group": "accuracyilluminate",
+    "format": "照亮範圍 #\n#% 額外攻擊準確率加成",
+    "abilitys": [
+      {
+        "name": "太陽",
+        "name_en": "Sun",
+        "level": 17,
+        "value": ["+3", "+5"],
+        "part": ["necklace", "bow", "crossbow", "glove", "helmet", "ring", "rod"]
+      }
+    ],
+    "part": ["necklace", "bow", "crossbow", "glove", "helmet", "ring", "rod"]
   }
 ]
