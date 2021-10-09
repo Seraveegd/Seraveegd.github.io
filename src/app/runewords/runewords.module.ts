@@ -5,6 +5,7 @@ import { RunewordsRoutingModule } from './runewords-routing.module';
 import { FilterComponent } from './filter/filter.component';
 import { RuneComponent } from './rune/rune.component';
 import { FilterrunewordPipe } from './filter/filterruneword.pipe';
+import { CommunivateService } from './communivate.service';
 
 
 @NgModule({
@@ -16,6 +17,9 @@ import { FilterrunewordPipe } from './filter/filterruneword.pipe';
   imports: [
     CommonModule,
     RunewordsRoutingModule
+  ],
+  providers: [
+    CommunivateService
   ]
 })
 export class RunewordsModule { }

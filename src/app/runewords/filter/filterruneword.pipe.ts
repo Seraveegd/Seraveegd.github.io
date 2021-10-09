@@ -1,18 +1,32 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'filterruneword'
+  name: 'filterruneword',
+  // pure: false
 })
 export class FilterrunewordPipe implements PipeTransform {
 
-  transform(runewords: any, type: string, type_detail: string): any {
-    if(type === 'rune'){
-      return Object.values(runewords).filter( (runeword: any) => runeword['order'].indexOf(type_detail) > -1);
-    }else if(type === 'weaponlimit'){
-      return Object.values(runewords).filter( (runeword: any) => runeword[type].indexOf(type_detail) > -1);
-    }else{
-      return Object.values(runewords).filter( (runeword: any) => runeword[type] == type_detail);
-    }
+  transform(runewords: any, filters: { [key: string]: string[] }): any {
+    return Object.values(runewords).filter((runeword: any) => {
+      let result = true;
+      Object.keys(filters).forEach(filter => {
+        if (result === true) {
+          if (filter === 'rune') {
+            result = filters[filter].some((e: any) => {
+              return runeword['order'].indexOf(e) > -1;
+            });
+          } else if (filter === 'weaponlimit') {
+            result = filters[filter].some((e: any) => {
+              return runeword[filter].indexOf(e) > -1;
+            });
+          } else {
+            result = filters[filter].indexOf(runeword[filter] + '') > -1;
+          }
+        }
+      })
+
+      return result;
+    });
   }
 
 }

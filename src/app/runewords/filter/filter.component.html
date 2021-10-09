@@ -1,4 +1,8 @@
-<div [ngClass]="'title'">{{ type }}:{{ type_detail}}</div>
+<div [ngClass]="'title'">
+  <span *ngFor="let filter of filters; let last = last">
+    {{ filter }}{{ last ? '' : ';' }}
+  </span>
+</div>
 <div *ngIf="runewords | async; let items">
   <table [ngClass]="'runes'">
     <thead>
@@ -7,7 +11,7 @@
       <th>詞綴</th>
     </thead>
     <tbody>
-      <tr *ngFor="let item of items | filterruneword: type : type_detail">
+      <tr *ngFor="let item of items | filterruneword: filtersFormat">
         <td>{{ types[item.type] }}</td>
         <td>
           <p [ngClass]="'name'">{{ item.name }}</p>

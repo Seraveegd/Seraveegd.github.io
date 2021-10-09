@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { RuneService } from '../rune.service';
 import { Config } from '../../core/config.service';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { CommunivateService } from '../communivate.service';
 
 @Component({
   selector: 'app-filter',
@@ -10,8 +11,11 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
   styleUrls: ['./filter.component.scss']
 })
 export class FilterComponent implements OnInit {
-  type: string = this.route.snapshot.params.type;
-  type_detail: string = this.route.snapshot.params.type_detail;
+  code: string = this.route.snapshot.params.code;
+
+  filters: string[] = [];
+
+  filtersFormat: { [key: string]: string[] } = {} ;
 
   runewords = this.rune.getRuneWords();
   control: any[] = [];
@@ -91,10 +95,16 @@ export class FilterComponent implements OnInit {
     }
   };
 
-  constructor(private route: ActivatedRoute, private rune: RuneService, private config: Config, private sanitizer: DomSanitizer) {
+  constructor(private route: ActivatedRoute, private rune: RuneService, private config: Config, private sanitizer: DomSanitizer,
+              private c: CommunivateService) {
     this.route.params.subscribe(params => {
-      this.type = params.type;
-      this.type_detail = params.type_detail;
+      this.code = params.code;
+
+      this.filters = eval(window.atob(this.code));
+
+      this.filterFormat();
+
+      this.c.updateData(this.code);
     });
   }
 
@@ -109,6 +119,19 @@ export class FilterComponent implements OnInit {
     } else {
       return a;
     }
+  }
+
+  filterFormat(): void{
+    this.filtersFormat = {};
+    this.filters.forEach((filter: string) => {
+      const filters = filter.split(':')
+
+      if(this.filtersFormat[filters[0]] && !this.filtersFormat[filters[0]].includes(filters[1])){
+        this.filtersFormat[filters[0]].push(filters[1])
+      }else{
+        this.filtersFormat[filters[0]] = [filters[1]]
+      }
+    });
   }
 
 }

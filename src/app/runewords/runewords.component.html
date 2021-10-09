@@ -3,94 +3,94 @@
   <div [ngClass]="'rwords'">
     <div [ngClass]="'list'">
       <span>符文</span>
-      <span><a [routerLink]="['rune']" (click)="clink('1')" [ngClass]="{'active': selected === '1'}">符文</a></span>
+      <span [routerLink]="['rune']" (click)="clink('1')" [ngClass]="{'active': selected === '1'}" >符文</span>
     </div>
   </div>
-  <div [ngClass]="'title'">符文組</div>
+  <div [ngClass]="'title'">符文組<span (click)="clearfilters()" [ngClass]="'clear'">清除過濾</span></div>
   <div [ngClass]="'rwords'">
     <div [ngClass]="'list'">
       <span>分類</span>
-      <span><a [routerLink]="['filter', 'type', 'weapon']" (click)="clink('2')" [ngClass]="{'active': selected === '2'}">武器</a></span>
-      <span><a [routerLink]="['filter', 'type', 'helmet']" (click)="clink('3')" [ngClass]="{'active': selected === '3'}">頭盔</a></span>
-      <span><a [routerLink]="['filter', 'type', 'armor']" (click)="clink('4')" [ngClass]="{'active': selected === '4'}">盔甲</a></span>
-      <span><a [routerLink]="['filter', 'type', 'shield']" (click)="clink('5')" [ngClass]="{'active': selected === '5'}">盾牌</a></span>
+      <span (click)="addfilter('type:weapon')" [ngClass]="{'active': filters.includes('type:weapon')}">武器</span>
+      <span (click)="addfilter('type:helmet')" [ngClass]="{'active': filters.includes('type:helmet')}">頭盔</span>
+      <span (click)="addfilter('type:armor')" [ngClass]="{'active': filters.includes('type:armor')}">盔甲</span>
+      <span (click)="addfilter('type:shield')" [ngClass]="{'active': filters.includes('type:shield')}">盾牌</span>
     </div>
     <div [ngClass]="'list'">
       <span>鑲孔數</span>
-      <span><a [routerLink]="['filter', 'slot', '2']" (click)="clink('6')" [ngClass]="{'active': selected === '6'}">2</a></span>
-      <span><a [routerLink]="['filter', 'slot', '3']" (click)="clink('7')" [ngClass]="{'active': selected === '7'}">3</a></span>
-      <span><a [routerLink]="['filter', 'slot', '4']" (click)="clink('8')" [ngClass]="{'active': selected === '8'}">4</a></span>
-      <span><a [routerLink]="['filter', 'slot', '5']" (click)="clink('9')" [ngClass]="{'active': selected === '9'}">5</a></span>
-      <span><a [routerLink]="['filter', 'slot', '6']" (click)="clink('10')" [ngClass]="{'active': selected === '10'}">6</a></span>
+      <span (click)="addfilter('slot:2')" [ngClass]="{'active': filters.includes('slot:2')}">2</span>
+      <span (click)="addfilter('slot:3')" [ngClass]="{'active': filters.includes('slot:3')}">3</span>
+      <span (click)="addfilter('slot:4')" [ngClass]="{'active': filters.includes('slot:4')}">4</span>
+      <span (click)="addfilter('slot:5')" [ngClass]="{'active': filters.includes('slot:5')}">5</span>
+      <span (click)="addfilter('slot:6')" [ngClass]="{'active': filters.includes('slot:6')}">6</span>
     </div>
     <div [ngClass]="'list'">
       <span>職業</span>
-      <span><a [routerLink]="['filter', 'limit', 'sorceress']" (click)="clink('11')" [ngClass]="{'active': selected === '11'}">魔法使</a></span>
-      <span><a [routerLink]="['filter', 'limit', 'paladin']" (click)="clink('12')" [ngClass]="{'active': selected === '12'}">聖騎士</a></span>
-      <span><a [routerLink]="['filter', 'limit', 'necromancer']" (click)="clink('13')" [ngClass]="{'active': selected === '13'}">死靈法師</a></span>
-      <span><a [routerLink]="['filter', 'limit', 'amazon']" (click)="clink('14')" [ngClass]="{'active': selected === '14'}">亞馬遜</a></span>
-      <span><a [routerLink]="['filter', 'limit', 'barbarian']" (click)="clink('15')" [ngClass]="{'active': selected === '15'}">野蠻人</a></span>
-      <span><a [routerLink]="['filter', 'limit', 'assassin']" (click)="clink('16')" [ngClass]="{'active': selected === '16'}">刺客</a></span>
-      <span><a [routerLink]="['filter', 'limit', 'druld']" (click)="clink('17')" [ngClass]="{'active': selected === '17'}">德魯伊</a></span>
+      <span (click)="addfilter('limit:sorceress')" [ngClass]="{'active': filters.includes('limit:sorceress')}">魔法使</span>
+      <span (click)="addfilter('limit:paladin')" [ngClass]="{'active': filters.includes('limit:paladin')}">聖騎士</span>
+      <span (click)="addfilter('limit:necromancer')" [ngClass]="{'active': filters.includes('limit:necromancer')}">死靈法師</span>
+      <span (click)="addfilter('limit:amazon')" [ngClass]="{'active': filters.includes('limit:amazon')}">亞馬遜</span>
+      <span (click)="addfilter('limit:barbarian')" [ngClass]="{'active': filters.includes('limit:barbarian')}">野蠻人</span>
+      <span (click)="addfilter('limit:assassin')" [ngClass]="{'active': filters.includes('limit:assassin')}">刺客</span>
+      <span (click)="addfilter('limit:druld')" [ngClass]="{'active': filters.includes('limit:druld')}">德魯伊</span>
     </div>
     <div [ngClass]="'list'">
       <span>武器</span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'sword']" (click)="clink('18')" [ngClass]="{'active': selected === '18'}">刀劍</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'axe']" (click)="clink('19')" [ngClass]="{'active': selected === '19'}">斧頭</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'polearm']" (click)="clink('20')" [ngClass]="{'active': selected === '20'}">長柄</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'mace']" (click)="clink('21')" [ngClass]="{'active': selected === '21'}">釘鎚</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'scepter']" (click)="clink('22')" [ngClass]="{'active': selected === '22'}">權杖</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'wand']" (click)="clink('23')" [ngClass]="{'active': selected === '23'}">魔杖</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'stave']" (click)="clink('24')" [ngClass]="{'active': selected === '24'}">法杖</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'assassinkatar']" (click)="clink('27')" [ngClass]="{'active': selected === '27'}">爪</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'club']" (click)="clink('25')" [ngClass]="{'active': selected === '25'}">棍棒</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'hammer']" (click)="clink('26')" [ngClass]="{'active': selected === '26'}">槌子</a></span>
-      <span><a [routerLink]="['filter', 'weaponlimit' , 'weapons']" (click)="clink('99')" [ngClass]="{'active': selected === '99'}">任何武器</a></span>
+      <span (click)="addfilter('weaponlimit:sword')" [ngClass]="{'active': filters.includes('weaponlimit:sword')}">刀劍</span>
+      <span (click)="addfilter('weaponlimit:axe')" [ngClass]="{'active': filters.includes('weaponlimit:axe')}">斧頭</span>
+      <span (click)="addfilter('weaponlimit:polearm')" [ngClass]="{'active': filters.includes('weaponlimit:polearm')}">長柄</span>
+      <span (click)="addfilter('weaponlimit:mace')" [ngClass]="{'active': filters.includes('weaponlimit:mace')}">釘鎚</span>
+      <span (click)="addfilter('weaponlimit:scepter')" [ngClass]="{'active': filters.includes('weaponlimit:scepter')}">權杖</span>
+      <span (click)="addfilter('weaponlimit:wand')" [ngClass]="{'active': filters.includes('weaponlimit:wand')}">魔杖</span>
+      <span (click)="addfilter('weaponlimit:stave')" [ngClass]="{'active': filters.includes('weaponlimit:stave')}">法杖</span>
+      <span (click)="addfilter('weaponlimit:assassinkatar')" [ngClass]="{'active': filters.includes('weaponlimit:assassinkatar')}">爪</span>
+      <span (click)="addfilter('weaponlimit:club')" [ngClass]="{'active': filters.includes('weaponlimit:club')}">棍棒</span>
+      <span (click)="addfilter('weaponlimit:hammer')" [ngClass]="{'active': filters.includes('weaponlimit:hammer')}">槌子</span>
+      <span (click)="addfilter('weaponlimit:weapons')" [ngClass]="{'active': filters.includes('weaponlimit:weapons')}">任何武器</span>
     </div>
     <div [ngClass]="'list'">
       <span>攻擊類型</span>
-      <span><a [routerLink]="['filter', 'attack', 'melee']" (click)="clink('28')" [ngClass]="{'active': selected === '28'}">近戰</a></span>
-      <span><a [routerLink]="['filter', 'attack', 'missile']" (click)="clink('29')" [ngClass]="{'active': selected === '29'}">遠程</a></span>
+      <span (click)="addfilter('attack:melee')" [ngClass]="{'active': filters.includes('attack:melee')}">近戰</span>
+      <span (click)="addfilter('attack:missile')" [ngClass]="{'active': filters.includes('attack:missile')}">遠程</span>
     </div>
     <div [ngClass]="'list'">
       <span>符文</span>
-      <span><a [routerLink]="['filter', 'rune', 'El']" (click)="clink('30')" [ngClass]="{'active': selected === '30'}">艾爾(1)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Eld']" (click)="clink('31')" [ngClass]="{'active': selected === '31'}">艾德(2)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Tir']" (click)="clink('32')" [ngClass]="{'active': selected === '32'}">特爾(3)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Nef']" (click)="clink('33')" [ngClass]="{'active': selected === '33'}">那夫(4)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Eth']" (click)="clink('34')" [ngClass]="{'active': selected === '34'}">愛斯(5)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Ith']" (click)="clink('35')" [ngClass]="{'active': selected === '35'}">伊司(6)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Tal']" (click)="clink('36')" [ngClass]="{'active': selected === '36'}">塔爾(7)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Ral']" (click)="clink('37')" [ngClass]="{'active': selected === '37'}">拉爾(8)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Ort']" (click)="clink('38')" [ngClass]="{'active': selected === '38'}">歐特(9)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Thul']" (click)="clink('39')" [ngClass]="{'active': selected === '39'}">書爾(10)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Amn']" (click)="clink('40')" [ngClass]="{'active': selected === '40'}">安姆(11)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Sol']" (click)="clink('41')" [ngClass]="{'active': selected === '41'}">索爾(12)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Shael']" (click)="clink('42')" [ngClass]="{'active': selected === '42'}">夏(13)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Dol']" (click)="clink('43')" [ngClass]="{'active': selected === '43'}">多爾(14)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Hel']" (click)="clink('44')" [ngClass]="{'active': selected === '44'}">海爾(15)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Io']" (click)="clink('45')" [ngClass]="{'active': selected === '45'}">埃歐(16)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Lum']" (click)="clink('46')" [ngClass]="{'active': selected === '46'}">盧姆(17)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Ko']" (click)="clink('47')" [ngClass]="{'active': selected === '47'}">科(18)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Fal']" (click)="clink('48')" [ngClass]="{'active': selected === '48'}">法爾(19)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Lem']" (click)="clink('49')" [ngClass]="{'active': selected === '49'}">藍姆(20)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Pul']" (click)="clink('50')" [ngClass]="{'active': selected === '50'}">普爾(21)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Um']" (click)="clink('51')" [ngClass]="{'active': selected === '51'}">烏姆(22)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Mal']" (click)="clink('52')" [ngClass]="{'active': selected === '52'}">馬爾(23)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Ist']" (click)="clink('53')" [ngClass]="{'active': selected === '53'}">伊斯特(24)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Gul']" (click)="clink('54')" [ngClass]="{'active': selected === '54'}">古爾(25)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Vex']" (click)="clink('55')" [ngClass]="{'active': selected === '55'}">伐克斯(26)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Ohm']" (click)="clink('56')" [ngClass]="{'active': selected === '56'}">歐姆(27)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Lo']" (click)="clink('57')" [ngClass]="{'active': selected === '57'}">羅(28)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Sur']" (click)="clink('58')" [ngClass]="{'active': selected === '58'}">瑟(29)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Ber']" (click)="clink('59')" [ngClass]="{'active': selected === '59'}">貝(30)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Jah']" (click)="clink('60')" [ngClass]="{'active': selected === '60'}">喬(31)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Cham']" (click)="clink('61')" [ngClass]="{'active': selected === '61'}">查姆(32)</a></span>
-      <span><a [routerLink]="['filter', 'rune', 'Zod']" (click)="clink('62')" [ngClass]="{'active': selected === '62'}">薩德(33)</a></span>
+      <span (click)="addfilter('rune:El')" [ngClass]="{'active': filters.includes('rune:El')}">艾爾(1)</span>
+      <span (click)="addfilter('rune:Eld')" [ngClass]="{'active': filters.includes('rune:Eld')}">艾德(2)</span>
+      <span (click)="addfilter('rune:Tir')" [ngClass]="{'active': filters.includes('rune:Tir')}">特爾(3)</span>
+      <span (click)="addfilter('rune:Nef')" [ngClass]="{'active': filters.includes('rune:Nef')}">那夫(4)</span>
+      <span (click)="addfilter('rune:Eth')" [ngClass]="{'active': filters.includes('rune:Eth')}">愛斯(5)</span>
+      <span (click)="addfilter('rune:Ith')" [ngClass]="{'active': filters.includes('rune:Ith')}">伊司(6)</span>
+      <span (click)="addfilter('rune:Tal')" [ngClass]="{'active': filters.includes('rune:Tal')}">塔爾(7)</span>
+      <span (click)="addfilter('rune:Ral')" [ngClass]="{'active': filters.includes('rune:Ral')}">拉爾(8)</span>
+      <span (click)="addfilter('rune:Ort')" [ngClass]="{'active': filters.includes('rune:Ort')}">歐特(9)</span>
+      <span (click)="addfilter('rune:Thul')" [ngClass]="{'active': filters.includes('rune:Thul')}">書爾(10)</span>
+      <span (click)="addfilter('rune:Amn')" [ngClass]="{'active': filters.includes('rune:Amn')}">安姆(11)</span>
+      <span (click)="addfilter('rune:Sol')" [ngClass]="{'active': filters.includes('rune:Sol')}">索爾(12)</span>
+      <span (click)="addfilter('rune:Shael')" [ngClass]="{'active': filters.includes('rune:Shael')}">夏(13)</span>
+      <span (click)="addfilter('rune:Dol')" [ngClass]="{'active': filters.includes('rune:Dol')}">多爾(14)</span>
+      <span (click)="addfilter('rune:Hel')" [ngClass]="{'active': filters.includes('rune:Hel')}">海爾(15)</span>
+      <span (click)="addfilter('rune:Io')" [ngClass]="{'active': filters.includes('rune:Io')}">埃歐(16)</span>
+      <span (click)="addfilter('rune:Lum')" [ngClass]="{'active': filters.includes('rune:Lum')}">盧姆(17)</span>
+      <span (click)="addfilter('rune:Ko')" [ngClass]="{'active': filters.includes('rune:Ko')}">科(18)</span>
+      <span (click)="addfilter('rune:Fal')" [ngClass]="{'active': filters.includes('rune:Fal')}">法爾(19)</span>
+      <span (click)="addfilter('rune:Lem')" [ngClass]="{'active': filters.includes('rune:Lem')}">藍姆(20)</span>
+      <span (click)="addfilter('rune:Pul')" [ngClass]="{'active': filters.includes('rune:Pul')}">普爾(21)</span>
+      <span (click)="addfilter('rune:Um')" [ngClass]="{'active': filters.includes('rune:Um')}">烏姆(22)</span>
+      <span (click)="addfilter('rune:Mal')" [ngClass]="{'active': filters.includes('rune:Mal')}">馬爾(23)</span>
+      <span (click)="addfilter('rune:Ist')" [ngClass]="{'active': filters.includes('rune:Ist')}">伊斯特(24)</span>
+      <span (click)="addfilter('rune:Gul')" [ngClass]="{'active': filters.includes('rune:Gul')}">古爾(25)</span>
+      <span (click)="addfilter('rune:Vex')" [ngClass]="{'active': filters.includes('rune:Vex')}">伐克斯(26)</span>
+      <span (click)="addfilter('rune:Ohm')" [ngClass]="{'active': filters.includes('rune:Ohm')}">歐姆(27)</span>
+      <span (click)="addfilter('rune:Lo')" [ngClass]="{'active': filters.includes('rune:Lo')}">羅(28)</span>
+      <span (click)="addfilter('rune:Sur')" [ngClass]="{'active': filters.includes('rune:Sur')}">瑟(29)</span>
+      <span (click)="addfilter('rune:Ber')" [ngClass]="{'active': filters.includes('rune:Ber')}">貝(30)</span>
+      <span (click)="addfilter('rune:Jah')" [ngClass]="{'active': filters.includes('rune:Jah')}">喬(31)</span>
+      <span (click)="addfilter('rune:Cham')" [ngClass]="{'active': filters.includes('rune:Cham')}">查姆(32)</span>
+      <span (click)="addfilter('rune:Zod')" [ngClass]="{'active': filters.includes('rune:Zod')}">薩德(33)</span>
     </div>
     <div [ngClass]="'list'">
       <span>天梯</span>
-      <span><a [routerLink]="['filter', 'ladder', 'ladder']" (click)="clink('63')" [ngClass]="{'active': selected === '63'}">天梯</a></span>
+      <span (click)="addfilter('ladder:ladder')" [ngClass]="{'active': filters.includes('ladder:ladder')}">天梯</span>
     </div>
   </div>
   <router-outlet></router-outlet>

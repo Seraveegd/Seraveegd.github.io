@@ -8,7 +8,8 @@ const routes: Routes = [
   {
     path: '', component: RunewordsComponent, children: [
       { path: 'rune', component: RuneComponent },
-      { path: 'filter/:type/:type_detail', component: FilterComponent},
+      // { path: 'filter/:type/:type_detail', component: FilterComponent},
+      { path: 'filter/:code', component: FilterComponent},
     ]
   },
 ];

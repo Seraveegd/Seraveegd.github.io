@@ -592,41 +592,6 @@
         "part": ["necklace", "belt", "boot", "circlet", "glove", "ring"]
       },
       {
-        "name": "栗色之",
-        "name_en": "Chestnut",
-        "level": 1,
-        "value": ["+(10-15)"],
-        "part": ["jewelry"]
-      },
-      {
-        "name": "茶色之",
-        "name_en": "Maroon",
-        "level": 1,
-        "value": ["+(16-25)"],
-        "part": ["jewelry"]
-      },
-      {
-        "name": "凹凸",
-        "name_en": "Rugged",
-        "level": 8,
-        "value": ["+(11-20)"],
-        "part": ["necklace", "belt", "boot", "circlet", "ring"]
-      },
-      {
-        "name": "活力",
-        "name_en": "Vigorous",
-        "level": 16,
-        "value": ["+(21-30)"],
-        "part": ["belt", "boot"]
-      }
-    ],
-    "part": ["jewelry", "necklace", "belt", "boot", "circlet", "glove", "ring"]
-  },
-  {
-    "group": "maxharm",
-    "format": "# 能量",
-    "abilitys": [
-      {
         "name": "凹凸",
         "name_en": "Rugged",
         "level": 1,
@@ -641,11 +606,25 @@
         "part": ["largecharm"]
       },
       {
+        "name": "栗色之",
+        "name_en": "Chestnut",
+        "level": 1,
+        "value": ["+(10-15)"],
+        "part": ["jewelry"]
+      },
+      {
         "name": "凹凸",
         "name_en": "Rugged",
         "level": 1,
         "value": ["+(12-24)"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "茶色之",
+        "name_en": "Maroon",
+        "level": 1,
+        "value": ["+(16-25)"],
+        "part": ["jewelry"]
       },
       {
         "name": "凹凸",
@@ -660,6 +639,20 @@
         "level": 7,
         "value": ["+(25-36)"],
         "part": ["grandcharm"]
+      },
+      {
+        "name": "凹凸",
+        "name_en": "Rugged",
+        "level": 8,
+        "value": ["+(11-20)"],
+        "part": ["necklace", "belt", "boot", "circlet", "ring"]
+      },
+      {
+        "name": "活力",
+        "name_en": "Vigorous",
+        "level": 16,
+        "value": ["+(21-30)"],
+        "part": ["belt", "boot"]
       },
       {
         "name": "凹凸",
@@ -683,7 +676,7 @@
         "part": ["grandcharm"]
       }
     ],
-    "part": ["smallcharm", "largecharm", "grandcharm"]
+    "part": ["smallcharm", "largecharm", "grandcharm", "jewelry", "necklace", "belt", "boot", "circlet", "glove", "ring"]
   },
   {
     "group": "accuracy",
