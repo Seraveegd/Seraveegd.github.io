@@ -21,9 +21,9 @@ export class FilterComponent implements OnInit {
 
   parts: { [key: string]: string } = {
     helmet: '頭盔',
-    barbarianhelm: '野蠻人限定頭盔',
+    barbarianhelmet: '野蠻人限定頭盔',
     barbarian: '野蠻人限定頭盔',
-    druidpeltshelm: '德魯伊限定頭盔',
+    druidpeltshelmet: '德魯伊限定頭盔',
     druld: '德魯伊限定頭盔',
     armor: '盔甲',
     belt: '腰帶',

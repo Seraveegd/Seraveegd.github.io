@@ -3,7 +3,7 @@
   <ng-container *ngFor="let td of (partNeedtofind.includes(type_detail) ? getUniqueKind(items) : toArray(type_detail))">
     <ng-container [ngSwitch]="td">
       <ng-container
-        *ngSwitchCase="['helmet', 'barbarianhelm', 'druidpeltshelm', 'barbarian', 'druld'].includes(td) ? td : !td">
+        *ngSwitchCase="['helmet', 'barbarianhelmet', 'druidpeltshelmet', 'barbarian', 'druld'].includes(td) ? td : !td">
         <div [ngClass]="'title'">{{ parts[td] }}</div>
         <table [ngClass]="'armors'">
           <thead>

@@ -1,0 +1,189 @@
+<div [ngClass]="'title'">{{ type }}:{{ type_detail}}</div>
+<div *ngIf="sets | async | filterset: type : type_detail; let items ">
+  <ng-container *ngFor="let ug of getUniqueGroup(items)">
+    <ng-container [ngSwitch]="ug">
+      <ng-container *ngSwitchDefault>
+        <div [ngClass]="'title'">{{ groups[ug] }}</div>
+        <div [ngClass]="'groups'">
+          <div *ngIf="setEffects | async | filterset: 'group' : ug; let effect" [ngClass]="'seteffect'">
+            <ng-container *ngFor="let value of getKeys(effect[0].ability)">
+              <div [ngClass]="'effecttitle'">{{ value === 'all' ? '完整': value + '件' }}套裝加成：</div>
+              <ng-container *ngFor="let a of effect[0].ability[value]; let i = index">
+                <div [innerHTML]="showAbility(a, effect[0].ability_values[value][i])" [ngClass]="'effect'"></div>
+              </ng-container>
+            </ng-container>
+          </div>
+          <div [ngClass]="'sets'">
+            <ng-container *ngFor="let item of items | filterset: 'group' : ug">
+              <ng-container [ngSwitch]="item.type">
+                <ng-container *ngSwitchCase="'armor'">
+                  <div [ngClass]="'block'">
+                    <div [ngClass]="'images'">
+                      <img [src]="'/assets/images/items/set/' + item.group + '/' + item.part + '.png'">
+                    </div>
+                    <div>
+                      <div [ngClass]="'name'">
+                        <div *ngIf="item.name">
+                          {{ item.name }}
+                        </div>
+                        <div *ngIf="item.name_en">
+                          ({{ item.name_en }})
+                        </div>
+                      </div>
+                      <div>
+                        <div *ngIf="item.attributes.base">
+                          基礎裝備：{{ item.attributes.base }}
+                        </div>
+                        <div *ngIf="item.attributes.defense">
+                          防禦：<span>({{ item.attributes.defense.min }}-{{ item.attributes.defense.max }})</span>
+                        </div>
+                        <div *ngIf="item.attributes.level">
+                          需要等級：<span>{{ item.attributes.level }}</span>
+                        </div>
+                        <div *ngIf="item.attributes.strength">
+                          需要力量：<span>{{ item.attributes.strength }}</span>
+                        </div>
+                        <div *ngIf="item.attributes.durability">
+                          耐久度：<span>{{ item.attributes.durability }}</span>
+                        </div>
+                        <div *ngIf="item.attributes.capacity">
+                          容量格數：<span>{{ item.attributes.capacity }}</span>
+                        </div>
+                        <div *ngIf="item.attributes.block">
+                          格擋機率：<span>{{ item.attributes.block }}%</span>
+                        </div>
+                        <div *ngIf="item.attributes.critical_damage.min">
+                          重擊傷害：<span>{{ item.attributes.critical_damage.min }}-{{ item.attributes.critical_damage.max }}</span>
+                        </div>
+                        <div *ngIf="item.attributes.assassin_kick_damage.min">
+                          刺客踢擊傷害：<span>{{ item.attributes.assassin_kick_damage.min }}-{{ item.attributes.assassin_kick_damage.max }}</span>
+                        </div>
+                        <div *ngIf="parts[item.part]">
+                          ({{ parts[item.part] }})
+                        </div>
+                      </div>
+                      <div>
+                        <ng-container *ngFor="let a of item.ability; let i = index">
+                          <div [innerHTML]="showAbility(a, item.ability_values[i])" [ngClass]="'effect'"></div>
+                        </ng-container>
+                        <p></p>
+                        <ng-container *ngFor="let value of getKeys(item.set_ability)">
+                          <div [ngClass]="'effecttitle'">
+                            {{ value === 'all' ? '完整': isnumber(value) ? value + '件' : '搭配' + value }}套裝加成：</div>
+                          <ng-container *ngFor="let a of item.set_ability[value]; let i = index">
+                            <div [innerHTML]="showAbility(a, item.set_ability_values[value][i])" [ngClass]="'effect'">
+                            </div>
+                          </ng-container>
+                        </ng-container>
+                      </div>
+                    </div>
+                  </div>
+                </ng-container>
+                <ng-container *ngSwitchCase="'weapon'">
+                  <div [ngClass]="'block'">
+                    <div [ngClass]="'images'">
+                      <img
+                        [src]="'/assets/images/items/set/' + item.group + '/' + item.part + (item.group === 'bulkathoschildren' ? '-' + item.attributes.hand : '') + '.png'">
+                    </div>
+                    <div>
+                      <div [ngClass]="'name'">
+                        <div *ngIf="item.name">
+                          {{ item.name }}
+                        </div>
+                        <div *ngIf="item.name_en">
+                          ({{ item.name_en }})
+                        </div>
+                      </div>
+                      <div>
+                        <div *ngIf="item.attributes.base">
+                          基礎裝備：{{ item.attributes.base }}
+                        </div>
+                        <div *ngIf="item.attributes.attack">
+                          <ng-container *ngIf="item.attributes.hand == 'two' && item.part == 'sword'">
+                            單手傷害：<span>({{ item.attributes.oneharm.min }}-{{ item.attributes.oneharm.max }})</span><br>
+                          </ng-container>
+                          {{ item.attributes.hand == 'one' ? '單手' : '雙手' }}傷害：<span>({{ item.attributes.hand == 'one' ? item.attributes.oneharm.min : item.attributes.twoharm.min }}-{{ item.attributes.hand == 'one' ? item.attributes.oneharm.max : item.attributes.twoharm.max }})</span>
+                        </div>
+                        <div *ngIf="item.attributes.level">
+                          需要等級：<span>{{ item.attributes.level }}</span>
+                        </div>
+                        <div *ngIf="item.attributes.strength">
+                          需要力量：<span>{{ item.attributes.strength }}</span>
+                        </div>
+                        <div *ngIf="item.attributes.agile">
+                          需要敏捷：<span>{{ item.attributes.agile }}</span>
+                        </div>
+                        <div *ngIf="item.attributes.durability">
+                          耐久度：<span>{{ item.attributes.durability }}</span>
+                        </div>
+                        <div *ngIf="isnumber(item.attributes.speed)">
+                          武器基本速度：<span>{{ item.attributes.speed }}</span>
+                        </div>
+                        <div *ngIf="parts[item.part]">
+                          ({{ parts[item.part] }})
+                        </div>
+                      </div>
+                      <div>
+                        <ng-container *ngFor="let a of item.ability; let i = index">
+                          <div [innerHTML]="showAbility(a, item.ability_values[i])" [ngClass]="'effect'"></div>
+                        </ng-container>
+                        <p></p>
+                        <ng-container *ngFor="let value of getKeys(item.set_ability)">
+                          <div [ngClass]="'effecttitle'">
+                            {{ value === 'all' ? '完整': isnumber(value) ? value + '件' : '搭配' + value }}套裝加成：</div>
+                          <ng-container *ngFor="let a of item.set_ability[value]; let i = index">
+                            <div [innerHTML]="showAbility(a, item.set_ability_values[value][i])" [ngClass]="'effect'">
+                            </div>
+                          </ng-container>
+                        </ng-container>
+                      </div>
+                    </div>
+                  </div>
+                </ng-container>
+                <ng-container *ngSwitchCase="'accessories'">
+                  <div [ngClass]="'block'">
+                    <div [ngClass]="'images'">
+                      <img [src]="'/assets/images/items/set/' + item.group + '/' + item.part + '.png'">
+                    </div>
+                    <div>
+                      <div [ngClass]="'name'">
+                        <div *ngIf="item.name">
+                          {{ item.name }}
+                        </div>
+                        <div *ngIf="item.name_en">
+                          ({{ item.name_en }})
+                        </div>
+                      </div>
+                      <div>
+                        <div *ngIf="item.attributes.base">
+                          基礎裝備：{{ item.attributes.base }}
+                        </div>
+                        <div *ngIf="item.attributes.level">
+                          需要等級：<span>{{ item.attributes.level }}</span>
+                        </div>
+                      </div>
+                      <div>
+                        <ng-container *ngFor="let a of item.ability; let i = index">
+                          <div [innerHTML]="showAbility(a, item.ability_values[i])" [ngClass]="'effect'"></div>
+                        </ng-container>
+                        <p></p>
+                        <ng-container *ngFor="let value of getKeys(item.set_ability)">
+                          <div [ngClass]="'effecttitle'">
+                            {{ value === 'all' ? '完整': isnumber(value) ? value + '件' : '搭配' + value }}套裝加成：</div>
+                          <ng-container *ngFor="let a of item.set_ability[value]; let i = index">
+                            <div [innerHTML]="showAbility(a, item.set_ability_values[value][i])" [ngClass]="'effect'">
+                            </div>
+                          </ng-container>
+                        </ng-container>
+                      </div>
+                    </div>
+                  </div>
+                </ng-container>
+              </ng-container>
+            </ng-container>
+          </div>
+        </div>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+</div>

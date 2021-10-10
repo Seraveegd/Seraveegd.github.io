@@ -49,10 +49,9 @@
 
   td {
     font-size: 20px;
-    vertical-align: top;
 
-    &:first-child {
-      vertical-align: top;
+    p {
+      margin: 0;
     }
 
     .name {

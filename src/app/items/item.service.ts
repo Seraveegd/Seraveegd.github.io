@@ -8,7 +8,7 @@ export class ItemService {
 
   constructor(private http: HttpClient) { }
 
-  getNormalArmorItems(): any{
+  getNormalArmorItems(): any {
     return this.http.get<{
       type: string,
       part: string,
@@ -30,7 +30,7 @@ export class ItemService {
     }[]>('/assets/armor.json');
   }
 
-  getNormalWeaponItems(): any{
+  getNormalWeaponItems(): any {
     return this.http.get<{
       type: string,
       kind: string,
@@ -54,7 +54,7 @@ export class ItemService {
     }[]>('/assets/weapon.json');
   }
 
-  getGems(): any{
+  getGems(): any {
     return this.http.get<{
       type: string,
       quility: string,
@@ -65,5 +65,31 @@ export class ItemService {
       armor: Array<[]>,
       keywords: string[]
     }[]>('/assets/gem.json');
+  }
+
+  getSets(): any {
+    return this.http.get<{
+      group: string,
+      set: string,
+      set_en: string,
+      type: string,
+      part: string,
+      name: string,
+      name_en: string,
+      attributes: object,
+      ability: Array<[]>,
+      ability_values: Array<[]>,
+      set_ability: Array<[]>,
+      set_ability_values: Array<[]>,
+      limit: string
+    }[]>('/assets/set.json');
+  }
+
+  getSetEffects(): any {
+    return this.http.get<{
+      group: string,
+      ability: object,
+      ability_values: object
+    }[]>('/assets/seteffect.json');
   }
 }

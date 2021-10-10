@@ -1,0 +1,132 @@
+<div [ngClass]="'title'">成套裝備</div>
+<div [ngClass]="'rwords'">
+  <div [ngClass]="'list'">
+    <span>名稱</span>
+    <span><a [routerLink]="['filter', 'group', 'angelicraiment']" (click)="clink('1')"
+        [ngClass]="{'active': selected === '1'}">天使的衣裝</a></span>
+    <span><a [routerLink]="['filter', 'group', 'arcannastricks']" (click)="clink('2')"
+        [ngClass]="{'active': selected === '2'}">阿卡娜的詭計</a></span>
+    <span><a [routerLink]="['filter', 'group', 'arcticgear']" (click)="clink('3')"
+        [ngClass]="{'active': selected === '3'}">北極裝備</a></span>
+    <span><a [routerLink]="['filter', 'group', 'berserkersarsenal']" (click)="clink('4')"
+        [ngClass]="{'active': selected === '4'}">狂戰士的武裝</a></span>
+    <span><a [routerLink]="['filter', 'group', 'cathanstraps']" (click)="clink('5')"
+        [ngClass]="{'active': selected === '5'}">卡珊的衣著</a></span>
+    <span><a [routerLink]="['filter', 'group', 'civerbsvestments']" (click)="clink('6')"
+        [ngClass]="{'active': selected === '6'}">克維雷布的法衣</a></span>
+    <span><a [routerLink]="['filter', 'group', 'cleglawsbrace']" (click)="clink('7')"
+        [ngClass]="{'active': selected === '7'}">克雷德勞的防備</a></span>
+    <span><a [routerLink]="['filter', 'group', 'deathsdisguise']" (click)="clink('8')"
+        [ngClass]="{'active': selected === '8'}">死亡的偽裝</a></span>
+    <span><a [routerLink]="['filter', 'group', 'hsarusdefense']" (click)="clink('9')"
+        [ngClass]="{'active': selected === '9'}">海沙魯的鐵禦</a></span>
+    <span><a [routerLink]="['filter', 'group', 'infernaltools']" (click)="clink('10')"
+        [ngClass]="{'active': selected === '10'}">煉獄器具</a></span>
+    <span><a [routerLink]="['filter', 'group', 'irathasfinery']" (click)="clink('11')"
+        [ngClass]="{'active': selected === '11'}">依雷撒的華服</a></span>
+    <span><a [routerLink]="['filter', 'group', 'isenhartsarmory']" (click)="clink('12')"
+        [ngClass]="{'active': selected === '12'}">依森哈特的軍械</a></span>
+    <span><a [routerLink]="['filter', 'group', 'milabregasregalia']" (click)="clink('13')"
+        [ngClass]="{'active': selected === '13'}">米拉伯佳戰裝</a></span>
+    <span><a [routerLink]="['filter', 'group', 'sigonscompletesteel']" (click)="clink('14')"
+        [ngClass]="{'active': selected === '14'}">西剛的全套鋼甲</a></span>
+    <span><a [routerLink]="['filter', 'group', 'tancredsbattlegear']" (click)="clink('15')"
+        [ngClass]="{'active': selected === '15'}">坦克雷的戰裝</a></span>
+    <span><a [routerLink]="['filter', 'group', 'vidalasrig']" (click)="clink('16')"
+        [ngClass]="{'active': selected === '16'}">維達拉的配備</a></span>
+    <span><a [routerLink]="['filter', 'group', 'aldurswatchtower']" (click)="clink('17')"
+        [ngClass]="{'active': selected === '17'}">艾爾多的守衛</a></span>
+    <span><a [routerLink]="['filter', 'group', 'bulkathoschildren']" (click)="clink('18')"
+        [ngClass]="{'active': selected === '18'}">布爾凱索的子嗣</a></span>
+    <span><a [routerLink]="['filter', 'group', 'cowkingsleathers']" (click)="clink('19')"
+        [ngClass]="{'active': selected === '19'}">牛王皮甲</a></span>
+    <span><a [routerLink]="['filter', 'group', 'thedisciple']" (click)="clink('20')"
+        [ngClass]="{'active': selected === '20'}">門徒</a></span>
+    <span><a [routerLink]="['filter', 'group', 'griswoldslegacy']" (click)="clink('21')"
+        [ngClass]="{'active': selected === '21'}">格里斯瓦德的傳奇</a></span>
+    <span><a [routerLink]="['filter', 'group', 'heavensbrethren']" (click)="clink('22')"
+        [ngClass]="{'active': selected === '22'}">天堂的同胞</a></span>
+    <span><a [routerLink]="['filter', 'group', 'hwaninsmajesty']" (click)="clink('23')"
+        [ngClass]="{'active': selected === '23'}">桓因的威嚴</a></span>
+    <span><a [routerLink]="['filter', 'group', 'immortalking']" (click)="clink('24')"
+        [ngClass]="{'active': selected === '24'}">不朽之王</a></span>
+    <span><a [routerLink]="['filter', 'group', 'mavinasbattlehymn']" (click)="clink('25')"
+        [ngClass]="{'active': selected === '25'}">馬維娜之戰鬥詩歌</a></span>
+    <span><a [routerLink]="['filter', 'group', 'natalyasodium']" (click)="clink('26')"
+        [ngClass]="{'active': selected === '26'}">娜塔亞的非難</a></span>
+    <span><a [routerLink]="['filter', 'group', 'najsancientvestige']" (click)="clink('27')"
+        [ngClass]="{'active': selected === '27'}">娜吉的上古遺物</a></span>
+    <span><a [routerLink]="['filter', 'group', 'orphanscall']" (click)="clink('28')"
+        [ngClass]="{'active': selected === '28'}">孤兒的呼喚</a></span>
+    <span><a [routerLink]="['filter', 'group', 'sandersfolly']" (click)="clink('29')"
+        [ngClass]="{'active': selected === '29'}">山德的愚行</a></span>
+    <span><a [routerLink]="['filter', 'group', 'sazabisgrandtribute']" (click)="clink('30')"
+        [ngClass]="{'active': selected === '30'}">沙撒璧的雄偉貢品</a></span>
+    <span><a [routerLink]="['filter', 'group', 'talrashaswrappings']" (click)="clink('31')"
+        [ngClass]="{'active': selected === '31'}">塔拉夏的外袍</a></span>
+    <span><a [routerLink]="['filter', 'group', 'trangoulsavatar']" (click)="clink('32')"
+        [ngClass]="{'active': selected === '32'}">塔格奧的化身</a></span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>職業</span>
+    <span><a [routerLink]="['filter', 'limit', 'sorceress']" (click)="clink('33')"
+        [ngClass]="{'active': selected === '33'}">魔法使</a></span>
+    <span><a [routerLink]="['filter', 'limit', 'paladin']" (click)="clink('34')"
+        [ngClass]="{'active': selected === '34'}">聖騎士</a></span>
+    <span><a [routerLink]="['filter', 'limit', 'necromancer']" (click)="clink('35')"
+        [ngClass]="{'active': selected === '35'}">死靈法師</a></span>
+    <span><a [routerLink]="['filter', 'limit', 'amazon']" (click)="clink('36')"
+        [ngClass]="{'active': selected === '36'}">亞馬遜</a></span>
+    <span><a [routerLink]="['filter', 'limit', 'barbarian']" (click)="clink('37')"
+        [ngClass]="{'active': selected === '37'}">野蠻人</a></span>
+    <span><a [routerLink]="['filter', 'limit', 'assassin']" (click)="clink('38')"
+        [ngClass]="{'active': selected === '38'}">刺客</a></span>
+    <span><a [routerLink]="['filter', 'limit', 'druid']" (click)="clink('39')"
+        [ngClass]="{'active': selected === '39'}">德魯伊</a></span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>部位</span>
+    <span><a [routerLink]="['filter', 'part', 'helmet,barbarianhelmet,druidpeltshelmet']" (click)="clink('40')"
+        [ngClass]="{'active': selected === '40'}">頭盔</a></span>
+    <span><a [routerLink]="['filter', 'part', 'armor']" (click)="clink('41')"
+        [ngClass]="{'active': selected === '41'}">盔甲</a></span>
+    <span><a [routerLink]="['filter', 'part', 'belt']" (click)="clink('42')"
+        [ngClass]="{'active': selected === '42'}">腰帶</a></span>
+    <span><a [routerLink]="['filter', 'part', 'glove']" (click)="clink('43')"
+        [ngClass]="{'active': selected === '43'}">手套</a></span>
+    <span><a [routerLink]="['filter', 'part', 'boot']" (click)="clink('44')"
+        [ngClass]="{'active': selected === '44'}">靴子</a></span>
+    <span><a [routerLink]="['filter', 'part', 'shield,paladinshield,ncershrunkenhead']" (click)="clink('45')"
+        [ngClass]="{'active': selected === '45'}">盾牌</a></span>
+    <span><a [routerLink]="['filter', 'part', 'necklace']" (click)="clink('46')"
+        [ngClass]="{'active': selected === '46'}">護身符</a></span>
+    <span><a [routerLink]="['filter', 'part', 'ring']" (click)="clink('47')"
+        [ngClass]="{'active': selected === '47'}">戒指</a></span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>武器</span>
+    <span><a [routerLink]="['filter', 'part', 'sword']" (click)="clink('48')"
+        [ngClass]="{'active': selected === '48'}">刀劍</a></span>
+    <span><a [routerLink]="['filter', 'part', 'axe']" (click)="clink('49')"
+        [ngClass]="{'active': selected === '49'}">斧頭</a></span>
+    <span><a [routerLink]="['filter', 'part', 'polearm']" (click)="clink('50')"
+        [ngClass]="{'active': selected === '50'}">長柄</a></span>
+    <span><a [routerLink]="['filter', 'part', 'mace']" (click)="clink('51')"
+        [ngClass]="{'active': selected === '51'}">釘鎚</a></span>
+    <span><a [routerLink]="['filter', 'part', 'scepter']" (click)="clink('52')"
+        [ngClass]="{'active': selected === '52'}">權杖</a></span>
+    <span><a [routerLink]="['filter', 'part', 'bow,amazonbow']" (click)="clink('53')"
+        [ngClass]="{'active': selected === '53'}">弓</a></span>
+    <span><a [routerLink]="['filter', 'part', 'wand']" (click)="clink('54')"
+        [ngClass]="{'active': selected === '54'}">魔杖</a></span>
+    <span><a [routerLink]="['filter', 'part', 'stave']" (click)="clink('55')"
+        [ngClass]="{'active': selected === '55'}">法杖</a></span>
+    <span><a [routerLink]="['filter', 'part', 'sorceressorb']" (click)="clink('56')"
+        [ngClass]="{'active': selected === '56'}">法珠</a></span>
+    <span><a [routerLink]="['filter', 'part', 'assassinkatar']" (click)="clink('57')"
+        [ngClass]="{'active': selected === '57'}">爪</a></span>
+    <span><a [routerLink]="['filter', 'part', 'club']" (click)="clink('58')"
+        [ngClass]="{'active': selected === '58'}">棍棒</a></span>
+  </div>
+</div>
+<router-outlet></router-outlet>

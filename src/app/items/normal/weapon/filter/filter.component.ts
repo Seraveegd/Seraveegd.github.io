@@ -30,9 +30,9 @@ export class FilterComponent implements OnInit {
     throwing: '投擲武器',
     wand: '魔杖',
     stave: '法杖',
-    sorceressorb: '魔法師限定法珠',
+    sorceressorb: '魔法使限定法珠',
     assassinkatar: '刺客限定爪',
-    sorceress: '魔法師限定法珠',
+    sorceress: '魔法使限定法珠',
     assassin: '刺客限定爪',
     hammer: '槌子',
     club: '棍棒'

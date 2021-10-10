@@ -5,7 +5,7 @@
       <span>裝備</span>
       <span><a [routerLink]="['normal']" (click)="clink('1')" [ngClass]="{'active': selected === '1'}">基礎裝備</a></span>
       <span><a (click)="clink('2')" [ngClass]="{'active': selected === '2'}">獨特裝備</a></span>
-      <span><a (click)="clink('3')" [ngClass]="{'active': selected === '3'}">成套裝備</a></span>
+      <span><a [routerLink]="['set']" (click)="clink('3')" [ngClass]="{'active': selected === '3'}">成套裝備</a></span>
     </div>
     <div [ngClass]="'list'">
       <span>寶石</span>
