@@ -43,7 +43,8 @@
         "name_en": "Swords",
         "level": 47,
         "value": ["(10-20)"],
-        "part": ["armor", "circlet", "shield"]
+        "part": ["armor", "circlet", "shield"],
+        "magic": ["armor", "circlet", "shield"]
       }
     ],
     "part": ["jewelry", "belt", "armor", "circlet", "shield"]
@@ -85,7 +86,8 @@
         "name_en": "Fervor",
         "level": 39,
         "value": [15],
-        "part": ["jewelry"]
+        "part": ["jewelry"],
+        "magic": ["jewelry"]
       },
       {
         "name": "輕快",
@@ -225,7 +227,8 @@
         "name_en": "Carnage",
         "level": 25,
         "value": ["+(11-15)"],
-        "part": ["jewelry"]
+        "part": ["jewelry"],
+        "magic": ["jewelry"]
       },
       {
         "name": "工匠",
@@ -246,7 +249,8 @@
         "name_en": "Butchery",
         "level": 35,
         "value": ["+(21-40)"],
-        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"],
+        "magic": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
       },
       {
         "name": "殘廢",
@@ -281,7 +285,8 @@
         "name_en": "Evisceration",
         "level": 45,
         "value": ["+(41-63)"],
-        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"],
+        "magic": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
       },
       {
         "name": "殘廢",
@@ -393,7 +398,8 @@
         "name_en": "Performance",
         "level": 81,
         "value": ["+(10-13)"],
-        "part": ["necklace", "circlet", "ring"]
+        "part": ["necklace", "circlet", "ring"],
+        "magic": ["necklace", "circlet", "ring"]
       }
     ],
     "part": ["jewelry", "necklace", "circlet", "ring", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
@@ -533,14 +539,16 @@
         "name_en": "Life Everlasting",
         "level": 45,
         "value": ["(10-25)"],
-        "part": ["necklace", "circlet"]
+        "part": ["necklace", "circlet"],
+        "magic": ["necklace", "circlet"]
       },
       {
         "name": "和睦",
-        "name_en": "Anima",
+        "name_en": "Amicae",
         "level": 51,
         "value": ["(8-15)"],
-        "part": ["circlet", "armor", "shield"]
+        "part": ["circlet", "armor", "shield"],
+        "magic": ["circlet", "armor", "shield"]
       }
     ],
     "part": ["necklace", "armor", "circlet", "ring", "shield"]
@@ -589,14 +597,16 @@
         "name_en": "Negation",
         "level": 41,
         "value": ["(4-6)"],
-        "part": ["armor", "circlet", "shield"]
+        "part": ["armor", "circlet", "shield"],
+        "magic": ["armor", "circlet", "shield"]
       },
       {
         "name": "否定",
         "name_en": "Negation",
         "level": 42,
         "value": ["(4-6)"],
-        "part": ["circlet", "necklace", "orb"]
+        "part": ["circlet", "necklace", "orb"],
+        "magic": ["circlet", "necklace", "orb"]
       }
     ],
     "part": ["necklace", "armor", "circlet", "orb", "ring", "shield"]
@@ -631,7 +641,8 @@
         "name_en": "Revivification",
         "level": 38,
         "value": ["+(11-15)"],
-        "part": ["necklace", "circlet", "scepter"]
+        "part": ["necklace", "circlet", "scepter"],
+        "magic": ["necklace", "circlet", "scepter"]
       },
       {
         "name": "重造",
@@ -827,7 +838,8 @@
         "name_en": "Squid",
         "level": 40,
         "value": ["+(61-80)"],
-        "part": ["necklace", "barbarianhelm", "belt", "armor", "circlet"]
+        "part": ["necklace", "barbarianhelm", "belt", "armor", "circlet"],
+        "magic": ["necklace", "barbarianhelm", "belt", "armor", "circlet"]
       },
       {
         "name": "耐久",
@@ -848,7 +860,8 @@
         "name_en": "Hope",
         "level": 45,
         "value": ["+(9-20)"],
-        "part": ["jewelry"]
+        "part": ["jewelry"],
+        "magic": ["jewelry"]
       },
       {
         "name": "耐久",
@@ -869,7 +882,8 @@
         "name_en": "Whale",
         "level": 50,
         "value": ["+(81-100)"],
-        "part": ["necklace", "barbarianhelm", "belt", "armor", "circlet"]
+        "part": ["necklace", "barbarianhelm", "belt", "armor", "circlet"],
+        "magic": ["necklace", "barbarianhelm", "belt", "armor", "circlet"]
       },
       {
         "name": "虎",
@@ -915,10 +929,11 @@
       },
       {
         "name": "巨神",
-        "name_en": "Gargantuan",
+        "name_en": "Colossus",
         "level": 75,
         "value": ["+(41-60)"],
-        "part": ["druidpeltshelm", "shield"]
+        "part": ["druidpeltshelm", "shield"],
+        "magic": ["druidpeltshelm", "shield"]
       },
       {
         "name": "精力",
@@ -946,7 +961,8 @@
         "name_en": "Centaur",
         "level": 20,
         "value": ["+(0.75-74.25)"],
-        "part": ["necklace", "barbarianhelm", "armor", "druidpeltshelm"]
+        "part": ["necklace", "barbarianhelm", "armor", "druidpeltshelm"],
+        "magic": ["necklace", "barbarianhelm", "armor", "druidpeltshelm"]
       }
     ],
     "part": ["necklace", "barbarianhelm", "armor", "druidpeltshelm"]
@@ -960,7 +976,8 @@
         "name_en": "Memory",
         "level": 20,
         "value": ["+(0.75-74.25)"],
-        "part": ["necklace", "circlet", "druidpeltshelm"]
+        "part": ["necklace", "circlet", "druidpeltshelm"],
+        "magic": ["necklace", "circlet", "druidpeltshelm"]
       }
     ],
     "part": ["necklace", "circlet", "druidpeltshelm"]
@@ -974,7 +991,8 @@
         "name_en": "Elephant",
         "level": 37,
         "value": ["+(0.5-49.5)", "+(0.25-24.75)"],
-        "part": ["circlet", "druidpeltshelm"]
+        "part": ["circlet", "druidpeltshelm"],
+        "magic": ["circlet", "druidpeltshelm"]
       }
     ],
     "part": ["circlet", "druidpeltshelm"]
@@ -1485,21 +1503,24 @@
         "name_en": "Precision",
         "level": 60,
         "value": ["+(10-15)"],
-        "part": ["armor", "boot"]
+        "part": ["armor", "boot"],
+        "magic": ["armor", "boot"]
       },
       {
         "name": "涅盤",
         "name_en": "Nirvana",
         "level": 72,
         "value": ["+(21-30)"],
-        "part": ["necklace", "bow", "circlet", "crossbow"]
+        "part": ["necklace", "bow", "circlet", "crossbow"],
+        "magic": ["necklace", "bow", "circlet", "crossbow"]
       },
       {
         "name": "完美",
         "name_en": "Perfection",
         "level": 75,
         "value": ["+(16-20)"],
-        "part": ["glove", "ring"]
+        "part": ["glove", "ring"],
+        "magic": ["glove", "ring"]
       }
     ],
     "part": ["smallcharm", "largecharm", "grandcharm", "jewelry", "necklace", "bow", "circlet", "crossbow", "glove", "ring", "armor", "boot"]
@@ -1597,7 +1618,8 @@
         "name_en": "Sorcery",
         "level": 26,
         "value": ["+(11-15)"],
-        "part": ["helmet", "scepter"]
+        "part": ["helmet", "scepter"],
+        "magic": ["helmet", "scepter"]
       },
       {
         "name": "幻術",
@@ -1625,14 +1647,16 @@
         "name_en": "Wizardry",
         "level": 41,
         "value": ["+(16-20)"],
-        "part": ["ring"]
+        "part": ["ring"],
+        "magic": ["ring"]
       },
       {
         "name": "啟發",
         "name_en": "Enlightenment",
         "level": 41,
         "value": ["+(21-30)"],
-        "part": ["necklace", "circlet", "orb", "stave", "wand"]
+        "part": ["necklace", "circlet", "orb", "stave", "wand"],
+        "magic": ["necklace", "circlet", "orb", "stave", "wand"]
       }
     ],
     "part": ["jewelry", "necklace", "circlet", "orb", "stave", "wand", "helmet", "scepter", "ring"]
@@ -1723,7 +1747,8 @@
         "name_en": "Ages",
         "level": 50,
         "value": [],
-        "part": ["helmet", "armor", "glove", "boot", "belt", "shield", "weapon"]
+        "part": ["helmet", "armor", "glove", "boot", "belt", "shield", "weapon"],
+        "magic": ["helmet", "armor", "glove", "boot", "belt", "shield", "weapon"]
       }
     ],
     "part": ["helmet", "armor", "glove", "boot", "belt", "shield", "weapon"]
@@ -1800,7 +1825,8 @@
         "name_en": "Acceleration",
         "level": 51,
         "value": ["+40"],
-        "part": ["boot"]
+        "part": ["boot"],
+        "magic": ["boot"]
       }
     ],
     "part": ["smallcharm", "largecharm", "grandcharm", "boot", "circlet"]
@@ -1814,7 +1840,8 @@
         "name_en": "Transportation",
         "level": 65,
         "value": ["+30", "+(80-90)"],
-        "part": ["boot"]
+        "part": ["boot"],
+        "magic": ["boot"]
       }
     ],
     "part": ["boot"]
@@ -1968,7 +1995,8 @@
         "name_en": "Glacier",
         "level": 58,
         "value": ["(4-5)-(11-15)"],
-        "part": ["jewelry"]
+        "part": ["jewelry"],
+        "magic": ["jewelry"]
       }
     ],
     "part": ["smallcharm", "largecharm", "grandcharm", "jewelry", "weapon", "necklace", "belt", "melee"]
@@ -2549,7 +2577,8 @@
         "name_en": "Luck",
         "level": 26,
         "value": ["(26-35)"],
-        "part": ["necklace", "boot", "circlet"]
+        "part": ["necklace", "boot", "circlet"],
+        "magic": ["necklace", "boot", "circlet"]
       },
       {
         "name": "幸運",
@@ -2563,7 +2592,8 @@
         "name_en": "Fortune",
         "level": 42,
         "value": ["(16-25)"],
-        "part": ["ring"]
+        "part": ["ring"],
+        "magic": ["ring"]
       },
       {
         "name": "幸運",

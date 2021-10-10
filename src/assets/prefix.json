@@ -15,14 +15,16 @@
         "name_en": "Artisan's",
         "level": 33,
         "value": [3],
-        "part": ["armor", "helmet", "shield", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "katar", "club", "hammer", "wand", "stave", "orb"]
+        "part": ["armor", "helmet", "shield", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "katar", "club", "hammer", "wand", "stave", "orb"],
+        "magic": ["armor", "helmet", "shield", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "katar", "club", "hammer", "wand", "stave", "orb"]
       },
       {
         "name": "珠寶匠",
         "name_en": "Jeweler's",
         "level": 55,
         "value": [4],
-        "part": ["armor", "shield", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "katar", "club", "hammer", "wand", "stave", "orb"]
+        "part": ["armor", "shield", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "katar", "club", "hammer", "wand", "stave", "orb"],
+        "magic": ["armor", "shield", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "katar", "club", "hammer", "wand", "stave", "orb"]
       }
     ],
     "part": ["armor", "circlet", "helmet", "shield", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "katar", "club", "hammer", "wand", "stave", "orb"]
@@ -197,7 +199,8 @@
         "name_en": "Ivory",
         "level": 64,
         "value": ["+(41-64)"],
-        "part": ["jewelry"]
+        "part": ["jewelry"],
+        "magic": ["jewelry"]
       }
     ],
     "part": ["smallcharm", "largecharm", "grandcharm", "jewelry"]
@@ -281,7 +284,8 @@
         "name_en": "Godly",
         "level": 45,
         "value": ["+(101-200)"],
-        "part": ["glove", "helmet", "armor", "boot", "belt", "shield"]
+        "part": ["glove", "helmet", "armor", "boot", "belt", "shield"],
+        "magic": ["glove", "helmet", "armor", "boot", "belt", "shield"]
       },
       {
         "name": "神",
@@ -404,10 +408,11 @@
       },
       {
         "name": "朱砂之",
-        "name_en": "Vermillion",
+        "name_en": "Vermilion",
         "level": 58,
         "value": ["+(11-15)"],
-        "part": ["jewelry"]
+        "part": ["jewelry"],
+        "magic": ["jewelry"]
       },
       {
         "name": "鋸齒",
@@ -512,7 +517,8 @@
         "name_en": "Cruel",
         "level": 51,
         "value": ["+(201-300)"],
-        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"],
+        "magic": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
       },
       {
         "name": "殘忍",
@@ -526,7 +532,8 @@
         "name_en": "Ruby",
         "level": 66,
         "value": ["+(31-40)"],
-        "part": ["jewelry"]
+        "part": ["jewelry"],
+        "magic": ["jewelry"]
       }
     ],
     "part": ["jewelry", "circlet", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
@@ -855,7 +862,8 @@
         "name_en": "Weird",
         "level": 37,
         "value": ["+(301-450)"],
-        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"],
+        "magic": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
       },
       {
         "name": "鋼",
@@ -890,7 +898,8 @@
         "name_en": "Argent",
         "level": 44,
         "value": ["+(61-100)"],
-        "part": ["jewelry"]
+        "part": ["jewelry"],
+        "magic": ["jewelry"]
       },
       {
         "name": "鋼",
@@ -925,7 +934,8 @@
         "name_en": "Hawkeye",
         "level": 35,
         "value": ["+(6-594)"],
-        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"],
+        "magic": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
       }
     ],
     "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
@@ -1023,7 +1033,8 @@
         "name_en": "Grandmaster's",
         "level": 69,
         "value": ["+(251-300)", "+(151-200)"],
-        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"],
+        "magic": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
       }
     ],
     "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer"]
@@ -1240,7 +1251,8 @@
         "name_en": "Turquoise",
         "level": 29,
         "value": ["+(16-20)"],
-        "part": ["jewelry"]
+        "part": ["jewelry"],
+        "magic": ["jewelry"]
       },
       {
         "name": "維特",
@@ -1310,7 +1322,8 @@
         "name_en": "Bahamut's",
         "level": 45,
         "value": ["+(91-120)"],
-        "part": ["necklace", "circlet", "orb", "ring", "rod"]
+        "part": ["necklace", "circlet", "orb", "ring", "rod"],
+        "magic": ["necklace", "circlet", "ring", "rod"]
       },
       {
         "name": "海蛇",
@@ -1443,7 +1456,8 @@
         "name_en": "Scintillating",
         "level": 34,
         "value": ["+(11-15)"],
-        "part": ["jewelry"]
+        "part": ["jewelry"],
+        "magic": ["jewelry"]
       },
       {
         "name": "閃耀",
@@ -1485,14 +1499,16 @@
         "name_en": "Chromatic",
         "level": 50,
         "value": ["+(21-30)"],
-        "part": ["shield"]
+        "part": ["shield"],
+        "magic": ["shield"]
       },
       {
         "name": "多彩",
         "name_en": "Chromatic",
         "level": 55,
         "value": ["+(21-30)"],
-        "part": ["necklace", "circlet"]
+        "part": ["necklace", "circlet"],
+        "magic": ["necklace", "circlet"]
       },
       {
         "name": "彩虹",
@@ -1506,7 +1522,8 @@
         "name_en": "Scintillating",
         "level": 67,
         "value": ["+(12-15)"],
-        "part": ["ring"]
+        "part": ["ring"],
+        "magic": ["ring"]
       }
     ],
     "part": ["smallcharm", "largecharm", "grandcharm", "jewelry", "shield", "necklace", "circlet", "ring"]
@@ -2598,7 +2615,8 @@
         "name_en": "Pestilent",
         "level": 50,
         "value": [275, 6],
-        "part": ["weapon"]
+        "part": ["weapon"],
+        "magic": ["weapon"]
       },
       {
         "name": "劇毒",
@@ -3088,21 +3106,24 @@
         "name_en": "Archer's",
         "level": 60,
         "value": ["+3", "弓與十字弓"],
-        "part": ["bow", "crossbow", "glove"]
+        "part": ["bow", "crossbow", "glove"],
+        "magic": ["bow", "crossbow", "glove"]
       },
       {
         "name": "競賽",
-        "name_en": "Athlete's",
+        "name_en": "Athletic",
         "level": 60,
         "value": ["+3", "被動與魔法"],
-        "part": ["necklace", "circlet", "glove"]
+        "part": ["necklace", "circlet", "glove"],
+        "magic": ["necklace", "circlet", "glove"]
       },
       {
         "name": "長槍兵",
         "name_en": "Lancer's",
         "level": 60,
         "value": ["+3", "標槍與長矛"],
-        "part": ["glove", "spear"]
+        "part": ["glove", "spear"],
+        "magic": ["glove", "spear"]
       }
     ],
     "part": ["bow", "crossbow", "glove", "necklace", "circlet", "spear"]
@@ -3158,21 +3179,24 @@
         "name_en": "Volcanic",
         "level": 60,
         "value": ["+3", "火焰系"],
-        "part": ["necklace", "circlet", "orb", "stave"]
+        "part": ["necklace", "circlet", "orb", "stave"],
+        "magic": ["necklace", "circlet", "orb", "stave"]
       },
       {
         "name": "力量十足",
         "name_en": "Powered",
         "level": 60,
         "value": ["+3", "閃電系"],
-        "part": ["necklace", "circlet", "orb", "stave"]
+        "part": ["necklace", "circlet", "orb", "stave"],
+        "magic": ["necklace", "circlet", "orb", "stave"]
       },
       {
         "name": "冰冷",
         "name_en": "Glacial",
         "level": 60,
         "value": ["+3", "冰冷系"],
-        "part": ["necklace", "circlet", "orb", "stave"]
+        "part": ["necklace", "circlet", "orb", "stave"],
+        "magic": ["necklace", "circlet", "orb", "stave"]
       }
     ],
     "part": ["necklace", "circlet", "orb", "stave"]
@@ -3225,24 +3249,27 @@
       },
       {
         "name": "詛咒",
-        "name_en": "Accursed",
+        "name_en": "Cursing",
         "level": 60,
         "value": ["+3", "詛咒"],
-        "part": ["necklace", "circlet", "helmet", "wand"]
+        "part": ["necklace", "circlet", "helmet", "wand"],
+        "magic": ["necklace", "circlet", "helmet", "wand"]
       },
       {
         "name": "劇毒",
         "name_en": "Venomous",
         "level": 60,
         "value": ["+3", "毒素與白骨"],
-        "part": ["necklace", "circlet", "helmet", "wand", "dagger"]
+        "part": ["necklace", "circlet", "helmet", "wand", "dagger"],
+        "magic": ["necklace", "circlet", "helmet", "wand", "dagger"]
       },
       {
         "name": "石魔之王",
         "name_en": "Golemlord's",
         "level": 60,
         "value": ["+3", "召喚"],
-        "part": ["necklace", "circlet", "helmet", "wand"]
+        "part": ["necklace", "circlet", "helmet", "wand"],
+        "magic": ["necklace", "circlet", "helmet", "wand"]
       }
     ],
     "part": ["necklace", "circlet", "helmet", "wand", "dagger"]
@@ -3298,21 +3325,24 @@
         "name_en": "Rose Branded",
         "level": 60,
         "value": ["+3", "戰鬥"],
-        "part": ["necklace", "circlet", "mace", "paladinshield", "scepter", "shield", "sword"]
+        "part": ["necklace", "circlet", "mace", "paladinshield", "scepter", "shield", "sword"],
+        "magic": ["necklace", "circlet", "mace", "paladinshield", "scepter", "shield", "sword"]
       },
       {
         "name": "元帥",
         "name_en": "Marshal's",
         "level": 60,
         "value": ["+3", "攻擊性靈氣"],
-        "part": ["necklace", "circlet", "mace", "paladinshield", "scepter", "shield", "sword"]
+        "part": ["necklace", "circlet", "mace", "paladinshield", "scepter", "shield", "sword"],
+        "magic": ["necklace", "circlet", "mace", "paladinshield", "scepter", "shield", "sword"]
       },
       {
         "name": "守護者",
         "name_en": "Guardian's",
         "level": 60,
         "value": ["+3", "防禦性靈氣"],
-        "part": ["necklace", "circlet", "paladinshield", "shield"]
+        "part": ["necklace", "circlet", "paladinshield", "shield"],
+        "magic": ["necklace", "circlet", "paladinshield", "shield"]
       }
     ],
     "part": ["necklace", "circlet", "mace", "paladinshield", "scepter", "shield", "sword"]
@@ -3368,21 +3398,24 @@
         "name_en": "Master's",
         "level": 60,
         "value": ["+3", "戰鬥"],
-        "part": ["barbarianhelm", "helmet", "weapon"]
+        "part": ["barbarianhelm", "helmet", "weapon"],
+        "magic": ["barbarianhelm", "helmet", "weapon"]
       },
       {
         "name": "狂怒",
         "name_en": "Furious",
         "level": 60,
         "value": ["+3", "支配性"],
-        "part": ["barbarianhelm", "weapon", "necklace"]
+        "part": ["barbarianhelm", "weapon", "necklace"],
+        "magic": ["barbarianhelm", "weapon", "necklace"]
       },
       {
         "name": "回音",
         "name_en": "Echoing",
         "level": 60,
         "value": ["+3", "戰嚎"],
-        "part": ["barbarianhelm", "weapon", "necklace"]
+        "part": ["barbarianhelm", "weapon", "necklace"],
+        "magic": ["barbarianhelm", "weapon", "necklace"]
       }
     ],
     "part": ["barbarianhelm", "helmet", "weapon", "necklace"]
@@ -3438,21 +3471,24 @@
         "name_en": "Keeper's",
         "level": 60,
         "value": ["+3", "召喚"],
-        "part": ["necklace", "circlet", "club", "druidpeltshelm"]
+        "part": ["necklace", "circlet", "club", "druidpeltshelm"],
+        "magic": ["necklace", "circlet", "club", "druidpeltshelm"]
       },
       {
         "name": "共有",
         "name_en": "Communal",
         "level": 60,
         "value": ["+3", "變形"],
-        "part": ["necklace", "circlet", "club", "druidpeltshelm"]
+        "part": ["necklace", "circlet", "club", "druidpeltshelm"],
+        "magic": ["necklace", "circlet", "club", "druidpeltshelm"]
       },
       {
         "name": "蓋亞",
         "name_en": "Gaea's",
         "level": 60,
         "value": ["+3", "元素"],
-        "part": ["necklace", "circlet", "club", "druidpeltshelm"]
+        "part": ["necklace", "circlet", "club", "druidpeltshelm"],
+        "magic": ["necklace", "circlet", "club", "druidpeltshelm"]
       }
     ],
     "part": ["necklace", "circlet", "club", "druidpeltshelm"]
@@ -3508,21 +3544,24 @@
         "name_en": "Cunning",
         "level": 60,
         "value": ["+3", "陷阱"],
-        "part": ["necklace", "circlet", "katar"]
+        "part": ["necklace", "circlet", "katar"],
+        "magic": ["necklace", "circlet", "katar"]
       },
       {
         "name": "陰影",
         "name_en": "Shadow",
         "level": 60,
         "value": ["+3", "影子訓練"],
-        "part": ["necklace", "circlet", "katar", "helmet"]
+        "part": ["necklace", "circlet", "katar", "helmet"],
+        "magic": ["necklace", "circlet", "katar", "helmet"]
       },
       {
         "name": "劍聖",
         "name_en": "Kenshi's",
         "level": 60,
         "value": ["+3", "武學藝術"],
-        "part": ["necklace", "circlet", "katar", "glove"]
+        "part": ["necklace", "circlet", "katar", "glove"],
+        "magic": ["necklace", "circlet", "katar", "glove"]
       }
     ],
     "part": ["necklace", "circlet", "katar", "helmet", "glove"]
@@ -3543,7 +3582,8 @@
         "name_en": "Fortuitous",
         "level": 12,
         "value": ["(11-15)"],
-        "part": ["necklace", "circlet", "ring"]
+        "part": ["necklace", "circlet", "ring"],
+        "magic": ["necklace", "circlet", "ring"]
       },
       {
         "name": "好運",
@@ -3676,7 +3716,8 @@
         "name_en": "Celestial",
         "level": 55,
         "value": ["+(300-400)", "+(201-300)"],
-        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer", "stave"]
+        "part": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer", "stave"],
+        "magic": ["sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer", "stave"]
       }
     ],
     "part": ["jewelry", "circlet", "sword", "axe", "polearm", "spear", "mace", "scepter", "bow", "crossbow", "javelin", "dagger", "throwing", "katar", "club", "hammer", "stave"]
@@ -3725,7 +3766,8 @@
         "name_en": "Divine",
         "level": 55,
         "value": ["+(326-450)", "+(276-350)"],
-        "part": ["weapon"]
+        "part": ["weapon"],
+        "magic": ["weapon"]
       }
     ],
     "part": ["jewelry", "weapon"]
@@ -3795,7 +3837,8 @@
         "name_en": "Wailing",
         "level": 24,
         "value": ["32"],
-        "part": ["bow", "crossbow"]
+        "part": ["bow", "crossbow"],
+        "magic": ["bow", "crossbow"]
       }
     ],
     "part": ["bow", "crossbow", "weapon"]

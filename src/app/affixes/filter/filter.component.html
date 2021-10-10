@@ -15,6 +15,7 @@
             <ng-container *ngIf="abilitys.length > 1">
               <span [innerHTML]="showAffixe(p.format, '#')"></span>
             </ng-container>
+            <span [ngClass]="'rare'" [innerHTML]="getMaxlevelRare(abilitys, type_detail)"></span>
           </ng-container>
         </div>
       </div>
@@ -33,6 +34,7 @@
             <ng-container *ngIf="abilitys.length > 1">
               <span [innerHTML]="showAffixe(s.format, '#')"></span>
             </ng-container>
+            <span [ngClass]="'rare'" [innerHTML]="getMaxlevelRare(abilitys, type_detail)"></span>
           </ng-container>
         </div>
       </div>

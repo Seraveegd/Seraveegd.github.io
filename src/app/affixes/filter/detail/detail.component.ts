@@ -23,17 +23,36 @@ export class DetailComponent implements OnInit {
     }
   }
 
-  close(): void{
+  close(): void {
     this.dialogRef.close();
   }
 
-  showLevel(level: any): string{
-    // const levels = level.split(',');
-    if(typeof level === 'number'){
+  showLevel(level: any): string {
+    if (typeof level === 'number') {
       return level + '';
-    }else{
+    } else {
       return '(' + level.join('-') + ')';
     }
+  }
+
+  getRare(ability: any, td: string): SafeHtml {
+    const details = td.split(',');
+
+    let result = '稀有';
+
+    if (ability !== {} && ability.hasOwnProperty('magic')) {
+      details.forEach((d: any) => {
+        if (ability.magic.includes(d) || d === 'smallcharm' || d === 'largecharm' || d === 'grandcharm') {
+          result = '魔法';
+        }
+      });
+    }
+
+    if (details.length === 1 && (td === 'smallcharm' || td === 'largecharm' || td === 'grandcharm')) {
+      result = '魔法';
+    }
+
+    return this.sanitizer.bypassSecurityTrustHtml(result === '稀有' ? `<span style="color: rgb(255 255 111)">${result}</span>` : result);
   }
 
 }
