@@ -4,6 +4,8 @@ import { RuneService } from '../rune.service';
 import { Config } from '../../core/config.service';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { CommunivateService } from '../communivate.service';
+import { Clipboard } from "@angular/cdk/clipboard"
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-filter',
@@ -15,7 +17,7 @@ export class FilterComponent implements OnInit {
 
   filters: string[] = [];
 
-  filtersFormat: { [key: string]: string[] } = {} ;
+  filtersFormat: { [key: string]: string[] } = {};
 
   runewords = this.rune.getRuneWords();
   control: any[] = [];
@@ -96,7 +98,7 @@ export class FilterComponent implements OnInit {
   };
 
   constructor(private route: ActivatedRoute, private rune: RuneService, private config: Config, private sanitizer: DomSanitizer,
-              private c: CommunivateService) {
+    private c: CommunivateService, private clipboard: Clipboard, private snackBar: MatSnackBar) {
     this.route.params.subscribe(params => {
       this.code = params.code;
 
@@ -121,17 +123,29 @@ export class FilterComponent implements OnInit {
     }
   }
 
-  filterFormat(): void{
+  filterFormat(): void {
     this.filtersFormat = {};
     this.filters.forEach((filter: string) => {
       const filters = filter.split(':')
 
-      if(this.filtersFormat[filters[0]] && !this.filtersFormat[filters[0]].includes(filters[1])){
+      if (this.filtersFormat[filters[0]] && !this.filtersFormat[filters[0]].includes(filters[1])) {
         this.filtersFormat[filters[0]].push(filters[1])
-      }else{
+      } else {
         this.filtersFormat[filters[0]] = [filters[1]]
       }
     });
+  }
+
+  genandcopy(item: any): void {
+    if (this.clipboard.copy(this.config.api_base_url + '/runewords/filter/' + window.btoa(JSON.stringify(['type:' + item.type, 'name_en:' + item.name_en])))) {
+      this.snackBar.open('已複製連結', '確認', {
+        duration: 2000
+      });
+    } else {
+      this.snackBar.open('複製連結失敗', '確認', {
+        duration: 2000
+      });
+    }
   }
 
 }

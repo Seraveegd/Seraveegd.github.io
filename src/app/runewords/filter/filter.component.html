@@ -43,6 +43,7 @@
               限定：<a [href]="weapontypes[item.attack].url">{{ weapontypes[item.attack].name }}</a>
             </ng-container>
           </div>
+          <mat-icon (click)="genandcopy(item)" [matTooltip]="'複製連結'">link</mat-icon>
         </td>
         <td [ngClass]="'effect'">
           <ng-container *ngFor="let a of item.ability; let i = index">

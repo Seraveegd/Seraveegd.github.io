@@ -35,11 +35,16 @@
 
   tr:hover {
     background-color: #272727;
+
+    mat-icon{
+      opacity: 1;
+    }
   }
 
   td {
     font-size: 20px;
     vertical-align: top;
+    position: relative;
 
     &:first-child {
       vertical-align: top;
@@ -47,6 +52,18 @@
 
     .name {
       color: #dcc684;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    mat-icon{
+      position: absolute;
+      right: 8px;
+      top: 8px;
+      color: #ccc;
+      cursor: pointer;
+      opacity: 0;
     }
 
     .ladder {

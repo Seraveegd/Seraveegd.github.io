@@ -14,6 +14,7 @@
   background: rgb(34 34 34);
   border: 2px solid rgba(56, 118, 46, 0.5);
   margin-bottom: 10px;
+  align-items: flex-start;
 
   span {
     color: rgb(3 203 203);
@@ -22,6 +23,7 @@
   .sets {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
 
     .block {
       border: 1px solid rgb(48 48 48 / 70%);
