@@ -1,0 +1,1332 @@
+[
+  {
+    "quality": "normal",
+    "type": "armor",
+    "part": "helmet",
+    "name": "畢格因的軟帽",
+    "name_en": "Biggin's Bonnet",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "帽子",
+      "defense": {
+        "min": 17,
+        "max": 19
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 3,
+      "strength": null,
+      "durability": 60,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": ["#% 增強傷害", "# 防禦", "# 準確率", "# 法力", "# 生命"],
+    "ability_values": [["+30"], ["+14"], ["+30"], ["+15"], ["+15"]],
+    "limit": ""
+  },
+  {
+    "quality": "normal",
+    "type": "armor",
+    "part": "helmet",
+    "name": "塔因頭盔",
+    "name_en": "Tarnhelm",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "骷髏帽",
+      "defense": {
+        "min": 8,
+        "max": 11
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 15,
+      "strength": 15,
+      "durability": 18,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": ["+1 所有技能", "25-50% 更佳的機會取得魔法裝備", "75% 額外金錢"],
+    "ability_values": [["+1"], ["(25-50)"], [75]],
+    "limit": ""
+  },
+  {
+    "quality": "normal",
+    "type": "armor",
+    "part": "helmet",
+    "name": "光榮布帽",
+    "name_en": "Coif of Glory",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "頭盔",
+      "defense": {
+        "min": 25,
+        "max": 28
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 14,
+      "strength": 26,
+      "durability": 24,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "# 防禦",
+      "攻擊者受到閃電傷害 #",
+      "擊中使目標盲目",
+      "閃電抗性 #%",
+      "# 對飛射性武器防禦"
+    ],
+    "ability_values": [["+10"], [7], [], ["+15"], ["+100"]],
+    "limit": ""
+  },
+  {
+    "quality": "normal",
+    "type": "armor",
+    "part": "helmet",
+    "name": "黃昏深處",
+    "name_en": "Duskdeep",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "高級頭盔",
+      "defense": {
+        "min": 45,
+        "max": 60
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 17,
+      "strength": 41,
+      "durability": 30,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 防禦強化",
+      "# 防禦",
+      "傷害減少 #",
+      "所有抗性 #",
+      "# 最大傷害值",
+      "# 照亮範圍"
+    ],
+    "ability_values": [["+(30-50)"], ["+(10-20)"], [7], ["+15"], ["+8"], [-2]],
+    "limit": ""
+  },
+  {
+    "quality": "normal",
+    "type": "armor",
+    "part": "helmet",
+    "name": "怒號長牙",
+    "name_en": "Howltusk",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "卓越頭盔",
+      "defense": {
+        "min": 64,
+        "max": 64
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 25,
+      "strength": 63,
+      "durability": 40,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 受損的生命轉移至法力",
+      "#% 防禦強化",
+      "法術傷害減少 #",
+      "攻擊者受到傷害 #",
+      "擊退",
+      "擊中使怪物逃跑 #%"
+    ],
+    "ability_values": [[35], ["+80"], [2], [3], [], [25]],
+    "limit": ""
+  },
+  {
+    "quality": "normal",
+    "type": "armor",
+    "part": "helmet",
+    "name": "恐懼之臉",
+    "name_en": "The Face of Horror",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "面具",
+      "defense": {
+        "min": 34,
+        "max": 52
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 20,
+      "strength": 23,
+      "durability": 20,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "# 防禦",
+      "#% 對不死系生物傷害",
+      "擊中使怪物逃跑 #%",
+      "所有抗性 #",
+      "# 力量"
+    ],
+    "ability_values": [["+25"], ["+50"], [50], ["+10"], ["+20"]],
+    "limit": ""
+  },
+  {
+    "quality": "normal",
+    "type": "armor",
+    "part": "helmet",
+    "name": "不死皇冠",
+    "name_en": "Undead Crown",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "皇冠",
+      "defense": {
+        "min": 99,
+        "max": 113
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 29,
+      "strength": 55,
+      "durability": 50,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 防禦強化",
+      "#% 對不死系生物傷害",
+      "# 對不死系生物準確率",
+      "冰凍時間減半",
+      "#% 偷取生命",
+      "毒素抵抗 #%",
+      "# 防禦",
+      "# 支配骷髏 (只限死靈法師)"
+    ],
+    "ability_values": [
+      ["+(30-60)"],
+      ["+50"],
+      ["+(50-100)"],
+      [],
+      [5],
+      ["+50"],
+      ["+40"],
+      ["+3"]
+    ],
+    "limit": "necromancer"
+  },
+  {
+    "quality": "normal",
+    "type": "armor",
+    "part": "helmet",
+    "name": "溫暖骷髏",
+    "name_en": "Wormskull",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "白骨頭盔",
+      "defense": {
+        "min": 33,
+        "max": 36
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 21,
+      "strength": 25,
+      "durability": 40,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "# 死靈法師技能等級 (限死靈法師)",
+      "# 毒素傷害,持續 8 秒",
+      "#% 偷取生命",
+      "毒素抵抗 #%",
+      "# 法力"
+    ],
+    "ability_values": [["+1"], ["+80"], [5], ["+25"], ["+10"]],
+    "limit": "necromancer"
+  },
+  {
+    "quality": "advanced",
+    "type": "armor",
+    "part": "helmet",
+    "name": "粗野之冠",
+    "name_en": "Peasant Crown",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "戰帽",
+      "defense": {
+        "min": 108,
+        "max": 108
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 28,
+      "strength": 20,
+      "durability": 12,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 防禦強化",
+      "# 所有技能等級",
+      "#% 高速跑步/行走",
+      "生命補滿 #",
+      "# 精力",
+      "# 體力"
+    ],
+    "ability_values": [["+100"], ["+1"], [15], ["+(6-12)"], ["+20"], ["+20"]],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "armor",
+    "part": "helmet",
+    "name": "岩石制動器",
+    "name_en": "Rockstopper",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "輕便頭盔",
+      "defense": {
+        "min": 163,
+        "max": 201
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 31,
+      "strength": 43,
+      "durability": 18,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 防禦強化",
+      "傷害減少 #%",
+      "#% 快速再度攻擊",
+      "冰冷抵抗 #%",
+      "火焰抵抗 #%",
+      "閃電抵抗 #%",
+      "# 體力"
+    ],
+    "ability_values": [["+(160-220)"], [10], [30], ["+(20-40)"], ["+(20-50)"], ["+(20-40)"], ["+15"]],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "armor",
+    "part": "helmet",
+    "name": "偷取骷髏",
+    "name_en": "Stealskull",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "無頰頭盔",
+      "defense": {
+        "min": 219,
+        "max": 248
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 35,
+      "strength": 59,
+      "durability": 24,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "+200-240% 防禦強化",
+      "10% 增加攻擊速度",
+      "10% 快速再度攻擊",
+      "5% 偷取生命",
+      "5% 偷取法力",
+      "30-50% 更佳機率取得魔法物品"
+    ],
+    "ability_values": [["+(200-240)"], ["+10"], [10], [5], [5], ["(30-50)"]],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "armor",
+    "part": "helmet",
+    "name": "暗視之盔",
+    "name_en": "Darksight Helm",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "輕鋼盔",
+      "defense": {
+        "min": 77,
+        "max": 282
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 38,
+      "strength": 82,
+      "durability": 30,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "# 防禦 (依角色等級而定)",
+      "被擊中時 #% 機率施展等級 # 微靈暗視",
+      "等級 # 魔影斗篷 (# 聚氣)",
+      "無法冰凍",
+      "火焰抵抗 #%",
+      "#% 偷取法力",
+      "# 照亮範圍"
+    ],
+    "ability_values": [["+(2-198)"], [6, 3], [5, 30], [], ["+(20-40)"], [5], [-4]],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "armor",
+    "part": "helmet",
+    "name": "女神之翼",
+    "name_en": "Valkyrie Wing",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "翼盔",
+      "defense": {
+        "min": 247,
+        "max": 297
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 38,
+      "strength": 82,
+      "durability": 30,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 防禦強化",
+      "# 亞馬遜技能等級",
+      "#% 高速跑步/行走",
+      "#% 快速再度攻擊",
+      "# 法力在每殺死一名敵人後取得"
+    ],
+    "ability_values": [["+(150-200)"], ["+(1-2)"], [20], [20], ["+(2-4)"]],
+    "limit": "amazon"
+  },
+  {
+    "quality": "advanced",
+    "type": "armor",
+    "part": "helmet",
+    "name": "黑角面具",
+    "name_en": "Blackhorn's Face",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "死亡面具",
+      "defense": {
+        "min": 243,
+        "max": 278
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 41,
+      "strength": 55,
+      "durability": 20,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 防禦強化",
+      "減慢目標速度 #%",
+      "攻擊者受到閃電傷害 #",
+      "防止怪物治療",
+      "# 閃電吸收",
+      "閃電抵抗 #%"
+    ],
+    "ability_values": [["+(180-220)"], [20], [25], [], ["+20"], ["+15"]],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "armor",
+    "part": "helmet",
+    "name": "盜賊皇冠",
+    "name_en": "Crown of Thieves",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "巨皇冠",
+      "defense": {
+        "min": 296,
+        "max": 342
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 49,
+      "strength": 103,
+      "durability": 50,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 防禦強化",
+      "#% 偷取生命",
+      "火焰抵抗 #%",
+      "# 法力",
+      "# 生命",
+      "# 敏捷",
+      "#% 額外金錢從敵人身上取得"
+    ],
+    "ability_values": [["+(160-200)"], ["(9-12)"], ["+33"], ["+35"], ["+50"], ["+25"], ["(80-100)"]],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "armor",
+    "part": "helmet",
+    "name": "吸血鬼的凝視",
+    "name_en": "Vampire Gaze",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "殘酷頭盔",
+      "defense": {
+        "min": 252,
+        "max": 252
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 41,
+      "strength": 58,
+      "durability": 40,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 防禦強化",
+      "增加 # 冰冷傷害",
+      "#% 減緩精力消耗",
+      "#% 偷取生命",
+      "#% 偷取法力",
+      "傷害減少 #%",
+      "法術傷害減少 #"
+    ],
+    "ability_values": [["+100"], ["6-22"], [15], ["(6-8)"], ["(6-8)"], ["(15-20)"], ["(10-15)"]],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "armor",
+    "part": "helmet",
+    "name": "諧角之冠",
+    "name_en": "Harlequin Crest",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "軍帽",
+      "defense": {
+        "min": 98,
+        "max": 141
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 62,
+      "strength": 50,
+      "durability": 12,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "# 全技能等級",
+      "# 生命 (依角色等級而定)",
+      "# 法力 (依角色等級而定)",
+      "傷害減少 #%",
+      "#% 更佳的機會取得魔法裝備",
+      "# 轉為所有屬性"
+    ],
+    "ability_values": [["+2"], ["+(2-148)"], ["+(2-148)"], [10], [50], ["+2"]],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "armor",
+    "part": "helmet",
+    "name": "鋼影",
+    "name_en": "Steel Shade",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "活動頭盔",
+      "defense": {
+        "min": 300,
+        "max": 345
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 62,
+      "strength": 109,
+      "durability": 24,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 增強防禦",
+      "生命補滿 #",
+      "#% 法力於擊中時偷取",
+      "# 火焰吸收"
+    ],
+    "ability_values": [["+(100-130)"], ["+(10-18)"], ["+(4-8)"], ["+(5-11)"]],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "armor",
+    "part": "helmet",
+    "name": "鋼鐵面紗",
+    "name_en": "Veil of Steel",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "螺旋頭盔",
+      "defense": {
+        "min": 396,
+        "max": 396
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 73,
+      "strength": 192,
+      "durability": 60,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 防禦強化",
+      "# 防禦",
+      "所有抗性 #",
+      "# 力量",
+      "# 體力",
+      "# 光照範圍"
+    ],
+    "ability_values": [["+60"], ["+140"], ["+50"], ["+15"], ["+15"], [-4]],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "armor",
+    "part": "helmet",
+    "name": "夜翼面紗",
+    "name_en": "Nightwing's Veil",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "螺旋頭盔",
+      "defense": {
+        "min": 218,
+        "max": 352
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 67,
+      "strength": 96,
+      "durability": 40,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 增強防禦",
+      "# 所有技能",
+      "#% 對冰凍技能傷害",
+      "# 敏捷",
+      "# 寒冷吸收",
+      "冰凍時間減半",
+      "需求 #%"
+    ],
+    "ability_values": [["+(90-120)"], ["+2"], ["+(8-15)"], ["+(10-20)"], ["+(5-9)"], [], [-50]],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "armor",
+    "part": "helmet",
+    "name": "安達利爾的面貌",
+    "name_en": "Andariel's Visage",
+    "ladder": "ladder",
+    "attributes": {
+      "weight": "",
+      "base": "惡魔頭蓋骨面具",
+      "defense": {
+        "min": 310,
+        "max": 387
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 83,
+      "strength": 102,
+      "durability": 20,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 增強防禦",
+      "# 所有技能",
+      "#% 提升攻擊速度",
+      "#% 生命於擊中時偷取",
+      "# 力量",
+      "#% 最大毒素抗性",
+      "抗火 #%",
+      "抗毒 #%",
+      "被擊中時有 #% 機會施展等級 # 劇毒新星",
+      "等級 # 毒牙 (# 聚氣)"
+    ],
+    "ability_values": [["+(100-150)"], ["+2"], ["+20"], ["(8-10)"], ["+(25-30)"], ["+10"], [-30], ["+70"], [15, 15], [3, 20]],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "armor",
+    "part": "helmet",
+    "name": "年紀之冠",
+    "name_en": "Crown of Ages",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "頭冠",
+      "defense": {
+        "min": 349,
+        "max": 399
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 82,
+      "strength": 174,
+      "durability": null,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 增強防禦",
+      "# 防禦",
+      "# 所有技能",
+      "物理傷害減少 #%",
+      "所有抗性 #",
+      "#% 快速再度攻擊",
+      "有凹槽 (#)",
+      "無法破壞"
+    ],
+    "ability_values": [["+50"], ["+(100-150)"], ["+1"], ["(10-15)"], ["+(20-30)"], ["+30"], ["(1-2)"], []],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "armor",
+    "part": "helmet",
+    "name": "巨骷髏",
+    "name_en": "Giant Skull",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "骸骨面罩",
+      "defense": {
+        "min": 350,
+        "max": 477
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 65,
+      "strength": 106,
+      "durability": 40,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "# 防禦",
+      "#% 機率出現壓碎性打擊",
+      "擊退",
+      "# 力量",
+      "有凹槽 (#)"
+    ],
+    "ability_values": [["+(250-320)"], [10], [], ["+(25-35)"], ["(1-2)"]],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "armor",
+    "part": "barbarianhelmet",
+    "name": "亞瑞特的面容",
+    "name_en": "Arreat's Face",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "殺手防護面甲",
+      "defense": {
+        "min": 302,
+        "max": 363
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 42,
+      "strength": 118,
+      "durability": 55,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 防禦強化",
+      "#% 快速再度攻擊",
+      "#% 額外攻擊準確率",
+      "# 野蠻人技能",
+      "#% 偷取生命",
+      "所有抗性 #",
+      "# 力量",
+      "# 敏捷",
+      "# 戰鬥技能 (限野蠻人)"
+    ],
+    "ability_values": [["+(150-200)"], [30], [20], ["+2"], ["(3-6)"], ["+30"], ["+20"], ["+20"], ["+2"]],
+    "limit": "barbarian"
+  },
+  {
+    "quality": "elite",
+    "type": "armor",
+    "part": "barbarianhelmet",
+    "name": "狼嚎",
+    "name_en": "Wolfhowl",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "暴怒面甲",
+      "defense": {
+        "min": 332,
+        "max": 377
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 79,
+      "strength": 129,
+      "durability": 35,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 增強防禦",
+      "# 戰嚎 (限野蠻人)",
+      "# 野性狂暴",
+      "# 變形術",
+      "# 狼人變化",
+      "# 力量",
+      "# 敏捷",
+      "# 體力",
+      "等級 # 召喚狂狼 (# 聚氣)"
+    ],
+    "ability_values": [["+(120-150)"], ["+(2-3)"], ["+(3-6)"], ["+(3-6)"], ["+(3-6)"], ["+(8-15)"], ["+(8-15)"], ["+(8-15)"], [15, 18]],
+    "limit": "barbarian"
+  },
+  {
+    "quality": "elite",
+    "type": "armor",
+    "part": "barbarianhelmet",
+    "name": "惡魔號角的邊緣",
+    "name_en": "Demonhorn's Edge",
+    "ladder": "ladder",
+    "attributes": {
+      "weight": "",
+      "base": "毀滅者頭盔",
+      "defense": {
+        "min": 345,
+        "max": 408
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 61,
+      "strength": 151,
+      "durability": 45,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 增強防禦",
+      "#% 提升攻擊速度",
+      "#% 生命于擊中時偷取",
+      "攻擊者受到傷害 #",
+      "# 戰嚎 (限野蠻人)",
+      "# 支配性 (限野蠻人)",
+      "# 戰鬥技能 (限野蠻人)"
+    ],
+    "ability_values": [["+(120-160)"], ["+10"], ["(3-6)"], ["(55-77)"], ["+(1-3)"], ["+(1-3)"], ["+(1-3)"]],
+    "limit": "barbarian"
+  },
+  {
+    "quality": "elite",
+    "type": "armor",
+    "part": "barbarianhelmet",
+    "name": "海拉柏得的國度",
+    "name_en": "Halaberd's Reign",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "征服者皇冠面甲",
+      "defense": {
+        "min": 384,
+        "max": 432
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 77,
+      "strength": 174,
+      "durability": 50,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 增強防禦",
+      "生命補滿 #",
+      "#% 快速打擊恢復",
+      "# 野蠻人技能等級",
+      "# 支配性 (限野蠻人)",
+      "# 戰鬥指揮 (限野蠻人)",
+      "# 戰鬥體制 (限野蠻人)"
+    ],
+    "ability_values": [["+(140-170)"], ["+(15-23)"], ["+20"], ["+2"], ["+1"], ["+(1-2)"], ["+(1-2)"]],
+    "limit": "barbarian"
+  },
+  {
+    "quality": "advanced",
+    "type": "armor",
+    "part": "druidpeltshelmet",
+    "name": "加爾的長髮",
+    "name_en": "Jalal's Mane",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "圖騰面具狼盔",
+      "defense": {
+        "min": 247,
+        "max": 297
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 42,
+      "strength": 65,
+      "durability": 20,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 防禦強化",
+      "#% 快速再度攻擊",
+      "#% 額外攻擊準確率",
+      "# 德魯伊技能",
+      "所有抗性 #",
+      "# 法力在每殺死一名敵人之後取得",
+      "# 力量",
+      "# 精力",
+      "# 外型變化 (限德魯伊)"
+    ],
+    "ability_values": [["+(150-200)"], [30], [20], ["+2"], ["+30"], ["+5"], ["+20"], ["+20"], ["+2"]],
+    "limit": "druid"
+  },
+  {
+    "quality": "elite",
+    "type": "armor",
+    "part": "druidpeltshelmet",
+    "name": "地獄之吻",
+    "name_en": "Cerebus' Bite",
+    "ladder": "ladder",
+    "attributes": {
+      "weight": "",
+      "base": "血腥之靈",
+      "defense": {
+        "min": 335,
+        "max": 350
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 63,
+      "strength": 86,
+      "durability": 20,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 增強防禦",
+      "#% 額外的攻擊準確率加成",
+      "#% 偷取生命",
+      "#% 機率撕開敵人傷口",
+      "# 變形系技能 (限德魯伊)",
+      "# 野性狂暴 (限德魯伊)"
+    ],
+    "ability_values": [["+(130-140)"], ["(60-120)"], ["(7-10)"], [33], ["+(2-4)"], ["+(1-2)"]],
+    "limit": "druid"
+  },
+  {
+    "quality": "elite",
+    "type": "armor",
+    "part": "druidpeltshelmet",
+    "name": "烏鴉之王",
+    "name_en": "Ravenlore",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "天空之靈",
+      "defense": {
+        "min": 343,
+        "max": 390
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 74,
+      "strength": 113,
+      "durability": 20,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 增強防禦",
+      "# 烏鴉 (限德魯伊)",
+      "# 元素系技能 (限德魯伊)",
+      "# 精力",
+      "#% 對敵人火焰系抗性",
+      "所有抗性 #"
+    ],
+    "ability_values": [["+(120-150)"], ["+7"], ["+3"], ["+(20-30)"], ["-(10-20)"], ["+(15-25)"]],
+    "limit": "druid"
+  },
+  {
+    "quality": "elite",
+    "type": "armor",
+    "part": "druidpeltshelmet",
+    "name": "靈魂看守者",
+    "name_en": "Spirit Keeper",
+    "ladder": "",
+    "attributes": {
+      "weight": "",
+      "base": "大地之靈",
+      "defense": {
+        "min": 413,
+        "max": 443
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 67,
+      "strength": 104,
+      "durability": 20,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "#% 增強防禦",
+      "# 德魯伊技能",
+      "#% 快速打擊恢復",
+      "#% 最大毒素抵抗",
+      "抗火 #%",
+      "# 閃電吸收",
+      "寒冷吸收 #%"
+    ],
+    "ability_values": [["+(170-190)"], ["+(1-2)"], ["+20"], ["+10"], ["+(30-40)"], ["+(9-14)"], ["(15-25)"]],
+    "limit": "druid"
+  },
+  {
+    "quality": "advanced",
+    "type": "armor",
+    "part": "circlet",
+    "name": "奇拉的守護",
+    "name_en": "Kira's Guardian",
+    "ladder": "ladder",
+    "attributes": {
+      "weight": "",
+      "base": "三重冠",
+      "defense": {
+        "min": 90,
+        "max": 170
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 77,
+      "strength": null,
+      "durability": 25,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "# 防禦",
+      "#% 快速打擊恢復",
+      "無法冰凍",
+      "所有抗性 #"
+    ],
+    "ability_values": [["+(50-120)"], ["+20"], [], ["+(50-70)"]],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "armor",
+    "part": "circlet",
+    "name": "格利風之眼",
+    "name_en": "Griffon's Eye",
+    "ladder": "ladder",
+    "attributes": {
+      "weight": "",
+      "base": "權冠",
+      "defense": {
+        "min": 150,
+        "max": 260
+      },
+      "critical_damage": {
+        "min": null,
+        "max": null
+      },
+      "level": 76,
+      "strength": null,
+      "durability": 20,
+      "block": null,
+      "damage_reduction": null,
+      "capacity": null,
+      "assassin_kick_damage": {
+        "min": null,
+        "max": null
+      }
+    },
+    "ability": [
+      "# 防禦",
+      "# 所有技能",
+      "#% 快速施展速度",
+      "#% 對敵人雷電系抗性",
+      "#% 對雷電系技能傷害"
+    ],
+    "ability_values": [["+(100-200)"], ["+1"], ["+25"], ["-(15-20)"], ["+(10-15)"]],
+    "limit": ""
+  }
+]

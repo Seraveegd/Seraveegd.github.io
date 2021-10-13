@@ -39,10 +39,6 @@ export class FilterComponent implements OnInit {
       backdropClass: 'backdropBackground',
       panelClass: 'custom-dialog-container'
     });
-
-    dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
-    });
   }
 
   showAbility(a: string, replace: any[]): SafeHtml {
