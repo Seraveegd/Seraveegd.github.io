@@ -1,0 +1,57 @@
+<div [ngClass]="'title'">獨特裝備</div>
+<div [ngClass]="'rwords'">
+  <div [ngClass]="'list'">
+    <span>分類</span>
+    <span (click)="addfilter('type:armor')" [ngClass]="{'active': filters.includes('type:armor')}">防具</span>
+    <span (click)="addfilter('type:weapon')" [ngClass]="{'active': filters.includes('type:weapon')}">武器</span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>級別</span>
+    <span (click)="addfilter('quality:normal')" [ngClass]="{'active': filters.includes('quality:normal')}">普通</span>
+    <span (click)="addfilter('quality:advanced')" [ngClass]="{'active': filters.includes('quality:advanced')}">進階</span>
+    <span (click)="addfilter('quality:elite')" [ngClass]="{'active': filters.includes('quality:elite')}">菁英</span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>職業</span>
+    <span (click)="addfilter('limit:sorceress')" [ngClass]="{'active': filters.includes('limit:sorceress')}">魔法使</span>
+    <span (click)="addfilter('limit:paladin')" [ngClass]="{'active': filters.includes('limit:paladin')}">聖騎士</span>
+    <span (click)="addfilter('limit:necromancer')"
+      [ngClass]="{'active': filters.includes('limit:necromancer')}">死靈法師</span>
+    <span (click)="addfilter('limit:amazon')" [ngClass]="{'active': filters.includes('limit:amazon')}">亞馬遜</span>
+    <span (click)="addfilter('limit:barbarian')" [ngClass]="{'active': filters.includes('limit:barbarian')}">野蠻人</span>
+    <span (click)="addfilter('limit:assassin')" [ngClass]="{'active': filters.includes('limit:assassin')}">刺客</span>
+    <span (click)="addfilter('limit:druid')" [ngClass]="{'active': filters.includes('limit:druid')}">德魯伊</span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>部位</span>
+    <span (click)="addfilter('part:helmet,barbarianhelmet,druidpeltshelmet')"
+      [ngClass]="{'active': filters.includes('part:helmet,barbarianhelmet,druidpeltshelmet')}">頭盔</span>
+    <span (click)="addfilter('part:armor')" [ngClass]="{'active': filters.includes('part:armor')}">盔甲</span>
+    <span (click)="addfilter('part:belt')" [ngClass]="{'active': filters.includes('part:belt')}">腰帶</span>
+    <span (click)="addfilter('part:glove')" [ngClass]="{'active': filters.includes('part:glove')}">手套</span>
+    <span (click)="addfilter('part:boot')" [ngClass]="{'active': filters.includes('part:boot')}">靴子</span>
+    <span (click)="addfilter('part:shield,paladinshield,ncershrunkenhead')"
+      [ngClass]="{'active': filters.includes('part:shield,paladinshield,ncershrunkenhead')}">盾牌</span>
+    <span (click)="addfilter('part:circlet')"
+      [ngClass]="{'active': filters.includes('part:circlet')}">頭飾</span>
+    <span (click)="addfilter('part:necklace')" [ngClass]="{'active': filters.includes('part:necklace')}">護身符</span>
+    <span (click)="addfilter('part:ring')" [ngClass]="{'active': filters.includes('part:ring')}">戒指</span>
+  </div>
+  <div [ngClass]="'list'">
+    <span>武器</span>
+    <span (click)="addfilter('part:sword')" [ngClass]="{'active': filters.includes('part:sword')}">刀劍</span>
+    <span (click)="addfilter('part:axe')" [ngClass]="{'active': filters.includes('part:axe')}">斧頭</span>
+    <span (click)="addfilter('part:polearm')" [ngClass]="{'active': filters.includes('part:polearm')}">長柄</span>
+    <span (click)="addfilter('part:mace')" [ngClass]="{'active': filters.includes('part:mace')}">釘鎚</span>
+    <span (click)="addfilter('part:scepter')" [ngClass]="{'active': filters.includes('part:scepter')}">權杖</span>
+    <span (click)="addfilter('part:bow,amazonbow')"
+      [ngClass]="{'active': filters.includes('part:bow,amazonbow')}">弓</span>
+    <span (click)="addfilter('part:wand')" [ngClass]="{'active': filters.includes('part:wand')}">魔杖</span>
+    <span (click)="addfilter('part:stave')" [ngClass]="{'active': filters.includes('part:stave')}">法杖</span>
+    <span (click)="addfilter('part:sorceressorb')"
+      [ngClass]="{'active': filters.includes('part:sorceressorb')}">法珠</span>
+    <span (click)="addfilter('part:assassinkatar')"
+      [ngClass]="{'active': filters.includes('part:assassinkatar')}">爪</span>
+  </div>
+</div>
+<router-outlet></router-outlet>

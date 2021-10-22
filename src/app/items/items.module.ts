@@ -5,13 +5,15 @@ import { ItemsRoutingModule } from './items-routing.module';
 import { NormalComponent } from './normal/normal.component';
 import { GemComponent } from './gem/gem.component';
 import { SetComponent } from './set/set.component';
+import { UniqueComponent } from './unique/unique.component';
 
 
 @NgModule({
   declarations: [
     NormalComponent,
     GemComponent,
-    SetComponent
+    SetComponent,
+    UniqueComponent
   ],
   imports: [
     CommonModule,

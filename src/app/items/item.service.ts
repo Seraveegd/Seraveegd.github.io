@@ -92,4 +92,20 @@ export class ItemService {
       ability_values: object
     }[]>('/assets/seteffect.json');
   }
+
+  getUniques(): any {
+    return this.http.get<{
+      group: string,
+      set: string,
+      set_en: string,
+      type: string,
+      part: string,
+      name: string,
+      name_en: string,
+      attributes: object,
+      ability: Array<[]>,
+      ability_values: Array<[]>,
+      limit: string
+    }[]>('/assets/unique.json');
+  }
 }

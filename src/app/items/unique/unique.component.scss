@@ -1,0 +1,64 @@
+.title {
+  background-color: #444444;
+  color: #bb9e74;
+  padding: 24px;
+  font-size: 20pt;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  position: relative;
+
+  .clear {
+    top: 12px;
+    right: 18px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 16pt;
+    color: white;
+    background-color: #303030;
+    padding: 12px;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #444444;
+    }
+  }
+}
+
+.rwords {
+  background-color: #303030;
+  padding: 18px;
+
+  .list {
+    display: flex;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+
+    & > :first-child {
+      border: 1px solid #36739f;
+      color: #36739f;
+      background-color: #303030;
+      font-weight: bold;
+      padding: 8px 12px;
+      font-size: 16px;
+    }
+
+    & span {
+      margin: 4px;
+      border-radius: 5px;
+      color: white;
+      background-color: #444444;
+      cursor: pointer;
+      padding: 10px 12px;
+      font-size: 16px;
+      display: block;
+
+      &.active {
+        background-color: rgb(55 90 127);
+        color: #ffffff;
+      }
+
+      &:hover {
+        background-color: #303030;
+      }
+    }
+  }
+}
