@@ -10,6 +10,7 @@
             <th>圖片</th>
             <th>名稱</th>
             <th>防禦</th>
+            <th>物品等級</th>
             <th>需要等級</th>
             <th>需要力量</th>
             <th>耐久度</th>
@@ -27,6 +28,7 @@
               </ng-container>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.itemlevel }}</td>
               <td>{{ item.level }}</td>
               <td>{{ item.strength }}</td>
               <td>{{ item.durability }}</td>
@@ -43,6 +45,7 @@
             <th>名稱</th>
             <th>重量</th>
             <th>防禦</th>
+            <th>物品等級</th>
             <th>需要等級</th>
             <th>需要力量</th>
             <th>耐久度</th>
@@ -62,6 +65,7 @@
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ weights[item.weight] }}</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.itemlevel }}</td>
               <td>{{ item.level }}</td>
               <td>{{ item.strength }}</td>
               <td>{{ item.durability }}</td>
@@ -78,6 +82,7 @@
             <th>圖片</th>
             <th>名稱</th>
             <th>防禦</th>
+            <th>物品等級</th>
             <th>需要等級</th>
             <th>需要力量</th>
             <th>耐久度</th>
@@ -95,6 +100,7 @@
               </ng-container>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.itemlevel }}</td>
               <td>{{ item.level }}</td>
               <td>{{ item.strength }}</td>
               <td>{{ item.durability }}</td>
@@ -110,6 +116,7 @@
             <th>圖片</th>
             <th>名稱</th>
             <th>防禦</th>
+            <th>物品等級</th>
             <th>需要等級</th>
             <th>需要力量</th>
             <th>耐久度</th>
@@ -126,6 +133,7 @@
               </ng-container>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.itemlevel }}</td>
               <td>{{ item.level }}</td>
               <td>{{ item.strength }}</td>
               <td>{{ item.durability }}</td>
@@ -140,6 +148,7 @@
             <th>圖片</th>
             <th>名稱</th>
             <th>防禦</th>
+            <th>物品等級</th>
             <th>需要等級</th>
             <th>需要力量</th>
             <th>耐久度</th>
@@ -157,6 +166,7 @@
               </ng-container>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.itemlevel }}</td>
               <td>{{ item.level }}</td>
               <td>{{ item.strength }}</td>
               <td>{{ item.durability }}</td>
@@ -174,6 +184,7 @@
             <th>重量</th>
             <th>防禦</th>
             <th>重擊傷害</th>
+            <th>物品等級</th>
             <th>需要等級</th>
             <th>需要力量</th>
             <th>耐久度</th>
@@ -194,6 +205,7 @@
               <td>{{ weights[item.weight] }}</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
               <td>{{ item.critical_damage.min }}&nbsp;-&nbsp;{{ item.critical_damage.max }}</td>
+              <td>{{ item.itemlevel }}</td>
               <td>{{ item.level }}</td>
               <td>{{ item.strength }}</td>
               <td>{{ item.durability }}</td>
@@ -211,6 +223,7 @@
             <th>名稱</th>
             <th>防禦</th>
             <th>重擊傷害</th>
+            <th>物品等級</th>
             <th>需要等級</th>
             <th>需要力量</th>
             <th>耐久度</th>
@@ -230,6 +243,7 @@
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
               <td>{{ item.critical_damage.min }}&nbsp;-&nbsp;{{ item.critical_damage.max }}</td>
+              <td>{{ item.itemlevel }}</td>
               <td>{{ item.level }}</td>
               <td>{{ item.strength }}</td>
               <td>{{ item.durability }}</td>
@@ -246,6 +260,7 @@
             <th>圖片</th>
             <th>名稱</th>
             <th>防禦</th>
+            <th>物品等級</th>
             <th>需要等級</th>
             <th>需要力量</th>
             <th>耐久度</th>
@@ -264,6 +279,7 @@
               </ng-container>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.itemlevel }}</td>
               <td>{{ item.level }}</td>
               <td>{{ item.strength }}</td>
               <td>{{ item.durability }}</td>
@@ -280,6 +296,7 @@
             <th>圖片</th>
             <th>名稱</th>
             <th>防禦</th>
+            <th>物品等級</th>
             <th>需要等級</th>
             <th>耐久度</th>
             <th>最大鑲孔數</th>
@@ -291,6 +308,7 @@
               <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
               <td>{{ item.name }}<br>({{ item.name_en }})</td>
               <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
+              <td>{{ item.itemlevel }}</td>
               <td>{{ item.level }}</td>
               <td>{{ item.durability }}</td>
               <td>{{ item.max_slot }}</td>

@@ -22,6 +22,7 @@ export class ItemService {
       strength: number,
       durability: number,
       max_slot: number,
+      itemlevel: number,
       block: number,
       damage_reduction: number,
       capacity: number,
