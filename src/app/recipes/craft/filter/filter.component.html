@@ -12,7 +12,7 @@
           </thead>
           <tbody>
             <tr *ngFor="let item of items | filtercraft: (!kindNottofind.includes(type_detail) ? 'kind' : type) : td">
-              <td [ngClass]="'rare'">{{ item.name }}</td>
+              <td [ngClass]="'rare'">{{ item.name }}<br>{{ item.name_en }}</td>
               <td>
                 <p>
                   <ng-container *ngFor="let i of item.item; let last = last">

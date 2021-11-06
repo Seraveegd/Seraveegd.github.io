@@ -4,6 +4,7 @@
     <span>分類</span>
     <span (click)="addfilter('type:armor')" [ngClass]="{'active': filters.includes('type:armor')}">防具</span>
     <span (click)="addfilter('type:weapon')" [ngClass]="{'active': filters.includes('type:weapon')}">武器</span>
+    <span (click)="addfilter('type:accessories')" [ngClass]="{'active': filters.includes('type:accessories')}">飾品</span>
   </div>
   <div [ngClass]="'list'">
     <span>級別</span>

@@ -14,6 +14,7 @@ export class RecipeService {
       kind: string,
       part: string,
       name: string,
+      name_en: string,
       item: string[],
       rune: string,
       gem: string,
