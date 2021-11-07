@@ -27,17 +27,25 @@
     background-color: #303030;
   }
 
-  tr:nth-child(3n+1) {
+  tr.top {
     background-color: #3c3c3c;
   }
 
-  tr:nth-child(3n+3) {
+  tr.bottom {
     border-bottom: 4px solid rgb(0 0 0 / 40%);
   }
 
-  tr.circlet:nth-child(3n+3) {
-    border-bottom: none;
-  }
+  // tr:nth-child(3n+1) {
+  //   background-color: #3c3c3c;
+  // }
+
+  // tr:nth-child(3n+3) {
+  //   border-bottom: 4px solid rgb(0 0 0 / 40%);
+  // }
+
+  // tr.circlet:nth-child(3n+3) {
+  //   border-bottom: none;
+  // }
 
   tr.circlet:nth-child(odd) {
     background-color: #444444;

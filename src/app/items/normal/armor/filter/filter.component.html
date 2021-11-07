@@ -17,23 +17,24 @@
             <th>最大鑲孔數</th>
           </thead>
           <tbody>
-            <tr
-              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
-              <ng-container *ngIf="type !== 'max_slot'">
-                <td *ngIf="i%3 === 0" rowspan="3"><img
-                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <ng-container *ngIf="type === 'max_slot'">
-                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <td>{{ item.name }}<br>({{ item.name_en }})</td>
-              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
-              <td>{{ item.itemlevel }}</td>
-              <td>{{ item.level }}</td>
-              <td>{{ item.strength }}</td>
-              <td>{{ item.durability }}</td>
-              <td>{{ item.max_slot }}</td>
-            </tr>
+            <ng-container
+              *ngFor="let group of toGroup(items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td) | keyvalue">
+              <tr *ngFor="let item of typeChange(group.value); let i = index; let last = last"
+                [ngClass]="{'bottom': last, 'top': i%2 == 0 }">
+                <td *ngIf="i%getLength(group.value) === 0" [attr.rowspan]="getLength(group.value)"><img
+                    [src]="'/assets/images/items/normal/armor/' + getvalue(item, 'part') + '/' + getvalue(item, 'group') + '.png'">
+                </td>
+                <td>{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
+                <td>
+                  {{ getvalue(getobject(item, 'defense'), 'min') }}&nbsp;-&nbsp;{{ getvalue(getobject(item, 'defense'), 'max') }}
+                </td>
+                <td>{{ getvalue(item, 'itemlevel') }}</td>
+                <td>{{ getvalue(item, 'level') }}</td>
+                <td>{{ getvalue(item, 'strength') }}</td>
+                <td>{{ getvalue(item, 'durability') }}</td>
+                <td>{{ getvalue(item, 'max_slot') }}</td>
+              </tr>
+            </ng-container>
           </tbody>
         </table>
       </ng-container>
@@ -53,25 +54,26 @@
             <th>傷害減少</th>
           </thead>
           <tbody>
-            <tr
-              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
-              <ng-container *ngIf="type !== 'max_slot'">
-                <td *ngIf="i%3 === 0" rowspan="3"><img
-                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <ng-container *ngIf="type === 'max_slot'">
-                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <td>{{ item.name }}<br>({{ item.name_en }})</td>
-              <td>{{ weights[item.weight] }}</td>
-              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
-              <td>{{ item.itemlevel }}</td>
-              <td>{{ item.level }}</td>
-              <td>{{ item.strength }}</td>
-              <td>{{ item.durability }}</td>
-              <td>{{ item.max_slot }}</td>
-              <td>{{ item.damage_reduction }}</td>
-            </tr>
+            <ng-container
+              *ngFor="let group of toGroup(items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td) | keyvalue">
+              <tr *ngFor="let item of typeChange(group.value); let i = index; let last = last"
+                [ngClass]="{'bottom': last, 'top': i%2 == 0 }">
+                <td *ngIf="i%getLength(group.value) === 0" [attr.rowspan]="getLength(group.value)"><img
+                    [src]="'/assets/images/items/normal/armor/' + getvalue(item, 'part') + '/' + getvalue(item, 'group') + '.png'">
+                </td>
+                <td>{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
+                <td>{{ weights[getvalue(item, 'weight')] }}</td>
+                <td>
+                  {{ getvalue(getobject(item, 'defense'), 'min') }}&nbsp;-&nbsp;{{ getvalue(getobject(item, 'defense'), 'max') }}
+                </td>
+                <td>{{ getvalue(item, 'itemlevel') }}</td>
+                <td>{{ getvalue(item, 'level') }}</td>
+                <td>{{ getvalue(item, 'strength') }}</td>
+                <td>{{ getvalue(item, 'durability') }}</td>
+                <td>{{ getvalue(item, 'max_slot') }}</td>
+                <td>{{ getvalue(item, 'damage_reduction') }}</td>
+              </tr>
+            </ng-container>
           </tbody>
         </table>
       </ng-container>
@@ -89,23 +91,24 @@
             <th>容量格數</th>
           </thead>
           <tbody>
-            <tr
-              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
-              <ng-container *ngIf="type !== 'max_slot'">
-                <td *ngIf="i%3 === 0" rowspan="3"><img
-                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <ng-container *ngIf="type === 'max_slot'">
-                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <td>{{ item.name }}<br>({{ item.name_en }})</td>
-              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
-              <td>{{ item.itemlevel }}</td>
-              <td>{{ item.level }}</td>
-              <td>{{ item.strength }}</td>
-              <td>{{ item.durability }}</td>
-              <td>{{ item.capacity }}</td>
-            </tr>
+            <ng-container
+              *ngFor="let group of toGroup(items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td) | keyvalue">
+              <tr *ngFor="let item of typeChange(group.value); let i = index; let last = last"
+                [ngClass]="{'bottom': last, 'top': i%2 == 0 }">
+                <td *ngIf="i%getLength(group.value) === 0" [attr.rowspan]="getLength(group.value)"><img
+                    [src]="'/assets/images/items/normal/armor/' + getvalue(item, 'part') + '/' + getvalue(item, 'group') + '.png'">
+                </td>
+                <td>{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
+                <td>
+                  {{ getvalue(getobject(item, 'defense'), 'min') }}&nbsp;-&nbsp;{{ getvalue(getobject(item, 'defense'), 'max') }}
+                </td>
+                <td>{{ getvalue(item, 'itemlevel') }}</td>
+                <td>{{ getvalue(item, 'level') }}</td>
+                <td>{{ getvalue(item, 'strength') }}</td>
+                <td>{{ getvalue(item, 'durability') }}</td>
+                <td>{{ getvalue(item, 'capacity') }}</td>
+              </tr>
+            </ng-container>
           </tbody>
         </table>
       </ng-container>
@@ -122,22 +125,23 @@
             <th>耐久度</th>
           </thead>
           <tbody>
-            <tr
-              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
-              <ng-container *ngIf="type !== 'max_slot'">
-                <td *ngIf="i%3 === 0" rowspan="3"><img
-                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <ng-container *ngIf="type === 'max_slot'">
-                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <td>{{ item.name }}<br>({{ item.name_en }})</td>
-              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
-              <td>{{ item.itemlevel }}</td>
-              <td>{{ item.level }}</td>
-              <td>{{ item.strength }}</td>
-              <td>{{ item.durability }}</td>
-            </tr>
+            <ng-container
+              *ngFor="let group of toGroup(items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td) | keyvalue">
+              <tr *ngFor="let item of typeChange(group.value); let i = index; let last = last"
+                [ngClass]="{'bottom': last, 'top': i%2 == 0 }">
+                <td *ngIf="i%getLength(group.value) === 0" [attr.rowspan]="getLength(group.value)"><img
+                    [src]="'/assets/images/items/normal/armor/' + getvalue(item, 'part') + '/' + getvalue(item, 'group') + '.png'">
+                </td>
+                <td>{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
+                <td>
+                  {{ getvalue(getobject(item, 'defense'), 'min') }}&nbsp;-&nbsp;{{ getvalue(getobject(item, 'defense'), 'max') }}
+                </td>
+                <td>{{ getvalue(item, 'itemlevel') }}</td>
+                <td>{{ getvalue(item, 'level') }}</td>
+                <td>{{ getvalue(item, 'strength') }}</td>
+                <td>{{ getvalue(item, 'durability') }}</td>
+              </tr>
+            </ng-container>
           </tbody>
         </table>
       </ng-container>
@@ -155,23 +159,26 @@
             <th>刺客踢擊傷害</th>
           </thead>
           <tbody>
-            <tr
-              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
-              <ng-container *ngIf="type !== 'max_slot'">
-                <td *ngIf="i%3 === 0" rowspan="3"><img
-                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <ng-container *ngIf="type === 'max_slot'">
-                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <td>{{ item.name }}<br>({{ item.name_en }})</td>
-              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
-              <td>{{ item.itemlevel }}</td>
-              <td>{{ item.level }}</td>
-              <td>{{ item.strength }}</td>
-              <td>{{ item.durability }}</td>
-              <td>{{ item.assassin_kick_damage.min }}&nbsp;-&nbsp;{{ item.assassin_kick_damage.max }}</td>
-            </tr>
+            <ng-container
+              *ngFor="let group of toGroup(items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td) | keyvalue">
+              <tr *ngFor="let item of typeChange(group.value); let i = index; let last = last"
+                [ngClass]="{'bottom': last, 'top': i%2 == 0 }">
+                <td *ngIf="i%getLength(group.value) === 0" [attr.rowspan]="getLength(group.value)"><img
+                    [src]="'/assets/images/items/normal/armor/' + getvalue(item, 'part') + '/' + getvalue(item, 'group') + '.png'">
+                </td>
+                <td>{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
+                <td>
+                  {{ getvalue(getobject(item, 'defense'), 'min') }}&nbsp;-&nbsp;{{ getvalue(getobject(item, 'defense'), 'max') }}
+                </td>
+                <td>{{ getvalue(item, 'itemlevel') }}</td>
+                <td>{{ getvalue(item, 'level') }}</td>
+                <td>{{ getvalue(item, 'strength') }}</td>
+                <td>{{ getvalue(item, 'durability') }}</td>
+                <td>
+                  {{ getvalue(getobject(item, 'assassin_kick_damage'), 'min') }}&nbsp;-&nbsp;{{ getvalue(getobject(item, 'assassin_kick_damage'), 'max') }}
+                </td>
+              </tr>
+            </ng-container>
           </tbody>
         </table>
       </ng-container>
@@ -192,26 +199,29 @@
             <th>格檔率(%)</th>
           </thead>
           <tbody>
-            <tr
-              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
-              <ng-container *ngIf="type !== 'max_slot'">
-                <td *ngIf="i%3 === 0" rowspan="3"><img
-                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <ng-container *ngIf="type === 'max_slot'">
-                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <td>{{ item.name }}<br>({{ item.name_en }})</td>
-              <td>{{ weights[item.weight] }}</td>
-              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
-              <td>{{ item.critical_damage.min }}&nbsp;-&nbsp;{{ item.critical_damage.max }}</td>
-              <td>{{ item.itemlevel }}</td>
-              <td>{{ item.level }}</td>
-              <td>{{ item.strength }}</td>
-              <td>{{ item.durability }}</td>
-              <td>{{ item.max_slot }}</td>
-              <td>{{ item.block }}</td>
-            </tr>
+            <ng-container
+              *ngFor="let group of toGroup(items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td) | keyvalue">
+              <tr *ngFor="let item of typeChange(group.value); let i = index; let last = last"
+                [ngClass]="{'bottom': last, 'top': i%2 == 0 }">
+                <td *ngIf="i%getLength(group.value) === 0" [attr.rowspan]="getLength(group.value)"><img
+                    [src]="'/assets/images/items/normal/armor/' + getvalue(item, 'part') + '/' + getvalue(item, 'group') + '.png'">
+                </td>
+                <td>{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
+                <td>{{ weights[getvalue(item, 'weight')] }}</td>
+                <td>
+                  {{ getvalue(getobject(item, 'defense'), 'min') }}&nbsp;-&nbsp;{{ getvalue(getobject(item, 'defense'), 'max') }}
+                </td>
+                <td>
+                  {{ getvalue(getobject(item, 'critical_damage'), 'min') }}&nbsp;-&nbsp;{{ getvalue(getobject(item, 'critical_damage'), 'max') }}
+                </td>
+                <td>{{ getvalue(item, 'itemlevel') }}</td>
+                <td>{{ getvalue(item, 'level') }}</td>
+                <td>{{ getvalue(item, 'strength') }}</td>
+                <td>{{ getvalue(item, 'durability') }}</td>
+                <td>{{ getvalue(item, 'max_slot') }}</td>
+                <td>{{ getvalue(item, 'block') }}</td>
+              </tr>
+            </ng-container>
           </tbody>
         </table>
       </ng-container>
@@ -231,25 +241,28 @@
             <th>格檔率(%)</th>
           </thead>
           <tbody>
-            <tr
-              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
-              <ng-container *ngIf="type !== 'max_slot'">
-                <td *ngIf="i%3 === 0" rowspan="3"><img
-                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <ng-container *ngIf="type === 'max_slot'">
-                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <td>{{ item.name }}<br>({{ item.name_en }})</td>
-              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
-              <td>{{ item.critical_damage.min }}&nbsp;-&nbsp;{{ item.critical_damage.max }}</td>
-              <td>{{ item.itemlevel }}</td>
-              <td>{{ item.level }}</td>
-              <td>{{ item.strength }}</td>
-              <td>{{ item.durability }}</td>
-              <td>{{ item.max_slot }}</td>
-              <td>{{ item.block }}</td>
-            </tr>
+            <ng-container
+              *ngFor="let group of toGroup(items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td) | keyvalue">
+              <tr *ngFor="let item of typeChange(group.value); let i = index; let last = last"
+                [ngClass]="{'bottom': last, 'top': i%2 == 0 }">
+                <td *ngIf="i%getLength(group.value) === 0" [attr.rowspan]="getLength(group.value)"><img
+                    [src]="'/assets/images/items/normal/armor/' + getvalue(item, 'part') + '/' + getvalue(item, 'group') + '.png'">
+                </td>
+                <td>{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
+                <td>
+                  {{ getvalue(getobject(item, 'defense'), 'min') }}&nbsp;-&nbsp;{{ getvalue(getobject(item, 'defense'), 'max') }}
+                </td>
+                <td>
+                  {{ getvalue(getobject(item, 'critical_damage'), 'min') }}&nbsp;-&nbsp;{{ getvalue(getobject(item, 'critical_damage'), 'max') }}
+                </td>
+                <td>{{ getvalue(item, 'itemlevel') }}</td>
+                <td>{{ getvalue(item, 'level') }}</td>
+                <td>{{ getvalue(item, 'strength') }}</td>
+                <td>{{ getvalue(item, 'durability') }}</td>
+                <td>{{ getvalue(item, 'max_slot') }}</td>
+                <td>{{ getvalue(item, 'block') }}</td>
+              </tr>
+            </ng-container>
           </tbody>
         </table>
       </ng-container>
@@ -268,24 +281,25 @@
             <th>格檔率(%)</th>
           </thead>
           <tbody>
-            <tr
-              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index">
-              <ng-container *ngIf="type !== 'max_slot'">
-                <td *ngIf="i%3 === 0" rowspan="3"><img
-                    [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <ng-container *ngIf="type === 'max_slot'">
-                <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              </ng-container>
-              <td>{{ item.name }}<br>({{ item.name_en }})</td>
-              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
-              <td>{{ item.itemlevel }}</td>
-              <td>{{ item.level }}</td>
-              <td>{{ item.strength }}</td>
-              <td>{{ item.durability }}</td>
-              <td>{{ item.max_slot }}</td>
-              <td>{{ item.block }}</td>
-            </tr>
+            <ng-container
+              *ngFor="let group of toGroup(items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td) | keyvalue">
+              <tr *ngFor="let item of typeChange(group.value); let i = index; let last = last"
+                [ngClass]="{'bottom': last, 'top': i%2 == 0 }">
+                <td *ngIf="i%getLength(group.value) === 0" [attr.rowspan]="getLength(group.value)"><img
+                    [src]="'/assets/images/items/normal/armor/' + getvalue(item, 'part') + '/' + getvalue(item, 'group') + '.png'">
+                </td>
+                <td>{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
+                <td>
+                  {{ getvalue(getobject(item, 'defense'), 'min') }}&nbsp;-&nbsp;{{ getvalue(getobject(item, 'defense'), 'max') }}
+                </td>
+                <td>{{ getvalue(item, 'itemlevel') }}</td>
+                <td>{{ getvalue(item, 'level') }}</td>
+                <td>{{ getvalue(item, 'strength') }}</td>
+                <td>{{ getvalue(item, 'durability') }}</td>
+                <td>{{ getvalue(item, 'max_slot') }}</td>
+                <td>{{ getvalue(item, 'block') }}</td>
+              </tr>
+            </ng-container>
           </tbody>
         </table>
       </ng-container>
@@ -302,17 +316,23 @@
             <th>最大鑲孔數</th>
           </thead>
           <tbody>
-            <tr
-              *ngFor="let item of items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td; let i = index"
-              [ngClass]="'circlet'">
-              <td><img [src]="'/assets/images/items/normal/armor/' + item.part + '/' + item.group + '.png'"></td>
-              <td>{{ item.name }}<br>({{ item.name_en }})</td>
-              <td>{{ item.defense.min }}&nbsp;-&nbsp;{{ item.defense.max }}</td>
-              <td>{{ item.itemlevel }}</td>
-              <td>{{ item.level }}</td>
-              <td>{{ item.durability }}</td>
-              <td>{{ item.max_slot }}</td>
-            </tr>
+            <ng-container
+              *ngFor="let group of toGroup(items | filternormalarmor: (partNeedtofind.includes(type_detail) ? 'part' : type) : td) | keyvalue">
+              <tr *ngFor="let item of typeChange(group.value); let i = index; let last = last"
+                [ngClass]="{'bottom': last, 'top': i%2 == 0 }">
+                <td *ngIf="i%getLength(group.value) === 0" [attr.rowspan]="getLength(group.value)"><img
+                    [src]="'/assets/images/items/normal/armor/' + getvalue(item, 'part') + '/' + getvalue(item, 'group') + '.png'">
+                </td>
+                <td>{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
+                <td>
+                  {{ getvalue(getobject(item, 'defense'), 'min') }}&nbsp;-&nbsp;{{ getvalue(getobject(item, 'defense'), 'max') }}
+                </td>
+                <td>{{ getvalue(item, 'itemlevel') }}</td>
+                <td>{{ getvalue(item, 'level') }}</td>
+                <td>{{ getvalue(item, 'durability') }}</td>
+                <td>{{ getvalue(item, 'max_slot') }}</td>
+              </tr>
+            </ng-container>
           </tbody>
         </table>
       </ng-container>

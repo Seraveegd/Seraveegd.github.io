@@ -20,12 +20,13 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 24,
     "max_slot": 2,
+    "itemlevel": 1,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -52,11 +53,12 @@
     },
     "level": 18,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 24,
     "max_slot": 2,
+    "itemlevel": 30,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -88,6 +90,7 @@
     "quantity": null,
     "durability": 24,
     "max_slot": 2,
+    "itemlevel": 56,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -113,12 +116,13 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
+    "strength": null,
     "agile": 21,
     "range": 1,
     "quantity": null,
     "durability": 22,
     "max_slot": 2,
+    "itemlevel": 5,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
@@ -150,6 +154,7 @@
     "quantity": null,
     "durability": 22,
     "max_slot": 2,
+    "itemlevel": 43,
     "extra_skills": "",
     "speed": -30,
     "limit": ""
@@ -175,12 +180,13 @@
       "max": null
     },
     "level": 45,
-    "strength": 135,
+    "strength": 138,
     "agile": 95,
     "range": 1,
     "quantity": null,
     "durability": 22,
     "max_slot": 2,
+    "itemlevel": 61,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
@@ -212,6 +218,7 @@
     "quantity": null,
     "durability": 32,
     "max_slot": 2,
+    "itemlevel": 8,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -243,6 +250,7 @@
     "quantity": null,
     "durability": 32,
     "max_slot": 2,
+    "itemlevel": 35,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -274,6 +282,7 @@
     "quantity": null,
     "durability": 32,
     "max_slot": 2,
+    "itemlevel": 63,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -300,11 +309,12 @@
     },
     "level": 0,
     "strength": 33,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 32,
     "max_slot": 2,
+    "itemlevel": 11,
     "extra_skills": "",
     "speed": 20,
     "limit": ""
@@ -331,11 +341,12 @@
     },
     "level": 25,
     "strength": 70,
-    "agile": 0,
+    "agile": 42,
     "range": 1,
     "quantity": null,
     "durability": 32,
     "max_slot": 2,
+    "itemlevel": 37,
     "extra_skills": "",
     "speed": 20,
     "limit": ""
@@ -367,6 +378,7 @@
     "quantity": null,
     "durability": 32,
     "max_slot": 2,
+    "itemlevel": 69,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -393,11 +405,12 @@
     },
     "level": 0,
     "strength": 43,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 20,
     "max_slot": 6,
+    "itemlevel": 11,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -429,6 +442,7 @@
     "quantity": null,
     "durability": 20,
     "max_slot": 6,
+    "itemlevel": 37,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -458,8 +472,9 @@
     "agile": 136,
     "range": 2,
     "quantity": null,
-    "durability": "無法破壞",
+    "durability": null,
     "max_slot": 6,
+    "itemlevel": 73,
     "extra_skills": "",
     "speed": -30,
     "limit": ""
@@ -486,11 +501,12 @@
     },
     "level": 0,
     "strength": 48,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 32,
     "max_slot": 4,
+    "itemlevel": 15,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -522,6 +538,7 @@
     "quantity": null,
     "durability": 32,
     "max_slot": 4,
+    "itemlevel": 40,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -553,6 +570,7 @@
     "quantity": null,
     "durability": 32,
     "max_slot": 4,
+    "itemlevel": 78,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -580,10 +598,11 @@
     "level": 0,
     "strength": 55,
     "agile": 39,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 44,
     "max_slot": 4,
+    "itemlevel": 20,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -611,10 +630,11 @@
     "level": 25,
     "strength": 103,
     "agile": 79,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 44,
     "max_slot": 4,
+    "itemlevel": 44,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -646,6 +666,7 @@
     "quantity": null,
     "durability": 44,
     "max_slot": 4,
+    "itemlevel": 82,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -673,10 +694,11 @@
     "level": 0,
     "strength": 71,
     "agile": 45,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 44,
     "max_slot": 3,
+    "itemlevel": 27,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -704,10 +726,11 @@
     "level": 25,
     "strength": 127,
     "agile": 88,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 44,
     "max_slot": 3,
+    "itemlevel": 49,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -722,7 +745,7 @@
     "hand": "one",
     "oneharm": {
       "min": 40,
-      "max": 52
+      "max": 50
     },
     "twoharm": {
       "min": null,
@@ -739,6 +762,7 @@
     "quantity": null,
     "durability": 44,
     "max_slot": 3,
+    "itemlevel": 85,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -770,6 +794,7 @@
     "quantity": null,
     "durability": 44,
     "max_slot": 3,
+    "itemlevel": 10,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -801,6 +826,7 @@
     "quantity": null,
     "durability": 44,
     "max_slot": 3,
+    "itemlevel": 37,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -814,7 +840,7 @@
     "attack": "melee",
     "hand": "two",
     "oneharm": {
-      "min": 20,
+      "min": 22,
       "max": 56
     },
     "twoharm": {
@@ -832,6 +858,7 @@
     "quantity": null,
     "durability": 44,
     "max_slot": 3,
+    "itemlevel": 59,
     "extra_skills": "",
     "speed": -15,
     "limit": ""
@@ -858,11 +885,12 @@
     },
     "level": 0,
     "strength": 47,
-    "agile": 0,
+    "agile": null,
     "range": 3,
     "quantity": null,
     "durability": 50,
     "max_slot": 4,
+    "itemlevel": 17,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -871,7 +899,7 @@
     "type": "weapon",
     "kind": "sword",
     "group": "claymore",
-    "name": "達西安鐮刀",
+    "name": "達西安長刀",
     "name_en": "Dacian Falx",
     "attack": "melee",
     "hand": "two",
@@ -894,6 +922,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 4,
+    "itemlevel": 42,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -925,6 +954,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 4,
+    "itemlevel": 66,
     "extra_skills": "",
     "speed": -5,
     "limit": ""
@@ -956,6 +986,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 4,
+    "itemlevel": 21,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -987,6 +1018,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 4,
+    "itemlevel": 45,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -1018,6 +1050,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 4,
+    "itemlevel": 71,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -1044,11 +1077,12 @@
     },
     "level": 0,
     "strength": 62,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 40,
     "max_slot": 4,
+    "itemlevel": 24,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -1080,6 +1114,7 @@
     "quantity": null,
     "durability": 40,
     "max_slot": 4,
+    "itemlevel": 48,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -1111,6 +1146,7 @@
     "quantity": null,
     "durability": 40,
     "max_slot": 4,
+    "itemlevel": 77,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -1142,6 +1178,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 5,
+    "itemlevel": 27,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -1173,6 +1210,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 5,
+    "itemlevel": 49,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -1197,13 +1235,14 @@
       "min": null,
       "max": null
     },
-    "level": 63,
+    "level": 60,
     "strength": 182,
     "agile": 95,
     "range": 3,
     "quantity": null,
     "durability": 50,
     "max_slot": 5,
+    "itemlevel": 80,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -1235,6 +1274,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 6,
+    "itemlevel": 33,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -1266,6 +1306,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 6,
+    "itemlevel": 54,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -1297,6 +1338,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 6,
+    "itemlevel": 85,
     "extra_skills": "",
     "speed": 5,
     "limit": ""
@@ -1322,12 +1364,13 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 28,
     "max_slot": 2,
+    "itemlevel": 3,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -1359,6 +1402,7 @@
     "quantity": null,
     "durability": 28,
     "max_slot": 2,
+    "itemlevel": 31,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -1390,6 +1434,7 @@
     "quantity": null,
     "durability": 28,
     "max_slot": 2,
+    "itemlevel": 54,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -1416,11 +1461,12 @@
     },
     "level": 0,
     "strength": 32,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 24,
     "max_slot": 4,
+    "itemlevel": 7,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -1447,11 +1493,12 @@
     },
     "level": 22,
     "strength": 68,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 24,
     "max_slot": 4,
+    "itemlevel": 34,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -1483,6 +1530,7 @@
     "quantity": null,
     "durability": 24,
     "max_slot": 4,
+    "itemlevel": 61,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -1509,11 +1557,12 @@
     },
     "level": 0,
     "strength": 43,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 24,
     "max_slot": 5,
+    "itemlevel": 13,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -1540,11 +1589,12 @@
     },
     "level": 25,
     "strength": 85,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 24,
     "max_slot": 5,
+    "itemlevel": 39,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -1576,6 +1626,7 @@
     "quantity": null,
     "durability": 24,
     "max_slot": 5,
+    "itemlevel": 70,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -1607,6 +1658,7 @@
     "quantity": null,
     "durability": 26,
     "max_slot": 6,
+    "itemlevel": 19,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -1638,6 +1690,7 @@
     "quantity": null,
     "durability": 26,
     "max_slot": 6,
+    "itemlevel": 43,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -1669,6 +1722,7 @@
     "quantity": null,
     "durability": 26,
     "max_slot": 6,
+    "itemlevel": 79,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -1695,11 +1749,12 @@
     },
     "level": 0,
     "strength": 67,
-    "agile": 0,
+    "agile": null,
     "range": 3,
     "quantity": null,
     "durability": 26,
     "max_slot": 6,
+    "itemlevel": 25,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -1726,11 +1781,12 @@
     },
     "level": 25,
     "strength": 121,
-    "agile": 0,
+    "agile": null,
     "range": 3,
     "quantity": null,
     "durability": 26,
     "max_slot": 6,
+    "itemlevel": 48,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -1762,6 +1818,7 @@
     "quantity": null,
     "durability": 26,
     "max_slot": 6,
+    "itemlevel": 85,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -1788,11 +1845,12 @@
     },
     "level": 0,
     "strength": 35,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 30,
     "max_slot": 4,
+    "itemlevel": 6,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -1817,13 +1875,14 @@
       "min": null,
       "max": null
     },
-    "level": 25,
+    "level": 22,
     "strength": 73,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 30,
     "max_slot": 4,
+    "itemlevel": 34,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -1850,11 +1909,12 @@
     },
     "level": 42,
     "strength": 196,
-    "agile": 0,
+    "agile": null,
     "range": 3,
     "quantity": null,
     "durability": 30,
     "max_slot": 4,
+    "itemlevel": 57,
     "extra_skills": "",
     "speed": -15,
     "limit": ""
@@ -1881,11 +1941,12 @@
     },
     "level": 0,
     "strength": 48,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 35,
     "max_slot": 5,
+    "itemlevel": 12,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -1912,11 +1973,12 @@
     },
     "level": 25,
     "strength": 92,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 35,
     "max_slot": 5,
+    "itemlevel": 38,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -1948,6 +2010,7 @@
     "quantity": null,
     "durability": 35,
     "max_slot": 5,
+    "itemlevel": 65,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -1974,11 +2037,12 @@
     },
     "level": 0,
     "strength": 54,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 40,
     "max_slot": 5,
+    "itemlevel": 17,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -2005,11 +2069,12 @@
     },
     "level": 25,
     "strength": 101,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 40,
     "max_slot": 5,
+    "itemlevel": 42,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -2041,6 +2106,7 @@
     "quantity": null,
     "durability": 40,
     "max_slot": 5,
+    "itemlevel": 73,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -2072,6 +2138,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 6,
+    "itemlevel": 23,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -2103,6 +2170,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 6,
+    "itemlevel": 46,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -2134,6 +2202,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 6,
+    "itemlevel": 82,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -2160,11 +2229,12 @@
     },
     "level": 0,
     "strength": 70,
-    "agile": 0,
+    "agile": null,
     "range": 4,
     "quantity": null,
     "durability": 50,
     "max_slot": 6,
+    "itemlevel": 27,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -2191,11 +2261,12 @@
     },
     "level": 25,
     "strength": 125,
-    "agile": 0,
+    "agile": null,
     "range": 4,
     "quantity": null,
     "durability": 50,
     "max_slot": 6,
+    "itemlevel": 51,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -2227,6 +2298,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 6,
+    "itemlevel": 85,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -2253,11 +2325,12 @@
     },
     "level": 0,
     "strength": 40,
-    "agile": 0,
+    "agile": null,
     "range": 3,
     "quantity": null,
     "durability": 50,
     "max_slot": 3,
+    "itemlevel": 5,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -2284,11 +2357,12 @@
     },
     "level": 21,
     "strength": 80,
-    "agile": 0,
+    "agile": null,
     "range": 3,
     "quantity": null,
     "durability": 50,
     "max_slot": 3,
+    "itemlevel": 33,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -2320,8 +2394,9 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 3,
+    "itemlevel": 60,
     "extra_skills": "",
-    "speed": 10,
+    "speed": 0,
     "limit": ""
   },
   {
@@ -2346,11 +2421,12 @@
     },
     "level": 0,
     "strength": 50,
-    "agile": 0,
+    "agile": null,
     "range": 3,
     "quantity": null,
     "durability": 50,
     "max_slot": 4,
+    "itemlevel": 11,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -2377,11 +2453,12 @@
     },
     "level": 25,
     "strength": 95,
-    "agile": 0,
+    "agile": null,
     "range": 3,
     "quantity": null,
     "durability": 50,
     "max_slot": 4,
+    "itemlevel": 37,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -2413,6 +2490,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 4,
+    "itemlevel": 64,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -2444,6 +2522,7 @@
     "quantity": null,
     "durability": 65,
     "max_slot": 5,
+    "itemlevel": 15,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -2475,6 +2554,7 @@
     "quantity": null,
     "durability": 65,
     "max_slot": 5,
+    "itemlevel": 40,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -2506,6 +2586,7 @@
     "quantity": null,
     "durability": 65,
     "max_slot": 5,
+    "itemlevel": 71,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -2532,11 +2613,12 @@
     },
     "level": 0,
     "strength": 62,
-    "agile": 0,
+    "agile": null,
     "range": 4,
     "quantity": null,
     "durability": 65,
     "max_slot": 5,
+    "itemlevel": 21,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -2568,6 +2650,7 @@
     "quantity": null,
     "durability": 65,
     "max_slot": 5,
+    "itemlevel": 35,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -2599,6 +2682,7 @@
     "quantity": null,
     "durability": 65,
     "max_slot": 5,
+    "itemlevel": 79,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -2630,6 +2714,7 @@
     "quantity": null,
     "durability": 55,
     "max_slot": 6,
+    "itemlevel": 29,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -2661,6 +2746,7 @@
     "quantity": null,
     "durability": 55,
     "max_slot": 6,
+    "itemlevel": 51,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -2692,6 +2778,7 @@
     "quantity": null,
     "durability": 55,
     "max_slot": 6,
+    "itemlevel": 84,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -2723,6 +2810,7 @@
     "quantity": null,
     "durability": 55,
     "max_slot": 6,
+    "itemlevel": 34,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -2754,6 +2842,7 @@
     "quantity": null,
     "durability": 55,
     "max_slot": 6,
+    "itemlevel": 55,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -2785,6 +2874,7 @@
     "quantity": null,
     "durability": 55,
     "max_slot": 6,
+    "itemlevel": 85,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -2803,19 +2893,20 @@
     },
     "twoharm": {
       "min": 3,
-      "max": 6
+      "max": 15
     },
     "throw": {
       "min": null,
       "max": null
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": 20,
     "range": 4,
     "quantity": null,
     "durability": 30,
     "max_slot": 3,
+    "itemlevel": 5,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -2847,6 +2938,7 @@
     "quantity": null,
     "durability": 30,
     "max_slot": 3,
+    "itemlevel": 33,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -2872,12 +2964,13 @@
       "max": null
     },
     "level": 43,
-    "strength": 115,
+    "strength": 155,
     "agile": 120,
     "range": 4,
     "quantity": null,
     "durability": 30,
     "max_slot": 3,
+    "itemlevel": 58,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -2909,6 +3002,7 @@
     "quantity": null,
     "durability": 35,
     "max_slot": 4,
+    "itemlevel": 9,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -2940,6 +3034,7 @@
     "quantity": null,
     "durability": 35,
     "max_slot": 4,
+    "itemlevel": 36,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -2971,6 +3066,7 @@
     "quantity": null,
     "durability": 35,
     "max_slot": 4,
+    "itemlevel": 66,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -3002,6 +3098,7 @@
     "quantity": null,
     "durability": 28,
     "max_slot": 5,
+    "itemlevel": 16,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
@@ -3033,6 +3130,7 @@
     "quantity": null,
     "durability": 28,
     "max_slot": 5,
+    "itemlevel": 41,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
@@ -3064,6 +3162,7 @@
     "quantity": null,
     "durability": 28,
     "max_slot": 5,
+    "itemlevel": 74,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
@@ -3095,6 +3194,7 @@
     "quantity": null,
     "durability": 28,
     "max_slot": 6,
+    "itemlevel": 20,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -3121,11 +3221,12 @@
     },
     "level": 25,
     "strength": 101,
-    "agile": 0,
+    "agile": null,
     "range": 5,
     "quantity": null,
     "durability": 28,
     "max_slot": 6,
+    "itemlevel": 44,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -3157,6 +3258,7 @@
     "quantity": null,
     "durability": 28,
     "max_slot": 6,
+    "itemlevel": 83,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -3188,6 +3290,7 @@
     "quantity": null,
     "durability": 25,
     "max_slot": 6,
+    "itemlevel": 24,
     "extra_skills": "",
     "speed": 20,
     "limit": ""
@@ -3219,6 +3322,7 @@
     "quantity": null,
     "durability": 25,
     "max_slot": 6,
+    "itemlevel": 47,
     "extra_skills": "",
     "speed": 20,
     "limit": ""
@@ -3250,194 +3354,9 @@
     "quantity": null,
     "durability": 25,
     "max_slot": 6,
+    "itemlevel": 85,
     "extra_skills": "",
     "speed": 20,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "mace",
-    "group": "club",
-    "name": "木棒",
-    "name_en": "Club",
-    "attack": "melee",
-    "hand": "one",
-    "oneharm": {
-      "min": 1,
-      "max": 6
-    },
-    "twoharm": {
-      "min": null,
-      "max": null
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 0,
-    "strength": 0,
-    "agile": 0,
-    "range": 1,
-    "quantity": null,
-    "durability": 24,
-    "max_slot": 2,
-    "extra_skills": "",
-    "speed": -10,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "mace",
-    "group": "club",
-    "name": "棍棒",
-    "name_en": "Cudgel",
-    "attack": "melee",
-    "hand": "one",
-    "oneharm": {
-      "min": 6,
-      "max": 21
-    },
-    "twoharm": {
-      "min": null,
-      "max": null
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 18,
-    "strength": 25,
-    "agile": 0,
-    "range": 1,
-    "quantity": null,
-    "durability": 24,
-    "max_slot": 2,
-    "extra_skills": "",
-    "speed": -10,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "mace",
-    "group": "club",
-    "name": "戰儀杖",
-    "name_en": "Truncheon",
-    "attack": "melee",
-    "hand": "one",
-    "oneharm": {
-      "min": 35,
-      "max": 43
-    },
-    "twoharm": {
-      "min": null,
-      "max": null
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 39,
-    "strength": 88,
-    "agile": 43,
-    "range": 1,
-    "quantity": null,
-    "durability": 29,
-    "max_slot": 2,
-    "extra_skills": "",
-    "speed": -10,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "mace",
-    "group": "spikedclub",
-    "name": "狼牙棒",
-    "name_en": "Spiked Club",
-    "attack": "melee",
-    "hand": "one",
-    "oneharm": {
-      "min": 5,
-      "max": 8
-    },
-    "twoharm": {
-      "min": null,
-      "max": null
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 0,
-    "strength": 0,
-    "agile": 0,
-    "range": 2,
-    "quantity": null,
-    "durability": 36,
-    "max_slot": 2,
-    "extra_skills": "",
-    "speed": 0,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "mace",
-    "group": "spikedclub",
-    "name": "倒鉤錘",
-    "name_en": "Barbed Club",
-    "attack": "melee",
-    "hand": "one",
-    "oneharm": {
-      "min": 13,
-      "max": 25
-    },
-    "twoharm": {
-      "min": null,
-      "max": null
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 20,
-    "strength": 20,
-    "agile": 0,
-    "range": 2,
-    "quantity": null,
-    "durability": 36,
-    "max_slot": 2,
-    "extra_skills": "",
-    "speed": 0,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "mace",
-    "group": "spikedclub",
-    "name": "暴君之棒",
-    "name_en": "Tyrant Club",
-    "attack": "melee",
-    "hand": "one",
-    "oneharm": {
-      "min": 32,
-      "max": 58
-    },
-    "twoharm": {
-      "min": null,
-      "max": null
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 42,
-    "strength": 133,
-    "agile": 0,
-    "range": 2,
-    "quantity": null,
-    "durability": 45,
-    "max_slot": 3,
-    "extra_skills": "",
-    "speed": 0,
     "limit": ""
   },
   {
@@ -3462,11 +3381,12 @@
     },
     "level": 0,
     "strength": 27,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 60,
     "max_slot": 2,
+    "itemlevel": 8,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -3493,11 +3413,12 @@
     },
     "level": 23,
     "strength": 61,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 60,
     "max_slot": 2,
+    "itemlevel": 35,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -3529,6 +3450,7 @@
     "quantity": null,
     "durability": 60,
     "max_slot": 2,
+    "itemlevel": 63,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -3555,11 +3477,12 @@
     },
     "level": 0,
     "strength": 36,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 72,
     "max_slot": 3,
+    "itemlevel": 13,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -3586,11 +3509,12 @@
     },
     "level": 25,
     "strength": 74,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 72,
     "max_slot": 3,
+    "itemlevel": 39,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -3622,6 +3546,7 @@
     "quantity": null,
     "durability": 72,
     "max_slot": 3,
+    "itemlevel": 70,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -3653,6 +3578,7 @@
     "quantity": null,
     "durability": 30,
     "max_slot": 5,
+    "itemlevel": 19,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -3684,6 +3610,7 @@
     "quantity": null,
     "durability": 30,
     "max_slot": 5,
+    "itemlevel": 43,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -3715,6 +3642,7 @@
     "quantity": null,
     "durability": 65,
     "max_slot": 5,
+    "itemlevel": 76,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -3722,14 +3650,14 @@
   {
     "type": "weapon",
     "kind": "mace",
-    "group": "warhammer",
-    "name": "戰鎚",
-    "name_en": "War Hammer",
+    "group": "flail",
+    "name": "克林姆的遺願",
+    "name_en": "Khalim's Will",
     "attack": "melee",
     "hand": "one",
     "oneharm": {
-      "min": 19,
-      "max": 29
+      "min": 1,
+      "max": 15
     },
     "twoharm": {
       "min": null,
@@ -3740,262 +3668,47 @@
       "max": null
     },
     "level": 0,
-    "strength": 53,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
-    "durability": 55,
-    "max_slot": 4,
+    "durability": 30,
+    "max_slot": 3,
+    "itemlevel": 0,
     "extra_skills": "",
-    "speed": 20,
+    "speed": -10,
     "limit": ""
   },
   {
     "type": "weapon",
     "kind": "mace",
-    "group": "warhammer",
-    "name": "戰鬥鐵鎚",
-    "name_en": "Battle Hammer",
+    "group": "flail",
+    "name": "克林姆的連枷",
+    "name_en": "Khalim's Flail",
     "attack": "melee",
     "hand": "one",
     "oneharm": {
-      "min": 35,
-      "max": 58
+      "min": 1,
+      "max": 15
     },
     "twoharm": {
       "min": null,
       "max": null
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 25,
-    "strength": 100,
-    "agile": 0,
-    "range": 1,
-    "quantity": null,
-    "durability": 55,
-    "max_slot": 4,
-    "extra_skills": "",
-    "speed": 20,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "mace",
-    "group": "warhammer",
-    "name": "傳說戰鎚",
-    "name_en": "Legendary Mallet",
-    "attack": "melee",
-    "hand": "one",
-    "oneharm": {
-      "min": 50,
-      "max": 61
-    },
-    "twoharm": {
-      "min": null,
-      "max": null
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 61,
-    "strength": 189,
-    "agile": 0,
-    "range": 1,
-    "quantity": null,
-    "durability": 65,
-    "max_slot": 4,
-    "extra_skills": "",
-    "speed": 20,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "mace",
-    "group": "maul",
-    "name": "重鎚",
-    "name_en": "Maul",
-    "attack": "melee",
-    "hand": "two",
-    "oneharm": {
-      "min": null,
-      "max": null
-    },
-    "twoharm": {
-      "min": 30,
-      "max": 43
     },
     "throw": {
       "min": null,
       "max": null
     },
     "level": 0,
-    "strength": 69,
-    "agile": 0,
-    "range": 2,
+    "strength": 41,
+    "agile": 35,
+    "range": 1,
     "quantity": null,
-    "durability": 60,
-    "max_slot": 6,
+    "durability": 30,
+    "max_slot": 3,
+    "itemlevel": 0,
     "extra_skills": "",
-    "speed": 10,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "mace",
-    "group": "maul",
-    "name": "征戰重鎚",
-    "name_en": "War Club",
-    "attack": "melee",
-    "hand": "two",
-    "oneharm": {
-      "min": null,
-      "max": null
-    },
-    "twoharm": {
-      "min": 53,
-      "max": 78
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 25,
-    "strength": 124,
-    "agile": 0,
-    "range": 2,
-    "quantity": null,
-    "durability": 60,
-    "max_slot": 6,
-    "extra_skills": "",
-    "speed": 10,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "mace",
-    "group": "maul",
-    "name": "巨魔重鎚",
-    "name_en": "Ogre Maul",
-    "attack": "melee",
-    "hand": "two",
-    "oneharm": {
-      "min": null,
-      "max": null
-    },
-    "twoharm": {
-      "min": 77,
-      "max": 106
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 51,
-    "strength": 225,
-    "agile": 0,
-    "range": 2,
-    "quantity": null,
-    "durability": 60,
-    "max_slot": 6,
-    "extra_skills": "",
-    "speed": 10,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "mace",
-    "group": "greatmaul",
-    "name": "巨型重鎚",
-    "name_en": "Great Maul",
-    "attack": "melee",
-    "hand": "two",
-    "oneharm": {
-      "min": null,
-      "max": null
-    },
-    "twoharm": {
-      "min": 38,
-      "max": 58
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 0,
-    "strength": 99,
-    "agile": 0,
-    "range": 3,
-    "quantity": null,
-    "durability": 60,
-    "max_slot": 6,
-    "extra_skills": "",
-    "speed": 20,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "mace",
-    "group": "greatmaul",
-    "name": "長柄戰鎚",
-    "name_en": "Martel de Fer",
-    "attack": "melee",
-    "hand": "two",
-    "oneharm": {
-      "min": null,
-      "max": null
-    },
-    "twoharm": {
-      "min": 61,
-      "max": 99
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 25,
-    "strength": 169,
-    "agile": 0,
-    "range": 3,
-    "quantity": null,
-    "durability": 60,
-    "max_slot": 6,
-    "extra_skills": "",
-    "speed": 20,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "mace",
-    "group": "greatmaul",
-    "name": "雷霆重鎚",
-    "name_en": "Thunder Maul",
-    "attack": "melee",
-    "hand": "two",
-    "oneharm": {
-      "min": null,
-      "max": null
-    },
-    "twoharm": {
-      "min": 33,
-      "max": 180
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 65,
-    "strength": 253,
-    "agile": 0,
-    "range": 3,
-    "quantity": null,
-    "durability": 60,
-    "max_slot": 6,
-    "extra_skills": "",
-    "speed": 20,
+    "speed": -10,
     "limit": ""
   },
   {
@@ -4020,11 +3733,12 @@
     },
     "level": 0,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 50,
     "max_slot": 2,
+    "itemlevel": 3,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -4051,11 +3765,12 @@
     },
     "level": 19,
     "strength": 58,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 50,
     "max_slot": 2,
+    "itemlevel": 31,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -4087,6 +3802,7 @@
     "quantity": null,
     "durability": 50,
     "max_slot": 2,
+    "itemlevel": 62,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -4113,11 +3829,12 @@
     },
     "level": 0,
     "strength": 37,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 60,
     "max_slot": 3,
+    "itemlevel": 15,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -4144,11 +3861,12 @@
     },
     "level": 25,
     "strength": 76,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 60,
     "max_slot": 3,
+    "itemlevel": 40,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -4180,6 +3898,7 @@
     "quantity": null,
     "durability": 60,
     "max_slot": 3,
+    "itemlevel": 76,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -4206,11 +3925,12 @@
     },
     "level": 0,
     "strength": 55,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 70,
     "max_slot": 5,
+    "itemlevel": 21,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -4237,11 +3957,12 @@
     },
     "level": 25,
     "strength": 103,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 70,
     "max_slot": 5,
+    "itemlevel": 45,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -4273,6 +3994,7 @@
     "quantity": null,
     "durability": 70,
     "max_slot": 5,
+    "itemlevel": 85,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -4298,12 +4020,13 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
+    "strength": null,
     "agile": 15,
     "range": null,
     "quantity": null,
     "durability": null,
     "max_slot": 3,
+    "itemlevel": 1,
     "extra_skills": "",
     "speed": 5,
     "limit": ""
@@ -4335,6 +4058,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 3,
+    "itemlevel": 30,
     "extra_skills": "",
     "speed": 5,
     "limit": ""
@@ -4366,6 +4090,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 3,
+    "itemlevel": 55,
     "extra_skills": "",
     "speed": 5,
     "limit": ""
@@ -4391,12 +4116,13 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
+    "strength": null,
     "agile": 28,
     "range": null,
     "quantity": null,
     "durability": null,
     "max_slot": 4,
+    "itemlevel": 5,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -4422,12 +4148,13 @@
       "max": null
     },
     "level": 21,
-    "strength": 0,
+    "strength": 25,
     "agile": 62,
     "range": null,
     "quantity": null,
     "durability": null,
     "max_slot": 4,
+    "itemlevel": 33,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -4459,6 +4186,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 4,
+    "itemlevel": 60,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -4490,6 +4218,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 8,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -4521,6 +4250,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 35,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -4552,6 +4282,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 63,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -4583,6 +4314,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 4,
+    "itemlevel": 12,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -4614,6 +4346,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 4,
+    "itemlevel": 39,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -4639,12 +4372,13 @@
       "max": null
     },
     "level": 51,
-    "strength": 127,
+    "strength": 121,
     "agile": 107,
     "range": null,
     "quantity": null,
     "durability": null,
     "max_slot": 4,
+    "itemlevel": 68,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -4676,6 +4410,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 18,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -4707,6 +4442,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 43,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -4738,6 +4474,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 72,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -4769,6 +4506,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 6,
+    "itemlevel": 23,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -4800,6 +4538,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 6,
+    "itemlevel": 46,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -4831,6 +4570,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 6,
+    "itemlevel": 77,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -4862,6 +4602,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 27,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -4893,6 +4634,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 49,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -4924,6 +4666,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 80,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -4955,6 +4698,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 6,
+    "itemlevel": 31,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -4986,6 +4730,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 6,
+    "itemlevel": 52,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -5017,6 +4762,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 6,
+    "itemlevel": 85,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -5048,6 +4794,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 3,
+    "itemlevel": 6,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -5079,6 +4826,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 3,
+    "itemlevel": 34,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -5110,6 +4858,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 3,
+    "itemlevel": 57,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -5141,6 +4890,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 4,
+    "itemlevel": 15,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -5172,6 +4922,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 4,
+    "itemlevel": 40,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -5203,6 +4954,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 4,
+    "itemlevel": 67,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -5234,6 +4986,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 6,
+    "itemlevel": 24,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -5265,6 +5018,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 6,
+    "itemlevel": 47,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -5296,6 +5050,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 6,
+    "itemlevel": 75,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -5327,6 +5082,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 33,
     "extra_skills": "",
     "speed": -40,
     "limit": ""
@@ -5358,6 +5114,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 54,
     "extra_skills": "",
     "speed": -60,
     "limit": ""
@@ -5375,7 +5132,7 @@
       "max": null
     },
     "twoharm": {
-      "min": 23,
+      "min": 26,
       "max": 40
     },
     "throw": {
@@ -5389,6 +5146,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 84,
     "extra_skills": "",
     "speed": -60,
     "limit": ""
@@ -5414,12 +5172,13 @@
       "max": 14
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 3,
     "quantity": 60,
-    "durability": null,
+    "durability": 2,
     "max_slot": null,
+    "itemlevel": 1,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -5449,8 +5208,9 @@
     "agile": 25,
     "range": 3,
     "quantity": 60,
-    "durability": null,
+    "durability": 10,
     "max_slot": null,
+    "itemlevel": 30,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -5472,7 +5232,7 @@
       "max": null
     },
     "throw": {
-      "min": 82,
+      "min": 28,
       "max": 55
     },
     "level": 40,
@@ -5480,8 +5240,9 @@
     "agile": 123,
     "range": 3,
     "quantity": 60,
-    "durability": null,
+    "durability": 10,
     "max_slot": null,
+    "itemlevel": 54,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -5507,12 +5268,13 @@
       "max": 20
     },
     "level": 0,
-    "strength": 0,
+    "strength": null,
     "agile": 45,
     "range": 3,
     "quantity": 50,
-    "durability": null,
+    "durability": 3,
     "max_slot": null,
+    "itemlevel": 10,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -5542,8 +5304,9 @@
     "agile": 88,
     "range": 3,
     "quantity": 50,
-    "durability": null,
+    "durability": 12,
     "max_slot": null,
+    "itemlevel": 37,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -5573,8 +5336,9 @@
     "agile": 112,
     "range": 3,
     "quantity": 50,
-    "durability": null,
+    "durability": 12,
     "max_slot": null,
+    "itemlevel": 62,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -5604,8 +5368,9 @@
     "agile": 40,
     "range": 3,
     "quantity": 40,
-    "durability": null,
+    "durability": 4,
     "max_slot": null,
+    "itemlevel": 15,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -5635,8 +5400,9 @@
     "agile": 80,
     "range": 3,
     "quantity": 40,
-    "durability": null,
+    "durability": 14,
     "max_slot": null,
+    "itemlevel": 40,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -5666,8 +5432,9 @@
     "agile": 95,
     "range": 3,
     "quantity": 40,
-    "durability": null,
+    "durability": 14,
     "max_slot": null,
+    "itemlevel": 71,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -5697,8 +5464,9 @@
     "agile": 35,
     "range": 3,
     "quantity": 40,
-    "durability": null,
+    "durability": 5,
     "max_slot": null,
+    "itemlevel": 23,
     "extra_skills": "",
     "speed": 20,
     "limit": ""
@@ -5712,7 +5480,7 @@
     "attack": "melee",
     "hand": "one",
     "oneharm": {
-      "min": 18,
+      "min": 13,
       "max": 38
     },
     "twoharm": {
@@ -5720,16 +5488,17 @@
       "max": null
     },
     "throw": {
-      "min": 33,
+      "min": 32,
       "max": 60
     },
     "level": 25,
-    "strength": 93,
+    "strength": 98,
     "agile": 73,
     "range": 3,
     "quantity": 20,
-    "durability": null,
+    "durability": 16,
     "max_slot": null,
+    "itemlevel": 46,
     "extra_skills": "",
     "speed": 20,
     "limit": ""
@@ -5759,8 +5528,9 @@
     "agile": 137,
     "range": 3,
     "quantity": 75,
-    "durability": null,
+    "durability": 16,
     "max_slot": null,
+    "itemlevel": 79,
     "extra_skills": "",
     "speed": 20,
     "limit": ""
@@ -5786,12 +5556,13 @@
       "max": 30
     },
     "level": 0,
-    "strength": 0,
+    "strength": null,
     "agile": 65,
     "range": 3,
     "quantity": 80,
-    "durability": null,
+    "durability": 6,
     "max_slot": null,
+    "itemlevel": 29,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -5821,8 +5592,9 @@
     "agile": 118,
     "range": 3,
     "quantity": 80,
-    "durability": null,
+    "durability": 18,
     "max_slot": null,
+    "itemlevel": 51,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -5852,8 +5624,9 @@
     "agile": 145,
     "range": 3,
     "quantity": 80,
-    "durability": null,
+    "durability": 18,
     "max_slot": null,
+    "itemlevel": 85,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -5879,12 +5652,13 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 16,
     "max_slot": 1,
+    "itemlevel": 3,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
@@ -5911,11 +5685,12 @@
     },
     "level": 19,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 16,
     "max_slot": 1,
+    "itemlevel": 31,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
@@ -5945,8 +5720,9 @@
     "agile": 75,
     "range": 1,
     "quantity": null,
-    "durability": 16,
+    "durability": 26,
     "max_slot": 1,
+    "itemlevel": 58,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
@@ -5972,12 +5748,13 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
+    "strength": null,
     "agile": 25,
     "range": 1,
     "quantity": null,
     "durability": 20,
     "max_slot": 1,
+    "itemlevel": 9,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -6009,6 +5786,7 @@
     "quantity": null,
     "durability": 20,
     "max_slot": 1,
+    "itemlevel": 36,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -6038,8 +5816,9 @@
     "agile": 98,
     "range": 1,
     "quantity": null,
-    "durability": 20,
+    "durability": 55,
     "max_slot": 1,
+    "itemlevel": 70,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -6065,12 +5844,13 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
+    "strength": null,
     "agile": 45,
     "range": 1,
     "quantity": null,
     "durability": 24,
     "max_slot": 3,
+    "itemlevel": 17,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
@@ -6102,6 +5882,7 @@
     "quantity": null,
     "durability": 24,
     "max_slot": 3,
+    "itemlevel": 42,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
@@ -6131,8 +5912,9 @@
     "agile": 86,
     "range": 1,
     "quantity": null,
-    "durability": 24,
+    "durability": 36,
     "max_slot": 3,
+    "itemlevel": 83,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
@@ -6164,6 +5946,7 @@
     "quantity": null,
     "durability": 24,
     "max_slot": 2,
+    "itemlevel": 23,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -6189,12 +5972,13 @@
       "max": null
     },
     "level": 25,
-    "strength": 73,
+    "strength": 47,
     "agile": 97,
     "range": 1,
     "quantity": null,
     "durability": 24,
     "max_slot": 2,
+    "itemlevel": 46,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -6224,17 +6008,82 @@
     "agile": 67,
     "range": 1,
     "quantity": null,
-    "durability": 24,
+    "durability": 47,
     "max_slot": 2,
+    "itemlevel": 85,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "throwing",
+    "kind": "dagger",
+    "group": "thegidbinn",
+    "name": "吉德賓",
+    "name_en": "The Gidbinn",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 3,
+      "max": 7
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 15,
+    "agile": 25,
+    "range": 1,
+    "quantity": null,
+    "durability": 30,
+    "max_slot": null,
+    "itemlevel": 0,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "dagger",
+    "group": "decoygidbinn",
+    "name": "吉德賓誘餌",
+    "name_en": "Decoy Gidbinn",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 1,
+      "max": 2
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 15,
+    "agile": 20,
+    "range": 1,
+    "quantity": null,
+    "durability": 10,
+    "max_slot": null,
+    "itemlevel": 0,
+    "extra_skills": "",
+    "speed": -20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "throwingknife",
     "group": "throwingknife",
-    "name": "高速飛刀",
+    "name": "飛刀",
     "name_en": "Throwing Knife",
     "attack": "missile",
     "hand": "one",
@@ -6251,19 +6100,20 @@
       "max": 9
     },
     "level": 0,
-    "strength": 0,
+    "strength": null,
     "agile": 21,
     "range": 1,
     "quantity": 160,
-    "durability": null,
+    "durability": 4,
     "max_slot": null,
+    "itemlevel": 2,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "throwing",
+    "kind": "throwingknife",
     "group": "throwingknife",
     "name": "戰鬥飛鏢",
     "name_en": "Battle Dart",
@@ -6286,17 +6136,18 @@
     "agile": 52,
     "range": 1,
     "quantity": 160,
-    "durability": null,
+    "durability": 6,
     "max_slot": null,
+    "itemlevel": 31,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "throwing",
+    "kind": "throwingknife",
     "group": "throwingknife",
-    "name": "飛刀",
+    "name": "高速飛刀",
     "name_en": "Flying Knife",
     "attack": "missile",
     "hand": "one",
@@ -6317,15 +6168,16 @@
     "agile": 141,
     "range": 1,
     "quantity": 200,
-    "durability": null,
+    "durability": 6,
     "max_slot": null,
+    "itemlevel": 64,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "throwing",
+    "kind": "throwingknife",
     "group": "balancedknife",
     "name": "平衡飛刀",
     "name_en": "Balanced Knife",
@@ -6344,19 +6196,20 @@
       "max": 11
     },
     "level": 0,
-    "strength": 0,
+    "strength": null,
     "agile": 51,
     "range": 1,
     "quantity": 160,
-    "durability": null,
+    "durability": 8,
     "max_slot": null,
+    "itemlevel": 13,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "throwing",
+    "kind": "throwingknife",
     "group": "balancedknife",
     "name": "征戰飛鏢",
     "name_en": "War Dart",
@@ -6374,20 +6227,21 @@
       "min": 14,
       "max": 27
     },
-    "level": 22,
+    "level": 25,
     "strength": 25,
     "agile": 97,
     "range": 1,
     "quantity": 160,
-    "durability": null,
+    "durability": 20,
     "max_slot": null,
+    "itemlevel": 39,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "throwing",
+    "kind": "throwingknife",
     "group": "balancedknife",
     "name": "刃翼飛刀",
     "name_en": "Winged Knife",
@@ -6410,17 +6264,18 @@
     "agile": 142,
     "range": 1,
     "quantity": 200,
-    "durability": null,
+    "durability": 20,
     "max_slot": null,
+    "itemlevel": 77,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "throwing",
+    "kind": "throwingaxe",
     "group": "throwingaxe",
-    "name": "高速飛斧",
+    "name": "飛斧",
     "name_en": "Throwing Axe",
     "attack": "missile",
     "hand": "one",
@@ -6437,19 +6292,20 @@
       "max": 12
     },
     "level": 0,
-    "strength": 0,
+    "strength": null,
     "agile": 40,
     "range": 1,
     "quantity": 130,
-    "durability": null,
+    "durability": 6,
     "max_slot": null,
+    "itemlevel": 7,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "throwing",
+    "kind": "throwingaxe",
     "group": "throwingaxe",
     "name": "法蘭西飛斧",
     "name_en": "Francisca",
@@ -6467,22 +6323,23 @@
       "min": 18,
       "max": 33
     },
-    "level": 25,
+    "level": 22,
     "strength": 25,
     "agile": 80,
     "range": 1,
     "quantity": 130,
-    "durability": null,
+    "durability": 15,
     "max_slot": null,
+    "itemlevel": 34,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "throwing",
+    "kind": "throwingaxe",
     "group": "throwingaxe",
-    "name": "飛斧",
+    "name": "高速飛斧",
     "name_en": "Flying Axe",
     "attack": "missile",
     "hand": "one",
@@ -6503,15 +6360,16 @@
     "agile": 108,
     "range": 1,
     "quantity": 180,
-    "durability": null,
+    "durability": 15,
     "max_slot": null,
+    "itemlevel": 56,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "throwing",
+    "kind": "throwingaxe",
     "group": "balancedaxe",
     "name": "平衡飛斧",
     "name_en": "Balanced Axe",
@@ -6530,19 +6388,20 @@
       "max": 15
     },
     "level": 0,
-    "strength": 0,
+    "strength": null,
     "agile": 57,
     "range": 1,
     "quantity": 130,
-    "durability": null,
+    "durability": 10,
     "max_slot": null,
+    "itemlevel": 16,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "throwing",
+    "kind": "throwingaxe",
     "group": "balancedaxe",
     "name": "投斧",
     "name_en": "Hurlbat",
@@ -6565,15 +6424,16 @@
     "agile": 106,
     "range": 1,
     "quantity": 130,
-    "durability": null,
+    "durability": 16,
     "max_slot": null,
+    "itemlevel": 41,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "throwing",
+    "kind": "throwingaxe",
     "group": "balancedaxe",
     "name": "刃翼飛斧",
     "name_en": "Winged Axe",
@@ -6596,8 +6456,9 @@
     "agile": 122,
     "range": 1,
     "quantity": 180,
-    "durability": null,
+    "durability": 16,
     "max_slot": null,
+    "itemlevel": 80,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
@@ -6623,12 +6484,13 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 15,
     "max_slot": 1,
+    "itemlevel": 2,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -6655,11 +6517,12 @@
     },
     "level": 19,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 15,
     "max_slot": 1,
+    "itemlevel": 31,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -6686,11 +6549,12 @@
     },
     "level": 41,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 22,
     "max_slot": 2,
+    "itemlevel": 55,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -6716,12 +6580,13 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 15,
     "max_slot": 1,
+    "itemlevel": 12,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -6748,11 +6613,12 @@
     },
     "level": 25,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 15,
     "max_slot": 2,
+    "itemlevel": 38,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -6767,7 +6633,7 @@
     "hand": "one",
     "oneharm": {
       "min": 20,
-      "max": 42
+      "max": 40
     },
     "twoharm": {
       "min": null,
@@ -6779,11 +6645,12 @@
     },
     "level": 48,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 14,
     "max_slot": 2,
+    "itemlevel": 65,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -6809,12 +6676,13 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 15,
     "max_slot": 2,
+    "itemlevel": 18,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
@@ -6841,11 +6709,12 @@
     },
     "level": 25,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 15,
     "max_slot": 2,
+    "itemlevel": 43,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
@@ -6870,13 +6739,14 @@
       "min": null,
       "max": null
     },
-    "level": 25,
+    "level": 56,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 17,
     "max_slot": 2,
+    "itemlevel": 75,
     "extra_skills": "",
     "speed": -20,
     "limit": ""
@@ -6902,12 +6772,13 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 15,
     "max_slot": 2,
+    "itemlevel": 26,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -6934,11 +6805,12 @@
     },
     "level": 25,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 15,
     "max_slot": 2,
+    "itemlevel": 49,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
@@ -6965,18 +6837,19 @@
     },
     "level": 64,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 18,
     "max_slot": 2,
+    "itemlevel": 86,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "shortstaff",
     "name": "短杖",
     "name_en": "Short Staff",
@@ -6995,19 +6868,20 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 20,
     "max_slot": 2,
+    "itemlevel": 1,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "shortstaff",
     "name": "棍杖",
     "name_en": "Jo Staff",
@@ -7027,18 +6901,19 @@
     },
     "level": 18,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 20,
     "max_slot": 2,
+    "itemlevel": 30,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "shortstaff",
     "name": "手杖",
     "name_en": "Walking Stick",
@@ -7058,18 +6933,19 @@
     },
     "level": 43,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 20,
     "max_slot": 2,
+    "itemlevel": 58,
     "extra_skills": "",
     "speed": -10,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "longstaff",
     "name": "長杖",
     "name_en": "Long Staff",
@@ -7088,19 +6964,20 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 30,
     "max_slot": 3,
+    "itemlevel": 8,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "longstaff",
     "name": "長棍",
     "name_en": "Quarter Staff",
@@ -7120,18 +6997,19 @@
     },
     "level": 23,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 30,
     "max_slot": 3,
+    "itemlevel": 35,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "longstaff",
     "name": "鐘乳石杖",
     "name_en": "Stalagmite",
@@ -7156,13 +7034,14 @@
     "quantity": null,
     "durability": 30,
     "max_slot": 3,
+    "itemlevel": 66,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "gnarledstaff",
     "name": "木節法杖",
     "name_en": "Gnarled Staff",
@@ -7181,19 +7060,20 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 35,
     "max_slot": 4,
+    "itemlevel": 12,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "gnarledstaff",
     "name": "杉木法杖",
     "name_en": "Cedar Staff",
@@ -7213,18 +7093,19 @@
     },
     "level": 25,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 35,
     "max_slot": 4,
+    "itemlevel": 38,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "gnarledstaff",
     "name": "長者法杖",
     "name_en": "Elder Staff",
@@ -7249,13 +7130,14 @@
     "quantity": null,
     "durability": 35,
     "max_slot": 4,
+    "itemlevel": 74,
     "extra_skills": "",
-    "speed": 10,
+    "speed": 0,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "battlestaff",
     "name": "戰鬥法杖",
     "name_en": "Battle Staff",
@@ -7274,19 +7156,20 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 40,
     "max_slot": 4,
+    "itemlevel": 17,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "battlestaff",
     "name": "哥德法杖",
     "name_en": "Gothic Staff",
@@ -7306,18 +7189,19 @@
     },
     "level": 25,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 40,
     "max_slot": 4,
+    "itemlevel": 42,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "battlestaff",
     "name": "節瘤木杖",
     "name_en": "Shillelagh",
@@ -7342,13 +7226,14 @@
     "quantity": null,
     "durability": 40,
     "max_slot": 4,
+    "itemlevel": 83,
     "extra_skills": "",
     "speed": 0,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "warstaff",
     "name": "征戰法杖",
     "name_en": "War Staff",
@@ -7367,19 +7252,20 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 50,
     "max_slot": 6,
+    "itemlevel": 24,
     "extra_skills": "",
     "speed": 20,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "warstaff",
     "name": "符文法杖",
     "name_en": "Rune Staff",
@@ -7399,18 +7285,19 @@
     },
     "level": 25,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 50,
     "max_slot": 6,
+    "itemlevel": 47,
     "extra_skills": "",
     "speed": 20,
     "limit": ""
   },
   {
     "type": "weapon",
-    "kind": "stave",
+    "kind": "staff",
     "group": "warstaff",
     "name": "統御者法杖",
     "name_en": "Archon  Staff",
@@ -7430,13 +7317,78 @@
     },
     "level": 66,
     "strength": 34,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
-    "durability": 50,
+    "durability": 26,
     "max_slot": 6,
+    "itemlevel": 85,
     "extra_skills": "",
     "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "staff",
+    "group": "staffofkings",
+    "name": "國王之杖",
+    "name_en": "Staff of Kings",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 10,
+      "max": 15
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 25,
+    "agile": null,
+    "range": 3,
+    "quantity": null,
+    "durability": 45,
+    "max_slot": null,
+    "itemlevel": 0,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "staff",
+    "group": "horadricstaff",
+    "name": "赫拉迪姆之杖",
+    "name_en": "Horadric Staff",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 12,
+      "max": 20
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 30,
+    "agile": null,
+    "range": 3,
+    "quantity": null,
+    "durability": 50,
+    "max_slot": null,
+    "itemlevel": 0,
+    "extra_skills": "",
+    "speed": 0,
     "limit": ""
   },
   {
@@ -7460,12 +7412,13 @@
       "max": null
     },
     "level": 1,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 20,
-    "max_slot": 2,
+    "max_slot": 4,
+    "itemlevel": 1,
     "extra_skills": "",
     "speed": -10,
     "limit": "sorceress"
@@ -7491,12 +7444,13 @@
       "max": null
     },
     "level": 24,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 20,
-    "max_slot": 2,
+    "max_slot": 4,
+    "itemlevel": 32,
     "extra_skills": "",
     "speed": -10,
     "limit": "sorceress"
@@ -7522,12 +7476,13 @@
       "max": null
     },
     "level": 44,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 20,
-    "max_slot": 2,
+    "max_slot": 4,
+    "itemlevel": 59,
     "extra_skills": "",
     "speed": -10,
     "limit": "sorceress"
@@ -7553,12 +7508,13 @@
       "max": null
     },
     "level": 1,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 30,
-    "max_slot": 2,
+    "max_slot": 4,
+    "itemlevel": 8,
     "extra_skills": "",
     "speed": -10,
     "limit": "sorceress"
@@ -7584,12 +7540,13 @@
       "max": null
     },
     "level": 27,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 30,
-    "max_slot": 2,
+    "max_slot": 4,
+    "itemlevel": 37,
     "extra_skills": "",
     "speed": -10,
     "limit": "sorceress"
@@ -7615,12 +7572,13 @@
       "max": null
     },
     "level": 50,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 30,
-    "max_slot": 2,
+    "max_slot": 4,
+    "itemlevel": 67,
     "extra_skills": "",
     "speed": -10,
     "limit": "sorceress"
@@ -7646,12 +7604,13 @@
       "max": null
     },
     "level": 8,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 35,
-    "max_slot": 2,
+    "max_slot": 4,
+    "itemlevel": 12,
     "extra_skills": "",
     "speed": 0,
     "limit": "sorceress"
@@ -7677,12 +7636,13 @@
       "max": null
     },
     "level": 30,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 35,
-    "max_slot": 2,
+    "max_slot": 4,
+    "itemlevel": 41,
     "extra_skills": "",
     "speed": 0,
     "limit": "sorceress"
@@ -7708,12 +7668,13 @@
       "max": null
     },
     "level": 56,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 35,
-    "max_slot": 2,
+    "max_slot": 4,
+    "itemlevel": 75,
     "extra_skills": "",
     "speed": 0,
     "limit": "sorceress"
@@ -7739,12 +7700,13 @@
       "max": null
     },
     "level": 13,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 40,
-    "max_slot": 2,
+    "max_slot": 4,
+    "itemlevel": 17,
     "extra_skills": "",
     "speed": 0,
     "limit": "sorceress"
@@ -7770,12 +7732,13 @@
       "max": null
     },
     "level": 34,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 40,
-    "max_slot": 2,
+    "max_slot": 4,
+    "itemlevel": 46,
     "extra_skills": "",
     "speed": 0,
     "limit": "sorceress"
@@ -7801,12 +7764,13 @@
       "max": null
     },
     "level": 63,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 40,
-    "max_slot": 2,
+    "max_slot": 4,
+    "itemlevel": 84,
     "extra_skills": "",
     "speed": 0,
     "limit": "sorceress"
@@ -7832,12 +7796,13 @@
       "max": null
     },
     "level": 18,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 50,
-    "max_slot": 3,
+    "max_slot": 4,
+    "itemlevel": 24,
     "extra_skills": "",
     "speed": 10,
     "limit": "sorceress"
@@ -7863,12 +7828,13 @@
       "max": null
     },
     "level": 37,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 50,
-    "max_slot": 3,
+    "max_slot": 4,
+    "itemlevel": 50,
     "extra_skills": "",
     "speed": 10,
     "limit": "sorceress"
@@ -7894,12 +7860,13 @@
       "max": null
     },
     "level": 66,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 50,
-    "max_slot": 3,
+    "max_slot": 4,
+    "itemlevel": 85,
     "extra_skills": "",
     "speed": 10,
     "limit": "sorceress"
@@ -7929,8 +7896,9 @@
     "agile": 47,
     "range": 3,
     "quantity": 80,
-    "durability": null,
+    "durability": 6,
     "max_slot": null,
+    "itemlevel": 23,
     "extra_skills": "",
     "speed": -10,
     "limit": "amazon"
@@ -7960,8 +7928,9 @@
     "agile": 109,
     "range": 3,
     "quantity": 80,
-    "durability": null,
+    "durability": 6,
     "max_slot": null,
+    "itemlevel": 35,
     "extra_skills": "",
     "speed": -10,
     "limit": "amazon"
@@ -7991,8 +7960,9 @@
     "agile": 151,
     "range": 3,
     "quantity": 80,
-    "durability": null,
+    "durability": 6,
     "max_slot": null,
+    "itemlevel": 65,
     "extra_skills": "",
     "speed": -10,
     "limit": "amazon"
@@ -8024,6 +7994,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 18,
     "extra_skills": "",
     "speed": 0,
     "limit": "amazon"
@@ -8055,6 +8026,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 39,
     "extra_skills": "",
     "speed": 0,
     "limit": "amazon"
@@ -8086,6 +8058,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 53,
     "extra_skills": "",
     "speed": -10,
     "limit": "amazon"
@@ -8117,6 +8090,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 27,
     "extra_skills": "",
     "speed": 10,
     "limit": "amazon"
@@ -8148,6 +8122,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 47,
     "extra_skills": "",
     "speed": 10,
     "limit": "amazon"
@@ -8179,6 +8154,7 @@
     "quantity": null,
     "durability": null,
     "max_slot": 5,
+    "itemlevel": 78,
     "extra_skills": "",
     "speed": 10,
     "limit": "amazon"
@@ -8206,10 +8182,11 @@
     "level": 14,
     "strength": 54,
     "agile": 40,
-    "range": 4,
+    "range": 5,
     "quantity": null,
     "durability": 28,
     "max_slot": 6,
+    "itemlevel": 18,
     "extra_skills": "",
     "speed": 0,
     "limit": "amazon"
@@ -8237,10 +8214,11 @@
     "level": 32,
     "strength": 101,
     "agile": 80,
-    "range": 4,
+    "range": 5,
     "quantity": null,
     "durability": 28,
     "max_slot": 6,
+    "itemlevel": 43,
     "extra_skills": "",
     "speed": 0,
     "limit": "amazon"
@@ -8268,10 +8246,11 @@
     "level": 45,
     "strength": 114,
     "agile": 142,
-    "range": 4,
+    "range": 5,
     "quantity": null,
     "durability": 28,
     "max_slot": 6,
+    "itemlevel": 61,
     "extra_skills": "",
     "speed": 0,
     "limit": "amazon"
@@ -8299,10 +8278,11 @@
     "level": 20,
     "strength": 63,
     "agile": 52,
-    "range": 4,
+    "range": 5,
     "quantity": null,
     "durability": 25,
     "max_slot": 6,
+    "itemlevel": 27,
     "extra_skills": "",
     "speed": 10,
     "limit": "amazon"
@@ -8330,10 +8310,11 @@
     "level": 38,
     "strength": 115,
     "agile": 98,
-    "range": 4,
+    "range": 5,
     "quantity": null,
     "durability": 25,
     "max_slot": 6,
+    "itemlevel": 51,
     "extra_skills": "",
     "speed": 20,
     "limit": "amazon"
@@ -8361,10 +8342,11 @@
     "level": 60,
     "strength": 132,
     "agile": 149,
-    "range": 4,
+    "range": 5,
     "quantity": null,
     "durability": 25,
     "max_slot": 6,
+    "itemlevel": 81,
     "extra_skills": "",
     "speed": 20,
     "limit": "amazon"
@@ -8389,13 +8371,14 @@
       "min": null,
       "max": null
     },
-    "level": 1,
+    "level": 0,
     "strength": 20,
     "agile": 20,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 48,
     "max_slot": 2,
+    "itemlevel": 1,
     "extra_skills": "無",
     "speed": -10,
     "limit": "assassin"
@@ -8423,10 +8406,11 @@
     "level": 21,
     "strength": 57,
     "agile": 57,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 48,
     "max_slot": 3,
+    "itemlevel": 28,
     "extra_skills": "無",
     "speed": 0,
     "limit": "assassin"
@@ -8454,18 +8438,19 @@
     "level": 44,
     "strength": 99,
     "agile": 99,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 48,
     "max_slot": 3,
-    "extra_skills": "有",
+    "itemlevel": 59,
+    "extra_skills": "無",
     "speed": 0,
     "limit": "assassin"
   },
   {
     "type": "weapon",
     "kind": "assassinkatar",
-    "group": "katar",
+    "group": "wristblade",
     "name": "腕刃",
     "name_en": "Wrist Blade",
     "attack": "melee",
@@ -8482,13 +8467,14 @@
       "min": null,
       "max": null
     },
-    "level": 1,
+    "level": 0,
     "strength": 33,
     "agile": 33,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 52,
     "max_slot": 2,
+    "itemlevel": 9,
     "extra_skills": "無",
     "speed": 0,
     "limit": "assassin"
@@ -8496,7 +8482,7 @@
   {
     "type": "weapon",
     "kind": "assassinkatar",
-    "group": "katar",
+    "group": "wristblade",
     "name": "腕刺",
     "name_en": "Wrist Spike",
     "attack": "melee",
@@ -8516,10 +8502,11 @@
     "level": 24,
     "strength": 66,
     "agile": 66,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 56,
     "max_slot": 2,
+    "itemlevel": 32,
     "extra_skills": "無",
     "speed": -10,
     "limit": "assassin"
@@ -8527,7 +8514,7 @@
   {
     "type": "weapon",
     "kind": "assassinkatar",
-    "group": "katar",
+    "group": "wristblade",
     "name": "腕劍",
     "name_en": "Wrist Sword",
     "attack": "melee",
@@ -8547,11 +8534,12 @@
     "level": 46,
     "strength": 105,
     "agile": 105,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 56,
-    "max_slot": 3,
-    "extra_skills": "有",
+    "max_slot": 2,
+    "itemlevel": 62,
+    "extra_skills": "無",
     "speed": -10,
     "limit": "assassin"
   },
@@ -8575,13 +8563,14 @@
       "min": null,
       "max": null
     },
-    "level": 1,
+    "level": 0,
     "strength": 37,
     "agile": 37,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 56,
     "max_slot": 2,
+    "itemlevel": 12,
     "extra_skills": "無",
     "speed": 10,
     "limit": "assassin"
@@ -8609,10 +8598,11 @@
     "level": 27,
     "strength": 69,
     "agile": 69,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 64,
     "max_slot": 2,
+    "itemlevel": 36,
     "extra_skills": "無",
     "speed": 10,
     "limit": "assassin"
@@ -8637,21 +8627,22 @@
       "min": null,
       "max": null
     },
-    "level": 51,
+    "level": 54,
     "strength": 108,
     "agile": 108,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 64,
     "max_slot": 2,
-    "extra_skills": "有",
+    "itemlevel": 68,
+    "extra_skills": "無",
     "speed": 10,
     "limit": "assassin"
   },
   {
     "type": "weapon",
     "kind": "assassinkatar",
-    "group": "hatchethands",
+    "group": "cestus",
     "name": "刃拳",
     "name_en": "Cestus",
     "attack": "melee",
@@ -8668,13 +8659,14 @@
       "min": null,
       "max": null
     },
-    "level": 1,
+    "level": 0,
     "strength": 42,
     "agile": 42,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 72,
     "max_slot": 2,
+    "itemlevel": 15,
     "extra_skills": "無",
     "speed": 0,
     "limit": "assassin"
@@ -8682,7 +8674,7 @@
   {
     "type": "weapon",
     "kind": "assassinkatar",
-    "group": "hatchethands",
+    "group": "cestus",
     "name": "手鐮",
     "name_en": "Hand Scythe",
     "attack": "melee",
@@ -8702,10 +8694,11 @@
     "level": 30,
     "strength": 73,
     "agile": 73,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 72,
     "max_slot": 2,
+    "itemlevel": 41,
     "extra_skills": "有",
     "speed": -10,
     "limit": "assassin"
@@ -8713,7 +8706,7 @@
   {
     "type": "weapon",
     "kind": "assassinkatar",
-    "group": "hatchethands",
+    "group": "cestus",
     "name": "戰鬥刃拳",
     "name_en": "Battle Cestus",
     "attack": "melee",
@@ -8733,10 +8726,11 @@
     "level": 54,
     "strength": 110,
     "agile": 110,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 72,
     "max_slot": 2,
+    "itemlevel": 73,
     "extra_skills": "有",
     "speed": -10,
     "limit": "assassin"
@@ -8761,13 +8755,14 @@
       "min": null,
       "max": null
     },
-    "level": 1,
+    "level": 0,
     "strength": 46,
     "agile": 46,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 64,
     "max_slot": 3,
+    "itemlevel": 18,
     "extra_skills": "無",
     "speed": -10,
     "limit": "assassin"
@@ -8795,10 +8790,11 @@
     "level": 33,
     "strength": 76,
     "agile": 76,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 52,
     "max_slot": 3,
+    "itemlevel": 45,
     "extra_skills": "有",
     "speed": -20,
     "limit": "assassin"
@@ -8826,10 +8822,11 @@
     "level": 58,
     "strength": 113,
     "agile": 113,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 52,
     "max_slot": 3,
+    "itemlevel": 78,
     "extra_skills": "有",
     "speed": -20,
     "limit": "assassin"
@@ -8837,7 +8834,7 @@
   {
     "type": "weapon",
     "kind": "assassinkatar",
-    "group": "claws",
+    "group": "bladetalons",
     "name": "刃爪",
     "name_en": "Blade Talons",
     "attack": "melee",
@@ -8854,13 +8851,14 @@
       "min": null,
       "max": null
     },
-    "level": 1,
+    "level": 0,
     "strength": 50,
     "agile": 50,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 69,
     "max_slot": 3,
+    "itemlevel": 21,
     "extra_skills": "無",
     "speed": -20,
     "limit": "assassin"
@@ -8868,7 +8866,7 @@
   {
     "type": "weapon",
     "kind": "assassinkatar",
-    "group": "claws",
+    "group": "bladetalons",
     "name": "巨鷹爪",
     "name_en": "Greater Talons",
     "attack": "melee",
@@ -8888,10 +8886,11 @@
     "level": 37,
     "strength": 79,
     "agile": 79,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 69,
     "max_slot": 3,
+    "itemlevel": 50,
     "extra_skills": "有",
     "speed": -30,
     "limit": "assassin"
@@ -8899,7 +8898,7 @@
   {
     "type": "weapon",
     "kind": "assassinkatar",
-    "group": "claws",
+    "group": "bladetalons",
     "name": "符紋爪",
     "name_en": "Runic Talons",
     "attack": "melee",
@@ -8919,10 +8918,11 @@
     "level": 60,
     "strength": 115,
     "agile": 115,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 69,
     "max_slot": 3,
+    "itemlevel": 81,
     "extra_skills": "有",
     "speed": -30,
     "limit": "assassin"
@@ -8947,13 +8947,14 @@
       "min": null,
       "max": null
     },
-    "level": 1,
+    "level": 0,
     "strength": 55,
     "agile": 55,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 68,
     "max_slot": 3,
+    "itemlevel": 24,
     "extra_skills": "有",
     "speed": -10,
     "limit": "assassin"
@@ -8981,10 +8982,11 @@
     "level": 40,
     "strength": 82,
     "agile": 82,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 68,
     "max_slot": 3,
+    "itemlevel": 54,
     "extra_skills": "有",
     "speed": 0,
     "limit": "assassin"
@@ -9012,10 +9014,11 @@
     "level": 64,
     "strength": 118,
     "agile": 118,
-    "range": 1,
+    "range": 2,
     "quantity": null,
     "durability": 68,
     "max_slot": 3,
+    "itemlevel": 85,
     "extra_skills": "有",
     "speed": 0,
     "limit": "assassin"
@@ -9042,11 +9045,76 @@
     },
     "level": 0,
     "strength": 53,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 55,
     "max_slot": 4,
+    "itemlevel": 25,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "hammer",
+    "group": "warhammer",
+    "name": "戰鬥鐵鎚",
+    "name_en": "Battle Hammer",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 35,
+      "max": 58
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 100,
+    "agile": null,
+    "range": 1,
+    "quantity": null,
+    "durability": 55,
+    "max_slot": 4,
+    "itemlevel": 48,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "hammer",
+    "group": "warhammer",
+    "name": "傳說戰鎚",
+    "name_en": "Legendary Mallet",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 50,
+      "max": 61
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 61,
+    "strength": 189,
+    "agile": null,
+    "range": 2,
+    "quantity": null,
+    "durability": 65,
+    "max_slot": 4,
+    "itemlevel": 82,
     "extra_skills": "",
     "speed": 20,
     "limit": ""
@@ -9073,11 +9141,76 @@
     },
     "level": 0,
     "strength": 69,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
     "durability": 60,
     "max_slot": 6,
+    "itemlevel": 21,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "hammer",
+    "group": "maul",
+    "name": "征戰重鎚",
+    "name_en": "War Club",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 53,
+      "max": 78
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 25,
+    "strength": 124,
+    "agile": null,
+    "range": 2,
+    "quantity": null,
+    "durability": 60,
+    "max_slot": 6,
+    "itemlevel": 45,
+    "extra_skills": "",
+    "speed": 10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "hammer",
+    "group": "maul",
+    "name": "巨魔重鎚",
+    "name_en": "Ogre Maul",
+    "attack": "melee",
+    "hand": "two",
+    "oneharm": {
+      "min": null,
+      "max": null
+    },
+    "twoharm": {
+      "min": 77,
+      "max": 106
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 51,
+    "strength": 225,
+    "agile": null,
+    "range": 2,
+    "quantity": null,
+    "durability": 60,
+    "max_slot": 6,
+    "itemlevel": 69,
     "extra_skills": "",
     "speed": 10,
     "limit": ""
@@ -9104,74 +9237,14 @@
     },
     "level": 0,
     "strength": 99,
-    "agile": 0,
+    "agile": null,
     "range": 3,
     "quantity": null,
     "durability": 60,
     "max_slot": 6,
+    "itemlevel": 32,
     "extra_skills": "",
     "speed": 20,
-    "limit": ""
-  },{
-    "type": "weapon",
-    "kind": "hammer",
-    "group": "warhammer",
-    "name": "戰鬥鐵鎚",
-    "name_en": "Battle Hammer",
-    "attack": "melee",
-    "hand": "one",
-    "oneharm": {
-      "min": 35,
-      "max": 58
-    },
-    "twoharm": {
-      "min": null,
-      "max": null
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 25,
-    "strength": 100,
-    "agile": 0,
-    "range": 1,
-    "quantity": null,
-    "durability": 55,
-    "max_slot": 4,
-    "extra_skills": "",
-    "speed": 20,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "hammer",
-    "group": "maul",
-    "name": "征戰重鎚",
-    "name_en": "War Club",
-    "attack": "melee",
-    "hand": "two",
-    "oneharm": {
-      "min": null,
-      "max": null
-    },
-    "twoharm": {
-      "min": 53,
-      "max": 78
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 25,
-    "strength": 124,
-    "agile": 0,
-    "range": 2,
-    "quantity": null,
-    "durability": 60,
-    "max_slot": 6,
-    "extra_skills": "",
-    "speed": 10,
     "limit": ""
   },
   {
@@ -9196,73 +9269,12 @@
     },
     "level": 25,
     "strength": 169,
-    "agile": 0,
+    "agile": null,
     "range": 3,
     "quantity": null,
     "durability": 60,
     "max_slot": 6,
-    "extra_skills": "",
-    "speed": 20,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "hammer",
-    "group": "maul",
-    "name": "食人魔之錘",
-    "name_en": "Ogre Maul",
-    "attack": "melee",
-    "hand": "two",
-    "oneharm": {
-      "min": null,
-      "max": null
-    },
-    "twoharm": {
-      "min": 77,
-      "max": 106
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 51,
-    "strength": 225,
-    "agile": 0,
-    "range": 2,
-    "quantity": null,
-    "durability": 60,
-    "max_slot": 6,
-    "extra_skills": "",
-    "speed": 10,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "hammer",
-    "group": "warhammer",
-    "name": "傳說戰鎚",
-    "name_en": "Legendary Mallet",
-    "attack": "melee",
-    "hand": "one",
-    "oneharm": {
-      "min": 50,
-      "max": 61
-    },
-    "twoharm": {
-      "min": null,
-      "max": null
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 61,
-    "strength": 189,
-    "agile": 0,
-    "range": 1,
-    "quantity": null,
-    "durability": 65,
-    "max_slot": 4,
+    "itemlevel": 53,
     "extra_skills": "",
     "speed": 20,
     "limit": ""
@@ -9289,11 +9301,76 @@
     },
     "level": 65,
     "strength": 253,
-    "agile": 0,
+    "agile": null,
     "range": 3,
     "quantity": null,
     "durability": 60,
     "max_slot": 6,
+    "itemlevel": 85,
+    "extra_skills": "",
+    "speed": 20,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "hammer",
+    "group": "hellforgehammer",
+    "name": "地獄熔爐之鎚",
+    "name_en": "Hell Forge Hammer",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 6,
+      "max": 15
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": null,
+    "agile": null,
+    "range": 1,
+    "quantity": null,
+    "durability": 55,
+    "max_slot": 5,
+    "itemlevel": 0,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "hammer",
+    "group": "horadricmalus",
+    "name": "赫拉迪姆之鎚",
+    "name_en": "Horadric Malus",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 6,
+      "max": 15
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": 15,
+    "agile": 15,
+    "range": 1,
+    "quantity": null,
+    "durability": 55,
+    "max_slot": null,
+    "itemlevel": 0,
     "extra_skills": "",
     "speed": 20,
     "limit": ""
@@ -9319,45 +9396,15 @@
       "max": null
     },
     "level": 0,
-    "strength": 0,
-    "agile": 0,
+    "strength": null,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 24,
     "max_slot": 2,
+    "itemlevel": 1,
     "extra_skills": "",
     "speed": -10,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "club",
-    "group": "spikedclub",
-    "name": "狼牙棒",
-    "name_en": "Spiked Club",
-    "attack": "melee",
-    "hand": "one",
-    "oneharm": {
-      "min": 5,
-      "max": 8
-    },
-    "twoharm": {
-      "min": null,
-      "max": null
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 0,
-    "strength": 0,
-    "agile": 0,
-    "range": 2,
-    "quantity": null,
-    "durability": 36,
-    "max_slot": 2,
-    "extra_skills": "",
-    "speed": 0,
     "limit": ""
   },
   {
@@ -9382,44 +9429,14 @@
     },
     "level": 18,
     "strength": 25,
-    "agile": 0,
+    "agile": null,
     "range": 1,
     "quantity": null,
     "durability": 24,
     "max_slot": 2,
+    "itemlevel": 30,
     "extra_skills": "",
     "speed": -10,
-    "limit": ""
-  },
-  {
-    "type": "weapon",
-    "kind": "club",
-    "group": "spikedclub",
-    "name": "倒刺棍棒",
-    "name_en": "Barbed Club",
-    "attack": "melee",
-    "hand": "one",
-    "oneharm": {
-      "min": 13,
-      "max": 25
-    },
-    "twoharm": {
-      "min": null,
-      "max": null
-    },
-    "throw": {
-      "min": null,
-      "max": null
-    },
-    "level": 20,
-    "strength": 20,
-    "agile": 0,
-    "range": 2,
-    "quantity": null,
-    "durability": 36,
-    "max_slot": 2,
-    "extra_skills": "",
-    "speed": 0,
     "limit": ""
   },
   {
@@ -9447,10 +9464,75 @@
     "agile": 43,
     "range": 1,
     "quantity": null,
-    "durability": 29,
+    "durability": 55,
     "max_slot": 2,
+    "itemlevel": 52,
     "extra_skills": "",
     "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "club",
+    "group": "spikedclub",
+    "name": "狼牙棒",
+    "name_en": "Spiked Club",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 5,
+      "max": 8
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": null,
+    "agile": null,
+    "range": 2,
+    "quantity": null,
+    "durability": 36,
+    "max_slot": 2,
+    "itemlevel": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "club",
+    "group": "spikedclub",
+    "name": "倒刺棍棒",
+    "name_en": "Barbed Club",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 13,
+      "max": 25
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 20,
+    "strength": 30,
+    "agile": null,
+    "range": 2,
+    "quantity": null,
+    "durability": 36,
+    "max_slot": 2,
+    "itemlevel": 32,
+    "extra_skills": "",
+    "speed": 0,
     "limit": ""
   },
   {
@@ -9475,11 +9557,236 @@
     },
     "level": 42,
     "strength": 133,
-    "agile": 0,
+    "agile": null,
     "range": 2,
     "quantity": null,
-    "durability": 45,
+    "durability": 65,
     "max_slot": 3,
+    "itemlevel": 57,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "club",
+    "group": "wirtsleg",
+    "name": "維特的腿",
+    "name_en": "Wirt's Leg",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 2,
+      "max": 8
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": null,
+    "agile": null,
+    "range": 1,
+    "quantity": null,
+    "durability": 66,
+    "max_slot": 3,
+    "itemlevel": 0,
+    "extra_skills": "",
+    "speed": -10,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "missilepotion",
+    "group": "stranglinggaspotion",
+    "name": "刺鼻毒氣藥水",
+    "name_en": "Strangling Gas Potion",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 0,
+      "max": 1
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 6,
+    "strength": null,
+    "agile": null,
+    "range": 1,
+    "quantity": null,
+    "durability": null,
+    "max_slot": null,
+    "itemlevel": 8,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "missilepotion",
+    "group": "chokinggaspotion",
+    "name": "窒息毒氣藥水",
+    "name_en": "Choking Gas Potion",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 0,
+      "max": 1
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 16,
+    "strength": null,
+    "agile": null,
+    "range": 1,
+    "quantity": null,
+    "durability": null,
+    "max_slot": null,
+    "itemlevel": 20,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "missilepotion",
+    "group": "rancidgaspotion",
+    "name": "窒息毒氣藥水",
+    "name_en": "Rancid Gas Potion",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 0,
+      "max": 1
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 24,
+    "strength": null,
+    "agile": null,
+    "range": 1,
+    "quantity": null,
+    "durability": null,
+    "max_slot": null,
+    "itemlevel": 32,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "missilepotion",
+    "group": "fulminatingpotion",
+    "name": "窒息毒氣藥水",
+    "name_en": "Fulminating Potion",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 0,
+      "max": 1
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 0,
+    "strength": null,
+    "agile": null,
+    "range": 1,
+    "quantity": null,
+    "durability": null,
+    "max_slot": null,
+    "itemlevel": 4,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "missilepotion",
+    "group": "explodingpotion",
+    "name": "窒息毒氣藥水",
+    "name_en": "Exploding Potion",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 0,
+      "max": 1
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 12,
+    "strength": null,
+    "agile": null,
+    "range": 1,
+    "quantity": null,
+    "durability": null,
+    "max_slot": null,
+    "itemlevel": 16,
+    "extra_skills": "",
+    "speed": 0,
+    "limit": ""
+  },
+  {
+    "type": "weapon",
+    "kind": "missilepotion",
+    "group": "oilpotion",
+    "name": "火油藥水",
+    "name_en": "Oil Potion",
+    "attack": "melee",
+    "hand": "one",
+    "oneharm": {
+      "min": 0,
+      "max": 1
+    },
+    "twoharm": {
+      "min": null,
+      "max": null
+    },
+    "throw": {
+      "min": null,
+      "max": null
+    },
+    "level": 20,
+    "strength": null,
+    "agile": null,
+    "range": 1,
+    "quantity": null,
+    "durability": null,
+    "max_slot": null,
+    "itemlevel": 28,
     "extra_skills": "",
     "speed": 0,
     "limit": ""

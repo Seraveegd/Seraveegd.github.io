@@ -49,6 +49,7 @@ export class ItemService {
       range: number,
       durability: string,
       max_slot: number,
+      itemlevel: number,
       extra_skills: string,
       speed: number,
       limit: string

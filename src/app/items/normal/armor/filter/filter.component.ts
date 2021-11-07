@@ -57,4 +57,29 @@ export class FilterComponent implements OnInit {
     return [...new Map(obj.map((item: any) => [item['part'], item['part']])).values()];
   }
 
+  toGroup(items: Array<object>): any{
+    return items.reduce(function(groups: any, item: any) {
+      const val = item['group']
+      groups[val] = groups[val] || []
+      groups[val].push(item)
+      return groups
+    }, {})
+  }
+
+  typeChange(values: any): Array<object>{
+    return values;
+  }
+
+  getvalue(item: any, key: string): string{
+    return item[key];
+  }
+
+  getLength(items: any): number{
+    return items.length;
+  }
+
+  getobject(item:any, key: string): object{
+    return item[key];
+  }
+
 }

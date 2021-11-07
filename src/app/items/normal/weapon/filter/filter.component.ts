@@ -27,15 +27,17 @@ export class FilterComponent implements OnInit {
     javelin: '標槍',
     amazonjavelin: '亞馬遜限定標槍',
     dagger: '匕首',
-    throwing: '投擲武器',
+    throwingknife: '投擲飛刀',
+    throwingaxe: '投擲飛斧',
     wand: '魔杖',
-    stave: '法杖',
+    staff: '法杖',
     sorceressorb: '魔法使限定法珠',
     assassinkatar: '刺客限定爪',
     sorceress: '魔法使限定法珠',
     assassin: '刺客限定爪',
     hammer: '槌子',
-    club: '棍棒'
+    club: '棍棒',
+    missilepotion: '投擲藥水'
   };
 
   kindNeedtofind = ['amazon', 'one', 'two', 'missile', 'melee', '2', '3', '4', '5', '6'];
@@ -58,4 +60,28 @@ export class FilterComponent implements OnInit {
     return detail.split(',');
   }
 
+  toGroup(items: Array<object>): any{
+    return items.reduce(function(groups: any, item: any) {
+      const val = item['group']
+      groups[val] = groups[val] || []
+      groups[val].push(item)
+      return groups
+    }, {})
+  }
+
+  typeChange(values: any): Array<object>{
+    return values;
+  }
+
+  getvalue(item: any, key: string): string{
+    return item[key];
+  }
+
+  getLength(items: any): number{
+    return items.length;
+  }
+
+  getobject(item:any, key: string): object{
+    return item[key];
+  }
 }
