@@ -52,7 +52,8 @@ export class ItemService {
       itemlevel: number,
       extra_skills: string,
       speed: number,
-      limit: string
+      limit: string,
+      quest: number
     }[]>('/assets/weapon.json');
   }
 

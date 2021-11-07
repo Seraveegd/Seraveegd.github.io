@@ -67,26 +67,26 @@
     background-color: #272727;
   }
 
+  tr td[rowspan] {
+    vertical-align: top;
+  }
+
   td {
     font-size: 20px;
-
-    &:first-child {
-      vertical-align: top;
-    }
 
     .name {
       color: #dcc684;
     }
 
-    .ladder{
-      color: #8B8B8B;
+    .ladder {
+      color: #8b8b8b;
     }
 
     .slot {
       color: #7a7aff;
     }
 
-    &.limit{
+    &.limit {
       text-align: left;
       line-height: 24px;
     }
@@ -98,21 +98,20 @@
       color: #ffba00;
       flex-wrap: wrap;
 
-      img{
+      img {
         width: 24px;
       }
 
-      *{
+      * {
         margin: 4px;
       }
-
     }
 
     &.effect {
       color: #7a7aff;
     }
 
-    span{
+    span {
       white-space: pre-wrap;
     }
   }

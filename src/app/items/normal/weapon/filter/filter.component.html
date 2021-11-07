@@ -3,7 +3,7 @@
   <ng-container *ngFor="let td of (kindNeedtofind.includes(type_detail) ? getUniqueKind(items) : toArray(type_detail))">
     <ng-container [ngSwitch]="td">
       <ng-container
-        *ngSwitchCase="['sword', 'axe', 'polearm', 'spear', 'amazonspear', 'mace', 'scepter', 'dagger', 'wand', 'staff', 'sorceressorb', 'sorceress', 'hammer', 'club', 'missilepotion'].includes(td) ? td : !td">
+        *ngSwitchCase="['sword', 'axe', 'polearm', 'spear', 'amazonspear', 'mace', 'scepter', 'dagger', 'wand', 'staff', 'sorceressorb', 'sorceress', 'hammer', 'club'].includes(td) ? td : !td">
         <div [ngClass]="'title'">{{ kinds[td] }}</div>
         <table [ngClass]="'weapons'">
           <thead>
@@ -27,7 +27,7 @@
                 <td *ngIf="i%getLength(group.value) === 0" [attr.rowspan]="getLength(group.value)"><img
                     [src]="'/assets/images/items/normal/weapon/' + getvalue(item, 'kind') + '/' + getvalue(item, 'group') + '.png'"><br>{{ getvalue(item, 'hand') === 'one'? '(單手)' : '(雙手)' }}
                 </td>
-                <td>{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
+                <td [ngClass]="{'quest': getvalue(item, 'quest') == '1'}">{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
                 <td>
                   {{ td === 'sword' && getvalue(item, 'hand') === 'two'  ? '單手: ' + getvalue(getobject(item, 'oneharm'), 'min') + ' - ' +  getvalue(getobject(item, 'oneharm'), 'max') + '\n雙手: ' : '' }}
                   {{ getvalue(item, 'hand') === 'one'? getvalue(getobject(item, 'oneharm'), 'min') : getvalue(getobject(item, 'twoharm'), 'min') }}&nbsp;-&nbsp;{{ getvalue(item, 'hand') === 'one'? getvalue(getobject(item, 'oneharm'), 'max') : getvalue(getobject(item, 'twoharm'), 'max') }}
@@ -67,7 +67,7 @@
                 <td *ngIf="i%getLength(group.value) === 0" [attr.rowspan]="getLength(group.value)"><img
                     [src]="'/assets/images/items/normal/weapon/' + getvalue(item, 'kind') + '/' + getvalue(item, 'group') + '.png'"><br>{{ getvalue(item, 'hand') === 'one'? '(單手)' : '(雙手)' }}
                 </td>
-                <td>{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
+                <td [ngClass]="{'quest': getvalue(item, 'quest') == '1'}">{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
                 <td>
                   {{ td === 'sword' && getvalue(item, 'hand') === 'two'  ? '單手: ' + getvalue(getobject(item, 'oneharm'), 'min') + ' - ' +  getvalue(getobject(item, 'oneharm'), 'max') + '\n雙手: ' : '' }}
                   {{ getvalue(item, 'hand') === 'one'? getvalue(getobject(item, 'oneharm'), 'min') : getvalue(getobject(item, 'twoharm'), 'min') }}&nbsp;-&nbsp;{{ getvalue(item, 'hand') === 'one'? getvalue(getobject(item, 'oneharm'), 'max') : getvalue(getobject(item, 'twoharm'), 'max') }}
@@ -97,6 +97,7 @@
             <th>需要力量</th>
             <th>需要敏捷</th>
             <th>範圍</th>
+            <th>耐久度</th>
             <th>數量</th>
             <th>武器速度</th>
           </thead>
@@ -108,7 +109,7 @@
                 <td *ngIf="i%getLength(group.value) === 0" [attr.rowspan]="getLength(group.value)"><img
                     [src]="'/assets/images/items/normal/weapon/' + getvalue(item, 'kind') + '/' + getvalue(item, 'group') + '.png'"><br>{{ getvalue(item, 'hand') === 'one'? '(單手)' : '(雙手)' }}
                 </td>
-                <td>{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
+                <td [ngClass]="{'quest': getvalue(item, 'quest') == '1'}">{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
                 <td>
                   {{ td === 'sword' && getvalue(item, 'hand') === 'two'  ? '單手: ' + getvalue(getobject(item, 'oneharm'), 'min') + ' - ' +  getvalue(getobject(item, 'oneharm'), 'max') + '\n雙手: ' : '' }}
                   {{ getvalue(item, 'hand') === 'one'? getvalue(getobject(item, 'oneharm'), 'min') : getvalue(getobject(item, 'twoharm'), 'min') }}&nbsp;-&nbsp;{{ getvalue(item, 'hand') === 'one'? getvalue(getobject(item, 'oneharm'), 'max') : getvalue(getobject(item, 'twoharm'), 'max') }}
@@ -119,6 +120,7 @@
                 <td>{{ getvalue(item, 'strength') }}</td>
                 <td>{{ getvalue(item, 'agile') }}</td>
                 <td>{{ getvalue(item, 'range') }}</td>
+                <td>{{ getvalue(item, 'durability') }}</td>
                 <td>{{ getvalue(item, 'quantity') }}</td>
                 <td>{{ getvalue(item, 'speed') }}</td>
               </tr>
@@ -151,7 +153,7 @@
                 <td *ngIf="i%getLength(group.value) === 0" [attr.rowspan]="getLength(group.value)"><img
                     [src]="'/assets/images/items/normal/weapon/' + getvalue(item, 'kind') + '/' + getvalue(item, 'group') + '.png'"><br>{{ getvalue(item, 'hand') === 'one'? '(單手)' : '(雙手)' }}
                 </td>
-                <td>{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
+                <td [ngClass]="{'quest': getvalue(item, 'quest') == '1'}">{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
                 <td>
                   {{ td === 'sword' && getvalue(item, 'hand') === 'two'  ? '單手: ' + getvalue(getobject(item, 'oneharm'), 'min') + ' - ' +  getvalue(getobject(item, 'oneharm'), 'max') + '\n雙手: ' : '' }}
                   {{ getvalue(item, 'hand') === 'one'? getvalue(getobject(item, 'oneharm'), 'min') : getvalue(getobject(item, 'twoharm'), 'min') }}&nbsp;-&nbsp;{{ getvalue(item, 'hand') === 'one'? getvalue(getobject(item, 'oneharm'), 'max') : getvalue(getobject(item, 'twoharm'), 'max') }}
@@ -164,6 +166,41 @@
                 <td>{{ getvalue(item, 'durability') }}</td>
                 <td>{{ getvalue(item, 'max_slot') }}</td>
                 <td>{{ getvalue(item, 'extra_skills') }}</td>
+                <td>{{ getvalue(item, 'speed') }}</td>
+              </tr>
+            </ng-container>
+          </tbody>
+        </table>
+      </ng-container>
+      <ng-container
+        *ngSwitchCase="['missilepotion'].includes(td) ? td : !td">
+        <div [ngClass]="'title'">{{ kinds[td] }}</div>
+        <table [ngClass]="'weapons'">
+          <thead>
+            <th>圖片</th>
+            <th>名稱</th>
+            <th>傷害</th>
+            <th>物品等級</th>
+            <th>需要等級</th>
+            <th>範圍</th>
+            <th>武器速度</th>
+          </thead>
+          <tbody>
+            <ng-container
+              *ngFor="let group of toGroup(items | filternormalweapon: (kindNeedtofind.includes(type_detail) ? 'kind' : type) : td) | keyvalue">
+              <tr *ngFor="let item of typeChange(group.value); let i = index; let last = last"
+                [ngClass]="{'bottom': last, 'top': i%2 == 0 }">
+                <td *ngIf="i%getLength(group.value) === 0" [attr.rowspan]="getLength(group.value)"><img
+                    [src]="'/assets/images/items/normal/weapon/' + getvalue(item, 'kind') + '/' + getvalue(item, 'group') + '.png'"><br>{{ getvalue(item, 'hand') === 'one'? '(單手)' : '(雙手)' }}
+                </td>
+                <td [ngClass]="{'quest': getvalue(item, 'quest') == '1'}">{{ getvalue(item, 'name') }}<br>({{ getvalue(item, 'name_en') }})</td>
+                <td>
+                  {{ td === 'sword' && getvalue(item, 'hand') === 'two'  ? '單手: ' + getvalue(getobject(item, 'oneharm'), 'min') + ' - ' +  getvalue(getobject(item, 'oneharm'), 'max') + '\n雙手: ' : '' }}
+                  {{ getvalue(item, 'hand') === 'one'? getvalue(getobject(item, 'oneharm'), 'min') : getvalue(getobject(item, 'twoharm'), 'min') }}&nbsp;-&nbsp;{{ getvalue(item, 'hand') === 'one'? getvalue(getobject(item, 'oneharm'), 'max') : getvalue(getobject(item, 'twoharm'), 'max') }}
+                </td>
+                <td>{{ getvalue(item, 'itemlevel') }}</td>
+                <td>{{ getvalue(item, 'level') }}</td>
+                <td>{{ getvalue(item, 'range') }}</td>
                 <td>{{ getvalue(item, 'speed') }}</td>
               </tr>
             </ng-container>

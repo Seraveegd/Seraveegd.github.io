@@ -67,12 +67,12 @@
     background-color: #272727;
   }
 
+  tr td[rowspan] {
+    vertical-align: top;
+  }
+
   td {
     font-size: 20px;
-
-    &:first-child {
-      vertical-align: top;
-    }
 
     .name {
       color: #dcc684;
@@ -84,6 +84,10 @@
 
     .slot {
       color: #7a7aff;
+    }
+
+    &.quest {
+      color: #b38727;
     }
 
     &.limit {
