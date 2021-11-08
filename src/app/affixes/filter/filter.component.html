@@ -6,7 +6,7 @@
       <div [ngClass]="'block'" *ngIf="prefixs | async | filteraffixe: type : type_detail; let pres">
         <div [ngClass]="'affixe'" *ngFor="let p of pres" (click)="showDetail(p.format, p.abilitys)">
           <ng-container *ngIf="p.abilitys | filteraffixe: type : type_detail; let abilitys">
-            <span [ngClass]="'level'">
+            <span [ngClass]="'level'" [matTooltip]="'物品等級'">
               {{ getMaxlevel(abilitys) }}
             </span>
             <ng-container *ngIf="abilitys.length === 1">
@@ -16,6 +16,9 @@
               <span [innerHTML]="showAffixe(p.format, '#')"></span>
             </ng-container>
             <span [ngClass]="'rare'" [innerHTML]="getMaxlevelRare(abilitys, type_detail)"></span>
+            <span [ngClass]="'frequency'" [matTooltip]="'出現頻率'">
+              {{ getMaxlevelFrequency(abilitys) }}
+            </span>
           </ng-container>
         </div>
       </div>

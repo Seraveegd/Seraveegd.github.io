@@ -1,5 +1,7 @@
-<!-- <p mat-dialog-title></p> -->
-<!-- <mat-dialog-content> -->
+<!-- <p mat-dialog-title>
+  12456
+</p> -->
+<mat-dialog-content>
 <div [ngClass]="'affixes'">
   <div [ngClass]="'container'">
     <div [ngClass]="'prefix'">
@@ -9,6 +11,7 @@
           <th>等級</th>
           <th>詞綴</th>
           <th>裝備稀有度</th>
+          <th>出現頻率</th>
         </thead>
         <tbody>
           <tr [ngClass]="'affixe'" *ngFor="let p of pres">
@@ -16,18 +19,19 @@
             <td [ngClass]="'level'">{{ showLevel(p.level) }}</td>
             <td [innerHTML]="showAbility(data.format, p.value)"></td>
             <td [innerHTML]="getRare(p, data.type_detail)"></td>
+            <td [ngClass]="'level'">{{ p.frequency }}</td>
           </tr>
         </tbody>
       </table>
     </div>
   </div>
 </div>
-<!-- </mat-dialog-content> -->
+</mat-dialog-content>
 
-<!-- <mat-dialog-actions [ngClass]="'action'"> -->
-<div [ngClass]="'closecontainer'">
-  <div>
-    <a mat-dialog-close (click)="close()" [ngClass]="'close'">關閉</a>
-  </div>
-</div>
-<!-- </mat-dialog-actions> -->
+<mat-dialog-actions [ngClass]="'action'">
+<!-- <div [ngClass]="'closecontainer'"> -->
+  <!-- <div> -->
+    <button mat-button mat- mat-dialog-close (click)="close()" [ngClass]="'close'">關閉</button>
+  <!-- </div> -->
+<!-- </div> -->
+</mat-dialog-actions>

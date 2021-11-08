@@ -11,9 +11,16 @@ export class FilteraffixePipe implements PipeTransform {
       return Object.values(affixes).filter((affixe: any) => {
         let r = false;
         details.forEach((detail: any) => {
-          if(affixe[type].includes(detail)){
-            r = true
+          if(affixe.hasOwnProperty('npart')){
+            if(affixe[type].includes(detail) && !affixe['npart'].includes(detail)){
+              r = true
+            }
+          }else{
+            if(affixe[type].includes(detail)){
+              r = true
+            }
           }
+
         })
 
         return r

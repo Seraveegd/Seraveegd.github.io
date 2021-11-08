@@ -19,7 +19,8 @@
     .suffix {
       font-size: 20px;
       width: 100%;
-      padding: 10px;
+      border: 1px solid #ccc;
+      // padding: 10px;
 
       .block {
         border-collapse: collapse;
@@ -84,24 +85,37 @@
     }
   }
 }
-.closecontainer {
-  padding: 10px;
-  background-color: #444444;
-  .close {
+
+// .closecontainer {
+//   padding: 10px;
+//   background-color: #444444;
+//   .close {
+//     width: 100%;
+//     background-color: #112233;
+//     color: rgb(255 255 255 / 60%);
+//     text-align: center;
+//     text-decoration: none;
+//     display: block;
+//     font-size: 20px;
+//     cursor: pointer;
+//     line-height: 30px;
+//     font-weight: bold;
+//     border-radius: 10px;
+
+//     &:hover{
+//       color: white;
+//     }
+//   }
+// }
+
+.action{
+  button{
     width: 100%;
     background-color: #112233;
-    color: rgb(255 255 255 / 60%);
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 20px;
-    cursor: pointer;
-    line-height: 30px;
-    font-weight: bold;
-    border-radius: 10px;
+    color: white;
 
     &:hover{
-      color: white;
+      background-color: #444444;
     }
   }
 }

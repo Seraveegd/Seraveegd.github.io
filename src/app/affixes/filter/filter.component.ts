@@ -65,6 +65,19 @@ export class FilterComponent implements OnInit {
     return level;
   }
 
+  getMaxlevelFrequency(abilitys: object[]) {
+    let level = 0;
+    let temp: any = {};
+    abilitys.forEach((a: any) => {
+      if (a.level >= level) {
+        level = a.level
+        temp = a;
+      }
+    });
+
+    return temp.frequency;
+  }
+
   getMaxlevelRare(abilitys: object[], td: string): SafeHtml {
     let level = 0;
     let temp: any = null;
@@ -81,15 +94,15 @@ export class FilterComponent implements OnInit {
 
     if (temp !== {} && temp.hasOwnProperty('magic')) {
       details.forEach((d: any) => {
-        if (temp.magic.includes(d) || d === 'smallcharm' || d === 'largecharm' || d === 'grandcharm') {
+        if (temp.magic.includes(d)) {
           result = '魔法';
         }
       });
     }
 
-    if (details.length === 1 && (td === 'smallcharm' || td === 'largecharm' || td === 'grandcharm')) {
-      result = '魔法';
-    }
+    // if (details.length === 1 && (td === 'smallcharm' || td === 'mediumcharm' || td === 'largecharm')) {
+    //   result = '魔法';
+    // }
 
     return this.sanitizer.bypassSecurityTrustHtml(result === '稀有' ? `<span style="color: rgb(255 255 111)">${result}</span>` : result);
   }

@@ -5,9 +5,9 @@
       <span>咒符</span>
       <span><a [routerLink]="['filter', 'part', 'smallcharm']" (click)="clink('1')"
           [ngClass]="{'active': selected === '1'}">小型咒符</a></span>
-      <span><a [routerLink]="['filter', 'part', 'largecharm']" (click)="clink('2')"
+      <span><a [routerLink]="['filter', 'part', 'mediumcharm']" (click)="clink('2')"
           [ngClass]="{'active': selected === '2'}">大型咒符</a></span>
-      <span><a [routerLink]="['filter', 'part', 'grandcharm']" (click)="clink('3')"
+      <span><a [routerLink]="['filter', 'part', 'largecharm']" (click)="clink('3')"
           [ngClass]="{'active': selected === '3'}">特大咒符</a></span>
     </div>
     <div [ngClass]="'list'">
@@ -54,25 +54,25 @@
     </div>
     <div [ngClass]="'list'">
       <span>防具</span>
-      <span><a [routerLink]="['filter', 'part', 'helmet']" (click)="clink('22')"
+      <span><a [routerLink]="['filter', 'part', 'helmet,vohelmet,armors']" (click)="clink('22')"
           [ngClass]="{'active': selected === '22'}">頭盔</a></span>
-      <span><a [routerLink]="['filter', 'part', 'helmet,barbarianhelm']" (click)="clink('23')"
+      <span><a [routerLink]="['filter', 'part', 'helmet,barbarianhelm,armors']" (click)="clink('23')"
           [ngClass]="{'active': selected === '23'}">野蠻人頭盔</a></span>
-      <span><a [routerLink]="['filter', 'part', 'helmet,druidpeltshelm']" (click)="clink('24')"
+      <span><a [routerLink]="['filter', 'part', 'helmet,druidpeltshelm,armors']" (click)="clink('24')"
           [ngClass]="{'active': selected === '24'}">德魯伊頭盔</a></span>
-      <span><a [routerLink]="['filter', 'part', 'armor']" (click)="clink('25')"
+      <span><a [routerLink]="['filter', 'part', 'armor,armors']" (click)="clink('25')"
           [ngClass]="{'active': selected === '25'}">盔甲</a></span>
-      <span><a [routerLink]="['filter', 'part', 'belt']" (click)="clink('26')"
+      <span><a [routerLink]="['filter', 'part', 'belt,armors']" (click)="clink('26')"
           [ngClass]="{'active': selected === '26'}">腰帶</a></span>
-      <span><a [routerLink]="['filter', 'part', 'glove']" (click)="clink('27')"
+      <span><a [routerLink]="['filter', 'part', 'glove,armors']" (click)="clink('27')"
           [ngClass]="{'active': selected === '27'}">手套</a></span>
-      <span><a [routerLink]="['filter', 'part', 'boot']" (click)="clink('28')"
+      <span><a [routerLink]="['filter', 'part', 'boot,armors']" (click)="clink('28')"
           [ngClass]="{'active': selected === '28'}">鞋子</a></span>
-      <span><a [routerLink]="['filter', 'part', 'shield']" (click)="clink('29')"
+      <span><a [routerLink]="['filter', 'part', 'shield,armors']" (click)="clink('29')"
           [ngClass]="{'active': selected === '29'}">盾牌</a></span>
-      <span><a [routerLink]="['filter', 'part', 'shield,paladinshield']" (click)="clink('30')"
+      <span><a [routerLink]="['filter', 'part', 'shield,paladinshield,armors']" (click)="clink('30')"
           [ngClass]="{'active': selected === '30'}">聖騎士盾牌</a></span>
-      <span><a [routerLink]="['filter', 'part', 'shield,ncershrunkenhead']" (click)="clink('31')"
+      <span><a [routerLink]="['filter', 'part', 'shield,ncershrunkenhead,armors']" (click)="clink('31')"
           [ngClass]="{'active': selected === '31'}">死靈法師盾牌</a></span>
       <span><a [routerLink]="['filter', 'part', 'circlet']" (click)="clink('32')"
           [ngClass]="{'active': selected === '32'}">頭飾</a></span>

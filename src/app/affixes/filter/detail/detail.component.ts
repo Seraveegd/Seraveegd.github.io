@@ -42,15 +42,15 @@ export class DetailComponent implements OnInit {
 
     if (ability !== {} && ability.hasOwnProperty('magic')) {
       details.forEach((d: any) => {
-        if (ability.magic.includes(d) || d === 'smallcharm' || d === 'largecharm' || d === 'grandcharm') {
+        if (ability.magic.includes(d)) {
           result = '魔法';
         }
       });
     }
 
-    if (details.length === 1 && (td === 'smallcharm' || td === 'largecharm' || td === 'grandcharm')) {
-      result = '魔法';
-    }
+    // if (details.length === 1 && (td === 'smallcharm' || td === 'largecharm' || td === 'grandcharm')) {
+    //   result = '魔法';
+    // }
 
     return this.sanitizer.bypassSecurityTrustHtml(result === '稀有' ? `<span style="color: rgb(255 255 111)">${result}</span>` : result);
   }
