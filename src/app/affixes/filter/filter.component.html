@@ -38,6 +38,9 @@
               <span [innerHTML]="showAffixe(s.format, '#')"></span>
             </ng-container>
             <span [ngClass]="'rare'" [innerHTML]="getMaxlevelRare(abilitys, type_detail)"></span>
+            <span [ngClass]="'frequency'" [matTooltip]="'出現頻率'">
+              {{ getMaxlevelFrequency(abilitys) }}
+            </span>
           </ng-container>
         </div>
       </div>
