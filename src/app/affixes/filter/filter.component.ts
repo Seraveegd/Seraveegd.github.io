@@ -56,13 +56,15 @@ export class FilterComponent implements OnInit {
 
   getMaxlevel(abilitys: object[]) {
     let level = 0;
+    let temp: any = {};
     abilitys.forEach((a: any) => {
       if (a.level >= level) {
         level = a.level
+        temp = a;
       }
     });
 
-    return level;
+    return temp.maxlevel ? level + '-' + temp.maxlevel : level ;
   }
 
   getMaxlevelFrequency(abilitys: object[]) {

@@ -55,9 +55,9 @@ export class FilterComponent implements OnInit {
       name: '釘鎚',
       url: this.config.api_base_url + '/items/normal/weapon/filter/kind/mace'
     },
-    stave: {
+    staff: {
       name: '法杖',
-      url: this.config.api_base_url + '/items/normal/weapon/filter/kind/stave'
+      url: this.config.api_base_url + '/items/normal/weapon/filter/kind/staff'
     },
     wand: {
       name: '魔杖',

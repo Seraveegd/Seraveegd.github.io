@@ -8,7 +8,8 @@
       <table [ngClass]="'block'" *ngIf="data.abilitys | filteraffixe: data.type : data.type_detail; let pres">
         <thead>
           <th>名稱</th>
-          <th>等級</th>
+          <th>物品等級</th>
+          <th>需要等級</th>
           <th>詞綴</th>
           <th>裝備稀有度</th>
           <th>出現頻率</th>
@@ -17,6 +18,7 @@
           <tr [ngClass]="'affixe'" *ngFor="let p of pres">
             <td [ngClass]="'name'">{{ p.name }}({{ p.name_en }})</td>
             <td [ngClass]="'level'">{{ showLevel(p.level) }}</td>
+            <td [ngClass]="'level'">{{ p.levelreq }}</td>
             <td [innerHTML]="showAbility(data.format, p.value)"></td>
             <td [innerHTML]="getRare(p, data.type_detail)"></td>
             <td [ngClass]="'level'">{{ p.frequency }}</td>

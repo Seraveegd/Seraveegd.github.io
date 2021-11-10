@@ -25,23 +25,29 @@
           [ngClass]="{'active': selected === '7'}">長柄</a></span>
       <span><a [routerLink]="['filter', 'part', 'spear,weapon,melee']" (click)="clink('8')"
           [ngClass]="{'active': selected === '8'}">長矛</a></span>
+      <span><a [routerLink]="['filter', 'part', 'spear,weapon,melee,amazonspear']" (click)="clink('36')"
+          [ngClass]="{'active': selected === '36'}">亞馬遜長矛</a></span>
       <span><a [routerLink]="['filter', 'part', 'mace,weapon,melee']" (click)="clink('9')"
           [ngClass]="{'active': selected === '9'}">釘鎚</a></span>
-      <span><a [routerLink]="['filter', 'part', 'scepter,weapon,melee']" (click)="clink('10')"
+      <span><a [routerLink]="['filter', 'part', 'scepter,weapon,melee,rod']" (click)="clink('10')"
           [ngClass]="{'active': selected === '10'}">權杖</a></span>
       <span><a [routerLink]="['filter', 'part', 'bow,weapon,missile']" (click)="clink('11')"
           [ngClass]="{'active': selected === '11'}">弓</a></span>
+      <span><a [routerLink]="['filter', 'part', 'bow,weapon,missile,amazonbow']" (click)="clink('35')"
+          [ngClass]="{'active': selected === '35'}">亞馬遜弓</a></span>
       <span><a [routerLink]="['filter', 'part', 'crossbow,weapon,missile']" (click)="clink('12')"
           [ngClass]="{'active': selected === '12'}">弩</a></span>
       <span><a [routerLink]="['filter', 'part', 'javelin,weapon,melee']" (click)="clink('13')"
           [ngClass]="{'active': selected === '13'}">標槍</a></span>
+      <span><a [routerLink]="['filter', 'part', 'javelin,weapon,melee,amazonjavelin']" (click)="clink('37')"
+          [ngClass]="{'active': selected === '37'}">亞馬遜標槍</a></span>
       <span><a [routerLink]="['filter', 'part', 'dagger,weapon,melee']" (click)="clink('14')"
           [ngClass]="{'active': selected === '14'}">匕首</a></span>
       <span><a [routerLink]="['filter', 'part', 'throwing,weapon,missile']" (click)="clink('15')"
           [ngClass]="{'active': selected === '15'}">投擲武器</a></span>
-      <span><a [routerLink]="['filter', 'part', 'wand,weapon,melee']" (click)="clink('16')"
+      <span><a [routerLink]="['filter', 'part', 'wand,weapon,melee,rod']" (click)="clink('16')"
           [ngClass]="{'active': selected === '16'}">魔杖</a></span>
-      <span><a [routerLink]="['filter', 'part', 'stave,weapon,melee']" (click)="clink('17')"
+      <span><a [routerLink]="['filter', 'part', 'staff,weapon,melee,rod']" (click)="clink('17')"
           [ngClass]="{'active': selected === '17'}">法杖</a></span>
       <span><a [routerLink]="['filter', 'part', 'orb,weapon,melee']" (click)="clink('18')"
           [ngClass]="{'active': selected === '18'}">法珠</a></span>

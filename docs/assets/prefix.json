@@ -5776,7 +5776,7 @@
         "maxlevel": null,
         "levelreq": 6,
         "frequency": 2,
-        "value": [1, "(2-3)"],
+        "value": ["+1", "+(2-3)"],
         "part": ["largecharm"],
         "npart": [],
         "magic": []
@@ -5788,7 +5788,7 @@
         "maxlevel": null,
         "levelreq": 11,
         "frequency": 1,
-        "value": ["(2-4)", "(4-8)"],
+        "value": ["+(2-4)", "+(4-8)"],
         "part": ["largecharm"],
         "npart": [],
         "magic": []
@@ -5800,7 +5800,7 @@
         "maxlevel": null,
         "levelreq": 13,
         "frequency": 2,
-        "value": ["(2-3)", "(3-5)"],
+        "value": ["+(2-3)", "+(3-5)"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": []
@@ -5812,7 +5812,7 @@
         "maxlevel": null,
         "levelreq": 18,
         "frequency": 3,
-        "value": ["(6-9)", "(19-30)"],
+        "value": ["+(6-9)", "+(19-30)"],
         "part": ["weapon", "circlet"],
         "npart": [],
         "magic": []
@@ -5824,7 +5824,7 @@
         "maxlevel": null,
         "levelreq": 20,
         "frequency": 2,
-        "value": ["(1-2)", "(2-4)"],
+        "value": ["+(1-2)", "+(2-4)"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": []
@@ -5836,7 +5836,7 @@
         "maxlevel": null,
         "levelreq": 21,
         "frequency": 1,
-        "value": ["(4-5)", "(6-10)"],
+        "value": ["+(4-5)", "+(6-10)"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": []
@@ -5848,7 +5848,7 @@
         "maxlevel": null,
         "levelreq": 22,
         "frequency": 1,
-        "value": ["(5-7)", "(9-15)"],
+        "value": ["+(5-7)", "+(9-15)"],
         "part": ["largecharm"],
         "npart": [],
         "magic": []
@@ -5860,7 +5860,7 @@
         "maxlevel": null,
         "levelreq": 26,
         "frequency": 2,
-        "value": ["(10-15)", "(31-45)"],
+        "value": ["+(10-15)", "+(31-45)"],
         "part": ["weapon"],
         "npart": [],
         "magic": []
@@ -5872,7 +5872,7 @@
         "maxlevel": null,
         "levelreq": 34,
         "frequency": 1,
-        "value": ["(3-4)", "(5-8)"],
+        "value": ["+(3-4)", "+(5-8)"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": []
@@ -5884,7 +5884,7 @@
         "maxlevel": null,
         "levelreq": 38,
         "frequency": 1,
-        "value": ["(8-13)", "(16-25)"],
+        "value": ["+(8-13)", "+(16-25)"],
         "part": ["largecharm"],
         "npart": [],
         "magic": ["largecharm"]
@@ -5896,7 +5896,7 @@
         "maxlevel": null,
         "levelreq": 41,
         "frequency": 1,
-        "value": ["(6-10)", "(11-20)"],
+        "value": ["+(6-10)", "+(11-20)"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": []
@@ -5908,7 +5908,7 @@
         "maxlevel": null,
         "levelreq": 40,
         "frequency": 1,
-        "value": ["(16-23)", "(46-90)"],
+        "value": ["+(16-23)", "+(46-90)"],
         "part": ["weapon"],
         "npart": [],
         "magic": []
@@ -5920,7 +5920,7 @@
         "maxlevel": null,
         "levelreq": 58,
         "frequency": 1,
-        "value": ["(5-7)", "(9-14)"],
+        "value": ["+(5-7)", "+(9-14)"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": []
@@ -5932,7 +5932,7 @@
         "maxlevel": null,
         "levelreq": 61,
         "frequency": 1,
-        "value": ["(11-15)", "(21-30)"],
+        "value": ["+(11-15)", "+(21-30)"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": ["mediumcharm"]
@@ -5944,7 +5944,7 @@
         "maxlevel": null,
         "levelreq": 60,
         "frequency": 1,
-        "value": ["(24-45)", "(91-140)"],
+        "value": ["+(24-45)", "+(91-140)"],
         "part": ["weapon"],
         "npart": [],
         "magic": []
@@ -5956,7 +5956,7 @@
         "maxlevel": null,
         "levelreq": 83,
         "frequency": 1,
-        "value": ["(8-10)", "(15-20)"],
+        "value": ["+(8-10)", "+(15-20)"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": ["smallcharm"]
@@ -5975,7 +5975,7 @@
         "maxlevel": null,
         "levelreq": 3,
         "frequency": 2,
-        "value": [1, "(2-3)"],
+        "value": ["+1", "+(2-3)"],
         "part": ["largecharm"],
         "npart": [],
         "magic": []
@@ -5987,7 +5987,7 @@
         "maxlevel": null,
         "levelreq": 9,
         "frequency": 2,
-        "value": [1, "(2-3)"],
+        "value": ["+1", "+(2-3)"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": []
@@ -5999,7 +5999,7 @@
         "maxlevel": null,
         "levelreq": 11,
         "frequency": 1,
-        "value": ["(2-3)", "(4-7)"],
+        "value": ["+(2-3)", "+(4-7)"],
         "part": ["largecharm"],
         "npart": [],
         "magic": []
@@ -6011,7 +6011,7 @@
         "maxlevel": null,
         "levelreq": 15,
         "frequency": 2,
-        "value": [1, "(2-3)"],
+        "value": ["+1", "+(2-3)"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": []
@@ -6023,7 +6023,7 @@
         "maxlevel": null,
         "levelreq": 18,
         "frequency": 3,
-        "value": ["(16-25)", "(31-60)"],
+        "value": ["+(16-25)", "+(31-60)"],
         "part": ["weapon", "circlet"],
         "npart": [],
         "magic": []
@@ -6035,7 +6035,7 @@
         "maxlevel": null,
         "levelreq": 20,
         "frequency": 1,
-        "value": ["(2-3)", "(4-12)"],
+        "value": ["+(2-3)", "+(4-12)"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": []
@@ -6047,7 +6047,7 @@
         "maxlevel": null,
         "levelreq": 21,
         "frequency": 1,
-        "value": ["(4-7)", "(8-19)"],
+        "value": ["+(4-7)", "+(8-19)"],
         "part": ["largecharm"],
         "npart": [],
         "magic": []
@@ -6059,7 +6059,7 @@
         "maxlevel": null,
         "levelreq": 26,
         "frequency": 2,
-        "value": ["(26-50)", "(61-90)"],
+        "value": ["+(26-50)", "+(61-90)"],
         "part": ["weapon"],
         "npart": [],
         "magic": []
@@ -6071,7 +6071,7 @@
         "maxlevel": null,
         "levelreq": 32,
         "frequency": 1,
-        "value": ["(2-3)", "(4-10)"],
+        "value": ["+(2-3)", "+(4-10)"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": []
@@ -6083,7 +6083,7 @@
         "maxlevel": null,
         "levelreq": 35,
         "frequency": 1,
-        "value": ["(8-18)", "(20-36)"],
+        "value": ["+(8-18)", "+(20-36)"],
         "part": ["largecharm"],
         "npart": [],
         "magic": ["largecharm"]
@@ -6095,7 +6095,7 @@
         "maxlevel": null,
         "levelreq": 39,
         "frequency": 1,
-        "value": ["(4-9)", "(13-27)"],
+        "value": ["+(4-9)", "+(13-27)"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": []
@@ -6107,7 +6107,7 @@
         "maxlevel": null,
         "levelreq": 37,
         "frequency": 1,
-        "value": ["(51-80)", "(91-130)"],
+        "value": ["+(51-80)", "+(91-130)"],
         "part": ["weapon"],
         "npart": [],
         "magic": []
@@ -6119,7 +6119,7 @@
         "maxlevel": null,
         "levelreq": 51,
         "frequency": 1,
-        "value": ["(81-120)", "(131-180)"],
+        "value": ["+(81-120)", "+(131-180)"],
         "part": ["weapon"],
         "npart": [],
         "magic": []
@@ -6131,7 +6131,7 @@
         "maxlevel": null,
         "levelreq": 56,
         "frequency": 1,
-        "value": ["(4-9)", "(11-19)"],
+        "value": ["+(4-9)", "+(11-19)"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": []
@@ -6143,7 +6143,7 @@
         "maxlevel": null,
         "levelreq": 59,
         "frequency": 1,
-        "value": ["(10-27)", "(28-43)"],
+        "value": ["+(10-27)", "+(28-43)"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": ["mediumcharm"]
@@ -6155,7 +6155,7 @@
         "maxlevel": null,
         "levelreq": 67,
         "frequency": 1,
-        "value": ["(121-170)", "(181-240)"],
+        "value": ["+(121-170)", "+(181-240)"],
         "part": ["weapon"],
         "npart": [],
         "magic": []
@@ -6167,7 +6167,7 @@
         "maxlevel": null,
         "levelreq": 81,
         "frequency": 1,
-        "value": ["(10-19)", "(20-29)"],
+        "value": ["+(10-19)", "+(20-29)"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": ["smallcharm"]
@@ -6186,7 +6186,7 @@
         "maxlevel": null,
         "levelreq": 5,
         "frequency": 2,
-        "value": [1, "(4-5)"],
+        "value": ["+1", "+(4-5)"],
         "part": ["largecharm"],
         "npart": [],
         "magic": []
@@ -6198,7 +6198,7 @@
         "maxlevel": null,
         "levelreq": 10,
         "frequency": 1,
-        "value": [1, "(6-17)"],
+        "value": ["+1", "+(6-17)"],
         "part": ["largecharm"],
         "npart": [],
         "magic": []
@@ -6210,7 +6210,7 @@
         "maxlevel": null,
         "levelreq": 10,
         "frequency": 2,
-        "value": [1, "(5-9)"],
+        "value": ["+1", "+(5-9)"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": []
@@ -6222,7 +6222,7 @@
         "maxlevel": null,
         "levelreq": 17,
         "frequency": 2,
-        "value": [1, "(6-11)"],
+        "value": ["+1", "+(6-11)"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": []
@@ -6234,7 +6234,7 @@
         "maxlevel": null,
         "levelreq": 18,
         "frequency": 3,
-        "value": [1, "(49-120)"],
+        "value": ["+1", "+(49-120)"],
         "part": ["weapon", "circlet"],
         "npart": [],
         "magic": []
@@ -6246,7 +6246,7 @@
         "maxlevel": null,
         "levelreq": 20,
         "frequency": 1,
-        "value": [1, "(10-26)"],
+        "value": ["+1", "+(10-26)"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": []
@@ -6258,7 +6258,7 @@
         "maxlevel": null,
         "levelreq": 21,
         "frequency": 1,
-        "value": [1, "(18-44)"],
+        "value": ["+1", "+(18-44)"],
         "part": ["largecharm"],
         "npart": [],
         "magic": []
@@ -6270,7 +6270,7 @@
         "maxlevel": null,
         "levelreq": 25,
         "frequency": 2,
-        "value": [1, "(121-180)"],
+        "value": ["+1", "+(121-180)"],
         "part": ["weapon"],
         "npart": [],
         "magic": []
@@ -6282,7 +6282,7 @@
         "maxlevel": null,
         "levelreq": 33,
         "frequency": 1,
-        "value": [1, "(12-24)"],
+        "value": ["+1", "+(12-24)"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": []
@@ -6294,7 +6294,7 @@
         "maxlevel": null,
         "levelreq": 36,
         "frequency": 1,
-        "value": [1, "(45-79)"],
+        "value": ["+1", "+(45-79)"],
         "part": ["largecharm"],
         "npart": [],
         "magic": ["largecharm"]
@@ -6306,7 +6306,7 @@
         "maxlevel": null,
         "levelreq": 36,
         "frequency": 1,
-        "value": [1, "(181-260)"],
+        "value": ["+1", "+(181-260)"],
         "part": ["weapon"],
         "npart": [],
         "magic": []
@@ -6318,7 +6318,7 @@
         "maxlevel": null,
         "levelreq": 40,
         "frequency": 1,
-        "value": [1, "(27-58)"],
+        "value": ["+1", "+(27-58)"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": []
@@ -6330,7 +6330,7 @@
         "maxlevel": null,
         "levelreq": 50,
         "frequency": 1,
-        "value": [1, "(261-360)"],
+        "value": ["+1", "+(261-360)"],
         "part": ["weapon"],
         "npart": [],
         "magic": []
@@ -6342,7 +6342,7 @@
         "maxlevel": null,
         "levelreq": 57,
         "frequency": 1,
-        "value": [1, "(25-43)"],
+        "value": ["+1", "+(25-43)"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": []
@@ -6354,7 +6354,7 @@
         "maxlevel": null,
         "levelreq": 60,
         "frequency": 1,
-        "value": [1, "(59-90)"],
+        "value": ["+1", "+(59-90)"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": ["mediumcharm"]
@@ -6366,7 +6366,7 @@
         "maxlevel": null,
         "levelreq": 66,
         "frequency": 1,
-        "value": [1, "(361-480)"],
+        "value": ["+1", "+(361-480)"],
         "part": ["weapon"],
         "npart": [],
         "magic": []
@@ -6378,7 +6378,7 @@
         "maxlevel": null,
         "levelreq": 82,
         "frequency": 1,
-        "value": [1, "(44-71)"],
+        "value": ["+1", "+(44-71)"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": ["smallcharm"]

@@ -97,7 +97,7 @@
         "value": ["(10-25)"],
         "part": ["necklace", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["necklace", "circlet"]
       },
       {
         "name": "和睦之",
@@ -109,7 +109,7 @@
         "value": ["(8-15)"],
         "part": ["armor", "shield", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["armor", "shield", "circlet"]
       }
     ],
     "part": ["armor", "shield", "ring", "necklace", "circlet"]
@@ -188,7 +188,7 @@
         "value": ["(4-6)"],
         "part": ["armor", "shield", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["armor", "shield", "circlet"]
       },
       {
         "name": "消魔之",
@@ -200,7 +200,7 @@
         "value": ["(4-6)"],
         "part": ["necklace", "orb", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["necklace", "orb", "circlet"]
       }
     ],
     "part": ["armor", "shield", "ring", "necklace", "orb", "circlet"]
@@ -303,7 +303,7 @@
         "value": ["(6-8)"],
         "part": ["armor", "shield", "boot", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["armor", "shield", "boot", "circlet"]
       },
       {
         "name": "猝滅之",
@@ -315,7 +315,7 @@
         "value": ["(6-8)"],
         "part": ["necklace", "orb", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["necklace", "orb", "circlet"]
       }
     ],
     "part": ["armor", "shield", "boot", "circlet", "ring", "necklace", "orb", "jewelry"]
@@ -418,7 +418,7 @@
         "value": ["(6-8)"],
         "part": ["armor", "shield", "boot", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["armor", "shield", "boot", "circlet"]
       },
       {
         "name": "爆發之",
@@ -430,7 +430,7 @@
         "value": ["(6-8)"],
         "part": ["necklace", "orb", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["necklace", "orb", "circlet"]
       }
     ],
     "part": ["armor", "shield", "boot", "circlet", "ring", "necklace", "orb", "jewelry"]
@@ -533,7 +533,7 @@
         "value": ["(6-8)"],
         "part": ["armor", "shield", "boot", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["armor", "shield", "boot", "circlet"]
       },
       {
         "name": "熱風之",
@@ -545,7 +545,7 @@
         "value": ["(6-8)"],
         "part": ["necklace", "orb", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["necklace", "orb", "circlet"]
       }
     ],
     "part": ["armor", "shield", "boot", "circlet", "ring", "necklace", "orb", "jewelry"]
@@ -581,7 +581,7 @@
         "levelreq": 12,
         "frequency": 4,
         "value": ["-(25-40)"],
-        "part": ["mace", "club", "hammer", "scepter"],
+        "part": ["mace", "club", "hammer", "scepter", "wand", "staff"],
         "npart": ["wand", "staff", "orb"],
         "magic": []
       },
@@ -604,6 +604,18 @@
     "group": "attackertakesdamageof",
     "format": "攻擊者反傷：#",
     "abilitys": [
+      {
+        "name": "棘刺之",
+        "name_en": "of Thorns",
+        "level": 1,
+        "maxlevel": 13,
+        "levelreq": 1,
+        "frequency": 4,
+        "value": [1],
+        "part": ["armor", "belt", "shield"],
+        "npart": [],
+        "magic": []
+      },
       {
         "name": "棘刺之",
         "name_en": "of Thorns",
@@ -674,7 +686,7 @@
         "value": ["(10-20)"],
         "part": ["armor", "shield", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["armor", "shield", "circlet"]
       }
     ],
     "part": ["armor", "shield", "belt", "circlet", "jewelry"]
@@ -693,6 +705,18 @@
         "value": ["+10"],
         "part": ["weapon"],
         "npart": ["wand", "orb"],
+        "magic": []
+      },
+      {
+        "name": "迅速之",
+        "name_en": "of Readiness",
+        "level": 20,
+        "maxlevel": null,
+        "levelreq": 15,
+        "frequency": 2,
+        "value": ["+10"],
+        "part": ["glove"],
+        "npart": [],
         "magic": []
       },
       {
@@ -729,7 +753,7 @@
         "value": ["+15"],
         "part": ["jewelry"],
         "npart": [],
-        "magic": []
+        "magic": ["jewelry"]
       },
       {
         "name": "輕快之",
@@ -831,9 +855,45 @@
         "maxlevel": null,
         "levelreq": 3,
         "frequency": 5,
-        "value": [1, "(1-2)"],
+        "value": ["+1", "+(1-2)"],
         "part": ["weapon"],
         "npart": ["wand", "orb"],
+        "magic": []
+      },
+      {
+        "name": "冰霜之",
+        "name_en": "of Frost",
+        "level": 5,
+        "maxlevel": null,
+        "levelreq": 3,
+        "frequency": 2,
+        "value": ["+1", "+2"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "冰刺之",
+        "name_en": "of the Icicle",
+        "level": 8,
+        "maxlevel": null,
+        "levelreq": 6,
+        "frequency": 1,
+        "value": ["+2", "+(3-4)"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "冰霜之",
+        "name_en": "of Frost",
+        "level": 9,
+        "maxlevel": null,
+        "levelreq": 6,
+        "frequency": 2,
+        "value": ["+1", "+(2-3)"],
+        "part": ["mediumcharm"],
+        "npart": [],
         "magic": []
       },
       {
@@ -843,9 +903,45 @@
         "maxlevel": null,
         "levelreq": 9,
         "frequency": 4,
-        "value": [1, "(3-4)"],
+        "value": ["+1", "+(3-4)"],
         "part": ["weapon"],
         "npart": ["wand", "orb"],
+        "magic": []
+      },
+      {
+        "name": "冰霜之",
+        "name_en": "of Frost",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 10,
+        "frequency": 2,
+        "value": ["+1", "+2"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "冰刺之",
+        "name_en": "of the Icicle",
+        "level": 15,
+        "maxlevel": null,
+        "levelreq": 11,
+        "frequency": 1,
+        "value": ["+2", "+(4-5)"],
+        "part": ["mediumcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "冰河之",
+        "name_en": "of the Glacier",
+        "level": 15,
+        "maxlevel": null,
+        "levelreq": 11,
+        "frequency": 1,
+        "value": ["+3", "+(5-7)"],
+        "part": ["largecharm"],
+        "npart": [],
         "magic": []
       },
       {
@@ -855,8 +951,44 @@
         "maxlevel": null,
         "levelreq": 12,
         "frequency": 2,
-        "value": [1, "(3-5)"],
+        "value": ["+1", "+(3-5)"],
         "part": ["jewelry"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "冰刺之",
+        "name_en": "of the Icicle",
+        "level": 21,
+        "maxlevel": null,
+        "levelreq": 15,
+        "frequency": 1,
+        "value": ["+2", "+(3-4)"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "嚴冬之",
+        "name_en": "of Winter",
+        "level": 23,
+        "maxlevel": null,
+        "levelreq": 17,
+        "frequency": 1,
+        "value": ["+(4-6)", "+(8-11)"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": ["largecharm"]
+      },
+      {
+        "name": "冰河之",
+        "name_en": "of the Glacier",
+        "level": 25,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": ["+3", "+(6-8)"],
+        "part": ["mediumcharm"],
         "npart": [],
         "magic": []
       },
@@ -867,9 +999,45 @@
         "maxlevel": null,
         "levelreq": 20,
         "frequency": 3,
-        "value": ["(2-4)", "(4-15)"],
+        "value": ["+(2-4)", "+(4-15)"],
         "part": ["weapon"],
         "npart": ["wand", "orb"],
+        "magic": []
+      },
+      {
+        "name": "冰河之",
+        "name_en": "of the Glacier",
+        "level": 33,
+        "maxlevel": null,
+        "levelreq": 25,
+        "frequency": 1,
+        "value": ["+3", "+(5-6)"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "嚴冬之",
+        "name_en": "of Winter",
+        "level": 35,
+        "maxlevel": null,
+        "levelreq": 27,
+        "frequency": 1,
+        "value": ["+(4-6)", "+(9-12)"],
+        "part": ["mediumcharm"],
+        "npart": [],
+        "magic": ["mediumcharm"]
+      },
+      {
+        "name": "冰刺之",
+        "name_en": "of the Icicle",
+        "level": 37,
+        "maxlevel": null,
+        "levelreq": 29,
+        "frequency": 2,
+        "value": ["+(2-3)", "+(6-10)"],
+        "part": ["jewelry"],
+        "npart": [],
         "magic": []
       },
       {
@@ -879,10 +1047,22 @@
         "maxlevel": null,
         "levelreq": 37,
         "frequency": 2,
-        "value": ["(5-9)", "(16-50)"],
+        "value": ["+(5-9)", "+(16-50)"],
         "part": ["melee"],
         "npart": ["wand", "orb"],
         "magic": []
+      },
+      {
+        "name": "嚴冬之",
+        "name_en": "of Winter",
+        "level": 46,
+        "maxlevel": null,
+        "levelreq": 38,
+        "frequency": 1,
+        "value": ["+(4-5)", "+(7-9)"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": ["smallcharm"]
       },
       {
         "name": "冰霜之",
@@ -891,13 +1071,25 @@
         "maxlevel": null,
         "levelreq": 41,
         "frequency": 2,
-        "value": [1, "(3-6)"],
+        "value": ["+1", "+(3-6)"],
         "part": ["belt", "necklace"],
         "npart": [],
         "magic": []
+      },
+      {
+        "name": "冰河之",
+        "name_en": "of the Glacier",
+        "level": 58,
+        "maxlevel": null,
+        "levelreq": 50,
+        "frequency": 2,
+        "value": ["+(4-5)", "+(11-15)"],
+        "part": ["jewelry"],
+        "npart": [],
+        "magic": ["jewelry"]
       }
     ],
-    "part": ["weapon", "melee", "belt", "necklace", "jewelry"]
+    "part": ["weapon", "melee", "belt", "necklace", "jewelry", "largecharm", "mediumcharm", "smallcharm"]
   },
   {
     "group": "halffreezeduration",
@@ -925,13 +1117,85 @@
       {
         "name": "火炎之",
         "name_en": "of Flame",
+        "level": 3,
+        "maxlevel": null,
+        "levelreq": 2,
+        "frequency": 2,
+        "value": ["+1", "+2"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "火炎之",
+        "name_en": "of Flame",
         "level": 4,
         "maxlevel": null,
         "levelreq": 3,
         "frequency": 5,
-        "value": [1, "(2-5)"],
+        "value": ["+1", "+(2-5)"],
         "part": ["weapon"],
         "npart": ["wand", "orb"],
+        "magic": []
+      },
+      {
+        "name": "火炎之",
+        "name_en": "of Flame",
+        "level": 7,
+        "maxlevel": null,
+        "levelreq": 5,
+        "frequency": 2,
+        "value": ["+1", "+2"],
+        "part": ["mediumcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "火炎之",
+        "name_en": "of Flame",
+        "level": 8,
+        "maxlevel": null,
+        "levelreq": 6,
+        "frequency": 1,
+        "value": ["+(1-2)", "+3"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "火炎之",
+        "name_en": "of Flame",
+        "level": 11,
+        "maxlevel": null,
+        "levelreq": 8,
+        "frequency": 2,
+        "value": ["+1", "+2"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "火炎之",
+        "name_en": "of Flame",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 10,
+        "frequency": 1,
+        "value": ["+2", "+(3-5)"],
+        "part": ["mediumcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "燃燒之",
+        "name_en": "of Burning",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 10,
+        "frequency": 1,
+        "value": ["+(2-3)", "+(4-7)"],
+        "part": ["largecharm"],
+        "npart": [],
         "magic": []
       },
       {
@@ -941,7 +1205,7 @@
         "maxlevel": null,
         "levelreq": 11,
         "frequency": 4,
-        "value": ["(1-4)", "(6-11)"],
+        "value": ["+(1-4)", "+(6-11)"],
         "part": ["weapon"],
         "npart": ["wand", "orb"],
         "magic": []
@@ -953,8 +1217,44 @@
         "maxlevel": null,
         "levelreq": 11,
         "frequency": 2,
-        "value": ["(1-3)", "(6-10)"],
+        "value": ["+(1-3)", "+(6-10)"],
         "part": ["jewelry"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "火炎之",
+        "name_en": "of Flame",
+        "level": 20,
+        "maxlevel": null,
+        "levelreq": 15,
+        "frequency": 1,
+        "value": ["+2", "+(3-4)"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "焚絕之",
+        "name_en": "of Incineration",
+        "level": 22,
+        "maxlevel": null,
+        "levelreq": 16,
+        "frequency": 1,
+        "value": ["+(4-7)", "+(8-14)"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": ["largecharm"]
+      },
+      {
+        "name": "燃燒之",
+        "name_en": "of Burning",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": ["+(3-5)", "+(6-11)"],
+        "part": ["mediumcharm"],
         "npart": [],
         "magic": []
       },
@@ -965,9 +1265,45 @@
         "maxlevel": null,
         "levelreq": 18,
         "frequency": 3,
-        "value": ["(5-9)", "(10-20)"],
+        "value": ["+(5-9)", "+(10-20)"],
         "part": ["weapon"],
         "npart": ["wand", "orb"],
+        "magic": []
+      },
+      {
+        "name": "燃燒之",
+        "name_en": "of Burning",
+        "level": 32,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": ["+(3-4)", "+(5-8)"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "焚絕之",
+        "name_en": "of Incineration",
+        "level": 34,
+        "maxlevel": null,
+        "levelreq": 26,
+        "frequency": 1,
+        "value": ["+(6-10)", "+(12-17)"],
+        "part": ["mediumcharm"],
+        "npart": [],
+        "magic": ["mediumcharm"]
+      },
+      {
+        "name": "火焰之",
+        "name_en": "of Fire",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 28,
+        "frequency": 2,
+        "value": ["+(4-10)", "+(11-30)"],
+        "part": ["jewelry"],
+        "npart": [],
         "magic": []
       },
       {
@@ -977,7 +1313,7 @@
         "maxlevel": null,
         "levelreq": 30,
         "frequency": 2,
-        "value": [1, "(2-6)"],
+        "value": ["+1", "+(2-6)"],
         "part": ["glove", "ring", "necklace"],
         "npart": [],
         "magic": []
@@ -989,13 +1325,37 @@
         "maxlevel": null,
         "levelreq": 35,
         "frequency": 2,
-        "value": ["(10-20)", "(21-75)"],
+        "value": ["+(10-20)", "+(21-75)"],
         "part": ["melee"],
         "npart": ["wand", "orb"],
         "magic": []
+      },
+      {
+        "name": "焚絕之",
+        "name_en": "of Incineration",
+        "level": 45,
+        "maxlevel": null,
+        "levelreq": 37,
+        "frequency": 1,
+        "value": ["+(5-7)", "+(9-13)"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": ["smallcharm"]
+      },
+      {
+        "name": "燃燒之",
+        "name_en": "of Burning",
+        "level": 57,
+        "maxlevel": null,
+        "levelreq": 49,
+        "frequency": 2,
+        "value": ["+(11-25)", "+(31-50)"],
+        "part": ["jewelry"],
+        "npart": [],
+        "magic": []
       }
     ],
-    "part": ["weapon", "melee", "glove", "ring", "necklace", "jewelry"]
+    "part": ["weapon", "melee", "glove", "ring", "necklace", "jewelry", "largecharm", "mediumcharm", "smallcharm"]
   },
   {
     "group": "tominimumlightningdamagetomaximumlightningdamage",
@@ -1008,9 +1368,69 @@
         "maxlevel": null,
         "levelreq": 3,
         "frequency": 5,
-        "value": [1, "(6-8)"],
+        "value": ["+1", "+(6-8)"],
         "part": ["weapon"],
         "npart": ["wand", "orb"],
+        "magic": []
+      },
+      {
+        "name": "觸電之",
+        "name_en": "of Shock",
+        "level": 4,
+        "maxlevel": null,
+        "levelreq": 3,
+        "frequency": 2,
+        "value": ["+1", "+(2-3)"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "觸電之",
+        "name_en": "of Shock",
+        "level": 7,
+        "maxlevel": null,
+        "levelreq": 5,
+        "frequency": 2,
+        "value": ["+1", "+(3-5)"],
+        "part": ["mediumcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "閃電之",
+        "name_en": "of Lightning",
+        "level": 7,
+        "maxlevel": null,
+        "levelreq": 5,
+        "frequency": 1,
+        "value": ["+1", "+(4-7)"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "觸電之",
+        "name_en": "of Shock",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 9,
+        "frequency": 2,
+        "value": ["+1", "+(3-6)"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "閃電之",
+        "name_en": "of Lightning",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 10,
+        "frequency": 1,
+        "value": ["+1", "+(6-13)"],
+        "part": ["mediumcharm"],
+        "npart": [],
         "magic": []
       },
       {
@@ -1020,7 +1440,7 @@
         "maxlevel": null,
         "levelreq": 11,
         "frequency": 4,
-        "value": [1, "(9-16)"],
+        "value": ["+1", "+(9-16)"],
         "part": ["weapon"],
         "npart": ["wand", "orb"],
         "magic": []
@@ -1032,8 +1452,56 @@
         "maxlevel": null,
         "levelreq": 11,
         "frequency": 2,
-        "value": [1, "(10-20)"],
+        "value": ["+1", "+(10-20)"],
         "part": ["jewelry"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "雷電之",
+        "name_en": "of Thunder",
+        "level": 15,
+        "maxlevel": null,
+        "levelreq": 11,
+        "frequency": 1,
+        "value": ["+1", "+(8-21)"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "閃電之",
+        "name_en": "of Lightning",
+        "level": 21,
+        "maxlevel": null,
+        "levelreq": 15,
+        "frequency": 1,
+        "value": ["+1", "+(7-10)"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "風暴之",
+        "name_en": "of Storms",
+        "level": 22,
+        "maxlevel": null,
+        "levelreq": 16,
+        "frequency": 1,
+        "value": ["+1", "+(22-33)"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": ["largecharm"]
+      },
+      {
+        "name": "雷電之",
+        "name_en": "of Thunder",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": ["+1", "+(14-25)"],
+        "part": ["mediumcharm"],
         "npart": [],
         "magic": []
       },
@@ -1044,9 +1512,21 @@
         "maxlevel": null,
         "levelreq": 18,
         "frequency": 3,
-        "value": [1, "(17-40)"],
+        "value": ["+1", "+(17-40)"],
         "part": ["weapon"],
         "npart": ["wand", "orb"],
+        "magic": []
+      },
+      {
+        "name": "雷電之",
+        "name_en": "of Thunder",
+        "level": 33,
+        "maxlevel": null,
+        "levelreq": 25,
+        "frequency": 1,
+        "value": ["+1", "+(11-18)"],
+        "part": ["smallcharm"],
+        "npart": [],
         "magic": []
       },
       {
@@ -1056,10 +1536,46 @@
         "maxlevel": null,
         "levelreq": 26,
         "frequency": 2,
-        "value": ["(1-6)", "(41-120)"],
+        "value": ["+(1-6)", "+(41-120)"],
         "part": ["melee"],
         "npart": ["wand", "orb"],
         "magic": []
+      },
+      {
+        "name": "風暴之",
+        "name_en": "of Storms",
+        "level": 34,
+        "maxlevel": null,
+        "levelreq": 26,
+        "frequency": 1,
+        "value": ["+1", "+(26-38)"],
+        "part": ["mediumcharm"],
+        "npart": [],
+        "magic": ["mediumcharm"]
+      },
+      {
+        "name": "閃電之",
+        "name_en": "of Lightning",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 28,
+        "frequency": 2,
+        "value": ["+1", "+(21-60)"],
+        "part": ["jewelry"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "風暴之",
+        "name_en": "of Storms",
+        "level": 45,
+        "maxlevel": null,
+        "levelreq": 37,
+        "frequency": 1,
+        "value": ["+1", "+(19-28)"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": ["smallcharm"]
       },
       {
         "name": "觸電之",
@@ -1068,13 +1584,25 @@
         "maxlevel": null,
         "levelreq": 37,
         "frequency": 2,
-        "value": [1, "(11-23)"],
+        "value": ["+1", "+(11-23)"],
         "part": ["boot", "ring", "necklace"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "雷電之",
+        "name_en": "of Thunder",
+        "level": 57,
+        "maxlevel": null,
+        "levelreq": 49,
+        "frequency": 2,
+        "value": ["+1", "+(61-100)"],
+        "part": ["jewelry"],
         "npart": [],
         "magic": []
       }
     ],
-    "part": ["weapon", "melee", "boot", "ring", "necklace", "jewelry"]
+    "part": ["weapon", "melee", "boot", "ring", "necklace", "jewelry", "largecharm", "mediumcharm", "smallcharm"]
   },
   {
     "group": "tomaximumdamage",
@@ -1086,8 +1614,20 @@
         "level": 1,
         "maxlevel": null,
         "levelreq": 1,
+        "frequency": 4,
+        "value": ["+1"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "工匠之",
+        "name_en": "of Craftsmanship",
+        "level": 1,
+        "maxlevel": null,
+        "levelreq": 1,
         "frequency": 8,
-        "value": [1],
+        "value": ["+1"],
         "part": ["weapon", "ring", "necklace"],
         "npart": ["wand", "staff", "orb"],
         "magic": []
@@ -1099,7 +1639,7 @@
         "maxlevel": 7,
         "levelreq": 1,
         "frequency": 4,
-        "value": ["(1-2)"],
+        "value": ["+(1-2)"],
         "part": ["circlet"],
         "npart": [],
         "magic": []
@@ -1111,7 +1651,7 @@
         "maxlevel": null,
         "levelreq": 3,
         "frequency": 8,
-        "value": [2],
+        "value": ["+2"],
         "part": ["weapon"],
         "npart": ["wand", "staff", "orb"],
         "magic": []
@@ -1123,7 +1663,7 @@
         "maxlevel": null,
         "levelreq": 3,
         "frequency": 4,
-        "value": ["(2-5)"],
+        "value": ["+(2-5)"],
         "part": ["jewelry"],
         "npart": [],
         "magic": []
@@ -1135,7 +1675,7 @@
         "maxlevel": null,
         "levelreq": 5,
         "frequency": 7,
-        "value": ["(3-4)"],
+        "value": ["+(3-4)"],
         "part": ["weapon"],
         "npart": ["wand", "staff", "orb"],
         "magic": []
@@ -1147,7 +1687,7 @@
         "maxlevel": 14,
         "levelreq": 6,
         "frequency": 4,
-        "value": ["(2-3)"],
+        "value": ["+(2-3)"],
         "part": ["circlet"],
         "npart": [],
         "magic": []
@@ -1159,7 +1699,7 @@
         "maxlevel": 17,
         "levelreq": 6,
         "frequency": 4,
-        "value": [1],
+        "value": ["+1"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": []
@@ -1171,7 +1711,7 @@
         "maxlevel": null,
         "levelreq": 8,
         "frequency": 7,
-        "value": ["(5-7)"],
+        "value": ["+(5-7)"],
         "part": ["weapon"],
         "npart": ["wand", "staff", "orb"],
         "magic": []
@@ -1183,7 +1723,7 @@
         "maxlevel": null,
         "levelreq": 8,
         "frequency": 4,
-        "value": ["(6-9)"],
+        "value": ["+(6-9)"],
         "part": ["jewelry"],
         "npart": [],
         "magic": []
@@ -1195,7 +1735,7 @@
         "maxlevel": null,
         "levelreq": 10,
         "frequency": 6,
-        "value": ["(8-10)"],
+        "value": ["+(8-10)"],
         "part": ["weapon"],
         "npart": ["wand", "staff", "orb"],
         "magic": []
@@ -1207,7 +1747,7 @@
         "maxlevel": null,
         "levelreq": 11,
         "frequency": 4,
-        "value": ["(4-5)"],
+        "value": ["+(4-5)"],
         "part": ["circlet"],
         "npart": [],
         "magic": []
@@ -1219,7 +1759,7 @@
         "maxlevel": null,
         "levelreq": 13,
         "frequency": 4,
-        "value": [2],
+        "value": ["+2"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": []
@@ -1231,7 +1771,7 @@
         "maxlevel": null,
         "levelreq": 14,
         "frequency": 6,
-        "value": ["(11-14)"],
+        "value": ["+(11-14)"],
         "part": ["weapon"],
         "npart": ["wand", "staff", "orb"],
         "magic": []
@@ -1243,7 +1783,7 @@
         "maxlevel": null,
         "levelreq": 15,
         "frequency": 4,
-        "value": [1],
+        "value": ["+1"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": []
@@ -1255,7 +1795,7 @@
         "maxlevel": 29,
         "levelreq": 17,
         "frequency": 4,
-        "value": ["(6-7)"],
+        "value": ["+(6-7)"],
         "part": ["circlet"],
         "npart": [],
         "magic": []
@@ -1267,7 +1807,7 @@
         "maxlevel": null,
         "levelreq": 18,
         "frequency": 5,
-        "value": ["(15-20)"],
+        "value": ["+(15-20)"],
         "part": ["weapon"],
         "npart": ["wand", "staff", "orb"],
         "magic": []
@@ -1279,8 +1819,20 @@
         "maxlevel": null,
         "levelreq": 18,
         "frequency": 4,
-        "value": ["(11-15)"],
+        "value": ["+(11-15)"],
         "part": ["jewelry"],
+        "npart": [],
+        "magic": ["jewelry"]
+      },
+      {
+        "name": "工匠之",
+        "name_en": "of Craftsmanship",
+        "level": 26,
+        "maxlevel": null,
+        "levelreq": 19,
+        "frequency": 4,
+        "value": ["+1"],
+        "part": ["mediumcharm"],
         "npart": [],
         "magic": []
       },
@@ -1291,7 +1843,7 @@
         "maxlevel": 37,
         "levelreq": 21,
         "frequency": 4,
-        "value": ["(3-4)"],
+        "value": ["+(3-4)"],
         "part": ["mediumcharm"],
         "npart": [],
         "magic": []
@@ -1303,7 +1855,7 @@
         "maxlevel": null,
         "levelreq": 22,
         "frequency": 4,
-        "value": ["(7-8)"],
+        "value": ["+(7-8)"],
         "part": ["circlet"],
         "npart": [],
         "magic": []
@@ -1315,10 +1867,10 @@
         "maxlevel": null,
         "levelreq": 27,
         "frequency": 5,
-        "value": ["(21-40)"],
+        "value": ["+(21-40)"],
         "part": ["weapon"],
         "npart": ["wand", "staff", "orb"],
-        "magic": []
+        "magic": ["weapon"]
       },
       {
         "name": "優良之",
@@ -1327,7 +1879,7 @@
         "maxlevel": null,
         "levelreq": 28,
         "frequency": 4,
-        "value": [2],
+        "value": ["+2"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": []
@@ -1339,10 +1891,10 @@
         "maxlevel": 44,
         "levelreq": 29,
         "frequency": 4,
-        "value": ["(9-10)"],
+        "value": ["+(9-10)"],
         "part": ["circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["circlet"]
       },
       {
         "name": "優良之",
@@ -1351,8 +1903,20 @@
         "maxlevel": null,
         "levelreq": 30,
         "frequency": 4,
-        "value": ["(5-6)"],
+        "value": ["+(5-6)"],
         "part": ["mediumcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "優良之",
+        "name_en": "of Quality",
+        "level": 41,
+        "maxlevel": null,
+        "levelreq": 33,
+        "frequency": 4,
+        "value": ["+2"],
+        "part": ["largecharm"],
         "npart": [],
         "magic": []
       },
@@ -1363,7 +1927,7 @@
         "maxlevel": null,
         "levelreq": 34,
         "frequency": 4,
-        "value": ["(3-4)"],
+        "value": ["+(3-4)"],
         "part": ["shield", "ring", "necklace"],
         "npart": [],
         "magic": []
@@ -1375,10 +1939,10 @@
         "maxlevel": null,
         "levelreq": 37,
         "frequency": 4,
-        "value": ["(41-63)"],
+        "value": ["+(41-63)"],
         "part": ["weapon"],
         "npart": ["wand", "staff", "orb"],
-        "magic": []
+        "magic": ["weapon"]
       },
       {
         "name": "殘害之",
@@ -1387,10 +1951,10 @@
         "maxlevel": null,
         "levelreq": 37,
         "frequency": 4,
-        "value": ["(11-12)"],
+        "value": ["+(11-12)"],
         "part": ["circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["circlet"]
       },
       {
         "name": "殘害之",
@@ -1399,10 +1963,10 @@
         "maxlevel": null,
         "levelreq": 40,
         "frequency": 4,
-        "value": ["(7-8)"],
+        "value": ["+(7-8)"],
         "part": ["mediumcharm"],
         "npart": [],
-        "magic": []
+        "magic": ["mediumcharm"]
       },
       {
         "name": "殘害之",
@@ -1411,13 +1975,49 @@
         "maxlevel": null,
         "levelreq": 43,
         "frequency": 4,
-        "value": ["(3-4)"],
+        "value": ["+(3-4)"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": ["smallcharm"]
+      },
+      {
+        "name": "優良之",
+        "name_en": "of Quality",
+        "level": 56,
+        "maxlevel": null,
+        "levelreq": 48,
+        "frequency": 4,
+        "value": ["+2"],
+        "part": ["mediumcharm"],
+        "npart": [],
+        "magic": ["mediumcharm"]
+      },
+      {
+        "name": "殘害之",
+        "name_en": "of Maiming",
+        "level": 71,
+        "maxlevel": null,
+        "levelreq": 63,
+        "frequency": 4,
+        "value": ["+(3-4)"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": ["largecharm"]
+      },
+      {
+        "name": "工匠之",
+        "name_en": "of Craftsmanship",
+        "level": 85,
+        "maxlevel": null,
+        "levelreq": 77,
+        "frequency": 4,
+        "value": ["+1"],
         "part": ["smallcharm"],
         "npart": [],
         "magic": []
       }
     ],
-    "part": ["weapon", "ring", "necklace", "shield", "circlet", "mediumcharm", "smallcharm", "jewelry"]
+    "part": ["weapon", "ring", "necklace", "shield", "circlet", "mediumcharm", "smallcharm", "jewelry", "largecharm"]
   },
   {
     "group": "tominimumdamage",
@@ -1430,7 +2030,7 @@
         "maxlevel": null,
         "levelreq": 1,
         "frequency": 8,
-        "value": ["(1-2)"],
+        "value": ["+(1-2)"],
         "part": ["weapon"],
         "npart": ["staff", "wand", "orb"],
         "magic": []
@@ -1442,7 +2042,7 @@
         "maxlevel": null,
         "levelreq": 3,
         "frequency": 4,
-        "value": ["(1-4)"],
+        "value": ["+(1-4)"],
         "part": ["jewelry"],
         "npart": [],
         "magic": []
@@ -1454,7 +2054,7 @@
         "maxlevel": null,
         "levelreq": 9,
         "frequency": 7,
-        "value": ["(3-4)"],
+        "value": ["+(3-4)"],
         "part": ["weapon"],
         "npart": ["staff", "wand", "orb"],
         "magic": []
@@ -1466,7 +2066,7 @@
         "maxlevel": null,
         "levelreq": 11,
         "frequency": 4,
-        "value": ["(2-3)"],
+        "value": ["+(2-3)"],
         "part": ["ring", "necklace", "circlet"],
         "npart": [],
         "magic": []
@@ -1478,7 +2078,7 @@
         "maxlevel": null,
         "levelreq": 18,
         "frequency": 6,
-        "value": ["(5-8)"],
+        "value": ["+(5-8)"],
         "part": ["weapon"],
         "npart": ["staff", "wand", "orb"],
         "magic": []
@@ -1490,7 +2090,7 @@
         "maxlevel": null,
         "levelreq": 29,
         "frequency": 4,
-        "value": ["(4-5)"],
+        "value": ["+(4-5)"],
         "part": ["ring", "necklace", "circlet"],
         "npart": [],
         "magic": []
@@ -1502,7 +2102,7 @@
         "maxlevel": null,
         "levelreq": 37,
         "frequency": 4,
-        "value": ["(5-10)"],
+        "value": ["+(5-10)"],
         "part": ["jewelry"],
         "npart": [],
         "magic": []
@@ -1514,7 +2114,7 @@
         "maxlevel": null,
         "levelreq": 40,
         "frequency": 5,
-        "value": ["(9-14)"],
+        "value": ["+(9-14)"],
         "part": ["weapon"],
         "npart": ["staff", "wand", "orb"],
         "magic": []
@@ -1526,7 +2126,7 @@
         "maxlevel": null,
         "levelreq": 51,
         "frequency": 4,
-        "value": ["(6-9)"],
+        "value": ["+(6-9)"],
         "part": ["ring", "necklace", "circlet"],
         "npart": [],
         "magic": []
@@ -1538,7 +2138,7 @@
         "maxlevel": null,
         "levelreq": 68,
         "frequency": 4,
-        "value": ["(15-20)"],
+        "value": ["+(15-20)"],
         "part": ["weapon"],
         "npart": ["staff", "wand", "orb"],
         "magic": []
@@ -1550,10 +2150,10 @@
         "maxlevel": null,
         "levelreq": 73,
         "frequency": 4,
-        "value": ["(10-13)"],
+        "value": ["+(10-13)"],
         "part": ["ring", "necklace", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["ring", "necklace", "circlet"]
       }
     ],
     "part": ["weapon", "ring", "necklace", "circlet", "jewelry"]
@@ -1563,6 +2163,18 @@
     "format": "附加 # 毒素傷害，時效 # 秒",
     "abilitys": [
       {
+        "name": "荒疫之",
+        "name_en": "of Blight",
+        "level": 1,
+        "maxlevel": 4,
+        "levelreq": 1,
+        "frequency": 4,
+        "value": ["8-8", 2],
+        "part": ["weapon"],
+        "npart": ["scepter", "staff", "orb"],
+        "magic": []
+      },
+      {
         "name": "嫉妒之",
         "name_en": "of Envy",
         "level": 1,
@@ -1571,6 +2183,18 @@
         "frequency": 2,
         "value": ["103-103", 2],
         "part": ["jewelry"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "荒疫之",
+        "name_en": "of Blight",
+        "level": 1,
+        "maxlevel": null,
+        "levelreq": 1,
+        "frequency": 2,
+        "value": ["24-24", 3],
+        "part": ["largecharm"],
         "npart": [],
         "magic": []
       },
@@ -1587,6 +2211,66 @@
         "magic": []
       },
       {
+        "name": "荒疫之",
+        "name_en": "of Blight",
+        "level": 5,
+        "maxlevel": null,
+        "levelreq": 3,
+        "frequency": 2,
+        "value": ["21-21", 3],
+        "part": ["mediumcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "劇毒之",
+        "name_en": "of Venom",
+        "level": 6,
+        "maxlevel": null,
+        "levelreq": 4,
+        "frequency": 1,
+        "value": ["39-39", 4],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "荒疫之",
+        "name_en": "of Blight",
+        "level": 9,
+        "maxlevel": null,
+        "levelreq": 6,
+        "frequency": 2,
+        "value": ["21-21", 3],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "劇毒之",
+        "name_en": "of Venom",
+        "level": 13,
+        "maxlevel": null,
+        "levelreq": 9,
+        "frequency": 1,
+        "value": ["39-39", 4],
+        "part": ["mediumcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "疫癘之",
+        "name_en": "of Pestilence",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 10,
+        "frequency": 1,
+        "value": ["52-52", 5],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
         "name": "劇毒之",
         "name_en": "of Venom",
         "level": 15,
@@ -1596,6 +2280,42 @@
         "value": ["54-54", 4],
         "part": ["weapon", "circlet"],
         "npart": ["rod", "orb"],
+        "magic": []
+      },
+      {
+        "name": "劇毒之",
+        "name_en": "of Venom",
+        "level": 20,
+        "maxlevel": null,
+        "levelreq": 15,
+        "frequency": 1,
+        "value": ["39-39", 4],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "炭疽之",
+        "name_en": "of Anthrax",
+        "level": 21,
+        "maxlevel": null,
+        "levelreq": 15,
+        "frequency": 1,
+        "value": ["86-86", 6],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": ["largecharm"]
+      },
+      {
+        "name": "疫癘之",
+        "name_en": "of Pestilence",
+        "level": 23,
+        "maxlevel": null,
+        "levelreq": 17,
+        "frequency": 1,
+        "value": ["52-52", 5],
+        "part": ["mediumcharm"],
+        "npart": [],
         "magic": []
       },
       {
@@ -1611,6 +2331,30 @@
         "magic": []
       },
       {
+        "name": "疫癘之",
+        "name_en": "of Pestilence",
+        "level": 32,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": ["52-52", 5],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "炭疽之",
+        "name_en": "of Anthrax",
+        "level": 33,
+        "maxlevel": null,
+        "levelreq": 25,
+        "frequency": 1,
+        "value": ["86-86", 6],
+        "part": ["mediumcharm"],
+        "npart": [],
+        "magic": ["mediumcharm"]
+      },
+      {
         "name": "炭疽之",
         "name_en": "of Anthrax",
         "level": 33,
@@ -1621,6 +2365,18 @@
         "part": ["weapon"],
         "npart": ["rod", "orb"],
         "magic": []
+      },
+      {
+        "name": "炭疽之",
+        "name_en": "of Anthrax",
+        "level": 44,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": ["86-86", 6],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": ["smallcharm"]
       },
       {
         "name": "荒疫之",
@@ -1635,12 +2391,36 @@
         "magic": []
       }
     ],
-    "part": ["weapon", "circlet", "ring", "necklace", "jewelry"]
+    "part": ["weapon", "circlet", "ring", "necklace", "jewelry", "largecharm", "mediumcharm", "smallcharm"]
   },
   {
     "group": "todexterity",
     "format": "# 敏捷",
     "abilitys": [
+      {
+        "name": "敏捷之",
+        "name_en": "of Dexterity",
+        "level": 1,
+        "maxlevel": 5,
+        "levelreq": 1,
+        "frequency": 4,
+        "value": ["+1"],
+        "part": ["ring"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "敏捷之",
+        "name_en": "of Dexterity",
+        "level": 1,
+        "maxlevel": 12,
+        "levelreq": 1,
+        "frequency": 4,
+        "value": ["+1"],
+        "part": ["boot", "glove"],
+        "npart": [],
+        "magic": []
+      },
       {
         "name": "敏捷之",
         "name_en": "of Dexterity",
@@ -1762,6 +2542,18 @@
         "magic": []
       },
       {
+        "name": "膽識之",
+        "name_en": "of Daring",
+        "level": 19,
+        "maxlevel": null,
+        "levelreq": 14,
+        "frequency": 3,
+        "value": ["+(4-6)"],
+        "part": ["jewelry"],
+        "npart": [],
+        "magic": []
+      },
+      {
         "name": "技術之",
         "name_en": "of Skill",
         "level": 22,
@@ -1807,6 +2599,18 @@
         "value": ["+(4-5)"],
         "part": ["armor", "boot"],
         "npart": ["glove"],
+        "magic": []
+      },
+      {
+        "name": "膽識之",
+        "name_en": "of Daring",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 28,
+        "frequency": 3,
+        "value": ["+(7-9)"],
+        "part": ["jewelry"],
+        "npart": [],
         "magic": []
       },
       {
@@ -1879,7 +2683,7 @@
         "value": ["+(10-15)"],
         "part": ["armor", "boot"],
         "npart": ["glove"],
-        "magic": []
+        "magic": ["armor", "boot"]
       },
       {
         "name": "涅槃之",
@@ -1891,7 +2695,7 @@
         "value": ["+(21-30)"],
         "part": ["necklace", "missile", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["necklace", "missile", "circlet"]
       },
       {
         "name": "完美之",
@@ -1903,10 +2707,10 @@
         "value": ["+(16-20)"],
         "part": ["ring", "glove"],
         "npart": [],
-        "magic": []
+        "magic": ["ring", "glove"]
       }
     ],
-    "part": ["necklace", "missile", "circlet", "ring", "glove", "largecharm", "mediumcharm", "smallcharm", "jewelry"]
+    "part": ["necklace", "missile", "circlet", "ring", "glove", "largecharm", "mediumcharm", "smallcharm", "jewelry", "boot"]
   },
   {
     "group": "fasterhitrecovery",
@@ -2006,6 +2810,18 @@
       {
         "name": "恢復之",
         "name_en": "of Regeneration",
+        "level": 1,
+        "maxlevel": 9,
+        "levelreq": 1,
+        "frequency": 3,
+        "value": ["+2"],
+        "part": ["necklace", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "恢復之",
+        "name_en": "of Regeneration",
         "level": 10,
         "maxlevel": null,
         "levelreq": 7,
@@ -2037,7 +2853,7 @@
         "value": ["+(11-15)"],
         "part": ["scepter", "necklace", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["scepter", "necklace", "circlet"]
       },
       {
         "name": "恢復之",
@@ -2262,7 +3078,7 @@
         "value": ["(26-35)"],
         "part": ["boot", "necklace", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["boot", "necklace", "circlet"]
       },
       {
         "name": "富饒之",
@@ -2298,7 +3114,7 @@
         "value": ["(16-25)"],
         "part": ["ring"],
         "npart": [],
-        "magic": []
+        "magic": ["ring"]
       },
       {
         "name": "幸運之",
@@ -2310,7 +3126,7 @@
         "value": ["(6-7)"],
         "part": ["smallcharm"],
         "npart": [],
-        "magic": []
+        "magic": ["smallcharm"]
       }
     ],
     "part": ["boot", "glove", "ring", "necklace", "circlet", "smallcharm", "jewelry"]
@@ -2319,6 +3135,18 @@
     "group": "toenergy",
     "format": "# 能量",
     "abilitys": [
+      {
+        "name": "能量之",
+        "name_en": "of Energy",
+        "level": 1,
+        "maxlevel": 4,
+        "levelreq": 1,
+        "frequency": 4,
+        "value": ["+1"],
+        "part": ["necklace", "orb", "circlet", "wand", "staff", "helmet", "ring"],
+        "npart": [],
+        "magic": []
+      },
       {
         "name": "能量之",
         "name_en": "of Energy",
@@ -2452,6 +3280,18 @@
         "magic": []
       },
       {
+        "name": "知識之",
+        "name_en": "of Knowledge",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 3,
+        "value": ["+(4-6)"],
+        "part": ["jewelry"],
+        "npart": [],
+        "magic": []
+      },
+      {
         "name": "幻法之",
         "name_en": "of Sorcery",
         "level": 26,
@@ -2461,7 +3301,7 @@
         "value": ["+(11-15)"],
         "part": ["helmet", "scepter"],
         "npart": [],
-        "magic": []
+        "magic": ["helmet", "scepter"]
       },
       {
         "name": "幻法之",
@@ -2488,6 +3328,18 @@
         "magic": []
       },
       {
+        "name": "知識之",
+        "name_en": "of Knowledge",
+        "level": 41,
+        "maxlevel": null,
+        "levelreq": 33,
+        "frequency": 3,
+        "value": ["+(7-9)"],
+        "part": ["jewelry"],
+        "npart": [],
+        "magic": []
+      },
+      {
         "name": "巫術之",
         "name_en": "of Wizardry",
         "level": 41,
@@ -2497,7 +3349,7 @@
         "value": ["+(16-20)"],
         "part": ["ring"],
         "npart": [],
-        "magic": []
+        "magic": ["ring"]
       },
       {
         "name": "啟發之",
@@ -2509,7 +3361,7 @@
         "value": ["+(21-30)"],
         "part": ["necklace", "orb", "circlet", "wand", "staff"],
         "npart": [],
-        "magic": []
+        "magic": ["necklace", "orb", "circlet", "wand", "staff"]
       }
     ],
     "part": ["necklace", "orb", "circlet", "wand", "staff", "ring", "helmet", "scepter", "jewelry"]
@@ -2537,6 +3389,18 @@
     "group": "tolightradiustoattackrating",
     "format": "照亮範圍 #\n# 準確率",
     "abilitys": [
+      {
+        "name": "光明之",
+        "name_en": "of Light",
+        "level": 1,
+        "maxlevel": 5,
+        "levelreq": 1,
+        "frequency": 4,
+        "value": ["+1", "+10"],
+        "part": ["ring", "necklace"],
+        "npart": [],
+        "magic": []
+      },
       {
         "name": "光明之",
         "name_en": "of Light",
@@ -2861,7 +3725,7 @@
         "value": ["+(61-80)"],
         "part": ["armor", "belt", "necklace", "barbarianhelm", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["armor", "belt", "necklace", "barbarianhelm", "circlet"]
       },
       {
         "name": "維續之",
@@ -2897,7 +3761,7 @@
         "value": ["+(9-20)"],
         "part": ["jewelry"],
         "npart": [],
-        "magic": []
+        "magic": ["jewelry"]
       },
       {
         "name": "維續之",
@@ -2921,7 +3785,7 @@
         "value": ["+(16-20)"],
         "part": ["smallcharm"],
         "npart": [],
-        "magic": []
+        "magic": ["smallcharm"]
       },
       {
         "name": "巨鯨之",
@@ -2933,7 +3797,7 @@
         "value": ["+(81-100)"],
         "part": ["armor", "belt", "necklace", "barbarianhelm", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["armor", "belt", "necklace", "barbarianhelm", "circlet"]
       },
       {
         "name": "老虎之",
@@ -2957,7 +3821,7 @@
         "value": ["+(26-30)"],
         "part": ["mediumcharm"],
         "npart": [],
-        "magic": []
+        "magic": ["mediumcharm"]
       },
       {
         "name": "猛瑪之",
@@ -3005,7 +3869,7 @@
         "value": ["+(31-35)"],
         "part": ["mediumcharm"],
         "npart": [],
-        "magic": []
+        "magic": ["mediumcharm"]
       },
       {
         "name": "巨像之",
@@ -3017,7 +3881,7 @@
         "value": ["+(41-60)"],
         "part": ["shield", "druidpeltshelm"],
         "npart": [],
-        "magic": []
+        "magic": ["shield", "druidpeltshelm"]
       },
       {
         "name": "活力之",
@@ -3029,7 +3893,7 @@
         "value": ["+(36-40)"],
         "part": ["largecharm"],
         "npart": [],
-        "magic": []
+        "magic": ["largecharm"]
       },
       {
         "name": "活力之",
@@ -3041,7 +3905,7 @@
         "value": ["+(41-45)"],
         "part": ["largecharm"],
         "npart": [],
-        "magic": []
+        "magic": ["largecharm"]
       },
       {
         "name": "活力之",
@@ -3053,7 +3917,7 @@
         "value": ["+(46-50)"],
         "part": ["largecharm"],
         "npart": [],
-        "magic": []
+        "magic": ["largecharm"]
       }
     ],
     "part": ["armor", "belt", "necklace", "barbarianhelm", "circlet", "shield", "druidpeltshelm", "club", "hammer", "mace", "ring", "helmet", "largecharm", "mediumcharm", "smallcharm", "jewelry"]
@@ -3101,6 +3965,18 @@
       {
         "name": "血蛭之",
         "name_en": "of the Leech",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 20,
+        "frequency": 2,
+        "value": ["(2-3)"],
+        "part": ["necklace"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "血蛭之",
+        "name_en": "of the Leech",
         "level": 34,
         "maxlevel": null,
         "levelreq": 26,
@@ -3135,6 +4011,18 @@
         "magic": []
       },
       {
+        "name": "蝗蟲之",
+        "name_en": "of the Locust",
+        "level": 57,
+        "maxlevel": null,
+        "levelreq": 45,
+        "frequency": 2,
+        "value": ["(4-5)"],
+        "part": ["necklace"],
+        "npart": [],
+        "magic": []
+      },
+      {
         "name": "八目鰻之",
         "name_en": "of the Lamprey",
         "level": 77,
@@ -3145,9 +4033,21 @@
         "part": ["ring", "circlet"],
         "npart": [],
         "magic": []
+      },
+      {
+        "name": "八目鰻之",
+        "name_en": "of the Lamprey",
+        "level": 85,
+        "maxlevel": null,
+        "levelreq": 73,
+        "frequency": 2,
+        "value": [6],
+        "part": ["necklace"],
+        "npart": [],
+        "magic": []
       }
     ],
-    "part": ["weapon", "melee", "ring", "circlet", "glove"]
+    "part": ["weapon", "melee", "ring", "circlet", "glove", "necklace"]
   },
   {
     "group": "manastolenperhit",
@@ -3192,6 +4092,18 @@
       {
         "name": "蝙蝠之",
         "name_en": "of the Bat",
+        "level": 25,
+        "maxlevel": null,
+        "levelreq": 21,
+        "frequency": 2,
+        "value": ["(2-3)"],
+        "part": ["ring"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "蝙蝠之",
+        "name_en": "of the Bat",
         "level": 35,
         "maxlevel": null,
         "levelreq": 27,
@@ -3226,6 +4138,18 @@
         "magic": []
       },
       {
+        "name": "怨靈之",
+        "name_en": "of the Wraith",
+        "level": 58,
+        "maxlevel": null,
+        "levelreq": 46,
+        "frequency": 2,
+        "value": ["(4-5)"],
+        "part": ["ring"],
+        "npart": [],
+        "magic": []
+      },
+      {
         "name": "吸血鬼之",
         "name_en": "of the Vampire",
         "level": 78,
@@ -3236,9 +4160,21 @@
         "part": ["necklace", "circlet"],
         "npart": [],
         "magic": []
+      },
+      {
+        "name": "吸血鬼之",
+        "name_en": "of the Vampire",
+        "level": 86,
+        "maxlevel": null,
+        "levelreq": 74,
+        "frequency": 2,
+        "value": [6],
+        "part": ["ring"],
+        "npart": [],
+        "magic": []
       }
     ],
-    "part": ["weapon", "melee", "necklace", "circlet", "glove"]
+    "part": ["weapon", "melee", "necklace", "circlet", "glove", "ring"]
   },
   {
     "group": "poisonlengthreducedby",
@@ -3325,5 +4261,1793 @@
       }
     ],
     "part": ["armor", "weapon", "shield", "jewelry"]
+  },
+  {
+    "group": "tostrength",
+    "format": "# 力量",
+    "abilitys": [
+      {
+        "name": "力量之",
+        "name_en": "of Strength",
+        "level": 1,
+        "maxlevel": 4,
+        "levelreq": 1,
+        "frequency": 4,
+        "value": ["+1"],
+        "part": ["ring"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "力量之",
+        "name_en": "of Strength",
+        "level": 1,
+        "maxlevel": 11,
+        "levelreq": 1,
+        "frequency": 4,
+        "value": ["+1"],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "力量之",
+        "name_en": "of Strength",
+        "level": 1,
+        "maxlevel": null,
+        "levelreq": 1,
+        "frequency": 4,
+        "value": ["+(1-2)"],
+        "part": ["necklace", "belt", "club", "hammer", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "力量之",
+        "name_en": "of Strength",
+        "level": 1,
+        "maxlevel": null,
+        "levelreq": 1,
+        "frequency": 4,
+        "value": ["+(3-4)"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "力量之",
+        "name_en": "of Strength",
+        "level": 3,
+        "maxlevel": null,
+        "levelreq": 2,
+        "frequency": 4,
+        "value": ["+(2-3)"],
+        "part": ["mediumcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "力量之",
+        "name_en": "of Strength",
+        "level": 5,
+        "maxlevel": null,
+        "levelreq": 3,
+        "frequency": 4,
+        "value": ["+(1-2)"],
+        "part": ["ring", "scepter", "mace", "armor"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "力量之",
+        "name_en": "of Strength",
+        "level": 7,
+        "maxlevel": null,
+        "levelreq": 5,
+        "frequency": 4,
+        "value": ["+1"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "武力之",
+        "name_en": "of Might",
+        "level": 10,
+        "maxlevel": null,
+        "levelreq": 8,
+        "frequency": 3,
+        "value": ["+(3-5)"],
+        "part": ["necklace", "belt", "club", "hammer", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "力量之",
+        "name_en": "of Strength",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 8,
+        "frequency": 3,
+        "value": ["+(1-2)"],
+        "part": ["melee", "glove", "shield"],
+        "npart": ["mace", "club", "hammer", "scepter", "wand", "staff"],
+        "magic": []
+      },
+      {
+        "name": "力量之",
+        "name_en": "of Strength",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 10,
+        "frequency": 4,
+        "value": ["+(5-6)"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "力量之",
+        "name_en": "of Strength",
+        "level": 18,
+        "maxlevel": null,
+        "levelreq": 13,
+        "frequency": 4,
+        "value": ["+(4-5)"],
+        "part": ["mediumcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "氣力之",
+        "name_en": "of Virility",
+        "level": 18,
+        "maxlevel": null,
+        "levelreq": 13,
+        "frequency": 4,
+        "value": ["+(1-4)"],
+        "part": ["jewelry"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "武力之",
+        "name_en": "of Might",
+        "level": 21,
+        "maxlevel": null,
+        "levelreq": 15,
+        "frequency": 3,
+        "value": ["+(3-5)"],
+        "part": ["ring", "scepter", "mace", "armor"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "力量之",
+        "name_en": "of Strength",
+        "level": 22,
+        "maxlevel": null,
+        "levelreq": 16,
+        "frequency": 4,
+        "value": ["+2"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "公牛之",
+        "name_en": "of the Ox",
+        "level": 26,
+        "maxlevel": null,
+        "levelreq": 19,
+        "frequency": 3,
+        "value": ["+(6-9)"],
+        "part": ["necklace", "belt", "club", "hammer", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "氣力之",
+        "name_en": "of Virility",
+        "level": 33,
+        "maxlevel": null,
+        "levelreq": 25,
+        "frequency": 4,
+        "value": ["+(5-6)"],
+        "part": ["jewelry"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "武力之",
+        "name_en": "of Might",
+        "level": 33,
+        "maxlevel": null,
+        "levelreq": 25,
+        "frequency": 3,
+        "value": ["+(3-5)"],
+        "part": ["melee", "glove", "shield"],
+        "npart": ["mace", "club", "hammer", "scepter", "wand", "staff"],
+        "magic": []
+      },
+      {
+        "name": "公牛之",
+        "name_en": "of the Ox",
+        "level": 38,
+        "maxlevel": null,
+        "levelreq": 30,
+        "frequency": 3,
+        "value": ["+(6-9)"],
+        "part": ["ring", "scepter", "mace", "armor"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "巨人之",
+        "name_en": "of the Giant",
+        "level": 42,
+        "maxlevel": null,
+        "levelreq": 34,
+        "frequency": 3,
+        "value": ["+(10-15)"],
+        "part": ["necklace", "belt", "club", "hammer", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "公牛之",
+        "name_en": "of the Ox",
+        "level": 45,
+        "maxlevel": null,
+        "levelreq": 37,
+        "frequency": 3,
+        "value": ["+(6-9)"],
+        "part": ["melee", "glove", "shield"],
+        "npart": ["mace", "club", "hammer", "scepter", "wand", "staff"],
+        "magic": []
+      },
+      {
+        "name": "氣力之",
+        "name_en": "of Virility",
+        "level": 50,
+        "maxlevel": null,
+        "levelreq": 42,
+        "frequency": 4,
+        "value": ["+(7-9)"],
+        "part": ["jewelry"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "巨人之",
+        "name_en": "of the Giant",
+        "level": 55,
+        "maxlevel": null,
+        "levelreq": 47,
+        "frequency": 3,
+        "value": ["+(10-15)"],
+        "part": ["ring", "scepter", "mace", "armor"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "泰坦之",
+        "name_en": "of the Titan",
+        "level": 58,
+        "maxlevel": null,
+        "levelreq": 50,
+        "frequency": 3,
+        "value": ["+(16-20)"],
+        "part": ["necklace", "belt", "club", "hammer", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "巨人之",
+        "name_en": "of the Giant",
+        "level": 59,
+        "maxlevel": null,
+        "levelreq": 51,
+        "frequency": 3,
+        "value": ["+(10-15)"],
+        "part": ["melee", "glove"],
+        "npart": ["mace", "club", "hammer", "scepter", "wand", "staff"],
+        "magic": []
+      },
+      {
+        "name": "擎天神之",
+        "name_en": "of Atlus",
+        "level": 71,
+        "maxlevel": null,
+        "levelreq": 63,
+        "frequency": 3,
+        "value": ["+(21-30)"],
+        "part": ["necklace", "belt", "club", "hammer", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "泰坦之",
+        "name_en": "of the Titan",
+        "level": 74,
+        "maxlevel": null,
+        "levelreq": 66,
+        "frequency": 3,
+        "value": ["+(16-20)"],
+        "part": ["ring", "scepter", "mace", "armor"],
+        "npart": [],
+        "magic": []
+      }
+    ],
+    "part": ["necklace", "belt", "club", "hammer", "circlet", "ring", "scepter", "mace", "armor", "melee", "glove", "shield", "largecharm", "mediumcharm", "smallcharm", "jewelry"]
+  },
+  {
+    "group": "fasterrunwalk",
+    "format": "#% 跑步 / 行走速度",
+    "abilitys": [
+      {
+        "name": "步伐之",
+        "name_en": "of Pacing",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 8,
+        "frequency": 3,
+        "value": ["+10"],
+        "part": ["boot", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "慣性之",
+        "name_en": "of Inertia",
+        "level": 19,
+        "maxlevel": null,
+        "levelreq": 14,
+        "frequency": 3,
+        "value": ["+7"],
+        "part": ["largecharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "疾行之",
+        "name_en": "of Haste",
+        "level": 22,
+        "maxlevel": null,
+        "levelreq": 16,
+        "frequency": 4,
+        "value": ["+20"],
+        "part": ["boot", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "慣性之",
+        "name_en": "of Inertia",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 3,
+        "value": ["+5"],
+        "part": ["mediumcharm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "慣性之",
+        "name_en": "of Inertia",
+        "level": 35,
+        "maxlevel": null,
+        "levelreq": 27,
+        "frequency": 3,
+        "value": ["+3"],
+        "part": ["smallcharm"],
+        "npart": [],
+        "magic": ["smallcharm"]
+      },
+      {
+        "name": "速度之",
+        "name_en": "of Speed",
+        "level": 37,
+        "maxlevel": null,
+        "levelreq": 29,
+        "frequency": 4,
+        "value": ["+30"],
+        "part": ["boot", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "加速之",
+        "name_en": "of Acceleration",
+        "level": 51,
+        "maxlevel": null,
+        "levelreq": 43,
+        "frequency": 4,
+        "value": ["+40"],
+        "part": ["boot"],
+        "npart": [],
+        "magic": ["boot"]
+      },
+      {
+        "name": "加速之",
+        "name_en": "of Acceleration",
+        "level": 51,
+        "maxlevel": null,
+        "levelreq": 43,
+        "frequency": 4,
+        "value": ["+40"],
+        "part": ["boot"],
+        "npart": [],
+        "magic": []
+      }
+    ],
+    "part": ["boot", "circlet", "largecharm", "mediumcharm", "smallcharm"]
+  },
+  {
+    "group": "fasterrunwalkslowerstaminadrain",
+    "format": "#% 跑步 / 行走速度\n精力消耗減緩 #%",
+    "abilitys": [
+      {
+        "name": "運輸之",
+        "name_en": "of Traveling",
+        "level": 65,
+        "maxlevel": null,
+        "levelreq": 57,
+        "frequency": 4,
+        "value": ["+30", "(80-90)"],
+        "part": ["boot"],
+        "npart": [],
+        "magic": ["boot"]
+      }
+    ],
+    "part": ["boot"]
+  },
+  {
+    "group": "repairsdurabilityinseconds",
+    "format": "每 # 秒修復 1 點耐久度",
+    "abilitys": [
+      {
+        "name": "自我修復",
+        "name_en": "of Self-Repair",
+        "level": 3,
+        "maxlevel": null,
+        "levelreq": 1,
+        "frequency": 3,
+        "value": [3],
+        "part": ["weapon", "armors"],
+        "npart": ["throwing", "missile"],
+        "magic": []
+      },
+      {
+        "name": "修復之",
+        "name_en": "of Fast Repair",
+        "level": 20,
+        "maxlevel": null,
+        "levelreq": 12,
+        "frequency": 2,
+        "value": [5],
+        "part": ["weapon", "armors"],
+        "npart": ["throwing", "missile"],
+        "magic": []
+      }
+    ],
+    "part": ["weapon", "armors"]
+  },
+  {
+    "group": "indestructible",
+    "format": "永不毀損",
+    "abilitys": [
+      {
+        "name": "歲月之",
+        "name_en": "of Ages",
+        "level": 50,
+        "maxlevel": null,
+        "levelreq": 42,
+        "frequency": 1,
+        "value": [],
+        "part": ["weapon", "armors"],
+        "npart": ["throwing", "missile"],
+        "magic": ["weapon", "armors"]
+      }
+    ],
+    "part": ["weapon", "armors"]
+  },
+  {
+    "group": "replenishesquantity",
+    "format": "回復數量",
+    "abilitys": [
+      {
+        "name": "補充之",
+        "name_en": "of Replenishing",
+        "level": 5,
+        "maxlevel": null,
+        "levelreq": 3,
+        "frequency": 6,
+        "value": [],
+        "part": ["throwing"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "增殖之",
+        "name_en": "of Propogation",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 5,
+        "value": [],
+        "part": ["throwing"],
+        "npart": [],
+        "magic": []
+      }
+    ],
+    "part": ["throwing"]
+  },
+  {
+    "group": "tolifebasedoncharacterlevel",
+    "format": "# 生命（依角色等級而定）",
+    "abilitys": [
+      {
+        "name": "海怪之",
+        "name_en": "of the Kraken",
+        "level": 20,
+        "maxlevel": null,
+        "levelreq": 1,
+        "frequency": 1,
+        "value": ["+(0.75-74.25)"],
+        "part": ["armor", "necklace", "druidpeltshelm", "barbarianhelm"],
+        "npart": [],
+        "magic": ["armor", "necklace", "druidpeltshelm", "barbarianhelm"]
+      }
+    ],
+    "part": ["armor", "necklace", "druidpeltshelm", "barbarianhelm"]
+  },
+  {
+    "group": "tomanabasedoncharacterlevel",
+    "format": "# 法力（依角色等級而定）",
+    "abilitys": [
+      {
+        "name": "記憶之",
+        "name_en": "of Memory",
+        "level": 20,
+        "maxlevel": null,
+        "levelreq": 1,
+        "frequency": 1,
+        "value": ["+(0.75-74.25)"],
+        "part": ["circlet", "necklace", "druidpeltshelm"],
+        "npart": [],
+        "magic": ["circlet", "necklace", "druidpeltshelm"]
+      }
+    ],
+    "part": ["circlet", "necklace", "druidpeltshelm"]
+  },
+  {
+    "group": "tolifebasedoncharacterleveltomanabasedoncharacterlevel",
+    "format": "# 生命（依角色等級而定）\n# 法力（依角色等級而定）",
+    "abilitys": [
+      {
+        "name": "巨象之",
+        "name_en": "of of the Elephant",
+        "level": 37,
+        "maxlevel": null,
+        "levelreq": 7,
+        "frequency": 2,
+        "value": ["+(0.5-49.5)", "+(0.25-24.75)"],
+        "part": ["circlet", "druidpeltshelm"],
+        "npart": [],
+        "magic": ["circlet", "druidpeltshelm"]
+      }
+    ],
+    "part": ["circlet", "druidpeltshelm"]
+  },
+  {
+    "group": "tostrengthbasedoncharacterlevel",
+    "format": "# 力量（依角色等級而定）",
+    "abilitys": [
+      {
+        "name": "力量之",
+        "name_en": "of Power",
+        "level": 1,
+        "maxlevel": null,
+        "levelreq": 1,
+        "frequency": 1,
+        "value": ["+(0.375-37.125)"],
+        "part": ["belt", "necklace"],
+        "npart": [],
+        "magic": ["belt", "necklace"]
+      }
+    ],
+    "part": ["belt", "necklace"]
+  },
+  {
+    "group": "todexteritybasedoncharacterlevel",
+    "format": "# 敏捷（依角色等級而定）",
+    "abilitys": [
+      {
+        "name": "優雅之",
+        "name_en": "of Grace",
+        "level": 1,
+        "maxlevel": null,
+        "levelreq": 1,
+        "frequency": 1,
+        "value": ["+(0.375-37.125)"],
+        "part": ["helmet", "necklace"],
+        "npart": [],
+        "magic": ["helmet", "necklace"]
+      }
+    ],
+    "part": ["helmet", "necklace"]
+  },
+  {
+    "group": "tostrengthbasedoncharacterleveltodexteritybasedoncharacterlevel",
+    "format": "# 力量（依角色等級而定）\n# 敏捷（依角色等級而定）",
+    "abilitys": [
+      {
+        "name": "優雅與力量之",
+        "name_en": "of Grace and Power",
+        "level": 1,
+        "maxlevel": null,
+        "levelreq": 1,
+        "frequency": 1,
+        "value": ["+(0.125-12.375)", "+(0.125-12.375)"],
+        "part": ["necklace"],
+        "npart": [],
+        "magic": ["necklace"]
+      }
+    ],
+    "part": ["necklace"]
+  },
+  {
+    "group": "coldresistbasedoncharacterlevel",
+    "format": "冰寒抗性 #%（依角色等級而定）",
+    "abilitys": [
+      {
+        "name": "雪怪之",
+        "name_en": "of the Yeti",
+        "level": 1,
+        "maxlevel": null,
+        "levelreq": 1,
+        "frequency": 1,
+        "value": ["+(0.375-37.125)"],
+        "part": ["armor", "glove", "necklace"],
+        "npart": [],
+        "magic": ["armor", "glove", "necklace"]
+      }
+    ],
+    "part": ["armor", "glove", "necklace"]
+  },
+  {
+    "group": "fireresistbasedoncharacterlevel",
+    "format": "火焰抗性 #%（依角色等級而定）",
+    "abilitys": [
+      {
+        "name": "鳳凰之",
+        "name_en": "of the Phoenix",
+        "level": 1,
+        "maxlevel": null,
+        "levelreq": 1,
+        "frequency": 1,
+        "value": ["+(0.375-37.125)"],
+        "part": ["shield", "helmet", "necklace"],
+        "npart": [],
+        "magic": ["shield", "helmet", "necklace"]
+      }
+    ],
+    "part": ["shield", "helmet", "necklace"]
+  },
+  {
+    "group": "lightningresistbasedoncharacterlevel",
+    "format": "電擊抗性 #%（依角色等級而定）",
+    "abilitys": [
+      {
+        "name": "火靈之",
+        "name_en": "of the Efreeti",
+        "level": 1,
+        "maxlevel": null,
+        "levelreq": 1,
+        "frequency": 1,
+        "value": ["+(0.375-37.125)"],
+        "part": ["glove", "boot", "ring"],
+        "npart": [],
+        "magic": ["glove", "boot", "ring"]
+      }
+    ],
+    "part": ["glove", "boot", "ring"]
+  },
+  {
+    "group": "poisonresistbasedoncharacterlevel",
+    "format": "毒素抗性 #%（依角色等級而定）",
+    "abilitys": [
+      {
+        "name": "眼鏡蛇之",
+        "name_en": "of the Cobra",
+        "level": 1,
+        "maxlevel": null,
+        "levelreq": 1,
+        "frequency": 1,
+        "value": ["+(0.375-37.125)"],
+        "part": ["belt", "ring", "necklace"],
+        "npart": [],
+        "magic": ["belt", "ring", "necklace"]
+      }
+    ],
+    "part": ["belt", "ring", "necklace"]
+  },
+  {
+    "group": "coldresistbasedoncharacterlevelfireresistbasedoncharacterlevellightningresistbasedoncharacterlevel",
+    "format": "冰寒抗性 #%（依角色等級而定）\n火焰抗性 #%（依角色等級而定）\n電擊抗性 #%（依角色等級而定）",
+    "abilitys": [
+      {
+        "name": "元素之",
+        "name_en": "of the Elements",
+        "level": 1,
+        "maxlevel": null,
+        "levelreq": 1,
+        "frequency": 10,
+        "value": ["+(0.125-12.375)", "+(0.125-12.375)", "+(0.125-12.375)"],
+        "part": ["circlet"],
+        "npart": [],
+        "magic": ["circlet"]
+      }
+    ],
+    "part": ["circlet"]
+  },
+  {
+    "group": "chancetocastlevelonstriking",
+    "format": "擊中時有 #% 機率施展等級 # #",
+    "abilitys": [
+      {
+        "name": "傷害加深之",
+        "name_en": "of Damage Amplification",
+        "level": 3,
+        "maxlevel": null,
+        "levelreq": null,
+        "frequency": 1,
+        "value": [5, 1, "傷害加深"],
+        "part": ["weapon"],
+        "npart": ["orb"],
+        "magic": []
+      },
+      {
+        "name": "火焰彈之",
+        "name_en": "of Firebolts",
+        "level": 16,
+        "maxlevel": null,
+        "levelreq": 12,
+        "frequency": 1,
+        "value": [10, 8, "火焰彈"],
+        "part": ["weapon"],
+        "npart": ["missile"],
+        "magic": []
+      },
+      {
+        "name": "閃電新星之",
+        "name_en": "of Nova",
+        "level": 18,
+        "maxlevel": null,
+        "levelreq": 13,
+        "frequency": 1,
+        "value": [10, 3, "閃電新星"],
+        "part": ["weapon"],
+        "npart": ["missile"],
+        "magic": []
+      },
+      {
+        "name": "閃電新星之",
+        "name_en": "of Nova",
+        "level": 28,
+        "maxlevel": null,
+        "levelreq": 21,
+        "frequency": 1,
+        "value": [12, 4, "閃電新星"],
+        "part": ["weapon"],
+        "npart": ["missile"],
+        "magic": []
+      }
+    ],
+    "part": ["weapon"]
+  },
+  {
+    "group": "chancetocastlevelonattack",
+    "format": "攻擊時有 #% 機率施展等級 # #",
+    "abilitys": [
+      {
+        "name": "火焰彈之",
+        "name_en": "of Firebolts",
+        "level": 6,
+        "maxlevel": null,
+        "levelreq": 4,
+        "frequency": 1,
+        "value": [5, 3, "火焰彈"],
+        "part": ["weapon"],
+        "npart": ["missile"],
+        "magic": []
+      },
+      {
+        "name": "寒冰彈之",
+        "name_en": "of Icebolt",
+        "level": 6,
+        "maxlevel": null,
+        "levelreq": 4,
+        "frequency": 1,
+        "value": [5, 3, "寒冰彈"],
+        "part": ["weapon"],
+        "npart": ["missile"],
+        "magic": []
+      },
+      {
+        "name": "閃電之",
+        "name_en": "of Lightning",
+        "level": 18,
+        "maxlevel": null,
+        "levelreq": 13,
+        "frequency": 1,
+        "value": [5, 3, "閃電箭"],
+        "part": ["weapon"],
+        "npart": ["missile"],
+        "magic": []
+      },
+      {
+        "name": "火焰彈之",
+        "name_en": "of Firebolts",
+        "level": 20,
+        "maxlevel": null,
+        "levelreq": 15,
+        "frequency": 1,
+        "value": [10, 4, "火焰彈"],
+        "part": ["weapon"],
+        "npart": ["missile"],
+        "magic": []
+      },
+      {
+        "name": "連鎖閃電之",
+        "name_en": "of Chain Lightning",
+        "level": 25,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": [5, 3, "連鎖閃電"],
+        "part": ["weapon", "ring", "necklace"],
+        "npart": ["missile"],
+        "magic": []
+      },
+      {
+        "name": "連鎖閃電之",
+        "name_en": "of Chain Lightning",
+        "level": 35,
+        "maxlevel": null,
+        "levelreq": 26,
+        "frequency": 1,
+        "value": [8, 3, "連鎖閃電"],
+        "part": ["weapon", "ring", "necklace"],
+        "npart": ["missile"],
+        "magic": []
+      },
+      {
+        "name": "連鎖閃電之",
+        "name_en": "of Chain Lightning",
+        "level": 45,
+        "maxlevel": null,
+        "levelreq": 33,
+        "frequency": 1,
+        "value": [8, 5, "連鎖閃電"],
+        "part": ["weapon", "ring", "necklace"],
+        "npart": ["missile"],
+        "magic": []
+      }
+    ],
+    "part": ["weapon", "ring", "necklace"]
+  },
+  {
+    "group": "chancetocastlevelwhenstruck",
+    "format": "被擊中時有 #% 機率施展等級 # #",
+    "abilitys": [
+      {
+        "name": "電能彈之",
+        "name_en": "of Charged Shield",
+        "level": 6,
+        "maxlevel": null,
+        "levelreq": 4,
+        "frequency": 1,
+        "value": [10, 3, "電能彈"],
+        "part": ["armors", "ring", "necklace"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "冰霜護盾之",
+        "name_en": "of Frost Shield",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 9,
+        "frequency": 1,
+        "value": [5, 3, "冰霜新星"],
+        "part": ["armors", "necklace"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "電能彈之",
+        "name_en": "of Charged Shield",
+        "level": 16,
+        "maxlevel": null,
+        "levelreq": 12,
+        "frequency": 1,
+        "value": [12, 4, "電能彈"],
+        "part": ["armors", "ring", "necklace"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "新星之盾",
+        "name_en": "of Nova Shield",
+        "level": 18,
+        "maxlevel": null,
+        "levelreq": 13,
+        "frequency": 1,
+        "value": [10, 3, "閃電新星"],
+        "part": ["armors", "ring"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "傳送盾之",
+        "name_en": "of Teleport Shield",
+        "level": 25,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": [10, 3, "傳送術"],
+        "part": ["armors", "ring", "necklace"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "電能彈之",
+        "name_en": "of Charged Shield",
+        "level": 26,
+        "maxlevel": null,
+        "levelreq": 19,
+        "frequency": 1,
+        "value": [14, 5, "電能彈"],
+        "part": ["armors", "ring", "necklace"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "新星之盾",
+        "name_en": "of Nova Shield",
+        "level": 28,
+        "maxlevel": null,
+        "levelreq": 21,
+        "frequency": 1,
+        "value": [12, 4, "閃電新星"],
+        "part": ["armors", "ring"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "傳送盾之",
+        "name_en": "of Teleport Shield",
+        "level": 35,
+        "maxlevel": null,
+        "levelreq": 26,
+        "frequency": 1,
+        "value": [14, 3, "傳送術"],
+        "part": ["armors", "ring", "necklace"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "新星之盾",
+        "name_en": "of Nova Shield",
+        "level": 38,
+        "maxlevel": null,
+        "levelreq": 28,
+        "frequency": 1,
+        "value": [14, 5, "閃電新星"],
+        "part": ["armors", "ring"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "多頭蛇盾之",
+        "name_en": "of Hydra Shield",
+        "level": 40,
+        "maxlevel": null,
+        "levelreq": 30,
+        "frequency": 1,
+        "value": [10, 3, "多頭蛇"],
+        "part": ["necklace"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "傳送盾之",
+        "name_en": "of Teleport Shield",
+        "level": 45,
+        "maxlevel": null,
+        "levelreq": 33,
+        "frequency": 1,
+        "value": [18, 3, "傳送術"],
+        "part": ["armors", "ring", "necklace"],
+        "npart": [],
+        "magic": []
+      }
+    ],
+    "part": ["armors", "ring", "necklace"]
+  },
+  {
+    "group": "levelcharges",
+    "format": "等級 # #（#/# 次）",
+    "abilitys": [
+      {
+        "name": "火焰彈之",
+        "name_en": "of Fire Bolts",
+        "level": 7,
+        "maxlevel": null,
+        "levelreq": 7,
+        "frequency": 1,
+        "value": [10, "火焰彈", 30, 30],
+        "part": ["staff", "orb"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "電能彈之",
+        "name_en": "of Charged Bolts",
+        "level": 7,
+        "maxlevel": null,
+        "levelreq": 7,
+        "frequency": 1,
+        "value": [10, "電能彈", 30, 30],
+        "part": ["staff", "orb"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "寒冰彈之",
+        "name_en": "of Ice Bolts",
+        "level": 7,
+        "maxlevel": null,
+        "levelreq": 7,
+        "frequency": 1,
+        "value": [10, "寒冰彈", 30, 30],
+        "part": ["staff", "orb"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "冰封甲之",
+        "name_en": "of Frozen Armor",
+        "level": 7,
+        "maxlevel": null,
+        "levelreq": 7,
+        "frequency": 1,
+        "value": [10, "冰封甲", 30, 30],
+        "part": ["staff", "orb"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "閃電之",
+        "name_en": "of Lightning",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": [1, "閃電箭", 50, 50],
+        "part": ["weapon"],
+        "npart": [],
+        "magic": ["weapon"]
+      },
+      {
+        "name": "魔法箭之",
+        "name_en": "of Magic Arrows",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 11,
+        "frequency": 1,
+        "value": [10, "魔法箭", 30, 30],
+        "part": ["missile", "amazonbow"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "充能強擊之",
+        "name_en": "of Power Strike",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 13,
+        "frequency": 1,
+        "value": [6, "充能強擊", 60, 60],
+        "part": ["spear", "amazonspear"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "靜電力場之",
+        "name_en": "of Static Field",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 12,
+        "frequency": 1,
+        "value": [8, "靜電力場", 30, 30],
+        "part": ["staff", "orb"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "心靈傳動之",
+        "name_en": "of Telekinesis",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 12,
+        "frequency": 1,
+        "value": [8, "心靈傳動", 30, 30],
+        "part": ["staff", "orb"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "冰霜新星之",
+        "name_en": "of Frost Novas",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 12,
+        "frequency": 1,
+        "value": [8, "冰霜新星", 30, 30],
+        "part": ["staff", "orb"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "寒冰球之",
+        "name_en": "of Ice Blasts",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 12,
+        "frequency": 1,
+        "value": [8, "寒冰球", 30, 30],
+        "part": ["staff", "orb"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "火焰箭之",
+        "name_en": "of Fire Arrows",
+        "level": 13,
+        "maxlevel": null,
+        "levelreq": 12,
+        "frequency": 1,
+        "value": [10, "火焰箭", 30, 30],
+        "part": ["missile", "amazonbow"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "火焰彈之",
+        "name_en": "of Fire Bolts",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 14,
+        "frequency": 1,
+        "value": [6, "火焰彈", 20, 20],
+        "part": ["sword", "ring", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "電能彈之",
+        "name_en": "of Charged Bolts",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 14,
+        "frequency": 1,
+        "value": [6, "電能彈", 20, 20],
+        "part": ["hammer", "mace", "scepter", "ring", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "寒冰彈之",
+        "name_en": "of Ice Bolts",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 14,
+        "frequency": 1,
+        "value": [6, "寒冰彈", 20, 20],
+        "part": ["dagger"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "冰封甲之",
+        "name_en": "of Frozen Armor",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 14,
+        "frequency": 1,
+        "value": [6, "冰封甲", 20, 20],
+        "part": ["dagger", "armor"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "冷霜箭之",
+        "name_en": "of Cold Arrows",
+        "level": 15,
+        "maxlevel": null,
+        "levelreq": 16,
+        "frequency": 1,
+        "value": [8, "冷霜箭", 30, 30],
+        "part": ["missile", "amazonbow"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "劇毒戳刺之",
+        "name_en": "of Poison Jab",
+        "level": 17,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": [6, "劇毒標槍", 60, 60],
+        "part": ["necklace", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "心靈視野之",
+        "name_en": "of Inner Sight",
+        "level": 18,
+        "maxlevel": null,
+        "levelreq": 14,
+        "frequency": 1,
+        "value": [6, "心靈視野", 30, 30],
+        "part": ["necklace", "amazonbow", "amazonspear", "amazonjavelin", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "多重箭之",
+        "name_en": "of Multiple Shot",
+        "level": 18,
+        "maxlevel": null,
+        "levelreq": 19,
+        "frequency": 1,
+        "value": [8, "多重箭", 30, 30],
+        "part": ["missile", "amazonbow"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "戳刺之",
+        "name_en": "of Jabbing",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": [7, "戳刺", 60, 60],
+        "part": ["spear", "amazonspear"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "穿刺之",
+        "name_en": "of Impaling Strike",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": [6, "穿刺", 60, 60],
+        "part": ["spear", "amazonspear"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "靜電力場之",
+        "name_en": "of Static Field",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [5, "靜電力場", 20, 20],
+        "part": ["hammer", "mace", "scepter", "ring", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "心靈傳動之",
+        "name_en": "of Telekinesis",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [5, "心靈傳動", 20, 20],
+        "part": ["hammer", "mace", "scepter", "ring", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "冰霜新星之",
+        "name_en": "of Frost Novas",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [5, "冰霜新星", 20, 20],
+        "part": ["dagger", "necklace", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "寒冰球之",
+        "name_en": "of Ice Blasts",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [5, "寒冰球", 20, 20],
+        "part": ["hammer", "mace", "scepter", "ring", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "閃電標槍之",
+        "name_en": "of Lightning Javelin",
+        "level": 25,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": [6, "閃電槍", 60, 60],
+        "part": ["necklace", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "爆裂箭之",
+        "name_en": "of Exploding Arrows",
+        "level": 30,
+        "maxlevel": null,
+        "levelreq": 26,
+        "frequency": 1,
+        "value": [6, "爆裂箭", 30, 30],
+        "part": ["missile", "amazonbow"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "緩箭術之",
+        "name_en": "of Slow Missiles",
+        "level": 33,
+        "maxlevel": null,
+        "levelreq": 27,
+        "frequency": 1,
+        "value": [5, "緩箭術", 30, 30],
+        "part": ["amazonbow", "amazonjavelin", "amazonspear"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "聚能強擊之",
+        "name_en": "of Charged Strike",
+        "level": 33,
+        "maxlevel": null,
+        "levelreq": 25,
+        "frequency": 1,
+        "value": [5, "聚能強擊", 60, 60],
+        "part": ["spear", "amazonspear"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "導引箭",
+        "name_en": "of Guided Arrows",
+        "level": 34,
+        "maxlevel": null,
+        "levelreq": 26,
+        "frequency": 1,
+        "value": [5, "導引箭", 30, 30],
+        "part": ["missile", "amazonbow"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "魔法箭之",
+        "name_en": "of Magic Arrows",
+        "level": 35,
+        "maxlevel": null,
+        "levelreq": 28,
+        "frequency": 1,
+        "value": [6, "魔法箭", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "瘟疫戳刺之",
+        "name_en": "of Plague Jab",
+        "level": 35,
+        "maxlevel": null,
+        "levelreq": 27,
+        "frequency": 1,
+        "value": [5, "瘟疫標槍", 60, 60],
+        "part": ["necklace", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "寒冰箭之",
+        "name_en": "of Ice Arrows",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 28,
+        "frequency": 1,
+        "value": [5, "寒冰箭", 30, 30],
+        "part": ["missile", "amazonbow"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "火焰箭之",
+        "name_en": "of Fire Arrows",
+        "level": 40,
+        "maxlevel": null,
+        "levelreq": 32,
+        "frequency": 1,
+        "value": [6, "火焰箭", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "疾刺之",
+        "name_en": "of Fending",
+        "level": 41,
+        "maxlevel": null,
+        "levelreq": 35,
+        "frequency": 1,
+        "value": [5, "疾刺", 60, 60],
+        "part": ["spear", "amazonspear"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "熾炎箭",
+        "name_en": "of Immolating Arrows",
+        "level": 42,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [4, "熾炎箭", 30, 30],
+        "part": ["missile", "amazonbow"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "冷霜箭之",
+        "name_en": "of Cold Arrows",
+        "level": 47,
+        "maxlevel": null,
+        "levelreq": 39,
+        "frequency": 1,
+        "value": [5, "冷霜箭", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "閃電強擊之",
+        "name_en": "of Lightning Strike",
+        "level": 47,
+        "maxlevel": null,
+        "levelreq": 39,
+        "frequency": 1,
+        "value": [4, "閃電強擊", 60, 60],
+        "part": ["spear", "amazonspear"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "閃電烈怒之",
+        "name_en": "of Lightning Fury",
+        "level": 49,
+        "maxlevel": null,
+        "levelreq": 41,
+        "frequency": 1,
+        "value": [4, "閃電強擊", 60, 60],
+        "part": ["necklace", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "心靈視野之",
+        "name_en": "of Inner Sight",
+        "level": 50,
+        "maxlevel": null,
+        "levelreq": 42,
+        "frequency": 1,
+        "value": [4, "心靈視野", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "戳刺之",
+        "name_en": "of Jabbing",
+        "level": 50,
+        "maxlevel": null,
+        "levelreq": 42,
+        "frequency": 1,
+        "value": [4, "戳刺", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "冰凍箭之",
+        "name_en": "of Freezing Arrows",
+        "level": 50,
+        "maxlevel": null,
+        "levelreq": 42,
+        "frequency": 1,
+        "value": [4, "冰凍箭", 30, 30],
+        "part": ["missile", "amazonbow"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "充能強擊之",
+        "name_en": "of Power Strike",
+        "level": 55,
+        "maxlevel": null,
+        "levelreq": 47,
+        "frequency": 1,
+        "value": [4, "充能強擊", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "穿刺之",
+        "name_en": "of Impaling Strike",
+        "level": 59,
+        "maxlevel": null,
+        "levelreq": 51,
+        "frequency": 1,
+        "value": [4, "穿刺", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "多重箭之",
+        "name_en": "of Multiple Shot",
+        "level": 63,
+        "maxlevel": null,
+        "levelreq": 55,
+        "frequency": 1,
+        "value": [4, "多重箭", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "劇毒戳刺之",
+        "name_en": "of Poison Jab",
+        "level": 67,
+        "maxlevel": null,
+        "levelreq": 59,
+        "frequency": 1,
+        "value": [3, "劇毒標槍", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "緩箭術之",
+        "name_en": "of Slow Missiles",
+        "level": 68,
+        "maxlevel": null,
+        "levelreq": 60,
+        "frequency": 1,
+        "value": [3, "緩箭術", 20, 20],
+        "part": ["glove", "necklace"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "聚能強擊之",
+        "name_en": "of Charged Strike",
+        "level": 68,
+        "maxlevel": null,
+        "levelreq": 60,
+        "frequency": 1,
+        "value": [3, "聚能強擊", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "導引箭",
+        "name_en": "of Guided Arrows",
+        "level": 69,
+        "maxlevel": null,
+        "levelreq": 61,
+        "frequency": 1,
+        "value": [3, "導引箭", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "爆裂箭之",
+        "name_en": "of Exploding Arrows",
+        "level": 69,
+        "maxlevel": null,
+        "levelreq": 61,
+        "frequency": 1,
+        "value": [4, "爆裂箭", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "閃電標槍之",
+        "name_en": "of Lightning Javelin",
+        "level": 70,
+        "maxlevel": null,
+        "levelreq": 62,
+        "frequency": 1,
+        "value": [3, "閃電槍", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "瘟疫戳刺之",
+        "name_en": "of Plague Jab",
+        "level": 71,
+        "maxlevel": null,
+        "levelreq": 63,
+        "frequency": 1,
+        "value": [3, "瘟疫標槍", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "寒冰箭之",
+        "name_en": "of Ice Arrows",
+        "level": 72,
+        "maxlevel": null,
+        "levelreq": 64,
+        "frequency": 1,
+        "value": [3, "寒冰箭", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "疾刺之",
+        "name_en": "of Fending",
+        "level": 83,
+        "maxlevel": null,
+        "levelreq": 75,
+        "frequency": 1,
+        "value": [3, "疾刺", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "熾炎箭",
+        "name_en": "of Immolating Arrows",
+        "level": 85,
+        "maxlevel": null,
+        "levelreq": 77,
+        "frequency": 1,
+        "value": [2, "熾炎箭", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "閃電強擊之",
+        "name_en": "of Lightning Strike",
+        "level": 90,
+        "maxlevel": null,
+        "levelreq": 82,
+        "frequency": 1,
+        "value": [2, "閃電強擊", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "閃電烈怒之",
+        "name_en": "of Lightning Fury",
+        "level": 92,
+        "maxlevel": null,
+        "levelreq": 84,
+        "frequency": 1,
+        "value": [2, "閃電強擊", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "冰凍箭之",
+        "name_en": "of Freezing Arrows",
+        "level": 94,
+        "maxlevel": null,
+        "levelreq": 86,
+        "frequency": 1,
+        "value": [2, "冰凍箭", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      }
+    ],
+    "part": ["weapon", "missile", "amazonbow", "glove", "necklace", "amazonspear", "amazonjavelin", "circlet", "spear", "staff", "orb", "sword", "ring", "hammer", "mace", "scepter", "dagger", "armor"]
+  },
+  {
+    "group": "addscolddamage",
+    "format": "附加 # 冰寒傷害",
+    "abilitys": [
+      {
+        "name": "冰霜之",
+        "name_en": "of Frost",
+        "level": 1,
+        "maxlevel": 3,
+        "levelreq": 1,
+        "frequency": 4,
+        "value": ["1-1"],
+        "part": ["weapon"],
+        "npart": ["staff", "wand", "orb"],
+        "magic": []
+      }
+    ],
+    "part": ["weapon"]
+  },
+  {
+    "group": "addsfiredamage",
+    "format": "附加 # 火焰傷害",
+    "abilitys": [
+      {
+        "name": "火炎之",
+        "name_en": "of Flame",
+        "level": 1,
+        "maxlevel": 3,
+        "levelreq": 1,
+        "frequency": 4,
+        "value": ["1-2"],
+        "part": ["weapon"],
+        "npart": ["staff", "wand", "orb"],
+        "magic": []
+      }
+    ],
+    "part": ["weapon"]
+  },
+  {
+    "group": "addslightningdamage",
+    "format": "附加 # 電擊傷害",
+    "abilitys": [
+      {
+        "name": "觸電之",
+        "name_en": "of Shock",
+        "level": 1,
+        "maxlevel": 3,
+        "levelreq": 1,
+        "frequency": 4,
+        "value": ["1-3"],
+        "part": ["weapon"],
+        "npart": ["staff", "wand", "orb"],
+        "magic": []
+      }
+    ],
+    "part": ["weapon"]
   }
 ]

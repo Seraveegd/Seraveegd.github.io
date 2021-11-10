@@ -222,7 +222,7 @@
     "set": "阿卡娜的詭計",
     "set_en": "Arcanna's Tricks",
     "type": "weapon",
-    "part": "stave",
+    "part": "staff",
     "name": "阿卡娜的死亡之杖",
     "name_en": "Arcanna's Deathwand",
     "attributes": {
@@ -664,7 +664,7 @@
     "set": "卡珊的衣著",
     "set_en": "Cathan's Traps",
     "type": "weapon",
-    "part": "stave",
+    "part": "staff",
     "name": "卡珊的尺杖",
     "name_en": "Cathan's Rule",
     "attributes": {
@@ -4384,7 +4384,7 @@
     "set": "娜吉的上古遺物",
     "set_en": "Naj's Ancient Vestige",
     "type": "weapon",
-    "part": "stave",
+    "part": "staff",
     "name": "娜吉的解謎杖",
     "name_en": "Naj's Puzzler",
     "attributes": {

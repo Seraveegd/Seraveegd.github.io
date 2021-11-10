@@ -28,7 +28,7 @@
       <div [ngClass]="'block'" *ngIf="suffixs | async | filteraffixe: type : type_detail; let sufs">
         <div [ngClass]="'affixe'" *ngFor="let s of sufs" (click)="showDetail(s.format, s.abilitys)">
           <ng-container *ngIf="s.abilitys | filteraffixe: type : type_detail; let abilitys">
-            <span [ngClass]="'level'">
+            <span [ngClass]="'level'" [matTooltip]="'物品等級'">
               {{ getMaxlevel(abilitys) }}
             </span>
             <ng-container *ngIf="abilitys.length === 1">

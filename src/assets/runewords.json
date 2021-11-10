@@ -91,7 +91,7 @@
       ["+(2-198)"],
       ["+33"]
     ],
-    "weaponlimit": ["stave"],
+    "weaponlimit": ["staff"],
     "limit": "sorceress",
     "attack": ""
   },
@@ -364,7 +364,7 @@
       ["+2"],
       [23]
     ],
-    "weaponlimit": ["polearm", "stave"],
+    "weaponlimit": ["polearm", "staff"],
     "limit": "",
     "attack": ""
   },
@@ -470,7 +470,7 @@
       [7],
       ["+50"]
     ],
-    "weaponlimit": ["stave"],
+    "weaponlimit": ["staff"],
     "limit": "sorceress",
     "attack": ""
   },
@@ -874,7 +874,7 @@
       [4, 25],
       [14, 60]
     ],
-    "weaponlimit": ["stave", "mace"],
+    "weaponlimit": ["staff", "mace"],
     "limit": "",
     "attack": ""
   },
