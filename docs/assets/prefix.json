@@ -4735,7 +4735,7 @@
         "levelreq": 15,
         "frequency": 1,
         "value": ["+1", "詛咒", "死靈法師"],
-        "part": ["wand", "vohelmet", "necklace", "circlet"],
+        "part": ["wand", "ncershrunkenhead", "necklace", "circlet"],
         "npart": [],
         "magic": []
       },
@@ -4747,7 +4747,7 @@
         "levelreq": 15,
         "frequency": 1,
         "value": ["+1", "毒素與骸骨", "死靈法師"],
-        "part": ["wand", "vohelmet", "necklace", "dagger", "circlet"],
+        "part": ["wand", "ncershrunkenhead", "necklace", "dagger", "circlet"],
         "npart": ["throwing"],
         "magic": []
       },
@@ -4759,7 +4759,7 @@
         "levelreq": 15,
         "frequency": 1,
         "value": ["+1", "召喚", "死靈法師"],
-        "part": ["wand", "vohelmet", "necklace", "circlet"],
+        "part": ["wand", "ncershrunkenhead", "necklace", "circlet"],
         "npart": [],
         "magic": []
       },
@@ -5003,7 +5003,7 @@
         "levelreq": 30,
         "frequency": 1,
         "value": ["+2", "詛咒", "死靈法師"],
-        "part": ["wand", "vohelmet", "necklace", "circlet"],
+        "part": ["wand", "ncershrunkenhead", "necklace", "circlet"],
         "npart": [],
         "magic": []
       },
@@ -5015,7 +5015,7 @@
         "levelreq": 30,
         "frequency": 1,
         "value": ["+2", "毒素與骸骨", "死靈法師"],
-        "part": ["wand", "vohelmet", "necklace", "dagger", "circlet"],
+        "part": ["wand", "ncershrunkenhead", "necklace", "dagger", "circlet"],
         "npart": ["throwing"],
         "magic": []
       },
@@ -5027,7 +5027,7 @@
         "levelreq": 30,
         "frequency": 1,
         "value": ["+2", "召喚", "死靈法師"],
-        "part": ["wand", "vohelmet", "necklace", "circlet"],
+        "part": ["wand", "ncershrunkenhead", "necklace", "circlet"],
         "npart": [],
         "magic": []
       },
@@ -5535,9 +5535,9 @@
         "levelreq": 45,
         "frequency": 1,
         "value": ["+3", "詛咒", "死靈法師"],
-        "part": ["wand", "vohelmet", "necklace", "circlet"],
+        "part": ["wand", "ncershrunkenhead", "necklace", "circlet"],
         "npart": [],
-        "magic": ["wand", "vohelmet", "necklace", "circlet"]
+        "magic": ["wand", "ncershrunkenhead", "necklace", "circlet"]
       },
       {
         "name": "猛毒",
@@ -5547,9 +5547,9 @@
         "levelreq": 45,
         "frequency": 1,
         "value": ["+3", "毒素與骸骨", "死靈法師"],
-        "part": ["wand", "vohelmet", "necklace", "dagger", "circlet"],
+        "part": ["wand", "ncershrunkenhead", "necklace", "dagger", "circlet"],
         "npart": ["throwing"],
-        "magic": ["wand", "vohelmet", "necklace", "dagger", "circlet"]
+        "magic": ["wand", "ncershrunkenhead", "necklace", "dagger", "circlet"]
       },
       {
         "name": "魔像王",
@@ -5559,9 +5559,9 @@
         "levelreq": 45,
         "frequency": 1,
         "value": ["+3", "召喚", "死靈法師"],
-        "part": ["wand", "vohelmet", "necklace", "circlet"],
+        "part": ["wand", "ncershrunkenhead", "necklace", "circlet"],
         "npart": [],
-        "magic": ["wand", "vohelmet", "necklace", "circlet"]
+        "magic": ["wand", "ncershrunkenhead", "necklace", "circlet"]
       },
       {
         "name": "玫瑰烙印",
@@ -5762,7 +5762,7 @@
       "club",
       "druidpeltshelm",
       "katar",
-      "vohelmet"
+      "ncershrunkenhead"
     ]
   },
   {
@@ -6752,7 +6752,7 @@
         "levelreq": 22,
         "frequency": 4,
         "value": ["+1"],
-        "part": ["wand", "dagger", "vohelmet"],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
         "npart": [],
         "magic": []
       },
@@ -6776,7 +6776,7 @@
         "levelreq": 42,
         "frequency": 2,
         "value": ["+2"],
-        "part": ["wand", "dagger", "vohelmet"],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
         "npart": [],
         "magic": []
       },
@@ -6793,7 +6793,7 @@
         "magic": []
       }
     ],
-    "part": ["necklace", "circlet", "wand", "dagger", "vohelmet"]
+    "part": ["necklace", "circlet", "wand", "dagger", "ncershrunkenhead"]
   },
   {
     "group": "tosorceressskilllevels",
