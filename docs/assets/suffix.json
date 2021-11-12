@@ -5201,7 +5201,7 @@
         "value": [10, 3, "傳送術"],
         "part": ["armors", "ring", "necklace"],
         "npart": [],
-        "magic": []
+        "magic": ["armors", "ring", "necklace"]
       },
       {
         "name": "電能彈之",
@@ -5237,7 +5237,7 @@
         "value": [14, 3, "傳送術"],
         "part": ["armors", "ring", "necklace"],
         "npart": [],
-        "magic": []
+        "magic": ["armors", "ring", "necklace"]
       },
       {
         "name": "新星之盾",
@@ -5273,7 +5273,7 @@
         "value": [18, 3, "傳送術"],
         "part": ["armors", "ring", "necklace"],
         "npart": [],
-        "magic": []
+        "magic": ["armors", "ring", "necklace"]
       }
     ],
     "part": ["armors", "ring", "necklace"]
@@ -5328,7 +5328,7 @@
         "value": [10, "冰封甲", 30, 30],
         "part": ["staff", "orb"],
         "npart": [],
-        "magic": []
+        "magic": ["staff", "orb"]
       },
       {
         "name": "傷害加深之",
@@ -5340,7 +5340,7 @@
         "value": [10, "傷害加深", 60, 60],
         "part": ["wand", "dagger", "ncershrunkenhead"],
         "npart": [],
-        "magic": []
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
       },
       {
         "name": "剔骨之牙",
@@ -5364,7 +5364,7 @@
         "value": [10, "骸骨護甲", 60, 60],
         "part": ["wand", "dagger", "ncershrunkenhead"],
         "npart": [],
-        "magic": []
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
       },
       {
         "name": "復生骷髏之",
@@ -5375,6 +5375,66 @@
         "frequency": 1,
         "value": [10, "復生骷髏", 60, 60],
         "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
+      },
+      {
+        "name": "犧牲之",
+        "name_en": "of Sacrifice",
+        "level": 7,
+        "maxlevel": null,
+        "levelreq": 7,
+        "frequency": 1,
+        "value": [10, "犧牲打擊", 30, 30],
+        "part": ["scepter", "paladinshield"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "猛擊之",
+        "name_en": "of Bashing",
+        "level": 7,
+        "maxlevel": null,
+        "levelreq": 7,
+        "frequency": 1,
+        "value": [10, "猛擊", 60, 60],
+        "part": ["barbarianhelm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "狂嗥之",
+        "name_en": "of Howling",
+        "level": 7,
+        "maxlevel": null,
+        "levelreq": 7,
+        "frequency": 1,
+        "value": [10, "狂嗥", 60, 60],
+        "part": ["barbarianhelm"],
+        "npart": [],
+        "magic": ["barbarianhelm"]
+      },
+      {
+        "name": "尋找藥水",
+        "name_en": "of Potion Finding",
+        "level": 7,
+        "maxlevel": null,
+        "levelreq": 7,
+        "frequency": 1,
+        "value": [10, "尋找藥水", 60, 60],
+        "part": ["barbarianhelm"],
+        "npart": [],
+        "magic": ["barbarianhelm"]
+      },
+      {
+        "name": "火焰風暴之",
+        "name_en": "of Firestorms",
+        "level": 7,
+        "maxlevel": null,
+        "levelreq": 7,
+        "frequency": 1,
+        "value": [10, "火焰風暴", 30, 30],
+        "part": ["club"],
         "npart": [],
         "magic": []
       },
@@ -5424,7 +5484,7 @@
         "value": [8, "靜電力場", 30, 30],
         "part": ["staff", "orb"],
         "npart": [],
-        "magic": []
+        "magic": ["staff", "orb"]
       },
       {
         "name": "心靈傳動之",
@@ -5508,7 +5568,7 @@
         "value": [8, "屍爆", 60, 60],
         "part": ["wand", "dagger", "ncershrunkenhead"],
         "npart": [],
-        "magic": []
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
       },
       {
         "name": "黏土魔像之",
@@ -5520,7 +5580,55 @@
         "value": [8, "黏土魔像", 60, 60],
         "part": ["wand", "dagger", "ncershrunkenhead"],
         "npart": [],
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
+      },
+      {
+        "name": "聖光彈之",
+        "name_en": "of Holy Bolts",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 12,
+        "frequency": 1,
+        "value": [8, "聖光彈", 30, 30],
+        "part": ["scepter", "paladinshield"],
+        "npart": [],
         "magic": []
+      },
+      {
+        "name": "嘲諷之",
+        "name_en": "of Taunting",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 12,
+        "frequency": 1,
+        "value": [8, "嘲諷", 60, 60],
+        "part": ["barbarianhelm"],
+        "npart": [],
+        "magic": ["barbarianhelm"]
+      },
+      {
+        "name": "大吼之",
+        "name_en": "of Shouting",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 12,
+        "frequency": 1,
+        "value": [8, "大吼", 60, 60],
+        "part": ["barbarianhelm"],
+        "npart": [],
+        "magic": ["barbarianhelm"]
+      },
+      {
+        "name": "熔火巨石之",
+        "name_en": "of Molten Boulders",
+        "level": 12,
+        "maxlevel": null,
+        "levelreq": 12,
+        "frequency": 1,
+        "value": [8, "熔火巨石", 30, 30],
+        "part": ["club"],
+        "npart": [],
+        "magic": ["club"]
       },
       {
         "name": "火焰箭之",
@@ -5532,7 +5640,7 @@
         "value": [10, "火焰箭", 30, 30],
         "part": ["missile", "amazonbow"],
         "npart": [],
-        "magic": []
+        "magic": ["missile", "amazonbow"]
       },
       {
         "name": "火焰彈之",
@@ -5580,7 +5688,7 @@
         "value": [6, "冰封甲", 20, 20],
         "part": ["dagger", "armor"],
         "npart": [],
-        "magic": []
+        "magic": ["dagger", "armor"]
       },
       {
         "name": "傷害加深之",
@@ -5592,7 +5700,7 @@
         "value": [6, "傷害加深", 20, 20],
         "part": ["mace", "club", "hammer", "scepter", "wand", "staff"],
         "npart": [],
-        "magic": []
+        "magic": ["mace", "club", "hammer", "scepter", "wand", "staff"]
       },
       {
         "name": "剔骨之牙",
@@ -5616,7 +5724,7 @@
         "value": [6, "骸骨護甲", 20, 20],
         "part": ["armor"],
         "npart": [],
-        "magic": []
+        "magic": ["armor"]
       },
       {
         "name": "復生骷髏之",
@@ -5627,6 +5735,66 @@
         "frequency": 1,
         "value": [6, "復生骷髏", 20, 20],
         "part": ["necklace", "circlet"],
+        "npart": [],
+        "magic": ["necklace", "circlet"]
+      },
+      {
+        "name": "犧牲之",
+        "name_en": "of Sacrifice",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 14,
+        "frequency": 1,
+        "value": [6, "犧牲打擊", 20, 20],
+        "part": ["melee"],
+        "npart": ["scepter"],
+        "magic": []
+      },
+      {
+        "name": "猛擊之",
+        "name_en": "of Bashing",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 14,
+        "frequency": 1,
+        "value": [6, "猛擊", 20, 20],
+        "part": ["melee"],
+        "npart": ["staff", "wand", "orb"],
+        "magic": []
+      },
+      {
+        "name": "狂嗥之",
+        "name_en": "of Howling",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 14,
+        "frequency": 1,
+        "value": [6, "狂嗥", 20, 20],
+        "part": [],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "尋找藥水",
+        "name_en": "of Potion Finding",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 14,
+        "frequency": 1,
+        "value": [10, "尋找藥水", 60, 60],
+        "part": [],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "火焰風暴之",
+        "name_en": "of Firestorms",
+        "level": 14,
+        "maxlevel": null,
+        "levelreq": 14,
+        "frequency": 1,
+        "value": [6, "火焰風暴", 20, 20],
+        "part": ["staff"],
         "npart": [],
         "magic": []
       },
@@ -5652,7 +5820,7 @@
         "value": [6, "劇毒標槍", 60, 60],
         "part": ["necklace", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["necklace", "circlet"]
       },
       {
         "name": "心靈視野之",
@@ -5688,7 +5856,7 @@
         "value": [7, "熾烈之徑", 30, 30],
         "part": ["staff", "orb"],
         "npart": [],
-        "magic": []
+        "magic": ["staff", "orb"]
       },
       {
         "name": "火球之",
@@ -5736,7 +5904,7 @@
         "value": [7, "碎冰甲", 30, 30],
         "part": ["staff", "orb"],
         "npart": [],
-        "magic": []
+        "magic": ["staff", "orb"]
       },
       {
         "name": "攻擊反噬之",
@@ -5748,7 +5916,7 @@
         "value": [7, "攻擊反噬", 60, 60],
         "part": ["wand", "dagger", "ncershrunkenhead"],
         "npart": [],
-        "magic": []
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
       },
       {
         "name": "恐懼之",
@@ -5763,6 +5931,90 @@
         "magic": []
       },
       {
+        "name": "骨牆之",
+        "name_en": "of Bone Walls",
+        "level": 18,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": [7, "骨牆", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
+      },
+      {
+        "name": "骷髏法師之",
+        "name_en": "of Raise Skeletal Mages",
+        "level": 18,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": [7, "復生骷髏法師", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
+      },
+      {
+        "name": "熱忱之",
+        "name_en": "of Zeal",
+        "level": 18,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": [7, "熱忱打擊", 30, 30],
+        "part": ["scepter", "paladinshield"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "擊昏之",
+        "name_en": "of Stunning",
+        "level": 18,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": [7, "擊昏", 60, 60],
+        "part": ["barbarianhelm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "尋找物品",
+        "name_en": "of Item Finding",
+        "level": 18,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": [7, "尋找物品", 60, 60],
+        "part": ["barbarianhelm"],
+        "npart": [],
+        "magic": ["barbarianhelm"]
+      },
+      {
+        "name": "裂地之火",
+        "name_en": "of Eruption",
+        "level": 18,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": [7, "裂地之火", 30, 30],
+        "part": ["club"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "氣旋護甲之",
+        "name_en": "of Cyclone Armor",
+        "level": 18,
+        "maxlevel": null,
+        "levelreq": 18,
+        "frequency": 1,
+        "value": [7, "氣旋護甲", 30, 30],
+        "part": ["club"],
+        "npart": [],
+        "magic": ["club"]
+      },
+      {
         "name": "戳刺之",
         "name_en": "of Jabbing",
         "level": 24,
@@ -5772,7 +6024,7 @@
         "value": [7, "戳刺", 60, 60],
         "part": ["spear", "amazonspear"],
         "npart": [],
-        "magic": []
+        "magic": ["spear", "amazonspear"]
       },
       {
         "name": "穿刺之",
@@ -5784,7 +6036,7 @@
         "value": [6, "穿刺", 60, 60],
         "part": ["spear", "amazonspear"],
         "npart": [],
-        "magic": []
+        "magic": ["spear", "amazonspear"]
       },
       {
         "name": "靜電力場之",
@@ -5796,7 +6048,7 @@
         "value": [5, "靜電力場", 20, 20],
         "part": ["hammer", "mace", "scepter", "ring", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["hammer", "mace", "scepter", "ring", "circlet"]
       },
       {
         "name": "心靈傳動之",
@@ -5844,7 +6096,7 @@
         "value": [6, "火牆術", 30, 30],
         "part": ["staff", "orb"],
         "npart": [],
-        "magic": []
+        "magic": ["staff", "orb"]
       },
       {
         "name": "附魔之",
@@ -5940,7 +6192,7 @@
         "value": [5, "屍爆", 20, 20],
         "part": ["club"],
         "npart": [],
-        "magic": []
+        "magic": ["club"]
       },
       {
         "name": "黏土魔像之",
@@ -5951,6 +6203,174 @@
         "frequency": 1,
         "value": [5, "黏土魔像", 20, 20],
         "part": ["necklace", "circlet"],
+        "npart": [],
+        "magic": ["necklace", "circlet"]
+      },
+      {
+        "name": "混亂之",
+        "name_en": "of Confusion",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [6, "混亂", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "偷取生命之",
+        "name_en": "of Life Tap",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [6, "偷取生命", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "毒爆之",
+        "name_en": "of Poison Explosion",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [6, "毒爆", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
+      },
+      {
+        "name": "骨矛之",
+        "name_en": "of Bone Spears",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [6, "骨矛", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "鮮血魔像之",
+        "name_en": "of Blood Golem Summoning",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [6, "鮮血魔像", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
+      },
+      {
+        "name": "聖光彈之",
+        "name_en": "of Holy Bolts",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [5, "聖光彈", 20, 20],
+        "part": ["necklace", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "復仇之",
+        "name_en": "of Vengeance",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [6, "復仇打擊", 30, 30],
+        "part": ["scepter", "paladinshield"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "祝福之鎚",
+        "name_en": "of Blessed Hammers",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [6, "祝福之鎚", 30, 30],
+        "part": ["scepter", "paladinshield"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "嘲諷之",
+        "name_en": "of Taunting",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [5, "嘲諷", 20, 20],
+        "part": [],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "大吼之",
+        "name_en": "of Shouting",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [5, "大吼", 20, 20],
+        "part": [],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "專注打擊之",
+        "name_en": "of Concentration",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [6, "專注打擊", 60, 60],
+        "part": ["barbarianhelm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "戰鬥怒吼之",
+        "name_en": "of Battle Cry",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [6, "戰鬥怒吼", 60, 60],
+        "part": ["barbarianhelm"],
+        "npart": [],
+        "magic": ["barbarianhelm"]
+      },
+      {
+        "name": "熔火巨石之",
+        "name_en": "of Molten Boulders",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [5, "熔火巨石", 20, 20],
+        "part": ["mace"],
+        "npart": [],
+        "magic": ["mace"]
+      },
+      {
+        "name": "旋風之",
+        "name_en": "of Twister",
+        "level": 24,
+        "maxlevel": null,
+        "levelreq": 24,
+        "frequency": 1,
+        "value": [6, "旋風術", 30, 30],
+        "part": ["club"],
         "npart": [],
         "magic": []
       },
@@ -5964,7 +6384,7 @@
         "value": [6, "閃電槍", 60, 60],
         "part": ["necklace", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["necklace", "circlet"]
       },
       {
         "name": "爆裂箭之",
@@ -6000,7 +6420,7 @@
         "value": [5, "雷電風暴", 30, 30],
         "part": ["staff", "orb"],
         "npart": [],
-        "magic": []
+        "magic": ["staff", "orb"]
       },
       {
         "name": "能量護盾之",
@@ -6012,7 +6432,7 @@
         "value": [5, "能量護盾", 30, 30],
         "part": ["staff", "orb"],
         "npart": [],
-        "magic": []
+        "magic": ["staff", "orb"]
       },
       {
         "name": "暴風雪之",
@@ -6036,6 +6456,114 @@
         "value": [5, "寒冰甲", 30, 30],
         "part": ["staff", "orb"],
         "npart": [],
+        "magic": ["staff", "orb"]
+      },
+      {
+        "name": "致命吸引之",
+        "name_en": "of Attraction",
+        "level": 30,
+        "maxlevel": null,
+        "levelreq": 30,
+        "frequency": 1,
+        "value": [5, "致命吸引", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "衰老之",
+        "name_en": "of Decrepification",
+        "level": 30,
+        "maxlevel": null,
+        "levelreq": 30,
+        "frequency": 1,
+        "value": [5, "衰老", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
+      },
+      {
+        "name": "骨牢之",
+        "name_en": "of Bone Imprisonment",
+        "level": 30,
+        "maxlevel": null,
+        "levelreq": 30,
+        "frequency": 1,
+        "value": [5, "骨牢", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
+      },
+      {
+        "name": "鋼鐵魔像之",
+        "name_en": "of Iron Golem Creation",
+        "level": 30,
+        "maxlevel": null,
+        "levelreq": 30,
+        "frequency": 1,
+        "value": [5, "鋼鐵魔像", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
+      },
+      {
+        "name": "招降之",
+        "name_en": "of Conversion",
+        "level": 30,
+        "maxlevel": null,
+        "levelreq": 30,
+        "frequency": 1,
+        "value": [5, "招降打擊", 30, 30],
+        "part": ["scepter", "paladinshield"],
+        "npart": [],
+        "magic": ["scepter", "paladinshield"]
+      },
+      {
+        "name": "戰鬥命令之",
+        "name_en": "of Battle Orders",
+        "level": 30,
+        "maxlevel": null,
+        "levelreq": 30,
+        "frequency": 1,
+        "value": [5, "戰鬥命令", 60, 60],
+        "part": ["barbarianhelm"],
+        "npart": [],
+        "magic": ["barbarianhelm"]
+      },
+      {
+        "name": "恐怖圖騰之",
+        "name_en": "of Grim Ward",
+        "level": 30,
+        "maxlevel": null,
+        "levelreq": 30,
+        "frequency": 1,
+        "value": [5, "恐怖圖騰", 60, 60],
+        "part": ["barbarianhelm"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "火山噴發之",
+        "name_en": "of Volcano",
+        "level": 30,
+        "maxlevel": null,
+        "levelreq": 30,
+        "frequency": 1,
+        "value": [6, "火山噴發", 30, 30],
+        "part": ["club"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "龍捲風之",
+        "name_en": "of Tornado",
+        "level": 30,
+        "maxlevel": null,
+        "levelreq": 30,
+        "frequency": 1,
+        "value": [5, "龍捲風", 30, 30],
+        "part": ["club"],
+        "npart": [],
         "magic": []
       },
       {
@@ -6048,7 +6576,7 @@
         "value": [5, "緩箭術", 30, 30],
         "part": ["amazonbow", "amazonjavelin", "amazonspear"],
         "npart": [],
-        "magic": []
+        "magic": ["amazonbow", "amazonjavelin", "amazonspear"]
       },
       {
         "name": "聚能強擊之",
@@ -6072,7 +6600,7 @@
         "value": [5, "導引箭", 30, 30],
         "part": ["missile", "amazonbow"],
         "npart": [],
-        "magic": []
+        "magic": ["missile", "amazonbow"]
       },
       {
         "name": "魔法箭之",
@@ -6084,7 +6612,7 @@
         "value": [6, "魔法箭", 20, 20],
         "part": ["glove"],
         "npart": [],
-        "magic": []
+        "magic": ["glove"]
       },
       {
         "name": "瘟疫戳刺之",
@@ -6096,7 +6624,7 @@
         "value": [5, "瘟疫標槍", 60, 60],
         "part": ["necklace", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["necklace", "circlet"]
       },
       {
         "name": "寒冰箭之",
@@ -6120,7 +6648,7 @@
         "value": [4, "熾烈之徑", 20, 20],
         "part": ["boot"],
         "npart": [],
-        "magic": []
+        "magic": ["boot"]
       },
       {
         "name": "火球之",
@@ -6168,7 +6696,7 @@
         "value": [4, "碎冰甲", 20, 20],
         "part": ["dagger", "armor"],
         "npart": [],
-        "magic": []
+        "magic": ["dagger", "armor"]
       },
       {
         "name": "多頭蛇之",
@@ -6180,7 +6708,7 @@
         "value": [3, "多頭蛇", 30, 30],
         "part": ["staff", "orb"],
         "npart": [],
-        "magic": []
+        "magic": ["staff", "orb"]
       },
       {
         "name": "冰封球之",
@@ -6204,7 +6732,7 @@
         "value": [4, "攻擊反噬", 20, 20],
         "part": ["shield"],
         "npart": [],
-        "magic": []
+        "magic": ["shield"]
       },
       {
         "name": "恐懼之",
@@ -6217,6 +6745,210 @@
         "part": ["shield"],
         "npart": [],
         "magic": []
+      },
+      {
+        "name": "骨牆之",
+        "name_en": "of Bone Walls",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [4, "骨牆", 20, 20],
+        "part": ["club", "mace", "scepter"],
+        "npart": [],
+        "magic": ["club", "mace", "scepter"]
+      },
+      {
+        "name": "骷髏法師之",
+        "name_en": "of Raise Skeletal Mages",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [4, "復生骷髏法師", 20, 20],
+        "part": ["necklace", "circlet"],
+        "npart": [],
+        "magic": ["necklace", "circlet"]
+      },
+      {
+        "name": "降低抗性之",
+        "name_en": "of Lower Resistance",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [3, "降低抗性", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "劇毒新星之",
+        "name_en": "of Poison Novas",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [3, "劇毒新星", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "骸骨之魂",
+        "name_en": "of Bone Spirits",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [3, "骸骨之魂", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "火焰魔像之",
+        "name_en": "of Fire Golem Summoning",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [3, "火焰魔像", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
+      },
+      {
+        "name": "復元之",
+        "name_en": "of Revivification",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [3, "重生", 60, 60],
+        "part": ["wand", "dagger", "ncershrunkenhead"],
+        "npart": [],
+        "magic": ["wand", "dagger", "ncershrunkenhead"]
+      },
+      {
+        "name": "熱忱之",
+        "name_en": "of Zeal",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [4, "熱忱打擊", 20, 20],
+        "part": ["melee"],
+        "npart": ["scepter"],
+        "magic": []
+      },
+      {
+        "name": "天堂之拳",
+        "name_en": "of Fist of the Heavens",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [3, "天堂之拳", 30, 30],
+        "part": ["scepter", "paladinshield"],
+        "npart": [],
+        "magic": ["scepter", "paladinshield"]
+      },
+      {
+        "name": "擊昏之",
+        "name_en": "of Stunning",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [4, "擊昏", 20, 20],
+        "part": ["melee"],
+        "npart": ["staff", "wand", "orb"],
+        "magic": []
+      },
+      {
+        "name": "尋找物品",
+        "name_en": "of Item Finding",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [4, "尋找物品", 20, 20],
+        "part": [],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "戰爭狂嘯之",
+        "name_en": "of War Cry",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [3, "戰爭狂嘯", 60, 60],
+        "part": ["barbarianhelm"],
+        "npart": [],
+        "magic": ["barbarianhelm"]
+      },
+      {
+        "name": "戰鬥指揮之",
+        "name_en": "of Battle Command",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [3, "戰鬥指揮", 60, 60],
+        "part": ["barbarianhelm"],
+        "npart": [],
+        "magic": ["barbarianhelm"]
+      },
+      {
+        "name": "裂地之火",
+        "name_en": "of Eruption",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [4, "裂地之火", 20, 20],
+        "part": ["staff"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "氣旋護甲之",
+        "name_en": "of Cyclone Armor",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [4, "氣旋護甲", 20, 20],
+        "part": ["armor"],
+        "npart": [],
+        "magic": ["armor"]
+      },
+      {
+        "name": "毀天滅地之",
+        "name_en": "of Armageddon",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [3, "毀天滅地", 30, 30],
+        "part": ["club"],
+        "npart": [],
+        "magic": ["club"]
+      },
+      {
+        "name": "颶風之",
+        "name_en": "of Hurricane",
+        "level": 36,
+        "maxlevel": null,
+        "levelreq": 36,
+        "frequency": 1,
+        "value": [3, "颶風術", 30, 30],
+        "part": ["club"],
+        "npart": [],
+        "magic": ["club"]
       },
       {
         "name": "火焰箭之",
@@ -6240,7 +6972,7 @@
         "value": [5, "疾刺", 60, 60],
         "part": ["spear", "amazonspear"],
         "npart": [],
-        "magic": []
+        "magic": ["spear", "amazonspear"]
       },
       {
         "name": "熾炎箭",
@@ -6252,7 +6984,7 @@
         "value": [4, "熾炎箭", 30, 30],
         "part": ["missile", "amazonbow"],
         "npart": [],
-        "magic": []
+        "magic": ["missile", "amazonbow"]
       },
       {
         "name": "冷霜箭之",
@@ -6288,7 +7020,7 @@
         "value": [3, "火牆術", 20, 20],
         "part": ["polearm"],
         "npart": [],
-        "magic": []
+        "magic": ["polearm"]
       },
       {
         "name": "附魔之",
@@ -6339,6 +7071,126 @@
         "magic": []
       },
       {
+        "name": "混亂之",
+        "name_en": "of Confusion",
+        "level": 48,
+        "maxlevel": null,
+        "levelreq": 48,
+        "frequency": 1,
+        "value": [3, "混亂", 20, 20],
+        "part": ["ring", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "偷取生命之",
+        "name_en": "of Life Tap",
+        "level": 48,
+        "maxlevel": null,
+        "levelreq": 48,
+        "frequency": 1,
+        "value": [3, "偷取生命", 20, 20],
+        "part": ["axe"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "毒爆之",
+        "name_en": "of Poison Explosion",
+        "level": 48,
+        "maxlevel": null,
+        "levelreq": 48,
+        "frequency": 1,
+        "value": [3, "毒爆", 20, 20],
+        "part": ["mace", "club", "hammer", "scepter", "wand", "staff"],
+        "npart": [],
+        "magic": ["mace", "club", "hammer", "scepter", "wand", "staff"]
+      },
+      {
+        "name": "骨矛之",
+        "name_en": "of Bone Spears",
+        "level": 48,
+        "maxlevel": null,
+        "levelreq": 48,
+        "frequency": 1,
+        "value": [3, "骨矛", 20, 20],
+        "part": ["spear"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "鮮血魔像之",
+        "name_en": "of Blood Golem Summoning",
+        "level": 48,
+        "maxlevel": null,
+        "levelreq": 48,
+        "frequency": 1,
+        "value": [3, "鮮血魔像", 20, 20],
+        "part": ["axe"],
+        "npart": [],
+        "magic": ["axe"]
+      },
+      {
+        "name": "復仇之",
+        "name_en": "of Vengeance",
+        "level": 48,
+        "maxlevel": null,
+        "levelreq": 48,
+        "frequency": 1,
+        "value": [3, "復仇打擊", 20, 20],
+        "part": ["scepter", "axe"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "祝福之鎚",
+        "name_en": "of Blessed Hammers",
+        "level": 48,
+        "maxlevel": null,
+        "levelreq": 48,
+        "frequency": 1,
+        "value": [3, "祝福之鎚", 20, 20],
+        "part": ["hammer"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "專注打擊之",
+        "name_en": "of Concentration",
+        "level": 48,
+        "maxlevel": null,
+        "levelreq": 48,
+        "frequency": 1,
+        "value": [3, "專注打擊", 20, 20],
+        "part": ["melee"],
+        "npart": ["staff", "wand", "orb"],
+        "magic": []
+      },
+      {
+        "name": "戰鬥怒吼之",
+        "name_en": "of Battle Cry",
+        "level": 48,
+        "maxlevel": null,
+        "levelreq": 48,
+        "frequency": 1,
+        "value": [3, "戰鬥怒吼", 20, 20],
+        "part": [],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "旋風之",
+        "name_en": "of Twister",
+        "level": 48,
+        "maxlevel": null,
+        "levelreq": 48,
+        "frequency": 1,
+        "value": [3, "旋風術", 20, 20],
+        "part": ["necklace", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
         "name": "閃電烈怒之",
         "name_en": "of Lightning Fury",
         "level": 49,
@@ -6348,7 +7200,7 @@
         "value": [4, "閃電強擊", 60, 60],
         "part": ["necklace", "circlet"],
         "npart": [],
-        "magic": []
+        "magic": ["necklace", "circlet"]
       },
       {
         "name": "心靈視野之",
@@ -6372,7 +7224,7 @@
         "value": [4, "戳刺", 20, 20],
         "part": ["glove"],
         "npart": [],
-        "magic": []
+        "magic": ["glove"]
       },
       {
         "name": "冰凍箭之",
@@ -6408,7 +7260,7 @@
         "value": [4, "穿刺", 20, 20],
         "part": ["glove"],
         "npart": [],
-        "magic": []
+        "magic": ["glove"]
       },
       {
         "name": "隕石之",
@@ -6432,7 +7284,7 @@
         "value": [2, "雷電風暴", 20, 20],
         "part": ["hammer", "club"],
         "npart": [],
-        "magic": []
+        "magic": ["hammer", "club"]
       },
       {
         "name": "能量護盾之",
@@ -6444,7 +7296,7 @@
         "value": [2, "能量護盾", 20, 20],
         "part": ["helmet"],
         "npart": [],
-        "magic": []
+        "magic": ["helmet"]
       },
       {
         "name": "暴風雪之",
@@ -6467,6 +7319,114 @@
         "frequency": 1,
         "value": [2, "寒冰甲", 20, 20],
         "part": ["armor"],
+        "npart": [],
+        "magic": ["armor"]
+      },
+      {
+        "name": "致命吸引之",
+        "name_en": "of Attraction",
+        "level": 60,
+        "maxlevel": null,
+        "levelreq": 60,
+        "frequency": 1,
+        "value": [2, "致命吸引", 20, 20],
+        "part": ["ring", "necklace", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "衰老之",
+        "name_en": "of Decrepification",
+        "level": 60,
+        "maxlevel": null,
+        "levelreq": 60,
+        "frequency": 1,
+        "value": [2, "衰老", 20, 20],
+        "part": ["shield"],
+        "npart": [],
+        "magic": ["shield"]
+      },
+      {
+        "name": "骨牢之",
+        "name_en": "of Bone Imprisonment",
+        "level": 60,
+        "maxlevel": null,
+        "levelreq": 60,
+        "frequency": 1,
+        "value": [2, "骨牢", 20, 20],
+        "part": ["mace", "scepter"],
+        "npart": [],
+        "magic": ["mace", "scepter"]
+      },
+      {
+        "name": "鋼鐵魔像之",
+        "name_en": "of Iron Golem Creation",
+        "level": 60,
+        "maxlevel": null,
+        "levelreq": 60,
+        "frequency": 1,
+        "value": [2, "鋼鐵魔像", 20, 20],
+        "part": ["sword"],
+        "npart": [],
+        "magic": ["sword"]
+      },
+      {
+        "name": "招降之",
+        "name_en": "of Conversion",
+        "level": 60,
+        "maxlevel": null,
+        "levelreq": 60,
+        "frequency": 1,
+        "value": [2, "招降打擊", 20, 20],
+        "part": ["mace", "club", "hammer", "scepter", "wand", "staff"],
+        "npart": ["scepter"],
+        "magic": ["mace", "club", "hammer", "scepter", "wand", "staff"]
+      },
+      {
+        "name": "戰鬥命令之",
+        "name_en": "of Battle Orders",
+        "level": 60,
+        "maxlevel": null,
+        "levelreq": 60,
+        "frequency": 1,
+        "value": [2, "戰鬥命令", 20, 20],
+        "part": [],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "恐怖圖騰之",
+        "name_en": "of Grim Ward",
+        "level": 60,
+        "maxlevel": null,
+        "levelreq": 60,
+        "frequency": 1,
+        "value": [2, "恐怖圖騰", 20, 20],
+        "part": ["necklace"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "火山噴發之",
+        "name_en": "of Volcano",
+        "level": 60,
+        "maxlevel": null,
+        "levelreq": 60,
+        "frequency": 1,
+        "value": [3, "火山噴發", 20, 20],
+        "part": ["hammer"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "龍捲風之",
+        "name_en": "of Tornado",
+        "level": 60,
+        "maxlevel": null,
+        "levelreq": 60,
+        "frequency": 1,
+        "value": [2, "龍捲風", 20, 20],
+        "part": ["necklace", "circlet"],
         "npart": [],
         "magic": []
       },
@@ -6492,7 +7452,7 @@
         "value": [3, "劇毒標槍", 20, 20],
         "part": ["glove"],
         "npart": [],
-        "magic": []
+        "magic": ["glove"]
       },
       {
         "name": "緩箭術之",
@@ -6504,7 +7464,7 @@
         "value": [3, "緩箭術", 20, 20],
         "part": ["glove", "necklace"],
         "npart": [],
-        "magic": []
+        "magic": ["glove", "necklace"]
       },
       {
         "name": "聚能強擊之",
@@ -6528,7 +7488,7 @@
         "value": [3, "導引箭", 20, 20],
         "part": ["glove"],
         "npart": [],
-        "magic": []
+        "magic": ["glove"]
       },
       {
         "name": "爆裂箭之",
@@ -6552,7 +7512,7 @@
         "value": [3, "閃電槍", 20, 20],
         "part": ["glove"],
         "npart": [],
-        "magic": []
+        "magic": ["glove"]
       },
       {
         "name": "瘟疫戳刺之",
@@ -6564,7 +7524,7 @@
         "value": [3, "瘟疫標槍", 20, 20],
         "part": ["glove"],
         "npart": [],
-        "magic": []
+        "magic": ["glove"]
       },
       {
         "name": "寒冰箭之",
@@ -6588,7 +7548,7 @@
         "value": [1, "多頭蛇", 20, 20],
         "part": ["club"],
         "npart": [],
-        "magic": []
+        "magic": ["club"]
       },
       {
         "name": "冰封球之",
@@ -6603,6 +7563,126 @@
         "magic": []
       },
       {
+        "name": "降低抗性之",
+        "name_en": "of Lower Resistance",
+        "level": 72,
+        "maxlevel": null,
+        "levelreq": 72,
+        "frequency": 1,
+        "value": [1, "降低抗性", 20, 20],
+        "part": ["staff"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "劇毒新星之",
+        "name_en": "of Poison Novas",
+        "level": 72,
+        "maxlevel": null,
+        "levelreq": 72,
+        "frequency": 1,
+        "value": [1, "劇毒新星", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "骸骨之魂",
+        "name_en": "of Bone Spirits",
+        "level": 72,
+        "maxlevel": null,
+        "levelreq": 72,
+        "frequency": 1,
+        "value": [1, "骸骨之魂", 20, 20],
+        "part": ["necklace", "circlet"],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "火焰魔像之",
+        "name_en": "of Fire Golem Summoning",
+        "level": 72,
+        "maxlevel": null,
+        "levelreq": 72,
+        "frequency": 1,
+        "value": [1, "火焰魔像", 20, 20],
+        "part": ["hammer"],
+        "npart": [],
+        "magic": ["hammer"]
+      },
+      {
+        "name": "復元之",
+        "name_en": "of Revivification",
+        "level": 72,
+        "maxlevel": null,
+        "levelreq": 72,
+        "frequency": 1,
+        "value": [1, "重生", 20, 20],
+        "part": ["polearm"],
+        "npart": [],
+        "magic": ["polearm"]
+      },
+      {
+        "name": "天堂之拳",
+        "name_en": "of Fist of the Heavens",
+        "level": 72,
+        "maxlevel": null,
+        "levelreq": 72,
+        "frequency": 1,
+        "value": [1, "天堂之拳", 20, 20],
+        "part": ["glove"],
+        "npart": [],
+        "magic": ["glove"]
+      },
+      {
+        "name": "戰爭狂嘯之",
+        "name_en": "of War Cry",
+        "level": 72,
+        "maxlevel": null,
+        "levelreq": 72,
+        "frequency": 1,
+        "value": [1, "戰爭狂嘯", 20, 20],
+        "part": [],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "戰鬥指揮之",
+        "name_en": "of Battle Command",
+        "level": 72,
+        "maxlevel": null,
+        "levelreq": 72,
+        "frequency": 1,
+        "value": [1, "戰鬥指揮", 20, 20],
+        "part": [],
+        "npart": [],
+        "magic": []
+      },
+      {
+        "name": "毀天滅地之",
+        "name_en": "of Armageddon",
+        "level": 72,
+        "maxlevel": null,
+        "levelreq": 72,
+        "frequency": 1,
+        "value": [1, "毀天滅地", 20, 20],
+        "part": ["staff"],
+        "npart": [],
+        "magic": ["staff"]
+      },
+      {
+        "name": "颶風之",
+        "name_en": "of Hurricane",
+        "level": 72,
+        "maxlevel": null,
+        "levelreq": 72,
+        "frequency": 1,
+        "value": [1, "颶風術", 20, 20],
+        "part": ["necklace", "circlet"],
+        "npart": [],
+        "magic": ["necklace", "circlet"]
+      },
+      {
         "name": "疾刺之",
         "name_en": "of Fending",
         "level": 83,
@@ -6612,7 +7692,7 @@
         "value": [3, "疾刺", 20, 20],
         "part": ["glove"],
         "npart": [],
-        "magic": []
+        "magic": ["glove"]
       },
       {
         "name": "熾炎箭",
@@ -6624,7 +7704,7 @@
         "value": [2, "熾炎箭", 20, 20],
         "part": ["glove"],
         "npart": [],
-        "magic": []
+        "magic": ["glove"]
       },
       {
         "name": "閃電強擊之",
@@ -6648,7 +7728,7 @@
         "value": [2, "閃電強擊", 20, 20],
         "part": ["glove"],
         "npart": [],
-        "magic": []
+        "magic": ["glove"]
       },
       {
         "name": "冰凍箭之",
@@ -6663,7 +7743,7 @@
         "magic": []
       }
     ],
-    "part": ["weapon", "missile", "amazonbow", "glove", "necklace", "amazonspear", "amazonjavelin", "circlet", "spear", "staff", "orb", "sword", "ring", "hammer", "mace", "scepter", "dagger", "armor", "boot", "wand", "shield", "axe", "polearm", "melee", "club", "helmet", "ncershrunkenhead"]
+    "part": ["weapon", "missile", "amazonbow", "glove", "necklace", "amazonspear", "amazonjavelin", "circlet", "spear", "staff", "orb", "sword", "ring", "hammer", "mace", "scepter", "dagger", "armor", "boot", "wand", "shield", "axe", "polearm", "melee", "club", "helmet", "ncershrunkenhead", "paladinshield", "barbarianhelm"]
   },
   {
     "group": "addscolddamage",
