@@ -4,27 +4,40 @@
   padding: 8px;
   font-size: 20pt;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  position: relative;
 
   .desc {
     color: #c9b012;
     font-size: 14px;
   }
+
+  mat-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+
+    &:hover {
+      color: white;
+    }
+  }
 }
 
 .content {
-  .base{
+  .base {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     color: white;
 
-    .block{
+    .block {
       display: flex;
-      width: 40%;
-      border: 1px solid white;
+      width: 43%;
+      border: 1px solid rgb(255 255 255 / 20%);
       padding: 10px;
-      margin: 10px;
+      margin: 6px;
       font-size: 16px;
+      background: rgb(0 0 0 / 1%);
+      box-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
 
       div {
         width: 47%;

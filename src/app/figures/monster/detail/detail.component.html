@@ -1,5 +1,5 @@
 <div mat-dialog-title [ngClass]="'title'">
-  {{ this.data.monster.name }}({{ this.data.monster.name_en }})
+  {{ this.data.monster.name }}({{ this.data.monster.name_en }})<mat-icon (click)="genandcopy(this.data.monster)" [matTooltip]="'複製連結'">link</mat-icon>
   <div *ngIf="this.data.monster.desc" [ngClass]="'desc'">{{ this.data.monster.desc }}</div>
 </div>
 
@@ -8,6 +8,10 @@
     <div [ngClass]="'block'">
       <div>遠程：</div>
       <div>{{ this.data.monster.rangedtype == null ? 'N' : 'Y' }}</div>
+    </div>
+    <div [ngClass]="'block'" *ngIf="this.data.monster.crit">
+      <div>暴擊率：</div>
+      <div>{{ this.data.monster.crit }}%</div>
     </div>
     <div [ngClass]="'block'">
       <div>稀有機率：</div>
@@ -22,15 +26,162 @@
       <div>{{ this.data.monster.boss == null ? 'N' : 'Y' }}</div>
     </div>
   </div>
-  <mat-tab-group mat-align-tabs="start" [color]="'accent'">
+  <mat-tab-group mat-align-tabs="center" [color]="'accent'">
     <mat-tab label="普通" [ngStyle]="{'color': 'white'}">
-
+      <div [ngClass]="'base'">
+        <div [ngClass]="'block'" *ngIf="this.data.monster.hp.min.o">
+          <div>生命：</div>
+          <div>({{ this.data.monster.hp.min.o }}-{{ this.data.monster.hp.max.o }})</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.level.o">
+          <div>等級：</div>
+          <div>{{ this.data.monster.level.o }}</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.ac.o">
+          <div>防禦：</div>
+          <div>{{ this.data.monster.ac.o }}</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.block.o">
+          <div>格檔率：</div>
+          <div>{{ this.data.monster.block.o }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.dm.o">
+          <div>物理抗性：</div>
+          <div>{{ this.data.monster.res.dm.o }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.ma.o">
+          <div>法術抗性：</div>
+          <div>{{ this.data.monster.res.ma.o }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.fi.o">
+          <div>火焰抗性：</div>
+          <div>{{ this.data.monster.res.fi.o }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.li.o">
+          <div>電擊抗性：</div>
+          <div>{{ this.data.monster.res.li.o }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.co.o">
+          <div>冰寒抗性：</div>
+          <div>{{ this.data.monster.res.co.o }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.po.o">
+          <div>毒素抗性：</div>
+          <div>{{ this.data.monster.res.po.o }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.exp.o">
+          <div>經驗值：</div>
+          <div>{{ this.data.monster.exp.o }}</div>
+        </div>
+        <div [ngClass]="'block'">
+          <div>掉落：</div>
+          <div>製作中</div>
+        </div>
+      </div>
     </mat-tab>
     <mat-tab label="惡夢">
-
+      <div [ngClass]="'base'">
+        <div [ngClass]="'block'" *ngIf="this.data.monster.hp.min.n">
+          <div>生命：</div>
+          <div>({{ this.data.monster.hp.min.n }}-{{ this.data.monster.hp.max.n }})</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.level.n">
+          <div>等級：</div>
+          <div>{{ this.data.monster.level.n }}</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.ac.n">
+          <div>防禦：</div>
+          <div>{{ this.data.monster.ac.n }}</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.block.n">
+          <div>格檔率：</div>
+          <div>{{ this.data.monster.block.n }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.dm.n">
+          <div>物理抗性：</div>
+          <div>{{ this.data.monster.res.dm.n }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.ma.n">
+          <div>法術抗性：</div>
+          <div>{{ this.data.monster.res.ma.n }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.fi.n">
+          <div>火焰抗性：</div>
+          <div>{{ this.data.monster.res.fi.n }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.li.n">
+          <div>電擊抗性：</div>
+          <div>{{ this.data.monster.res.li.n }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.co.n">
+          <div>冰寒抗性：</div>
+          <div>{{ this.data.monster.res.co.n }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.po.n">
+          <div>毒素抗性：</div>
+          <div>{{ this.data.monster.res.po.n }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.exp.n">
+          <div>經驗值：</div>
+          <div>{{ this.data.monster.exp.n }}</div>
+        </div>
+        <div [ngClass]="'block'">
+          <div>掉落：</div>
+          <div>製作中</div>
+        </div>
+      </div>
     </mat-tab>
     <mat-tab label="地獄">
-
+      <div [ngClass]="'base'">
+        <div [ngClass]="'block'" *ngIf="this.data.monster.hp.min.h">
+          <div>生命：</div>
+          <div>({{ this.data.monster.hp.min.h }}-{{ this.data.monster.hp.max.h }})</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.level.h">
+          <div>等級：</div>
+          <div>{{ this.data.monster.level.h }}</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.ac.h">
+          <div>防禦：</div>
+          <div>{{ this.data.monster.ac.h }}</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.block.h">
+          <div>格檔率：</div>
+          <div>{{ this.data.monster.block.h }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.dm.h">
+          <div>物理傷害抗性：</div>
+          <div>{{ this.data.monster.res.dm.h }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.ma.h">
+          <div>魔法抗性：</div>
+          <div>{{ this.data.monster.res.ma.h }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.fi.h">
+          <div>火焰抗性：</div>
+          <div>{{ this.data.monster.res.fi.h }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.li.h">
+          <div>電擊抗性：</div>
+          <div>{{ this.data.monster.res.li.h }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.co.h">
+          <div>冰寒抗性：</div>
+          <div>{{ this.data.monster.res.co.h }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.res.po.h">
+          <div>毒素抗性：</div>
+          <div>{{ this.data.monster.res.po.h }}%</div>
+        </div>
+        <div [ngClass]="'block'" *ngIf="this.data.monster.exp.h">
+          <div>經驗值：</div>
+          <div>{{ this.data.monster.exp.h }}</div>
+        </div>
+        <div [ngClass]="'block'">
+          <div>掉落：</div>
+          <div>製作中</div>
+        </div>
+      </div>
     </mat-tab>
   </mat-tab-group>
 </mat-dialog-content>

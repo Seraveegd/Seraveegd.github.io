@@ -6,6 +6,10 @@ import { DetailComponent } from './detail/detail.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule, MAT_DIALOG_DEFAULT_OPTIONS } from '@angular/material/dialog';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatIconModule } from '@angular/material/icon';
+import { ClipboardModule } from '@angular/cdk/clipboard';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { MatTabsModule } from '@angular/material/tabs';
     MonsterRoutingModule,
     MatDialogModule,
     MatButtonModule,
-    MatTabsModule
+    MatTabsModule,
+    MatIconModule,
+    ClipboardModule,
+    MatSnackBarModule,
+    MatTooltipModule
   ],
   entryComponents: [
     DetailComponent
