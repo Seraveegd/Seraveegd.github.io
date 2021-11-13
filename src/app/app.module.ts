@@ -20,6 +20,7 @@ import { CoreModule } from './core/core.module';
 import { RecipesComponent } from './recipes/recipes.component';
 import { DonateComponent } from './donate/donate.component';
 import { AffixesComponent } from './affixes/affixes.component';
+import { FiguresComponent } from './figures/figures.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { AffixesComponent } from './affixes/affixes.component';
     ItemsComponent,
     RecipesComponent,
     DonateComponent,
-    AffixesComponent
+    AffixesComponent,
+    FiguresComponent
   ],
   imports: [
     BrowserModule,

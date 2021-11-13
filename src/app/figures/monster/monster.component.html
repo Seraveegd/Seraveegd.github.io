@@ -1,0 +1,30 @@
+<div [ngClass]="'title'">怪物</div>
+<div>
+  <!-- {{ monsters | json}} -->
+  <table [ngClass]="'armors'">
+    <thead>
+      <th>名稱</th>
+      <th>英文名稱</th>
+      <th>遠程</th>
+      <th>稀有機率</th>
+      <th>惡魔</th>
+      <th>首領</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let monster of monsters | async">
+        <td><a (click)="showDetail(monster)">{{ monster.name }}</a>
+          <ng-container *ngIf="monster.desc">
+            <div [ngClass]="'desc'">{{ monster.desc }}</div>
+          </ng-container>
+        </td>
+        <td>
+          {{ monster.name_en }}
+        </td>
+        <td>{{ monster.rangedtype == null ? 'N' : 'Y' }}</td>
+        <td>{{ monster.rarity }}</td>
+        <td>{{ monster.demon == null ? 'N' : 'Y' }}</td>
+        <td>{{ monster.boss == null ? 'N' : 'Y' }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

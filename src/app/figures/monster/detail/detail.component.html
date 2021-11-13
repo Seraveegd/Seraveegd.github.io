@@ -1,0 +1,44 @@
+<div mat-dialog-title [ngClass]="'title'">
+  {{ this.data.monster.name }}({{ this.data.monster.name_en }})
+  <div *ngIf="this.data.monster.desc" [ngClass]="'desc'">{{ this.data.monster.desc }}</div>
+</div>
+
+<mat-dialog-content [ngClass]="'content'">
+  <div [ngClass]="'base'">
+    <div [ngClass]="'block'">
+      <div>遠程：</div>
+      <div>{{ this.data.monster.rangedtype == null ? 'N' : 'Y' }}</div>
+    </div>
+    <div [ngClass]="'block'">
+      <div>稀有機率：</div>
+      <div>{{ this.data.monster.rarity }}</div>
+    </div>
+    <div [ngClass]="'block'">
+      <div>惡魔：</div>
+      <div>{{ this.data.monster.demon == null ? 'N' : 'Y' }}</div>
+    </div>
+    <div [ngClass]="'block'">
+      <div>首領：</div>
+      <div>{{ this.data.monster.boss == null ? 'N' : 'Y' }}</div>
+    </div>
+  </div>
+  <mat-tab-group mat-align-tabs="start" [color]="'accent'">
+    <mat-tab label="普通" [ngStyle]="{'color': 'white'}">
+
+    </mat-tab>
+    <mat-tab label="惡夢">
+
+    </mat-tab>
+    <mat-tab label="地獄">
+
+    </mat-tab>
+  </mat-tab-group>
+</mat-dialog-content>
+
+<mat-dialog-actions [ngClass]="'action'">
+  <!-- <div [ngClass]="'closecontainer'"> -->
+  <!-- <div> -->
+  <button mat-button mat- mat-dialog-close (click)="close()" [ngClass]="'close'">關閉</button>
+  <!-- </div> -->
+  <!-- </div> -->
+</mat-dialog-actions>

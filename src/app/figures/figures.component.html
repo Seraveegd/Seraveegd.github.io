@@ -1,0 +1,12 @@
+<div [ngClass]="'contents'">
+  <div [ngClass]="'title'">人物</div>
+  <div [ngClass]="'rwords'">
+    <div [ngClass]="'list'">
+      <span>分類</span>
+      <span><a (click)="clink('1')" [ngClass]="{'active': selected === '1'}">職業</a></span>
+      <span><a (click)="clink('2')" [ngClass]="{'active': selected === '2'}">傭兵</a></span>
+      <span><a [routerLink]="['monster']" (click)="clink('3')" [ngClass]="{'active': selected === '3'}">怪物</a></span>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>

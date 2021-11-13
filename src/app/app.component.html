@@ -17,6 +17,9 @@
         <a [routerLink]="['/', 'affixes']" (click)="sideNav.toggle()" mat-list-item>
           <span>&nbsp;詞綴&nbsp;</span>
         </a>
+        <a [routerLink]="['/', 'figures']" (click)="sideNav.toggle()" mat-list-item>
+          <span>&nbsp;人物&nbsp;</span>
+        </a>
         <a [routerLink]="['/', 'donate']" (click)="sideNav.toggle()" mat-list-item>
           <span>
             <mat-icon [matTooltip]="'贊助'">savings</mat-icon>
@@ -65,6 +68,11 @@
               <li>
                 <a [routerLink]="['/', 'affixes']">
                   <span>&nbsp;詞綴&nbsp;</span>
+                </a>
+              </li>
+              <li>
+                <a [routerLink]="['/', 'figures']">
+                  <span>&nbsp;人物&nbsp;</span>
                 </a>
               </li>
             </ul>
