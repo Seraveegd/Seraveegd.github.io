@@ -33,8 +33,7 @@
     <span (click)="addfilter('part:boot')" [ngClass]="{'active': filters.includes('part:boot')}">靴子</span>
     <span (click)="addfilter('part:shield,paladinshield,ncershrunkenhead')"
       [ngClass]="{'active': filters.includes('part:shield,paladinshield,ncershrunkenhead')}">盾牌</span>
-    <span (click)="addfilter('part:circlet')"
-      [ngClass]="{'active': filters.includes('part:circlet')}">頭飾</span>
+    <span (click)="addfilter('part:circlet')" [ngClass]="{'active': filters.includes('part:circlet')}">頭飾</span>
     <span (click)="addfilter('part:necklace')" [ngClass]="{'active': filters.includes('part:necklace')}">護身符</span>
     <span (click)="addfilter('part:ring')" [ngClass]="{'active': filters.includes('part:ring')}">戒指</span>
   </div>
@@ -43,16 +42,22 @@
     <span (click)="addfilter('part:sword')" [ngClass]="{'active': filters.includes('part:sword')}">刀劍</span>
     <span (click)="addfilter('part:axe')" [ngClass]="{'active': filters.includes('part:axe')}">斧頭</span>
     <span (click)="addfilter('part:polearm')" [ngClass]="{'active': filters.includes('part:polearm')}">長柄</span>
+    <span (click)="addfilter('part:spear,amazonspear')" [ngClass]="{'active': filters.includes('part:spear,amazonspear')}">長矛</span>
     <span (click)="addfilter('part:mace')" [ngClass]="{'active': filters.includes('part:mace')}">釘鎚</span>
     <span (click)="addfilter('part:scepter')" [ngClass]="{'active': filters.includes('part:scepter')}">權杖</span>
     <span (click)="addfilter('part:bow,amazonbow')"
       [ngClass]="{'active': filters.includes('part:bow,amazonbow')}">弓</span>
+    <span (click)="addfilter('part:crossbow')" [ngClass]="{'active': filters.includes('part:crossbow')}">弩</span>
+    <span (click)="addfilter('part:javelin,amazonjavelin')" [ngClass]="{'active': filters.includes('part:javelin,amazonjavelin')}">標槍</span>
+    <span (click)="addfilter('part:dagger')" [ngClass]="{'active': filters.includes('part:dagger')}">匕首</span>
     <span (click)="addfilter('part:wand')" [ngClass]="{'active': filters.includes('part:wand')}">魔杖</span>
     <span (click)="addfilter('part:staff')" [ngClass]="{'active': filters.includes('part:staff')}">法杖</span>
     <span (click)="addfilter('part:sorceressorb')"
       [ngClass]="{'active': filters.includes('part:sorceressorb')}">法珠</span>
     <span (click)="addfilter('part:assassinkatar')"
       [ngClass]="{'active': filters.includes('part:assassinkatar')}">爪</span>
+    <span (click)="addfilter('part:club')" [ngClass]="{'active': filters.includes('part:club')}">棍棒</span>
+    <span (click)="addfilter('part:hammer')" [ngClass]="{'active': filters.includes('part:hammer')}">槌子</span>
   </div>
 </div>
 <router-outlet></router-outlet>

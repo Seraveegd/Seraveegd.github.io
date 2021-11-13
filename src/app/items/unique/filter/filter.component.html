@@ -86,9 +86,9 @@
                         </div>
                         <div *ngIf="item.attributes.attack">
                           <ng-container *ngIf="item.attributes.hand == 'two' && item.part == 'sword'">
-                            單手傷害：<span>({{ item.attributes.oneharm.min }}-{{ item.attributes.oneharm.max }})</span><br>
+                            單手傷害：<span>{{ item.attributes.oneharm.min }}-{{ item.attributes.oneharm.max }}</span><br>
                           </ng-container>
-                          {{ item.attributes.hand == 'one' ? '單手' : '雙手' }}傷害：<span>({{ item.attributes.hand == 'one' ? item.attributes.oneharm.min : item.attributes.twoharm.min }}-{{ item.attributes.hand == 'one' ? item.attributes.oneharm.max : item.attributes.twoharm.max }})</span>
+                          {{ item.attributes.hand == 'one' ? '單手' : '雙手' }}傷害：<span>{{ item.attributes.hand == 'one' ? item.attributes.oneharm.min : item.attributes.twoharm.min }}-{{ item.attributes.hand == 'one' ? item.attributes.oneharm.max : item.attributes.twoharm.max }}</span>
                         </div>
                         <div *ngIf="item.attributes.level">
                           需要等級：<span>{{ item.attributes.level }}</span>
