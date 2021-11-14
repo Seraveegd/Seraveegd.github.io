@@ -1,0 +1,19 @@
+<div [ngClass]="'title'">超級獨特怪物</div>
+<div>
+  <table [ngClass]="'armors'">
+    <thead>
+      <th>名稱</th>
+      <th>英文名稱</th>
+      <th>掉落</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let superunique of superuniques | async">
+        <td>{{ superunique.name }}
+        </td>
+        <td>{{ superunique.name_en }}
+        </td>
+        <td>製作中</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

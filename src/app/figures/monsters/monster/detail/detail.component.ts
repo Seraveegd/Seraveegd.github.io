@@ -1,8 +1,8 @@
 import { Component, Inject, OnInit, ViewEncapsulation } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { Clipboard } from "@angular/cdk/clipboard"
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { Config } from '../../../core/config.service';
+import { Config } from '../../../../core/config.service';
+import { Clipboard } from "@angular/cdk/clipboard"
 
 @Component({
   selector: 'app-detail',
@@ -24,7 +24,7 @@ export class DetailComponent implements OnInit {
   }
 
   genandcopy(monster: any): void {
-    if (this.clipboard.copy(this.config.api_base_url + '/figures/monster/detail/' + monster.id)) {
+    if (this.clipboard.copy(this.config.api_base_url + '/figures/monsters/monster/detail/' + monster.id)) {
       this.snackBar.open('已複製連結', '確認', {
         duration: 2000
       });

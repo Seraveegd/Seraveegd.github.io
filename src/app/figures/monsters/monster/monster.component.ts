@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { ActivatedRoute } from '@angular/router';
-import { FigureService } from '../figure.service';
+import { FigureService } from '../../figure.service';
 import { DetailComponent } from './detail/detail.component';
 
 @Component({

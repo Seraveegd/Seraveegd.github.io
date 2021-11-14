@@ -31,4 +31,12 @@ export class FigureService {
       TreasureClass4: object
     }[]>('/assets/monster.json');
   }
+
+  getSuperUniques(): any {
+    return this.http.get<{
+      name: string,
+      name_en: string,
+      tc: object
+    }[]>('/assets/superunique.json');
+  }
 }
