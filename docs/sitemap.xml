@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://seraveegd.github.io/</loc>
+    <lastmod>2021-10-01</lastmod>
+  </url>
+  <url>
     <loc>https://seraveegd.github.io/home</loc>
     <lastmod>2021-10-01</lastmod>
   </url>
@@ -14,6 +18,14 @@
   </url>
   <url>
     <loc>https://seraveegd.github.io/recipes</loc>
+    <lastmod>2021-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://seraveegd.github.io/affixes</loc>
+    <lastmod>2021-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://seraveegd.github.io/figures</loc>
     <lastmod>2021-10-01</lastmod>
   </url>
   <url>
