@@ -3,6 +3,7 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Config } from '../../../../core/config.service';
 import { Clipboard } from "@angular/cdk/clipboard"
+import { FigureService } from '../../../figure.service';
 
 @Component({
   selector: 'app-detail',
@@ -12,8 +13,10 @@ import { Clipboard } from "@angular/cdk/clipboard"
 })
 export class DetailComponent implements OnInit {
 
+  monlvls = this.figure.getMonsterLevels();
+
   constructor(public dialogRef: MatDialogRef<DetailComponent>, @Inject(MAT_DIALOG_DATA) public data: any, private clipboard: Clipboard, private snackBar: MatSnackBar,
-    private config: Config) {
+    private config: Config, private figure: FigureService) {
   }
 
   ngOnInit(): void {
@@ -33,6 +36,10 @@ export class DetailComponent implements OnInit {
         duration: 2000
       });
     }
+  }
+
+  getMultiplies(levels: any, level: number, type: string, difficult: string): number {
+    return levels[level][type][difficult];
   }
 
 }

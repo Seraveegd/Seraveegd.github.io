@@ -39,4 +39,12 @@ export class FigureService {
       tc: object
     }[]>('/assets/superunique.json');
   }
+
+  getMonsterLevels(): any {
+    return this.http.get<{
+      ac: object,
+      hp: object,
+      exp: object
+    }[]>('/assets/monlvl.json');
+  }
 }
