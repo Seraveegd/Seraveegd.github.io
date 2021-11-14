@@ -2,6 +2,10 @@
   {
     "name": "畢須博須",
     "name_en": "Bishibosh",
+    "class": {
+      "id": "fallenshaman1",
+      "name": "沉淪魔薩滿"
+    },
     "tc": {
       "o": "Act 1 Super A",
       "n": "Act 1 (N) Super A",
@@ -11,6 +15,10 @@
   {
     "name": "碎骨者",
     "name_en": "Bonebreaker",
+    "class": {
+      "id": "skeleton1",
+      "name": "骷髏"
+    },
     "tc": {
       "o": "Act 1 Super A",
       "n": "Act 1 (N) Super A",
@@ -20,6 +28,10 @@
   {
     "name": "冰烏鴉",
     "name_en": "Coldcrow",
+    "class": {
+      "id": "cr_archer1",
+      "name": "黑暗遊俠"
+    },
     "tc": {
       "o": "Act 1 Super A",
       "n": "Act 1 (N) Super A",
@@ -29,6 +41,10 @@
   {
     "name": "拉卡尼休",
     "name_en": "Rakanishu",
+    "class": {
+      "id": "fallen2",
+      "name": "刨肉沉淪魔"
+    },
     "tc": {
       "o": "Act 1 Super B",
       "n": "Act 1 (N) Super B",
@@ -38,6 +54,10 @@
   {
     "name": "樹頭木拳",
     "name_en": "Treehead WoodFist",
+    "class": {
+      "id": "brute2",
+      "name": "兇蠻毛怪"
+    },
     "tc": {
       "o": "Act 1 Super B",
       "n": "Act 1 (N) Super B",
@@ -47,16 +67,28 @@
   {
     "name": "格里斯瓦德",
     "name_en": "Griswold",
+    "class": {
+      "id": "griswold",
+      "name": "格里斯瓦德"
+    },
     "tc": { "o": "Griswold", "n": "Griswold (N)", "h": "Griswold (H)" }
   },
   {
     "name": "女伯爵",
     "name_en": "The Countess",
+    "class": {
+      "id": "corruptrogue3",
+      "name": "黑暗潛襲者"
+    },
     "tc": { "o": "Countess", "n": "Countess (N)", "h": "Countess (H)" }
   },
   {
     "name": "獄淵惡犬",
     "name_en": "Pitspawn Fouldog",
+    "class": {
+      "id": "bighead2",
+      "name": "魔汙怪"
+    },
     "tc": {
       "o": "Act 1 Super B",
       "n": "Act 1 (N) Super B",
@@ -66,6 +98,10 @@
   {
     "name": "爬行者火釘",
     "name_en": "Flamespike the Crawler",
+    "class": {
+      "id": "quillrat4",
+      "name": "刃脊獸"
+    },
     "tc": {
       "o": "Act 1 Unique C",
       "n": "Act 1 (N) Unique C",
@@ -75,6 +111,10 @@
   {
     "name": "骨灰",
     "name_en": "Bone Ash",
+    "class": {
+      "id": "skmage_pois3",
+      "name": "烈焰骷髏法師"
+    },
     "tc": {
       "o": "Act 1 Super C",
       "n": "Act 1 (N) Super C",
@@ -84,11 +124,19 @@
   {
     "name": "羅達門特",
     "name_en": "Radament",
+    "class": {
+      "id": "radament",
+      "name": "羅達門特"
+    },
     "tc": { "o": "Radament", "n": "Radament (N)", "h": "Radament (H)" }
   },
   {
     "name": "瘋狂血腥女巫",
     "name_en": "Bloodwitch the Wild",
+    "class": {
+      "id": "pantherwoman1",
+      "name": "女獵手"
+    },
     "tc": {
       "o": "Act 2 Super A",
       "n": "Act 2 (N) Super A",
@@ -98,6 +146,10 @@
   {
     "name": "牙皮",
     "name_en": "Fangskin",
+    "class": {
+      "id": "clawviper3",
+      "name": "火蜥蛇魔"
+    },
     "tc": {
       "o": "Act 2 Super B",
       "n": "Act 2 (N) Super B",
@@ -107,6 +159,10 @@
   {
     "name": "爆蟲",
     "name_en": "Beetleburst",
+    "class": {
+      "id": "scarab2",
+      "name": "死亡甲蟲"
+    },
     "tc": {
       "o": "Act 2 Super B",
       "n": "Act 2 (N) Super B",
@@ -116,6 +172,10 @@
   {
     "name": "蔓延症狀",
     "name_en": "Creeping Feature",
+    "class": {
+      "id": "mummy2",
+      "name": "腐屍木乃伊"
+    },
     "tc": {
       "o": "Act 2 Super A",
       "n": "Act 2 (N) Super A",
@@ -125,6 +185,10 @@
   {
     "name": "冰蟲鑽地者",
     "name_en": "Coldworm the Burrower",
+    "class": {
+      "id": "maggotqueen1",
+      "name": "沙漠蛆蟲之后"
+    },
     "tc": {
       "o": "Act 2 Super B",
       "n": "Act 2 (N) Super B",
@@ -134,6 +198,10 @@
   {
     "name": "火之眼",
     "name_en": "Fire Eye",
+    "class": {
+      "id": "sandraider3",
+      "name": "入侵者"
+    },
     "tc": {
       "o": "Act 2 Super B",
       "n": "Act 2 (N) Super B",
@@ -143,6 +211,10 @@
   {
     "name": "黑暗長老",
     "name_en": "Dark Elder",
+    "class": {
+      "id": "darkelder",
+      "name": "瘟疫散布者"
+    },
     "tc": {
       "o": "Act 2 Super B",
       "n": "Act 2 (N) Super B",
@@ -152,11 +224,19 @@
   {
     "name": "召喚師",
     "name_en": "The Summoner",
+    "class": {
+      "id": "summoner",
+      "name": "召喚師"
+    },
     "tc": { "o": "Summoner", "n": "Summoner (N)", "h": "Summoner (H)" }
   },
   {
     "name": "遠古無魂者卡厄",
     "name_en": "Ancient Kaa the Soulless",
+    "class": {
+      "id": "unraveler3",
+      "name": "解繃者"
+    },
     "tc": {
       "o": "Act 2 Super C",
       "n": "Act 2 (N) Super C",
@@ -166,11 +246,19 @@
   {
     "name": "鐵匠",
     "name_en": "The Smith",
+    "class": {
+      "id": "smith",
+      "name": "鐵匠"
+    },
     "tc": { "o": "Smith", "n": "Smith (N)", "h": "Smith (H)" }
   },
   {
     "name": "灼熱的斯札克",
     "name_en": "Sszark the Burning",
+    "class": {
+      "id": "arach4",
+      "name": "火焰蜘蛛"
+    },
     "tc": {
       "o": "Act 3 Super A",
       "n": "Act 3 (N) Super A",
@@ -180,6 +268,10 @@
   {
     "name": "巫醫印都古",
     "name_en": "Witch Doctor Endugu",
+    "class": {
+      "id": "fetishshaman4",
+      "name": "靈魂殺手薩滿"
+    },
     "tc": {
       "o": "Act 3 Super B",
       "n": "Act 3 (N) Super B",
@@ -189,6 +281,10 @@
   {
     "name": "暴風之樹",
     "name_en": "Stormtree",
+    "class": {
+      "id": "thornhulk3",
+      "name": "笞擊木魔"
+    },
     "tc": {
       "o": "Act 3 Super B",
       "n": "Act 3 (N) Super B",
@@ -198,6 +294,10 @@
   {
     "name": "戰場女傑莎莉娜",
     "name_en": "Battlemaid Sarina",
+    "class": {
+      "id": "corruptrogue5",
+      "name": "血肉獵人"
+    },
     "tc": {
       "o": "Act 3 Super B",
       "n": "Act 3 (N) Super B",
@@ -207,6 +307,10 @@
   {
     "name": "裂隙之翼冰鷹",
     "name_en": "Icehawk Riftwing",
+    "class": {
+      "id": "batdemon3",
+      "name": "幽暗蝙蝠"
+    },
     "tc": {
       "o": "Act 3 Super A",
       "n": "Act 3 (N) Super A",
@@ -216,36 +320,64 @@
   {
     "name": "邪之手伊斯梅爾",
     "name_en": "Ismail Vilehand",
+    "class": {
+      "id": "councilmember1",
+      "name": "議會成員"
+    },
     "tc": { "o": "Council", "n": "Council (N)", "h": "Council (H)" }
   },
   {
     "name": "火焰指吉列布",
     "name_en": "Geleb Flamefinger",
+    "class": {
+      "id": "councilmember2",
+      "name": "議會成員"
+    },
     "tc": { "o": "Council", "n": "Council (N)", "h": "Council (H)" }
   },
   {
     "name": "電光拳布瑞姆",
     "name_en": "Bremm Sparkfist",
+    "class": {
+      "id": "councilmember3",
+      "name": "議會成員"
+    },
     "tc": { "o": "Council", "n": "Council (N)", "h": "Council (H)" }
   },
   {
     "name": "冰拳托克",
     "name_en": "Toorc Icefist",
+    "class": {
+      "id": "councilmember1",
+      "name": "議會成員"
+    },
     "tc": { "o": "Council", "n": "Council (N)", "h": "Council (H)" }
   },
   {
     "name": "虛空指維恩",
     "name_en": "Wyand Voidbringer",
+    "class": {
+      "id": "councilmember2",
+      "name": "議會成員"
+    },
     "tc": { "o": "Council", "n": "Council (N)", "h": "Council (H)" }
   },
   {
     "name": "龍手馬弗",
     "name_en": "Maffer Dragonhand",
+    "class": {
+      "id": "councilmember3",
+      "name": "議會成員"
+    },
     "tc": { "o": "Council", "n": "Council (N)", "h": "Council (H)" }
   },
   {
     "name": "黑暗之翼",
     "name_en": "Darkwing",
+    "class": {
+      "id": "megademon3",
+      "name": "毒魔領主"
+    },
     "tc": {
       "o": "Act 4 Super A",
       "n": "Act 4 (N) Super A",
@@ -255,6 +387,10 @@
   {
     "name": "折磨者",
     "name_en": "The Tormentor",
+    "class": {
+      "id": "willowisp3",
+      "name": "燃魂鬼火"
+    },
     "tc": {
       "o": "Act 4 Super A",
       "n": "Act 4 (N) Super A",
@@ -264,6 +400,10 @@
   {
     "name": "汙染飼育者",
     "name_en": "Taintbreeder",
+    "class": {
+      "id": "vilemother2",
+      "name": "冥河鬼母"
+    },
     "tc": {
       "o": "Act 4 Super A",
       "n": "Act 4 (N) Super A",
@@ -273,6 +413,10 @@
   {
     "name": "食人的裂口之怒",
     "name_en": "Riftwraith the Cannibal",
+    "class": {
+      "id": "regurgitator2",
+      "name": "吐屍怪"
+    },
     "tc": {
       "o": "Act 4 Super A",
       "n": "Act 4 (N) Super A",
@@ -282,6 +426,10 @@
   {
     "name": "靈魂傳播者",
     "name_en": "Infector of Souls",
+    "class": {
+      "id": "megademon3",
+      "name": "毒魔領主"
+    },
     "tc": {
       "o": "Act 4 Super B",
       "n": "Act 4 (N) Super B",
@@ -291,6 +439,10 @@
   {
     "name": "迪塞斯勳爵",
     "name_en": "Lord De Seis",
+    "class": {
+      "id": "doomknight3",
+      "name": "遺忘騎士"
+    },
     "tc": {
       "o": "Act 4 Super C",
       "n": "Act 4 (N) Super C",
@@ -300,6 +452,10 @@
   {
     "name": "混沌首相",
     "name_en": "Grand Vizier of Chaos",
+    "class": {
+      "id": "fingermage3",
+      "name": "暴風施術者"
+    },
     "tc": {
       "o": "Act 4 Super B",
       "n": "Act 4 (N) Super B",
@@ -309,11 +465,19 @@
   {
     "name": "牛王",
     "name_en": "The Cow King",
+    "class": {
+      "id": "cowking",
+      "name": "地獄之牛"
+    },
     "tc": { "o": "Cow King", "n": "Cow King (N)", "h": "Cow King (H)" }
   },
   {
     "name": "屍火",
     "name_en": "Corpsefire",
+    "class": {
+      "id": "zombie1",
+      "name": "殭屍"
+    },
     "tc": {
       "o": "Act 1 Super A",
       "n": "Act 1 (N) Super A",
@@ -323,11 +487,19 @@
   {
     "name": "護甲鍛造師海法斯特",
     "name_en": "Hephasto The Armorer",
+    "class": {
+      "id": "hephasto",
+      "name": "護甲鍛造師海法斯特"
+    },
     "tc": { "o": "Haphesto", "n": "Haphesto (N)", "h": "Haphesto (H)" }
   },
   {
     "name": "督軍山克",
     "name_en": "Shenk the Overseer",
+    "class": {
+      "id": "overseer1",
+      "name": "督軍"
+    },
     "tc": {
       "o": "Act 5 Super A",
       "n": "Act 5 (N) Super A",
@@ -337,21 +509,37 @@
   {
     "name": "塔力克",
     "name_en": "Talic",
+    "class": {
+      "id": "ancientbarb1",
+      "name": "塔力克"
+    },
     "tc": { "o": null, "n": null, "h": null }
   },
   {
     "name": "馬道克",
     "name_en": "Madawc",
+    "class": {
+      "id": "ancientbarb2",
+      "name": "馬道克"
+    },
     "tc": { "o": null, "n": null, "h": null }
   },
   {
     "name": "科力克",
     "name_en": "Korlic",
+    "class": {
+      "id": "ancientbarb3",
+      "name": "科力克"
+    },
     "tc": { "o": null, "n": null, "h": null }
   },
   {
     "name": "居斧者",
     "name_en": "Axe Dweller",
+    "class": {
+      "id": "bloodlord3",
+      "name": "血族統領"
+    },
     "tc": {
       "o": "Act 5 Super C",
       "n": "Act 5 (N) Super C",
@@ -361,6 +549,10 @@
   {
     "name": "骨鋸破壞者",
     "name_en": "Bonesaw Breaker",
+    "class": {
+      "id": "reanimatedhorde2",
+      "name": "再生屍兵"
+    },
     "tc": {
       "o": "Act 5 Super A",
       "n": "Act 5 (N) Super A",
@@ -370,6 +562,10 @@
   {
     "name": "達克法恩",
     "name_en": "Dac Farren",
+    "class": {
+      "id": "imp3",
+      "name": "妖魔小鬼"
+    },
     "tc": {
       "o": "Act 5 Super B",
       "n": "Act 5 (N) Super B",
@@ -379,6 +575,10 @@
   {
     "name": "矯正者艾德瑞奇",
     "name_en": "Eldritch the Rectifier",
+    "class": {
+      "id": "minion1",
+      "name": "僕魔"
+    },
     "tc": {
       "o": "Act 5 Super A",
       "n": "Act 5 (N) Super A",
@@ -388,6 +588,10 @@
   {
     "name": "爆發者艾巴克",
     "name_en": "Eyeback the Unleashed",
+    "class": {
+      "id": "deathmauler1",
+      "name": "亡軍重擊魔"
+    },
     "tc": {
       "o": "Act 5 Super A",
       "n": "Act 5 (N) Super A",
@@ -397,6 +601,10 @@
   {
     "name": "剝孔",
     "name_en": "Thresh Socket",
+    "class": {
+      "id": "siegebeast3",
+      "name": "血腥攻城獸"
+    },
     "tc": {
       "o": "Act 5 Super Cx",
       "n": "Act 5 (N) Super Cx",
@@ -406,6 +614,10 @@
   {
     "name": "暴皮",
     "name_en": "Pindleskin",
+    "class": {
+      "id": "reanimatedhorde5",
+      "name": "褻瀆戰士"
+    },
     "tc": {
       "o": "Act 5 Super Cx",
       "n": "Act 5 (N) Super Cx",
@@ -415,6 +627,10 @@
   {
     "name": "碎冰",
     "name_en": "Snapchip Shatter",
+    "class": {
+      "id": "frozenhorror1",
+      "name": "爬行冰怪"
+    },
     "tc": {
       "o": "Act 5 Super C",
       "n": "Act 5 (N) Super C",
@@ -424,6 +640,10 @@
   {
     "name": "地獄佳人",
     "name_en": "Hell's Belle",
+    "class": {
+      "id": "succubus4",
+      "name": "地獄妖魅"
+    },
     "tc": {
       "o": "Act 5 Super C",
       "n": "Act 5 (N) Super C",
@@ -433,6 +653,10 @@
   {
     "name": "芬維爾‧摩洛克",
     "name_en": "Vinvear Molech",
+    "class": {
+      "id": "succubuswitch2",
+      "name": "兇邪女妖"
+    },
     "tc": {
       "o": "Act 5 Super A",
       "n": "Act 5 (N) Super A",
@@ -442,6 +666,10 @@
   {
     "name": "利牙殺手",
     "name_en": "Sharptooth Slayer",
+    "class": {
+      "id": "overseer3",
+      "name": "霸主"
+    },
     "tc": {
       "o": "Act 5 Super B",
       "n": "Act 5 (N) Super B",
@@ -451,6 +679,10 @@
   {
     "name": "熔岩扭曲者",
     "name_en": "Magma Torquer",
+    "class": {
+      "id": "imp5",
+      "name": "精怪小鬼"
+    },
     "tc": {
       "o": "Act 5 Super C",
       "n": "Act 5 (N) Super C",
@@ -460,6 +692,10 @@
   {
     "name": "刀鋒撕裂者",
     "name_en": "Blaze Ripper",
+    "class": {
+      "id": "deathmauler5",
+      "name": "亡軍戰將"
+    },
     "tc": {
       "o": "Act 5 Super C",
       "n": "Act 5 (N) Super C",
@@ -469,6 +705,10 @@
   {
     "name": "冰凍怪魔",
     "name_en": "Frozenstein",
+    "class": {
+      "id": "snowyeti4",
+      "name": "冰封雪怪"
+    },
     "tc": {
       "o": "Act 5 Super C",
       "n": "Act 5 (N) Super C",
@@ -478,11 +718,19 @@
   {
     "name": "尼拉塞克",
     "name_en": "Nihlathak",
+    "class": {
+      "id": "nihlathakboss",
+      "name": "尼拉塞克"
+    },
     "tc": { "o": "Nihlathak", "n": "Nihlathak (N)", "h": "Nihlathak (H)" }
   },
   {
     "name": "破壞者卡蘭索",
     "name_en": "Colenzo the Annihilator",
+    "class": {
+      "id": "fallenshaman5",
+      "name": "扭曲薩滿"
+    },
     "tc": {
       "o": "Act 5 Champ C",
       "n": "Act 5 (N) Champ C",
@@ -492,6 +740,10 @@
   {
     "name": "詛咒的阿克姆",
     "name_en": "Achmel the Cursed",
+    "class": {
+      "id": "unraveler5",
+      "name": "解繃者"
+    },
     "tc": {
       "o": "Act 5 Champ C",
       "n": "Act 5 (N) Champ C",
@@ -501,6 +753,10 @@
   {
     "name": "血腥的霸圖克",
     "name_en": "Bartuc the Bloody",
+    "class": {
+      "id": "baalhighpriest",
+      "name": "議會成員"
+    },
     "tc": {
       "o": "Act 5 Champ C",
       "n": "Act 5 (N) Champ C",
@@ -510,6 +766,10 @@
   {
     "name": "不潔的凡塔",
     "name_en": "Ventar the Unholy",
+    "class": {
+      "id": "venomlord",
+      "name": "毒魔領主"
+    },
     "tc": {
       "o": "Act 5 Champ C",
       "n": "Act 5 (N) Champ C",
@@ -519,6 +779,10 @@
   {
     "name": "折磨者立斯特",
     "name_en": "Lister the Tormentor",
+    "class": {
+      "id": "baalminion1",
+      "name": "毀滅僕從"
+    },
     "tc": {
       "o": "Act 5 Champ C",
       "n": "Act 5 (N) Champ C",

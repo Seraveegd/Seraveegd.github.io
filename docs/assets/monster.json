@@ -23406,5 +23406,48 @@
       "h": "Act 2 (H) Unique B"
     },
     "TreasureClass4": { "o": null, "n": null, "h": null }
+  },
+  {
+    "id": "nihlathakboss",
+    "name": "尼拉塞克",
+    "name_en": "Nihlathak",
+    "desc": "",
+    "rangedtype": null,
+    "rarity": 0,
+    "level": { "o": 65, "n": 70, "h": 92 },
+    "demon": null,
+    "boss": 1,
+    "res": {
+      "dm": { "o": null, "n": null, "h": null },
+      "ma": { "o": null, "n": null, "h": 25 },
+      "fi": { "o": null, "n": null, "h": 33 },
+      "li": { "o": null, "n": null, "h": 33 },
+      "co": { "o": 70, "n": 70, "h": 70 },
+      "po": { "o": 70, "n": 70, "h": 70 }
+    },
+    "block": { "o": 50, "n": 50, "h": 50 },
+    "crit": 5,
+    "hp": {
+      "min": { "o": 191, "n": 191, "h": 191 },
+      "max": { "o": 191, "n": 191, "h": 191 }
+    },
+    "ac": { "o": 126, "n": 110, "h": 110 },
+    "exp": { "o": 277, "n": 277, "h": 277 },
+    "TreasureClass1": {
+      "o": "Nihlathak",
+      "n": "Nihlathak (N)",
+      "h": "Nihlathak (H)"
+    },
+    "TreasureClass2": {
+      "o": "Nihlathak",
+      "n": "Nihlathak (N)",
+      "h": "Nihlathak (H)"
+    },
+    "TreasureClass3": {
+      "o": "Nihlathak",
+      "n": "Nihlathak (N)",
+      "h": "Nihlathak (H)"
+    },
+    "TreasureClass4": { "o": null, "n": null, "h": null }
   }
 ]
