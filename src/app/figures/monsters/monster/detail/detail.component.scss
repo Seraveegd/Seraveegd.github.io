@@ -40,7 +40,25 @@
       box-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
 
       div {
-        width: 47%;
+        width: 100%;
+
+        button {
+          margin: 0 10px 0 0;
+          flex: auto;
+          border-bottom: 1px solid #f8d55a;
+
+          &:hover{
+            background-color: #32475d;
+          }
+        }
+      }
+
+      div:first-child {
+        width: 30%;
+      }
+
+      div:nth-child(2) {
+        display: flex;
       }
     }
   }

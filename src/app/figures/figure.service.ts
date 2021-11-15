@@ -47,4 +47,15 @@ export class FigureService {
       exp: object
     }[]>('/assets/monlvl.json');
   }
+
+  getTreasureClass(): any {
+    return this.http.get<{
+      tc: string,
+      level: number,
+      picks: number,
+      changes: object,
+      nodrop: number,
+      drops: object
+    }[]>('/assets/tc.json');
+  }
 }

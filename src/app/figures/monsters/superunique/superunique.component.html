@@ -15,7 +15,11 @@
         </td>
         <td><a [routerLink]="['../', 'monster', 'detail', superunique.class.id]">{{ superunique.class.name }}</a>
         </td>
-        <td>製作中</td>
+        <td>
+          <button *ngIf="superunique.tc.o" mat-stroked-button (click)="showTC(superunique.tc.o)">普通</button>
+          <button *ngIf="superunique.tc.n" mat-stroked-button (click)="showTC(superunique.tc.n)">惡夢</button>
+          <button *ngIf="superunique.tc.h" mat-stroked-button (click)="showTC(superunique.tc.h)">地獄</button>
+        </td>
       </tr>
     </tbody>
   </table>

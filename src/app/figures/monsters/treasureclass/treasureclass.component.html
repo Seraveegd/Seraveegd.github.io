@@ -1,0 +1,30 @@
+<div mat-dialog-title [ngClass]="'title'">
+  {{ this.data }}
+</div>
+
+<mat-dialog-content [ngClass]="'content'">
+  <ng-container *ngIf="storedtcs.length > 0">
+    <mat-tab-group mat-align-tabs="center" [color]="'accent'">
+      <mat-tab label="掉落物">
+        <div [ngClass]="'drops'">
+          <span *ngFor="let d of drops" [ngClass]="'drop'">{{ d }}</span>
+        </div>
+      </mat-tab>
+      <mat-tab label="掉落種類">
+        <div [ngClass]="'drops'">
+          <span *ngFor="let s of storedtcs" [ngClass]="'drop'">
+            {{ s }}
+          </span>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+  </ng-container>
+</mat-dialog-content>
+
+<mat-dialog-actions [ngClass]="'action'">
+  <!-- <div [ngClass]="'closecontainer'"> -->
+  <!-- <div> -->
+  <button mat-stroked-button mat- mat-dialog-close (click)="close()" [ngClass]="'close'">關閉</button>
+  <!-- </div> -->
+  <!-- </div> -->
+</mat-dialog-actions>

@@ -1,5 +1,6 @@
 <div mat-dialog-title [ngClass]="'title'">
-  {{ this.data.monster.name }}({{ this.data.monster.name_en }})<mat-icon (click)="genandcopy(this.data.monster)" [matTooltip]="'複製連結'">link</mat-icon>
+  {{ this.data.monster.name }}({{ this.data.monster.name_en }})<mat-icon (click)="genandcopy(this.data.monster)"
+    [matTooltip]="'複製連結'">link</mat-icon>
   <div *ngIf="this.data.monster.desc" [ngClass]="'desc'">{{ this.data.monster.desc }}</div>
 </div>
 
@@ -27,11 +28,13 @@
     </div>
   </div>
   <mat-tab-group mat-align-tabs="center" [color]="'accent'" *ngIf="monlvls | async; let levels">
-    <mat-tab label="普通" [ngStyle]="{'color': 'white'}">
+    <mat-tab label="普通">
       <div [ngClass]="'base'">
         <div [ngClass]="'block'" *ngIf="this.data.monster.hp.min.o">
           <div>生命：</div>
-          <div>({{ this.data.monster.hp.min.o*getMultiplies(levels, this.data.monster.level.o, 'hp', 'o')/100 }}-{{ this.data.monster.hp.max.o*getMultiplies(levels, this.data.monster.level.o, 'hp', 'o')/100 }})</div>
+          <div>
+            ({{ this.data.monster.hp.min.o*getMultiplies(levels, this.data.monster.level.o, 'hp', 'o')/100 }}-{{ this.data.monster.hp.max.o*getMultiplies(levels, this.data.monster.level.o, 'hp', 'o')/100 }})
+          </div>
         </div>
         <div [ngClass]="'block'" *ngIf="this.data.monster.level.o">
           <div>等級：</div>
@@ -75,7 +78,12 @@
         </div>
         <div [ngClass]="'block'">
           <div>掉落：</div>
-          <div>製作中</div>
+          <div>
+            <button *ngIf="this.data.monster.TreasureClass1.o" mat-stroked-button (click)="showTC(this.data.monster.TreasureClass1.o)">普通</button>
+            <button *ngIf="this.data.monster.TreasureClass2.o" mat-stroked-button (click)="showTC(this.data.monster.TreasureClass2.o)">冠軍</button>
+            <button *ngIf="this.data.monster.TreasureClass3.o" mat-stroked-button (click)="showTC(this.data.monster.TreasureClass3.o)">獨特</button>
+            <button *ngIf="this.data.monster.TreasureClass4.o" mat-stroked-button (click)="showTC(this.data.monster.TreasureClass4.o)">任務</button>
+          </div>
         </div>
       </div>
     </mat-tab>
@@ -83,7 +91,9 @@
       <div [ngClass]="'base'">
         <div [ngClass]="'block'" *ngIf="this.data.monster.hp.min.n">
           <div>生命：</div>
-          <div>({{ this.data.monster.hp.min.n*getMultiplies(levels, this.data.monster.level.n, 'hp', 'n')/100 }}-{{ this.data.monster.hp.max.n*getMultiplies(levels, this.data.monster.level.n, 'hp', 'n')/100 }})</div>
+          <div>
+            ({{ this.data.monster.hp.min.n*getMultiplies(levels, this.data.monster.level.n, 'hp', 'n')/100 }}-{{ this.data.monster.hp.max.n*getMultiplies(levels, this.data.monster.level.n, 'hp', 'n')/100 }})
+          </div>
         </div>
         <div [ngClass]="'block'" *ngIf="this.data.monster.level.n">
           <div>等級：</div>
@@ -127,7 +137,12 @@
         </div>
         <div [ngClass]="'block'">
           <div>掉落：</div>
-          <div>製作中</div>
+          <div>
+            <button *ngIf="this.data.monster.TreasureClass1.n" mat-stroked-button (click)="showTC(this.data.monster.TreasureClass1.n)">普通</button>
+            <button *ngIf="this.data.monster.TreasureClass2.n" mat-stroked-button (click)="showTC(this.data.monster.TreasureClass2.n)">冠軍</button>
+            <button *ngIf="this.data.monster.TreasureClass3.n" mat-stroked-button (click)="showTC(this.data.monster.TreasureClass3.n)">獨特</button>
+            <button *ngIf="this.data.monster.TreasureClass4.n" mat-stroked-button (click)="showTC(this.data.monster.TreasureClass4.n)">任務</button>
+          </div>
         </div>
       </div>
     </mat-tab>
@@ -135,7 +150,9 @@
       <div [ngClass]="'base'">
         <div [ngClass]="'block'" *ngIf="this.data.monster.hp.min.h">
           <div>生命：</div>
-          <div>({{ this.data.monster.hp.min.h*getMultiplies(levels, this.data.monster.level.h, 'hp', 'h')/100 }}-{{ this.data.monster.hp.max.h*getMultiplies(levels, this.data.monster.level.h, 'hp', 'h')/100 }})</div>
+          <div>
+            ({{ this.data.monster.hp.min.h*getMultiplies(levels, this.data.monster.level.h, 'hp', 'h')/100 }}-{{ this.data.monster.hp.max.h*getMultiplies(levels, this.data.monster.level.h, 'hp', 'h')/100 }})
+          </div>
         </div>
         <div [ngClass]="'block'" *ngIf="this.data.monster.level.h">
           <div>等級：</div>
@@ -179,7 +196,12 @@
         </div>
         <div [ngClass]="'block'">
           <div>掉落：</div>
-          <div>製作中</div>
+          <div>
+            <button *ngIf="this.data.monster.TreasureClass1.h" mat-stroked-button (click)="showTC(this.data.monster.TreasureClass1.h)">普通</button>
+            <button *ngIf="this.data.monster.TreasureClass2.h" mat-stroked-button (click)="showTC(this.data.monster.TreasureClass2.h)">冠軍</button>
+            <button *ngIf="this.data.monster.TreasureClass3.h" mat-stroked-button (click)="showTC(this.data.monster.TreasureClass3.h)">獨特</button>
+            <button *ngIf="this.data.monster.TreasureClass4.h" mat-stroked-button (click)="showTC(this.data.monster.TreasureClass4.h)">任務</button>
+          </div>
         </div>
       </div>
     </mat-tab>
@@ -189,7 +211,7 @@
 <mat-dialog-actions [ngClass]="'action'">
   <!-- <div [ngClass]="'closecontainer'"> -->
   <!-- <div> -->
-  <button mat-button mat- mat-dialog-close (click)="close()" [ngClass]="'close'">關閉</button>
+  <button mat-stroked-button mat- mat-dialog-close (click)="close()" [ngClass]="'close'">關閉</button>
   <!-- </div> -->
   <!-- </div> -->
 </mat-dialog-actions>

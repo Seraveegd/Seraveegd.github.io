@@ -47,7 +47,7 @@
     border-bottom: none;
   }
 
-  tr .desc{
+  tr .desc {
     color: #c9b012;
     font-size: 14px;
   }
@@ -63,7 +63,16 @@
   td {
     font-size: 20px;
 
-    a{
+    button {
+      margin: 0 10px 0 0;
+      border-bottom: 1px solid #f8d55a;
+
+      &:hover{
+        background-color: #32475d;
+      }
+    }
+
+    a {
       cursor: pointer;
       color: #a58d6d;
     }

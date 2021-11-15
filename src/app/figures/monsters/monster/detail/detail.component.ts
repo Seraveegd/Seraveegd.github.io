@@ -1,9 +1,10 @@
 import { Component, Inject, OnInit, ViewEncapsulation } from '@angular/core';
-import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Config } from '../../../../core/config.service';
 import { Clipboard } from "@angular/cdk/clipboard"
 import { FigureService } from '../../../figure.service';
+import { TreasureclassComponent } from '../../treasureclass/treasureclass.component';
 
 @Component({
   selector: 'app-detail',
@@ -16,7 +17,7 @@ export class DetailComponent implements OnInit {
   monlvls = this.figure.getMonsterLevels();
 
   constructor(public dialogRef: MatDialogRef<DetailComponent>, @Inject(MAT_DIALOG_DATA) public data: any, private clipboard: Clipboard, private snackBar: MatSnackBar,
-    private config: Config, private figure: FigureService) {
+    private config: Config, private figure: FigureService, private dialog: MatDialog) {
   }
 
   ngOnInit(): void {
@@ -40,6 +41,14 @@ export class DetailComponent implements OnInit {
 
   getMultiplies(levels: any, level: number, type: string, difficult: string): number {
     return levels[level][type][difficult];
+  }
+
+  showTC(tc: string) {
+    let dialogRef = this.dialog.open(TreasureclassComponent, {
+      data: tc,
+      backdropClass: 'backdropBackground',
+      panelClass: 'custom-dialog-container'
+    });
   }
 
 }

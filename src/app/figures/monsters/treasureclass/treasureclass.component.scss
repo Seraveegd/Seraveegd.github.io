@@ -1,0 +1,56 @@
+.title {
+  background-color: #444444;
+  color: #bb9e74;
+  padding: 8px;
+  font-size: 20pt;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  position: relative;
+
+  .desc {
+    color: rgb(201 176 18 / 50%);
+    font-size: 14px;
+  }
+
+  mat-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.content {
+  .drops {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+
+    .drop {
+      border: 1px solid #ccc;
+      padding: 4px;
+      border-radius: 5px;
+      margin: 10px;
+      color: white;
+    }
+  }
+
+  .mat-tab-label {
+    font-weight: bolder;
+    color: white;
+  }
+}
+
+.action {
+  button {
+    width: 100%;
+    background-color: #112233;
+    color: white;
+
+    &:hover {
+      background-color: #444444;
+    }
+  }
+}
