@@ -117,7 +117,7 @@
                     </div>
                   </div>
                 </ng-container>
-                <ng-container *ngSwitchCase="'accessories'">
+                <ng-container *ngSwitchCase="item.type === 'accessories' || item.type === 'jewelry' || item.type === 'charm' ? item.type : ''">
                   <div [ngClass]="'block'">
                     <div [ngClass]="'images'">
                       <img [src]="'/assets/images/items/unique/' + item.type + '/' + item.part + '/' + rename(item.name_en) + '.png'">

@@ -14350,5 +14350,2682 @@
       [2]
     ],
     "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "sword",
+    "name": "金瑟的裂隙",
+    "name_en": "Ginther's Rift",
+    "ladder": "",
+    "attributes": {
+      "base": "次元刃",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 26,
+        "max": 87
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 37,
+      "strength": 85,
+      "agile": 60,
+      "range": null,
+      "quantity": null,
+      "durability": 60,
+      "extra_skills": "",
+      "speed": 0
+    },
+    "ability": [
+      "#% 傷害強化",
+      "附加 # 魔法傷害",
+      "攻擊速度 #%",
+      "魔法傷害降低 #",
+      "每 # 秒修復 # 點耐久度"
+    ],
+    "ability_values": [["+(100-150)"], ["50-120"], ["+30"], ["(7-12)"], [5, 1]],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "sword",
+    "name": "擊頭者",
+    "name_en": "Headstriker",
+    "ladder": "",
+    "attributes": {
+      "base": "戰鬥長劍",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 40,
+        "max": 184
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 39,
+      "strength": 92,
+      "agile": 43,
+      "range": null,
+      "quantity": null,
+      "durability": 32,
+      "extra_skills": "",
+      "speed": 0
+    },
+    "ability": [
+      "#% 傷害強化",
+      "# 最大傷害 (依角色等級而定)",
+      "#% 致命打擊 (依角色等級而定)",
+      "防止怪物自療",
+      "# 力量"
+    ],
+    "ability_values": [["+150"], ["+(1-99)"], ["(1-148)"], [], ["+15"]],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "sword",
+    "name": "疫病帶原者",
+    "name_en": "Plague Bearer",
+    "ladder": "",
+    "attributes": {
+      "base": "符文劍",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 35,
+        "max": 150
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 41,
+      "strength": 103,
+      "agile": 79,
+      "range": null,
+      "quantity": null,
+      "durability": 44,
+      "extra_skills": "",
+      "speed": -10
+    },
+    "ability": [
+      "#% 傷害強化",
+      "附加 # 傷害",
+      "# 毒素傷害，時效 # 秒",
+      "擊中時有 #% 機率施展等級 # 劇毒新星",
+      "毒素抗性 #%",
+      "# 至狂犬撕咬 (只限德魯伊)"
+    ],
+    "ability_values": [["+150"], ["10-45"], ["+300", 8], [5, 4], ["+45"], ["+5"]],
+    "limit": "druid"
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "sword",
+    "name": "亞特蘭提恩",
+    "name_en": "The Atlantean",
+    "ladder": "",
+    "attributes": {
+      "base": "上古劍",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 54,
+        "max": 150
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 42,
+      "strength": 127,
+      "agile": 88,
+      "range": null,
+      "quantity": null,
+      "durability": 144,
+      "extra_skills": "",
+      "speed": 0
+    },
+    "ability": [
+      "#% 傷害強化",
+      "# 聖騎士技能等級",
+      "#% 準確率加成",
+      "# 防禦",
+      "# 體能",
+      "# 敏捷",
+      "# 力量"
+    ],
+    "ability_values": [
+      ["+(200-250)"],
+      ["+2"],
+      [50],
+      ["+75"],
+      ["+8"],
+      ["+12"],
+      ["+16"]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "sword",
+    "name": "恐懼之嘔",
+    "name_en": "Crainte Vomir",
+    "ladder": "",
+    "attributes": {
+      "base": "雙手重劍",
+      "attack": "melee",
+      "hand": "two",
+      "oneharm": {
+        "min": 20,
+        "max": 78
+      },
+      "twoharm": {
+        "min": 46,
+        "max": 120
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 42,
+      "strength": 73,
+      "agile": 61,
+      "range": null,
+      "quantity": null,
+      "durability": 44,
+      "extra_skills": "",
+      "speed": 0
+    },
+    "ability": [
+      "#% 傷害強化",
+      "攻擊速度 #%",
+      "使目標減慢 #%",
+      "擊中使怪物防禦 #",
+      "#% 跑步 / 行走速度",
+      "傷害降低 #%"
+    ],
+    "ability_values": [["+(160-200)"], ["+50"], [35], [-70], ["+20"], [10]],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "sword",
+    "name": "冰之王",
+    "name_en": "Bing Sz Wang",
+    "ladder": "",
+    "attributes": {
+      "base": "達西安鐮刀",
+      "attack": "melee",
+      "hand": "two",
+      "oneharm": {
+        "min": 29,
+        "max": 78
+      },
+      "twoharm": {
+        "min": 59,
+        "max": 158
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 43,
+      "strength": 64,
+      "agile": 14,
+      "range": null,
+      "quantity": null,
+      "durability": 50,
+      "extra_skills": "",
+      "speed": 10
+    },
+    "ability": [
+      "#% 傷害強化",
+      "附加 # 冰寒傷害",
+      "擊中時有 #% 機率施展等級 # 冰封球",
+      "凍結目標 #",
+      "需求 #%",
+      "# 力量"
+    ],
+    "ability_values": [
+      ["+(130-160)"],
+      ["50-140"],
+      [5, 3],
+      ["+2"],
+      [-30],
+      ["+20"]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "sword",
+    "name": "兇邪軀殼",
+    "name_en": "The Vile Husk",
+    "ladder": "",
+    "attributes": {
+      "base": "長牙劍",
+      "attack": "melee",
+      "hand": "two",
+      "oneharm": {
+        "min": 25,
+        "max": 111
+      },
+      "twoharm": {
+        "min": 47,
+        "max": 174
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 44,
+      "strength": 104,
+      "agile": 71,
+      "range": null,
+      "quantity": null,
+      "durability": 50,
+      "extra_skills": "",
+      "speed": 0
+    },
+    "ability": [
+      "#% 傷害強化",
+      "#% 對不死怪物的傷害 (依角色等級而定)",
+      "# 對不死怪物的準確率 (依角色等級而定)",
+      "# 毒素傷害，時效 # 秒",
+      "擊中時有 #% 機率施展等級 # 傷害加深",
+      "毒素抗性 #%"
+    ],
+    "ability_values": [
+      ["+(150-200)"],
+      ["+(7-742)"],
+      ["+(10-990)"],
+      ["+250", 6],
+      [6, 1],
+      ["+50"]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "sword",
+    "name": "雲裂",
+    "name_en": "Cloudcrack",
+    "ladder": "",
+    "attributes": {
+      "base": "哥德劍",
+      "attack": "melee",
+      "hand": "two",
+      "oneharm": {
+        "min": 35,
+        "max": 120
+      },
+      "twoharm": {
+        "min": 97,
+        "max": 180
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 45,
+      "strength": 113,
+      "agile": 20,
+      "range": null,
+      "quantity": null,
+      "durability": 40,
+      "extra_skills": "",
+      "speed": 10
+    },
+    "ability": [
+      "#% 傷害強化",
+      "擊中時有 #% 機率施展等級 # 天堂之拳",
+      "附加 # 電擊傷害",
+      "電擊抗性上限 #%",
+      "# 防禦",
+      "攻擊者受到 # 點電擊傷害",
+      "# 防禦靈氣 (只限聖騎士)",
+      "# 攻擊靈氣 (只限聖騎士)",
+      "照亮範圍 #"
+    ],
+    "ability_values": [
+      ["+(150-200)"],
+      [6, 7],
+      ["1-240"],
+      ["+10"],
+      ["+30"],
+      [15],
+      ["+2"],
+      ["+2"],
+      ["+2"]
+    ],
+    "limit": "paladin"
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "sword",
+    "name": "死落之火",
+    "name_en": "Todesfaelle Flamme",
+    "ladder": "",
+    "attributes": {
+      "base": "日耳曼大劍",
+      "attack": "melee",
+      "hand": "two",
+      "oneharm": {
+        "min": 41,
+        "max": 91
+      },
+      "twoharm": {
+        "min": 63,
+        "max": 140
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 46,
+      "strength": 125,
+      "agile": 94,
+      "range": null,
+      "quantity": null,
+      "durability": 50,
+      "extra_skills": "",
+      "speed": -10
+    },
+    "ability": [
+      "#% 傷害強化",
+      "附加 # 火焰傷害",
+      "攻擊時有 #% 機率施展等級 # 火球術",
+      "等級 # 火牆術 (#次)",
+      "等級 # 附魔 (#次)",
+      "# 火焰吸收",
+      "火焰抗性 #%"
+    ],
+    "ability_values": [
+      ["+(120-160)"],
+      ["50-200"],
+      [10, 6],
+      [10, 20],
+      [10, 45],
+      ["+10"],
+      ["+40"]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "sword",
+    "name": "劍衛",
+    "name_en": "Swordguard",
+    "ladder": "",
+    "attributes": {
+      "base": "處刑劍",
+      "attack": "melee",
+      "hand": "two",
+      "oneharm": {
+        "min": 64,
+        "max": 112
+      },
+      "twoharm": {
+        "min": 126,
+        "max": 224
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 48,
+      "strength": 85,
+      "agile": 55,
+      "range": null,
+      "quantity": null,
+      "durability": 50,
+      "extra_skills": "",
+      "speed": 10
+    },
+    "ability": [
+      "#% 傷害強化",
+      "# 防禦 (依角色等級而定)",
+      "轉化 #% 受損的生命為法力",
+      "需求 #%",
+      "所有抗性 #",
+      "#% 打擊恢復",
+      "格擋機率提高 #%",
+      "# 對遠程防禦",
+      "# 對近戰防禦"
+    ],
+    "ability_values": [
+      ["+(170-180)"],
+      ["+(5-495)"],
+      [30],
+      [-50],
+      ["+(10-20)"],
+      ["+20"],
+      [20],
+      ["+100"],
+      ["+200"]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "sword",
+    "name": "魔靈殺手",
+    "name_en": "Djinn Slayer",
+    "ladder": "ladder",
+    "attributes": {
+      "base": "土耳其彎刀",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 75,
+        "max": 156
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 65,
+      "strength": 138,
+      "agile": 95,
+      "range": null,
+      "quantity": null,
+      "durability": 22,
+      "extra_skills": "",
+      "speed": -20
+    },
+    "ability": [
+      "#% 傷害強化",
+      "#% 對惡魔的傷害",
+      "附加 # 火焰傷害",
+      "擊中竊取 #% 法力",
+      "# 電擊吸收",
+      "# 對惡魔的準確率",
+      "鑲孔（#）"
+    ],
+    "ability_values": [
+      ["+(190-240)"],
+      ["+(100-150)"],
+      ["250-500"],
+      ["(3-6)"],
+      ["+(3-7)"],
+      ["+(200-300)"],
+      ["(1-2)"]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "sword",
+    "name": "血月",
+    "name_en": "Bloodmoon",
+    "ladder": "",
+    "attributes": {
+      "base": "典雅彎刀",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 102,
+        "max": 162
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 61,
+      "strength": 109,
+      "agile": 122,
+      "range": null,
+      "quantity": null,
+      "durability": 32,
+      "extra_skills": "",
+      "speed": -10
+    },
+    "ability": [
+      "#% 傷害強化",
+      "擊中竊取 #% 生命",
+      "#% 機率造成開放傷口",
+      "# 擊殺生命恢復",
+      "等級 # 鮮血魔像 (#次)"
+    ],
+    "ability_values": [["+(210-260)"], ["(10-15)"], [50], ["+(7-13)"], [15, 9]],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "sword",
+    "name": "光之軍刀",
+    "name_en": "Lightsabre",
+    "ladder": "",
+    "attributes": {
+      "base": "幻化之刃",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 87,
+        "max": 135
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 58,
+      "strength": 25,
+      "agile": 136,
+      "range": null,
+      "quantity": null,
+      "durability": null,
+      "extra_skills": "",
+      "speed": -30
+    },
+    "ability": [
+      "#% 傷害強化",
+      "附加 # 傷害",
+      "附加 # 魔法傷害",
+      "附加 # 電擊傷害",
+      "擊中竊取 #% 法力",
+      "攻擊時有 #% 機率施展等級 # 連鎖閃電",
+      "攻擊速度 #%",
+      "忽視目標防禦",
+      "電擊吸收 #%",
+      "照亮範圍 #"
+    ],
+    "ability_values": [
+      ["+(150-200)"],
+      ["10-30"],
+      ["60-120"],
+      ["1-200"],
+      ["(5-7)"],
+      [5, "(14-20)"],
+      ["+20"],
+      [],
+      [25],
+      ["+7"]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "sword",
+    "name": "碧藍怒火",
+    "name_en": "Azurewrath",
+    "ladder": "ladder",
+    "attributes": {
+      "base": "幻化之刃",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 102,
+        "max": 129
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 85,
+      "strength": 25,
+      "agile": 136,
+      "range": null,
+      "quantity": null,
+      "durability": null,
+      "extra_skills": "",
+      "speed": -30
+    },
+    "ability": [
+      "#% 傷害強化",
+      "攻擊速度 #%",
+      "附加 # 魔法傷害",
+      "附加 # 冰寒傷害",
+      "# 所有技能",
+      "# 所有屬性",
+      "裝備時賦予等級 # 庇護靈氣",
+      "照亮範圍 #"
+    ],
+    "ability_values": [
+      ["+(230-270)"],
+      ["+30"],
+      ["250-500"],
+      ["250-500"],
+      ["+1"],
+      ["+(5-10)"],
+      ["(10-13)"],
+      ["+3"]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "sword",
+    "name": "霜風",
+    "name_en": "Frostwind",
+    "ladder": "",
+    "attributes": {
+      "base": "絕秘劍",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 14,
+        "max": 254
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 70,
+      "strength": 99,
+      "agile": 109,
+      "range": null,
+      "quantity": null,
+      "durability": null,
+      "extra_skills": "",
+      "speed": -10
+    },
+    "ability": [
+      "#% 傷害強化",
+      "附加 # 冰寒傷害",
+      "# 至極地寒風",
+      "凍結目標 #",
+      "冰寒吸收 #%",
+      "被凍結的時效減半",
+      "攻擊速度 #%"
+    ],
+    "ability_values": [
+      ["+(180-230)"],
+      ["237-486"],
+      ["+(7-14)"],
+      ["+4"],
+      ["(7-15)"],
+      [],
+      ["+25"]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "sword",
+    "name": "火嚎",
+    "name_en": "Flamebellow",
+    "ladder": "",
+    "attributes": {
+      "base": "炎魔之刃",
+      "attack": "melee",
+      "hand": "two",
+      "oneharm": {
+        "min": 40,
+        "max": 255
+      },
+      "twoharm": {
+        "min": 148,
+        "max": 401
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 71,
+      "strength": 185,
+      "agile": 87,
+      "range": null,
+      "quantity": null,
+      "durability": null,
+      "extra_skills": "",
+      "speed": 0
+    },
+    "ability": [
+      "#% 傷害強化",
+      "附加 # 火焰傷害",
+      "# 火焰技能",
+      "# 至煉獄之火",
+      "# 力量",
+      "# 體能",
+      "擊中時有 #% 機率施展等級 # 火風暴",
+      "火焰吸收 #%"
+    ],
+    "ability_values": [
+      ["+(170-240)"],
+      ["233-482"],
+      ["+3"],
+      ["+(12-18)"],
+      ["+(10-20)"],
+      ["+(5-10)"],
+      [12, 16],
+      ["(20-30)"]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "sword",
+    "name": "末日使者",
+    "name_en": "Doombringer",
+    "ladder": "",
+    "attributes": {
+      "base": "豪傑大劍",
+      "attack": "melee",
+      "hand": "two",
+      "oneharm": {
+        "min": 97,
+        "max": 289
+      },
+      "twoharm": {
+        "min": 228,
+        "max": 390
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 69,
+      "strength": 163,
+      "agile": 103,
+      "range": null,
+      "quantity": null,
+      "durability": null,
+      "extra_skills": "",
+      "speed": -10
+    },
+    "ability": [
+      "#% 傷害強化",
+      "附加 # 傷害",
+      "擊中時有 #% 機率施展等級 # 削弱",
+      "#% 準確率加成",
+      "生命上限提高 #%",
+      "擊中竊取 #% 生命",
+      "永不毀損"
+    ],
+    "ability_values": [
+      ["+(180-250)"],
+      ["30-100"],
+      [8, 3],
+      [40],
+      [20],
+      ["(5-7)"],
+      []
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "sword",
+    "name": "高祖",
+    "name_en": "The Grandfather",
+    "ladder": "",
+    "attributes": {
+      "base": "巨神刃",
+      "attack": "melee",
+      "hand": "two",
+      "oneharm": {
+        "min": 62,
+        "max": 474
+      },
+      "twoharm": {
+        "min": 145,
+        "max": 649
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 81,
+      "strength": 189,
+      "agile": 110,
+      "range": null,
+      "quantity": null,
+      "durability": null,
+      "extra_skills": "",
+      "speed": 5
+    },
+    "ability": [
+      "#% 傷害強化",
+      "# 最大傷害 (依角色等級而定)",
+      "#% 準確率加成",
+      "# 生命",
+      "# 所有屬性",
+      "永不毀損"
+    ],
+    "ability_values": [
+      ["+(150-250)"],
+      ["+(2-247)"],
+      [50],
+      ["+80"],
+      ["+20"],
+      []
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "normal",
+    "type": "weapon",
+    "part": "wand",
+    "name": "伊洛的火炬",
+    "name_en": "Torch of Iro",
+    "ladder": "",
+    "attributes": {
+      "base": "魔杖",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 2,
+        "max": 4
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 5,
+      "strength": null,
+      "agile": null,
+      "range": null,
+      "quantity": null,
+      "durability": 15,
+      "extra_skills": "",
+      "speed": 0
+    },
+    "ability": [
+      "#% 對不死怪物的傷害",
+      "附加 # 火焰傷害",
+      "# 死靈法師技能等級",
+      "# 能量",
+      "法力恢復 #%",
+      "擊中竊取 #% 生命",
+      "照亮範圍 #"
+    ],
+    "ability_values": [["+50"], ["5-9"], ["+1"], ["+10"], [5], [6], ["+3"]],
+    "limit": "necromancer"
+  },
+  {
+    "quality": "normal",
+    "type": "weapon",
+    "part": "wand",
+    "name": "漩渦",
+    "name_en": "Maelstrom",
+    "ladder": "",
+    "attributes": {
+      "base": "紫杉魔杖",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 2,
+        "max": 8
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 14,
+      "strength": null,
+      "agile": null,
+      "range": null,
+      "quantity": null,
+      "durability": 15,
+      "extra_skills": "",
+      "speed": 10
+    },
+    "ability": [
+      "#% 對不死怪物的傷害",
+      "附加 # 電擊傷害",
+      "# 法力",
+      "#% 施法速度",
+      "電擊抗性 #%",
+      "# 至攻擊反噬 (只限死靈法師)",
+      "# 至傷害加深 (只限死靈法師)",
+      "# 至恐懼 (只限死靈法師)",
+      "# 至屍爆 (只限死靈法師)"
+    ],
+    "ability_values": [
+      ["+50"],
+      ["1-9"],
+      ["+13"],
+      ["+30"],
+      ["+40"],
+      ["+(1-3)"],
+      ["+(1-3)"],
+      ["+(1-3)"],
+      ["+(1-3)"]
+    ],
+    "limit": "necromancer"
+  },
+  {
+    "quality": "normal",
+    "type": "weapon",
+    "part": "wand",
+    "name": "墓穴之脊",
+    "name_en": "Gravenspine",
+    "ladder": "",
+    "attributes": {
+      "base": "骸骨魔杖",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 3,
+        "max": 7
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 20,
+      "strength": null,
+      "agile": null,
+      "range": null,
+      "quantity": null,
+      "durability": 15,
+      "extra_skills": "",
+      "speed": -20
+    },
+    "ability": [
+      "#% 對不死怪物的傷害",
+      "# 死靈法師技能等級",
+      "附加 # 冰寒傷害",
+      "擊中竊取 #% 法力",
+      "# 法力",
+      "# 敏捷",
+      "# 力量"
+    ],
+    "ability_values": [
+      ["+50"],
+      ["+2"],
+      ["4-8"],
+      [5],
+      ["+(25-50)"],
+      ["+10"],
+      ["+10"]
+    ],
+    "limit": "necromancer"
+  },
+  {
+    "quality": "normal",
+    "type": "weapon",
+    "part": "wand",
+    "name": "梅花嘆",
+    "name_en": "Ume's Lament",
+    "ladder": "",
+    "attributes": {
+      "base": "陰森魔杖",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 5,
+        "max": 11
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 28,
+      "strength": null,
+      "agile": null,
+      "range": null,
+      "quantity": null,
+      "durability": 15,
+      "extra_skills": "",
+      "speed": 0
+    },
+    "ability": [
+      "#% 對不死怪物的傷害",
+      "# 死靈法師技能等級",
+      "#% 施法速度",
+      "# 法力",
+      "擊中有 #% 機率使怪物逃跑",
+      "# 至衰老 (只限死靈法師)",
+      "# 至恐懼 (只限死靈法師)"
+    ],
+    "ability_values": [["+50"], ["+2"], ["+20"], ["+40"], [50], ["+2"], ["+3"]],
+    "limit": "necromancer"
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "wand",
+    "name": "自殘枝椏",
+    "name_en": "Suicide Branch",
+    "ladder": "",
+    "attributes": {
+      "base": "焦木魔杖",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 8,
+        "max": 18
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 33,
+      "strength": 25,
+      "agile": null,
+      "range": null,
+      "quantity": null,
+      "durability": 15,
+      "extra_skills": "",
+      "speed": 0
+    },
+    "ability": [
+      "#% 對不死怪物的傷害",
+      "# 所有技能",
+      "#% 施法速度",
+      "法力上限提高 #%",
+      "所有抗性 #",
+      "# 生命",
+      "攻擊者反傷：#"
+    ],
+    "ability_values": [["+50"], ["+1"], ["+50"], [10], ["+10"], ["+40"], [25]],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "wand",
+    "name": "凱林碎片",
+    "name_en": "Carin Shard",
+    "ladder": "",
+    "attributes": {
+      "base": "石木魔杖",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 8,
+        "max": 24
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 35,
+      "strength": 25,
+      "agile": null,
+      "range": null,
+      "quantity": null,
+      "durability": 15,
+      "extra_skills": "",
+      "speed": 10
+    },
+    "ability": [
+      "#% 對不死怪物的傷害",
+      "# 法力 (依角色等級而定)",
+      "# 生命 (依角色等級而定)",
+      "# 死靈法師技能等級",
+      "# 召喚技能 (只限死靈法師)",
+      "#% 施法速度",
+      "#% 打擊恢復",
+      "生命回復 #"
+    ],
+    "ability_values": [
+      ["+50"],
+      ["+(1-123)"],
+      ["+(1-123)"],
+      ["+1"],
+      ["+2"],
+      ["+10"],
+      ["+30"],
+      ["+5"]
+    ],
+    "limit": "necromancer"
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "wand",
+    "name": "李奧瑞克王的手骨",
+    "name_en": "Arm of King Leoric",
+    "ladder": "",
+    "attributes": {
+      "base": "古墓魔杖",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 10,
+        "max": 22
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 36,
+      "strength": 25,
+      "agile": null,
+      "range": null,
+      "quantity": null,
+      "durability": 15,
+      "extra_skills": "",
+      "speed": -20
+    },
+    "ability": [
+      "#% 對不死怪物的傷害",
+      "被擊中時有 #% 機率施展等級 # 骨牢",
+      "被擊中時有 #% 機率施展等級 # 骸骨之魂",
+      "# 法力 (依角色等級而定)",
+      "#% 施法速度",
+      "# 至恐懼 (只限死靈法師)",
+      "# 至復生骷髏法師 (只限死靈法師)",
+      "# 至骷髏專精 (只限死靈法師)",
+      "# 至復生骷髏 (只限死靈法師)",
+      "# 召喚技能 (只限死靈法師)",
+      "# 毒素與骸骨技能 (只限死靈法師)"
+    ],
+    "ability_values": [
+      ["+50"],
+      [10, 2],
+      [5, 10],
+      ["+(1-123)"],
+      ["+10"],
+      ["+2"],
+      ["+2"],
+      ["+3"],
+      ["+3"],
+      ["+2"],
+      ["+2"]
+    ],
+    "limit": "necromancer"
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "wand",
+    "name": "黑手之鑰",
+    "name_en": "Blackhand Key",
+    "ladder": "",
+    "attributes": {
+      "base": "墓地魔杖",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 13,
+        "max": 29
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 41,
+      "strength": 25,
+      "agile": null,
+      "range": null,
+      "quantity": null,
+      "durability": 15,
+      "extra_skills": "",
+      "speed": 0
+    },
+    "ability": [
+      "#% 對不死怪物的傷害",
+      "# 死靈法師技能等級",
+      "# 詛咒 (只限死靈法師)",
+      "轉化 #% 受損的生命為法力",
+      "#% 施法速度",
+      "火焰抗性 #%",
+      "# 生命",
+      "等級 # 恐怖圖騰 (#次)",
+      "照亮範圍 #"
+    ],
+    "ability_values": [
+      ["+50"],
+      ["+2"],
+      ["+1"],
+      [20],
+      ["+30"],
+      ["+37"],
+      ["+50"],
+      [13, 30],
+      [-2]
+    ],
+    "limit": "necromancer"
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "wand",
+    "name": "骸骨陰影",
+    "name_en": "Boneshade",
+    "ladder": "",
+    "attributes": {
+      "base": "巫妖魔杖",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 10,
+        "max": 31
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 79,
+      "strength": 25,
+      "agile": null,
+      "range": null,
+      "quantity": null,
+      "durability": 17,
+      "extra_skills": "",
+      "speed": -20
+    },
+    "ability": [
+      "#% 對不死生物的傷害",
+      "# 死靈法師技能等級",
+      "# 至骸骨之魂 (只限死靈法師)",
+      "# 至骨矛 (只限死靈法師)",
+      "# 至骨牆 (只限死靈法師)",
+      "# 至骸骨護甲 (只限死靈法師)",
+      "# 至剔骨之牙 (只限死靈法師)",
+      "#% 施法速度"
+    ],
+    "ability_values": [
+      ["+50"],
+      ["+2"],
+      ["+(1-2)"],
+      ["+(2-3)"],
+      ["+(2-3)"],
+      ["+(4-5)"],
+      ["+(4-5)"],
+      ["+25"]
+    ],
+    "limit": "necromancer"
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "wand",
+    "name": "死亡之網",
+    "name_en": "Death's Web",
+    "ladder": "",
+    "attributes": {
+      "base": "埋骨魔杖",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 22,
+        "max": 28
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 66,
+      "strength": 25,
+      "agile": null,
+      "range": null,
+      "quantity": null,
+      "durability": 18,
+      "extra_skills": "",
+      "speed": 0
+    },
+    "ability": [
+      "#% 對不死生物的傷害",
+      "敵人毒素抗性 #%",
+      "# 擊殺法力恢復",
+      "# 擊殺生命恢復",
+      "# 所有技能",
+      "# 毒素與骸骨技能 (只限死靈法師)"
+    ],
+    "ability_values": [
+      ["+50"],
+      ["-(40-50)"],
+      ["+(7-12)"],
+      ["+(7-12)"],
+      ["+2"],
+      ["+(1-2)"]
+    ],
+    "limit": "necromancer"
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "throwing",
+    "name": "死亡尖鑽",
+    "name_en": "Deathbit",
+    "ladder": "",
+    "attributes": {
+      "base": "戰鬥飛鏢",
+      "attack": "missile",
+      "hand": "one",
+      "oneharm": {
+        "min": 18,
+        "max": 44
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": 25,
+        "max": 67
+      },
+      "level": 44,
+      "strength": 25,
+      "agile": 52,
+      "range": null,
+      "quantity": 160,
+      "durability": null,
+      "extra_skills": "",
+      "speed": 0
+    },
+    "ability": [
+      "#% 傷害強化",
+      "#% 致命打擊",
+      "# 準確率",
+      "擊中竊取 #% 生命",
+      "擊中竊取 #% 法力",
+      "回覆數量"
+    ],
+    "ability_values": [
+      ["+(130-180)"],
+      [40],
+      ["+(200-450)"],
+      ["(7-9)"],
+      ["(4-6)"],
+      []
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "throwing",
+    "name": "頭皮剝斧",
+    "name_en": "The Scalper",
+    "ladder": "",
+    "attributes": {
+      "base": "法蘭西飛斧",
+      "attack": "missile",
+      "hand": "one",
+      "oneharm": {
+        "min": 27,
+        "max": 66
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": 45,
+        "max": 99
+      },
+      "level": 57,
+      "strength": 25,
+      "agile": 80,
+      "range": null,
+      "quantity": 130,
+      "durability": null,
+      "extra_skills": "",
+      "speed": 10
+    },
+    "ability": [
+      "#% 傷害強化",
+      "#% 機率造成開放傷口",
+      "# 擊殺法力恢復",
+      "攻擊速度 #%",
+      "#% 準確率加成",
+      "擊中竊取 #% 生命",
+      "回覆數量"
+    ],
+    "ability_values": [
+      ["+(150-200)"],
+      [33],
+      ["+4"],
+      ["+20"],
+      [25],
+      ["(4-6)"],
+      []
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "throwing",
+    "name": "戰爭之鳥",
+    "name_en": "Warshrike",
+    "ladder": "ladder",
+    "attributes": {
+      "base": "翼刀",
+      "attack": "missile",
+      "hand": "one",
+      "oneharm": {
+        "min": 81,
+        "max": 122
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": 69,
+        "max": 136
+      },
+      "level": 75,
+      "strength": 45,
+      "agile": 142,
+      "range": null,
+      "quantity": 200,
+      "durability": null,
+      "extra_skills": "",
+      "speed": -20
+    },
+    "ability": [
+      "#% 傷害強化",
+      "#% 致命打擊",
+      "攻擊速度 #%",
+      "穿刺攻擊",
+      "擊中時有 #% 機率施展等級 # 閃電新星",
+      "回復數量"
+    ],
+    "ability_values": [["+(200-250)"], [50], ["+30"], [], [25, 9], []],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "throwing",
+    "name": "吉默削斧",
+    "name_en": "Gimmershred",
+    "ladder": "",
+    "attributes": {
+      "base": "飛斧",
+      "attack": "missile",
+      "hand": "one",
+      "oneharm": {
+        "min": 44,
+        "max": 201
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": 39,
+        "max": 204
+      },
+      "level": 70,
+      "strength": 88,
+      "agile": 108,
+      "range": null,
+      "quantity": 240,
+      "durability": null,
+      "extra_skills": "",
+      "speed": 10
+    },
+    "ability": [
+      "#% 傷害強化",
+      "附加 # 火焰傷害",
+      "附加 # 電擊傷害",
+      "附加 # 冰寒傷害",
+      "攻擊速度 #%",
+      "堆疊數量提高 #"
+    ],
+    "ability_values": [
+      ["+(160-210)"],
+      ["218-483"],
+      ["29-501"],
+      ["176-397"],
+      ["+30"],
+      [60]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "throwing",
+    "name": "撕裂者",
+    "name_en": "Lacerator",
+    "ladder": "",
+    "attributes": {
+      "base": "刃翼飛斧",
+      "attack": "missile",
+      "hand": "one",
+      "oneharm": {
+        "min": 27,
+        "max": 173
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": 17,
+        "max": 186
+      },
+      "level": 68,
+      "strength": 96,
+      "agile": 122,
+      "range": null,
+      "quantity": 180,
+      "durability": null,
+      "extra_skills": "",
+      "speed": -10
+    },
+    "ability": [
+      "#% 傷害強化",
+      "攻擊速度 #%",
+      "#% 機率造成開放傷口",
+      "防止怪物自療",
+      "擊中有 #% 機率使怪物逃跑",
+      "擊中時有 #% 機率施展等級 # 傷害加深",
+      "回復數量"
+    ],
+    "ability_values": [["+(150-210)"], ["+30"], [33], [], [50], [33, 3], []],
+    "limit": ""
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "sorceressorb",
+    "name": "核瞳",
+    "name_en": "The Oculus",
+    "ladder": "",
+    "attributes": {
+      "base": "渦流水晶",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 18,
+        "max": 42
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 42,
+      "strength": null,
+      "agile": null,
+      "range": null,
+      "quantity": null,
+      "durability": 50,
+      "extra_skills": "",
+      "speed": 10
+    },
+    "ability": [
+      "#% 魔法使技能等級",
+      "# 擊殺法力恢復",
+      "所有抗性 #",
+      "被擊中時有 # 機率施展等級 # 傳送術",
+      "#% 施法速度",
+      "# 體能",
+      "# 能量",
+      "#% 防禦強化",
+      "尋獲魔法物品機率提高 #%"
+    ],
+    "ability_values": [["+3"], ["+5"], ["+20"], [25, 1], ["+30"], ["+20"], ["+20"], ["+20"], [50]],
+    "limit": "sorceress"
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "sorceressorb",
+    "name": "艾斯屈塔的憤怒",
+    "name_en": "Eschuta's Temper",
+    "ladder": "",
+    "attributes": {
+      "base": "異能法珠",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 18,
+        "max": 50
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 72,
+      "strength": null,
+      "agile": null,
+      "range": null,
+      "quantity": null,
+      "durability": 30,
+      "extra_skills": "",
+      "speed": -10
+    },
+    "ability": [
+      "#% 魔法使技能等級",
+      "#% 施法速度",
+      "#% 火焰技能傷害",
+      "#% 閃電技能傷害",
+      "# 能量"
+    ],
+    "ability_values": [["+(1-3)"], ["+40"], ["+(10-20)"], ["+(10-20)"], ["+(20-30)"]],
+    "limit": "sorceress"
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "sorceressorb",
+    "name": "死亡深度",
+    "name_en": "Death's Fathom",
+    "ladder": "ladder",
+    "attributes": {
+      "base": "次元法珠",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 30,
+        "max": 53
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 73,
+      "strength": null,
+      "agile": null,
+      "range": null,
+      "quantity": null,
+      "durability": 50,
+      "extra_skills": "",
+      "speed": 10
+    },
+    "ability": [
+      "#% 魔法使技能等級",
+      "#% 施法速度",
+      "#% 冰寒技能傷害",
+      "電擊抗性 #%",
+      "火焰抗性 #%"
+    ],
+    "ability_values": [["+3"], ["+20"], ["+(15-30)"], ["+(25-40)"], ["+(25-40)"]],
+    "limit": "sorceress"
+  },
+  {
+    "quality": "advanced",
+    "type": "weapon",
+    "part": "assassinkatar",
+    "name": "霸圖克的割喉爪",
+    "name_en": "Bartuc's Cut-Throat",
+    "ladder": "",
+    "attributes": {
+      "base": "巨鷹爪",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 77,
+        "max": 155
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 42,
+      "strength": 79,
+      "agile": 79,
+      "range": null,
+      "quantity": null,
+      "durability": 69,
+      "extra_skills": "",
+      "speed": -30
+    },
+    "ability": [
+      "#% 傷害強化",
+      "附加 # 傷害",
+      "#% 打擊恢復",
+      "#% 準確率加成",
+      "擊中竊取 #% 生命",
+      "# 力量",
+      "# 敏捷",
+      "# 刺客技能等級",
+      "# 武學技藝 (只限刺客)"
+    ],
+    "ability_values": [["+(150-200)"], ["25-50"], ["+30"], [20], ["(5-9)"], ["+20"], ["+20"], ["+2"], ["+1"]],
+    "limit": "assassin"
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "assassinkatar",
+    "name": "影殺者",
+    "name_en": "Shadow Killer",
+    "ladder": "ladder",
+    "attributes": {
+      "base": "戰鬥刃拳",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 145,
+        "max": 201
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 78,
+      "strength": 100,
+      "agile": 100,
+      "range": null,
+      "quantity": null,
+      "durability": null,
+      "extra_skills": "",
+      "speed": -10
+    },
+    "ability": [
+      "#% 傷害強化",
+      "#% 目標防禦",
+      "凍結目標 #",
+      "# 擊殺法力恢復",
+      "擊中時有 #% 機率施展等級 # 冰霜新星",
+      "永不毀損",
+      "無形（無法修復）"
+    ],
+    "ability_values": [["+(170-220)"], [-25], ["+2"], ["+(10-15)"], [33, 8], [], []],
+    "limit": "assassin"
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "assassinkatar",
+    "name": "碧玉爪",
+    "name_en": "Jade Talon",
+    "ladder": "",
+    "attributes": {
+      "base": "腕劍",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 98,
+        "max": 153
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 66,
+      "strength": 105,
+      "agile": 105,
+      "range": null,
+      "quantity": null,
+      "durability": 56,
+      "extra_skills": "",
+      "speed": -10
+    },
+    "ability": [
+      "#% 傷害強化",
+      "# 武學技藝 (只限刺客)",
+      "# 暗影修行 (只限刺客)",
+      "#% 打擊恢復",
+      "擊中竊取 #% 法力",
+      "所有抗性 #"
+    ],
+    "ability_values": [["+(190-240)"], ["+(1-2)"], ["+(1-2)"], ["+30"], ["(10-15)"], ["+(40-50)"]],
+    "limit": "assassin"
+  },
+  {
+    "quality": "elite",
+    "type": "weapon",
+    "part": "assassinkatar",
+    "name": "火蜥蜴之爪",
+    "name_en": "Firelizard's Talons",
+    "ladder": "",
+    "attributes": {
+      "base": "蠻獸爪",
+      "attack": "melee",
+      "hand": "one",
+      "oneharm": {
+        "min": 66,
+        "max": 196
+      },
+      "twoharm": {
+        "min": null,
+        "max": null
+      },
+      "throw": {
+        "min": null,
+        "max": null
+      },
+      "level": 67,
+      "strength": 113,
+      "agile": 113,
+      "range": null,
+      "quantity": null,
+      "durability": 52,
+      "extra_skills": "",
+      "speed": -20
+    },
+    "ability": [
+      "#% 傷害強化",
+      "附加 # 火焰傷害",
+      "攻擊速度 #%",
+      "# 武學技藝 (只限刺客)",
+      "# 至獄火衛哨 (只限刺客)",
+      "# 至焰痕衛哨 (只限刺客)",
+      "火焰抗性 #%"
+    ],
+    "ability_values": [["+(200-270)"], ["236-480"], ["+15"], ["+(1-3)"], ["+(1-2)"], ["+(1-2)"], ["+(40-70)"]],
+    "limit": "assassin"
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "necklace",
+    "name": "諾科藍遺物",
+    "name_en": "Nokozan Relic",
+    "ladder": "",
+    "attributes": {
+      "base": "護身符",
+      "level": 10
+    },
+    "ability": [
+      "#% 打擊恢復",
+      "火焰抗性 #%",
+      "火焰抗性上限 #%",
+      "附加 # 火焰傷害",
+      "照亮範圍 #"
+    ],
+    "ability_values": [["+20"], ["+50"], ["+10"], ["3-6"], ["+3"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "necklace",
+    "name": "艾利曲之眼",
+    "name_en": "The Eye of Etlich",
+    "ladder": "",
+    "attributes": {
+      "base": "護身符",
+      "level": 15
+    },
+    "ability": [
+      "照亮範圍 #",
+      "# 所有技能",
+      "擊中竊取 #% 生命",
+      "附加 # 冰寒傷害",
+      "# 對遠程防禦"
+    ],
+    "ability_values": [
+      ["+(1-5)"],
+      ["+1"],
+      ["(3-7)"],
+      ["(1-2)-(3-5)"],
+      ["+(10-40)"]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "necklace",
+    "name": "瑪哈姆橡木古董",
+    "name_en": "The Mahim-Oak Curio",
+    "ladder": "",
+    "attributes": {
+      "base": "護身符",
+      "level": 25
+    },
+    "ability": [
+      "# 防禦",
+      "#% 防禦強化",
+      "#% 準確率加成",
+      "所有抗性 #",
+      "# 所有屬性"
+    ],
+    "ability_values": [["+10"], ["+10"], [10], ["+10"], ["+10"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "necklace",
+    "name": "薩拉森的機會",
+    "name_en": "Saracen's Chance",
+    "ladder": "",
+    "attributes": {
+      "base": "護身符",
+      "level": 47
+    },
+    "ability": [
+      "被擊中時有 #% 機率施展等級 # 攻擊反噬",
+      "所有抗性 #",
+      "# 所有屬性"
+    ],
+    "ability_values": [[10, 2], ["+(15-25)"], ["+12"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "necklace",
+    "name": "貓眼",
+    "name_en": "The Cat's Eye",
+    "ladder": "",
+    "attributes": {
+      "base": "護身符",
+      "level": 50
+    },
+    "ability": [
+      "#% 跑步 / 行走速度",
+      "攻擊速度 #%",
+      "# 對遠程防禦",
+      "# 防禦",
+      "# 敏捷"
+    ],
+    "ability_values": [["+30"], ["+20"], ["+100"], ["+100"], ["+25"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "necklace",
+    "name": "新月",
+    "name_en": "Crescent Moon",
+    "ladder": "",
+    "attributes": {
+      "base": "護身符",
+      "level": 50
+    },
+    "ability": [
+      "轉化 #% 受損的生命為法力",
+      "# 法力",
+      "擊中竊取 #% 生命",
+      "擊中竊取 #% 法力",
+      "魔法傷害降低 #",
+      "照亮範圍 #"
+    ],
+    "ability_values": [[10], ["+45"], ["(3-6)"], ["(11-15)"], [10], [-2]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "necklace",
+    "name": "亞特瑪的聖甲蟲",
+    "name_en": "Atma's Scarab",
+    "ladder": "",
+    "attributes": {
+      "base": "護身符",
+      "level": 60
+    },
+    "ability": [
+      "擊中時有 #% 機率施展等級 # 傷害加深",
+      "#% 準確率加成",
+      "# 毒素傷害，時效 # 秒",
+      "毒素抗性 #%",
+      "照亮範圍 #",
+      "攻擊者反傷：#"
+    ],
+    "ability_values": [[5, 2], [20], ["+40", 4], ["+75"], ["+3"], [5]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "necklace",
+    "name": "旭日東升",
+    "name_en": "The Rising Sun",
+    "ladder": "",
+    "attributes": {
+      "base": "護身符",
+      "level": 65
+    },
+    "ability": [
+      "# 火焰技能",
+      "被擊中時有 #% 機率施展等級 # 隕石術",
+      "# 火焰吸收 (依角色等級而定)",
+      "附加 # 火焰傷害",
+      "生命回復 #",
+      "照亮範圍 #"
+    ],
+    "ability_values": [
+      ["+2"],
+      [2, "(13-19)"],
+      ["+(0-74)"],
+      ["24-48"],
+      ["+10"],
+      ["+4"]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "necklace",
+    "name": "大君之怒",
+    "name_en": "Highlord's Wrath",
+    "ladder": "",
+    "attributes": {
+      "base": "護身符",
+      "level": 65
+    },
+    "ability": [
+      "# 所有技能",
+      "攻擊速度 #%",
+      "#% 致命打擊 (依角色等級而定)",
+      "電擊抗性 #%",
+      "附加 # 電擊傷害",
+      "攻擊者受到 # 點電擊傷害"
+    ],
+    "ability_values": [["+1"], ["+20"], ["+(0-37)"], ["+35"], ["1-30"], [15]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "necklace",
+    "name": "馬拉的萬花筒",
+    "name_en": "Mara's Kaleidoscope",
+    "ladder": "",
+    "attributes": {
+      "base": "護身符",
+      "level": 67
+    },
+    "ability": ["# 所有技能", "所有抗性 #", "# 所有屬性"],
+    "ability_values": [["+2"], ["+(20-30)"], ["+5"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "necklace",
+    "name": "熾天使之韻",
+    "name_en": "Seraph's Hymn",
+    "ladder": "ladder",
+    "attributes": {
+      "base": "護身符",
+      "level": 65
+    },
+    "ability": [
+      "# 所有技能",
+      "# 防禦靈氣 (只限聖騎士)",
+      "#% 對惡魔的傷害",
+      "# 對惡魔的準確率",
+      "#% 對不死怪物的傷害",
+      "# 對不死怪物的準確率",
+      "照亮範圍 #"
+    ],
+    "ability_values": [
+      ["+2"],
+      ["+(1-2)"],
+      ["+(20-50)"],
+      ["+(150-250)"],
+      ["+(20-50)"],
+      ["+(150-250)"],
+      ["+2"]
+    ],
+    "limit": "paladin"
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "necklace",
+    "name": "金屬網格",
+    "name_en": "Metalgrid",
+    "ladder": "ladder",
+    "attributes": {
+      "base": "護身符",
+      "level": 81
+    },
+    "ability": [
+      "# 準確率",
+      "等級 # 鋼鐵魔像 ( #次)",
+      "等級 # 攻擊反噬 ( #次)",
+      "所有抗性 #",
+      "# 防禦"
+    ],
+    "ability_values": [
+      ["+(400-450)"],
+      [22, 11],
+      [12, 20],
+      ["+(25-35)"],
+      ["+(300-350)"]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "ring",
+    "name": "拿各的戒指",
+    "name_en": "Nagelring",
+    "ladder": "",
+    "attributes": {
+      "base": "戒指",
+      "level": 7
+    },
+    "ability": [
+      "魔法傷害降低 #",
+      "# 準確率",
+      "攻擊者反傷：#",
+      "尋獲魔法物品機率提高 #%"
+    ],
+    "ability_values": [[3], ["+(50-75)"], [3], ["(15-30)"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "ring",
+    "name": "瑪那德的治療",
+    "name_en": "Manald Heal",
+    "ladder": "",
+    "attributes": {
+      "base": "戒指",
+      "level": 15
+    },
+    "ability": [
+      "擊中竊取 #% 法力",
+      "生命回復 #",
+      "法力恢復 #%",
+      "# 生命"
+    ],
+    "ability_values": [["(4-7)"], ["+(5-8)"], [20], ["+20"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "ring",
+    "name": "喬丹之石",
+    "name_en": "Stone of Jordan",
+    "ladder": "",
+    "attributes": {
+      "base": "戒指",
+      "level": 29
+    },
+    "ability": [
+      "# 所有技能",
+      "法力上限提高 #%",
+      "附加 # 電擊傷害",
+      "# 法力"
+    ],
+    "ability_values": [["+1"], [25], ["1-12"], ["+20"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "ring",
+    "name": "矮人之星",
+    "name_en": "Dwarf Star",
+    "ladder": "",
+    "attributes": {
+      "base": "戒指",
+      "level": 45
+    },
+    "ability": [
+      "火焰吸收 #%",
+      "精力恢復 #%",
+      "# 精力上限",
+      "# 生命",
+      "怪物金幣掉落量提高 #%",
+      "魔法傷害降低 #"
+    ],
+    "ability_values": [[15], ["+15"], ["+40"], ["+40"], [100], ["(12-15)"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "ring",
+    "name": "烏鴉之霜",
+    "name_en": "Raven Frost",
+    "ladder": "",
+    "attributes": {
+      "base": "戒指",
+      "level": 45
+    },
+    "ability": [
+      "#準確率",
+      "附加 # 冰寒傷害",
+      "無法凍結",
+      "# 敏捷",
+      "# 法力",
+      "冰寒吸收 #%"
+    ],
+    "ability_values": [
+      ["+(150-250)"],
+      ["15-45"],
+      [],
+      ["+(15-20)"],
+      ["+40"],
+      [20]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "ring",
+    "name": "布爾凱索的婚戒",
+    "name_en": "Bul-Kathos' Wedding Band",
+    "ladder": "",
+    "attributes": {
+      "base": "戒指",
+      "level": 58
+    },
+    "ability": [
+      "# 所有技能",
+      "# 生命 (依角色等級而定)",
+      "擊中竊取 #% 生命",
+      "# 精力上限"
+    ],
+    "ability_values": [["+1"], ["+(0-49)"], ["(3-5)"], ["+50"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "ring",
+    "name": "腐肉之風",
+    "name_en": "Carrion Wind",
+    "ladder": "",
+    "attributes": {
+      "base": "戒指",
+      "level": 60
+    },
+    "ability": [
+      "被擊中時有 #% 機率施展等級 # 劇毒新星",
+      "擊中時有 #% 機率施展等級 # 旋風術",
+      "擊中竊取 #% 生命",
+      "# 對遠程防禦",
+      "毒素抗性 #%",
+      "轉化 #% 受損的生命為法力",
+      "等級 # 劇毒藤蔓 (#次)"
+    ],
+    "ability_values": [
+      [10, 10],
+      [8, 13],
+      ["(6-9)"],
+      ["+(100-160)"],
+      ["+55"],
+      [10],
+      [21, 15]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "ring",
+    "name": "鬼火投射者",
+    "name_en": "Wisp Projector",
+    "ladder": "",
+    "attributes": {
+      "base": "戒指",
+      "level": 76
+    },
+    "ability": [
+      "擊中時有 #% 機率施展等級 # 閃電箭",
+      "電擊吸收 #%",
+      "尋獲魔法物品機率提高 #%",
+      "等級 # 荊棘之靈 (#次)",
+      "等級 # 狼獾之心 (#次)",
+      "等級 # 橡木智者 (#次)"
+    ],
+    "ability_values": [
+      [10, 16],
+      ["(10-20)"],
+      ["(10-20)"],
+      [7, 11],
+      [5, 13],
+      [2, 15]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "accessories",
+    "part": "ring",
+    "name": "自然祥和",
+    "name_en": "Nature's Peace",
+    "ladder": "ladder",
+    "attributes": {
+      "base": "戒指",
+      "level": 69
+    },
+    "ability": [
+      "殺死的怪物就此安息",
+      "防止怪物自療",
+      "毒素抗性 #%",
+      "傷害降低 #",
+      "等級 # 橡木智者 (#次)"
+    ],
+    "ability_values": [[], [], ["+(20-30)"], ["(7-11)"], [5, 27]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "jewelry",
+    "part": "jewelry",
+    "name": "彩虹刻面",
+    "name_en": "Rainbow Facet",
+    "ladder": "",
+    "attributes": {
+      "base": "寶石",
+      "level": 49
+    },
+    "ability": [
+      "當你死亡時有 #% 機率施展等級 # 連鎖閃電",
+      "附加 # 電擊傷害",
+      "#% 閃電技能傷害",
+      "敵人電擊抗性 #%"
+    ],
+    "ability_values": [[100, 47], ["1-74"], ["+(3-5)"], ["-(3-5)"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "jewelry",
+    "part": "jewelry",
+    "name": "彩虹刻面",
+    "name_en": "Rainbow Facet",
+    "ladder": "",
+    "attributes": {
+      "base": "寶石",
+      "level": 49
+    },
+    "ability": [
+      "當你死亡時有 #% 機率施展等級 # 隕石術",
+      "附加 # 火焰傷害",
+      "#% 火焰技能傷害",
+      "敵人火焰抗性 #%"
+    ],
+    "ability_values": [[100, 31], ["17-45"], ["+(3-5)"], ["-(3-5)"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "jewelry",
+    "part": "jewelry",
+    "name": "彩虹刻面",
+    "name_en": "Rainbow Facet",
+    "ladder": "",
+    "attributes": {
+      "base": "寶石",
+      "level": 49
+    },
+    "ability": [
+      "當你死亡時有 #% 機率施展等級 # 暴風雪",
+      "附加 # 冰寒傷害",
+      "#% 冰寒技能傷害",
+      "敵人冰寒抗性 #%"
+    ],
+    "ability_values": [[100, 37], ["24-38"], ["+(3-5)"], ["-(3-5)"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "jewelry",
+    "part": "jewelry",
+    "name": "彩虹刻面",
+    "name_en": "Rainbow Facet",
+    "ladder": "",
+    "attributes": {
+      "base": "寶石",
+      "level": 49
+    },
+    "ability": [
+      "當你死亡時有 #% 機率施展等級 # 劇毒新星",
+      "# 毒素傷害，時效 # 秒",
+      "#% 毒素技能傷害",
+      "敵人毒素抗性 #%"
+    ],
+    "ability_values": [[100, 51], ["+37", 2], ["+(3-5)"], ["-(3-5)"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "jewelry",
+    "part": "jewelry",
+    "name": "彩虹刻面",
+    "name_en": "Rainbow Facet",
+    "ladder": "",
+    "attributes": {
+      "base": "寶石",
+      "level": 49
+    },
+    "ability": [
+      "當你升級時有 #% 機率施展等級 # 閃電新星",
+      "附加 # 電擊傷害",
+      "#% 閃電技能傷害",
+      "敵人電擊抗性 #%"
+    ],
+    "ability_values": [[100, 41], ["1-74"], ["+(3-5)"], ["-(3-5)"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "jewelry",
+    "part": "jewelry",
+    "name": "彩虹刻面",
+    "name_en": "Rainbow Facet",
+    "ladder": "",
+    "attributes": {
+      "base": "寶石",
+      "level": 49
+    },
+    "ability": [
+      "當你升級時有 #% 機率施展等級 # 熾烈之徑",
+      "附加 # 火焰傷害",
+      "#% 火焰技能傷害",
+      "敵人火焰抗性 #%"
+    ],
+    "ability_values": [[100, 29], ["17-45"], ["+(3-5)"], ["-(3-5)"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "jewelry",
+    "part": "jewelry",
+    "name": "彩虹刻面",
+    "name_en": "Rainbow Facet",
+    "ladder": "",
+    "attributes": {
+      "base": "寶石",
+      "level": 49
+    },
+    "ability": [
+      "當你升級時有 #% 機率施展等級 # 冰霜新星",
+      "附加 # 冰寒傷害",
+      "#% 冰寒技能傷害",
+      "敵人冰寒抗性 #%"
+    ],
+    "ability_values": [[100, 43], ["24-38"], ["+(3-5)"], ["-(3-5)"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "jewelry",
+    "part": "jewelry",
+    "name": "彩虹刻面",
+    "name_en": "Rainbow Facet",
+    "ladder": "",
+    "attributes": {
+      "base": "寶石",
+      "level": 49
+    },
+    "ability": [
+      "當你升級時有 #% 機率施展等級 # 淬毒",
+      "# 毒素傷害，時效 # 秒",
+      "#% 毒素技能傷害",
+      "敵人毒素抗性 #%"
+    ],
+    "ability_values": [[100, 23], ["+37", 2], ["+(3-5)"], ["-(3-5)"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "charm",
+    "part": "charm",
+    "name": "滅絕",
+    "name_en": "Annihilus",
+    "ladder": "",
+    "attributes": {
+      "base": "小型咒符",
+      "level": 70
+    },
+    "ability": [
+      "# 所有技能",
+      "# 所有屬性",
+      "所有抗性 #",
+      "獲得的經驗值 #%"
+    ],
+    "ability_values": [["+1"], ["+(10-20)"], ["+(10-20)"], ["+(5-10)"]],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "charm",
+    "part": "charm",
+    "name": "地獄火炬",
+    "name_en": "Hellfire Torch",
+    "ladder": "",
+    "attributes": {
+      "base": "大型咒符",
+      "level": 75
+    },
+    "ability": [
+      "擊中時有 #% 機率施展等級 # 火焰風暴",
+      "# 隨機職業技能等級",
+      "# 所有屬性",
+      "所有抗性 #",
+      "照亮範圍 #",
+      "等級 # 多頭蛇 (#次)"
+    ],
+    "ability_values": [
+      [5, 10],
+      ["+3"],
+      ["+(10-20)"],
+      ["+(10-20)"],
+      ["+8"],
+      [30, 10]
+    ],
+    "limit": ""
+  },
+  {
+    "quality": null,
+    "type": "charm",
+    "part": "charm",
+    "name": "基德的財運",
+    "name_en": "Gheed's Fortune",
+    "ladder": "ladder",
+    "attributes": {
+      "base": "特大咒符",
+      "level": 62
+    },
+    "ability": [
+      "怪物金幣掉落量提高 #%",
+      "所有商人的價格降低 #%",
+      "尋獲魔法物品機率提高 #%"
+    ],
+    "ability_values": [["(80-160)"], ["(10-15)"], ["(20-40)"]],
+    "limit": ""
   }
 ]
