@@ -2939,7 +2939,7 @@
     "type": "armor",
     "part": "armor",
     "name": "隱門徒",
-    "name_en": "Dark Adherent",
+    "name_en": "Spiritual Custodian",
     "attributes": {
       "weight": "",
       "base": "灰暮罩衣",
@@ -3292,7 +3292,7 @@
     "type": "armor",
     "part": "shield",
     "name": "太白山的榮光",
-    "name_en": "Taebaek's Glory",
+    "name_en": "Heaven's Taebaek",
     "attributes": {
       "weight": "",
       "base": "庇護盾",
@@ -3583,7 +3583,7 @@
     "set": "不朽之王",
     "set_en": "Immortal King",
     "type": "weapon",
-    "part": "mace",
+    "part": "hammer",
     "name": "不朽之王的碎魂者",
     "name_en": "Immortal King's Stone Crusher",
     "attributes": {
@@ -3849,7 +3849,7 @@
     "set": "馬維娜之戰鬥詩歌",
     "set_en": "M'avina's Battle Hymn",
     "type": "armor",
-    "part": "helmet",
+    "part": "circlet",
     "name": "馬維娜的真實之眼",
     "name_en": "M'avina's True Sight",
     "attributes": {
@@ -4286,7 +4286,7 @@
     "set": "娜吉的上古遺物",
     "set_en": "Naj's Ancient Vestige",
     "type": "armor",
-    "part": "helmet",
+    "part": "circlet",
     "name": "娜吉的頭環",
     "name_en": "Naj's Circlet",
     "attributes": {
@@ -4626,13 +4626,13 @@
     "limit": ""
   },
   {
-    "group": "sandersfolly",
+    "group": "mcauleysfolly",
     "set": "山德的愚行",
-    "set_en": "Sander's Folly",
+    "set_en": "McAuley's Folly",
     "type": "armor",
     "part": "helmet",
     "name": "山德的模範",
-    "name_en": "Sander's Paragon",
+    "name_en": "McAuley's Paragon",
     "attributes": {
       "weight": "",
       "base": "便帽",
@@ -4670,13 +4670,13 @@
     "limit": ""
   },
   {
-    "group": "sandersfolly",
+    "group": "mcauleysfolly",
     "set": "山德的愚行",
-    "set_en": "Sander's Folly",
+    "set_en": "McAuley's Folly",
     "type": "weapon",
     "part": "wand",
     "name": "山德的迷信",
-    "name_en": "Sander's Superstition",
+    "name_en": "McAuley's Superstition",
     "attributes": {
       "base": "骸骨魔杖",
       "attack": "melee",
@@ -4722,13 +4722,13 @@
     "limit": ""
   },
   {
-    "group": "sandersfolly",
+    "group": "mcauleysfolly",
     "set": "山德的愚行",
-    "set_en": "Sander's Folly",
+    "set_en": "McAuley's Folly",
     "type": "armor",
     "part": "glove",
     "name": "山德的禁忌",
-    "name_en": "Sander's Taboo",
+    "name_en": "McAuley's Taboo",
     "attributes": {
       "weight": "",
       "base": "厚皮手套",
@@ -4768,13 +4768,13 @@
     "limit": ""
   },
   {
-    "group": "sandersfolly",
+    "group": "mcauleysfolly",
     "set": "山德的愚行",
-    "set_en": "Sander's Folly",
+    "set_en": "McAuley's Folly",
     "type": "armor",
     "part": "boot",
     "name": "山德的碎石",
-    "name_en": "Sander's Riprap",
+    "name_en": "McAuley's Riprap",
     "attributes": {
       "weight": "",
       "base": "重靴",

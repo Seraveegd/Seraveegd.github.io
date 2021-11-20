@@ -4,7 +4,7 @@
     "type": "armor",
     "part": "helmet",
     "name": "畢格因的軟帽",
-    "name_en": "Biggin's Bonnet",
+    "name_en": "War Bonnet",
     "ladder": "",
     "attributes": {
       "weight": "",
@@ -3640,7 +3640,7 @@
     "type": "armor",
     "part": "shield",
     "name": "基爾克的聖堂",
-    "name_en": "Gerke's Sanctuary",
+    "name_en": "Kerke's Sanctuary",
     "ladder": "",
     "attributes": {
       "weight": "",
@@ -3981,7 +3981,7 @@
     "type": "armor",
     "part": "shield",
     "name": "獵頭者的榮耀",
-    "name_en": "Head Hunter's Glory",
+    "name_en": "Headhunter's Glory",
     "ladder": "",
     "attributes": {
       "weight": "",
@@ -5542,7 +5542,7 @@
     "type": "armor",
     "part": "belt",
     "name": "雷尼摩",
-    "name_en": "Lenymo",
+    "name_en": "Lenyms Cord",
     "ladder": "",
     "attributes": {
       "weight": "",
@@ -6254,7 +6254,7 @@
     "type": "weapon",
     "part": "axe",
     "name": "劈顱斧",
-    "name_en": "Skull Splitter",
+    "name_en": "Mindrend",
     "ladder": "",
     "attributes": {
       "base": "軍用鎬",
@@ -6346,7 +6346,7 @@
     "type": "weapon",
     "part": "axe",
     "name": "費屈瑪之斧",
-    "name_en": "Axe of Fechmar",
+    "name_en": "Fechmars Axe",
     "ladder": "",
     "attributes": {
       "base": "重斧",
@@ -7514,7 +7514,7 @@
     "type": "weapon",
     "part": "bow",
     "name": "掠鴉之爪",
-    "name_en": "Raven Claw",
+    "name_en": "Rimeraven",
     "ladder": "",
     "attributes": {
       "base": "長弓",
@@ -7556,7 +7556,7 @@
     "type": "weapon",
     "part": "bow",
     "name": "俠盜之弓",
-    "name_en": "Rogue's Bow",
+    "name_en": "Piercerib",
     "ladder": "",
     "attributes": {
       "base": "複合弓",
@@ -7599,7 +7599,7 @@
     "type": "weapon",
     "part": "bow",
     "name": "暴風之擊",
-    "name_en": "Stormstrike",
+    "name_en": "Pullspite",
     "ladder": "",
     "attributes": {
       "base": "戰鬥短弓",
@@ -8473,7 +8473,7 @@
     "type": "weapon",
     "part": "crossbow",
     "name": "膿毒之刺",
-    "name_en": "Ichorstring",
+    "name_en": "Ichorsting",
     "ladder": "",
     "attributes": {
       "base": "弩",
@@ -8568,7 +8568,7 @@
     "type": "weapon",
     "part": "crossbow",
     "name": "毀滅投索",
-    "name_en": "Doomslinger",
+    "name_en": "Doomspittle",
     "ladder": "",
     "attributes": {
       "base": "連弩",
@@ -9031,7 +9031,7 @@
     "type": "weapon",
     "part": "dagger",
     "name": "虹彩裂片",
-    "name_en": "Spectral Shard",
+    "name_en": "Irices Shard",
     "ladder": "",
     "attributes": {
       "base": "利刃匕首",
@@ -14483,7 +14483,7 @@
     "type": "weapon",
     "part": "sword",
     "name": "亞特蘭提恩",
-    "name_en": "The Atlantean",
+    "name_en": "The Atlantian",
     "ladder": "",
     "attributes": {
       "base": "上古劍",
@@ -15256,7 +15256,7 @@
     "type": "weapon",
     "part": "wand",
     "name": "伊洛的火炬",
-    "name_en": "Torch of Iro",
+    "name_en": "Torch of Iros",
     "ladder": "",
     "attributes": {
       "base": "魔杖",
@@ -15768,7 +15768,7 @@
   {
     "quality": "advanced",
     "type": "weapon",
-    "part": "throwing",
+    "part": "throwingknife",
     "name": "死亡尖鑽",
     "name_en": "Deathbit",
     "ladder": "",
@@ -15818,7 +15818,7 @@
   {
     "quality": "advanced",
     "type": "weapon",
-    "part": "throwing",
+    "part": "throwingaxe",
     "name": "頭皮剝斧",
     "name_en": "The Scalper",
     "ladder": "",
@@ -15870,7 +15870,7 @@
   {
     "quality": "elite",
     "type": "weapon",
-    "part": "throwing",
+    "part": "throwingknife",
     "name": "戰爭之鳥",
     "name_en": "Warshrike",
     "ladder": "ladder",
@@ -15913,7 +15913,7 @@
   {
     "quality": "elite",
     "type": "weapon",
-    "part": "throwing",
+    "part": "throwingaxe",
     "name": "吉默削斧",
     "name_en": "Gimmershred",
     "ladder": "",
@@ -15963,7 +15963,7 @@
   {
     "quality": "elite",
     "type": "weapon",
-    "part": "throwing",
+    "part": "throwingaxe",
     "name": "撕裂者",
     "name_en": "Lacerator",
     "ladder": "",
